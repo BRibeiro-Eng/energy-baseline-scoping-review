@@ -27,11 +27,11 @@ Checklist items as in Tricco et al. (2018), PRISMA Extension for Scoping Reviews
 | 14 | Selection of sources of evidence | Section 4.1; Figure 2 | 10–11 | Numbers at each stage, reasons for exclusion, later repeat decisions not applied (D16). |
 | 15 | Characteristics of sources of evidence | Sections 4.2 and 4.3; Tables S2a and S3 | 11–14 | Corpus A distributions; Corpus B applications and models. |
 | 16 | Critical appraisal within sources of evidence (optional) | Not applicable | — | No critical appraisal (item 12). |
-| 17 | Results of individual sources of evidence | Section 4.7; Figure 3; Table A4; Tables S2a–S2f | 16, 19, 30 | Each refinery and petrochemical publication in Table A4 and Figure 3; every Corpus B record in Table S2; every Corpus A publication in Table S3. |
+| 17 | Results of individual sources of evidence | Section 4.7; Figure 3; Table A4; Tables S2a–S2f | 15, 18, 30 | Each refinery and petrochemical publication in Table A4 and Figure 3; every Corpus B record in Table S2; every Corpus A publication in Table S3. |
 | 18 | Synthesis of results | Sections 4.2–4.8; Figures 3–5 | 11–21 | By sub-question; checks after the first analysis with intervals (Figure 5). |
 | | **DISCUSSION** | | | |
 | 19 | Summary of evidence | Section 5.1 | 22 | Main results related to the review question and to emission-reduction estimates (Section 5.2). |
 | 20 | Limitations | Section 5.4; Section 4.8 | 25, 19–21 | Model-assisted selection and charting, incomplete verification, unstable Corpus B membership, search limits. |
-| 21 | Conclusions | Section 6 | 26 | Conclusions and future work. |
+| 21 | Conclusions | Section 6 | 25–26 | Conclusions and future work. |
 | | **FUNDING** | | | |
-| 22 | Funding | Funding; Conflicts of Interest | 26–27 | No external funding; employment of one author stated. |
+| 22 | Funding | Funding; Conflicts of Interest | 26 | No external funding; employment of one author stated. |

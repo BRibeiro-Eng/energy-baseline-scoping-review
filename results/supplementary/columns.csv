@@ -1,0 +1,77 @@
+Table,Column,Meaning,Values
+S1,Database,Bibliographic database searched,Scopus; Web of Science Core Collection
+S1,String,Search string,A (normative): ISO 50001 or ISO 50006; B (methodological): EnPI and EnB terminology in an industrial context
+S1,Query,Query in the syntax of the database,Web of Science queries are the Scopus strings with the substitutions given in the Note column
+S1,Records,Records returned by the query,1478 in total; 925 after deduplication
+S1,Searched / Exported,When the database was searched and when the records were exported,
+S2a,Report,First author(s) and year of the publication,
+S2a,Record key,Identifier of the publication in the review (screening identifier); the Corpus B record is data/05-extraction-corpus-b/records/<key>.json,
+S2a,Title / DOI,Bibliographic title and DOI,DOI empty when the publication has none
+S2a,Models,Number of models charted in the report,Rows of S2b
+S2a,Mechanism occurrences / Adaptation occurrences,Number of mechanism and adaptation occurrences charted,Rows of S2d and S2e
+S2a,Equations given / Coefficients given / Data available / Code available,"Whether the publication gives the model equations, the fitted coefficients, the data and the code","yes; partial; no (stated as not available); not reported (searched, not found); not applicable"
+S2a,"Feed or product characteristics discussed, not used as variables","The full-text search for omissions found feed or product characteristics discussed as explanatory factors but not used in the models (Section 4.3: '+5 discussed, not used')",yes; no
+S2b,Report / Record key,First author(s) and year of the publication; Identifier of the publication in the review (screening identifier); the Corpus B record is data/05-extraction-corpus-b/records/<key>.json,
+S2b,Application,"Application within the report: A1, A2, ... numbered in the order of the record (a case, site or context to which models are applied)","A1, A2, A3"
+S2b,Model,"Model within the application: M1, M2, ... numbered in the order of the record",M1 ... M11
+S2b,Sector (registered list),Sector of the application in the predefined list of continuous-process sectors,'multiple of the above' when the application covers several
+S2b,Refinery or petrochemical context,Whether the application is a refinery or petrochemical case,refinery / petrochemical — model empirically applied there; refinery or petrochemical named but not an empirical application here; no
+S2b,Scale,Scale of the application,equipment; sub-system; unit; facility; multi-site; organisation
+S2b,Country or region,Country or region of the application,Empty when not reported
+S2b,Dependent quantity,Quantity the model predicts or the indicator measures,e.g. specific energy consumption; absolute energy; energy efficiency ratio; energy cost; CO2 or emissions
+S2b,Energy carrier,Energy carrier(s) of the dependent quantity,e.g. electricity; steam; natural gas; coal; total energy; multiple
+S2b,Denominator,Denominator of an intensity indicator,production mass or volume; value added; none (absolute); not applicable
+S2b,Model family,Family of the energy performance model,intensity ratio; linear regression; mean SEC (average specific energy consumption); nonlinear regression; composite index; energy balance; artificial neural network; control chart; data envelopment analysis; tree ensemble; hybrid physical-statistical; stochastic frontier; other machine learning; other
+S2b,Estimation method,How the model parameters were estimated,"OLS, ordinary least squares; WLS, weighted least squares; MLE, maximum likelihood; gradient training; linear programming; not applicable; not reported"
+S2b,Independent variables (n),Number of independent variables as reported,Empty when not reported
+S2b,"Variables [type, role]","Each variable of the model: name as written in the publication, [type, role]","type: throughput (load or production), operating mode, ambient conditions, product mix, equipment configuration, capacity utilisation, feed quality, calendar, other; role: predictor, denominator, segmentation, reference condition, excluded"
+S2b,Load is the only normalising variable,All predictors and denominators of the model are of type throughput (Section 4.3: 78 of 140),yes; no
+S2b,Modelling frequency / Span (months) / Observations (n) / Data type,"Time resolution of the model, length of the data series, number of observations and kind of data","frequency: sub-hourly to annual, or one per site; data type: continuous time series, audit data, survey, simulation"
+S2b,Measurement entries (n) / Entries with exact boundary correspondence (n),"Number of rows of the model in S2c, and how many of them have an exact boundary correspondence",
+S2b,Re-estimation regime,Rule for re-estimating or updating the model,"fixed, not mentioned (re-estimation not discussed); not stated (discussed, but the rule cannot be determined); event-triggered, trigger stated; periodic, interval stated; rolling window; online or adaptive. The last four are 'declared' in the article (24 of 140)"
+S2b,Update status,Whether the stated re-estimation was carried out in the study,executed; proposed; not reported; not applicable
+S2b,Validity domain / Validity bounds (verbatim),"Whether the publication states the operating range in which the model applies, and the bounds as written",not stated; stated qualitatively; stated with numeric bounds
+S2b,In-sample fit,Whether a fit statistic on the data used for fitting is reported,reported; not reported; not applicable
+S2b,Out-of-sample result,Whether a result on data not used in fitting is reported,"reported; not reported; not applicable (no predictive model, e.g. a ratio or an index)"
+S2b,Validation design,How out-of-sample data were obtained,held-out split (random or not described); in-sample residual analysis only (not out-of-sample); none; not reported. No model is described as tested on a later time block (Section 4.4)
+S2c,(rows),One row per energy carrier of a model,163 rows
+S2c,Report / Record key / Application / Model,"First author(s) and year of the publication; Identifier of the publication in the review (screening identifier); the Corpus B record is data/05-extraction-corpus-b/records/<key>.json; Application within the report: A1, A2, ... numbered in the order of the record (a case, site or context to which models are applied); Model within the application: M1, M2, ... numbered in the order of the record",
+S2c,Energy carrier,Energy carrier of the entry,
+S2c,Data origin,Where the energy data come from,dedicated meter; site meter; process historian tag; calculated from process data; invoice or utility bill; simulation; not reported
+S2c,Boundary correspondence,Relation between the energy quantity and the boundary of the model,exact (the energy quantity matches the modelled boundary; it does not imply a meter at that boundary); allocated by rule; allocated by estimate; mismatch acknowledged; not reported
+S2c,Page / Support,Physical page of the PDF on which the supporting quotation was found (quotations are in the records). Support: direct statement: the quotation states the value; requires inference: the value follows from the quoted text but is not stated; absence checked: the full text was searched and the item was not found,
+S2d,(rows),One row per mechanism occurrence: a statement that a physical or operational mechanism limits a model,130 rows
+S2d,Mechanism (record ID),"Number of the mechanism occurrence within the report: K1, K2, ...",Used in S2e to link adaptations to mechanisms
+S2d,Refers to,"What the statement is about: a model (M1, M2, ...) or an application (A1, A2, ...) of the same report, or 'paper-level argument' when it concerns the publication as a whole",
+S2d,Claim status,What kind of statement it is,"general: a statement about methods in principle; applied to the case: said about the study's own model; empirically demonstrated: shown with the study's data, as coded (not independently confirmed)"
+S2d,Cause,Physical or operational cause named by the publication,e.g. product mix or grade change; feedstock quality; ambient conditions; operating mode change; plant modification; equipment degradation; other; not stated
+S2d,Effect on the model,Effect on the model; labels of Figure 4 and Table A3 in brackets,"indicator not meaningful as defined [Indicator meaningless as defined]; statistical misspecification; cross-site comparability [Comparability between installations]; observability gap — quantity not measured [Unmeasured quantity]; baseload or non-productive energy [Base or non-productive load]; data quality — missing, erroneous or discontinuous data [Missing, wrong or discontinuous data]; multi-product allocation [Allocation between products]; baseline drift or expiry [Baseline drift or obsolescence]; non-stationarity of the relationship; validity envelope exceeded [Validity domain exceeded]; insufficient data length for the model [Series too short]; other"
+S2d,"Effect (verbatim, if other)",Wording of the effect when it fits none of the categories,
+S2d,Page / Support,Physical page of the PDF on which the supporting quotation was found (quotations are in the records). Support: direct statement: the quotation states the value; requires inference: the value follows from the quoted text but is not stated; absence checked: the full text was searched and the item was not found,
+S2e,(rows),"One row per adaptation occurrence: a change to a model proposed, implemented or evaluated by the publication",88 rows
+S2e,Adaptation (record ID),"Number of the adaptation occurrence within the report: D1, D2, ... (unrelated to the deviations D1–D17 of Table A2)",
+S2e,Refers to,"What the statement is about: a model (M1, M2, ...) or an application (A1, A2, ...) of the same report, or 'paper-level argument' when it concerns the publication as a whole",
+S2e,Type,Type of adaptation; labels of Table 6 in brackets,additional normalisation variable [Additional normalising variable]; outlier exclusion; segmented baseline; improved metering [Improved measurement]; normalisation to a reference product; online re-estimation [Continuous re-estimation]; weighted estimation; rolling window; other
+S2e,"Type (verbatim, if other)",Wording of the adaptation when it fits none of the types,
+S2e,State,How far the publication took the adaptation,proposed (only); implemented (without a reported comparison); evaluated (against an alternative)
+S2e,Addresses mechanism,"Mechanism of the same report (K1, K2, ... in S2d) that the publication explicitly links to the adaptation",Empty when not linked
+S2e,Normative framing,Whether the adaptation is justified by ISO 50001/50006,ISO 50001/50006 explicit; implicit (corresponds to a concept of the standards without citing them); absent
+S2e,Page / Support,Physical page of the PDF on which the supporting quotation was found (quotations are in the records). Support: direct statement: the quotation states the value; requires inference: the value follows from the quoted text but is not stated; absence checked: the full text was searched and the item was not found,
+S2f,(rows),"Every value changed by the checks after the first analysis (Section 3.5), as applied in the article",
+S2f,Check,Check that changed the value,(c) full-text search for omissions; (d) random sample of 80 values; (f) reading of the 13 refinery and petrochemical reports
+S2f,Item,Item of the check,"(d): sampled item, MEC mechanism, ADP adaptation, MOD model field, with its number in the sampling frame; (c): term family, T temporal or out-of-sample validation, C code and data availability; (f): field, c6 re-estimation regime, c7 validity domain, oos out-of-sample result"
+S2f,Location / Field,"Where in the record the value is (path in the record, or application/model and field), and which field changed",
+S2f,Before / After,Value before and after the correction,
+S3,(rows),The 331 Corpus A publications,
+S3,Record key / Authors / Year / Title / Source / DOI / Document type,"Bibliographic description (source titles in lower case, as exported)",
+S3,In Corpus B,"Whether the publication is in Corpus B (40, of which 39 charted)",yes; no
+S3,<field>,"Value of the field, given only where the two model extractions agreed (the values used in the article)",Lists separated by '; '
+S3,<field>: status,Status of the field for the publication,model agreement; no full human validation (value used); single model extraction (only one extraction returned a value; not used); unresolved model divergence (not used); no extraction
+S3,Study type,Kind of publication,single applied case; multi-case study; review/synthesis; tool/software design; methodological/theoretical; maturity model or framework
+S3,Multi-site,Whether the study covers more than one site,True; False; not applicable
+S3,Sector / Country or region / Organisation type,"Sector as described, country of the case, and type of organisation",organisation type: continuous process; discrete manufacturing; buildings; services; mixed; not specified
+S3,Energy-management standard,Standards of the ISO 50001 family invoked,ISO 50001; ISO 50002; ISO 50006; other-named; none
+S3,M&V protocol,Measurement-and-verification protocols cited,IPMVP; ASHRAE 14 (ASHRAE Guideline 14); SEP M&V (Superior Energy Performance); BPA MT&R; ISO 17743; other-named; none
+S3,Regulatory driver,Regulation named as a driver,EU EED (Energy Efficiency Directive); EU-ETS (Emissions Trading System); national audit decree; other-named; none
+S3,Model families,Families of energy performance model declared,e.g. simple intensity ratio; multiple regression; physical model
+S3,Complementary methods,Methods combined with the energy performance model,e.g. multi-criteria decision-making; pinch analysis; process flowsheet simulation; exergy analysis

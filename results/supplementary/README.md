@@ -12,6 +12,7 @@ The supplementary tables of the article, as CSV files and as one workbook (`Supp
 | `S2e_adaptations.csv` | S2e — the 88 adaptation occurrences |
 | `S2f_corrections.csv` | S2f — every value changed by the later checks, before and after |
 | `S3_corpus_a.csv` | S3 — the 331 Corpus A publications with the field values on which the two model extractions agreed, and the status of every field |
+| `columns.csv` | Meaning of every column of S1–S3 and of the codes and values used in them (also the `Columns` sheet of the workbook) |
 
 Corpus B tables are in the state analysed in the article: the extracted records (`data/05-extraction-corpus-b/records/`), with the decisions of the September 2026 model verification (`code/verification_v1/overlay.py`, `data/05-extraction-corpus-b/model-reread-2026-09/verifier/decisoes_2026-09-17.json`) and the corrections of the later checks (`data/06-late-verification/`) listed in S2f. The fouling and catalyst mechanisms found by the full-text search for omissions are reported in the article but not added to S2d, as in Figure 4. Verbatim quotations for every value are in the records.
 
