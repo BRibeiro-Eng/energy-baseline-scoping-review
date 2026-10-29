@@ -23,7 +23,7 @@
   \node[titulo] at ([xshift=9mm,yshift=3.5mm]n1.west) {Records identified in databases};
   \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-.2mm]n1.west) {$n=1478$};
   \node[detalhe] at ([xshift=9mm,yshift=-4.3mm]n1.west) {Scopus: 954 \enspace · \enspace Web of Science: 524};
-  \node[titulo] at ([xshift=9mm,yshift=3mm]n2.west) {Records screened (title and abstract)};
+  \node[titulo] at ([xshift=9mm,yshift=3mm]n2.west) {Records screened (title/abstract)};
   \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-2.5mm]n2.west) {$n=925$};
   \node[titulo] at ([xshift=9mm,yshift=3mm]n3.west) {Reports sought for retrieval};
   \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-2.5mm]n3.west) {$n=599$};
@@ -42,15 +42,17 @@
   \node[motivo] at (7.96,-.65) {Before screening};
   \node[saida] at (7.96,-1.86) {Records excluded: $n=326$};
   \node[motivo] at (7.96,-2.29) {Out of scope at screening};
-  \node[saida] at (7.96,-3.50) {Reports not retrieved: $n=137$};
-  \node[motivo] at (7.96,-3.96) {Late duplicates detected: $n=3$};
+  \node[saida] at (7.96,-3.50) {Reports removed: $n=140$};
+  \node[motivo] at (7.96,-3.96) {Not retrieved: 137 \enspace · \enspace late duplicates: 3};
   \node[saida] at (7.96,-4.85) {Reports excluded: $n=128$};
   \node[motivo] at (7.96,-5.30) {No model in sufficient detail: $n=117$};
   \node[motivo] at (7.96,-5.71) {Ineligible language: $n=10$};
   \node[motivo] at (7.96,-6.12) {Retracted: $n=1$};
   \draw[corCinzaC,line width=.35pt] (7.96,-6.42) -- (13.60,-6.42);
-  \node[motivo,font=\fontsize{7.5}{10}\selectfont,text width=5.35cm] at (7.96,-7.03)
-    {Citation searching not performed;\\planned in the protocol (deviation D9).};
-  \node[motivo,font=\fontsize{7.5}{10}\selectfont,text width=5.35cm] at (7.96,-8.08)
-    {Corpus B is a subset of Corpus A.\\The 13 exploratory cases belong to A\\but are excluded from all B counts.};
+  \node[saida] at (7.96,-6.80) {Later re-decisions, not applied (D16)};
+  \node[motivo] at (7.96,-7.25) {Corpus A: one report out $\rightarrow$ 330};
+  \node[motivo] at (7.96,-7.66) {Corpus B: two reports in $\rightarrow$ 42 (39 charted)};
+  \draw[ntsetat] (n5.east) -- (7.80,-7.45);
+  \node[motivo,font=\fontsize{7.5}{10}\selectfont,text width=5.35cm] at (7.96,-8.45)
+    {Citation searching not performed (D9).};
 \end{tikzpicture}

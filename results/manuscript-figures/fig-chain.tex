@@ -20,7 +20,7 @@
   \node[ass] at (12.4,-1.15) {\emph{calibration} and \emph{detectability} of deviations};
   \node[font=\scriptsize,text=corDestaque,align=center,text width=8.5cm] at (7.75,0.98)
     {no numerical acceptance criterion in the consulted ISO clauses};
-  \draw[corDestaque,line width=.5pt] (4.85,0.72) -- (10.65,0.72);
+  \draw[corDestaque,line width=.5pt,decorate,decoration={brace,amplitude=3pt}] (4.85,0.72) -- (10.65,0.72);
   % bottom row: carbon side (not mapped by this review)
   \node[lab] at (-1.45,-2.25) {Emission accounting --- not mapped by this review};
   \node[boxc] (c1) at (12.25,-3.6) {Conditional estimate $\hat R=EF\cdot\hat S$\\ (fixed factor, same carrier, boundary and period)};
@@ -28,5 +28,5 @@
   \node[box,draw=corCinza,text width=4.4cm] (c3) at (2.6,-3.6) {Emissions inventory, e.g., EU ETS monitoring: activity data with specified uncertainty tiers and independent verification};
   \draw[ntsetaf] (b5.east) -- ++(0.45,0) |- (c1.east);
   \draw[ntsetaf] (c1.west) -- (c2.east);
-  \draw[ntsetat] (c3.east) -- node[below=2pt,font=\scriptsize,text=corCinza,align=center]{different\\accounting\\object} (c2.west);
+  \draw[draw=corCinza,line width=.6pt,dash pattern=on 2pt off 1.4pt] (c3.east) -- node[below=2pt,font=\scriptsize,text=corCinza,align=center]{$\neq$ different\\accounting\\object} (c2.west);
 \end{tikzpicture}

@@ -1,0 +1,65 @@
+% Proposed replacement for figures/fig-mechanisms.tex (review_agent2, 2026-10-29).
+% Diverging layout: general statements (what the literature repeats) to the LEFT of zero;
+% applied + demonstrated statements (claims about the study's own model) to the RIGHT.
+% Rows sorted by non-general occurrences; "Other" moved to the bottom. Numbers: Table A3 (unchanged).
+% Columns: label / general / applied / demonstrated / articles with a non-general occurrence (Table A3, last column)
+\begin{tikzpicture}[x=0.36cm,y=-0.46cm,
+  ft/.style={font=\fontsize{6.5}{7.5}\selectfont},
+  lab/.style={font=\scriptsize,text=corTinta,anchor=east,inner sep=1pt},
+  num/.style={ft,inner sep=0pt}]
+  \def\h{0.32}% half bar height (in y units)
+  % guides
+  \foreach \t in {-10,-5,5,10,15}
+    \draw[corGrelha,line width=.4pt] (\t,-0.2) -- (\t,12.6);
+  \draw[corEixo,line width=.6pt] (0,-0.2) -- (0,12.6);
+  \foreach \t in {-10,-5,0,5,10,15} {
+    \pgfmathtruncatemacro{\a}{abs(\t)}
+    \node[ft,text=corTinta,anchor=north] at (\t,12.65) {\a};}
+  \node[font=\scriptsize,text=corTinta,anchor=north] at (0,13.45) {Occurrences (of 130)};
+  % side headers
+  \node[ft,text=corCinza,anchor=south east,align=right] at (-0.4,-0.35) {\textbf{General}: statements about\\methods in principle (50)};
+  \node[ft,text=corCinza,anchor=south west,align=left] at (0.4,-0.35) {\textbf{About the study's own model}:\\demonstrated (28) and applied (52)};
+  \node[ft,text=corCinza,anchor=south] at (18.6,-0.35) {Articles\textsuperscript{a}};
+  % rows
+  \foreach \lbl/\g/\ap/\d/\art [count=\i from 0] in {
+      {Indicator meaningless as defined}/10/8/6/13,
+      {Unmeasured quantity}/0/9/1/9,
+      {Comparability between installations}/6/7/2/8,
+      {Statistical misspecification}/13/3/5/7,
+      {Missing, wrong or discontinuous data}/1/5/3/5,
+      {Non-stationarity of the relationship}/2/5/1/6,
+      {Base or non-productive load}/5/0/5/3,
+      {Validity domain exceeded}/1/2/1/3,
+      {Allocation between products}/5/3/0/2,
+      {Baseline drift or obsolescence}/5/1/1/2,
+      {Series too short}/1/0/0/0,
+      {Other}/1/9/3/9} {
+    \pgfmathsetmacro{\y}{\i<11 ? \i : \i+0.5}% gap before "Other"
+    \node[lab] at (-14.6,\y) {\lbl};
+    % general (left)
+    \ifnum\g>0
+      \path[fill=white,draw=corCinza,line width=.4pt] (0,\y-\h) rectangle (-\g,\y+\h);
+      \node[num,text=corTinta,anchor=east] at (-\g-0.15,\y) {\g};
+    \fi
+    % demonstrated (dark, from zero) then applied (light)
+    \ifnum\d>0
+      \path[fill=corDestaque] (0,\y-\h) rectangle (\d,\y+\h);
+      \node[num,text=white] at (0.5*\d,\y) {\d};
+    \fi
+    \ifnum\ap>0
+      \path[fill=corDestaqueC] (\d,\y-\h) rectangle (\d+\ap,\y+\h);
+      \node[num,text=corTinta] at (\d+0.5*\ap,\y) {\ap};
+    \fi
+    \pgfmathtruncatemacro{\ng}{\d+\ap}
+    \node[num,text=corTinta,anchor=west,font=\fontsize{6.5}{7.5}\selectfont\bfseries] at (\ng+0.2,\y) {\ng};
+    \node[num,text=corCinza] at (18.6,\y) {\art};
+  }
+  \draw[corCinzaC,line width=.3pt] (-26,10.75) -- (19.5,10.75);
+  \node[ft,text=corCinza,anchor=north east,align=right] at (19.5,13.45) {\textsuperscript{a}with a non-general occurrence};
+  % legend
+  \begin{scope}[shift={(0,14.6)}]
+    \path[fill=corDestaque] (1.5,-0.25) rectangle ++(0.9,0.5);  \node[ft,text=corTinta,anchor=west] at (2.5,0) {Demonstrated};
+    \path[fill=corDestaqueC] (8.0,-0.25) rectangle ++(0.9,0.5); \node[ft,text=corTinta,anchor=west] at (9.0,0) {Applied};
+    \path[fill=white,draw=corCinza,line width=.4pt] (-6.5,-0.25) rectangle ++(0.9,0.5); \node[ft,text=corTinta,anchor=west] at (-5.5,0) {General};
+  \end{scope}
+\end{tikzpicture}

@@ -24,7 +24,7 @@ The protocol was registered on the Open Science Framework on 24 February 2026 (D
 | §3.5, §4.8, Tables 7–8 | Checks added after the first analysis (D13, D11, D7-A/B/C, D10) | `data/06-late-verification/` (`resultados.json`, `RESULTS.md`, decision logs in `responses/`) |
 | §4.4, §4.7 | Corrections applied after the census of absences (e.g. out-of-sample results, data availability 4 + 4) | `data/06-late-verification/responses/d7a.jsonl` (decision `c_missed`) |
 | Figures | TikZ sources of the manuscript figures | `results/manuscript-figures/` |
-| §4.7–4.8, Fig. 5, Table A4 | Values adopted from the reading of the 13 refinery reports | `data/06-late-verification/d7c_adoption.json` |
+| §4.7–4.8, Fig. 3, Table A4 | Values adopted from the reading of the 13 refinery reports | `data/06-late-verification/d7c_adoption.json` |
 | Table A2 | Deviations D1–D17 | `docs/deviations.md` |
 
 The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The article applies to them the corrections recorded in `data/06-late-verification/`; `docs/deviations.md` and `RESULTS.md` say which numbers changed.
