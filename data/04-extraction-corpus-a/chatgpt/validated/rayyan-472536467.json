@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536467",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:08:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In order to evaluate the Specific Electricity (𝑊𝑊௘௟\n௦௣) and Natural Gas (𝑊𝑊௡௚\n௦௣) use with regard to the annual brick production, thus determining the electricity and natural gas baselines, equations (2) and (3) were used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "A case study for four brick factories in Romania will also analyzed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper analyzes the construction material manufacturing industry in Romania with emphasis on the brick manufacturing industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Brick manufacturing is not in the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": [
+        "A case study for four brick factories in Romania will also analyzed.",
+        "erated by the same company, will be analyzed"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "A case study for four brick factories in Romania will also analyzed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "brick manufacturing industry",
+      "evidence_quote": "This paper analyzes the construction material manufacturing industry in Romania with emphasis on the brick manufacturing industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "A case study for four brick factories in Romania will also analyzed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "International Standardization Organization, “ISO 50001:2018  Energy Management Systems,” 2018",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol (IPMVP)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU-ETS"
+      ],
+      "evidence_quote": "In the context of the European Union’s fourth phase of the EU-ETS mechanism [13], if the EII values will not be improved, the overall economic efficiency of the analyzed energy boundaries will decrease over time by a factor of 7%.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "In order to evaluate the Specific Electricity (𝑊𝑊௘௟\n௦௣) and Natural Gas (𝑊𝑊௡௚\n௦௣) use with regard to the annual brick production, thus determining the electricity and natural gas baselines, equations (2) and (3) were used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

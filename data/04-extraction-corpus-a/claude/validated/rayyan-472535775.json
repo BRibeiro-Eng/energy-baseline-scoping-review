@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535775",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T16:11:17+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "A review of how these two management system standards can provide structure in energy and environmental management is discussed in relation to meeting energy goals in Executive Order 13423 and Executive Order 13514.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper presents US federal energy policy (Executive Orders 13423/13514) and an ISO 14001 EMS / ISO 50001 EnMS management-systems integration, demonstrated through a single Naval Hospital Beaufort case study. It reports policy-compliance metrics (energy-intensity reduction targets relative to a baseline year) but does not identify or characterise any EnPI/EnB measurement model (no normalisation variables, functional form, or estimation/construction approach). Framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the authors use Naval Hospital Beaufort (NHB), as a case study to demonstrate the use of an EMS to integrate an energy management system",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Energy performance appears only as policy-compliance targets (energy intensity in BTU/GSF; reduction % vs baseline year), not a constructed EnPI/EnB model. paper_type judged 'single applied case' (Naval Hospital Beaufort) though the paper is largely policy/EMS-standard review plus an EMS/EnMS integration framework."
+  },
+  "stage2": null,
+  "stage3": null
+}

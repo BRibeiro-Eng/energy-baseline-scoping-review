@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535658",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T11:11:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The analysis aims at developing an inductive methodology for identifying the relationship between area, power and average fuel consumption of food refrigeration and storage in supermarkets through regression analysis.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": [
+        "The sample analyzed buildings range in size from 700 to 5,000 m2 of sales area (medium supermarkets).",
+        "In order to validate the EnPIs related to facilities handling of elevators an office buildings of 10 floors and total area of 4,500 m2 was chosen."
+      ],
+      "page": [
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Tertiary sector, the EnPIs refer to, has shown in recent years an increase in energy consumption higher than the average of the other categories of users.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied EnPI cases concern supermarkets and an office building, not a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The analysis focuses on a supermarket of 1,500 m2.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "The analysis on a sample of Italian companies, mainly of small and medium enterprises (SME) in industry and the service sector, was conducted.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "sector_of_activity": {
+      "value": "tertiary sector",
+      "evidence_quote": "Tertiary sector, the EnPIs refer to, has shown in recent years an increase in energy consumption higher than the average of the other categories of users.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "This trend identifies this sector as key driver of future energy demand which, even though characterized by high degree of heterogeneity of consumption centres allows the division of users into different categories: offices/public buildings, schools, hospitals, hotels, restaurants, supermarkets",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Large enterprises and energy-intensive firms, except those having an energy management system (EnMS) according to ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "Directive 2012/27/EU, transposed in Italy with Decree of 4 July 2014 No102, a common framework of measures for the promotion of energy efficiency in European Union",
+        "Large enterprises and energy-intensive firms, except those having an energy management system (EnMS) according to ISO 50001 or compliant with EMAS Eco-Management and Audit Scheme or ISO 14001 fall under obligations and must be carry out energy audits every 4 years starting by December 2015"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "The study is focused on the following EnPIs (to be compared with benchmarks): HVAC (Heating, Ventilating and Air Conditioning): heating (EIw) (kWhth/m3/year); HVAC: cooling (EIs) (kWhel/m3/year); Hot water (EIhw) (kWhth/person/year); Lighting (EIl) (kWhel/m2/year); Food refrigeration and storage (EIc) (kWhel/m2/year); Lifts (EIlift) (kWhel/m2/year).",
+        "The analysis of the data showed a nonlinear dependence between the power of refrigeration systems and the usable area of supermarkets. Trend is described with good approximation by regression curves (equations 1 and 2)."
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

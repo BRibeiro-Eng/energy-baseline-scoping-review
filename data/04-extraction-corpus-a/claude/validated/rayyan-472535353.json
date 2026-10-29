@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535353",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "These indicators are used to normalize energy consumption against various operational outputs",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "structured survey conducted using the Computer-Assisted Telephone Interviewing (CATI) method",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "automotive manufacturing sector in the Silesian Voivodeship",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Cross-sectional CATI survey (n=40) of automotive firms. Eligible via characterised EnPI intensity ratios (kWh/unit, /PLN, /m2, /m3). Automotive=discrete mfg, not continuous process -> 3B false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "40 manufacturing firms",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Upper Silesian Province (Silesian Voivodeship), southern Poland",
+      "evidence_quote": "located within the Upper Silesian Province",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "automotive sector",
+      "evidence_quote": "companies operating in the automotive sector",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Production of screws, nuts, and other fasteners for automotive applications",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 (adopted in Poland as PN-EN ISO 50001:2018)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Product-based (kWh per unit produced)",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535379",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:47:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The study analyzes the Pearson Correlation Coefficient among the implementation benefits of ISO 50001, SDG scores, and the factors of the Network Readiness Index (NRI), etc.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "The paper correlates country-level ISO 50001 implementation benefits, SDG scores, and readiness indicators but does not identify or characterise an EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This study encompasses an analysis of the Pearson Correlation Coefficient to understand the relationship among ISO 50001, SDGs, and the principles of Industry 4.0.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Country-level correlational sustainability study; no EnPI/EnB model content."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536704",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T21:35:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "the calibration of detailed building energy simulation (BES) models",
+        "As the BES model is calibrated, the output results will match the measured energy consumption"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "proposes a novel integrated toolkit designed to assist energy managers",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the Environmental Research Institute building at the University College of Cork (UCC) in Ireland",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline eligibility (Tier-1): toolkit paper; EnB-type content is a calibrated BES 'Baseline case' + energy-signature plots, no fitted EnPI/EnB. Flag for human blind-first review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the Environmental Research Institute building at the University College of Cork (UCC) in Ireland",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Cork, Ireland",
+      "evidence_quote": "University College of Cork (UCC) in Ireland",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "building industry",
+      "evidence_quote": "into the building industry market",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "the complexity of HVAC systems in commercial buildings",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "systematic energy management approaches such as the one proposed by the ISO 16001",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "the calibration of detailed building energy simulation (BES) models",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536582",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:22:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "To design a simple, user-friendly approach for energy efﬁciency analysis for large building stock, we compared different data visualization tools applying a speciﬁc clustering algorithm, k-means.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The aim of this paper are i) to propose a simple, efﬁcient and precise analysis tool able to compare buildings within a large stock, inputting only energy efﬁciency indices; ii) to explore how to use this tool to cluster buildings within a stock according to their speciﬁc function.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the selected case study for testing the simple tool for large scale building stocks energy analysis was the University of Turin (Unito) in Italy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "It sums more than 800,000 m2, with about 120 buildings sprout all over the city and in Piedmont region",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "the selected case study for testing the simple tool for large scale building stocks energy analysis was the University of Turin (Unito) in Italy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "university campus",
+      "evidence_quote": "Keywords: Energy Efﬁciency Indices; data visualization; clustering algorithms; university campus; energy management",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The University of Turin is a little city within a city: Unito’s building stock is very heterogeneous with respect to functions of the buildings, their construction year (ranging from the XVI century to 2014) and architectural features.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Secondly, the k-means clustering algorithm was applied on the same dataset to test the hypothesis made during the explorative analysis.",
+        "Four attributes for each point have been chosen: the absolute annual energy consumption (kWh), the annual energy consumption per meter square (kWh/m2), the annual energy consumption per user (kWh/user) and the “night/day energy efﬁciency index”"
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

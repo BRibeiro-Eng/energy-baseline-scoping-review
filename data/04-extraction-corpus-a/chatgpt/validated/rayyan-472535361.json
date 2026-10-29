@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535361",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:08:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Furthermore, to establish a robust energy baseline, a comprehensive statistical regression analysis was conducted, focusing on the relationship between energy consumption and CDD at a baseline temperature of 24 ◦C.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This study examines the implementation of an ISO 50001-compliant energy management system (EnMS) at the Saudi Standards, Metrology, and Quality Organization (SASO), a governmental organization in the Kingdom of Saudi Arabia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "At SASO, these are exclusively government buildings that provide administrative services to all citizens",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "across three SASO sites (Riyadh, Jeddah, and Dammam)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Saudi Arabia",
+      "evidence_quote": "a governmental sector organization in Saudi Arabia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "government buildings",
+      "evidence_quote": "At SASO, these are exclusively government buildings that provide administrative services to all citizens",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "At SASO, these are exclusively government buildings that provide administrative services to all citizens",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "SASO rigorously followed the ISO 50001 standard guidelines to enhance the energy efficiency within the organization.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Furthermore, to establish a robust energy baseline, a comprehensive statistical regression analysis was conducted, focusing on the relationship between energy consumption and CDD at a baseline temperature of 24 ◦C.",
+        "The consumption per person inside a building was calculated by dividing the total energy used inside the building by the number of persons using energy"
+      ],
+      "page": [
+        15,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

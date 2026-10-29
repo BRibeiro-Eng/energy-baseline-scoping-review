@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536458",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:01:10Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "The primary goal of the BEP M&V is to measure the energy savings of the building for evaluating and verifying the project’s energy-saving target. The energy savings can be defined in equation (2) [36].",
+        "Most of the programs require a baseline period and a post-installed period as a minimum of 12 months."
+      ],
+      "page": [5, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This study presents a review of the three types of papers that address: (1) the carbon credit market and the building sector; (2) BEP and its measurement and verification (M&V); and (3) digital BEP MRV and Blockchain technology.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This research walked through the literature of the BEP audit programs, the carbon credit market for the building sector, the possibility of adopting Blockchain technology to a digital BEP MRV.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Review characterises baseline-adjusted building energy M&V models; no explicit continuous-process application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "The search identified 57 relevant papers out of 561 papers of the initial search.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "This study presents a review of the three types of papers that address: (1) the carbon credit market and the building sector; (2) BEP and its measurement and verification (M&V); and (3) digital BEP MRV and Blockchain technology.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "building sector",
+      "evidence_quote": "This research walked through the literature of the BEP audit programs, the carbon credit market for the building sector, the possibility of adopting Blockchain technology to a digital BEP MRV.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The building sector implemented several energy-audit programs to monitor energy consumption.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50000 series",
+        "consists of six categories: 500,001, 50,002, 50,003, 50,004, 50,006, and 50,015."
+      ],
+      "page": [5, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "other-named"
+      ],
+      "evidence_quote": "For building energy auditing, several energy-auditing programs are utilized; ASHRAE Guideline 14, IPMVP, FEMP M&V, ISO 50000 series, DOE UMP are representative energy audit programs in place around the world.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "The primary goal of the BEP M&V is to measure the energy savings of the building for evaluating and verifying the project’s energy-saving target. The energy savings can be defined in equation (2) [36].",
+        "Most of the programs require a baseline period and a post-installed period as a minimum of 12 months."
+      ],
+      "page": [5, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

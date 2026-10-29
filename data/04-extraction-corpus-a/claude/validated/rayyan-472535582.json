@@ -1,0 +1,260 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535582",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T12:30:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the energy baseline, which is obtained from the linear regression of historical data on energy consumption and production",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For the case study, the steam generator equipment is a water tube",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "using calibrated sensor on a petrochemical plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Sector anchor is the single phrase 'petrochemical plant' (p3); the studied object is a steam boiler (a utility) within it. Target-line R2 reported inconsistently: 0.97 (abstract) vs 0.9933 (results, p5). Baseline date range appears mistyped (identical start/end, 04-12-2016)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "For the case study, the steam generator equipment is a water tube",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "petrochemical plant",
+      "evidence_quote": "on a petrochemical plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "on a petrochemical plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "other-named"],
+      "evidence_quote": ["through an ISO 50001 standard", "ANSI/MSE 2000 and EN 16001"],
+      "page": [2, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "simple intensity ratio", "change-point or SPC"],
+      "evidence_quote": [
+        "linear regression of historical data on energy consumption and production",
+        "an index of real use",
+        "the upper and lower limits were determined in order to identify the presence of atypical points or abnormal operating conditions"
+      ],
+      "page": [4, 4, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": ["steam production"],
+      "evidence_quote": "steam production and gas consumption as input variables",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "baseline_period_start": {
+      "value": "04-12-2016",
+      "evidence_quote": "measurements between 04 -12 -2016 and 04 -12 -2016 about the gas consumption",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline was obtained by linear regression of historical daily data on energy consumption and steam production. Outliers were filtered (points beyond three, then two, standard deviations from the mean) to establish a more stable correlation, yielding EB = 0.0595x + 0.988 (R2 = 0.973) alongside a target line.",
+      "evidence_quote": [
+        "the energy baseline, which is obtained from the linear regression of historical data",
+        "filtering of data was carried out in order to establish a more stable correlation"
+      ],
+      "page": [4, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": ["statistical"],
+      "evidence_quote": "which means statistical validity in the data collection",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "scope_description": {
+      "value": "Steam generator (water-tube boiler, 130.51 MMBTU/h heat input, 125,000 lb/h superheated steam capacity) at a petrochemical plant.",
+      "evidence_quote": [
+        "the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+        "on a petrochemical plant"
+      ],
+      "page": [4, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "using calibrated sensor on a petrochemical plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "daily data measurements",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [
+        "EB = 0.0595x + 0.988 (energy baseline: slope 0.0595, intercept 0.988)",
+        "EG = 0.0586x + 1.3814 (target/goal line: slope 0.0586, intercept 1.3814)"
+      ],
+      "evidence_quote": "EB = 0.0595x + 0.988, with a linear correlation equal to R2 =  0.973 and a goal line EG = 0.0586x + 1.3814",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.973",
+          "unit": null,
+          "period_or_context": "energy baseline EB = 0.0595x + 0.988",
+          "evidence_quote": "linear correlation equal to R2 =  0.973",
+          "page": 2,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.9933",
+          "unit": null,
+          "period_or_context": "target line (results section; abstract states 0.97)",
+          "evidence_quote": "0.9933; this is shown in Figure 4",
+          "page": 5,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  }
+}

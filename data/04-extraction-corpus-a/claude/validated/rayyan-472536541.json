@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536541",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:45:35+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The purpose of this work is to modify the fuel supply systems for a TPP switching from solid, liquid, and gas fuel to high-potential CWSP fuels.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Techno-economic and environmental feasibility study of thermal power plants (TPPs) switching from coal/fuel oil/natural gas to coal-water slurries containing petrochemicals (CWSP). It modifies fuel-supply-system schemes, computes fuel/equipment/operating costs and economic gain, and compares NOx/SOx emissions and heat of combustion across fuels. 'Energy performance indicators' appear only as fuel-comparison descriptors; no EnPI/EnB energy-performance measurement model is presented, proposed, evaluated, or characterised (no energy baseline, no indicator construction/normalisation against drivers, no ISO 50001/50006 framing). Fits 'mentions EnPI/EnB only incidentally / no model identified' and 'purely economic energy management without performance measurement'.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "in Plant #1, 7 steam generators in Plant #2, and 1 steam generator in Plant #3",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: paper repeatedly says 'energy performance indicators' and has 'petrochemicals' in the title, but these are fuel-comparison/fuel-additive terms, not an EnPI/EnB model or a petrochemical case sector. Case sector = thermal power (electricity) generation, outside the closed Level-3B list -> level_3b false. Flag eligibility + paper_type for human adjudication."
+  },
+  "stage2": null,
+  "stage3": null
+}

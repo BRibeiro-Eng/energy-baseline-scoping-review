@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535341",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a Probit model to identify the determinants of adoption, as well as a 2SLS model to address endogeneity",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "Purely economic study estimating the impact of adopting energy management measures (a binary adoption variable) on firm turnover, net income, and production costs via a Probit adoption model and 2SLS instrumental-variable regressions on World Bank Enterprise Survey data. No EnPI or EnB measurement model is presented, proposed, evaluated, or characterised; ISO 50001 is cited only as normative context for the concept.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "In this study, 3917 firms from 135 SSA countries were analyzed",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Cross-country econometric impact study (Probit + 2SLS) on WB Enterprise Survey 2023. EMM is a firm-level adoption dummy, not an energy performance indicator/baseline model. Manufacturing and service firms across SSA; no continuous-process context."
+  },
+  "stage2": null,
+  "stage3": null
+}

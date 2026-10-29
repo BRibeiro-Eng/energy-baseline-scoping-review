@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535527",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:33:50Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This research aims to comprehensively evaluate and assess the performance of these standards in relation to both the LEED and BREEAM assessments.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Evaluates certification and rating-system criteria through an assessment matrix; no EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "To generate the most value from this evaluation, it was important to develop a method of comprehensively assessing each of these standards",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "The restricted BREEAM Energy Model is mentioned only as an unavailable rating calculation; the paper does not present or characterise an EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

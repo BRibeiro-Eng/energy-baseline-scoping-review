@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535472",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:55:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this contribution presented the development of a UEIM to provide measurement information in a unified semantic.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The paper develops an information model for standardized energy-data semantics and communication, without an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This paper presents the stepwise development of a universal energy information model (UEIM) to reduce the conversion effort.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "UEIM standardizes semantics and communication of energy measurement data; it does not construct or characterize an EnPI/EnB."
+  },
+  "stage2": null,
+  "stage3": null
+}

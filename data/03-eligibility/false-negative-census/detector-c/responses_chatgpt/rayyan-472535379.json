@@ -1,0 +1,58 @@
+{
+  "key": "rayyan-472535379",
+  "listed_sector_signals": [
+    {
+      "signal": "Cement industry represented in the ISO 50001 award-case sample.",
+      "quote": "Cement \nIndonesia \nAE",
+      "page": 6,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Petrochemical industry represented in the award-case sample.",
+      "quote": "Petrochemical \nUAE \nIA",
+      "page": 6,
+      "sector": "petrochemicals (organic chemistry, polymers, olefins)"
+    },
+    {
+      "signal": "Pulp and paper industry represented in the award-case sample.",
+      "quote": "Pulp and Paper \nUAE \nIA",
+      "page": 6,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Aluminium industry represented in the sample; primary production and continuous operation are unspecified.",
+      "quote": "Aluminium \nIndia \nIA",
+      "page": 6,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Plastic industry is a potential polymer-sector signal; polymer production versus product manufacturing is unspecified.",
+      "quote": "Plastic \nUSA \nIA",
+      "page": 6,
+      "sector": "petrochemicals (organic chemistry, polymers, olefins)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Power generation represented in the award-case sample; operating mode unspecified.",
+      "quote": "Power Generation \nIndonesia \nIA",
+      "page": 6,
+      "sector": "Power generation"
+    },
+    {
+      "signal": "Oil-and-gas industry represented in the sample; specific activities and production modes unspecified.",
+      "quote": "Oil & Gas \nSaudi Arabia \nIA",
+      "page": 6,
+      "sector": "Oil & gas (unspecified)"
+    },
+    {
+      "signal": "Literature discussion reports energy management and monitoring in microgrids.",
+      "quote": "Moreover, implementing smart energy systems and extensive monitoring facilitated by Industry 4.0 \ntechnologies has proven effective in managing energy consumption and mitigating issues such as voltage \ndistribution and harmonics in microgrids, further supporting sustainable energy goals [36], [37].",
+      "page": 4,
+      "sector": "Electricity supply / microgrids"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "The study applies country-level Pearson correlations to ISO 50001 award-case energy outcomes from mixed industrial and service sectors, SDG scores, and Network Readiness Index indicators across seven countries."
+}

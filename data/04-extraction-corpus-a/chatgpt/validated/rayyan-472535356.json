@@ -1,0 +1,129 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535356",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T10:56:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "the electricity consumption of individual equipment was estimated using Eq. (1)",
+        "PR × T × UF"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This study evaluates the energy decarbonisation potential of WWTPs in the Region of Murcia through case studies of the Molina de Segura and Alcantarilla plants.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "wastewater treatment plants",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Empirical wastewater-treatment application; this sector is outside the v2.3 closed Level 3B list despite year-round operation."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": [
+        "Wastewater treatment plants in the Region of Murcia, Spain are managed by the public company called Entidad de Saneamiento y Depuracion de la Region de Murcia (ESAMUR).",
+        "Two WWTPs, Molina de Segura and Alcantarilla are selected for this study"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Region of Murcia, Spain",
+      "evidence_quote": "Region of Murcia, Spain",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "sector_of_activity": {
+      "value": "wastewater treatment plants",
+      "evidence_quote": "wastewater treatment plants",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "both operate at full capacity year-around",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "According to ISO 50001 guidelines on Energy Management",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "following EU Regulation 2020/741",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": [
+        "In cases where metering data was unavailable, the electricity consumption of individual equipment was estimated using Eq. (1)",
+        "PR × T × UF"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

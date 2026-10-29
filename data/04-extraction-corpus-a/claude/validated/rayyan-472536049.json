@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536049",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T11:33:05Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "proposes a single Building Energy Performance assessment model that considered several factors that affect office-building energy efficiency performances",
+        "the survey is limited to contemporary variables and not historical phenomenon (actual energy used data)"
+      ],
+      "page": [
+        1,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Presents a structural-equation / factor-analysis tool (EFA + CFA/SEM on occupant Likert-survey data) identifying organisational critical success factors (management, strategic, operational) that affect office/educational building energy performance. It explicitly excludes actual energy-use data and constructs no EnPI/EnB energy-performance measurement model or baseline; EnPI/EnB concepts (BEU, BEU-intensity) appear only incidentally. Building sector, no industrial component -> tool/framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The findings present a procedure for analysis of the contemporary issues that affect building energy efficiency, which serves as a tool for performing BEP assessment",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "paper_type borderline: coded tool/software design (self-described 'procedural tool'/'protocol' yielding a BEP assessment tool); could also read as methodological/theoretical or multi-case (10 pooled case buildings, Nigeria+UK). ISO 50001 appears only in cited references, not applied; no continuous-process/refinery context."
+  },
+  "stage2": null,
+  "stage3": null
+}

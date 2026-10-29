@@ -1,0 +1,323 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536356",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T14:35:08+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper focuses on developing a data-driven model to predict energy consumption in a twin-screw granulator (TSG) within the DiPP. The model, based on second-degree polynomial regression, demonstrates strong predictive accuracy with R-squared values exceeding 0.8. By optimising energy performance indicators, this work aims to improve the sustainability of pharmaceutical manufacturing processes.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper focuses its energy analysis solely on the twin-screw granulator within the Diamond Pilot Plant.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Continuous pharmaceutical manufacturing utilises twin-screw granulators to produce granulated solid particles for subsequent tableting. This process is currently implemented in the DiPP (Diamond Pilot Plant) Consigma-25 pilot plant, a dedicated research facility.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Applied continuous pharmaceutical process at pilot-plant equipment scale."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This paper focuses its energy analysis solely on the twin-screw granulator within the Diamond Pilot Plant.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Sheffield",
+      "evidence_quote": "The University of Sheffield’s Diamond Pilot Plant (DiPP) is designed to be a world-leading Industry 4.0 demonstrator",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "pharmaceutical manufacturing",
+      "evidence_quote": "This research contributes to the field of pharmaceutical manufacturing by providing a foundation for creating energy models and advancing the development of comprehensive DT.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Continuous pharmaceutical manufacturing utilises twin-screw granulators to produce granulated solid particles for subsequent tableting. This process is currently implemented in the DiPP (Diamond Pilot Plant) Consigma-25 pilot plant, a dedicated research facility.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "The three key input parameters (speed, feed rate, and L/S ratio), are plugged into the model to calculate the k-value corresponding to the equivalent torque profile curve.",
+        "Some more advanced machine-learning techniques were also tested. Random forest, K-Nearest-Neighbour, and SVR with an RBF (radial basis function) kernel were used in the hope that the more sophisticated techniques would result in a better regression model."
+      ],
+      "page": [
+        7,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "process flowsheet simulation"
+      ],
+      "evidence_quote": "With the help of FormulatedProducts and the example project files included in the installation directory, a flowsheet of the process was developed (Figure 6).",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "speed",
+        "feed rate",
+        "L/S ratio"
+      ],
+      "evidence_quote": "The three key input parameters (speed, feed rate, and L/S ratio), are plugged into the model to calculate the k-value corresponding to the equivalent torque profile curve.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Past DiPP campaign data were divided into TSG-activity slices; each torque profile was fitted with y = k × ln(x + 1), poor-fitting slices were removed, and the retained speed, feed-rate, L/S-ratio and k observations were used to select a second-degree polynomial regression model.",
+      "evidence_quote": [
+        "Taking the τ (t) curve from each slice, and performing y = k × ln (x + 1) regression on every torque profile curve;",
+        "Dropping all slices where their τ (t) curve does not have a satisfactory fit onto a logarithmic regression model;",
+        "Finally, collecting all (ω, F, λ) and (k) pairs for regression analyses.",
+        "As can be seen from Table 2, the best regression model produced was a second-degree polynomial regression."
+      ],
+      "page": [
+        7,
+        7,
+        7,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": "After splitting the dataset appropriately (taking sklearn’s recommended values of a 50/50 split for training and testing data), the data were inputted into various regression solvers provided by sklearn as illustrated in Figure 5. The goal was to test a variety of regression models to see which one would provide the best fit for the data. The full list of regression models used is shown in Figure 4, and the results of the regression analysis including RMSE (root-mean-square deviation) and R2 (R-squared) values are shown in Table 2.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "This paper focuses its energy analysis solely on the twin-screw granulator within the Diamond Pilot Plant.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "the twin-screw granulator within the Diamond Pilot Plant",
+      "evidence_quote": "This paper focuses its energy analysis solely on the twin-screw granulator within the Diamond Pilot Plant.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The limitation of the y = k × ln (x + 1) model occurs when plugging in large t values. This is because the model predicts unreasonably large torque values with increasing t, which becomes unrealistic for practical applications. Therefore, caution is advised when using this model for extrapolation, particularly at high t values.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The limitation of the y = k × ln (x + 1) model occurs when plugging in large t values. This is because the model predicts unreasonably large torque values with increasing t, which becomes unrealistic for practical applications.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Such a feature would be extremely useful as it would allow for our model to learn from longer “slices” of TSG activity, as the current model was only trained on shorter “slices” in the range of 50 to 400 s, while real-world processes run for many hours if not days continuously.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "This understanding will inform the development of a hybrid DT model. This model will combine data-driven and mechanistic approaches to not only predict TSG energy usage but also perform optimisation analyses, ultimately minimising energy consumption.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "adaptation_types": {
+      "value": [
+        "hybrid physical model"
+      ],
+      "evidence_quote": "This understanding will inform the development of a hybrid DT model. This model will combine data-driven and mechanistic approaches to not only predict TSG energy usage but also perform optimisation analyses, ultimately minimising energy consumption.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "This understanding will inform the development of a hybrid DT model. This model will combine data-driven and mechanistic approaches to not only predict TSG energy usage but also perform optimisation analyses, ultimately minimising energy consumption.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "This research contributes to the field of pharmaceutical manufacturing by providing a foundation for creating energy models and advancing the development of comprehensive DT.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Whenever the DiPP runs, it uses its sensors to collect measurements in real time, and it exports these values in the form of Microsoft Excel spreadsheets (Microsoft 365 Apps, Version 2411). A total of ten campaign spreadsheets from past DiPP runs were used.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [
+        "n1 = −1.13097020 × 10−2",
+        "n2 = 3.27713175 × 10−1",
+        "n3 = 3.42615181 × 10+0",
+        "n4 = 6.17107414 × 10−6",
+        "n5 = −3.71204881 × 10−4",
+        "n6 = 2.32487761 × 10−2",
+        "n7 = 1.84521172 × 10−3",
+        "n8 = −1.53832945 × 10−1",
+        "n9 = −1.42015029 × 10+1",
+        "C = 7.83459685 × 10−1"
+      ],
+      "evidence_quote": "Table 3. Polynomial coefficients. Coefficient Value n1 −1.13097020 × 10−2 n2 3.27713175 × 10−1 n3 3.42615181 × 10+0 n4 6.17107414 × 10−6 n5 −3.71204881 × 10−4 n6 2.32487761 × 10−2 n7 1.84521172 × 10−3 n8 −1.53832945 × 10−1 n9 −1.42015029 × 10+1 C 7.83459685 × 10−1",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.91168",
+          "unit": null,
+          "period_or_context": "second-degree polynomial, training",
+          "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+          "page": 9,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "RMSE",
+          "value": "0.18178",
+          "unit": null,
+          "period_or_context": "second-degree polynomial, training",
+          "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+          "page": 9,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.81638",
+          "unit": null,
+          "period_or_context": "second-degree polynomial, testing",
+          "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+          "page": 9,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "RMSE",
+          "value": "0.28847",
+          "unit": null,
+          "period_or_context": "second-degree polynomial, testing",
+          "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+          "page": 9,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "time and resource constraints prevented automated integration",
+        "limited documentation and restrictive proprietary software"
+      ],
+      "evidence_quote": [
+        "Due to time and resource constraints, this was not achieved in this paper.",
+        "The documentation available by Siemens for gPROMS FormulatedProducts was very limited, and the software itself was very restrictive, with the TSG model being a heavily protected entity due to commercial interests."
+      ],
+      "page": [
+        13,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    }
+  }
+}

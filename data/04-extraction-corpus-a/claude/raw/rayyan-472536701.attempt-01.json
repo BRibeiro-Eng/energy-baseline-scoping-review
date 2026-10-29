@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536701",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T21:33:39.458040+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a questionnaire was designed and developed to survey experts’ \nopinions on sub-criteria to be assessed under sustainable energy performance indicators",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": "Residential building-envelope sustainability assessment. The study ranks sustainability sub-criteria (energy efficiency, material efficiency, environmental impact, external benefit, regulation efficiency) by an expert-questionnaire Relative Importance Index to feed a qualitative building-performance assessment framework. No EnPI/EnB energy measurement or normalisation model is presented or characterised (no energy baseline, no energy-vs-driver regression); the reported regression models inter-respondent opinion consensus (engineers vs other professionals), not energy performance. Buildings context, no industrial component.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "this study has successfully created effective sub-criteria that could be \nassessed under sustainable energy performance indicators to be incorporated for building assessment \nperformance methods",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "'Sustainable energy performance indicator' language denotes a sustainability rating category, not an ISO 50006 EnPI. paper_type framework vs methodological/theoretical is borderline; ineligibility is a Tier-1 call for human adjudication."
+  },
+  "stage2": null,
+  "stage3": null
+}

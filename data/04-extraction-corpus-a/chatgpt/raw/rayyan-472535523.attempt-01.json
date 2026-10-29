@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535523",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:31:03Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy intensity for organizations is calculated as the relationship between energy consumption for a certain year and the functional unit in Equation (2). I = E/FU",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The Relevant Use of Energy (RUE) index is described and applied to a case study, the Port Authority of Valencia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "A port terminal is a modal exchanger with a stockyard",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The empirical context is a container port, which is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "applied to a case study, the Port Authority of Valencia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Eastern Spain",
+      "evidence_quote": "The Port Authority of Valencia (PAV), also known as VALENCIAPORT is the public body responsible for managing the Port of Valencia on the Mediterranean coast, Eastern Spain",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "container port",
+      "evidence_quote": "the tool described in the previous section is developed and applied to the case study of a container port in the Mediterranean Sea",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "A port terminal is a modal exchanger with a stockyard where the different loading rhythms of the sea and land route. The main job of a port terminal is to manage the movements of goods",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "RUE is defined as substantial energy consumption that offers considerable potential for improving energy performance according to ISO 50001 framework",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "The energy intensity for organizations is calculated as the relationship between energy consumption for a certain year and the functional unit in Equation (2). I = E/FU",
+        "The final score is assessed using Equation (3): RUE = 50 × RM + 20 × EE + 15 × R + 15 × PRE"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "application of Saaty’s Analytical Hierarchy Process (AHP)",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

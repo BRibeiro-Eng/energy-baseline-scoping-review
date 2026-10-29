@@ -1,0 +1,1117 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536612",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 8,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",
+        "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic \nmetals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food \nproducts, paper.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Italy",
+        "evidence_quote": "In 2015 the Italian transposition of the European Directive 2012/27/EU (i.e. Legislative Decree 102/2014) \nallowed to require energy audit to large and energy intensive enterprises.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The survey is aimed at the energetic analysis of the operating conditions of the \ncompressors and their technical characteristics for a sample of companies, selected among those with a compressed \nair consumption of 5% EE.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Compressed air systems of a sample of large and energy-intensive industrial firms across nine industrial sectors, analysed to develop energy performance benchmarking indicators.",
+        "evidence_quote": "The present study aims to define a measurement procedure that will ensure the availability of the necessary data for \nproper benchmarking of energy performance in production and use of compressed air.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic \nmetals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food \nproducts, paper.",
+        "page": 3,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "kWhe CAS/kWhe TOT",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "year",
+              "baseline"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "year",
+              "baseline"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Ratio of energy consumed for compressed air production to total electrical consumption.",
+            "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": "total electrical consumption"
+            },
+            "unit_verbatim": {
+              "value": "kWhe CAS/kWhe TOT",
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total electrical consumption",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+              "page": 3,
+              "support_class": "direct statement",
+              "type_other_verbatim": "total site electricity consumption"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "the large and energy intensive enterprises must undergo energy audits on their \nplants at least every four years",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "A benchmark analysis can help firms to assess their \nperformances compared to the other enterprises and to increase own performances in term of production and energy \nefficiency.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy audit allows to obtain adequate knowledge of the energy consumption profile of an industrial plant.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "invoice or utility bill",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "Furthermore, of all the companies for which data were available, 17% have measured \ntheir consumption related to the production of compressed air in a continuous or periodic, 69% calculated the \nconsumption through bills while the remainder did not state the data; the way the data was calculated based on the \nenergy bills is not known.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "kWhe CAS/t",
+          "baseline_construction_method": {
+            "value": "Ratio of energy consumed for compressed air production to production volume expressed as tons of final product.",
+            "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWhe CAS/t",
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production volumes, generally expressed as tons of final product",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and \nthe production volumes, generally expressed as tons of final product.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "the large and energy intensive enterprises must undergo energy audits on their \nplants at least every four years",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "A benchmark analysis can help firms to assess their \nperformances compared to the other enterprises and to increase own performances in term of production and energy \nefficiency.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy audit allows to obtain adequate knowledge of the energy consumption profile of an industrial plant.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "invoice or utility bill",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "Furthermore, of all the companies for which data were available, 17% have measured \ntheir consumption related to the production of compressed air in a continuous or periodic, 69% calculated the \nconsumption through bills while the remainder did not state the data; the way the data was calculated based on the \nenergy bills is not known.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "The two KPIs used cannot outline an overview of the situation about the efficiency of the compressed air \ngeneration system because of the great difference of the production volumes between the various sectors",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "kWhe CAS / m3",
+          "baseline_construction_method": {
+            "value": "Ratio of energy consumption for compressed air generation to the amount of air produced measured in cubic metres.",
+            "evidence_quote": "For this reason it has been chosen to use a more objective relationship between \nenergy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "For this reason it has been chosen to use a more objective relationship between \nenergy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "For this reason it has been chosen to use a more objective relationship between \nenergy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "For this reason it has been chosen to use a more objective relationship between \nenergy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": "amount of compressed air produced measured in m3"
+            },
+            "unit_verbatim": {
+              "value": "kWhe CAS / m3",
+              "evidence_quote": "energy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "The indicator kWh CAS/m3 is considered the most important and the only on which allow \nto compare firms belonging to different industrial sectors.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "energy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "the amount of air produced measured in m3",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "energy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / \nm3)",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "the large and energy intensive enterprises must undergo energy audits on their \nplants at least every four years",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "The performance of the system can be robustly monitored in a real-time environment monitoring the flow rate \nand associated power consumption at a variety of system loads.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy audit allows to obtain adequate knowledge of the energy consumption profile of an industrial plant.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "Even if the data are derived from direct measurements not all companies are equipped \nwith the necessary tools and there is not a unique procedure that can determine the power consumption for the \ncompressor park.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "By comparing the energy consumption in kWhe CAS/m3 it is assumed that the working conditions do not vary \nsignificantly between all the enterprises, hence restricting the applications of this approach (Longo et al. (2016)).",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "linear regression with the data relative to the measured quantities",
+          "baseline_construction_method": {
+            "value": "Linear regression relating electric consumption to compressed air production, assuming constant returns to scale.",
+            "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "kWh",
+                "unit"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "the air production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "monthly",
+                "hourly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy audit allows to obtain adequate knowledge of the energy consumption profile of an industrial plant.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "correlation (overall) - Chemical products",
+                  "value": "0,996",
+                  "period_or_context": "Overall correlation, Chemical products sector",
+                  "evidence_quote": "Chemical products\n0,996\n0,997\n0,978\n0,017\n4,47E-84\n0,119\n1,36E-16",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "P-Value threshold for overall linear regression inclines",
+                  "value": "under 0.05",
+                  "period_or_context": "All available data considered",
+                  "evidence_quote": "From the results, if all the available data are considered, the P-Value is under 0.05 for \nall the linear regression inclines.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and \nthe significance (right side).",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic \nmetals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food \nproducts, paper.",
+        "page": 3,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The already possessed data have been resulted unreliable because of some non-negligible approximations. First \nof all, it is impossible to know their veracity; in many cases the consumption data come from estimates made on \nproductions of hours or even relying on electric bills.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Also, more importantly, it was not possible to use a common standard to develop a \nreliable benchmark methodology.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M3",
+      "claim_status": "applied to the case",
+      "evidence_quote": "By comparing the energy consumption in kWhe CAS/m3 it is assumed that the working conditions do not vary \nsignificantly between all the enterprises, hence restricting the applications of this approach (Longo et al. (2016)).",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "validity envelope exceeded"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M4",
+      "claim_status": "applied to the case",
+      "evidence_quote": "to have a relation \nbetween the electric consumption and the air production it is assumed that it is possible to scale linearly inputs and \noutputs, i.e. it is assumed constant return to scale.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "If only the measured data have been considered, for some sectors, the regression \nloses its significance.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "M2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The two KPIs used cannot outline an overview of the situation about the efficiency of the compressed air \ngeneration system because of the great difference of the production volumes between the various sectors",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "the firms which have not measured the compressed air production \nmight have estimated their data starting from some assumption coming from literature; that kind of data would \nfalsify the analysis.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K8",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Even if the data are derived from direct measurements not all companies are equipped \nwith the necessary tools and there is not a unique procedure that can determine the power consumption for the \ncompressor park.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": "K8",
+      "normative_framing": "implicit",
+      "evidence_quote": "Greater availability of data from measurements; could be defined a minimum measurement system in order \nto measure the amount of energy used by all the compressor park including the cooling system’s pumps and the \ncompressed air produced by all the compressors (Fig. 5).",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "segmented baseline",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "In the event that the system has \nmultiple pressure levels it would be useful to develop a statistical analysis system that considers the effect of \npressure and develop different benchmarks based on the pressure level.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "additional normalisation variable",
+      "status": "proposed",
+      "addresses_mechanism": "K3",
+      "normative_framing": "absent",
+      "evidence_quote": "Some further information about the pressure of compressed air generated.",
+      "page": 7,
+      "support_class": "requires inference",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "clustering of enterprises before performing analysis cluster by cluster",
+      "status": "proposed",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "Data coming from firms could be used for a preliminary clustering and later perform the \nanalysis cluster by cluster.",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "control charts and CUSUM for real-time monitoring of consumption",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "The regression method using measured data can help firms to analyze their \nelectric consumption and thanks to control charts and CUSUM they can have a real-time monitoring system.",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": true,
+      "evidence_quote": "This inconsistency has led to a great difficulty in preparing \ncomplete and accurate analysis.",
+      "page": 2,
+      "non_contiguous_evidence": false
+    },
+    {
+      "limitation": "instrumentation unavailable",
+      "also_constrains_model": true,
+      "evidence_quote": "The measurement difficulties are also considerable and are \ngiven by the paucity of information on the operating pressure of the compressors, the type of compressors installed \nand the plant characteristics.",
+      "page": 4,
+      "non_contiguous_evidence": false
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "In order to have meaningful results, only companies whose electric consumption related to compressed air system \nis major than 5% of the total are considered in the questionnaire.",
+      "page": 5,
+      "non_contiguous_evidence": false
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Most companies surveyed lack a compressed air measurement system.",
+      "evidence_quote": "The answers to question 4 show that most of the \ncompanies surveyed do not have a measuring system, corresponding to 52% of the sample.",
+      "page": 6,
+      "non_contiguous_evidence": false
+    },
+    {
+      "barrier": "Companies are not equipped with the necessary measurement tools and there is no unique procedure to determine compressor power consumption.",
+      "evidence_quote": "not all companies are equipped \nwith the necessary tools and there is not a unique procedure that can determine the power consumption for the \ncompressor park.",
+      "page": 4,
+      "non_contiguous_evidence": false
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "kWhe CAS/kWhe TOT - The ratio between the amount of energy consumed for the compressed air \nproduction and the total electrical consumption;",
+      "page": 3,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "Chemical products\n0,996\n0,997\n0,978\n0,017\n4,47E-84\n0,119\n1,36E-16",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper is an explorative/survey study across nine industrial sectors defining compressed-air benchmarking indicators. Three intensity ratios (M1 kWhe CAS/kWhe TOT, M2 kWhe CAS/t, M3 kWhe CAS/m3) and one linear regression (M4) are treated as separate models. Data are mostly estimated from bills (69%) rather than measured (17%), which the authors treat as the central limitation. Out-of-sample validation is meaningless for the intensity ratios (set to 'none' as the enum lacks 'not applicable' for validation_design); the regression reports only P-values/significance without a held-out test.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "reliability",
+        "not possible",
+        "difficulty",
+        "restricting",
+        "unreliable"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "measurement system",
+        "control chart",
+        "CUSUM",
+        "clustering",
+        "pressure level"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "difficulty",
+        "limitation",
+        "sample",
+        "data access",
+        "not available"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "do not have",
+        "not equipped",
+        "tools",
+        "maintenance",
+        "measuring system"
+      ]
+    }
+  },
+  "attempt": 8
+}

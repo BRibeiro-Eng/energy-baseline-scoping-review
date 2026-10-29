@@ -1,0 +1,263 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536425",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-14T15:34:40Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "corporate EnPI is defined as the ratio between energy consumption and total production in ton",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "A leading EnPI has been successfully implemented to track SC organizations progress towards excellence in energy performance",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "This is a downstream division that consists of six refinery and condensate splitters facilities",
+        "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3"
+      ],
+      "page": [
+        10,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "notes": "Borderline eligibility: mainly an EnMS deployment framework + single oil-company case (SC, Middle East). Eligible under broad v2.3 via a characterised energy-intensity EnPI (energy/production, GJ/ton; target 8.5 at a PTA facility) + weighted-PDCA leading EnPI. paper_type framework vs single-applied-case is arguable. level_3b=true via refinery + PTA (petrochemical). Model treatment light; human blind-first review advised."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "SC is a huge corporation involves six main disciplines. SC disciplines are segregated according to specific tasks and location",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "Middle East",
+      "evidence_quote": "one of largest oil companies in Middle East",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "oil companies",
+      "evidence_quote": "one of largest oil companies in Middle East",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "EnMS (ISO 50001:2011) was officially announced and published for global adoption in 2011",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "corporate EnPI is defined as the ratio between energy consumption and total production in ton",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "total production"
+      ],
+      "evidence_quote": "corporate EnPI is defined as the ratio between energy consumption and total production in ton",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "baseline_construction_method": {
+      "value": "Lagging EnPI computed as energy consumed (GJ) divided by final product (metric ton); no statistical/regression baseline model reported.",
+      "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "A leading EnPI has been successfully implemented to track SC organizations progress towards excellence in energy performance",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scope_description": {
+      "value": "Corporate/company-wide EnPI across the oil company's organizations; facility-level example for a Purified Terephthalic Acid (PTA) manufacturing facility.",
+      "evidence_quote": "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of technical knowhow to effectively conserve energy",
+        "Low incentive to adopt efficiency due to energy subsidies",
+        "Energy efficiency not a top company priority (mind-share)",
+        "Facilities scattered across large areas (geo-political structure)"
+      ],
+      "evidence_quote": [
+        "Concerned oil companies are not informed of how to effectively conserve energy",
+        "current energy subsidy in the GCC provides little incentive to adopt energy efficiency and conservation measures",
+        "Energy efficiency has not been in the top focus of concerned oil companies",
+        "Most oil companies owned organizations/facilities are scattered across large areas, making it difficult to fully manage energy efficiency and conservation programs"
+      ],
+      "page": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    }
+  }
+}

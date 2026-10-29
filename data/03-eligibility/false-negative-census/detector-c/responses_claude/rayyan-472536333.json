@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536333",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference (self-citation) to energy/exergy analysis of a submerged arc furnace for ferrochrome production — continuous primary-metals processing, but only cited, not the paper's own application context",
+      "quote": "Energy and exergy analyses of a submerged arc furnace used for ferrochrome\nproduction. Int. J. Exergy 2024, 44, 89–106.",
+      "page": 23,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The study plant is described as a continuously operating factory, though the industry type (product/process) is never specified and no continuous-flow production sector is named",
+      "quote": "Identifying leaks in a continuously operating factory environment is\nchallenging because the acoustics emitted by leaks interfere with production noise, making\ndetection nearly impossible.",
+      "page": 3,
+      "sector": "unspecified continuous manufacturing (generic)"
+    },
+    {
+      "signal": "Statement that the compressed air system operates continuously year-round — refers to the CAS utility, not to a named continuous-flow production process",
+      "quote": "systems operate continuously throughout the year, whether loaded or unloaded.",
+      "page": 5,
+      "sector": "compressed air utility (auxiliary system)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically studies compressed-air-leak energy losses and machine-learning leak-flow prediction in an unspecified manufacturing plant's compressed air (utility) system; the plant's production sector is never identified and no registered continuous-flow sector is the application context."
+}

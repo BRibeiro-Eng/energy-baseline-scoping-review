@@ -1,0 +1,493 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535625",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "attempt": 1,
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Saudi Aramco Abqaiq plant — Saudi Arabian official Oil Company / oil major",
+        "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Saudi Arabia",
+        "evidence_quote": "which is the Saudi Arabian official Oil Company and one of the oil majors",
+        "page": 5,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Energy management at the Saudi Aramco Abqaiq plant using an advanced dashboard tool with a 'Dynamic targeting' function that creates calculation models fitted to changing operating conditions",
+        "evidence_quote": "This tool has a dashboard for displaying EnPIs values, energy costs, energy savings of equipment, and so on. And this tool has a function called as \u0002Dynamic targeting\u0004.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+        "page": 5,
+        "support_class": "requires inference",
+        "absence_basis": null
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "\"Dynamic targeting\" calculation models",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "EnPI",
+                "specific energy consumption",
+                "energy consumption",
+                "energy performance"
+              ]
+            },
+            "energy_vector": {
+              "value": [
+                "not reported"
+              ],
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "electricity",
+                "fuel",
+                "steam",
+                "energy",
+                "crude oil"
+              ]
+            },
+            "denominator": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": "calculation models fitted to changing operating conditions (unspecified functional form)"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "operating modes",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "equipment availability",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment availability"
+            },
+            {
+              "verbatim": "crude oil",
+              "type": "feed quality",
+              "role": "predictor",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "production changes",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "This tool has a dashboard for displaying EnPIs values, energy costs, energy savings of equipment, and so on.",
+              "page": 5,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "online or adaptive",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "According the report, the operation in the plant is becoming optimized, the energy performance is improved and ten millions dollars of energy cost are reduced through these activities.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "operating modes, equipment availability, crude oil and production changes",
+              "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "the energy performance is improved and ten millions dollars of energy cost are reduced through these activities.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "energy cost reduction",
+                  "value": "ten millions dollars",
+                  "unit": "USD",
+                  "period_or_context": "Abqaiq plant, annually through the described activities",
+                  "evidence_quote": "ten millions dollars of energy cost are reduced through these activities.",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "energy intensity improvement",
+                  "value": 23,
+                  "unit": "%",
+                  "period_or_context": "Saudi Aramco company-wide, compared with 2011",
+                  "evidence_quote": "its energy intensity is improved 23 % compared with it in 2011",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petroleum refining",
+        "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors",
+        "page": 5,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "when a production volume is decreased, energy consumption which does not contribute to the production volume (called as baseload) has effects on the specific energy consumption.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "baseload or non-productive energy",
+      "cause_other_verbatim": "decrease of production volume"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "If specific energy consumption is identified as EnPI, decreasing production volume might make to cancel out the effect of energy efficiency activities, because the denominator of the specific energy consumption is the production volume.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "cause_other_verbatim": "decrease of production volume"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "online re-estimation",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+      "page": 5,
+      "support_class": "requires inference",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "indicators shown as 'result of efforts' (based on ISO 50006), replacing plain specific energy consumption",
+      "status": "proposed",
+      "addresses_mechanism": "K1",
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "JEITA has been suggesting the indicators which can be shown",
+      "page": 5,
+      "support_class": "requires inference",
+      "refers_to": "paper-level argument"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "Companies perceive additional ISO 50001 certification as a heavy burden and see complying with the Energy Saving Act or holding ISO 14001 as sufficient",
+      "evidence_quote": "So many companies think that certifying additionally ISO 50001 is a heavy burden.",
+      "page": 4,
+      "searched_terms": [
+        "burden",
+        "barrier",
+        "reason",
+        "difficult",
+        "cost"
+      ]
+    },
+    {
+      "barrier": "Management reviews and internal audits are insufficient to sustain continuous energy efficiency improvement",
+      "evidence_quote": "management reviews and internal audits are not enough to improve energy efficiency continuously.",
+      "page": 4,
+      "searched_terms": [
+        "management review",
+        "internal audit",
+        "continuous improvement"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    }
+  },
+  "reviewer_notes": "This is a standards/policy overview paper by JEITA about ISO 50001 and related energy-management standards; it performs no empirical modelling of its own. The only energy performance model described is a third-party vendor case (cited reports [8]/[10]) at the Saudi Aramco Abqaiq plant, whose 'Dynamic targeting' function creates calculation models fitted to changing operating conditions. Almost all model-detail fields are therefore not reported. refinery_or_petrochemical_case was coded 'refinery — model empirically applied there' because a model is described as running at the Abqaiq oil plant with reported energy savings, but this is inferred from cited reports rather than the authors' own empirical work, and Abqaiq is an oil-processing plant rather than a conventional refinery — the reviewer may prefer 'named but not an empirical application here'. The specific-energy-consumption / baseload arguments (K1, K2) are general cautions about the SEC indicator, not tied to a specific fitted model.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "baseload",
+        "production volume",
+        "specific energy consumption",
+        "cancel out",
+        "denominator",
+        "drift",
+        "non-stationary"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "dynamic targeting",
+        "result of efforts",
+        "indicators",
+        "re-estimation",
+        "calculation models"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "sample",
+        "data access",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "burden",
+        "barrier",
+        "certification",
+        "audit",
+        "management review",
+        "reason"
+      ]
+    }
+  }
+}

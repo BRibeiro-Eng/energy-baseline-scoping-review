@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535455",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:43:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Multi-layer-perceptron-feedforward neural-networks (MLPFFNNs) are proposed to monitor electricity consumption of generic telecommunication sites",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "these data have been detected by WSNs of 17 TIM plants located in Italy",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "electricity consumption of generic telecommunication sites",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to telecommunication sites, a sector outside the closed Level 3B continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "these data have been detected by WSNs of 17 TIM plants located in Italy",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "17 TIM plants located in Italy",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "telecommunication",
+      "evidence_quote": "telecommunication sites",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "large ﬂeets of industrial buildings, such as central ofﬁces and datacenters",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "regulatory standards (i.e., ISO 50001)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "Multi-layer-perceptron-feedforward neural-networks (MLPFFNNs) are proposed to monitor electricity consumption",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

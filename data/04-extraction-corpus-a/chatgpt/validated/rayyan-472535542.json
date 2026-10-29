@@ -1,0 +1,130 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535542",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:00:16Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Energy consumption is represented by a single matrix equation, which expresses the relationship between imported energies and energy drivers.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "Systematic literature review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the most investigated sectors are the manufacture of fabricated metal products (13), the manufacture of food products and beverages (6), the manufacture of motor vehicles (5) and the manufacture of other non-metallic mineral products, such as cement (4).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Review spans multiple manufacturing sectors; it is not an empirical application in one continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "Systematic literature review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "The geographical distribution (Fig. 6) shows a global interest in the topic",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "Industrial manufacturing is the largest end-use sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "the most investigated sectors are the manufacture of fabricated metal products (13), the manufacture of food products and beverages (6), the manufacture of motor vehicles (5) and the manufacture of other non-metallic mineral products, such as cement (4).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 standard",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "simple intensity ratio",
+        "change-point or SPC",
+        "process integration",
+        "other"
+      ],
+      "evidence_quote": [
+        "DEA, linear regression models",
+        "Multi-variable least-squares regression",
+        "speciﬁc energy consumption (SEC) indicators",
+        "CUSUM",
+        "Pinch, water analysis",
+        "DEA, principal component analysis, numerical taxonomy"
+      ],
+      "page": [
+        7,
+        9,
+        10,
+        7,
+        8,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "AHP, Fuzzy evaluation",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535451",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this study conducted an online survey of 40 polling questions during the 50001 Ready Virtual In-Plant Training to identify the barriers and challenges of implementing ISO 50001-based energy management systems",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Mentions EnPI/EnB only incidentally: linear regression and energy baselines appear as a 50001 Ready Navigator task, as survey topics, and as an area where participants need more assistance, with no EnPI/EnB model identified or characterised (no variables, functional form, or construction/estimation approach). The paper presents a training program and a survey of ISO 50001-based EnMS implementation barriers, i.e., a framework/training study without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "it discusses findings from the responses to 40 live polling questions about the status of the 25 tasks of the 50001 Ready Navigator",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Survey/training-outcomes study of the DOE Better Plants 50001 Ready VINPLT (28 companies). Linear-regression EnPI mentioned only as a recommended method and survey topic, not modelled or characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535528",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:35:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region, which at the time of project initiation had an energy consumption index of 78 kW*h/m3",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied educational-building CEMS with an energy-consumption intensity indicator; no closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Lviv region",
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "educational institution",
+      "evidence_quote": "The pilot project for the development of CEMS was implemented based on an educational institution in the Lviv region",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "now, it is creating and implementing only for buildings in the budget sector (hospitals, schools, universities, kindergartens) and private buildings.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 \"Energy Management Systems\" standard requires.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "The execution of works, as well as the calculations, are performed following the current Ukrainian normative documents and methods",
+        "Order of the Minregionstroy № 172 “On approval of the Procedure for certification of energy efficiency and form of energy certificate“."
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "energy consumption index of 78 kW*h/m3",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

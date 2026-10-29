@@ -1,0 +1,302 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535649",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:24:01Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This method is based on the calculation of an energy base line with the linear form as in Eq(1).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "As a case study for a petrochemical company located in Colombia",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "As a case study for a petrochemical company located in Colombia dedicated to the production and commercialization of fertilizers",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Fertilizer plant that the authors repeatedly self-describe as a 'petrochemical' company/plant; sector falls under the closed Level-3B list (petrochemicals / continuous chemical production incl. fertilizers). level_3b=true on explicit empirical application to 2015 plant data."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "fertilizer company",
+      "evidence_quote": "a fertilizer company in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The agronomic complex produces a wide variety of fertilizers",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Based on the standard ISO 50001 and the operational data for 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Obtained from the linear regression of historical data of energy consumption and production",
+        "the consumption trend accumulated (CUSUM)"
+      ],
+      "page": [
+        3,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.72
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production",
+        "equivalent production"
+      ],
+      "evidence_quote": [
+        "the linear regression of historical data of energy consumption and production",
+        "In order to calculate an equivalent production"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "baseline_period_start": {
+      "value": "2015",
+      "evidence_quote": "the operational data for 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "baseline_period_end": {
+      "value": "2015",
+      "evidence_quote": "the operational data for 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "baseline_construction_method": {
+      "value": "Energy baselines were built by linear regression of historical energy-consumption vs. production data (equivalent production method), giving linear models y = mx + b; boundary control limits at three standard deviations from the mean were first applied to exclude atypical gas-consumption and production data, and separate baselines were fitted for three fertilizer references.",
+      "evidence_quote": [
+        "Obtained from the linear regression of historical data of energy consumption and production",
+        "the application of limits of control for data of consumption of gas and production so that to exclude data considered atypical"
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "energy performance indicators for a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "scope_description": {
+      "value": "Whole fertilizer (petrochemical) production complex in Colombia producing NPK 15-15-15; energy (natural gas) consumed by the complex fertilizers line (63.4%), the energy supply plant (29.2%) and the fertigation SoluNKP plant (7.4%).",
+      "evidence_quote": "the 63.4% of the energy is consumed by the complex fertilizers line, the 29.2% by equipment of the energy supply plant, and finally the 7.4% is consumed by the fertigation SoluNKP plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "As a case study for a petrochemical company located in Colombia dedicated to the production and commercialization of fertilizers",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.62
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "model_parameters_reported": {
+      "value": [
+        "E = 10,654 P + 14859 (energy baseline, reference 15-15-15)",
+        "E = 12,093 P + 10781 (energy baseline, reference 13-26-6)",
+        "E = 17,31 P + 14049 (energy baseline, reference 17-6-18-2)"
+      ],
+      "evidence_quote": [
+        "E = 10,654 P + 14859",
+        "E = 12,093 P + 10781",
+        "E = 17,31 P + 14049"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0,49618",
+          "unit": null,
+          "period_or_context": "energy baseline, fertilizer reference 15-15-15",
+          "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,82515",
+          "unit": null,
+          "period_or_context": "energy baseline, fertilizer reference 13-26-6",
+          "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,64084",
+          "unit": null,
+          "period_or_context": "energy baseline, fertilizer reference 17-6-18-2",
+          "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  }
+}

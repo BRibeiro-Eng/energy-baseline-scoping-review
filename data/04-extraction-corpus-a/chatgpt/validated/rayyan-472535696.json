@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535696",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:57:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Comparing to production data there is the electricity consumption by total chicken meat production to obtain the unit cost (UC), in equation (2), represents the kilo Watts hour consumed per produced chicken meat kilograms).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "this paper proposes a methodology for analysing financial investments for creation of energy management systems in chicken slaughterhouses cooling systems.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "chicken slaughterhouse industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Generic methodological proposal for slaughterhouse refrigeration; no empirical site or fitted EnPI model."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "this paper proposes a methodology for analysing financial investments for creation of energy management systems in chicken slaughterhouses cooling systems.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "this paper proposes a methodology for analysing financial investments for creation of energy management systems in chicken slaughterhouses cooling systems.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "chicken slaughterhouse industry",
+      "evidence_quote": "chicken slaughterhouse industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "To identify causes of inefficiencies in the manufacturing process is not an easy task without the existence of sensors capable of obtaining information about energy use.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The energy management is a process of planning, improvement and verification according to a management model – to ISO 50001, the PDCA (Plan-Do-Check-Act).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Comparing to production data there is the electricity consumption by total chicken meat production to obtain the unit cost (UC), in equation (2), represents the kilo Watts hour consumed per produced chicken meat kilograms).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

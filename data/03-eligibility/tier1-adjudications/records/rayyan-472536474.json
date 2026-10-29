@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536474",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Ozcan, H.G. and Varga, S. and Gunerhan, H. and Hepbasli, A.",
+    "rayyan_decision": "Included",
+    "source": "Sustainable Cities and Society",
+    "title": "Numerical simulation and parametric study of various operational factors affecting a PV-battery-air conditioner system under prevailing European weather conditions",
+    "year": 2021
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "A novel performance indicator, namely annual grid independence",
+      "page": 8,
+      "rule": "§5.2: propoe explicitamente como novo um EnPI caracterizado (GIR_ann) com variaveis e forma funcional completas; propostas conceptuais e ausencia de validacao sao admitidas."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

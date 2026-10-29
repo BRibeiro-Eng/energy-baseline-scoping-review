@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536650",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:04:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "In this paper a method for automated \nclassification of load profiles of electric drives is \ndiscussed on the example of the mentioned spindle load \nprofiles.",
+        "the specific energy consumption, \nenergy performance indicators and operation time of \neach individual part can be calculated."
+      ],
+      "page": [
+        1,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.62
+    },
+    "ineligibility_reason": "Paper presents a signal-processing / pattern-recognition method (Hidden Markov Models, Cross-Correlation, Wavelet and Fourier transforms) for classifying/segmenting load profiles of electric drives on a CNC lathe example. Energy performance indicators are mentioned only incidentally as a prospective downstream calculation ('can be calculated'); no EnPI or energy-baseline (EnB) measurement model is identified or characterised (no normalisation variables, functional form, or baseline construction; only cross-correlation coefficients are actually reported). Ineligible per v2.3 (incidental EnPI mention, no model characterised).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "In this paper methods for pattern \nrecognition in load profiles of electric drives are \npresented on the example of a multiaxial lathe.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "BORDERLINE eligibility (human review): a lenient v2.3 reading could treat HMM-segmentation-enabled per-part specific energy consumption as a characterised EnPI construction approach, but no EnPI value is computed (only cross-correlation coefficients reported). paper_type borderline: methodological method-paper vs single applied case (empirical lathe demo). Domain = discrete manufacturing (CNC lathe), out of L3B scope regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

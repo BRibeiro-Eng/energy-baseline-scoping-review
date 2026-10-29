@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536387",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T14:10:48.730137+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the analysis of energy performance indicators (EnPIs), particularly the specific energy consumption (SEC) based on the ratio of kWh to hL of wine produced",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "the aim of this study is to investigate, from a theoretical point of view, what and how many possible operational indicators might be for a company involved in various ways in wine production",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a winery in Northern Italy was selected as case-study",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Theoretical indicator-design paper with one illustrative Northern-Italy winery case; paper_type theoretical-vs-single-case borderline. Winemaking not in closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a winery in Northern Italy was selected as case-study",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Northern Italy",
+      "evidence_quote": "a winery in Northern Italy was selected as case-study",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "winemaking sector",
+      "evidence_quote": "Keywords: winemaking sector, performance indicator",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "the aim of this study is to investigate, from a theoretical point of view, what and how many possible operational indicators might be for a company involved in various ways in wine production",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "the specific energy consumption (SEC) based on the ratio of kWh to hL of wine produced",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

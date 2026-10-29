@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535434",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:02:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The main aim of the present study is to develop a simple, research-based model for how trucking companies can work with economic driving at the organizational level; what measures and management practices it entails, and what effects they can expect. We do this through a systematic literature study.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": "Reviews economic-driving and energy-management interventions and proposes an organisational ladder, but does not identify or characterise an EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "We have identiﬁed 16 studies of economic driving with heavy vehicles in general, and ﬁve that deal with HGVs.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The Eco Ladder is an organisational management framework; the reviewed studies are interventions, not central EnPI/EnB models."
+  },
+  "stage2": null,
+  "stage3": null
+}

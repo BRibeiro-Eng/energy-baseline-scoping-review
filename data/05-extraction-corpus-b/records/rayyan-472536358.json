@@ -1,0 +1,1319 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536358",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13T00:00:00Z",
+  "attempt": 2,
+  "n_pages_read": 16,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "industrial gases production / air separation process",
+        "evidence_quote": "The aim of this work is to analyse the energy performance of industrial gases production in Italy, focusing on the air separation process to produce pure O2 and N2, in gaseous and liquid state.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Italy",
+        "evidence_quote": "The aim of this work is to analyse the energy performance of industrial gases production in Italy, focusing on the air separation process to produce pure O2 and N2, in gaseous and liquid state.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "We analysed the audits carried out by industrial gases producers and built a database of 12 producers and 38 plants.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Cryogenic air separation units producing nitrogen, oxygen and argon (gaseous and liquid), across Italian industrial gas production sites",
+        "evidence_quote": "We focused the data collection on the production of nitrogen (N2), oxygen (O2), and argon gases.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery or petrochemical named but not an empirical application here",
+        "evidence_quote": "The Industrial Gas sector includes 12 enterprises with 38 production sites in Italy, located in most cases close to industrial centres and reϐineries, with a ϐinal energy consumption about 800 ktoe.",
+        "page": 6,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Primary Real EnPI",
+          "baseline_period_start": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Mean of the specific energy consumption per unit of production across the analysed sites, with standard deviation",
+            "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed and then is calculated its standard deviation.",
+            "page": 9,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "mean = 1.27 ·10-4 toe/Nm3",
+            "SD = 4.83 ·10-5 toe/Nm3"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The averaged facility-level SEC (Speciϐic Energy Consumption) values were used as proxies for EnPIs, deϐined as energy consumed per unit of production.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "The EnPI of the primary energy consumption at site level has been calculated by including the use of",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production volume",
+              "evidence_quote": "we calculated the average of Energy Performance Indicators (EnPI) in relation to global production (in Nm3)",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "toe/Nm3",
+              "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": 0,
+              "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "MATLAB",
+                "Excel",
+                "Python",
+                "R"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production (Nm3)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "The averaged facility-level SEC (Speciϐic Energy Consumption) values were used as proxies for EnPIs, deϐined as energy consumed per unit of production.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database (Audit102 portal - https://audit102.enea.it/)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 27,
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample).",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "periodic, interval stated",
+              "evidence_quote": "The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years, starting from December 2015.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "A preliminary analysis of 2018 and 2022 data has been carried out to understand the evolution of EnPIs between the second and third cycles of mandatory energy audits according to EED.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "mandatory energy audit every four years",
+              "evidence_quote": "the obligation for large companies to submit an energy audit of their production sites every four years",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid",
+                "range",
+                "envelope",
+                "applicable"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Real EnPI mean ± standard deviation",
+                  "value": "1.27 ·10-4 ± 4.83 ·10-5",
+                  "unit": "toe/Nm3",
+                  "period_or_context": "2022, all 27 sites",
+                  "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+                  "page": 10,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "We observe an increase on the energy efficiency in the sector in 2022 with a 7% reduction of the mean value of the Real EnPI (from 1.37 ·10-4 to 1.27 ·10-4 toe/ Nm3)",
+                "page": 13,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction of mean Real EnPI 2018 to 2022",
+                  "value": "7",
+                  "unit": "%",
+                  "period_or_context": "2018 to 2022, primary energy",
+                  "evidence_quote": "We observe an increase on the energy efficiency in the sector in 2022 with a 7% reduction of the mean value of the Real EnPI (from 1.37 ·10-4 to 1.27 ·10-4 toe/ Nm3)",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "site-level energy consumption and production data extracted from mandatory energy audits (Audit102 portal)"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Electrical Real EnPI",
+          "baseline_period_start": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Mean of the specific electrical energy consumption per unit of production across the analysed sites, with standard deviation",
+            "evidence_quote": "Also, the speciϐic electrical EnPI has been calculated since the electricity accounts by 84% of total energy consumption (92% of main activities).",
+            "page": 10,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "mean = 0.650 kWh/Nm3",
+            "SD = 0.257 kWh/Nm3"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Also, the speciϐic electrical EnPI has been calculated since the electricity accounts by 84% of total energy consumption (92% of main activities).",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Also, the speciϐic electrical EnPI has been calculated since the electricity accounts by 84% of total energy consumption (92% of main activities).",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production volume",
+              "evidence_quote": "we calculated the average of Energy Performance Indicators (EnPI) in relation to global production (in Nm3)",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/Nm3",
+              "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": 0,
+              "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "MATLAB",
+                "Excel",
+                "Python"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production (Nm3)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "The averaged facility-level SEC (Speciϐic Energy Consumption) values were used as proxies for EnPIs, deϐined as energy consumed per unit of production.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database (Audit102 portal - https://audit102.enea.it/)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 27,
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample).",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the electricity accounts by 84% of total energy consumption (92% of main activities)",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "periodic, interval stated",
+              "evidence_quote": "The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years, starting from December 2015.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "A preliminary analysis of 2018 and 2022 data has been carried out to understand the evolution of EnPIs between the second and third cycles of mandatory energy audits according to EED.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "mandatory energy audit every four years",
+              "evidence_quote": "the obligation for large companies to submit an energy audit of their production sites every four years",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid",
+                "range",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Real EnPI mean ± standard deviation",
+                  "value": "0.650 ± 0.257",
+                  "unit": "kWh/Nm3",
+                  "period_or_context": "2022, all 27 sites, electrical",
+                  "evidence_quote": "The Primary and Electrical Real EnPIs are 1.27 ·10-4 ± 4.83 ·10-5 toe/Nm3 and 0.650 ± 0.257 kWh/Nm3 respectively.",
+                  "page": 10,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "electrical",
+                  "reduction",
+                  "saving"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "site-level electricity consumption and production data from mandatory energy audits"
+          ]
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Primary EnPI Model (linear regression of energy consumption and production)",
+          "baseline_period_start": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Linear regression of primary energy consumption against production, with uncertainty band from the covariance matrix at 95% confidence",
+            "evidence_quote": "a linear correlation between energy consumption and production is analysed.",
+            "page": 9,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "a (slope) = 8.991·10-5 toe/Nm3",
+            "b (intercept term) = 5.043·103 toe"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "The EnPI of the primary energy consumption at site level has been calculated by including the use of",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "toe (regression dependent); EnPI model expressed in toe/Nm3",
+              "evidence_quote": "compared to the slope of the regression = 8.991·10-5 toe/Nm3 and 0.448 kWh/Nm3, a relative difference of 6% and 16% between primary and electrical values respectively",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Secondly, a linear correlation between energy consumption and production is analysed. Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "fitting",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "a linear correlation between energy consumption and production is analysed.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "MATLAB",
+                "Excel",
+                "Python",
+                "R"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production (Nm3)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Secondly, a linear correlation between energy consumption and production is analysed.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "state of gas produced (liquid vs gaseous)",
+              "type": "product mix",
+              "role": "segmentation",
+              "evidence_quote": "The 27 sampled sites produce gases in different states: 8 sites produce only liquid, 3 sites produce gas in gaseous state, and 16 sites produce both states.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "distribution of share of final products (oxygen, nitrogen and argon)",
+              "type": "product mix",
+              "role": "excluded",
+              "evidence_quote": "Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required to better understand the energy performance of the technical gas sector",
+              "page": 13,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database (Audit102 portal - https://audit102.enea.it/)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 27,
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample).",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "periodic, interval stated",
+              "evidence_quote": "The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years, starting from December 2015.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "A preliminary analysis of 2018 and 2022 data has been carried out to understand the evolution of EnPIs between the second and third cycles of mandatory energy audits according to EED.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "mandatory energy audit every four years",
+              "evidence_quote": "the obligation for large companies to submit an energy audit of their production sites every four years",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The model presents a low dispersion for a large production range (200 to 1000 MNm3) with a mean value close to 0.0001 toe/Nm3 and 0.5 kWh/Nm3 for Primary and Electrical EnPIs.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "low accuracy for productions < 200 MNm3; low dispersion for 200 to 1000 MNm3",
+              "evidence_quote": "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the upper and lower curves.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The coefficient of determination is close to 0.75 for both cases, and the p-value < 0.0001.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": "0.736",
+                  "unit": null,
+                  "period_or_context": "Primary, all sites, n=27",
+                  "evidence_quote": "0.736 \n<0.0001 \n10-1000 \n(n=27)",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "<0.0001",
+                  "unit": null,
+                  "period_or_context": "Primary, all sites, n=27",
+                  "evidence_quote": "0.736 \n<0.0001 \n10-1000 \n(n=27)",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "a 12% reduction of the fixed term of EnPI Model (from 10.183 ·10-5 to 8.991·10-5 toe/ Nm3), which  corresponds to slope of linear correlation between energy consumption and production",
+                "page": 13,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction of fixed term (slope) of EnPI Model 2018 to 2022",
+                  "value": "12",
+                  "unit": "%",
+                  "period_or_context": "2018 to 2022, primary energy",
+                  "evidence_quote": "a 12% reduction of the fixed term of EnPI Model (from 10.183 ·10-5 to 8.991·10-5 toe/ Nm3), which  corresponds to slope of linear correlation between energy consumption and production",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "site-level energy consumption and production data across multiple sites to fit a sectoral regression"
+          ],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "production",
+              "temperature"
+            ]
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Electrical EnPI Model (linear regression of electricity consumption and production)",
+          "baseline_period_start": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2022",
+            "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Linear regression of electricity consumption against production, with uncertainty band from the covariance matrix at 95% confidence",
+            "evidence_quote": "a linear correlation between energy consumption and production is analysed.",
+            "page": 9,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "a (slope) = 0.448 kWh/Nm3",
+            "b (intercept term) = 2.333·107 kWh"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Also, the speciϐic electrical EnPI has been calculated since the electricity accounts by 84% of total energy consumption (92% of main activities).",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "kWh (regression dependent); EnPI model expressed in kWh/Nm3",
+              "evidence_quote": "compared to the slope of the regression = 8.991·10-5 toe/Nm3 and 0.448 kWh/Nm3, a relative difference of 6% and 16% between primary and electrical values respectively",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Secondly, a linear correlation between energy consumption and production is analysed. Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "Linear regression is represented by the equation:",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "a linear correlation between energy consumption and production is analysed.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "MATLAB",
+                "Excel"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production (Nm3)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Secondly, a linear correlation between energy consumption and production is analysed.",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The process begins with the systematic extraction of site-level energy and production data from the audits database (Audit102 portal - https://audit102.enea.it/)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 27,
+              "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample).",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "the systematic extraction of site-level energy and production data from the audits database",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the electricity accounts by 84% of total energy consumption (92% of main activities)",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "periodic, interval stated",
+              "evidence_quote": "The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years, starting from December 2015.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "A preliminary analysis of 2018 and 2022 data has been carried out to understand the evolution of EnPIs between the second and third cycles of mandatory energy audits according to EED.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "mandatory energy audit every four years",
+              "evidence_quote": "the obligation for large companies to submit an energy audit of their production sites every four years",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The model presents a low dispersion for a large production range (200 to 1000 MNm3) with a mean value close to 0.0001 toe/Nm3 and 0.5 kWh/Nm3 for Primary and Electrical EnPIs.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "low accuracy for productions < 200 MNm3; low dispersion for 200 to 1000 MNm3",
+              "evidence_quote": "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the upper and lower curves.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The coefficient of determination is close to 0.75 for both cases, and the p-value < 0.0001.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": "0.758",
+                  "unit": null,
+                  "period_or_context": "Electrical, all sites, n=27",
+                  "evidence_quote": "0.758 \n<0.0001 \n10-1000 \n(n=27)",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "<0.0001",
+                  "unit": null,
+                  "period_or_context": "Electrical, all sites, n=27",
+                  "evidence_quote": "0.758 \n<0.0001 \n10-1000 \n(n=27)",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "electrical",
+                  "reduction",
+                  "saving"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "site-level electricity consumption and production data across multiple sites to fit a sectoral regression"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "industrial gases",
+        "evidence_quote": "The production of industrial gases is a subsector of chemical industry, and its market value in the EU27 was approximately €18 billion in 2024",
+        "page": 3,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M3",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the upper and lower curves.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "validity envelope exceeded"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M3",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "However, the lower curve presents negative asymptotic behavior, in the very beginning.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "This result is aligned with literature data (for liquid higher energy consumption [17]) and it is mainly due to the energy consumption of recompression steps after distillation process.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M3",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The production of gas is very variable in terms of total production (from 10⋅106 to 1000⋅106 Nm3/year) and composition of products (that is heterogeneous reported on the energy audits).",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "M3",
+      "claim_status": "applied to the case",
+      "evidence_quote": "First, the statistics of 2018 present a higher standard deviation on the Real EnPI (52% vs. 38%), but regression model presents a higher correlation (R2=0.873 vs. 0.736) compared to 2022 data. Hence, it is necessary to improve the comparability of data.",
+      "page": 13,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "temporal comparability of the model between audit cycles is limited"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "segmented baseline",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Hence, additional analysis by production intervals should be carried out.",
+      "page": 13,
+      "support_class": "direct statement",
+      "refers_to": "M3"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Further analysis will be focused on the analysis of different variables that affect energy efficiency of the industrial gases sector.",
+      "page": 15,
+      "support_class": "direct statement",
+      "refers_to": "M3"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "normalisation to a reference product",
+      "status": "proposed",
+      "addresses_mechanism": "K3",
+      "normative_framing": "absent",
+      "evidence_quote": "Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required to better understand the energy performance of the technical gas sector",
+      "page": 13,
+      "support_class": "requires inference",
+      "refers_to": "M3"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample).",
+      "page": 9
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "Other sites owned by non-energy intensive companies in the sector were excluded from the analysis.",
+      "page": 6
+    }
+  ],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "Linear regression is represented by the equation:",
+      "page": 9,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "compared to the slope of the regression = 8.991·10-5 toe/Nm3 and 0.448 kWh/Nm3, a relative difference of 6% and 16% between primary and electrical values respectively",
+      "page": 10,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "dataset",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "GitHub",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "Paper is a multi-site sector benchmarking study of Italian industrial gas (air separation) production based on mandatory energy audits. Two model constructs are reported (Real EnPI = mean SEC; EnPI Model = linear regression of energy consumption vs production), each computed for primary and electrical energy, so four models are recorded. The regression dependent variable is absolute energy consumption (Energy Consumption [toe] = a·Production + b); the EnPI model is a derived SEC transformation. R2 values are taken from Table 1 (page 11); page reference may need review because table text is fragmented. Re-estimation is coded periodic (every four-year audit cycle) as the EnPIs were recomputed for 2018 and 2022. Refinery/petrochemical flag set to 'named but not an empirical application' because refineries appear only as siting context and as an external benchmark.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "accuracy",
+        "limitation",
+        "comparability",
+        "heterogeneous",
+        "small production",
+        "assumption"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "further analysis",
+        "future",
+        "should be carried out",
+        "improve",
+        "normalisation"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "excluded",
+        "sample",
+        "limitation",
+        "data",
+        "homogenous"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "cost",
+        "investment",
+        "maintenance",
+        "implementation"
+      ]
+    }
+  }
+}

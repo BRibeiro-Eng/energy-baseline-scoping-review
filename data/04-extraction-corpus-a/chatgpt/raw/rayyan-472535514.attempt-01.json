@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535514",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:17:07+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper considers a range of issues of improving energy efficiency and saving with by means of a qualitatively new approach, which includes the widespread introduction of effective management techniques, namely energy management systems based on the ISO 50001 standard.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ineligibility_reason": "Discusses ISO 50001 EMS implementation and generic indicator forms but does not identify or characterise an EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "Designing an energy management system requires the company to take four steps [5]:",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Generic EMS implementation guidance with a brief KAMAZ example; no fitted or otherwise characterisable EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536376",
+  "listed_sector_signals": [
+    {
+      "signal": "Steel and pulp & paper named in literature review as prior sectors where energy performance indicators were developed (citation only, not this paper's context)",
+      "quote": "such as steel [16], pulp and paper [17],\naluminium [18], food [19], textiles [20] and engineering [21].",
+      "page": 3,
+      "sector": "steel and other primary-metals continuous production; pulp & paper"
+    },
+    {
+      "signal": "Oil refinery named as a sector where the same EnPI methodology was previously applied (reference to a prior study, not this paper's context)",
+      "quote": "already successfully applied to several\nproductive sectors, such as ceramic [32], oil refinery [33], and pharmaceutical [34].",
+      "page": 3,
+      "sector": "petroleum refining"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Aluminium industry cited in literature review as a sector with energy performance indicators",
+      "quote": "such as steel [16], pulp and paper [17],\naluminium [18], food [19], textiles [20] and engineering [21].",
+      "page": 3,
+      "sector": "aluminium"
+    },
+    {
+      "signal": "Ceramic industry named as a sector where the same methodology was previously applied",
+      "quote": "already successfully applied to several\nproductive sectors, such as ceramic [32], oil refinery [33], and pharmaceutical [34].",
+      "page": 3,
+      "sector": "ceramics"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically analyses Italian mandatory energy audits of the rubber manufacturing industry (tyres and other rubber products, NACE C22.1) to compute energy performance indicators and evaluate efficiency interventions; listed Corpus-B sectors (steel, pulp & paper, oil refinery) appear only as literature-review citations of prior methodology applications."
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536370",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T10:35:51+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "introduces an innovative method to foster energy efficiency in the wine industry, focussing on the",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Data from 20 firms were collected, spanning the three most recent full annals available",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a data collection form was developed and submitted to twenty wineries across Italy",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline paper_type: methodology proposal validated on 20 firms (coded multi-case study). Wine=batch, not a listed continuous sector; type_of_organisation coded discrete manufacturing."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Data from 20 firms were collected",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "submitted to twenty wineries across Italy",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "wine sector",
+      "evidence_quote": "the wine sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "In wine production, there are, in fact, three main sources of variability",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "The ISO 50006:2023 standard [34] provides guidelines to establish an appropriate energy performance indicator",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "The linear regression has been used to relate the dependent and the independent variables",
+        "the specific energy consumption (SEC)"
+      ],
+      "page": [
+        7,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

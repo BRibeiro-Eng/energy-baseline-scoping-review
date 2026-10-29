@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535715",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:01:10Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The following paper introduces a condign monitoring strategy and architecture that fills this gap",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Presents a machine-tool energy/resource consumption monitoring system and measurement architecture (internal/external sensors + PLC-based component simulation, AO energetic-behaviour classification); no EnPI or energy-baseline performance-measurement model is constructed or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "the modular software and hardware architecture enables a suitable monitoring approach for different applications and machine tool types",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline: machine-tool energy monitoring architecture (sensors+simulation, AO component classification), not an EnPI/EnB indicator or baseline model. Judged ineligible; flag for human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

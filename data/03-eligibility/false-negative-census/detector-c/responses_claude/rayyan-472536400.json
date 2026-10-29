@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536400",
+  "listed_sector_signals": [
+    {
+      "signal": "Cites prior application of the same ENEA energy-audit/EnPI methodology to the Italian cement industry (continuous clinker production) — methodological reference only, not the subject of this paper",
+      "quote": "A methodology to characterize productive sectors. the italian cement industry case study. Energies",
+      "page": 29,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "States the same EPIA statistical approach was already used for the Italian glass sector (continuous melting / float lines) — mentioned as a prior branch, not applied here",
+      "quote": "has already been used for other branches of Italian productive sectors,\nnamely glass [36] and foundries [37].",
+      "page": 18,
+      "sector": "glass (continuous melting, float lines)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Mentions foundries as another sector to which the methodology was previously applied (metal casting / primary-metals processing) — reference only",
+      "quote": "namely glass [36] and foundries [37].",
+      "page": 18,
+      "sector": "foundries / primary metals"
+    },
+    {
+      "signal": "Discusses the broader chemical industry (NACE 20) whose main processes are chemical reactions, as comparison context for pharmaceuticals — not the application subject",
+      "quote": "sectors 20 and 21.10 are comparable since their main\nprocesses are chemical reactions, such as inorganic, organic or biochemical.",
+      "page": 3,
+      "sector": "chemical production"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "Empirical study of 84 Italian pharmaceutical-manufacturing (NACE 21.20, drug formulation/mixing/filling/finishing — batch, not continuous) energy audits to derive energy performance indicators and energy-saving actions; continuous-flow sectors (cement, glass, foundries, chemicals) appear only as methodological or comparison references."
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535648",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:57:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "By developing the SEAPs for each of these cities historical energy consumption data were obtained and relevant indicators of energy consumption MWh/capita and GHG emissions tCO2/capita were calculated.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Integrated EnMS+SEAP approach was tested in 41 municipalities in eight EU countries (Latvia, Italy, Greece, Spain, Romania, France, Bulgaria, and Poland).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Through implementation and continuous improvement of energy management systems in public buildings and infrastructure, municipalities are able to tackle further challenges across different fields of interest in the whole territory of the municipality.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Municipal public buildings and infrastructure are outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Integrated EnMS+SEAP approach was tested in 41 municipalities in eight EU countries",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Latvia, Italy, Greece, Spain, Romania, France, Bulgaria, and Poland",
+      "evidence_quote": "Latvia, Italy, Greece, Spain, Romania, France, Bulgaria, and Poland",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "municipalities",
+      "evidence_quote": "Integrated EnMS+SEAP approach was tested in 41 municipalities",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "energy management systems in public buildings and infrastructure",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The method proposed by this study is based on introduction of systematic approach for continuous improvement of energy performance and CO2 emission reduction based on the ISO 50001 with SEAPs.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "relevant indicators of energy consumption MWh/capita and GHG emissions tCO2/capita were calculated",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

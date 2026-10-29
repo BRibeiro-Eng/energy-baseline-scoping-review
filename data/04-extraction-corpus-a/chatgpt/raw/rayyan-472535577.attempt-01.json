@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535577",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:01:29Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "This research is a quantitative research using survey method. The survey was carried out by giving a questionnaire to the research object.",
+        "The questions of questionnaire refer to the guideline for the EnMS implementation published by UNIDO where there are 9 questions related to variables that influence the EnMS implementation [13]."
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The paper surveys the sustainability of EnMS implementation; it does not identify or characterise an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The research object consisted of 28 industries from 1 glass and ceramic sector, 16 textile and garment sector, 2 pulp and paper sector, 3 food and beverage sector, and 6 chemical sector.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "EnPI and baseline appear only as questionnaire items; no measurement model is characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

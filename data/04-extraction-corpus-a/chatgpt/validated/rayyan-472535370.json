@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535370",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T12:45:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In addition to single-family and multi-family residential buildings, the main facilities targeted by the project include schools, kindergartens, and administrative buildings.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": "Exclusive application focus is residential, educational, and administrative buildings without an industrial-production component.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The purpose of this paper is to propose and outline a conceptual model, grounded in preliminary research, for the modernization of the heating system in the Orlandovtsi district.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Topical exclusion: residential/public-building district-heating concept without industrial production; the source states that no specific project currently exists."
+  },
+  "stage2": null,
+  "stage3": null
+}

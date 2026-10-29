@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535415",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "an energy performance indicator is proposed that relates energy consumption to the water flow of the entire pumping system",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The methodology applied in the case study",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the distillation towers' heat exchangers and the soap plant's vacuum systems",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "notes": "Cooling-tower pumping utility in a soap/glycerin (oleochemical) plant with distillation towers; sector not on the closed continuous-process list, so level_3b=false and flagged for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "replacing the pumps in the clean-water-cooling tower plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "In Colombia, environmental policy tools",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "soap plant",
+      "evidence_quote": "the soap plant's vacuum systems",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the distillation towers' heat exchangers and the soap plant's vacuum systems",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": ["a methodology based on the ISO-50001 standard", "ISO 50006 - Energy Management Systems"],
+      "page": [2, 19],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression"],
+      "evidence_quote": "the least squares linear regression technique was applied to these data",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

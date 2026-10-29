@@ -1,0 +1,77 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535628",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "South Africa",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "cement plant",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "No energy baseline was constructed. Monthly coal quantity was converted to energy using average monthly calorific values, and monthly coal export prices were used with coal consumed to estimate monthly cost.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "improvements to kiln coal consumption mainly require large capital investments"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "monthly average calorific value",
+          "South African coal export price",
+          "tonnes coal consumed"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "facility",
+        "scope_description": "A South African cement plant with two kilns, two coal mills, a raw mill, and four finishing mills.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535628",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

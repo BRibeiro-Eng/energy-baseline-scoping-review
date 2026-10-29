@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535568",
+ "tier": "A",
+ "ts": "2026-09-10T18:41:29",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "refinery",
+  "refining",
+  "ammonia",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 5409.0,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "aplicação a uma caldeira para produção de vapor que é processo continuo"
+}

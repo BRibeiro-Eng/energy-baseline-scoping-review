@@ -1,0 +1,113 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535657",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Thailand",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "SEC mean"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "national audit decree"
+        ],
+        "sector_of_activity": "designated factories and buildings",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Sector-level SEC is compared with base-year SEC using an equation adjusted from ODEX and multiplied by production; only facilities reporting energy data for every year from 2010 through 2013 are included.",
+        "baseline_period_end": "2010",
+        "baseline_period_start": "2010",
+        "data_type": "audit data",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [
+          "some DFBS do not have energy manager",
+          "the lack of strictness of law enforcement",
+          "the lack of awareness of facility’s owner"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "production, by weight or volume basis",
+          "total floor area"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "The estimated energy savings by using ODEX estimation in the year 2013 comparing to the base year 2010 are 179.97 ktoe in\nselected designated factories and 54.41 ktoe in selected designated commercial buildings.",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 1,
+            "period_or_context": "2013 compared with base year 2010; selected designated factories",
+            "unit": "ktoe",
+            "value": "179.97"
+          },
+          {
+            "evidence_quote": "The estimated energy savings by using ODEX estimation in the year 2013 comparing to the base year 2010 are 179.97 ktoe in\nselected designated factories and 54.41 ktoe in selected designated commercial buildings.",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 1,
+            "period_or_context": "2013 compared with base year 2010; selected designated commercial buildings",
+            "unit": "ktoe",
+            "value": "54.41"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "facility",
+        "scope_description": "Country-wide tracking of selected designated factories and commercial buildings in Thailand using annual EnMS reports and sector-level SEC/ODEX estimates.",
+        "specific_limitations": [],
+        "validation_types": [
+          "empirical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535657",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Thailand",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "SEC mean"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "national audit decree"
+        ],
+        "sector_of_activity": "designated factories and buildings",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

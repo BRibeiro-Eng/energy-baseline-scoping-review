@@ -1,0 +1,370 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535511",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:15:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "MMAE of monthly consumption vs. daily bed occupations, x. Reduction in per capita energy consumption (2019 vs. 2018): 18.2%.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The applied research took place during consulting exercises in which the model and tools were validated and adapted to six cases of companies between 2014 and 2019, with positive results and the ratiﬁcation of the approach.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "Figure 11 presents the characteristics and proﬁles of six companies located in Colombia, in the Departments of Atlántico, La Guajira and Cundinamarca, where the preliminary application of the CRM Model was made",
+        "Manufacturing\n(Glass Containers)"
+      ],
+      "page": [
+        22,
+        22
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "notes": "Six-company mixed-sector application includes an explicit glass-container manufacturing case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The applied research took place during consulting exercises in which the model and tools were validated and adapted to six cases of companies between 2014 and 2019",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "country_region": {
+      "value": "Colombia: Atlántico, La Guajira, Cundinamarca",
+      "evidence_quote": "Figure 11 presents the characteristics and proﬁles of six companies located in Colombia, in the Departments of Atlántico, La Guajira and Cundinamarca",
+      "page": 22,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "goods and services companies",
+      "evidence_quote": "the initial application of the Model and its Tools in goods and services companies.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": [
+        "Municipal Hospital\n(Health Services).",
+        "Manufacturing\n(Glass Containers)"
+      ],
+      "page": [
+        22,
+        22
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "The ISO 50001: 2018 standard also includes particular requirements",
+        "ISO. ISO 50006: 2014 Energy Management Systems—Measuring Energy Performance Using Energy Baselines (EnB)\nand Energy Performance Indicators (EnPI)—General Principles and Guidance",
+        "ISO. ISO 50015: 2014 Energy Management Systems—Measurement and Veriﬁcation of Energy Performance of\nOrganizations—General Principles and Guidance"
+      ],
+      "page": [
+        12,
+        41,
+        41
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "ISO 17743"
+      ],
+      "evidence_quote": "ISO 17743:2016, Energy Savings. Deﬁnition of a Methodological Framework Applicable to Calculation and\nReporting on Energy Savings",
+      "page": 43,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "MMAE of monthly consumption vs. daily bed occupations, x. Reduction in per capita energy consumption (2019 vs. 2018): 18.2%.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "daily bed occupations",
+        "container",
+        "capita"
+      ],
+      "evidence_quote": [
+        "MMAE of monthly consumption vs. daily bed occupations",
+        "kilowatt-hour per container",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 8.1%."
+      ],
+      "page": [
+        26,
+        26,
+        26
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Energy performance was tracked using per-capita consumption reductions comparing 2019 with 2018, with monthly consumption normalised against daily bed occupations for hospital and clinic cases.",
+      "evidence_quote": [
+        "MMAE of monthly consumption vs. daily bed occupations",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 18.2%."
+      ],
+      "page": [
+        26,
+        26
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.88
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "In the six organizations, the correct functionality of the model and the incidence indicators for the\nmanagement of opportunities and the reduction of vulnerability were ratiﬁed.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "scope_description": {
+      "value": "The glass-container manufacturing organisation's energy-efficiency programme covered its furnace, lighting, ventilation and conditioning, and supply chain.",
+      "evidence_quote": [
+        "Manufacturing (Glass Containers) (i). Global corporate savings program with an emphasis on\noven and training",
+        "(vii). Automatic control and energy-saving alternatives in\nlighting. (Natural and solar panels). (viii). Optimization in ventilation and conditioning. (ix).\nReduction of consumption in the supply chain."
+      ],
+      "page": [
+        26,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Some values result from projections and assumptions that were raised from the companies\nto consider force majeure stops or external factors that generate distortion in the handling of data.\nThe 2020 records are not included, given their irregularity due to the conﬁnement.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Some values result from projections and assumptions that were raised from the companies\nto consider force majeure stops or external factors that generate distortion in the handling of data.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The 2020 records are not included, given their irregularity due to the conﬁnement.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Manufacturing\n(Glass Containers)",
+      "page": 22,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "MMAE of monthly consumption vs. daily bed occupations",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "8.1%",
+          "unit": "%",
+          "period_or_context": "Compensation Fund; 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 8.1%.",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "18.2%",
+          "unit": "%",
+          "period_or_context": "Municipal Hospital; 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 18.2%.",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "20.3%",
+          "unit": "%",
+          "period_or_context": "Clinic; 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 20.3%.",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "12.2%",
+          "unit": "%",
+          "period_or_context": "Pharmaceutical Laboratory; 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita consumption (2019 vs. 2018): 12.2%.",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "15.2%",
+          "unit": "%",
+          "period_or_context": "Port Operation and Logistics Services; 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 15.2%.",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "10.2%",
+          "unit": "%",
+          "period_or_context": "Manufacturing (Glass Containers); 2019 vs. 2018",
+          "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 10.2%.",
+          "page": 27,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "Reduction in per capita energy consumption (2019 vs. 2018): 8.1%.",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 18.2%.",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 20.3%.",
+        "Reduction in per capita consumption (2019 vs. 2018): 12.2%.",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 15.2%.",
+        "Reduction in per capita energy consumption (2019 vs. 2018): 10.2%."
+      ],
+      "page": [
+        26,
+        26,
+        26,
+        26,
+        26,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "need to particularize and detail tools for different business sectors",
+        "creative and analytical skills, discipline, culture, and organisation of leaders and process managers",
+        "incompatibility between information-system and process-control interfaces",
+        "changes in ICT development priorities"
+      ],
+      "evidence_quote": [
+        "In practice, the application of the model and its eﬀective implementation is limited by the need to\nparticularize and detail the tools for diﬀerent sectors of the business activity, which constitute possible",
+        "Another limitation is associated with the development of creative, analytical,\nand abstract thinking, and with the strengthening of the discipline, culture and organization of leaders\nand process managers",
+        "From a technological point of view, there are also limitations generated by the diﬃculties of\ncompatibility between interfaces of the information systems and process control, and the changes in\npriorities in the strategic approach to ICT developments."
+      ],
+      "page": [
+        27,
+        28,
+        28
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    }
+  }
+}

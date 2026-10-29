@@ -1,0 +1,15 @@
+{
+  "key": "rayyan-472535390",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Grid electricity emission factor derived from a power-generation mix that includes combined-cycle (and geothermal/solar/wind) plants, used to compute the CO2 emission factor — combined-cycle plants are continuous-flow power generation, but referenced only as background for the grid factor, not as the study's application context",
+      "quote": "In our particular case, combined cycle, geothermal, solar photovoltaic, and onshore wind power plants are considered.",
+      "page": 11,
+      "sector": "power generation / combined-cycle (cogeneration-adjacent)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "Case study applying an ISO 50001 + ISO 46001 integrated energy- and water-management system to an unnamed (confidential) discrete manufacturing company in Mexico, tracking per-item energy, water, and CO2 reductions; production is item-based/discrete, not continuous-flow, and no registered Corpus B sector is the application context."
+}

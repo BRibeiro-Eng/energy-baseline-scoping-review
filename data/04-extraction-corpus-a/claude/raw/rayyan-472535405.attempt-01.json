@@ -1,0 +1,234 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535405",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:30:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "identification of 17 EnPI, as compared with the literature, and finally, we proposed a model for the decarbonization of the steel industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "We applied the methodology to a case study of two steel mills.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "VALIDATION DATA OF CALCULATED ENPIS FOR THE STEEL SECTOR",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "notes": "EnPIs are specific-energy intensity ratios (GJ/t, kWh/t, Sm3/t) for two EAF steel mills. Steel is explicitly enumerated in the closed continuous-process list, so level_3b=true, though EAF steelmaking is batch per heat."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study is carried out with the participation of two steel mills",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "steel industry",
+      "evidence_quote": "The work aims to help the energy-intensive industry like the steel industry in decarbonization.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The steel manufacturing process (SMP) is categorized into m different processes",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "other-named"],
+      "evidence_quote": ["ISO 50001 and ISO 14064", "energy audits EN 16247"],
+      "page": [1, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio"],
+      "evidence_quote": "thermal energy consumption (Sm3/t), and total energy consumption (GJ/t) for ACC, FOR, LAM, and TT, GJ/t for RIF",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": ["production (tonnes of steel produced)"],
+      "evidence_quote": "the production of kilo tons of steel at five different stages",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "Energy consumption of each equipment is summed to obtain each process's total energy, then converted to Tera joule (TJ) using regional emission factors and expressed as specific energy-consumption EnPIs (per tonne of steel) that are benchmarked against literature values; no regression baseline model is fitted.",
+      "evidence_quote": "By calculating the energy consumption of each equipment the total energy of the process is calculated. The energy consumption is then converted to Tera joul (TJ) by using the emission factors of that region for the sake of comparison.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "validation_types": {
+      "value": ["empirical"],
+      "evidence_quote": "The computed EnpIs are then compared with the literature available.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "It has been done on process and mill level.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scope_description": {
+      "value": "The steel manufacturing process of two steel mills, categorized into mill level, system flows and processes (steelmaking, casting, conditioning, forging, hot rolling, heat treatment, surface treatment, cold working, peeling, reeling).",
+      "evidence_quote": "The steel manufacturing process (SMP) is categorized into m different processes mainly steelmaking, casting, conditioning, forging, hot rolling, heat treatment, surface treatment, cold working, peeling, and reeling.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "We applied the methodology to a case study of two steel mills.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "whose audit is carried out by an energy consulting company",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "implementation_barriers": {
+      "value": [
+        "Collection and sorting of the data according to the different processes and functional areas",
+        "Accurate information about the monitoring system and efficiencies of the plants/processes"
+      ],
+      "evidence_quote": [
+        "The major challenge was the collection and sorting of the data according to the different processes and functional areas.",
+        "A major challenge was the accurate information about the monitoring system and efficiencies of the plants/processes."
+      ],
+      "page": [6, 6],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536588",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "physical model",
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "lime production industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Energy intensity was constructed as energy input divided by output of lime in metric tonnes.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "audit data",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "output of lime in metric tonnes"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "equipment",
+        "scope_description": "the limekiln, as calcination is the most energy demanding stage of the lime production process",
+        "specific_limitations": [],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536588",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "physical model",
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "lime industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

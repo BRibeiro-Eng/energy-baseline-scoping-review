@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": false,
+    "paper_type": null
+  },
+  "key": "rayyan-472536732",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Dong, D. and Ming, W.",
+    "rayyan_decision": "Included",
+    "source": "2010 International Conference on Future Information Technology and Management Engineering, FITME 2010",
+    "title": "Energy performance index based on LMDI technique and decomposition analysis of Beijing's energy consumption",
+    "year": 2010
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "not_reported_after_full_text_review",
+      "quote": null,
+      "page": null,
+      "rule": "§5.2 EXCLUSAO TOPICAL — 'politica energetica governamental sem dimensao organizacional'. O foco exclusivo e uma decomposicao de indices ao nivel de cidade/economia (Pequim, 2000-2008) sobre agregados primario/secundario/terciario, enquadrada para politica ('providing decision support for carrying out relevant policies and measures'; seccao final 'CONCLUSION AND POLICY SUGGESTION' recomendando tarifas escalonadas). Nenhuma unidade de analise organizacional, de instalacao, fabrica ou empresa aparece: sem ISO 50001/50006, sem sistemas de gestao de energia, sem auditorias, sem EnPI/EnB ao nivel de empresa."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:37"
+}

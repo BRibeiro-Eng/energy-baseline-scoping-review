@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535562",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:20:59Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "It was also possible to identify the main approaches proposed by the authors of the bibliographic portfolio in relation to energy management indicators in manufacturing and industry 4.0",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "there were 10 articles that represent the bibliographic portfolio on indicators for energy management in manufacturing and industry 4.0",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Performance Indicators for Energy Management in Manufacturing and Industry 4.0",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Proknow-C bibliometric review of 10 energy-management-indicator papers; covered approaches described only at a high level (Table 3), no model variables/forms characterised - flagged borderline for human eligibility review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing and industry 4.0",
+      "evidence_quote": "energy management indicators for manufacturing and industry 4.0",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "most of the studies were focused on traditional manufacturing companies",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "introducing an ISO 50001 energy management system",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "not applicable"
+      ],
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

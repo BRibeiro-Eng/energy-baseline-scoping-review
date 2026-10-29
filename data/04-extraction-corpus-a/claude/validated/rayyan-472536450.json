@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536450",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:17:09.123846+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The proposed methodology was used for the construction of an EnB for the boiler house of the DHS.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This methodology was applied to a boiler house of a district heating system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "heat production by the boiler house of the DHS",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "level_3b=false: the district-heating boiler house is a continuous-flow facility but district heating is not in the closed v2.3 continuous-process list; flagged for human decision per protocol."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the construction of an EnB for the boiler house of the DHS",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "district heating system",
+      "evidence_quote": "a boiler house of a district heating system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Fuel, electric power, and water are consumed for the heat production by the boiler house of the DHS.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "Energy Management Standard ISO 50001",
+        "ISO 50006:2014",
+        "ISO 50004:2020"
+      ],
+      "page": [
+        3,
+        15,
+        15
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "Linear description model with interaction effect",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "involves the usage of multicriteria selection of model",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  },
+  "stage3": null
+}

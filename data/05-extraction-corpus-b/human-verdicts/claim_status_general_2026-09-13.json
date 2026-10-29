@@ -1,0 +1,95 @@
+{
+  "record_type": "human_verdict_claim_status_general",
+  "confirmed_at": "2026-09-13",
+  "reviewer": "B. Ribeiro",
+  "scope": "the 8 claim_status='general' occurrences in the five pilot records (production/stage_c/pilot_claude/outputs/)",
+  "verdict": "all 8 confirmed as 'general'",
+  "basis": "EXTRACTED PAGE TEXT of the cited physical pages, read in conversation and presented to the reviewer with surrounding context for the two occurrences whose pronoun referent lay outside the quote. NOT a reading of the PDF, and therefore NOT a V1 verification as the verification matrix defines it: V1 is a human opening the cited page. This is weaker and is recorded as what it is.",
+  "notes": [
+    "Two of the eight have an 'empirically demonstrated' twin in the same record -- 472535351 (the paper states that no definitive validation approach exists, citing Law 2022, and then validates its own model and finds the simulated values below the measured ones) and 472536694 (the benchmark-becomes-unrepresentative principle, then demonstrated on the US cement industry). That split is the behaviour the claim_status field was added for.",
+    "Three of the eight carry an explicit citation to other literature (McLaughlin et al. 2016; Law 2022), which is the clearest form of 'general'.",
+    "Cosmetic, not a classification error: 472535550 K1's quote ends mid-list at 'production mix,'."
+  ],
+  "occurrences": [
+    {
+      "paper_key": "rayyan-472535351",
+      "mechanism_id": "K3",
+      "page": 7,
+      "evidence_quote": "there is no completely definitive approach for its validation",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472535550",
+      "mechanism_id": "K1",
+      "page": 3,
+      "evidence_quote": "First, it does not reﬂect many of the inﬂuential variables related to climate, production mix,",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472535550",
+      "mechanism_id": "K2",
+      "page": 3,
+      "evidence_quote": "the second, it does not include the constant\nsegment of energy consumption so called as base load (McLaughlin et al., 2016).",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseload or non-productive energy",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472535794",
+      "mechanism_id": "K1",
+      "page": 3,
+      "evidence_quote": "which shows that the speciﬁc energy consumption has no meaning\nin absolute terms, because it is inversely proportional to the vari-\nable consumption ratio k.",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472535794",
+      "mechanism_id": "K2",
+      "page": 1,
+      "evidence_quote": "a comparison between different installations using energy\nefﬁciency indicators can lead to misleading conclusions,\nespecially when it is difﬁcult (or even impossible), in practice,\nto take into account all the variables in an appropriate manner;",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472535794",
+      "mechanism_id": "K7",
+      "page": 3,
+      "evidence_quote": "It is important to point out that thermal efﬁciency (2) is not\na suitable indicator for processes inwhich the output has a negligible\nenergy content, for example conveying or assembling, as Eout would\napproach zero.",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472536694",
+      "mechanism_id": "K1",
+      "page": 7,
+      "evidence_quote": "When the error variance is not constant, the error term is\ncalled heteroscedastic.",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    },
+    {
+      "paper_key": "rayyan-472536694",
+      "mechanism_id": "K3",
+      "page": 5,
+      "evidence_quote": "If the industry improves over time, then the bench-\nmark is not representative of current industry perfor-\nmance, requiring periodic updates",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "baseline drift or expiry",
+      "claim_status_as_extracted": "general",
+      "reviewer_verdict": "confirmed as general"
+    }
+  ]
+}

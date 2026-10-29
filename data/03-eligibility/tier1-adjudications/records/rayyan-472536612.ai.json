@@ -1,0 +1,110 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536612",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Italy",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "linear regression",
+          "change-point or SPC"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "EU EED",
+          "national audit decree"
+        ],
+        "sector_of_activity": "manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "A company-specific internal-performance baseline is proposed, using regression on measured electric-consumption data and monitoring with control charts and CUSUM.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "audit data",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "the amount of the final product",
+          "the amount of compressed air produced"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "From the results, if all the available data are considered, the P-Value is under 0.05 for all the linear regression inclines.",
+            "metric": "p-value",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "all available data; linear-regression inclines",
+            "unit": null,
+            "value": "under 0.05"
+          }
+        ],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "sub-system / utility system",
+        "scope_description": "compressed air generation systems for energy-intensive industrial firms",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536612",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Italy",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "linear regression",
+          "change-point or SPC"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "national audit decree",
+          "EU EED"
+        ],
+        "sector_of_activity": "nine industrial sectors",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

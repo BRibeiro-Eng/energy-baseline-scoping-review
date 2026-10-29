@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535539",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:57:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "The results show \nthe model for the total monthly and annual electricity consumption",
+        "the general total consumption is \ndetermined month by month, by accumulating the monthly \nconsumption of active energy and reactive energy"
+      ],
+      "page": [
+        1,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.88
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper presents the analysis of the electricity \nconsumption of the University of Unicomfacauca in Popayán-Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the tertiary \nsector, specifically in the education subsector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to a university campus in the education subsector, outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This headquarters is made \nup of four blocks distributed in block A (five floors), block \nB (five levels), block C (four levels) and block D (six levels).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Popayán-Colombia",
+      "evidence_quote": "University of Unicomfacauca in Popayán-Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "education subsector",
+      "evidence_quote": "the tertiary \nsector, specifically in the education subsector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "higher education services, are \nprovided at the undergraduate, postgraduate, continuing \neducation and marketing levels.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The purpose of this paper is to examine the electrical \nenergy consumption of the Unicomfacauca facilities, aimed \nat optimization, controlled and rational demand for electric \nenergy that leads to the implementation of efficiency and \nenergy-saving \ntechniques, \nin \naccordance \nwith \nthe \ninternational standard ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "The assessments of lighting levels were carried out using \nlux meters which determine the level of lighting in the work \nareas, to establish the relationship with the indications issued \nby the Ministry of Mines and Energy through the Technical \nLighting Regulation and Street lighting - RETILAP [20].",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the general total consumption is \ndetermined month by month, by accumulating the monthly \nconsumption of active energy and reactive energy",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.83
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

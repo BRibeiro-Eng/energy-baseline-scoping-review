@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535688",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:41:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article therefore investigates the different project types that can be identified using existing data sources. The parameters required for project identification are specified",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Presents an automated energy-efficiency project-identification system that derives project-potential parameters and savings estimates from SCADA data collected by an ISO 50001 EnMS. ISO 50001/EnMS appears only as data-source and reporting context; no EnPI or energy-baseline (EnB) measurement model is presented or characterised. The methodology is a set of project-detection thresholds plus a compressor adiabatic-power savings equation, which are not EnPI/EnB models (tool/software without EnPI/EnB measurement-model content).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "further update the project identification software with the latest projects",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Not a review/synthesis, so the borderline flag is N/A. Independently, gold mining is outside the closed Level-3B continuous-process sector list."
+  },
+  "stage2": null,
+  "stage3": null
+}

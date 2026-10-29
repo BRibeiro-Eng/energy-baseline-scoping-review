@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535468",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:50:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "implement the energy performance indicators (EnPIs)",
+        "Calculation of SEU (Significant Energy User)"
+      ],
+      "page": [3, 4],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This research paper explains how the management of energy is planted in Sparkle Plastic Product.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "in Small-Scale Plastic Industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Borderline eligibility: ISO 50001 EnMS implementation paper (PDCA 'chronographic' plan) with a basic energy-audit EnPI (energy = power x operating time per significant energy user; before/after corrective-action totals); eligible under broad v2.3 threshold. Sector = small-scale plastic products manufacturing (discrete), not on closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the Sparkle Plastic Product company (Karachi, Pakistan)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Karachi, Pakistan",
+      "evidence_quote": "the Sparkle Plastic Product company (Karachi, Pakistan)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "small-scale plastic industry",
+      "evidence_quote": "in Small-Scale Plastic Industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "EnPI in a Department of Sparkle Plastic Product",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "EnMS based on ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": ["physical model"],
+      "evidence_quote": "Power\n18,000\nVoltage\n380\nCurrent at 0.85 PF\n55.72\nCurrent at 0.9 PF\n52.63\nTime duration\n22 h\nEnergy Consumed in 1 day\n396 KWh",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535561",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:19:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "productivity is represented by P/E, where P represents the quantity produced and E represents the quantity of energy in kW",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This research involves developing a systematic literature review (SLR) to identify energy efficiency indicators in the food industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "energy efficiency indicators in the food industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Review names KPI (P/E) and SEC indicators but its analytical core is AHP/PROMETHEE criteria ranking; genuinely borderline under v2.3 review tree, flagged for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "developing a systematic literature review (SLR)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Brazil",
+      "evidence_quote": "representative of the Brazilian food production industry",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "food industry",
+      "evidence_quote": "energy efficiency indicators in the food industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "food processing industries must adapt measures and implement actions to promote efficient energy use",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "monitoring, ISO 50001, and information communication technologies",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio", "SEC mean"],
+      "evidence_quote": [
+        "productivity is represented by P/E, where P represents the quantity produced and E represents the quantity of energy in kW",
+        "comparing Specific Energy Consumption (SEC) among facilities with similar characteristics"
+      ],
+      "page": [7, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"],
+      "evidence_quote": "Analytic Hierarchy Process (AHP) and Preference Ranking Organization Method for Enrichment Evaluations (PROMETHEE)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

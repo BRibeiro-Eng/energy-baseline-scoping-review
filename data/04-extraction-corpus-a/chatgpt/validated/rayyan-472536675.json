@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536675",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:59:45+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The EPI is a stochastic frontier model of plant level energy use that enables comparison across facilities with different levels and types of production related activities that influence energy use.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Data on energy use, production, capacity, and vehicle size, was received from 33 plants operating in the United States from six companies; Ford, General Motors, Honda, Nissan, Subaru, and Toyota.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper discusses the data and the underlying stochastic frontier analysis used to estimate version two of the ENERGY STAR EPI for motor vehicle assembly plants.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Application covers 33 U.S. automobile assembly plants from six companies; automobile assembly is discrete manufacturing, outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Data on energy use, production, capacity, and vehicle size, was received from 33 plants operating in the United States from six companies; Ford, General Motors, Honda, Nissan, Subaru, and Toyota.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "Data on energy use, production, capacity, and vehicle size, was received from 33 plants operating in the United States from six companies; Ford, General Motors, Honda, Nissan, Subaru, and Toyota.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "motor vehicle assembly",
+      "evidence_quote": "This paper discusses the data and the underlying stochastic frontier analysis used to estimate version two of the ENERGY STAR EPI for motor vehicle assembly plants.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Only data on body weld, paint and assembly are included in the data.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 recommends developing such a baseline for measurement and tracking.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "The EPI is a stochastic frontier model of plant level energy use that enables comparison across facilities with different levels and types of production related activities that influence energy use.",
+        "The preferred specification of the equation for electricity is"
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

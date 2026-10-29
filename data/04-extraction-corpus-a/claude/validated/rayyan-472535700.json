@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535700",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:44:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The work presented in this chapter focuses on the modeling of the gas flow supplied to a boiler in order to implement a soft sensor.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Paper designs a low-cost 'soft' (virtual) sensor that models boiler gas mass flow from the valve control signal, gas pressure and temperature (LPV and Gaussian-process models). This is a flow-measurement/instrumentation model, not an EnPI or EnB energy-performance-measurement model; ISO 50001 and IPMVP appear only as motivating context.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "the design of new low-cost sensors in the following areas",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Model-rich, but the embedded model is a virtual flow-meter (soft sensor) for gas consumption, not an EnPI/EnB; ISO 50001/IPMVP only contextual. Borderline eligibility call — flag for human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

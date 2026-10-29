@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535720",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:14:10Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The VSNavigator is a web platform for public \nschool stakeholders that provides the tools necessary \nto develop and implement an Energy Management \nProgram at organizational and building levels with \nrespect to both policy and building operation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": "Tool/software and action-management framework without a characterised EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The \nsuccessfully integration of these ICTs realizes a complete Energy Navigator system; in practice a web based \nplatform called VSNavigator.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The paper describes an ISO 50001 school-management platform, energy-flow visualisation, targets, and action workflows, but no EnPI/EnB model variables, functional form, or estimation method."
+  },
+  "stage2": null,
+  "stage3": null
+}

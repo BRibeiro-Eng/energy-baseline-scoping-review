@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536624",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:06:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this study, the Room Degree Day (RDD) is introduced as reference value to calculate the EnPI. The RDD considers the hotel occupation and the outdoor temperature:",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Studies to implement the developed tools were conducted in two Cuban hotels (hotels A and B) located in the province of Cienfuegos.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Hotel A is a beach hotel with 222 rooms and hotel B is a city hotel with 49 rooms.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to two hotels, a services context outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Studies to implement the developed tools were conducted in two Cuban hotels (hotels A and B) located in the province of Cienfuegos.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "province of Cienfuegos",
+      "evidence_quote": "Studies to implement the developed tools were conducted in two Cuban hotels (hotels A and B) located in the province of Cienfuegos.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "hotels",
+      "evidence_quote": "Studies to implement the developed tools were conducted in two Cuban hotels (hotels A and B) located in the province of Cienfuegos.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "Both hotels provide non-guest services like restaurants, shops, bars, gaming room, conference rooms, nightclubs, etc.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "This study follows the guidelines of the Energy Planning step, included in the implementation of an EMS in ISO 50001 (ISO, 2011), to deﬁne the EnB, the goal baseline (GB) and the EnPI.",
+        "ISO 50004 and 50006 (ISO, 2012; ISO, 2014) propose guidance for the implementation, maintenance and improvement of an EMS, and for the use of Energy Baselines (EnB) and of Energy Performance Indicators (EnPI) as a measure of the energetic performance.",
+        "ISO 50004 and 50006 (ISO, 2012; ISO, 2014) propose guidance for the implementation, maintenance and improvement of an EMS, and for the use of Energy Baselines (EnB) and of Energy Performance Indicators (EnPI) as a measure of the energetic performance."
+      ],
+      "page": [
+        3,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The equations of the ﬁtted straight lines for EnB and GB are:",
+        "The EnPI used in this study is: hORD\u0004CDD ¼ E RDD (4) where E stands for the electricity consumption."
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535404",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the current study presents a steam consumption model for a tire factory based on more sophisticated machine learning (ML) approaches",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the factory investigated in this research",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a steam consumption model for a tire factory",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Single tire factory (KavirTire, Iran). Eligible EnB/EnPI steam model (LR/RF/SVR) under ISO 50006 framing. Tire manufacturing not in closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the pipe system in the investigated factory",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "country_region": {
+      "value": "Iran",
+      "evidence_quote": "In Iran, the industry sector is encountering significant challenges",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "tire industry",
+      "evidence_quote": "In the tire industry, a considerable amount of energy is used in the form of steam",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The primary use of steam in the tire manufacturing is for heating and pressurizing the raw tire in the curing process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "operate the certified energy management system according to ISO 50001: 2018",
+        "ISO 50006:2017 proposes using linear regression for this purpose"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": "we have used Linear Regressor (LR), Random Forest (RF), and Support Vector Machine Regressor (SVR) methods",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

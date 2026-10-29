@@ -1,0 +1,1038 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535787",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 13,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "cement production",
+        "evidence_quote": "it was applied to the cement production industry.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Cali, Colombia",
+        "evidence_quote": "Cali, Colombia",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "a pilot application of the SGIE technology in a cement plant with a wet \nprocess",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "cement production plant utilizing wet process",
+        "evidence_quote": "This paper presents the results of the implementation of an Integrated Energy Management System for a \ncement production plant utilizing wet process.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "a pilot application of the SGIE technology in a cement plant with a wet \nprocess",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Energy Baseline",
+          "baseline_period_start": {
+            "value": "2008",
+            "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2008",
+            "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Linear best-fit line of energy versus production (E = mP + Enap)",
+            "evidence_quote": "the non-associated \nenergy is the value of the intercept on the Y axis of the best fit line to the dispersal of data, also known as \nEnergy Baseline.",
+            "page": 4,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Fig. 3 shows a scatter diagram of energy vs. production for a process and the non-associated \nenergy is the value of the intercept on the Y axis of the best fit line to the dispersal of data, also known as \nEnergy Baseline.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "the savings potential of electricity by operational variability is quantified by \nestimating the energy base and target lines",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Provided that the relationship between the analyzed variables is appropriate, equation 1 is considered as \nthe Energy Baseline.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "represented approximately by a straight line and, in general, expressed by a linear as (1):",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "the non-associated \nenergy is the value of the intercept on the Y axis of the best fit line to the dispersal of data, also known as \nEnergy Baseline.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "variable selection",
+                "stepwise",
+                "independent variable"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "The relationship between production and energy consumption is linear for most industries.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "The relationship between production and energy consumption is linear for most industries.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "number of data",
+                "days"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "the daily data set of energy consumptions and \nproduction of the selected base period for the year 2008.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "the average consumption at the defined Energy Cost Centers, ECC, is \nquantified through historical data collected by energy meters.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "baseline update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicability",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "correlation coefficient",
+                  "r value",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The estimated savings potential which can be recovered by operational variability was 7.0 kWh/ton \ncement, equivalent to 6% of the total consumption of electricity.",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "savings potential by operational variability",
+                  "value": 7.0,
+                  "unit": "kWh/ton cement",
+                  "period_or_context": "recoverable by reducing operational variability",
+                  "evidence_quote": "The estimated savings potential which can be recovered by operational variability was 7.0 kWh/ton \ncement, equivalent to 6% of the total consumption of electricity.",
+                  "page": 6,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "savings potential share",
+                  "value": 6,
+                  "unit": "%",
+                  "period_or_context": "of total electricity consumption",
+                  "evidence_quote": "The estimated savings potential which can be recovered by operational variability was 7.0 kWh/ton \ncement, equivalent to 6% of the total consumption of electricity.",
+                  "page": 6,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total identified savings potential",
+                  "value": 9.1,
+                  "unit": "kWh/ton cement",
+                  "period_or_context": "with recommended actions",
+                  "evidence_quote": "As noted in Table 4, the total savings potential identified with the recommended actions is 9.1 kWh/ton \ncement corresponding approximately to 8% of the total electricity consumed in the plant.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total identified savings potential share",
+                  "value": 8,
+                  "unit": "%",
+                  "period_or_context": "of total electricity consumed in the plant",
+                  "evidence_quote": "As noted in Table 4, the total savings potential identified with the recommended actions is 9.1 kWh/ton \ncement corresponding approximately to 8% of the total electricity consumed in the plant.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "production"
+            ]
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Energy Consumption Indicator (IC)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The specific energy consumption indicator is defined as the ratio between consumed energy and the \nvalue of the production obtained with this energy (3).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "The cement industry is an industry that uses electricity intensively and the electricity costs are \napproximately 20% of total production costs.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "The specific energy consumption indicator is defined as the ratio between consumed energy and the \nvalue of the production obtained with this energy (3).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/ton cement",
+              "evidence_quote": "Electricity Consumption [kWh/ton cement]",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "The specific energy consumption indicator is defined as the ratio between consumed energy and the \nvalue of the production obtained with this energy (3).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production obtained with this energy",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "The specific energy consumption indicator is defined as the ratio between consumed energy and the \nvalue of the production obtained with this energy (3).",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "daily",
+                "monthly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "period"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "the average consumption at the defined Energy Cost Centers, ECC, is \nquantified through historical data collected by energy meters.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimation"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "production"
+            ]
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Percent Energy Efficiency Indicator (PEEI)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "The Percent Energy Efficiency Indicator is a management tool of the energy sector, which allows \ncomparing the behavior of the energy consumption results measured in a process during an operating \nperiod, with respect to the values of the base or trend energy consumption of the same period, taking as \nreference of compliance a non-dimensional value of 100 [8], mathematically is defined as (6):",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "The cement industry is an industry that uses electricity intensively and the electricity costs are \napproximately 20% of total production costs.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "composite index"
+              ],
+              "evidence_quote": "The Percent Energy Efficiency Indicator is a management tool of the energy sector, which allows \ncomparing the behavior of the energy consumption results measured in a process during an operating \nperiod, with respect to the values of the base or trend energy consumption of the same period, taking as \nreference of compliance a non-dimensional value of 100 [8], mathematically is defined as (6):",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "period"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "period",
+                "frequency"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "the average consumption at the defined Energy Cost Centers, ECC, is \nquantified through historical data collected by energy meters.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimation"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "energy",
+              "production"
+            ]
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Cumulative Sum Control Indicator and Chart CUSUM",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "By using the CUSUM, the amount of the energy consumed in excess or that wasn't consumed until the \nmoment of its updating can be quantitatively determined.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "The cement industry is an industry that uses electricity intensively and the electricity costs are \napproximately 20% of total production costs.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "By using the CUSUM, the amount of the energy consumed in excess or that wasn't consumed until the \nmoment of its updating can be quantitatively determined.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "control chart"
+              ],
+              "evidence_quote": "This indicator and its chart are used to monitor the trend of the company, area or equipment regarding the \nvariation of energy consumption, with respect to a given base period.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "period"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "period",
+                "frequency"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "the average consumption at the defined Energy Cost Centers, ECC, is \nquantified through historical data collected by energy meters.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimation"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "succeeded in reducing the consumption of electricity by 4.6 % which is equivalent to 5.2 kWh/ton cement \nduring a period of twelve months compared to the same level of production and with the trend baseline of \nthe last two years.",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "electricity consumption reduction",
+                  "value": 4.6,
+                  "unit": "%",
+                  "period_or_context": "over twelve months, same level of production vs trend baseline",
+                  "evidence_quote": "succeeded in reducing the consumption of electricity by 4.6 % which is equivalent to 5.2 kWh/ton cement \nduring a period of twelve months compared to the same level of production and with the trend baseline of \nthe last two years.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electricity consumption reduction",
+                  "value": 5.2,
+                  "unit": "kWh/ton cement",
+                  "period_or_context": "over twelve months",
+                  "evidence_quote": "succeeded in reducing the consumption of electricity by 4.6 % which is equivalent to 5.2 kWh/ton cement \nduring a period of twelve months compared to the same level of production and with the trend baseline of \nthe last two years.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "CO2 emission reduction",
+                  "value": 3.33,
+                  "unit": "kg CO2/ton cement",
+                  "period_or_context": "year 2009",
+                  "evidence_quote": "3.33 kg of CO2 per ton of cement produced annually were stopped from being released into the \natmosphere in year 2009 due to a 4.6% reduction in the electrical energy consumed by the cement plant, \nensuring a positive environmental impact.",
+                  "page": 12,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "energy",
+              "production"
+            ]
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "it was applied to the cement production industry.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "This target line is drawn using the same value of the slope \"m\" of the baseline, since it is assumed, at this \ntime, that there are no technological changes to the equipment, areas, or processes on which the analysis \nis performed.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "plant or process modification",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The above equation represents a Base Consumption indicator, consisting of a constant term (m) and a \nterm that is in function of the production variable ( P\nEnap ).",
+      "page": 7,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "online re-estimation",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "analysis of the causes of \ndeviations, reporting of results, and finally, the modification of target lines.",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "No leaders or teams responsible for analysis of monitored data and identification of new efficiency potential",
+      "evidence_quote": "There are no leaders or teams responsible for the analysis of monitored data, operational decision-\nmaking, evaluating results of variables or, identification of new potential for increasing energy \nefficiency.",
+      "page": 4
+    },
+    {
+      "barrier": "Lack of an energy-saving culture among staff across all areas of the company",
+      "evidence_quote": "A culture among the staff is lacking with regard to the reduction of energy costs and energy \nefficiency in all areas of the company.",
+      "page": 4
+    },
+    {
+      "barrier": "Requires commitment of top management to achieve institutional changes",
+      "evidence_quote": "For the implementation and sustainability of the SGIE in a company, it requires the commitment of the \ncompany's top management to achieve institutional changes",
+      "page": 13
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "The above equation represents a Base Consumption indicator, consisting of a constant term (m) and a \nterm that is in function of the production variable ( P\nEnap ).",
+      "page": 7,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "slope",
+        "intercept",
+        "coefficient",
+        "m =",
+        "Enap ="
+      ]
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "One application (single wet-process cement plant, Colombia). Four energy performance constructs were separated as models: M1 the linear energy baseline (E = mP + Enap), M2 the specific Energy Consumption Indicator (intensity ratio), M3 the Percent Energy Efficiency Indicator (composite index), and M4 the CUSUM control chart. No numeric baseline coefficients or fit statistics for this plant are reported. The 7.0/9.1 kWh/ton savings potentials are attributed to M1 (derived from baseline/target-line analysis); the achieved 4.6%/5.2 kWh/ton reduction and CO2 result are attributed to M4 (demonstrated via the CUSUM chart). K2 (Enap as non-productive/baseload energy) is offered with requires inference as it explains the indicator design rather than being framed by the authors as a limitation.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "limitation",
+        "drift",
+        "variability",
+        "no technological changes"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "target line",
+        "re-estimation",
+        "update",
+        "CUSUM",
+        "control variable"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "pilot",
+        "single plant",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "culture",
+        "management commitment",
+        "staff",
+        "training",
+        "policies"
+      ]
+    }
+  },
+  "attempt": 9
+}

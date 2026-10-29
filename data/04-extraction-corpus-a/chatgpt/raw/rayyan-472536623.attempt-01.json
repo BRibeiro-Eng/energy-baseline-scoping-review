@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536623",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:07:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The new approach would create an innovative energy intensity metric by dividing total site energy consumption by volume of air delivered.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In this section, we present the processes and learnings that were derived in the pilot implementation of GEMS in Boston Scientiﬁc Corporation, a non-energy intensive multi-national manufacturing corporation in the life sciences industry.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Fortune 500 global leader in the medical device sector e Boston Scientiﬁc Corporation (BSC), which serves as a robust demonstrator of the proposed approach.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "One multi-site organisation; multi_site is captured in Stage 2. Medical-device manufacturing is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Table 6 provides an overview of energy use intensity for the four EU sites (Sites 1e4) in BSC plus a newly constructed state-of-the art ﬁfth site (Site 5), using a variety of formulae.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Ireland, Netherlands",
+      "evidence_quote": "Three manufacturing plants in Ireland (Sites 1e3). Warehouse in the Netherlands (Site 4). Reference manufacturing plant in Ireland (Site 5).",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "life sciences industry",
+      "evidence_quote": "Boston Scientiﬁc Corporation, a non-energy intensive multi-national manufacturing corporation in the life sciences industry.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Fortune 500 global leader in the medical device sector e Boston Scientiﬁc Corporation (BSC), which serves as a robust demonstrator of the proposed approach.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "For the implementation of an EnMS, standards such as ENERGY STAR™[23], ISO50001 [21] and Superior Energy Performance (SEP)™[24] offer the best available support to an individual site energy manager.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": "All the European sites were required to complete an energy audit by December 2015 as part of the Energy Efﬁciency Directive (EED), Article 8 [55]. Therefore, it was cost effective to complete the GEMS audits ahead of the EED Audit.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The new approach would create an innovative energy intensity metric by dividing total site energy consumption by volume of air delivered.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "Fig. 8 shows the results of the MCDM ranking of the ﬁve projects presented in Table 7, resulting in the Solar PV project (P5) achieving the top ranking",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536049",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:20:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "This paper proposes a single",
+        "Exploratory Factor Analysis and Structural Equation Modelling via Confirmatory Factor"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "approach embedded with the multiple-case technique of inquiry as to its research design.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Nigeria buildings were mainly office buildings used for commercial purpose while the",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to 10 office/educational buildings in Nigeria and the UK; no continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "some of the sampled case-study buildings have more than one organisation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Lagos, Nigeria and Chelmsford, UK",
+      "evidence_quote": "Lagos, Nigeria and Chelmsford, UK.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "commercial buildings",
+      "evidence_quote": "energy efficiency metrics for commercial buildings.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Nigeria buildings were mainly office buildings used for commercial purpose while the",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "methodologies to satisfy ISO 50001 energy management standard.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Exploratory Factor analysis and SEQM to produce a 4-Factor measurement model for",
+      "page": 22,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

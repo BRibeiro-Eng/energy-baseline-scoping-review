@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535720",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:01:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "with this paper focusing strongly on action management",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Describes a web-based decision-support/software platform (VSNavigator) and an ISO 50001 action-management framework for school buildings; no EnPI/EnB measurement model is identified or characterised (no normalisation variables, functional form, or construction/estimation approach). Falls under the tool/software-and-framework exclusion.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The VSNavigator is a web platform for public school stakeholders that provides the tools necessary to develop and implement an Energy Management Program",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Mentions an ISO 50001 base line and an Energy Flow Assessor (Sankey), but neither is characterised as an EnPI/EnB model; context is school buildings."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-09-12T17:51:44.328431+00:00",
+  "purpose": "Operational pilot only; no production extraction and no human verification completed by this preparation.",
+  "docs_commit": "0307ef5",
+  "code_commit": "f0e495e",
+  "schema_sha256_file": "578fa8c4122e397b5935e25bd8c612914d1c7631ef52b8819314bdd8113424d7",
+  "schema_sha256_declared": "578fa8c4122e397b5935e25bd8c612914d1c7631ef52b8819314bdd8113424d7",
+  "prompt_sha256": "725bab78e8285a02fe06865b5bd3e2f4c075f9bc7da057d504ed6e23fad08eef",
+  "papers": [
+    {
+      "key": "rayyan-472535351",
+      "payload_sha256": "c8209ff7713469f4c2658de33a45d47b21c201194669d00f7d3195d92643cd37",
+      "message_sha256": "cab5bca2bae626f2b8c57d71463f30aa493ef2ee8a07289e8c039e3822f17c3b",
+      "message_bytes": 186346
+    },
+    {
+      "key": "rayyan-472535550",
+      "payload_sha256": "14460ce13b93603183e408183f1dc2cdb29297d58370eca2b5d7492038cfa7c0",
+      "message_sha256": "0a0331d1b2ef872910831c5a598cec9219661acce1f7d0107bab83121716a271",
+      "message_bytes": 152793
+    },
+    {
+      "key": "rayyan-472535794",
+      "payload_sha256": "a3fa1bf32f1f0e99b910aca2121d0189f1fd1658587c0c7e75e4644c39d8b539",
+      "message_sha256": "c3f3b889ecdac252602e51e61a199a84dcbba5d7cd86dbe6617d8003806946d9",
+      "message_bytes": 188062
+    },
+    {
+      "key": "rayyan-472536694",
+      "payload_sha256": "c3dfd6e921ba6bc4a4deadce9da9315842575ee2a859c64d37b98edff610c948",
+      "message_sha256": "604588c64e11ba4b436c190ad267d3ed9736dc2d62a35bf3b9d0d49468154f21",
+      "message_bytes": 154509
+    },
+    {
+      "key": "rayyan-472536612",
+      "payload_sha256": "4f6fcc035209b61bc19fe4b681cea182ddd1e4664fdd7e86cdb2ff38e8f9543e",
+      "message_sha256": "75c29de73a3c7bf40444e59a2430e75a8e593efb89f7b504f42e6834a654962f",
+      "message_bytes": 138286
+    }
+  ]
+}

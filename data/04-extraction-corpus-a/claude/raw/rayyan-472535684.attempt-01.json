@@ -1,0 +1,126 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535684",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:05:27Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "Kg of coal / kg of finished product",
+        "serves to establish baseline values for the sector"
+      ],
+      "page": [
+        4,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "the energy assessment of the beehive kilns in forty-four (44) companies",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the ceramic industry in Cucuta",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Ceramic/brick sector, intermittent beehive kilns (batch) - not in closed continuous-process list, so level_3b=false. Eligible via SEC intensity indicators + kiln energy-balance model."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "country_region": {
+      "value": "Cucuta, Norte de Santander, Colombia",
+      "evidence_quote": "Metropolitan Area of Cucuta, Norte de Santander, Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "ceramic sector",
+      "evidence_quote": "ceramic sector companies from Cucuta",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "in the case of intermittent kilns as it the beehive model",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001: Standard Energy Management Systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "physical model"
+      ],
+      "evidence_quote": [
+        "Kg of coal / kg of finished product",
+        "The average values  will be established from the data calculated for the samples obtained in the energy diagnosis",
+        "Losses are calculated by an energy balance involving the difference between the heat input to the process"
+      ],
+      "page": [
+        4,
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

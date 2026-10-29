@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536479",
+  "listed_sector_signals": [
+    {
+      "signal": "Passing mention of oil processing and chemical industry as waste sources for slurry fuel components (petrochemical waste), not an application in petrochemical production",
+      "quote": "petroleum waste, as well as oil processing and chemi-\ncal industry waste",
+      "page": 2,
+      "sector": "petrochemicals"
+    },
+    {
+      "signal": "Coal-water slurries containing petrochemicals (CWSP) referenced as fuel compositions; petrochemicals appear only as fuel components, not as continuous production",
+      "quote": "coal-water slurries containing petrochemicals (CWSP)",
+      "page": 3,
+      "sector": "petrochemicals"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Coal washing/flotation plant waste (filter cakes) described as feedstock; coal washing plant mentioned as a source, not the study's application context",
+      "quote": "coal washing plant waste (filter cake), which is a mixture of fine coal (particle size up to \n100 µm) and water. In this research, filter cakes are produced \nfrom coal flotation.",
+      "page": 3,
+      "sector": "coal processing / mineral processing"
+    },
+    {
+      "signal": "Slurry fuel intended for flame combustion in boiler furnaces and power/heat generation (diesel generators, boiler plants), a power-industry context rather than continuous industrial production",
+      "quote": "making it unsuitable for pipeline transportation \nand flame combustion in boiler furnaces",
+      "page": 4,
+      "sector": "power/heat generation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": true,
+  "one_line": "The paper prepares and laboratory-tests coal-water slurry fuels made from industrial waste (filter cakes, used oils) — measuring ignition, combustion temperatures and SOx/NOx emissions — for heat and power generation in the Arctic/Extreme North; petrochemical and coal-processing sectors appear only as waste sources, not as continuous-production application contexts."
+}

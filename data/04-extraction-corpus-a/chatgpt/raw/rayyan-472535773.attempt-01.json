@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535773",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:47:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The specific energy ratio (energy consumption per unit produced) is not sufficient to compare plants or identify efficiency gaps because it depends on so many variables such as process technologies, product mix, raw materials, operations, age of the plant, etc.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Okavango’s Leanergy™ Index, is a qualitative approach to evaluate companies’ maturity in terms of energy efficiency.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The LeanergyTM approach has demonstrated its relevance and efficiency in the industry. Because the stakes are high, many chemical companies have already been working on energy efficiency for several years.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "Methodological critique of a specific-energy ratio plus a qualitative maturity index; no explicit empirical application to a continuous-process plant."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "It could be difficult for a multi-site company to compare the energy maturity of plants that manufacture different kind of products.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.76
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Okavango’s team designed a whole new approach to energy, based on Lean Manufacturing methods, and aiming to maximize energy efficiency in the plant, as fast as possible.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "sector_of_activity": {
+      "value": "chemical industry",
+      "evidence_quote": "For several years, the energy-\nintensive chemical industry has been implementing corrective actions.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "Okavango’s team designed a whole new approach to energy, based on Lean Manufacturing methods, and aiming to maximize energy efficiency in the plant, as fast as possible.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The new ISO 50001 shows the way to an energy management system.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The specific energy ratio (energy consumption per unit produced) is not sufficient to compare plants or identify efficiency gaps because it depends on so many variables such as process technologies, product mix, raw materials, operations, age of the plant, etc.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "pinch analysis"
+      ],
+      "evidence_quote": "Pinch is a very powerful method for modeling hot and cold flows in order to minimize external input of heat and cold.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472536638",
+ "tier": "B",
+ "ts": "2026-09-10T16:47:23",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum",
+  "refining"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 347.2,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "aborda extração de petroleo mas sem metodologia de EnBs ou EnPIs"
+}

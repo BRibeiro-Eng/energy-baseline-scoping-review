@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535390",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:13:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Then, it was necessary to determine the BaseLine (BL) (a minimum value or starting point used for comparisons, which is calculated by dividing the produced items per period and the water and energy consumption at the same period) for energy and water consumption for the company.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In this article, the experimental results of an integrated energy and water management system in a company in the manufacturing industry sector (the kind of industry or explicit items produced are not mentioned due to confidentiality issues) are presented as support for sustainability based on the carbon footprint reduction directly related to the manufacturing processes.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the kind of industry or explicit items produced are not mentioned due to confidentiality issues",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "The application sector is reported only as manufacturing; product type is withheld, so membership in the closed continuous-process list is not explicit."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "application (during 2021 to compare 2020 to 2021) of an energy- and water-integrated management system in a company dedicated to the manufacture of products",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "country_region": {
+      "value": "Mexico",
+      "evidence_quote": "an interdisciplinary Mexican case study",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry sector",
+      "evidence_quote": "a company in the manufacturing industry sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "a company dedicated to the manufacture of products",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "energy and water efficiency were improved within the framework of the ISO 50001 and ISO 46001 standards, integrated with the standard ISO 9001",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The annual EnBL for the year 2020 can be observed, as 0.770 kWh/yr/item, while for the year 2021, the annual Energy Efficient Indicator (EnEIn) is 0.672 kWh/yr/item, which was determined using the information of items produced and consumption energy of the company during the year 2021.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

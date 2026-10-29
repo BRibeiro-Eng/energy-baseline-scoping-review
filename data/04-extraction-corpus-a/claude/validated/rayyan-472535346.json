@@ -1,0 +1,107 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535346",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Specific energy consumption or key performance indicator (KPI) of different treatment stages of the WWTP is estimated by Eq. (2)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The model was applied to three case study plants, Molina de Segura, Ponte Metauro, and North Coast",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "wastewater treatment plants",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Eligible: WENT embeds an EnPI/EnB model (bottom-up energy accounting + SEC KPI = kWh per pollutant load removed) per ISO 50001, applied to 3 WWTPs. level_3b false: wastewater treatment is not on the closed v2.3 continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Overall data required for this study was collected through ESAMUR Director for Molina de Segura and plant managers for Ponte Metauro and North Coast WWTPs",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Molina de Segura (Spain), Ponte Metauro/Fano (Italy), North Coast (Northern Ireland, UK)",
+      "evidence_quote": "Molina de Segura (Spain), Ponte Metauro (Italy), and North Coast (Northern Ireland)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "wastewater treatment plants",
+      "evidence_quote": "wastewater treatment plants",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "treats around 25,000 cubic meters of wastewater (both domestic and industrial) per day",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50002"],
+      "evidence_quote": [
+        "based on ISO 50001 standard guidelines",
+        "An internationally recognised standard for energy audit is ISO 50002"
+      ],
+      "page": [1, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["physical model", "SEC mean"],
+      "evidence_quote": [
+        "the electricity consumption of the individual treatment equipment is estimated by Eq. (1)",
+        "Specific energy consumption or key performance indicator (KPI)"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,1337 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535522",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 21,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "dry paper production plant",
+        "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO\n50001 standard in a dry paper production plant.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Colombia",
+        "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "A dry paper production plant in the Colombian Caribbean operating with electricity, gas and coal; recycled paper/cardboard is pulped, cleaned, refined and dried into paper rolls.",
+        "evidence_quote": "This plant operates using electricity, gas, and coal\nas energy sources. The last two energy sources are used to produce the steam and hot air used in\nthe paper drying process.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO\n50001 standard in a dry paper production plant.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "baseline for electricity consumption (Figure 8a)",
+          "baseline_period_start": {
+            "value": "January 2018",
+            "evidence_quote": "The initial phase is the collection of data on production and\nenergy consumption data between January and October 2018.",
+            "page": 4,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "October 2018",
+            "evidence_quote": "The initial phase is the collection of data on production and\nenergy consumption data between January and October 2018.",
+            "page": 4,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Linear baseline model E = Eo + m × P regressed on plant production, per Equation (4).",
+            "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "correlation coefficient 0.7586"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "the baselines for electricity,\ngas, and coal consumption were calculated, allowing us to calculate the energy performance indicators",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "least squares",
+                "OLS",
+                "regression",
+                "fitting"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the equipment or plant production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 10,
+              "evidence_quote": "The initial phase is the collection of data on production and\nenergy consumption data between January and October 2018.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The contribution made by these three energy sources to each of the subprocesses can be determined\nby the measurement installed in the main equipment of the plant.",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalculate",
+                "baseline revision"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range",
+                "bounds",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "for electricity consumption (Figure 8a) with a\ncorrelation coeﬃcient of 0.7586",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "correlation coefficient",
+                  "value": "0.7586",
+                  "unit": null,
+                  "period_or_context": "electricity baseline (Figure 8a)",
+                  "evidence_quote": "for electricity consumption (Figure 8a) with a\ncorrelation coeﬃcient of 0.7586",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Historical production and energy consumption data (Jan–Oct 2018), filtered for typical production days"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "coal baseline (Figure 8b)",
+          "baseline_construction_method": {
+            "value": "Linear baseline model E = Eo + m × P regressed on plant production, per Equation (4).",
+            "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "correlation coefficient 0.6539"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "the baselines for electricity,\ngas, and coal consumption were calculated, allowing us to calculate the energy performance indicators",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the equipment or plant production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 10,
+              "evidence_quote": "The initial phase is the collection of data on production and\nenergy consumption data between January and October 2018.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "However, in the case of coal, this value was very low.\nThis can be explained by the fact that there is no measurement of the steam that enters the machine.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "for coal (Figure 8b) with 0.6539, which is a consequence of the low\nvariation of the coal rate supplied to the steam boiler",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "correlation coefficient",
+                  "value": "0.6539",
+                  "unit": null,
+                  "period_or_context": "coal baseline (Figure 8b)",
+                  "evidence_quote": "for coal (Figure 8b) with 0.6539, which is a consequence of the low\nvariation of the coal rate supplied to the steam boiler",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "gas baseline (Figure 8c)",
+          "baseline_construction_method": {
+            "value": "Linear baseline model E = Eo + m × P regressed on plant production, per Equation (4).",
+            "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "correlation coefficient 0.8169"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the baselines for electricity,\ngas, and coal consumption were calculated, allowing us to calculate the energy performance indicators",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "E = Eo + m × P",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the equipment or plant production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded\nby the plant not associated with the production.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 10,
+              "evidence_quote": "The initial phase is the collection of data on production and\nenergy consumption data between January and October 2018.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The contribution made by these three energy sources to each of the subprocesses can be determined\nby the measurement installed in the main equipment of the plant.",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "for the gas consumption (Figure 8c), which\nreached a coeﬃcient of 0.8169",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "correlation coefficient",
+                  "value": "0.8169",
+                  "unit": null,
+                  "period_or_context": "gas baseline (Figure 8c)",
+                  "evidence_quote": "for the gas consumption (Figure 8c), which\nreached a coeﬃcient of 0.8169",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "electric energy consumption indicator (IC) (Figure 8d)",
+          "baseline_construction_method": {
+            "value": "Consumption index IC = m + Eo/P derived by dividing the baseline energy (Equation 4) by production, per Equations (5) and (6).",
+            "evidence_quote": "To obtain this index, as shown in Equation (6), the energy\nconsumption given by the baseline (Equation (4)) is divided by the production.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "critical consumption index 0.9854 kWh/kg at load factor 77.27%"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "In the case of the electric energy consumption indicator presented in Figure 8d, the consumption\nindex graph for electric energy is presented",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "it is possible to identify the critical point of\nproduction for a consumption index of 0.9854 kWh/kg, with a load factor of 77.27%",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/kg",
+              "evidence_quote": "it is possible to identify the critical point of\nproduction for a consumption index of 0.9854 kWh/kg, with a load factor of 77.27%",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "IC = E\nP",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "energy consumption (E) variation as a function of production (P)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The contribution made by these three energy sources to each of the subprocesses can be determined\nby the measurement installed in the main equipment of the plant.",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a rate of electricity\nconsumption of 0.9854\nkWh/kg\n0.7056\n6.2043\n69,067.77",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "potential savings (monthly)",
+                  "value": "69,067.77",
+                  "unit": "kWh/Month",
+                  "period_or_context": "electricity, adjust to 77% load factor",
+                  "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a rate of electricity\nconsumption of 0.9854\nkWh/kg\n0.7056\n6.2043\n69,067.77",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "potential savings (plant)",
+                  "value": "0.7056",
+                  "unit": "%",
+                  "period_or_context": "electricity",
+                  "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a rate of electricity\nconsumption of 0.9854\nkWh/kg\n0.7056\n6.2043\n69,067.77",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "coal consumption indicator (Figure 8e)",
+          "baseline_construction_method": {
+            "value": "Consumption index IC = m + Eo/P derived by dividing baseline energy by production, per Equations (5) and (6).",
+            "evidence_quote": "To obtain this index, as shown in Equation (6), the energy\nconsumption given by the baseline (Equation (4)) is divided by the production.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "critical consumption index 1.1 kWh/kg at 77% load factor"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a coal consumption\nrate of 1.1 kWh/kg",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a coal consumption\nrate of 1.1 kWh/kg",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/kg",
+              "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a coal consumption\nrate of 1.1 kWh/kg",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "IC = E\nP",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "energy consumption (E) variation as a function of production (P)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "However, in the case of coal, this value was very low.\nThis can be explained by the fact that there is no measurement of the steam that enters the machine.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a coal consumption\nrate of 1.1 kWh/kg\n0.4576\n2.7869\n44,789.44",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "potential savings (monthly)",
+                  "value": "44,789.44",
+                  "unit": "kWh/Month",
+                  "period_or_context": "coal, adjust to 77% load factor",
+                  "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a coal consumption\nrate of 1.1 kWh/kg\n0.4576\n2.7869\n44,789.44",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "gas consumption index (Figure 8f)",
+          "baseline_construction_method": {
+            "value": "Consumption index IC = m + Eo/P derived by dividing baseline energy by production, per Equations (5) and (6).",
+            "evidence_quote": "To obtain this index, as shown in Equation (6), the energy\nconsumption given by the baseline (Equation (4)) is divided by the production.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "critical consumption index 1.6 kWh/kg at 77.26% load factor"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "1.6 kWh/kg is the index corresponding to the critical point of production in which low indexes\nare reached; with a production equivalent to 77.26% of the machine load factor, this point is reached.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "1.6 kWh/kg is the index corresponding to the critical point of production in which low indexes\nare reached; with a production equivalent to 77.26% of the machine load factor, this point is reached.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/kg",
+              "evidence_quote": "1.6 kWh/kg is the index corresponding to the critical point of production in which low indexes\nare reached; with a production equivalent to 77.26% of the machine load factor, this point is reached.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "IC = E\nP",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "energy consumption (E) variation as a function of production (P)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the energy performance indicator studied was the consumption index (IC) to show the\nenergy consumption (E) variation as a function of production (P), as shown in Equation (5)",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "These data were subjected to a ﬁltration\nprocess, in which the days in which the plant was not in typical production were discarded.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical\ndata on the production and consumption of electrical energy present in the production plant.",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The contribution made by these three energy sources to each of the subprocesses can be determined\nby the measurement installed in the main equipment of the plant.",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a gas consumption\nrate of 1.6 kWh/kg\n0.3523\n3.6710\n36,761.39",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "potential savings (monthly)",
+                  "value": "36,761.39",
+                  "unit": "kWh/Month",
+                  "period_or_context": "gas, adjust to 77% load factor",
+                  "evidence_quote": "Adjust the production to\na load factor of 77% to\nﬁnd a gas consumption\nrate of 1.6 kWh/kg\n0.3523\n3.6710\n36,761.39",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "pulp & paper",
+        "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO\n50001 standard in a dry paper production plant.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M2",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "However, in the case of coal, this value was very low.\nThis can be explained by the fact that there is no measurement of the steam that enters the machine.",
+      "page": 18,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the consumption not associated\nwith production for gas and coal is 20%, as opposed to 65% for electrical energy, which indicates strong\nconsumption that does not contribute to production.",
+      "page": 18,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M2",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the consumption of coal\npresents a diﬀerent behavior to the production, showing that these variations of consumption are not\nassociated with production but are possibly outside the optimal parameters.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the burners and boilers are always operating\nat the same load regardless of the level of production",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    }
+  ],
+  "adaptations": [],
+  "study_limitations": [
+    {
+      "limitation": "instrumentation unavailable",
+      "also_constrains_model": true,
+      "evidence_quote": "However, in the case of coal, this value was very low.\nThis can be explained by the fact that there is no measurement of the steam that enters the machine.",
+      "page": 18
+    }
+  ],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4).\nE = Eo + m × P",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "it is possible to identify the critical point of\nproduction for a consumption index of 0.9854 kWh/kg, with a load factor of 77.27%",
+      "page": 11,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "dataset",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "github",
+        "software availability"
+      ]
+    }
+  },
+  "reviewer_notes": "Paper studies one plant (A1). The energy characterization produced three linear baseline regressions E = Eo + m*P (M1 electricity, M2 coal, M3 gas), each reporting a correlation coefficient, and three derived consumption-index intensity ratios (M4 electricity, M5 coal, M6 gas) yielding energy-saving figures at a 77% load factor. Estimation method for the regressions is not stated (correlation coefficients reported but no OLS statement). The coal baseline's poor fit is explicitly attributed to unmeasured steam — recorded both as mechanism K1 (observability gap) and as a study limitation with also_constrains_model=true. Much of the paper concerns LCA/environmental impacts, which are outside the energy-performance-model scope.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "not associated with production",
+        "no measurement",
+        "dispersed",
+        "baseline low",
+        "drift",
+        "assumption"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "segmented",
+        "rolling",
+        "re-estimation",
+        "normalisation",
+        "improved metering",
+        "proposed"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "no measurement",
+        "data",
+        "future work",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "investment",
+        "training",
+        "maintenance",
+        "obstacle"
+      ]
+    }
+  },
+  "attempt": 1
+}

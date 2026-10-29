@@ -1,0 +1,115 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535386",
+      "level_a": {
+        "complementary_methodologies": [
+          "process flowsheet simulation"
+        ],
+        "country_region": "Iran",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "linear regression"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "domestic gas processing plant",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Monthly energy consumption was initially regressed against acid gas flow rate, heating degree days, and cooling degree days. Correlation and p-value screening reduced the final linear baseline to acid gas flow rate alone: E (GJ) = (2222.113 × FAcid Gas) + 462.464.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": true,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [],
+        "model_parameters_reported": [
+          "a0 = 462.464",
+          "a1 = 2222.113"
+        ],
+        "normalisation_variables": [
+          "acid gas flow rate"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "R Square 0.720555 Observations 46",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 9,
+            "period_or_context": "final single-variable energy baseline",
+            "unit": null,
+            "value": "0.720555"
+          },
+          {
+            "evidence_quote": "FAcid Gas, MMSCM a1 = 2222.113 9.2E-14",
+            "metric": "p-value",
+            "non_contiguous_evidence": false,
+            "page": 10,
+            "period_or_context": "acid gas flow rate coefficient in final baseline",
+            "unit": null,
+            "value": "9.2E-14"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "unit",
+        "scope_description": "the acid gas incinerator unit of the domestic gas processing plant",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535386",
+      "level_a": {
+        "complementary_methodologies": [
+          "process flowsheet simulation"
+        ],
+        "country_region": "Iran",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "linear regression",
+          "multiple regression"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "gas processing plant",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

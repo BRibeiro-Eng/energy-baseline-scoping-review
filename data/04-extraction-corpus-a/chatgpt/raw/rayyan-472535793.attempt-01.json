@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535793",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-29T12:17:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Since energy management comprises many different elements, a methodology is needed to decide whether a company really practices energy management. Based on the research of Christoffersen (2006), a list of minimum requirements with which to split the studied companies into two categories was developed [26]: those companies with energy management practices and those without.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Questionnaire-based energy-management practice assessment; no EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Thus, a comprehensive set of minimum requirements was developed, with which the rate of energy management application in energy intensive industries in Turkey was determined in this study.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper evaluates organisational energy-management practices across 40 companies using a minimum-requirements framework, not an EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

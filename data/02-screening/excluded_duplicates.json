@@ -1,0 +1,25 @@
+{
+  "_comment": "Rayyan dedup failures detected by hash-identical PDFs at full-text screening. Each entry: 'excluded' key is the secondary record (conference or book-chapter version), 'primary' key is the kept record (journal version, more citable). Both records refer to the same underlying work; the reviewer keeps the primary in PRISMA flow and reports the duplicates removed at full-text. See data_quality_report.md §3 for evidence.",
+  "version": "1.0",
+  "dedup_method": "md5_hash_of_pdf",
+  "entries": [
+    {
+      "excluded": "rayyan-472536731",
+      "primary": "rayyan-472536713",
+      "shared_pdf_md5": "424172529192d6a52a34263ee7465f7e",
+      "note": "Jolly & Atoulikian 'Turning vision into reality'. Primary = journal (Strategic Planning for Energy and the Environment, 2012). Excluded = conference (WEEC 2010). Same work."
+    },
+    {
+      "excluded": "rayyan-472535803",
+      "primary": "rayyan-472535793",
+      "shared_pdf_md5": "6d51d63ac074d10dca91f2a89f9b0e8a",
+      "note": "Ates & Durakbasa 'Corporate energy management practices'. Primary = journal (Energy, 2012). Excluded = conference (ECOS 2011). Same work; conference version was the precursor."
+    },
+    {
+      "excluded": "rayyan-472535876",
+      "primary": "rayyan-472535662",
+      "shared_pdf_md5": "c54d05a668c3b63b5e62d04270276b6e",
+      "note": "Păunescu & Blid 'Effective energy planning for improving the [enterprise's|organization's] energy performance'. Primary = journal (Management and Marketing, 2016). Excluded = book chapter (Energy, Climate Change and Sustainability, 2016). Same work."
+    }
+  ]
+}

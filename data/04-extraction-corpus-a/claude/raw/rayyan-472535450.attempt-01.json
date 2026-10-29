@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535450",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The electricity EnPI is MMBtu per million gallons pumped.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "independently operated public utility providing drinking water",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the largest water utility in Iowa",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Drinking-water utility (water treatment/distribution): continuous-flow but not on the closed v2.3 continuous-process list, so level_3b=false per closed-list rule. Flag for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "three treatment plants in the Des Moines, Iowa, metro area",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Des Moines, Iowa, USA",
+      "evidence_quote": "the Des Moines, Iowa, metro area",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "drinking water utility",
+      "evidence_quote": "the only US drinking water utility",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "more than 75% of all energy is consumed pumping water with electric motors",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "other-named"],
+      "evidence_quote": "International Organization for Standardization (ISO) 50001 and Superior Energy Performance (SEP) 50001",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio", "multiple regression"],
+      "evidence_quote": [
+        "The electricity EnPI is MMBtu per million gallons pumped.",
+        "The tool uses regression analysis to establish a normalized baseline of energy consumption"
+      ],
+      "page": [6, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536728",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:46:44.968054+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this paper focuses on investigating the most principal sustainable energy performance indicators for modeling the sustainable performance of the residential building envelope",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "Exclusive focus is the residential building envelope with no industrial component, a registered ineligibility ground. The paper develops a qualitative multi-criteria sustainability-appraisal framework / decision-making model, ranking sustainability criteria (energy efficiency, material efficiency, affordability, environmental impact, social benefit, durability) via an expert questionnaire (Relative Importance Index, Kendall's coefficient of concordance), rather than presenting or characterising an ISO-50006-type EnPI/EnB energy-performance measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "develop a framework suitable for building envelope sustainable performance appraisal",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Residential building-envelope study; its 'energy performance indicators' are MCDM appraisal criteria (RII, Kendall's W), not EnPI/EnB models. level_3b n/a: residential not a closed-list sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

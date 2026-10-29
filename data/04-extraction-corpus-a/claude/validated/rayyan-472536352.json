@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536352",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:14:47Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This study presents a comprehensive analysis of 30 research papers that define criteria for evaluating the energy performance of photovoltaic (PV), solar thermal (ST), and hybrid photovoltaic-thermal (PVT) panels in building integration.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Systematic review of criteria for evaluating the energy performance of solar PV, solar-thermal and hybrid PVT panels in building integration (thermodynamic efficiency, primary-energy, exergy and energy-equivalence metrics for comparing solar-generation technologies). It does not present, characterise, evaluate or critique an EnPI/EnB energy-performance measurement model in the ISO 50001/50006 sense: no energy baseline, no normalised energy-consumption indicator model, and no ISO 50001/50006 engagement. 'Energy performance indicators' appears only as a keyword/incidental term, and the focus is exclusively buildings/solar generation with no industrial component.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "To evaluate how existing research compares the energy performance of PV, ST, and PVT technologies through a systematic review",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible (v2.3): systematic review of solar PV/ST/PVT panel energy-performance evaluation criteria (energy, primary energy, exergy, energy equivalence) in buildings; not an ISO 50001/50006 EnPI/EnB measurement model (EnPI keyword only). level_3b=false: buildings/solar, no continuous-process sector. Eligibility is a judgment call worth human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

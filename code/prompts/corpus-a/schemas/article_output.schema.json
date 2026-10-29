@@ -1,0 +1,2494 @@
+{
+  "$defs": {
+    "envelope": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "oneOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence_quote": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "non_contiguous_evidence": {
+          "type": "boolean"
+        },
+        "page": {
+          "oneOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "items": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "value": {}
+      },
+      "required": [
+        "value",
+        "evidence_quote",
+        "page",
+        "non_contiguous_evidence",
+        "confidence"
+      ],
+      "type": "object"
+    },
+    "page": {
+      "oneOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "items": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "quote": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "stage1Object": {
+      "additionalProperties": false,
+      "properties": {
+        "borderline_review_synthesis_eligibility": {
+          "type": "boolean"
+        },
+        "ineligibility_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "level_3b": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "methodological_eligibility": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "notes": {
+          "maxLength": 500,
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "paper_type": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "enum": [
+                "single applied case",
+                "multi-case study",
+                "review/synthesis",
+                "maturity model or framework",
+                "methodological/theoretical",
+                "tool/software design",
+                "other"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "methodological_eligibility",
+        "ineligibility_reason",
+        "borderline_review_synthesis_eligibility",
+        "paper_type",
+        "level_3b",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "stage2Object": {
+      "additionalProperties": false,
+      "properties": {
+        "complementary_methodologies": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "pinch analysis",
+                  "exergy analysis",
+                  "thermodynamic modelling",
+                  "process flowsheet simulation",
+                  "ML ensemble",
+                  "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+                  "none"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "country_region": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "ems_standard": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "ISO 50001",
+                  "ISO 50002",
+                  "ISO 50006",
+                  "other-named",
+                  "none"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "enpi_enb_model_types": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "linear regression",
+                  "multiple regression",
+                  "physical model",
+                  "ML",
+                  "simple intensity ratio",
+                  "SEC mean",
+                  "composite index",
+                  "change-point or SPC",
+                  "process integration",
+                  "other",
+                  "not applicable"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "multi_site": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "oneOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "const": "not applicable"
+                }
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "mv_protocol": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "IPMVP",
+                  "ASHRAE 14",
+                  "SEP M&V",
+                  "BPA MT&R",
+                  "ISO 17743",
+                  "other-named",
+                  "none"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "regulatory_driver": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "EU EED",
+                  "national audit decree",
+                  "EU-ETS",
+                  "regional regulation",
+                  "other-named",
+                  "none"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "sector_of_activity": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "type_of_organisation": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "enum": [
+                "continuous process",
+                "discrete manufacturing",
+                "services",
+                "buildings",
+                "mixed",
+                "not specified"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "multi_site",
+        "country_region",
+        "sector_of_activity",
+        "type_of_organisation",
+        "ems_standard",
+        "mv_protocol",
+        "regulatory_driver",
+        "enpi_enb_model_types",
+        "complementary_methodologies"
+      ],
+      "type": "object"
+    },
+    "stage3Object": {
+      "additionalProperties": false,
+      "properties": {
+        "adaptation_types": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "dynamic time window",
+                  "segmented baseline",
+                  "hybrid physical model",
+                  "other"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "baseline_construction_method": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "baseline_period_end": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "baseline_period_start": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "data_type": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "enum": [
+                "continuous time series",
+                "audit data",
+                "simulation",
+                "unspecified or not stated"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "empirical_refinery_application": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "identifies_model_limitations": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "implementation_barriers": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "model_parameters_reported": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "normalisation_variables": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "normative_framing_of_adaptations": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "enum": [
+                "ISO 50001/50006 explicit",
+                "implicit",
+                "absent"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "performance_metrics_reported": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "evidence_quote": {
+                    "oneOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "metric": {
+                    "enum": [
+                      "R²",
+                      "adjusted R²",
+                      "RMSE",
+                      "MAE",
+                      "MAPE",
+                      "CV-RMSE",
+                      "% energy savings",
+                      "F-statistic",
+                      "p-value",
+                      "other-named"
+                    ]
+                  },
+                  "non_contiguous_evidence": {
+                    "type": "boolean"
+                  },
+                  "page": {
+                    "oneOf": [
+                      {
+                        "minimum": 1,
+                        "type": "integer"
+                      },
+                      {
+                        "items": {
+                          "minimum": 1,
+                          "type": "integer"
+                        },
+                        "minItems": 1,
+                        "type": "array"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "period_or_context": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "unit": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "metric",
+                  "value",
+                  "unit",
+                  "period_or_context",
+                  "evidence_quote",
+                  "page"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "proposes_adaptations": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "proposes_treatment_mechanism": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "scale_of_application": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "enum": [
+                "equipment",
+                "sub-system / utility system",
+                "unit",
+                "facility",
+                "organisation"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "scope_description": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "specific_limitations": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "non-stationarity",
+                  "fouling",
+                  "catalyst deactivation",
+                  "feedstock variability",
+                  "other"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        },
+        "validation_types": {
+          "additionalProperties": false,
+          "properties": {
+            "confidence": {
+              "oneOf": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "evidence_quote": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "non_contiguous_evidence": {
+              "type": "boolean"
+            },
+            "page": {
+              "oneOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "items": {
+                    "minimum": 1,
+                    "type": "integer"
+                  },
+                  "minItems": 1,
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "value": {
+              "items": {
+                "enum": [
+                  "empirical",
+                  "simulation",
+                  "theoretical",
+                  "statistical",
+                  "none reported"
+                ]
+              },
+              "type": "array",
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "value",
+            "evidence_quote",
+            "page",
+            "non_contiguous_evidence",
+            "confidence"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "normalisation_variables",
+        "baseline_period_start",
+        "baseline_period_end",
+        "baseline_construction_method",
+        "validation_types",
+        "scale_of_application",
+        "scope_description",
+        "identifies_model_limitations",
+        "specific_limitations",
+        "proposes_treatment_mechanism",
+        "proposes_adaptations",
+        "adaptation_types",
+        "normative_framing_of_adaptations",
+        "empirical_refinery_application",
+        "data_type",
+        "model_parameters_reported",
+        "performance_metrics_reported",
+        "implementation_barriers"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "article_output.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "attempt": {
+      "maximum": 2,
+      "minimum": 1,
+      "type": "integer"
+    },
+    "completed_at": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "paper_key": {
+      "pattern": "^rayyan-[0-9]+$",
+      "type": "string"
+    },
+    "prompt_tag": {
+      "const": "v2.3.1-operational"
+    },
+    "record_type": {
+      "const": "initial_extraction"
+    },
+    "schema_version": {
+      "const": "2.2.1"
+    },
+    "stage1": {
+      "$ref": "#/$defs/stage1Object"
+    },
+    "stage2": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/stage2Object"
+        }
+      ]
+    },
+    "stage3": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/$defs/stage3Object"
+        }
+      ]
+    },
+    "validation_protocol": {
+      "const": "C-2.3"
+    }
+  },
+  "required": [
+    "record_type",
+    "paper_key",
+    "schema_version",
+    "validation_protocol",
+    "prompt_tag",
+    "attempt",
+    "completed_at",
+    "stage1",
+    "stage2",
+    "stage3"
+  ],
+  "title": "Combined article extraction output",
+  "type": "object"
+}

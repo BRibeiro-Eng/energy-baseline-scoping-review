@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535359",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "explores energy efficiency using Specific energy consumption (SEC) model in Kerala’s seafood processing industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "descriptive statistics for monthly production, energy consumption, and energy cost-related parameters in seafood processing units over a period of one year",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Energy is an indispensable resource in the seafood processing industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "SEC (kWh/MT) is central EnPI; also multiple regression + ARIMA. Pooled multi-plant Kerala seafood survey; single applied case. Seafood processing outside continuous-process list; level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Thirty percent of seafood companies under the production capacity of <25 MT/day responded to the structured questionnaire",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Kerala, India",
+      "evidence_quote": "Kerala, a major maritime state in India",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "seafood processing industry",
+      "evidence_quote": "seafood processing industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "energy-intensive procedures including freezing, canning, and drying",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "adopting ISO 50001:2018",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "average Specific Energy Consumption (SEC) of 159.2 kWh/MT",
+        "Multiple regression analysis (Fumo and Biswas, 2015) were performed",
+        "The ARIMA model was employed to analyse and forecast the time series data"
+      ],
+      "page": [
+        1,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

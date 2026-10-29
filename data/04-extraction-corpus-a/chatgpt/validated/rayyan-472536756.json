@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536756",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:29:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "EPA and ANL defined the scope for the EPI.  It would be a plant-level indicator, not process-specific and would relate plant inputs in terms of all types of energy use to plant outputs as expressed in a unit of production.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Companies were asked to input actual data for all of their plants and then to determine whether the results were consistent with any energy efficiency assessments that may have been made for these plants.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper reports on work with the automobile manufacturing industry to provide a plant-level indicator of energy efficiency.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The applied sector is automobile assembly, a discrete manufacturing context outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Companies with manufacturing plants located within the United States were invited to participate in discussions.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "The auto assembly EPI scores the energy efficiency of an auto assembly plant based in the United States.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "automobile manufacturing industry",
+      "evidence_quote": "This paper reports on work with the automobile manufacturing industry to provide a plant-level indicator of energy efficiency.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Thus, it was decided that the EPI would apply only to auto assembly plants which housed the painting operation (a major use of energy in auto manufacturing), vehicle assembly, and body weld.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "However, stochastic frontier regression analysis is a tool that can be used to identify “best practice.”",
+        "Production was instead measured as the total number of vehicles produced at a single plant. The type of vehicle produced, i.e. autos, trucks and vans, would also be included in the model.  Capacity utilization of the plant was included to account for the fixed and variable components of plant operation. Finally the heating and cooling loads of the plants would differ depending on their local climate/weather, so heating and cooling degree day (HDD/CDD) data would need to be accounted for in the model as well."
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

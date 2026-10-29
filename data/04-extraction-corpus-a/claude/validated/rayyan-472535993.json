@@ -1,0 +1,115 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535993",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T10:52:33Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This study explores innovative methodologies for estimating the energy baseline (EnBL) of a university classroom building",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A classroom building on the UAO University campus (Figure 3), is studied as an application of the EnBL.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "university classroom building",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Level-3A eligible: characterises four EnBL/EnPI models (time series, univariate & multivariate linear regression, EnergyPlus/Design Builder simulation) for one university classroom building at UAO campus, Colombia. Buildings sector -> not continuous process (level_3b=false). Time-series forecasting family coded 'other'. paper_type has a methodological-comparison flavour but is anchored to one empirical case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A classroom building on the UAO University campus",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Cali, Colombia",
+      "evidence_quote": "Cali 760030, Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "university classroom building",
+      "evidence_quote": "energy baseline (EnBL) of a university classroom building",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "university classroom building",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "This proposed Energy Management System (EMS) finds its foundation in the tenets of ISO 50001, harmonizing seamlessly with the pragmatic directives delineated in ISO 50006.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": "Four methodologies are proposed: time series models, univariate regression models, multivariate regression models, and dynamic simulations using Design Builder software.",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

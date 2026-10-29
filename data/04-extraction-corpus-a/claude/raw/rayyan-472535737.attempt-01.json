@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535737",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T22:10:11Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "energy consumption indicators for the whole company (e.g. in MWh per ton), followed by a comparison of the indicators over time",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "all of the energy review reports for 366 companies were evaluated",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "manufacturing industry, the food industry, or health care",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline eligibility: programme/policy paper on LEEN energy-efficiency networks (30 Pilot Networks, Germany). EnPI/EnB content = LEEN monitoring methodology (top-down MWh/ton intensity; bottom-up cumulative measure savings adjusted by correlation factors for heating-degree-days/production), ISO 50001-compliant; borderline vs incidental. paper_type multi-case vs 'other' (programme evaluation) both plausible. Multi-sector (74% manufacturing)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "10 to 15 participants from different sectors",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "has established 30 LEEN networks in Germany",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry",
+      "evidence_quote": "74 % of all participants originate from the manufacturing industry",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "manufacturing industry, the food industry, or health care",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "comply with the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "energy consumption indicators for the whole company (e.g. in MWh per ton)",
+        "the sum of all measures realized from the time of the base year to the year of analysis, expressed in energy units per year"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

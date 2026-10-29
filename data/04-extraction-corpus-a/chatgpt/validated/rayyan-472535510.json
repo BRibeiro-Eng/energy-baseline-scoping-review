@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535510",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:14:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a regression analysis is pursued to correlate HDD and CDD to the energy consumptions due to heating and cooling of Building A having chosen the year 2015 as baseline period.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The methodology introduced in the previous Section has been applied to the University of Catania, in Italy.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "buildings belonging to public or governmental organizations",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Single-organisation building case with two buildings; no continuous-process-industry application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "the proposed EMS scheme has been validated with respect to two different buildings.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "The methodology introduced in the previous Section has been applied to the University of Catania, in Italy.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "public organizations",
+      "evidence_quote": "an energy management system tailored to public organizations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "buildings have been identiﬁed as the most appropriate choice for those organizations offering immaterial services, as indeed the University of Catania.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "The presented procedure applies the principles of both the ISO 50001 and the ISO 50006 systematically",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "For the quantiﬁcation of HDD and CDD, the Italian Decree n. 412/1993 serves as reference",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "a regression analysis is pursued to correlate HDD and CDD to the energy consumptions due to heating and cooling of Building A",
+        "In this study, control charts and the CUSUM have been recalled from statistics and built for the EMS in buildings for public organizations."
+      ],
+      "page": [
+        10,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

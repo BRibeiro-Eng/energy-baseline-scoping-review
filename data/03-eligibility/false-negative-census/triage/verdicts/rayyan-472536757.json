@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472536757",
+ "tier": "A",
+ "ts": "2026-09-10T18:49:56",
+ "detectors": [
+  "lexicon",
+  "model_flags"
+ ],
+ "terms": [
+  "refining",
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 100.5,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "EPI ENERGY STAR"
+}

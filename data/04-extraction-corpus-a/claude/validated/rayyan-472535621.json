@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535621",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:44:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Dividing the kW·h energy use by cubic meters and PE generated energy performance indicators (EnPIs) for each facility.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "focusing on six case studies",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a majority publicly owned joint board for water and wastewater in eastern Germany",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "EnPI = specific energy use ratios (kWh/m3, kWh/PE); water/wastewater utility, not on the closed 3B sector list. paper_type borderline: single-org multi-site vs six case studies."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "These 15 WWTPs, five water treatment plants (WTPs), one pumping station",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Saxony, Germany",
+      "evidence_quote": "energy management projects with WWUs in Saxony, Germany",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "sector_of_activity": {
+      "value": "water and wastewater",
+      "evidence_quote": "joint board for water and wastewater in eastern Germany",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "supplies about 1,800 mil gal (4.9 mgd) of drinking water (75% via gravity) through 750 mi of pipeline and treats 210,000 population equivalents of wastewater loading",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "an energy management system according to the international ISO 50001 standard was certified",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "Dividing the kW·h energy use by cubic meters and PE generated energy performance indicators (EnPIs) for each facility.",
+        "the EnPI for wastewater (kilowatt-hours/population equivalents) and water supply (kilowatt-hours per cubic meter)"
+      ],
+      "page": [
+        4,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

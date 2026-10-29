@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536583",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:57:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The EnPI is obtained from a multiple linear model that relates the energy consumption with production and other operational variables such as added water, moisture after rest and particle size (PS)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The results of the study, carried out in a wheat mill plant in Cuba",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The food industry is divided into several sectors. Among these, the wheat processing sector is considered as an energy-intensive industry consumer",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Case is a wheat mill / flour milling plant in Cuba (food industry). Runs round-the-clock (three shifts) as a continuous-flow process, but flour/grain milling is NOT on the closed Level-3B continuous-process sector list, so level_3b=false. type_of_organisation coded 'continuous process' as a Level-A descriptor only, independent of level_3b."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The wheat mill plant studied produces approximately 420 t of flour daily",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Cuba",
+      "evidence_quote": "carried out in a wheat mill plant in Cuba",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "wheat processing sector",
+      "evidence_quote": "the wheat processing sector is considered as an energy-intensive industry consumer",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The reports are organized according to the work shifts of the plant (7:00 a.m. to 3:00 p.m.), (3:00 p.m. to 11:00 p.m.) and (11:00 pm to 7:00 am.)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "According to ISO 50001 and ISO 50006 standards, several variables that affect the energy consumption can be introduced to obtain an EnPI",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "the energy consumption of wheat milling process using multiple linear regression",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

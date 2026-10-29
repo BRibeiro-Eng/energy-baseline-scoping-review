@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535782",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:12:00.211681+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents the challenges and benefits of an ISO 50001 implementation in an industrial environment as well as the methodology and systematic approach, but also tools such as energy controlling systems and measurement equipment",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Describes ISO 50001 energy management system implementation in general terms (challenges, benefits, the PDCA cycle, and supporting tools: consulting, energy-controlling software, measurement hardware). EnPI/energy baseline appear only incidentally as a generic ISO step; no EnPI/EnB model is identified or characterised (no variables, functional form, or construction/estimation approach). Ineligible under the v2.3 incidental-mention and tool/framework/software-without-measurement-model rules.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "the approach to energy management systems according to the ISO 50001 standard has been presented",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "General descriptive overview paper; not empirical, not a model construction, not a review of applications. paper_type coded 'other' (alternative 'tool/software design' considered given the tools section, but no software is actually designed). Clearly ineligible; not a review/synthesis borderline."
+  },
+  "stage2": null,
+  "stage3": null
+}

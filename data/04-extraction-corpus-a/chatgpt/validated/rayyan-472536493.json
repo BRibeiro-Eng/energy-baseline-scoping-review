@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536493",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:40:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Therefore, EnPIs can be determined by the equation obtained as a result of linear regression analysis with dependent and predictive variables.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In this study, the variables aﬀecting the energy consumption, in other words, the energy performance indicators (EnPI), of the terminal building of Dalaman International Airport, Turkey, were determined.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to an airport terminal building, an out-of-scope building/service context rather than a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Turkey",
+      "evidence_quote": "the terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "airport terminal building",
+      "evidence_quote": "the terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "the terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The main purpose of this study is to determine the energy performance indicators at airports using the method described in ISO 50001 EnMS.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "Therefore, EnPIs can be determined by the equation obtained as a result of linear regression analysis with dependent and predictive variables.",
+        "In the regression analysis, it was observed that the total energy consumption at the airport varied only with the number of passengers and degree day (DD)."
+      ],
+      "page": [
+        5,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

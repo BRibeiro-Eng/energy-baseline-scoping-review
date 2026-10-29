@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535401",
+ "tier": "A",
+ "ts": "2026-09-10T18:42:33",
+ "detectors": [
+  "lexicon",
+  "model_flags"
+ ],
+ "terms": [
+  "petrochemical",
+  "petroleum",
+  "refining"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 64.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "artigo de standarts em Oil and Gas, mas sem metodologia"
+}

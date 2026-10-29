@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536506",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:55:11.807614+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The power consumption model is constructed using a multilayer perceptron neural network",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The NN construction was made for the water intake of the",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "mathematical model of power consumption of the water supply",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Application is municipal water supply (Lutskvodokanal): continuous-flow utility, not on the closed Level-3B list, so level_3b=false; flagged for human decision."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The NN construction was made for the water intake of the",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Lutsk, Ukraine",
+      "evidence_quote": "enterprise in Lutsk, Ukraine",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "water supply",
+      "evidence_quote": "the water supply facility",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the municipal water supply system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "under ISO 50001 standard is the basis of energy management",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "The power consumption model is constructed using a multilayer perceptron neural network",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "the multicriteria approach was applied",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

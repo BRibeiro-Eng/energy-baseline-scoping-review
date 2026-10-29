@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536049",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Mafimisebi, BI and Jones, K and Nwaubani, S and Sennaroglu, B",
+    "rayyan_decision": "Included",
+    "source": "INTERNATIONAL JOURNAL OF ENVIRONMENTAL SCIENCE AND TECHNOLOGY",
+    "title": "Procedural tool for analysing building energy performance: structural equation modelling protocol",
+    "year": 2020
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "The Performance Metrics (PMs) are subset objectives used for measuring the energy performance of each case study building while the Key Performance Indicators (KPIs) are standardised whole-building analysis metrics used for comparing and benchmarking across case-study buildings",
+      "page": 5,
+      "rule": "§5.2: propoe e avalia um modelo de medicao de desempenho energetico com variaveis, forma funcional e abordagem de estimacao identificaveis; edificios nao-residenciais nao sao exclusao topical."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

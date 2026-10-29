@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536623",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:42:23.748023+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "an innovative energy intensity metric by dividing total site energy consumption by volume of air delivered",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "this work proposes a novel methodology that supports decision making towards delivering optimal network performance",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a non-energy intensive multi-national manufacturing corporation in the life sciences industry",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline paper_type: framework/methodology (GEMS decision-support framework + EM3 maturity model) vs 'single applied case' (single org, BSC, 5 sites). Eligibility rests on the Tier-1 energy-intensity KPI. level_3b=false: BSC = medical-device/life-sciences discrete manufacturing, not a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "manufacturing plants in Ireland (Sites 1e3). Warehouse in the Netherlands (Site 4). Reference manufacturing plant in Ireland (Site 5)",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Ireland, Netherlands",
+      "evidence_quote": "manufacturing plants in Ireland (Sites 1e3). Warehouse in the Netherlands (Site 4). Reference manufacturing plant in Ireland (Site 5)",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "life sciences industry",
+      "evidence_quote": "multi-national manufacturing corporation in the life sciences industry",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "a non-energy intensive multi-national manufacturing corporation in the life sciences industry",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "ISO50001 [21] and Superior Energy Performance",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": "All the European sites were required to complete an energy audit by December 2015 as part of the Energy Efficiency Directive (EED), Article 8",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "an innovative energy intensity metric by dividing total site energy consumption by volume of air delivered",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "hybrid multi-criteria decision-making method that combines Analytical Hierarchy Process (AHP)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

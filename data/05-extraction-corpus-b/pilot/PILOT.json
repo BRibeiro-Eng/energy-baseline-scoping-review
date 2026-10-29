@@ -1,0 +1,32 @@
+{
+  "purpose": "Test the definitions, the multi-model representation and the real human time before the schema is frozen. Chosen for heterogeneity, not convenience.",
+  "papers": [
+    {
+      "key": "rayyan-472535351",
+      "why": "refining, 2025 — the sector-priority head; tests C5 boundary correspondence on a refinery utility system"
+    },
+    {
+      "key": "rayyan-472535550",
+      "why": "petrochemical with TWO models (MLR and MLP ANN) — the case the article-level schema used to flatten"
+    },
+    {
+      "key": "rayyan-472535794",
+      "why": "glass plus cast iron, statistical AND deterministic approaches, two processes — stresses applications[] and models[] at once"
+    },
+    {
+      "key": "rayyan-472536694",
+      "why": "cement; the heteroscedasticity case. Tests claim_status: is the statement a textbook definition (general) or a finding about this model?"
+    },
+    {
+      "key": "rayyan-472536612",
+      "why": "nine industrial sectors — multi-site benchmark, tests scale 'sector or multi-site' and cross-site comparability"
+    }
+  ],
+  "exit_criteria": [
+    "every pilot paper validates against schema.json with no repair",
+    "multi-model papers produce one models[] entry per model with no field bleeding between them",
+    "reviewer records actual minutes per paper for the blind-first core estimate",
+    "at least one claim_status='general' correctly assigned, proving the rule bites",
+    "no invented quote on any 'not reported' value; absence_basis present on all of them"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": true,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536612",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Bonfà, F. and Salvatori, S. and Benedetti, M. and Introna, V. and Ubertini, S. and Chou, S.K. and Yan, J. and Nian, V. and Yan, J. and Li, H.",
+    "rayyan_decision": "Included",
+    "source": "Energy Procedia",
+    "title": "Monitoring compressed air systems energy performance in industrial production: Lesson learned from an explorative study in large and energy-intensive industrial firms.",
+    "year": 2017
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "quoted",
+      "quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic",
+      "page": 3,
+      "rule": "§5.3 lista principal: a amostra empirica inclui papel e fabricacao de metais de base, e os KPIs e modelos de regressao sao calculados setor a setor, com linhas para 'Paper' e 'Basic metal' (Tabela 1, p.5)."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

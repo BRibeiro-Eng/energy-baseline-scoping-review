@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536537",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Howell, S.K. and Wicaksono, H. and Yuce, B. and McGlinn, K. and Rezgui, Y.",
+    "rayyan_decision": "Maybe",
+    "source": "IEEE Transactions on Cybernetics",
+    "title": "User Centered Neuro-Fuzzy Energy Management through Semantic-Based Optimization",
+    "year": 2019
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "a histogram of sensed data values and a traffic light graphic which indicates the acceptability of the current performance, relative to its mean value.",
+      "page": 11,
+      "rule": "§5.2: indicador de monitorizacao com mensurando e abordagem de construcao (comparacao com o valor medio, banda de aceitabilidade). O ciclo de controlo neuro-difuso por si so nao foi contado."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

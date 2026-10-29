@@ -1,0 +1,42 @@
+{
+  "template_version": "1.0",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "reviewer_gate": {
+    "c23_signoff_date": "2026-07-23",
+    "signed_by": "Bernardo Ribeiro"
+  },
+  "osf": {
+    "registration_doi": "10.17605/OSF.IO/TDW6C",
+    "amendment_filed_date": "2026-07-23",
+    "amendment_url": "https://osf.io/wh62r/files/osfstorage/6a61e15518c36790cda322f4"
+  },
+  "source": {
+    "documentation_commit": null,
+    "code_commit": null,
+    "prompt_commit": null,
+    "prompt_tag": "v2.3.1-operational",
+    "pack_manifest_sha256": null
+  },
+  "execution_surfaces": {
+    "claude": {
+      "surface": "Claude Code application (consumer subscription)",
+      "app_version": null,
+      "model_label": null,
+      "thinking": "adaptive",
+      "effort": "high"
+    },
+    "chatgpt": {
+      "surface": "Codex/ChatGPT application (consumer subscription)",
+      "app_version": null,
+      "model_label": null
+    }
+  },
+  "run": {
+    "run_id": null,
+    "executor": null,
+    "started_at": null,
+    "working_directory": "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction",
+    "batches": []
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535627",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:47:07Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the present work aims to shed light on the contribution of ISO 14001:2015 and EMAS III to energy management",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Paper analyses the contribution of environmental-management standards (ISO 14001:2015 and EMAS III) to energy management through qualitative content analysis and an exploratory hotel case study. EnPIs and sectoral energy-efficiency indicators are discussed and catalogued from the standards' reference documents, but no EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (no model variables, functional form, or construction/estimation approach identifiable).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "eight case studies focused on the Hospitality sector were analyzed",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Hybrid design: qualitative content analysis of ISO 14001:2015 and EMAS III standards plus exploratory study of eight Spanish hotels (Hospitality sector). Discusses EnPIs and catalogues EMAS SRD energy-efficiency indicators but characterises no EnPI/EnB measurement model; borderline eligibility judged false. Hotels are not a continuous-process industry, so level_3b is false."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535581",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:03:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper analyzed the strategy to improve the effectiveness of EnMS certification from the aspects of",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Focuses on improving EnMS certification effectiveness without identifying or characterising an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The paper analyzed the strategy to improve the effectiveness of EnMS certification from the aspects of",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The paper discusses EnMS certification strategy and only mentions prior maturity models; it does not present or characterise an EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

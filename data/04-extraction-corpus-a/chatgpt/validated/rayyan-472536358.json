@@ -1,0 +1,350 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536358",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T13:39:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The averaged facility-level SEC (Speciϐic Energy Consumption) values were used as proxies for EnPIs, deϐined as energy consumed per unit of production. Regression-based statistical modelling was employed to determine typical EnPI values at both site and process levels",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "We analysed the audits carried out by industrial gases producers and built a database of 12 producers and 38 plants.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The Industrial Gas sector includes 12 enterprises with 38 production sites in Italy",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "We analysed the audits carried out by industrial gases producers and built a database of 12 producers and 38 plants.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "The Industrial Gas sector includes 12 enterprises with 38 production sites in Italy",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "industrial gases",
+      "evidence_quote": "We analysed the audits carried out by industrial gases producers",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "After the puriϐied and compressed airϐlow is cooled again, it proceeds to the distillation phase, which occurs in high-pressure (HP) and low-pressure (LP) fractioning columns.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": "The EED is, since 2012, the cornerstone of the legislative framework for the EU energy efϐiciency targets and it was adopted in 2014 in Italy by Legislative Decree n. 102. The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years, starting from December 2015.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": "The averaged facility-level SEC (Speciϐic Energy Consumption) values were used as proxies for EnPIs, deϐined as energy consumed per unit of production. Regression-based statistical modelling was employed to determine typical EnPI values at both site and process levels",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Production [Nm3]"
+      ],
+      "evidence_quote": "𝐸𝑛𝑒𝑟𝑔𝑦 𝐶𝑜𝑛𝑠𝑢𝑚𝑝𝑡𝑖𝑜𝑛 [𝑡𝑜𝑒] =  𝑎∙𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛 [𝑁𝑚3] +  𝑏",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "baseline_construction_method": {
+      "value": "Facility-level mean specific energy consumption was used as the Real EnPI; energy consumption was then regressed on production and converted to a production-dependent EnPI model with uncertainty bounds.",
+      "evidence_quote": "Firstly, after a data cleaning process, the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed and then is calculated its standard deviation. Secondly, a linear correlation between energy consumption and production is analysed.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "If the linear correlation complies with: R2>0.5, R > Rcritic = f (n, α=0.01), and p-value<0.05, so it is considered statistically representative.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "27 Italian sites producing atmospheric gases, with primary and electrical EnPIs calculated at site level.",
+      "evidence_quote": "In this work, we applied the methodology to 27 Italian sites that produces atmospheric gases (11 sites were excluded from the analysis in order to have an homogenous sample). The EnPI of the primary energy consumption at site level has been calculated",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the upper and lower curves. For higher productions, the dispersion of the model is narrow, and some sites are out of the model interval.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the upper and lower curves. For higher productions, the dispersion of the model is narrow, and some sites are out of the model interval.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": [
+        "Therefore, the model cannot be considered very accurate for small productions (< 200 MNm3)",
+        "additional analysis by production intervals should be carried out. Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required"
+      ],
+      "page": [
+        10,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "additional analysis by production intervals should be carried out. Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "additional analysis by production intervals should be carried out. Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "additional analysis by production intervals should be carried out. Finally, a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "In this study we analyzed 38 Italian production sites of industrial gases",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "We analyzed 76 energy audits submitted by industrial gas producers, from 2018 to 2022",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Primary all-sites 2022: 8.991·10-5 + 5.043·103 / Production",
+        "Electrical all-sites 2022: 0.448 + 2.333·107 / Production",
+        "Primary liquid-only 2022: 8.849·10-5 + 5.278·103 / Production",
+        "Electrical liquid-only 2022: 0.464 + 2.857·107 / Production",
+        "Primary all-sites 2018: 10.183·10-5 + 3.310·103 / Production"
+      ],
+      "evidence_quote": [
+        "Primary toe/Nm3 1.27 ·10-4 ± 4.83 ·10-5 8.991·10-5 + 5.043·103/ Production 0.736 <0.0001 10-1000 (n=27) Electrical kWh/Nm3 0.650 ± 0.257 0.448 + 2.333·107 / Production 0.758 <0.0001 10-1000 (n=27)",
+        "Primary toe/Nm3 1.60 ·10-4 ± 4.07 ·10-5 8.849·10-5 + 5.278·103 / Production 0.823 0.0019 15-320 (n=8) Electrical kWh/Nm3 0.850 ± 0.219 0.464 + 2.857·107 / Production 0.831 0.0016 15-320 (n=8)",
+        "2018 1.37 ·10-4 ± 7.19 ·10-5 10.183·10-5 + 3.310·103/ Production 0.873 2-1100"
+      ],
+      "page": [
+        12,
+        12,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.736",
+          "unit": null,
+          "period_or_context": "Primary all-sites model, 2022 (n=27)",
+          "evidence_quote": "Primary toe/Nm3 1.27 ·10-4 ± 4.83 ·10-5 8.991·10-5 + 5.043·103/ Production 0.736 <0.0001 10-1000 (n=27)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "Primary all-sites model, 2022 (n=27)",
+          "evidence_quote": "Primary toe/Nm3 1.27 ·10-4 ± 4.83 ·10-5 8.991·10-5 + 5.043·103/ Production 0.736 <0.0001 10-1000 (n=27)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.758",
+          "unit": null,
+          "period_or_context": "Electrical all-sites model, 2022 (n=27)",
+          "evidence_quote": "Electrical kWh/Nm3 0.650 ± 0.257 0.448 + 2.333·107 / Production 0.758 <0.0001 10-1000 (n=27)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "Electrical all-sites model, 2022 (n=27)",
+          "evidence_quote": "Electrical kWh/Nm3 0.650 ± 0.257 0.448 + 2.333·107 / Production 0.758 <0.0001 10-1000 (n=27)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.823",
+          "unit": null,
+          "period_or_context": "Primary liquid-only model, 2022 (n=8)",
+          "evidence_quote": "Primary toe/Nm3 1.60 ·10-4 ± 4.07 ·10-5 8.849·10-5 + 5.278·103 / Production 0.823 0.0019 15-320 (n=8)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "0.0019",
+          "unit": null,
+          "period_or_context": "Primary liquid-only model, 2022 (n=8)",
+          "evidence_quote": "Primary toe/Nm3 1.60 ·10-4 ± 4.07 ·10-5 8.849·10-5 + 5.278·103 / Production 0.823 0.0019 15-320 (n=8)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.831",
+          "unit": null,
+          "period_or_context": "Electrical liquid-only model, 2022 (n=8)",
+          "evidence_quote": "Electrical kWh/Nm3 0.850 ± 0.219 0.464 + 2.857·107 / Production 0.831 0.0016 15-320 (n=8)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "0.0016",
+          "unit": null,
+          "period_or_context": "Electrical liquid-only model, 2022 (n=8)",
+          "evidence_quote": "Electrical kWh/Nm3 0.850 ± 0.219 0.464 + 2.857·107 / Production 0.831 0.0016 15-320 (n=8)",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.873",
+          "unit": null,
+          "period_or_context": "Primary all-sites model, 2018",
+          "evidence_quote": "regression model presents a higher correlation (R2=0.873 vs. 0.736) compared to 2022 data.",
+          "page": 13,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  }
+}

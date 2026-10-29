@@ -1,0 +1,71 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b",
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": false,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536587",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Ameri Siahooei, M.A. and Samimi, A. and Baharvand, B.",
+    "rayyan_decision": "Maybe",
+    "source": "Minerals, Metals and Materials Series",
+    "title": "Alumina feeding system changes in aluminum electrochemical cell with d18 technology for energy efficiency (Case study: Almahdi-hormozal aluminum smelter)",
+    "year": 2018
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "quoted",
+      "quote": "Abbas, has a total number of 240 reduction cells which utilize center break and",
+      "page": 2,
+      "rule": "§5.3 clausula de setor continuo NAO-LISTADO: fundicao de aluminio e continua 24/7 mas nao esta na lista; false + unlisted, sem auto-classificar em 'Steel and other primary-metals'."
+    },
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "sumption could be lowered from 16.4 kWh/kg- to 14.6 kWh /kg-Al.",
+      "page": 8,
+      "rule": "§5.2 limiar v2.3: apresenta EnPI + EnB explicito; validacao e dado, nao gate."
+    }
+  },
+  "reviewer_notes": "Continuous-flow sector not on the §5.3 main list: Aluminio primario (reducao eletrolitica Hall-Heroult). Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector.",
+  "saved_at": "2026-09-01T14:34:36"
+}

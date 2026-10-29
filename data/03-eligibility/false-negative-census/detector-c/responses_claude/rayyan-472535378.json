@@ -1,0 +1,33 @@
+{
+  "key": "rayyan-472535378",
+  "listed_sector_signals": [
+    {
+      "signal": "Hydrogen production via water electrolysis described as the core process of the solar-hydrogen system (touches the industrial-gases 'hydrogen' sector, though here it is small-scale/renewable-energy storage, not continuous industrial gas production)",
+      "quote": "produce hydrogen through electrolysis, a process that separates water into hydrogen and\noxygen using electricity",
+      "page": 1,
+      "sector": "industrial gases (hydrogen)"
+    },
+    {
+      "signal": "Discussion of green-hydrogen production technologies including solid oxide electrolysis and electrified steam methane reforming (mentioned in literature review only)",
+      "quote": "The review identifies solid\noxide electrolysis cells (SOECs) as a leading technology, along with promising alternatives\nlike anion exchange membranes (AEMs) and electrified steam methane reforming (ESMR).",
+      "page": 8,
+      "sector": "industrial gases (hydrogen)"
+    },
+    {
+      "signal": "Mention of ammonia-based carriers for hydrogen transport (ammonia relates to continuous chemical production)",
+      "quote": "compressed and liquid hydrogen, pipeline blending, and ammonia-based carriers",
+      "page": 7,
+      "sector": "continuous chemical production (ammonia)"
+    },
+    {
+      "signal": "Cited reference on energy-performance indicators in Kraft pulp mills (pulp & paper sector, appears only in the reference list)",
+      "quote": "Successful Energy Management Practices in Kraft Pulp Mills",
+      "page": 32,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies MobileNetV2 and InceptionV3 deep-learning models to solar-panel fault detection within a university (Kangwon National University) solar–hydrogen energy system, integrated with a customized ISO 50001:2018 energy-management framework — an academic/renewable-energy context, not continuous-flow industrial production."
+}

@@ -1,0 +1,17 @@
+{
+ "source_commits": {
+  "level3_extraction (docs)": "73dda9133966c842f8622fa82495e5f6bc3c9c37",
+  "output (code)": "9fa17e47d4ac9e9fa88bde0c7ee27e1ed299d32a",
+  "prompts": "8be83b8ceacabd3ec8dfbd1726318a5299cc4815"
+ },
+ "transforms": [
+  "t_records_screened: 925 records; notes and abstract removed; decision parsed from RAYYAN-INCLUSION",
+  "t_cell_provenance: 3310 cells; status mapped to English, original kept in status_original",
+  "t_corpora: 331 registered records + 1 touched only by late verification; abstract removed",
+  "t_d13: 47 abstracts redacted; original sha256 7828602fd79fe7773a0e8b8b7629d067be90abc5b099b987ad4416ece009baa4 (listed in tasks/MANIFEST.json)",
+  "t_results_labels: 721 table labels translated; catalog.en.json with 97 figure titles and captions (Portuguese kept in *_pt)",
+  "11 translated documents (original kept as .pt.md)",
+  "abstract column removed from 2 tables: results/corpus-a/tables/analysis_dataset.csv, results/corpus-a/tables/metadata_enrichment_coverage.csv"
+ ],
+ "rules_without_match": []
+}

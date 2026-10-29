@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535737",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:26:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The bottom-up approach takes into consideration the sum of all measures realized from the time of the base year to the year of analysis, expressed in energy units per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "First, all of the energy review reports for 366 companies were evaluated with regard to energy efficiency potentials and their profitability.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In order to avoid competition between the participating companies, they normally come from different sectors, such as the manufacturing industry, the food industry, or health care.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Mixed-sector, multi-company LEEN evaluation; no explicit application in a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "First, all of the energy review reports for 366 companies were evaluated with regard to energy efficiency potentials and their profitability.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "The insights described in this paper are based primarily on the following projects carried out in Germany:",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry, the food industry, or health care",
+      "evidence_quote": "In order to avoid competition between the participating companies, they normally come from different sectors, such as the manufacturing industry, the food industry, or health care.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "In order to avoid competition between the participating companies, they normally come from different sectors, such as the manufacturing industry, the food industry, or health care.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This process ensures conformity with DIN EN ISO 50001.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "The top-down approach involves the calculation of energy consumption indicators for the whole company (e.g. in MWh per ton), followed by a comparison of the indicators over time.",
+        "The bottom-up approach takes into consideration the sum of all measures realized from the time of the base year to the year of analysis, expressed in energy units per year."
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535581",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:55:24Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper analyzed the strategy to improve the effectiveness of EnMS certification from the aspects of the enterprise, the certification body and the supervision department.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "The paper addresses ISO 50001 energy management system (EnMS) certification effectiveness as an organisational/management strategy, discussed from the enterprise, certification body and supervision department perspectives. It does not present, propose, evaluate, or characterise any EnPI or EnB measurement model (no measured/normalised quantity, variables, functional form, or construction approach is identifiable). Energy-management maturity models appear only as cited prior work in the literature review, not as the paper's own contribution.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The strategy to improve energy management system certification effectiveness",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Qualitative strategy paper on EnMS certification effectiveness; presents no EnPI/EnB model. Maturity models cited (Antunes 2014; Jovanovic and Filipovic 2016) are prior work, not this paper's own model."
+  },
+  "stage2": null,
+  "stage3": null
+}

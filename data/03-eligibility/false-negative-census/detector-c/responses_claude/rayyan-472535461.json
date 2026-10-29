@@ -1,0 +1,15 @@
+{
+  "key": "rayyan-472535461",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Generic mention that the smart energy management system could be implemented in chemical processing industries (no continuous chemical production actually demonstrated)",
+      "quote": "Figure 7 shows the general subsystems of a SEMS that can be implemented in in-\ndustries, typically chemical processing and the mining industry.",
+      "page": 7,
+      "sector": "chemical processing (generic mention, continuity unspecified)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper designs and tests a smart energy management, monitoring and peak-load forecasting system (SCADA + fast forest quantile regression) for an experimental open-pit mine, with discrete mining equipment such as draglines, jaw crushers and conveyors; continuous processing is not its context."
+}

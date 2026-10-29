@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536353",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:17:06.138091+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "CNN, DNN, and RNN models were applied across 12 datasets to identify the most effective model",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This study utilizes data from a glove manufacturing site in Malaysia",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "It specializes in the production of rubber gloves, utilizing synthetic latex as its primary raw material",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "24/7 rubber-glove (healthcare) manufacturing site, Malaysia; sector not in the closed continuous-process list, so level_3b=false. type_of_organisation discrete-vs-continuous is borderline given 'continuous production 24 h a day'."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "data from a glove manufacturing site in Malaysia, selected for its stable conditions",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Malaysia",
+      "evidence_quote": "The company under study is located in Malaysia",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "glove manufacturing",
+      "evidence_quote": "glove manufacturing site in Malaysia",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "It specializes in the production of rubber gloves",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol (IPMVP)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "prediction of energy baselines using various machine learning models, specifically DNN, RNN, and CNN",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

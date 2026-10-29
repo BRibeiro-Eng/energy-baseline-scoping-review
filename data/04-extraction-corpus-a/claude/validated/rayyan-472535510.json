@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535510",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:28:38Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a suitable EnPI is chosen and its suitability in describing energy performance in buildings is demonstrated",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The methodology introduced in the previous Section has been applied to the University of Catania, in Italy",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "tailored to immaterial services organizations in which buildings are identified as cost centres",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "University buildings (public/immaterial-services org); EnB via single-variable regression on HDD/CDD/hours-of-darkness; control charts + CUSUM. type_of_organisation borderline services vs buildings."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "the proposed EMS scheme has been validated with respect to two different buildings",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Catania, Italy",
+      "evidence_quote": "applied to the University of Catania, in Italy",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "public organizations",
+      "evidence_quote": "energy management system tailored to public organizations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "has different rooms used as offices, reading rooms, help desk rooms and classrooms",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": "Standardized practises compliant with the ISO 50001 and ISO 50006",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "change-point or SPC"],
+      "evidence_quote": [
+        "linear regression can serve to the aid",
+        "control charts and the CUSUM have been recalled from statistics and built for the EMS"
+      ],
+      "page": [5, 8],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

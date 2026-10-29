@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536671",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:29:41+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "energy models trained on historic metered utility energy consumption (e.g., electricity) and measures of conditions (such as production or weather) that drive energy use",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "Energent has since implemented the model summary report as a stand-alone tool.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "heating models trained on real hospital data",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline eligibility: HF/E interface-design paper (Ergonomics in Design) designing a report to COMMUNICATE existing M&T energy models; it characterises/critiques the regression+CUSUM EnB model (drivers: production, weather) but fits no new model. Multi-sector field study (light industrial, institutional); charted model example is hospital heating -> none in closed continuous-process list, level_3b=false. ISO 50001/IPMVP appear as cited context only. Flag eligibility for human adjudication."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Three Energent client users and both in-house Energent energy analysts participated.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "hospital",
+      "evidence_quote": "heating models trained on real hospital data",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.35
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": [
+        "Client Site A: \nLight industrial",
+        "Client Site B: \nInstitutional"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001:2011. Energy management.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International performance \nmeasurement & verification protocol",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "measures of conditions (such as production or weather) that drive energy use",
+        "time-series \ncumulative sum (CUSUM) charts"
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

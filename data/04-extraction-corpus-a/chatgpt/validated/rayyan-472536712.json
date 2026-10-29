@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536712",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T09:22:51Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper discusses \na model driven approach integrating IT \nsystems at design, construction and operation stages of buildings so that monitoring, analysis and optimization \nof building energy performance can be achieved.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Tool/system architecture without an identifiable or characterised EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The proposed system architecture (See Figure 1 \nabove) consists of three application layers such as (1) \nData Layer, (2) Information Layer, and (3) Tool Layer.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Building IT architecture; no EnPI/EnB baseline or indicator model with variables, functional form, or estimation approach."
+  },
+  "stage2": null,
+  "stage3": null
+}

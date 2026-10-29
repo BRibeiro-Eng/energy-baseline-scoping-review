@@ -1,0 +1,46 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535556",
+      "level_a": {},
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535556",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Izmir, Turkey",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "university buildings",
+        "type_of_organisation": "buildings"
+      },
+      "level_b": {}
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535479",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:57:25Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "Some selected case studies describing quantitative energy performance affected by the implementation of ISO 50001 at the international level with different sectors and some role models from Indonesia are described.",
+        "Selected topic related to the state of the art and trend energy supply, energy management, energy policy, and case studies of some selected role models in implementation of the energy management system."
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "Review reports ISO 50001 implementation outcomes but does not identify or characterise an EnPI/EnB model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "A review of implementation, benefits, and challenges",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Descriptive review of ISO 50001 implementation outcomes and challenges; performance percentages, cost savings, and CO2 reductions are reported without EnPI/EnB model characterisation."
+  },
+  "stage2": null,
+  "stage3": null
+}

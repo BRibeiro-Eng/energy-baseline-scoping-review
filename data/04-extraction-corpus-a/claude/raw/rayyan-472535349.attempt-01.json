@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535349",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article is devoted to the analysis of how ISO 50001 can solve existing problems in the field of energy and how it contributes to save energy resources.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper addresses the importance and organisational/policy-level implementation of ISO 50001 energy management systems (EnMS) in Uzbek manufacturing enterprises. It does not present, characterise, or evaluate any EnPI/EnB measurement model: no measured/normalised quantity, normalisation variables, functional form, or baseline construction/estimation approach is identified. EnPI/EnB content is only incidental (generic 'key indicators').",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "The purpose of such a systematic review is to identify relevant existing studies",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Self-framed systematic review of EnMS/ISO 50001 implementation importance in Uzbek enterprises; managerial/policy scope with no EnPI/EnB measurement-model content. Ineligible under v2.3 review/synthesis decision-tree step 1 (models not characterised); not genuinely borderline."
+  },
+  "stage2": null,
+  "stage3": null
+}

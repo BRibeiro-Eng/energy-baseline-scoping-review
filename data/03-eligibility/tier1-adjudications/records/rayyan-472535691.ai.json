@@ -1,0 +1,48 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472535691",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Japan, Sweden, and the United States",
+        "ems_standard": [
+          "ISO 50001",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "other"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "SEP M&V"
+        ],
+        "regulatory_driver": [
+          "other-named"
+        ],
+        "sector_of_activity": "industrial and commercial buildings sectors",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "other"
+      },
+      "key": "rayyan-472535691",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

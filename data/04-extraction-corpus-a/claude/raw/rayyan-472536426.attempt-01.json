@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536426",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-14T15:26:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The single-family building, located in the northern part of Italy",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Exclusive focus is a residential single-family NZEB house (a new single house building) with no industrial component; it reports building energy-performance monitoring against a national-methodology (UNI/TS 11300) design calculation rather than a characterised EnPI/EnB relevant-variable model. Excluded under the 'residential buildings without industrial component' rule.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "An exemplary building, designed in 2010, has been considered as a case study",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Single-family NZEB house, N. Italy; 6-year monitoring vs UNI/TS 11300 semi-stationary design calc; real winter consumption ~79% of simulated, classed PEB. Reports EP indicators (EPgl,tot, EPH,nd) but no fitted EnB/relevant-variable model. Residential, no industrial component -> ineligible."
+  },
+  "stage2": null,
+  "stage3": null
+}

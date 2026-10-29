@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536569",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:59:07.044536+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this study four energy consumption parameters (i.e. four independent variables) are used in the baseline regression model",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "Software architecture of this cloud platform contains PSORun (server), PSORun (client) and the Data Upload Program",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The M&V cloud computing platform is used to assess the energy conservation for the washing machine",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Cloud M&V software platform embedding a multivariate-regression EnB baseline model (4 independent vars, PSO-fitted) -> eligible. paper_type borderline: tool/software design vs single applied case (one washing-machine demo). type_of_organisation coded 'buildings' (residential appliance) but arguably 'not specified' - flagged. Application = washing machine (home appliance), not continuous-process -> level_3b=false. PSO = fitting method, not a schema model type."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In this study a washing machine is considered with four independent variables",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "home appliances",
+      "evidence_quote": "Using this cloud platform for home appliances could help the manufacturers to promote energy efficiency programs on smart appliances",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "consumed in buildings consists of residential and commercial end-users",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14"
+      ],
+      "evidence_quote": [
+        "International Performance Measurement and Verification Protocol (IPMVP)",
+        "Engineers Guideline 14 is used"
+      ],
+      "page": [
+        2,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "multivariate regression analysis",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

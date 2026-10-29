@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535691",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:35:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The verification is codified in the Superior Energy Performance Measurement and Verification Protocol for Industry, which defines the methodology to: 1) verify the results and impact of a facility’s implementation of ISO 50001; 2) quantify energy savings from specific measures or projects; and 3) document energy performance normalized to production and other relevant variables [23].",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "The authors examine each of these three approaches by taking an in-depth look at one real-world example.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "GSEP aims to significantly cut global energy use by encouraging industrial and commercial buildings sectors to continually improve their energy efficiency.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Synthesis of national EMS programs spanning industrial and commercial-building contexts; no single continuous-process application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "The authors examine each of these three approaches by taking an in-depth look at one real-world example.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Japan, Sweden, and the United States",
+      "evidence_quote": "Several governments—including those in Japan, Sweden, and the United States—already utilize programs to promote energy efficiency in industry",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "industrial and commercial buildings sectors",
+      "evidence_quote": "GSEP aims to significantly cut global energy use by encouraging industrial and commercial buildings sectors to continually improve their energy efficiency.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "GSEP aims to significantly cut global energy use by encouraging industrial and commercial buildings sectors to continually improve their energy efficiency.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "The core of the program is certification to the energy management system (EMS) standard, ISO 50001. Before the publication of ISO 50001 in 2011, the EMS requirement included the Swedish Standard SS 637750 and EN 16001.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "The verification is codified in the Superior Energy Performance Measurement and Verification Protocol for Industry",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "The 2003 EU directive on minimum rates of taxation on energy lead to a new tax on electric power in Sweden: 0.5 euro/megawatt-hour (MWh) for industrial companies, with the exception of certain manufacturing processes. The law also allowed for other policy measures giving the same or better results compared to the tax [14]. In 2004, Sweden introduced a new law for energy efficiency in the energy intensive industry and the Swedish Energy Agency responded by introducing the Program for Energy Efficiency in energy intensive industries (PFE) on 1 January 2005.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "Transition of energy unit consumption",
+        "document energy performance normalized to production and other relevant variables [23]."
+      ],
+      "page": [
+        9,
+        25
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.88
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536563",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:15:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The main scope of this paper is to propose a limited number of best fitting, and at the same time easily adaptable to various configurations, list of KPIs for the case of renewable energy systems.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "After conducting an extended literature review, the most dominant Key Performance Indicators being identified, are:",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a simple standard model of a photovoltaic integrated with an electric battery is selected, for which indicative indicators are provided.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Review and KPI proposal for renewable-energy and storage systems; no explicit continuous-process-industry application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "After conducting an extended literature review, the most dominant Key Performance Indicators being identified, are:",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "In view of that, this review study presents a guideline for the environmental performance of RES with storage systems, based on both already existing energy performance indicators and new introduced environmental ones.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "renewable energy systems",
+      "evidence_quote": "The main scope of this paper is to propose a limited number of best fitting, and at the same time easily adaptable to various configurations, list of KPIs for the case of renewable energy systems.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "In view of that, this review study presents a guideline for the environmental performance of RES with storage systems, based on both already existing energy performance indicators and new introduced environmental ones.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "physical model"
+      ],
+      "evidence_quote": [
+        "“Net Energy Ratio (NER)” is a major widespread indicator showing the amount of energy that a technology can produce to the total amount of energy consumed for its setup (including manufacturing), over its expected total life time.",
+        "The “Specific Energy Density” is the product of the specific capacity and the operating voltage in one full discharge cycle."
+      ],
+      "page": [
+        14,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

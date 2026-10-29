@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": false,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536054",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Narciso, DAC and Martins, FG",
+    "rayyan_decision": "Included",
+    "source": "ENERGY REPORTS",
+    "title": "Application of machine learning tools for energy efficiency in industry: A review",
+    "year": 2020
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "not_reported_after_full_text_review",
+      "quote": null,
+      "page": null,
+      "rule": "§5.3 REQUISITO (revertido apos verificacao adversarial): os verbos 'apply, validate, or empirically demonstrate' tomam 'the paper' como sujeito, e a clausula diz expressamente que uma mencao do setor na revisao de literatura NAO qualifica. Esta e uma revisao de 42 papers: os autores nao aplicam, validam nem demonstram nada; petroquimica/etileno aparece como contagem de corpus (Tabela 6) e comentario descritivo. O entregavel proprio e um framework de categorizacao agnostico ao setor."
+    }
+  },
+  "reviewer_notes": "Revisão assistida por IA (Codex), 2026-09-09; não constitui adjudicação humana. Reveal level_3b: manter false sob o requisito de aplicação de §5.3. A p.2 e as Tabelas 7–9 (pp.9–10) confirmam uma síntese detalhada de modelos, incluindo aplicações reais a etileno nos estudos revistos; isto sustenta elegibilidade §5.2 e não é uma mera ausência de conteúdo petroquímico. O artigo em avaliação organiza e compara esses estudos, sem executar uma aplicação/validação própria num processo listado. A extensão de Corpus B a sínteses de aplicações deve ser resolvida explicitamente pelo revisor; finalização humana pendente.",
+  "saved_at": "2026-09-09T17:55:42"
+}

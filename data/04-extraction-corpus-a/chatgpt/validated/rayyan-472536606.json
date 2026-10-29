@@ -1,0 +1,344 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536606",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T12:00:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "The underlying approach of these case studies is a regression model of the general form",
+        "where E is the measure of total source energy (total Btu of fuels and electricity use converted to Btu based on average US thermal plant efficiency including line losses), Y is either production or a vector of production-related activities, X is a vector of plant characteristics, β is a parameter vector (the normalization factors), and ε is the measure of relative plant efficiency."
+      ],
+      "page": [
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This paper is a meta-analysis, or overview, of how these case studies of efficiency in a range of industries have addressed these questions and knowledge gaps.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "Cement\n3 product types\nTons",
+        "Glass—flat\nSingle\nPounds",
+        "Iron and steel—integrateda\n4 stagesc\nTons",
+        "Pulp mills\n3 product types\nTons"
+      ],
+      "page": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "notes": "Review of 24 applied industry cases; the synthesis includes both continuous-process and other manufacturing sectors."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This paper is a meta-analysis, or overview, of how these case studies of efficiency in a range of industries have addressed these questions and knowledge gaps.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "USA",
+      "evidence_quote": "The CM provides a detailed plant-level snapshot of energy use vis-à-vis other material and labor inputs as well as the level and mix of a variety of products for every plant in the USA in the respective CM quinquennial years.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "Comparing the statistical distributions of energy efficiency in manufacturing: meta-analysis of 24 Case studies to develop industry-specific energy performance indicators (EPI)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "Case studies have been conducted for 14 broad industries, 2 dozen sectors, and many more detailed product types.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This is similar to guidance from ISO 50001 regarding the creation of EnPI.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "these studies use a multivariate approach to normalization where multiple effects are simultaneously considered",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Product mix",
+        "Process input choices",
+        "Size—physical or productive capacity and utilization rates",
+        "Climate"
+      ],
+      "evidence_quote": [
+        "Product mix",
+        "Process input choices (i.e., Bmake or buy^ upstream integration)",
+        "Size—physical or productive capacity and utilization rates",
+        "Climate (and other location-specific factors)"
+      ],
+      "page": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_construction_method": {
+      "value": "A reduced-form regression relates plant-level total source energy to production/activity vectors and plant characteristics using cross-sectional or panel data. The case studies use linear or log-linear OLS and stochastic-frontier variants, with statistical tests used to select variables and distributional form.",
+      "evidence_quote": [
+        "We assume that this relationship can be approximated by a functional form that is amenable to statistical estimation using data from a cross-section or panel of plants within some Breasonably defined^ industry group.",
+        "The underlying approach of these case studies is a regression model of the general form",
+        "All the case studies consider the possibility that efficiency is skewed and test whether a stochastic frontier (SF) energy model is appropriate",
+        "Statistical test for significance were used to include or exclude the specific variables in the case study models."
+      ],
+      "page": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Statistical test for significance were used to include or exclude the specific variables in the case study models.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "demonstrate that whole-plant energy performance benchmarking is possible",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "whole-plant energy performance benchmarking across industry subsectors",
+      "evidence_quote": "demonstrate that whole-plant energy performance benchmarking is possible",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The interpretation of the comparison of actual and predicted values as a measure of efficiency is conditional on the assumption that the function used in the analysis is a reasonable approximation of the plant-level determinants of energy use and that the characteristics included in the analysis are reasonably appropriate and complete. These are admittedly strong assumptions.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The interpretation of the comparison of actual and predicted values as a measure of efficiency is conditional on the assumption that the function used in the analysis is a reasonable approximation of the plant-level determinants of energy use and that the characteristics included in the analysis are reasonably appropriate and complete. These are admittedly strong assumptions.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "This process enabled the identification of potential factors for inclusion in the regression analysis, receive timely feedback on draft results, quickly address concerns, and ultimately ensure a high degree of support and Bbuy-in^ for the tool.",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": [
+        "One approach to controlling for product mix is to segment the industry into cohorts based on product categories.",
+        "It is clear from the diversity in Table 1 that each industry is unique in the characteristics that Bmatter^ for energy benchmarking."
+      ],
+      "page": [
+        6,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [
+        "segmented baseline",
+        "other"
+      ],
+      "evidence_quote": [
+        "One approach to controlling for product mix is to segment the industry into cohorts based on product categories.",
+        "It is clear from the diversity in Table 1 that each industry is unique in the characteristics that Bmatter^ for energy benchmarking."
+      ],
+      "page": [
+        6,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.92
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "This is similar to guidance from ISO 50001 regarding the creation of EnPI.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "In the 2010, three previously completed case studies, auto assembly, cement, and corn refining (see (Boyd 2005a, b, Boyd 2006, Boyd 2008) for detailed descriptions of the earlier models), began to be updated.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": "using data from a cross-section or panel of plants within some Breasonably defined^ industry group",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "model_parameters_reported": {
+      "value": [
+        "industry-specific returns-to-scale elasticity estimates (0.70 to 1.11, with short-run and long-run estimates for selected sectors)"
+      ],
+      "evidence_quote": [
+        "The elasticity is computed as the sum of the coefficient estimates of the log activity variables, RTS estimates can be further broken down into short run (SR), where only production activities are considered, and long run (LR) when increases in production and plant capacity are included.",
+        "Ethyl alcoholb\nLog normal OLS\n2007\n111\nCM\n0.70",
+        "Food—tomato productsb\nLog normal OLS\n2002\n40\nCM\n1.11"
+      ],
+      "page": [
+        15,
+        16,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.91
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "13",
+          "unit": "%",
+          "period_or_context": "cement-industry energy-efficiency improvement",
+          "evidence_quote": "Our estimate of the overall energy efficiency improvement in the 96 plants in our database represents a 13 % change in total source energy",
+          "page": 17,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "11.6",
+          "unit": "%",
+          "period_or_context": "auto-assembly industry update",
+          "evidence_quote": "The combined effect when evaluated against the over 7 million vehicles produced in 2005 by the plants in our study implies in a reduction of 11.6 % or 1462 million lbs of CO2, attributable to changes in observed industry energy efficiency practices.",
+          "page": 17,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "4.3",
+          "unit": "%",
+          "period_or_context": "corn-refining industry in 2009",
+          "evidence_quote": "this represents about a 4.3 % reduction in overall energy use by this industry",
+          "page": 17,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "Our estimate of the overall energy efficiency improvement in the 96 plants in our database represents a 13 % change in total source energy",
+        "The combined effect when evaluated against the over 7 million vehicles produced in 2005 by the plants in our study implies in a reduction of 11.6 % or 1462 million lbs of CO2, attributable to changes in observed industry energy efficiency practices.",
+        "this represents about a 4.3 % reduction in overall energy use by this industry"
+      ],
+      "page": [
+        17,
+        17,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

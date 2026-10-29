@@ -1,0 +1,73 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536587",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Bandar Abbas",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "primary aluminium industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Comparison of present pots using central feeding with new pot performance using the point feeding system.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [
+          "high temperature",
+          "intense magnetic field",
+          "hazardous alumina dust"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "kg-Al"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "equipment",
+        "scope_description": "Almahdi aluminium reduction pots No. 2 and No. 7 retrofitted from center feeding to point feeding.",
+        "specific_limitations": [],
+        "validation_types": [
+          "empirical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536587",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

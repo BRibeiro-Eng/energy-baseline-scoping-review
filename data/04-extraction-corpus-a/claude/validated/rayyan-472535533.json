@@ -1,0 +1,144 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535533",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:18:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "developing a baseline model using 2015 energy data for both gas and electricity and the corresponding independent",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This paper reviews some of the current work in terms of how non-routine events are defined, characterized, detected and quantified based on a review of existing M&V guidelines, protocols and other relevant literature",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Review of M&V guidelines + 16 SEP non-routine-adjustment cases; characterises baseline energy models. Cases are discrete-manufacturing/buildings, no explicit continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "sixteen applications were reviewed",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "current practices at one of the United States Department of Energy (DOE) programs",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "industrial sector",
+      "evidence_quote": "geared towards industrial sector",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Assembly line was removed from one plant to another",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50001 Energy management system",
+        "ANSI/MSE 50021 Superior Energy Performance"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "SEP M&V",
+        "BPA MT&R",
+        "ISO 17743"
+      ],
+      "evidence_quote": [
+        "International Performance Measurement and Verification Protocol (IPMVP)",
+        "ASHRAE Guideline 14 (ASHRAE 2014)",
+        "SEP M&V Protocol (US DOE 2018)",
+        "MT&R guidelines (BPA 2018)",
+        "ISO 17743 (ISO 2016)"
+      ],
+      "page": [
+        4,
+        6,
+        6,
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "change-point or SPC",
+        "physical model"
+      ],
+      "evidence_quote": [
+        "independent variables – outside air temperature and production volume",
+        "cumulative sum (CUSUM) chart and the exponentially weighted moving average (EWMA) chart",
+        "built on elaborate physical functions or thermal dynamics to precisely calculate the energy consumption"
+      ],
+      "page": [
+        5,
+        8,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

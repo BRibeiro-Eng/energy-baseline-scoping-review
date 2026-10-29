@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535553",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 2,
+  "completed_at": "2026-07-24T15:45:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Because the linear regression method for normalizing the analysed EPIs lead, in some cases, to an unacceptable standard deviation, greater than 45%, we used Python’s scipy.interpolate.InterpolatedUnivariateSpline algorithm to determine the normalization function for both the main EPI – Diesel Consumption and the variable factors – Average outdoor temperature and average monthly food and non-alcoholic beverages expenditures per family – that are influencing it.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For the case study the latest Energy Audit [5] that the industrial end-user reported towards A.N.R.E., for the reference period 2015 – 2017.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This EPIA is also supported by the seasonality of the ice-cream production, presented in Fig. 3, which can be correlated to an inefficient use of the carrying capacity of the actual cars fleet.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Ice-cream production is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "For the case study the latest Energy Audit [5] that the industrial end-user reported towards A.N.R.E., for the reference period 2015 – 2017.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "The main deficiency of the energy performance improvement program that every industrial end-user that records an equivalent energy consumption of over 1.000 t.o.e. (tons of oil equivalent) has to submit to A.N.R.E. (Romanian Energy Regulatory Agency)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "sector_of_activity": {
+      "value": "ice-cream production",
+      "evidence_quote": "This EPIA is also supported by the seasonality of the ice-cream production, presented in Fig. 3",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "This EPIA is also supported by the seasonality of the ice-cream production, presented in Fig. 3",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50001 standard based Energy Audit approach [11]",
+        "International Standardisation Organization, ISO 50047:2016 Energy savings – Determination of energy savings in Organizations (2016)"
+      ],
+      "page": [
+        6,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "every industrial end-user that records an equivalent energy consumption of over 1.000 t.o.e. (tons of oil equivalent) has to submit to A.N.R.E. (Romanian Energy Regulatory Agency)",
+        "For the case study the latest Energy Audit [5] that the industrial end-user reported towards A.N.R.E., for the reference period 2015 – 2017."
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "the linear regression method was used.",
+        "By applying the Lagrange interpolation technique, the normalized Diesel consumption – P(x) – was determined as being a 36th degree polynomial function."
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

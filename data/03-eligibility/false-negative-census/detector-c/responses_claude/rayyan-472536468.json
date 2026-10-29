@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536468",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "All analysed industrial end-users operate on a 24 h/day, 7 days/week schedule (continuous operation), though the plants are discrete manufacturing (automotive, textile) and batch/extrusion (chemical, aluminium profile) rather than continuous-flow process industries",
+      "quote": "All the analysed industrial end-users have a working schedule of 24 h/day, 7 days/week.",
+      "page": 2,
+      "sector": "24/7 industrial operation (discrete/batch manufacturing)"
+    },
+    {
+      "signal": "Aluminium profile manufacturing plant referenced as a case study; production is via extrusion presses (discrete profile manufacturing, not continuous primary-aluminium smelting)",
+      "quote": "Aluminium Profile Manufacturing \nExtrusion presses, air compressors",
+      "page": 2,
+      "sector": "aluminium (profile extrusion, discrete)"
+    },
+    {
+      "signal": "Chemical products factory referenced as a case study; significant energy uses are electric pumps, chiller and mixing machines, indicating batch chemical production rather than continuous chemical production",
+      "quote": "Chemical Products Manufacturing \nElectric pumps, chiller, mixing \nmachines",
+      "page": 2,
+      "sector": "chemical products (batch, not continuous)"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper empirically analyses power transformer energy losses and power-quality-driven efficiency improvements in the internal electrical distribution grids of four industrial end-users (automotive, textile, aluminium profile extrusion, and chemical products factories), none of which are continuous-flow Corpus-B process industries."
+}

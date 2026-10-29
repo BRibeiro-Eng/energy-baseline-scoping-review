@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536376",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T10:50:18+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Energy performance indicators were calculated as specific consumption (total, electric or thermal), having the energy driver as the denominator",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "About 100 energy audits related to rubber processing production sites have been analysed",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "energy efficiency potential of the rubber manufacturing industry in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Sector is rubber manufacturing (NACE C22.1); batch/discrete moulding & vulcanisation, not on closed continuous-process list. Steel/pulp&paper/oil refinery appear only as literature mentions."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the totality of audits related to sites of large or energy-intensive companies",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "the Italian rubber manufacturing industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "rubber manufacturing industry",
+      "evidence_quote": "the Italian rubber manufacturing industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "the manufacture of rubber products and the production of tyres",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "EnPIs have been introduced by the ISO 50001:2018 standard",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "According to Article 8 of the EED, since 2015, large companies have been obliged to carry out an energy audit",
+        "Pursuant to Article 8 of Legis. D.102/2014, by the deadline of December 2019, 11,172 energy audits of production sites"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "Energy performance indicators were calculated as specific consumption (total, electric or thermal), having the energy driver as the denominator",
+        "A regression analysis was performed for each EnPI, and the evaluation was conducted using two statistical parameters, namely R2 and p-value"
+      ],
+      "page": [
+        12,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535401",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:16:11Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Mc Laughlin cautioned against using ratio-type energy performance indicators and advocated for the development of normalized indicators tailored to FPSO operations. Additionally, outlined a methodology for establishing and monitoring energy baseline indicators using examples, such as regression analysis and Cumulative Sum Control (CUSUM) techniques.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This comprehensive review article delves into the crucial role of industry standards in spearheading transformative efforts. It synthesizes findings from a literature review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "focused on energy management within FPSO platform ships, specifically utilized for oil production in ultra-deep waters.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "notes": "Borderline: the review's qualitative results critique ratio EnPIs and describe regression/CUSUM EnBs, but model synthesis is not the paper's primary focus. Empirical contexts are upstream O&G/FPSO, outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This comprehensive review article delves into the crucial role of industry standards",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "United Arab Emirates, Indonesia, Saudi Arabia, China",
+      "evidence_quote": [
+        "the achievements of ADNOC in the United Arab Emirates.",
+        "In the same way, in Indonesia, the company PT Pertamina Hulu Energi has emerged as a notable success case",
+        "Sadaniya, Zuluf, and Marjan fields, in Saudi Arabia.",
+        "Situated in Jiuquan, China"
+      ],
+      "page": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "O&G industry",
+      "evidence_quote": "real-world implementation cases within the O&G industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "FPSO platform ships, specifically utilized for oil production in ultra-deep waters.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "This suite includes the foundational EnMS standard ISO 50001 (Energy Management Systems) and essential guidance documents like ISO 50004 (Energy Management System Guidance) and ISO 50006 (Energy Baseline and Energy Performance Indicators)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Avoid ratio type indicators as they are very misleading in almost all industries. These include specific energy consumption, energy intensity, energy efficiency, coefficient of performance, etc etc. Normalised EnPIs need to be developed.",
+        "For each available energy meters, establish the likely relevant variables for which data is available. Carry our regression analysis to establish he optimism baselines fore each meter and then compare actual energy consumption with expected energy consumption using CUSUM."
+      ],
+      "page": [
+        10,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.86
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

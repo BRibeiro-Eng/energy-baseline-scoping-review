@@ -1,0 +1,18 @@
+{
+ "key": "rayyan-472536633",
+ "tier": "A",
+ "ts": "2026-09-10T18:48:16",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum",
+  "refinery",
+  "refining"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 24.2,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "auditoria energética"
+}

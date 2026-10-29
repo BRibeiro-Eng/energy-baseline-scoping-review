@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536457",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:10:19.894455+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This BuildCOM project will advance the state-of-the-art through the development and demonstration of an innovative interactive and user-friendly software for building management systems automated auditing and continuous building commissioning.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Project report describing the BuildCOM software for building management system (BMS) automated auditing and continuous building commissioning. It presents software/tools (BuildCOM, ObepME) and qualitative points-based auditing frameworks (eu.bac / EN 15232, Smart Readiness Indicator) without presenting, proposing, evaluating or critiquing an EnPI/EnB measurement model in identifiable detail (no normalisation variables, functional form, or construction/estimation approach). Buildings sector.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The overall project delivery is an innovative software for building management systems automated auditing and continuous building commissioning.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Buildings-sector project report; pervasive 'continuous commissioning' refers to continuous commissioning of buildings, NOT a continuous-process industry, so level_3b=false. Mild borderline on eligibility: the referenced ObepME tool compares measured data to a simulation-set baseline, but this paper does not characterise any EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

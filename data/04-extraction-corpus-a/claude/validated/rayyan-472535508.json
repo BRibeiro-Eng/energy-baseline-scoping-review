@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535508",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:00:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "La variable dependiente del modelo fue siempre la energía consumida",
+        "La línea base se elaboró en base a un modelo de regresión"
+      ],
+      "page": [5, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the application of tools to develop a procedure to estimate the energy saving potentials in a small foundry company",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "se dedica a la fundición y mecanizado de piezas para maquinaria industrial",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Foundry melts ferrous metals incl. steel but is batch casting of discrete parts (coladas/day), not continuous; foundry not on closed 3B list, so level_3b=false (flag for FN census)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "está ubicada en el departamento del Valle del Cauca",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Valle del Cauca, Colombia",
+      "evidence_quote": "en el departamento del Valle del Cauca, Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "foundry industry",
+      "evidence_quote": "Foundry industry, ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "la fundición y moldeo, y la tercera es el mecanizado y puesta a punto de las piezas finales",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "based on the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "La línea meta es resultado de una regresión lineal",
+        "CUSUM, permite comparar el desempeño energético con el periodo base"
+      ],
+      "page": [
+        6,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

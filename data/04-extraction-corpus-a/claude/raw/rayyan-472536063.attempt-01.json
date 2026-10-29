@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536063",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T16:54:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The aim of this exploratory study is to identify the major barriers to and drivers for energy management in industrial SMEs.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Exploratory questionnaire multiple-case study ranking barriers and drivers of energy management across 14 non-energy-intensive manufacturing SMEs, plus an energy-management maturity assessment. No EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (variables/functional form/construction absent); 'energy performance indicators' is mentioned only incidentally as a collected data item. Falls under the v2.3 ineligibility rule for maturity/barriers-drivers studies without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This study is based on a multiple case study that consists of 14 manufacturing SMEs located in Sweden.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible: barriers/drivers + maturity questionnaire study of 14 manufacturing SMEs; no EnPI/EnB model characterised. Companies explicitly non-energy-intensive and outside continuous-process sectors (pulp & paper, iron & steel, cement, chemicals, petrochemicals), so level_3b not applicable."
+  },
+  "stage2": null,
+  "stage3": null
+}

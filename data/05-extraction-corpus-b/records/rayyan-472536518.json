@@ -1,0 +1,448 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536518",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 13,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "manufacturing industry sectors",
+        "evidence_quote": "The H2020 EU-MERCI project is aimed at fostering and facilitating the implementation of EE \nprojects in the manufacturing industry sectors by selecting and disseminating technological and policy \nbest practices.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Austria, Italy, Poland and United Kingdom",
+        "evidence_quote": "The starting point of the EU-MERCI database building has been the collection of data sets of \nEE measures and projects implemented in four selected countries (Austria, Italy, Poland and \nUK) in different industrial sectors.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The starting point of the EU-MERCI database building has been the collection of data sets of \nEE measures and projects implemented in four selected countries (Austria, Italy, Poland and \nUK) in different industrial sectors.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A database of almost 3,000 energy efficiency projects implemented in industry under national incentive schemes, analysed with a set of nine Key Performance Indicators to identify Good Practices.",
+        "evidence_quote": "These data have been collected in a database and used for the selection of some ‘Good \nPractices’ (GPs) of EE, performed through the definition of nine Key Performance Indicators \n(KPIs).",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "The sector in which most energy is saved is iron and steel. The one with the highest spe­\ncific savings is petroleum and coke.",
+        "page": 8,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the nine Key Performance Indicators (KPIs) — Primary Energy Savings, Energy Consumption Improvement, Energy Intensity Reduction, etc.",
+          "baseline_construction_method": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "regression",
+              "model",
+              "fit"
+            ]
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+              "page": 8,
+              "support_class": "requires inference",
+              "other_verbatim": "final energy savings and energy performance KPIs (Primary Energy Savings, Energy Consumption Improvement, Energy Intensity Reduction)"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "The largest savings were from natural gas, followed by coking coal, electricity and fuel oil.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "per tonne",
+                "toe/ton",
+                "specific",
+                "intensity",
+                "denominator"
+              ]
+            },
+            "unit_verbatim": {
+              "value": "toe/record",
+              "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Energy Intensity Reduction (EIR)",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The first step has been an in-depth \nanalysis of the different energy policies available in the MSs, followed by the collection of \ndata regarding almost 3,000 projects put in place in different EU countries (mainly Austria, \nItaly, Poland and United Kingdom).",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "period",
+                "months",
+                "years",
+                "2005",
+                "2015"
+              ]
+            },
+            "n_observations": {
+              "value": 2906,
+              "evidence_quote": "The number of available data in the database is 2,906.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The starting point of the EU-MERCI database building has been the collection of data sets of \nEE measures and projects implemented in four selected countries",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "this leads to different results when trying to analyse records received from different \ncountries (e.g. savings reported either in final or primary energy, different references for \nbaseline, different ways of evaluating technical life of the installed equipment);",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicability",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation",
+                  "hold-out",
+                  "test set"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "total final energy savings",
+                  "value": "1.6",
+                  "unit": "Mtoe",
+                  "period_or_context": "all records in the database",
+                  "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "average savings per record",
+                  "value": "490",
+                  "unit": "toe/record",
+                  "period_or_context": "average across records",
+                  "evidence_quote": "The total final energy savings achieved were about 1.6 Mtoe, \nwith an average value of savings equal to 490 toe/record.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "predictor",
+              "variable",
+              "regression",
+              "explanatory",
+              "normalisation"
+            ]
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "Manufacture of coke and refined petroleum products – NACE C19;",
+        "page": 2,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "this leads to different results when trying to analyse records received from different \ncountries (e.g. savings reported either in final or primary energy, different references for \nbaseline, different ways of evaluating technical life of the installed equipment);",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "There are different quality levels of the reported savings: while in some countries sav­\nings will be measured and periodically reported with strict verification procedures (e.g. in \nItaly), in others deemed savings are considered enough, so leading to unreliable results and \nalso in the view of 2030 targets achievement;",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "normalisation to a reference product",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "for the \nreplicability analysis of the projects in different sectors or different companies, it could be \nuseful to have the process baseline consumption for each energy carrier to scale it to the \ndesired technology (e.g. toe/ton of product);",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "Moreover, the very tight time schedule did not allow one to perform \nanalyses falling outside of the project scope.",
+      "page": 5,
+      "searched_terms": [
+        "limitation",
+        "scope",
+        "time",
+        "future work"
+      ]
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "UK has the highest number \nof data, however for most of them very little information is available.",
+      "page": 5,
+      "searched_terms": [
+        "data access",
+        "information available",
+        "coverage"
+      ]
+    }
+  ],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "equation",
+        "formula",
+        "KPI definition"
+      ]
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "yes",
+      "evidence_quote": "Through the platform, this is, at the \npresent moment, the largest publicly available database of EE projects in Europe.",
+      "page": 11,
+      "support_class": "direct statement"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "repository",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a policy/database paper on the EU-MERCI project. It does not build a fitted statistical energy performance model; the only 'energy performance model' construct is the set of nine Key Performance Indicators (Primary Energy Savings, Energy Consumption Improvement, Energy Intensity Reduction, etc.) computed over a database of ~2,906 EE project records across four countries. M1 represents that KPI/indicator framework; most model-specific fields are not applicable or not reported because no equations, coefficients or validation are published in this article (they are referenced to separate project papers). The refinery/petrochemical flag is set because the coke and refined petroleum products (NACE C19) sector is present in the database and its savings/costs are reported empirically.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "baseline",
+        "comparability",
+        "data quality",
+        "unreliable",
+        "standardization"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalise",
+        "scale",
+        "baseline consumption",
+        "taxonomy",
+        "improve"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "missing",
+        "time schedule",
+        "little information",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "weakness",
+        "obstacle",
+        "training",
+        "cost"
+      ]
+    }
+  },
+  "attempt": 8
+}

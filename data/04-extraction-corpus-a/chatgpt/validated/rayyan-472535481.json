@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535481",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:59:45Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Energy saving per site or per company: it refers to ﬁnal energy saving, and it is computed excluding sites without saving information.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "more than 1600 EAs from more than 700 companies, including more than 1000 implemented and 4000 planned EPIAs.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "Banks: K64.19—other monetary intermediation;",
+        "Retail: G47.11—retail sale in nonspecialised stores (hyper- and supermarkets);",
+        "Ceramics: C23.31—manufacture of ceramic tiles and ﬂags and C23.32—manufacture of bricks, tiles, and construction products in baked clay;",
+        "Plastics: C22.22—manufacture of plastic packing goods and C22.29—manufacture of other plastic products."
+      ],
+      "page": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.91
+    },
+    "notes": "The applied sectors are mixed and none is explicitly framed as a closed-list continuous process industry; downstream plastic-product manufacture is not polymer production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "more than 1600 EAs from more than 700 companies, including more than 1000 implemented and 4000 planned EPIAs.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "energy audits in four different sectors in Italy were analysed",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry; tertiary sector",
+      "evidence_quote": "manufacturing industry; tertiary sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "two industrial and two tertiary sectors in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The ISO 50001 EnMS standard includes the implementation of a monitoring system.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "EED Article 8 is fully devoted to the promotion of cost-effective high-quality energy audits and the implementation of energy management systems.",
+        "The Italian government transposed the EED in 2014 and 2020 (by enacting Legislative Decrees 102/2014 and 73/2020, respectively), extending the obligation (from 5 December 2015) of carrying out mandatory energy audits at least every 4 years"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Energy saving per site or per company: it refers to ﬁnal energy saving, and it is computed excluding sites without saving information.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536345",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T09:41:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Mass and energy balances are provided, as well as juice flow, steam consumption, thermal power and evaporator vapour flows, which are essential heat and mass flows for estimating energy performance indicators (EnPIs) or SEC, also for applying the pinch analysis method.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The sugar mill has a crushing capacity of 2,700 t/d.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The study aims to identify the potential energy and water savings and opportunities to improve thermal efficiency in a sugar cane mill by applying energy use analysis and heat integration methods.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Sugar cane milling is not in the closed Level 3B sector list, despite the process-flow context."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The sugar mill has a crushing capacity of 2,700 t/d.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "sugar cane mill",
+      "evidence_quote": "The study aims to identify the potential energy and water savings and opportunities to improve thermal efficiency in a sugar cane mill by applying energy use analysis and heat integration methods.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Mass and energy balances are provided, as well as juice flow, steam consumption, thermal power and evaporator vapour flows, which are essential heat and mass flows for estimating energy performance indicators (EnPIs) or SEC, also for applying the pinch analysis method.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Energy management in the paper manufacturing process is based on the Cuban standard ISO 50001: 2019 and a methodology for energy use [9].",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "process integration"
+      ],
+      "evidence_quote": [
+        "For the energy diagnosis, the current consumption (at least three months) of raw materials, energy resources (electricity, water) and production is recorded and analysed. Mass and energy balances are provided, as well as juice flow, steam consumption, thermal power and evaporator vapour flows, which are essential heat and mass flows for estimating energy performance indicators (EnPIs) or SEC, also for applying the pinch analysis method.",
+        "Energy Performance Indicators (EnPIs) are determined by applying energy analysis and heat integration. The pinch analysis methodology is used to determine network targets, minimum temperature difference and maximum energy recovery (MER) [10]."
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

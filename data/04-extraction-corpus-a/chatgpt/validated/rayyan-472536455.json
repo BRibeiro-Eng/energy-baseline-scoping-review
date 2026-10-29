@@ -1,0 +1,466 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536455",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:48:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this work, we use linear regression involving two variables: energy consumption (global, electrical, thermal, or natural gas as a function of the EnPI) and production (in its specific P.U.).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete grey-cement production cycle (one site was dismissed because of non-continuous production), were subjected to the developed statistical method",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "An additional focus on the cement industry (NACE 23.51) is presented in this section, as part of NACE 23 sector “Manufacture of other non-metallic mineral products”.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Multi-case sectoral analysis of mandatory Italian audits; empirical cement-production application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in compliance with Article 8 of Italian Legislative Decree 102/2014",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "which report, for Italy, values, respectively, of 122 kWh/t_cement and of of 3.500 MJ/t_clinker",
+      "page": 22,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "cement industry",
+      "evidence_quote": "This paper provides details of the statistical method developed and its application to the NACE 23 division “Manufacturing of other non-metallic mineral products”, with a focus on the cement industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete grey-cement production cycle (one site was dismissed because of non-continuous production), were subjected to the developed statistical method",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "EnPIs are introduced by the ISO 50001:2018 standard",
+        "ISO 50006:2014, on the other hand, provides a guideline to establish the appropriate energy performance indicator for measuring/monitoring energy efficiency and recommends the use of specific energy consumption (SEC)"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "Linear regression models are also preferred for analysing savings achieved with energy performance improvement actions (EPIA) in organizations with certified energy management systems (specifically between ISO 50001 and the SEP M&V protocol)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "Article 8 of the EED introduced the obligation for large enterprises to carry out an energy audit on their production sites, starting in December 2015 and subsequently every 4 years.",
+        "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in compliance with Article 8 of Italian Legislative Decree 102/2014"
+      ],
+      "page": [
+        2,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "In this work, we use linear regression involving two variables: energy consumption (global, electrical, thermal, or natural gas as a function of the EnPI) and production (in its specific P.U.).",
+        "Once the mean EnPI and its standard deviation are calculated, the coefficient of variation (CV, or relative standard deviation, RSD) of the EnPI (for a given production range) is also computed as the ratio between the standard deviation and the mean value."
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "amount of flour actually produced on site",
+        "amount of clinker actually produced on site",
+        "amount of cement actually produced on site",
+        "number of cyclones"
+      ],
+      "evidence_quote": [
+        "Electric consumption of raw materials in the grinding phase was compared to the amount of flour actually produced on site, expressed in tons.",
+        "Electric consumption of clinker in the cooking phase was compared to the amount of clinker actually produced on site, expressed in tons.",
+        "Electric consumption of clinker in the grinding phase was compared to the amount of cement actually produced on site, expressed in tons.",
+        "Specifically, the impact of the number of cyclones on the pre-heating phase before clinker production was evaluated."
+      ],
+      "page": [
+        18,
+        18,
+        18,
+        22
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Linear regression models energy consumption as a function of production; the fitted slope and intercept are then divided by production to form a hyperbolic EnPI model.",
+      "evidence_quote": [
+        "In this work, we use linear regression involving two variables: energy consumption (global, electrical, thermal, or natural gas as a function of the EnPI) and production (in its specific P.U.).",
+        "following the statistical analysis of linear regression, EnPIm is calculated dividing both sides of the production function and is represented by a hyperbolic function"
+      ],
+      "page": [
+        8,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "In Table 6, a comprehensive validation of EnPI obtained in this work with public data is provided.",
+        "The correlations are statistically representative as p-value < 0.0001 and R > Rcritic = f (N, α); as shown in Table 2, R2 is greater than 0.9, and the confidence value is 99% for each linear regression."
+      ],
+      "page": [
+        22,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The first-Level EnPIs are computed for all manufacturing four-level NACE sectors at global plant level, including all activities and processes within the site.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "scope_description": {
+      "value": "Global plant level, including all activities and processes within the site, with second-level indicators for cement-production processes and auxiliary and general activities.",
+      "evidence_quote": "The first-Level EnPIs are computed for all manufacturing four-level NACE sectors at global plant level, including all activities and processes within the site. The second-level EnPIs are obtained only for specific energy-intensive sub-sectors (i.e., cement). These indicators are calculated for specific processes of the production cycle and for auxiliary (i.e., cogeneration or compressed-air units) and general activities (i.e., lighting, HVAC, etc.).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Meanwhile, a high value of the coefficient may not guarantee a significant relationship. The correlation coefficient can be very sensitive to “outliers” and may indicate association when, in fact, none exists. It is important to note that one or few anomalous items can have a large impact on R.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The correlation coefficient can be very sensitive to “outliers” and may indicate association when, in fact, none exists.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Hence, it is necessary to inspect a plot of the data and to ensure that the data covers the range uniformly.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "In order to take into account the fact that many cement production sites sell or buy clinker, take it from stocks, or put it in stock, a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In order to take into account the fact that many cement production sites sell or buy clinker, take it from stocks, or put it in stock, a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": [
+        "ISO 50006:2014, on the other hand, provides a guideline to establish the appropriate energy performance indicator for measuring/monitoring energy efficiency and recommends the use of specific energy consumption (SEC)",
+        "In order to take into account the fact that many cement production sites sell or buy clinker, take it from stocks, or put it in stock, a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated."
+      ],
+      "page": [
+        5,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.86
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "A Case Study: The Cement Industry",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "this methodology was applied using real data monitored by companies and collected in audits carried out by certified experts.",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Electric site: intercept 5.062 × 106; slope 101.9",
+        "Thermal site: intercept 3.913 × 107; slope 3.448",
+        "Global site: intercept 7.05 × 107; slope 3.039",
+        "Raw-material grinding electric: intercept 3,395,804; slope 16.24",
+        "Clinker cooking electric: intercept 1,685,681; slope 27.19",
+        "Clinker grinding electric: intercept 946,440; slope 38.98",
+        "Clinker cooking thermal: intercept 2.749·107; slope 3447"
+      ],
+      "evidence_quote": [
+        "EE [kWh] = 5.062 × 106 + 101.9 × t",
+        "Eth [MJ] = 3.913 × 107 + 3.448 × t",
+        "Eg [MJ] = 7.05 × 107 + 3.039 × t",
+        "EE [kWh] = 3,395,804 + 16.24 × t",
+        "EE [kWh] = 1,685,681 + 27.19 × t",
+        "EE [kWh] = 946,440 + 38.98 × t",
+        "Eth [MJ] = 2.749·107 + 3447 × t"
+      ],
+      "page": [
+        18,
+        18,
+        18,
+        20,
+        20,
+        20,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.917",
+          "unit": null,
+          "period_or_context": "site electric consumption versus cement production",
+          "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917 0.958 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "site electric consumption versus cement production",
+          "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917 0.958 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.969",
+          "unit": null,
+          "period_or_context": "site thermal consumption versus clinker production",
+          "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "site thermal consumption versus clinker production",
+          "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.933",
+          "unit": null,
+          "period_or_context": "site global consumption versus cement production",
+          "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "site global consumption versus cement production",
+          "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.730",
+          "unit": null,
+          "period_or_context": "raw-material grinding electric consumption versus flour production",
+          "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t 0.730 0.854 <0.0001 26 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "raw-material grinding electric consumption versus flour production",
+          "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t 0.730 0.854 <0.0001 26 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.804",
+          "unit": null,
+          "period_or_context": "clinker-cooking electric consumption versus clinker production",
+          "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "clinker-cooking electric consumption versus clinker production",
+          "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.951",
+          "unit": null,
+          "period_or_context": "clinker-grinding electric consumption versus cement production",
+          "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "clinker-grinding electric consumption versus cement production",
+          "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.969",
+          "unit": null,
+          "period_or_context": "clinker-cooking thermal consumption versus clinker production",
+          "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "clinker-cooking thermal consumption versus clinker production",
+          "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%",
+          "page": 20,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917 0.958 <0.0001 29 >99%",
+        "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%",
+        "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%",
+        "EE [kWh] = 3,395,804 + 16.24 × t 0.730 0.854 <0.0001 26 >99%",
+        "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%",
+        "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%",
+        "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%"
+      ],
+      "page": [
+        18,
+        18,
+        18,
+        20,
+        20,
+        20,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

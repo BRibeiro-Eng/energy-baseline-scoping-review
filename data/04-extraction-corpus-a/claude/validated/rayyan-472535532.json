@@ -1,0 +1,410 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535532",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:19:36.489954+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression method",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper is a case study of the implementation of the 50001: 2011 ISO-based Energy Management System at PT Semen Tonasa",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "PT Semen Tonasa is the largest cement manufacturer in East Indonesia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Single-site cement plant case study (PT Semen Tonasa). ISO 50001 EnMS with ISO 50006 single-linear-regression energy baselines and CUSUM monitoring. Cement sector -> Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "occupying 1,571 hectares of land in Biringere Village, Bungoro District, Pangkep Regency",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Biringere Village, Bungoro District, Pangkep Regency, Indonesia",
+      "evidence_quote": "PT Semen Tonasa is the largest cement manufacturer in East Indonesia, occupying 1,571 hectares of land in Biringere Village, Bungoro District, Pangkep Regency",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "cement industry",
+      "evidence_quote": "the first cement industry in Indonesia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Cement manufacturing is one of the industries that consume a high amount of heat and electricity",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "implementing the ISO 50001 Energy Management System",
+        "The baseline is set refers to ISO 50006",
+        "refers to protocol ISO 50015"
+      ],
+      "page": [
+        2,
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "Ministry of Energy and Mineral Resources Regulation No.14 / 2012",
+        "obligated to conduct energy management through the appointment of energy managers, creating energy conservation programs, conducting energy audits and reporting on energy management implementation every year"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "EnPI Type 3 which is Linear Regression",
+        "cumulative of sum (CUSUM) from January 2018 to June 2019"
+      ],
+      "page": [
+        6,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "ton clinker",
+        "KWh output",
+        "Ton Steam"
+      ],
+      "evidence_quote": [
+        "Kcal coal as function of ton clinker",
+        "Kcal coal as function of KWh output",
+        "Kcal coal as function of Ton steam"
+      ],
+      "page": [
+        6,
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "2016",
+      "evidence_quote": "The base year is set for the 2016 and 2017 monthly data",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_period_end": {
+      "value": "2017",
+      "evidence_quote": "The base year is set for the 2016 and 2017 monthly data",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_construction_method": {
+      "value": "Energy baselines for thermal and electrical Significant Energy Users were determined using the single (linear) regression method per ISO 50006, regressing energy data (e.g. Kcal coal) on a single production driver (ton clinker, kWh output or ton steam) fitted to 2016 and 2017 monthly data; baseline equations of the form Y = mX + C were accepted once the R-square met the 0.75 minimum.",
+      "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression method. The base year is set for the 2016 and 2017 monthly data",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "Energy efficiency was 6,4 % in 2018 and 8,7 % during the semester 1-2019 compare to baseline",
+        "the R Square value of the baseline equation matches the minimum requirement of 0.75 so that the baseline equation can be used"
+      ],
+      "page": [
+        8,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "systematically improve the energy performance of the facility",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "scope_description": {
+      "value": "ISO 50001 EnMS and its regression baselines/EnPIs cover PT Semen Tonasa's significant energy users: electrical SEUs (Cement plant 4 and 5, Power Plant CD) and thermal SEUs (Kiln Tonasa 4, Kiln Tonasa 5, Power Plant CD).",
+      "evidence_quote": [
+        "SEUs Electrical are:  Cement plant 4 dan 5, Power Plant CD",
+        "SEUs Thermal are: Kiln tonasa 4, Kiln tonasa 5, Power Plant CD"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Baseline determination by using single regression will be updated using other influential variables so that the use of multiple regression for new baselines will be considered",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the clinker index reduction program has an impact on electrical energy performance",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "the use of multiple regression for new baselines will be considered",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "the use of multiple regression for new baselines will be considered",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the use of multiple regression for new baselines will be considered",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": "Baseline determination by using single regression will be updated using other influential variables so that the use of multiple regression for new baselines will be considered",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "PT Semen Tonasa is the largest cement manufacturer in East Indonesia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The base year is set for the 2016 and 2017 monthly data",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Y = 834,81 X + 3.078.595.022",
+        "Y = 813,42 X + 5.051.987.877",
+        "Y = 3.488,96 X + 18.225.379.135",
+        "Y = 884.380,42 X + 23.789.946.925",
+        "Y = 0,0041 X + 5,939"
+      ],
+      "evidence_quote": [
+        "Y = 834,81 X + 3.078.595.022",
+        "Y = 813,42 X + 5.051.987.877",
+        "Y = 3.488,96 X + 18.225.379.135",
+        "Y = 884.380,42 X + 23.789.946.925",
+        "Y = 0,0041 X + 5,939"
+      ],
+      "page": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0,88",
+          "unit": null,
+          "period_or_context": "Baseline thermal energy, Plant 4 (Kcal Coal ~ Ton clinker), Table 1",
+          "evidence_quote": [
+            "Y = 834,81 X + 3.078.595.022",
+            "0,88"
+          ],
+          "page": [
+            5,
+            5
+          ],
+          "non_contiguous_evidence": true
+        },
+        {
+          "metric": "R²",
+          "value": "0,91",
+          "unit": null,
+          "period_or_context": "Baseline thermal energy, Plant 5 (Kcal Coal ~ Ton clinker), Table 1",
+          "evidence_quote": [
+            "Y = 813,42 X + 5.051.987.877",
+            "0,91"
+          ],
+          "page": [
+            5,
+            5
+          ],
+          "non_contiguous_evidence": true
+        },
+        {
+          "metric": "R²",
+          "value": "0,84",
+          "unit": null,
+          "period_or_context": "Baseline, Power Plant CD (Kcal Coal ~ KWh output), Table 1",
+          "evidence_quote": [
+            "Y = 3.488,96 X + 18.225.379.135",
+            "0,84"
+          ],
+          "page": [
+            5,
+            5
+          ],
+          "non_contiguous_evidence": true
+        },
+        {
+          "metric": "R²",
+          "value": "0,76",
+          "unit": null,
+          "period_or_context": "Baseline, Power Plant CD (Kcal Coal ~ Ton Steam), Table 1",
+          "evidence_quote": [
+            "Y = 884.380,42 X + 23.789.946.925",
+            "0,76"
+          ],
+          "page": [
+            5,
+            5
+          ],
+          "non_contiguous_evidence": true
+        },
+        {
+          "metric": "R²",
+          "value": "0,92",
+          "unit": null,
+          "period_or_context": "Baseline, Power Plant CD (Ton Steam ~ KWh output), Table 1",
+          "evidence_quote": [
+            "Y = 0,0041 X + 5,939",
+            "0,92"
+          ],
+          "page": [
+            5,
+            5
+          ],
+          "non_contiguous_evidence": true
+        },
+        {
+          "metric": "% energy savings",
+          "value": "6,4% (2018); 8,7% (semester 1 2019)",
+          "unit": "%",
+          "period_or_context": "Energy efficiency vs baseline",
+          "evidence_quote": "Energy efficiency was 6,4 % in 2018 and 8,7 % during the semester 1-2019 compare to baseline",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Energy team had to balance ISO 50001 implementation with other primary duties; energy-management tasks are functional and not part of structural job descriptions (organisational).",
+        "Reliable energy consumption data is needed to set the performance baseline (data quality).",
+        "Increasing the competence of the human resources / energy team through training is necessary (staff skills).",
+        "Need to build an IT system and central database for online energy-performance monitoring and record-keeping (IT/software infrastructure)."
+      ],
+      "evidence_quote": [
+        "the balancing act the energy team had to play between implementing ISO 50001 and their other primary duties/roles",
+        "To set a baseline as a comparison of energy performance, reliable energy consumption data is needed",
+        "Increasing the competence of human resources / energy teams through training is very necessary",
+        "It is important to build an IT system and central data base so that energy performance can be monitored online"
+      ],
+      "page": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    }
+  }
+}

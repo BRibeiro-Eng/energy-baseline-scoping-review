@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535703",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:59:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The above criterion provides the rational basis for the selection of the best auto-id \nsystem with logistics system energy consumption taken into account.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "The proposed criterion evaluates and selects auto-id systems while merely taking energy consumption into account; it does not identify or characterise an EnPI or EnB model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case illustrating the use \nof the new method of evaluating auto-id systems is presented.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "ISO 50001 is discussed, but the equations model information utility and system selection rather than an EnPI/EnB baseline."
+  },
+  "stage2": null,
+  "stage3": null
+}

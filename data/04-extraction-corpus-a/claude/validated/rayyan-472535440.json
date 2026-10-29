@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535440",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Energy performance indicators (EPIs) are established to establish the baseline and the energy indicator kilowatt hours consumed between tons produced (KWh/Ton)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study in the brick industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "A case study in the brick industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Brick kiln manufacturer (Peru). Kiln firing is continuous-flow but brick/ceramics is not on the v2.3 closed continuous-process list, so level_3b=false. type_of_organisation coded continuous process (process industry, cf. cement). Single plant, lines 1-2, two shifts."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the industrial plant for the manufacture of bricks",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Peru",
+      "evidence_quote": "Huacho, Perú",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "brick industry",
+      "evidence_quote": "energy efficiency management in the brick industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the first one is the firing process, where the drying is with forced ventilation of hot air to enter the kiln",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "Based on the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "simple intensity ratio"],
+      "evidence_quote": [
+        "its direct approximation by a line and expressed in a linear equation",
+        "the energy indicator kilowatt hours consumed between tons produced (KWh/Ton)"
+      ],
+      "page": [3, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,113 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536334",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:00:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy baseline developed through regression analysis yielded a coefficient of 0.7794 and a specific consumption of 0.0345 kWh per manufactured piece for electricity alone",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the results of a pilot study at an abrasive product manufacturing company are presented as a case study",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "demonstrated its applicability in the context of a batch-production manufacturing company",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Eligible: regression energy baseline (R2=0.7794)+SEC KPIs. Abrasives, explicitly batch production->3B false. paper_type: methodology demonstrated on a single case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The company that will undergo the following study has an industrial building",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Mexico",
+      "evidence_quote": "In Mexico, the Federal Electricity Commission (CFE) charges a penalty for a low power factor",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "abrasives industry",
+      "evidence_quote": "the energy performance of processes within the abrasives industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "to manage energy efficiency in a batch production process",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002"
+      ],
+      "evidence_quote": "The international standards ISO 50001, \"Energy Management Systems,\" and ISO 50002, \"Energy Audits,\"",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Best Practice Guide to Measurement and Verification of Energy Savings",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "The Energy Regulatory Commission (CRE) approved agreement A/073/2023 on 13 December 2023, establishing that the minimum Power Factor increases from 0.90 to 0.95",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": "The energy baseline developed through regression analysis yielded a coefficient of 0.7794 and a specific consumption of 0.0345 kWh per manufactured piece",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "the M2KPIEn applies the analytical hierarchy process (AHP) to solve multi-variable problems",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  },
+  "stage3": null
+}

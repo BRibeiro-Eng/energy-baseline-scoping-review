@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536606",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:39:07.587579+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The underlying approach of these case studies is a regression model of the general form",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This paper is a meta-analysis, or overview, of how these case studies of efficiency in a range of industries have addressed these questions and knowledge gaps",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a meta-analysis, or overview, of how these case studies of efficiency in a range of industries",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "notes": "Meta-analysis of 24 ENERGY STAR EPI case studies across mixed manufacturing (incl. cement, glass, steel, pulp&paper). level_3b=false: cross-sector scope, not one continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "an objective measure of how a plant compares to the rest of the industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "USA",
+      "evidence_quote": "for every plant in the USA",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "provide companies within a manufacturing sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "Case studies have been conducted for 14 broad industries, 2 dozen sectors, and many more detailed product types",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "guidance from ISO 50001 regarding the creation of EnPI",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "The underlying approach of these case studies is a regression model of the general form",
+        "test whether a stochastic frontier (SF) energy model is appropriate"
+      ],
+      "page": [
+        11,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

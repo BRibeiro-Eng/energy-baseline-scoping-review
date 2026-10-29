@@ -1,0 +1,113 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536665",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:39:10Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The work tackles the problem with two different approaches based on univariate and multivariate methods. The first method aims at finding a key performance index and a new univariate control chart related to energy/operational parameters to better monitor the performance of the compressed air plant.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In the following sections the case study is described.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The analysis was carried out at an international packaging company producing plastic bottles (HDPE, extrusion blow moulding process)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "The applied sector is plastic-bottle extrusion blow moulding, outside the closed Level 3B continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The analysis was carried out at an international packaging company producing plastic bottles (HDPE, extrusion blow moulding process)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "international packaging company producing plastic bottles",
+      "evidence_quote": "The analysis was carried out at an international packaging company producing plastic bottles (HDPE, extrusion blow moulding process)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The analysis was carried out at an international packaging company producing plastic bottles (HDPE, extrusion blow moulding process)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Keywords: Energy Efficiency, EnPI, Cusum Chart, EnMS, ISO50001.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC",
+        "other"
+      ],
+      "evidence_quote": "First was found and calculated an ENPI, this index was used to build a usual CUSUM control chart, based on the difference between the actual data and that provided by a linear regression. Hence, a new CUSUM control chart (univariate) based on the standard deviation compared with the mean value was built. Finally multivariate models were applied creating: a T2 control chart, a residual control chart and a biplot of loadings and scores.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

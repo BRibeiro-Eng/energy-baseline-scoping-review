@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535634",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:16:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The aim of this article is to evaluate the implementation of the suggested methodology according to the described architecture on a real case.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Presents a measurement-and-monitoring-plan methodology and a four-layer data acquisition/storage/analysis/presentation architecture (a framework/system), demonstrated on a preliminary eco-district case; no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). Energy performance indicators are mentioned only incidentally.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The project used as a case study is the eco-district of Le Perray-en-Yvelines, France.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Methodology + data-architecture paper on one preliminary eco-district (buildings/micro-grid) case; no EnPI/EnB model. paper_type borderline: single applied case vs tool/software design."
+  },
+  "stage2": null,
+  "stage3": null
+}

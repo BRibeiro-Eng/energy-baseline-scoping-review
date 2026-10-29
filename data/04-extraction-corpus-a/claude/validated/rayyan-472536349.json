@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536349",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:19:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "evaluate the impact of energy efficiency improvements of these systems on energy performance indicators, such as carbon intensity indicator",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This study introduces a novel framework based on a dynamic simulation tool",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "novel case study of the real medium-sized cruise ship",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Eligibility borderline: cruise-ship HVAC dynamic-simulation/digital-twin tool, but embeds a characterised physical energy model and computes EnPIs (CII, energy signature) -> eligible under broad v2.3; paper does not cite ISO 50001/50006. paper_type tool/software vs single applied case is close. level_3b false: maritime/cruise ship, not a listed continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study is based on the Queen Elizabeth, a real medium-sized cruise ship",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Caribbean Sea, Mediterranean Sea",
+      "evidence_quote": "one in the Caribbean Sea and the other in the Mediterranean Sea",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "maritime transport",
+      "evidence_quote": "Maritime transport accounts for 11 % of the transportation sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "hotel systems on passenger ships contributing up to 20 % of total energy consumption",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "the carbon intensity indicator (CII). This parameter, introduced by IMO, becomes more restrictive over time",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "the energy balance of a reference thermal zone is reported in the following equation",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

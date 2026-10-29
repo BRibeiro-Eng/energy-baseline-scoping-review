@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535592",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:37:42Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "a web-based action planning and energy project visualisation tool",
+        "No explicit methods utilised to identify variables affecting energy performance"
+      ],
+      "page": [
+        1,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Software/tool design paper: the contribution is a web-based action planning and energy project visualisation tool. No EnPI/EnB measurement model is presented or characterised in the text; EnPI development appears only as a generic proof-of-concept template step with no variables, functional form, or estimation approach identifiable.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "Design and development of a software tool to assist ISO 50001 implementation in the manufacturing sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Regression/correlation analysis is named only as a proposed EnPI method-development step (Figure 4) with no in-text model characterisation; application sector is discrete manufacturing (dairy, pharmaceutical, medical device)."
+  },
+  "stage2": null,
+  "stage3": null
+}

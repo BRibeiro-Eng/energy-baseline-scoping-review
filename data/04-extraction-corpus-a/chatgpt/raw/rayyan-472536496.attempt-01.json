@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536496",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T13:52:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper continues the presentation of the new method of energy analysis presented in [5] and, by introducing along with energy effectiveness of a new set of energy performance indicators, allows the optimization of industrial energy consumption by highlighting the evolution of productive and unproductive consumption as well as energy savings and energy losses.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For greater clarity, the practical example presented below will be made for the same case as in [5 [, thus being a continuation of the presentation of the new method of energy analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Together with the other indicators of energy performance defined in [5] they are the basis of the Energy Analysis for industrial End-Users.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "The application is described only as generic industrial end-users; no closed-list continuous-process sector is identified."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "For greater clarity, the practical example presented below will be made for the same case as in [5 [, thus being a continuation of the presentation of the new method of energy analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "industrial End-Users",
+      "evidence_quote": "Together with the other indicators of energy performance defined in [5] they are the basis of the Energy Analysis for industrial End-Users.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "In the case of industrial consumers, the improvement of energy efficiency can be obtained and maintained only using methods of energy analysis of energy consumption and of the results obtained that allow a better understanding of how energy is used.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "SR EN ISO 50001: 2019, Energy management systems. Requirements and user guide",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The paper introduces new energy performance indicators, as follows: The Productive Energy Savings and The Unproductive Energy Savings.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

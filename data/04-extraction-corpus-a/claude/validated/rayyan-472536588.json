@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536588",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:59:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the energy input divided by the output of lime in metric tonnes",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "energy audits were performed at two lime factories in Colombia",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "we evaluated the performances of two limekilns in the Colombian lime industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "notes": "level_3b=false by closed-list rule: case sector is lime / calcium-oxide calcination, a continuous-flow (Table 7 lists production 'Continuous') mineral-calcination industry NOT on the closed v2.3 sector list and distinct from cement. Flagged for human adjudication (lime is grouped with cement/glass in EU BAT/BREF). EnPIs evaluated: energy intensity GJ/t plus thermal and combustion efficiency via an ISO-13579 energy balance."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "energy audits were performed at two lime factories in Colombia",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "energy audits were performed at two lime factories in Colombia",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "lime industry",
+      "evidence_quote": "performances of two limekilns in the Colombian lime industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Production Continuous Continuous Continuous",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Energy balances were made following the ISO-13579 standard",
+        "the energy input divided by the output of lime in metric tonnes"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

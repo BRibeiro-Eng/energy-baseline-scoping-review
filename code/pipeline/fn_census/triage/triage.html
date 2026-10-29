@@ -1,0 +1,161 @@
+<!doctype html><html lang="pt"><head><meta charset="utf-8">
+<title>Triagem do censo FN</title>
+<style>
+:root{--bg:#fbfaf8;--fg:#1a1a18;--mut:#6b6a66;--line:#e2e0db;--card:#fff;
+--ok:#1a7f4b;--warn:#a8620a;--bad:#a02020;--hit:#ffe58a}
+@media(prefers-color-scheme:dark){:root{--bg:#16161a;--fg:#e8e6e1;--mut:#95938d;
+--line:#2e2e34;--card:#1d1d22;--hit:#6b5510}}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
+background:var(--bg);color:var(--fg);height:100vh;display:flex;flex-direction:column}
+header{display:flex;align-items:center;gap:16px;padding:10px 16px;border-bottom:1px solid var(--line);
+background:var(--card);flex:0 0 auto}
+h1{font-size:14px;margin:0;font-weight:600;letter-spacing:-.01em}
+.bar{flex:1;height:6px;background:var(--line);border-radius:3px;overflow:hidden;max-width:280px}
+.bar i{display:block;height:100%;background:var(--ok);transition:width .3s}
+.mut{color:var(--mut)}
+main{flex:1;display:grid;grid-template-columns:minmax(380px,42%) 1fr;overflow:hidden}
+#left{overflow-y:auto;padding:16px;border-right:1px solid var(--line)}
+#right{background:#555}
+iframe{width:100%;height:100%;border:0;display:block}
+.tier{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;
+background:var(--line);letter-spacing:.04em}
+.tier.A{background:var(--warn);color:#fff}
+h2{font-size:16px;margin:8px 0 4px;line-height:1.35;font-weight:600}
+.terms{margin:8px 0 14px}
+.t{display:inline-block;font-size:12px;padding:2px 8px;border:1px solid var(--line);
+border-radius:999px;margin:0 5px 5px 0}
+.t.s{border-color:var(--warn);color:var(--warn);font-weight:600}
+.ctx{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:0 0 10px;background:var(--card)}
+.ctx h3{margin:0 0 8px;font-size:13px;font-family:ui-monospace,Menlo,monospace}
+.ctx h3 em{font-style:normal;font-size:11px;color:var(--warn);font-weight:700;margin-left:6px}
+.frag{font-size:13px;color:var(--mut);margin:0 0 7px;padding-left:10px;border-left:2px solid var(--line)}
+.frag b{color:var(--fg)}
+mark{background:var(--hit);color:var(--fg);padding:0 2px;border-radius:2px;font-weight:600}
+.pg{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--warn);font-weight:700}
+fieldset{border:1px solid var(--line);border-radius:8px;padding:12px;margin:16px 0 0;background:var(--card)}
+legend{font-size:12px;font-weight:600;padding:0 6px;color:var(--mut)}
+textarea,input,select{width:100%;font:13px/1.4 inherit;padding:7px 9px;border:1px solid var(--line);
+border-radius:6px;background:var(--bg);color:var(--fg);margin:0 0 8px}
+textarea{resize:vertical;min-height:52px}
+button{font:13px inherit;font-weight:600;padding:8px 14px;border:1px solid var(--line);border-radius:6px;
+background:var(--card);color:var(--fg);cursor:pointer}
+button:hover{border-color:var(--mut)}
+button.p{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.k{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--mut)}
+.msg{padding:8px 10px;border-radius:6px;font-size:13px;margin:8px 0 0;display:none}
+.msg.e{background:#a0202018;color:var(--bad);display:block}
+.msg.o{background:#1a7f4b18;color:var(--ok);display:block}
+.done{font-size:12px;padding:6px 10px;border-radius:6px;background:#1a7f4b18;color:var(--ok);
+margin:0 0 12px;font-weight:600}
+kbd{font:11px ui-monospace,Menlo,monospace;border:1px solid var(--line);border-bottom-width:2px;
+border-radius:4px;padding:1px 5px;color:var(--mut)}
+</style></head><body>
+<header>
+  <h1>Triagem do censo FN</h1><span id="mode" class="mut" style="font-size:12px;font-weight:600"></span>
+  <div class="bar"><i id="fill" style="width:0"></i></div>
+  <span id="count" class="mut"></span>
+  <span style="flex:1"></span>
+  <span class="mut" style="font-size:12px"><kbd>n</kbd> não é FN · <kbd>f</kbd> é FN ·
+    <kbd>p</kbd> promover · <kbd>→</kbd> saltar</span>
+  <button id="skip">Saltar →</button>
+</header>
+<main>
+  <div id="left"><p class="mut">a carregar…</p></div>
+  <div id="right"><iframe id="pdf" title="PDF"></iframe></div>
+</main>
+<script>
+const $=s=>document.querySelector(s);
+let Q=[],SECTORS=[],cur=null;
+
+const esc=s=>(s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+async function boot(){
+  const d=await (await fetch("/api/queue")).json();
+  Q=d.rows;SECTORS=d.sectors;$("#mode").textContent=d.mode||"";
+  const pend=Q.find(r=>!r.verdict)||Q.find(r=>r.verdict==="promoted_to_A");
+  render(pend?pend.key:Q[0].key);
+}
+function progress(){
+  const done=Q.filter(r=>r.verdict&&r.verdict!=="promoted_to_A").length;
+  const defer=Q.filter(r=>r.verdict==="promoted_to_A").length;
+  $("#count").title=defer?defer+" adiados para leitura completa":"";
+  $("#fill").style.width=(100*done/Q.length)+"%";
+  $("#count").textContent=done+"/"+Q.length;
+}
+async function render(key){
+  progress();
+  const p=await (await fetch("/api/paper/"+key)).json();
+  cur=p;
+  $("#pdf").src="/pdf/"+key;
+  const ctx=p.contexts.map(c=>`<div class="ctx"><h3>${esc(c.term)}${c.strong?'<em>ESPECÍFICO</em>':''}</h3>`+
+    c.hits.map(h=>`<p class="frag"><span class="pg">p.${h.page}</span> …${esc(h.before)}<mark>${esc(h.hit)}</mark>${esc(h.after)}…</p>`).join("")+
+    `</div>`).join("");
+  const c=p.clf||{};
+  const CAT={A_aplica:["A — APLICA num setor da lista","var(--bad)"],
+             B_contexto:["B — contexto contínuo ou setor não-listado","var(--warn)"],
+             C_mencao:["C — só menção","var(--mut)"],
+             D_homonimo:["D — homónimo / bibliografia","var(--mut)"]};
+  const cat=CAT[c.categoria]||["",""];
+  const clf=c.categoria?`<fieldset style="border-color:${cat[1]}"><legend style="color:${cat[1]}">recomendação do classificador — não é decisão</legend>
+     <div style="font-weight:700;color:${cat[1]};margin-bottom:6px">${esc(cat[0])} · confiança ${c.confianca}</div>
+     ${c.setor?`<div class="mut" style="font-size:12px;margin-bottom:6px">setor: ${esc(c.setor)}</div>`:""}
+     <div style="font-size:13px">${esc(c.razao||"")}</div>
+     ${c.quote?`<p class="frag" style="margin-top:8px"><span class="pg">p.${c.page}</span> «${esc(c.quote)}» <span class="mut">${c.grounded?"✓ verificada":"⚠ não verificada"}</span></p>`:""}
+   </fieldset>`:"";
+  const v=p.verdict;
+  $("#left").innerHTML=
+    (v?(v.verdict==="promoted_to_A"
+        ?`<div class="done" style="background:#a8620a18;color:var(--warn)">ADIADO para leitura completa — ${esc(v.reason||"")}<br><span class="mut">decide agora: lê o paper e escolhe abaixo</span></div>`
+        :`<div class="done">já decidido: ${esc(v.verdict)} — ${esc(v.reason||v.sector||"")}</div>`):"")+
+    `<div class="row"><span class="tier ${p.tier}">TIER ${p.tier}</span>
+       <span class="k">${esc(p.key)}</span><span class="mut">${p.year||"?"} · ${p.n_pages||"?"} pp</span></div>
+     <h2>${esc(p.title||"")}</h2>
+     <div class="terms">${(p.terms||[]).map(t=>`<span class="t${p.contexts.find(c=>c.term===t&&c.strong)?" s":""}">${esc(t)}</span>`).join("")||'<span class="mut">sem termos — entrou por flag de modelo</span>'}
+       ${(p.flags||[]).map(f=>`<span class="t s">⚑ ${esc(f)}</span>`).join("")}</div>
+     ${clf}
+     ${ctx||'<p class="mut">sem excertos — leitura completa</p>'}
+     <fieldset><legend>decisão</legend>
+       <textarea id="reason" placeholder="razão numa linha — obrigatória"></textarea>
+       <div class="row"><button class="p" onclick="send('not_fn')">Não é FN — exclusão mantida</button>
+       ${p.tier==="B"?'<button onclick="send(\'promoted_to_A\')">Promover a Tier-A</button>':""}</div>
+       <details style="margin-top:12px"><summary class="mut" style="font-size:12px;cursor:pointer">é um falso negativo</summary>
+         <div style="margin-top:8px">
+           <select id="sector"><option value="">— setor §5.3 —</option>${SECTORS.map(s=>`<option>${esc(s)}</option>`).join("")}</select>
+           <input id="page" type="number" min="1" placeholder="página da citação">
+           <textarea id="quote" placeholder="citação verbatim — verificada contra o texto do paper"></textarea>
+           <button onclick="send('confirmed_fn')">Confirmar falso negativo</button>
+         </div></details>
+       <div id="msg" class="msg"></div>
+     </fieldset>`;
+  $("#left").scrollTop=0;
+}
+async function send(verdict){
+  const b={verdict,reason:($("#reason")||{}).value||""};
+  if(verdict==="confirmed_fn"){b.sector=$("#sector").value;b.page=$("#page").value;b.quote=$("#quote").value;}
+  const r=await fetch("/api/verdict/"+cur.key,{method:"POST",headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(b)});
+  const d=await r.json();
+  const m=$("#msg");
+  if(!r.ok){m.className="msg e";m.textContent=d.error;return;}
+  const row=Q.find(x=>x.key===cur.key); if(row)row.verdict=verdict;
+  next();
+}
+function next(){
+  const i=Q.findIndex(x=>x.key===cur.key);
+  const rest=Q.slice(i+1).find(r=>!r.verdict)||Q.find(r=>!r.verdict)
+            ||Q.slice(i+1).find(r=>r.verdict==="promoted_to_A")||Q.find(r=>r.verdict==="promoted_to_A");
+  if(!rest){progress();$("#left").innerHTML='<div class="done">fila vazia — todos decididos. Corre o progress.py para veres o que isto dispara.</div>';return;}
+  render(rest.key);
+}
+$("#skip").onclick=next;
+document.addEventListener("keydown",e=>{
+  if(/^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName))return;
+  if(e.key==="n"){e.preventDefault();($("#reason")||{}).focus&&$("#reason").focus();}
+  if(e.key==="f"){e.preventDefault();document.querySelector("details").open=true;$("#sector").focus();}
+  if(e.key==="p"){e.preventDefault();$("#reason").focus();}
+  if(e.key==="ArrowRight"){e.preventDefault();next();}
+});
+boot();
+</script></body></html>

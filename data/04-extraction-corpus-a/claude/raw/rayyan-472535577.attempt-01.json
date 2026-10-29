@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535577",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:56:13Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "This research is a quantitative research using survey method.",
+        "Q6 means question 6, ask about EnPI"
+      ],
+      "page": [
+        4,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Questionnaire-based survey of 28 Indonesian pilot-company industries assessing the sustainability of ISO 50001 EnMS implementation. 'EnPI' and 'Baseline' appear only as scored survey question topics (Q5, Q6) and as named items in questionnaire validity (Pearson correlation) and reliability (Cronbach's alpha) tests; no EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (no variables, functional form, or construction/estimation approach identifiable). Incidental mention only.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This research is a quantitative research using survey method.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Survey study; EnPI and baseline appear only as scored questionnaire items in an ISO 50001 EnMS implementation assessment. No EnPI/EnB model characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

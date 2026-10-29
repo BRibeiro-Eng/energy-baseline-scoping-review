@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535608",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:17:24Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The objective of this paper is to present the design and modeling of the Energy Management System (EnMS) in energy-intensive industries in an enterprise engineering approach, according to the management discipline called Business Process Management (BPM).",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "EnMS/BPM process framework without an identifiable or characterised EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The process design created in the “should be” format presents a framework based on the Plan, Do, Check and Act (PDCA) cycle.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EnPI and energy baselines are named as outputs of the Energy Review, but no variables, functional form, or construction/estimation approach is characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

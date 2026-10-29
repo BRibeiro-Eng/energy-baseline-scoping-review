@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536439",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:39:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This methodology provided the calculation of speciﬁc energy performance\nindicators (EnPIs) by considering the global energy consumption of the different sites and the sector’s\nrelevant variables.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "a ﬁnal database consisting of 58 energy audits\nwas obtained and analyzed.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Italian\nprivate healthcare sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Hospital/building application; outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the\nsample was reduced to only the organizations that used the updated summary spreadsheet,\ni.e., 85.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "For Italy, the energy\naudits are collected every four years by ENEA.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "Italian private health sector",
+      "evidence_quote": "the energy audits for the Italian private health sector,\nreceived by ENEA in 2019",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "buildings destined for hospital use",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "EN ISO 50001:2018; Energy Management Systems—Requirements with Guidance for Use; ISO: Geneva, Switzerland, 2018.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": "Italian mandatory energy audits according to\nArt.8 EU Directive 27/2012.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "Subsequently, the average energy performance indicators (EnPIavg) are calculated,\nwhich are deﬁned as the average of the EnPIs of the individual structures",
+        "Predicted EUI = a0 + a1X1 + a2X2 + a3X3 + a4X4 + a5X5"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

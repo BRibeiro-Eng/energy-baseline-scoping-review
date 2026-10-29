@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536596",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:55:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In addition, selecting a product type as the basis for analysis can provide specific EnPIs which identify the embedded energy cost per production part.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The approach is illustrated with data from a case study of a precision engineering SME based in Limerick, Ireland.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The use-case was a precision-engineering facility based in Ireland (Manufacturing_SME1).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied precision-engineering case in discrete parts manufacturing; not a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The use-case was a precision-engineering facility based in Ireland (Manufacturing_SME1).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Limerick, Ireland",
+      "evidence_quote": "The approach is illustrated with data from a case study of a precision engineering SME based in Limerick, Ireland.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "precision engineering",
+      "evidence_quote": "The approach is illustrated with data from a case study of a precision engineering SME based in Limerick, Ireland.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "They primarily process parts in steel, aluminium and plastic for applications in the medical devices industry.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the central implementation part of the ISO 50001 Energy Management certification is derived from the PDCA cycle",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "In addition, selecting a product type as the basis for analysis can provide specific EnPIs which identify the embedded energy cost per production part.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

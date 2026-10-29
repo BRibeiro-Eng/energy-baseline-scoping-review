@@ -1,0 +1,461 @@
+{
+ "record_type": "stage_c_extraction",
+ "paper_key": "rayyan-000000001",
+ "schema_version": "2.3.0-C",
+ "prompt_tag": "v2.3.0-C",
+ "surface": "claude",
+ "completed_at": "2026-09-12T00:00:00",
+ "applications": [
+  {
+   "application_id": "A1",
+   "scale_of_application": {
+    "value": "unit",
+    "evidence_quote": "The plant is a single facility operated continuously",
+    "page": 1,
+    "support_class": "direct statement"
+   },
+   "scope_description": {
+    "value": "Crude distillation unit of a European refinery",
+    "evidence_quote": "Energy performance modelling of a crude distillation unit at a European refinery.",
+    "page": 1,
+    "support_class": "direct statement"
+   },
+   "models": [
+    {
+     "model_id": "M1",
+     "label_verbatim": "Model A",
+     "C1_dependent_variable": {
+      "quantity": {
+       "value": "specific energy consumption",
+       "evidence_quote": "The dependent variable is the specific energy consumption of the unit",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "energy_vector": {
+       "value": [
+        "natural gas",
+        "electricity"
+       ],
+       "evidence_quote": "Fuel gas and electricity are both included in the boundary.",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "denominator": {
+       "value": "production mass",
+       "evidence_quote": "expressed as GJ per tonne of crude throughput",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C2_model_form": {
+      "model_family": {
+       "value": [
+        "linear regression"
+       ],
+       "evidence_quote": "Model A is a multiple linear regression estimated by ordinary least squares",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "estimation_method": {
+       "value": "OLS",
+       "evidence_quote": "estimated by ordinary least squares",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "variable_selection": {
+       "value": "stepwise",
+       "evidence_quote": "with predictors selected by stepwise regression",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C3_variables": [
+      {
+       "verbatim": "Crude throughput",
+       "type": "throughput",
+       "role": "predictor",
+       "evidence_quote": "Crude throughput is the dominant predictor in both models",
+       "page": 3,
+       "support_class": "direct statement"
+      },
+      {
+       "verbatim": "heavy naphtha fraction of the feed",
+       "type": "product mix",
+       "role": "predictor",
+       "evidence_quote": "the heavy naphtha fraction of the feed is retained as a product mix term",
+       "page": 3,
+       "support_class": "direct statement"
+      }
+     ],
+     "C4_data": {
+      "acquisition_frequency": {
+       "value": "daily",
+       "evidence_quote": "Daily values from the process historian",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "modelling_frequency": {
+       "value": "monthly",
+       "evidence_quote": "aggregated to monthly averages for modelling",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C5_measurement": [
+      {
+       "energy_vector": "natural gas",
+       "data_origin": "dedicated meter",
+       "boundary_correspondence": "exact",
+       "evidence_quote": "Fuel gas consumption is taken from a dedicated meter on the furnace header, which matches the modelled boundary exactly.",
+       "page": 3,
+       "support_class": "direct statement"
+      }
+     ],
+     "C6_re_estimation": {
+      "regime": {
+       "value": "rolling window",
+       "evidence_quote": "re-estimate the baseline on a rolling twelve-month window",
+       "page": 4,
+       "support_class": "direct statement"
+      },
+      "update_status": {
+       "value": "executed",
+       "evidence_quote": "We therefore re-estimate the baseline on a rolling twelve-month window.",
+       "page": 4,
+       "support_class": "direct statement"
+      }
+     },
+     "C7_validity_envelope": {
+      "statement": {
+       "value": "not stated",
+       "evidence_quote": null,
+       "page": null,
+       "support_class": "absence checked",
+       "absence_basis": "searched full text"
+      }
+     },
+     "C8_metrics": {
+      "in_sample_fit": {
+       "status": {
+        "value": "reported",
+        "evidence_quote": "The coefficient of determination of Model A is 0.91 on the estimation sample.",
+        "page": 3,
+        "support_class": "direct statement"
+       },
+       "metrics": [
+        {
+         "metric": "R2",
+         "value": 0.91,
+         "evidence_quote": "The coefficient of determination of Model A is 0.91",
+         "page": 3
+        },
+        {
+         "metric": "RMSE",
+         "value": 2.4,
+         "unit": "GJ",
+         "period_or_context": null,
+         "evidence_quote": "the specific energy consumption of the unit, expressed",
+         "page": 2
+        }
+       ]
+      },
+      "out_of_sample_validation": {
+       "status": {
+        "value": "not reported",
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text"
+       },
+       "metrics": [],
+       "validation_design": {
+        "value": "held-out split",
+        "evidence_quote": "a crude distillation unit at a European refinery.",
+        "page": 1,
+        "support_class": "direct statement"
+       }
+      },
+      "energy_result": {
+       "status": {
+        "value": "not reported",
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text"
+       },
+       "metrics": []
+      }
+     },
+     "baseline_period_start": {
+      "value": "2018-01",
+      "evidence_quote": "a crude distillation unit at a European refinery.",
+      "page": 1,
+      "support_class": "direct statement"
+     }
+    },
+    {
+     "model_id": "M2",
+     "label_verbatim": "Model B",
+     "C1_dependent_variable": {
+      "quantity": {
+       "value": "specific energy consumption",
+       "evidence_quote": "two baseline models for the specific energy consumption of the CDU",
+       "page": 1,
+       "support_class": "direct statement"
+      },
+      "energy_vector": {
+       "value": [
+        "natural gas",
+        "electricity"
+       ],
+       "evidence_quote": "Fuel gas and electricity are both included in the boundary.",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "denominator": {
+       "value": "production mass",
+       "evidence_quote": "GJ per tonne of crude throughput",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C2_model_form": {
+      "model_family": {
+       "value": [
+        "artificial neural network"
+       ],
+       "evidence_quote": "Model B is a feed-forward artificial neural network",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "estimation_method": {
+       "value": "gradient training",
+       "evidence_quote": "trained by gradient descent on the same data set",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "variable_selection": {
+       "value": "stepwise",
+       "evidence_quote": "with predictors selected by stepwise regression",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C3_variables": [
+      {
+       "verbatim": "Crude throughput",
+       "type": "throughput",
+       "role": "predictor",
+       "evidence_quote": "Crude throughput is the dominant predictor in both models",
+       "page": 3,
+       "support_class": "direct statement"
+      }
+     ],
+     "C4_data": {
+      "acquisition_frequency": {
+       "value": "daily",
+       "evidence_quote": "Daily values from the process historian",
+       "page": 2,
+       "support_class": "direct statement"
+      },
+      "modelling_frequency": {
+       "value": "monthly",
+       "evidence_quote": "aggregated to monthly averages for modelling",
+       "page": 2,
+       "support_class": "direct statement"
+      }
+     },
+     "C5_measurement": [
+      {
+       "energy_vector": "electricity",
+       "data_origin": "not reported",
+       "boundary_correspondence": "not reported",
+       "evidence_quote": null,
+       "page": null,
+       "support_class": "absence checked",
+       "absence_basis": "searched full text"
+      }
+     ],
+     "C6_re_estimation": {
+      "regime": {
+       "value": "not stated",
+       "evidence_quote": null,
+       "page": null,
+       "support_class": "absence checked",
+       "absence_basis": "searched full text"
+      },
+      "update_status": {
+       "value": "not reported",
+       "evidence_quote": null,
+       "page": null,
+       "support_class": "absence checked",
+       "absence_basis": "searched full text"
+      }
+     },
+     "C7_validity_envelope": {
+      "statement": {
+       "value": "not stated",
+       "evidence_quote": null,
+       "page": null,
+       "support_class": "absence checked",
+       "absence_basis": "searched full text"
+      }
+     },
+     "C8_metrics": {
+      "in_sample_fit": {
+       "status": {
+        "value": "not reported",
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text"
+       },
+       "metrics": []
+      },
+      "out_of_sample_validation": {
+       "status": {
+        "value": "reported",
+        "evidence_quote": "Model B reaches a mean absolute percentage error of 3.2% on a held-out split.",
+        "page": 3,
+        "support_class": "direct statement"
+       },
+       "metrics": [
+        {
+         "metric": "MAPE",
+         "value": "3.2%",
+         "evidence_quote": "a mean absolute percentage error of 3.2%",
+         "page": 3
+        }
+       ],
+       "validation_design": {
+        "value": "held-out split",
+        "evidence_quote": "on a held-out split",
+        "page": 3,
+        "support_class": "direct statement"
+       }
+      },
+      "energy_result": {
+       "status": {
+        "value": "not reported",
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text"
+       },
+       "metrics": []
+      }
+     }
+    }
+   ],
+   "sector_registered": {
+    "value": "petroleum refining",
+    "evidence_quote": "a crude distillation unit at a European refinery.",
+    "page": 1,
+    "support_class": "direct statement"
+   },
+   "refinery_or_petrochemical_case": {
+    "value": "refinery — model empirically applied there",
+    "evidence_quote": "a crude distillation unit at a European refinery.",
+    "page": 1,
+    "support_class": "direct statement"
+   }
+  }
+ ],
+ "mechanisms": [
+  {
+   "mechanism_id": "X1",
+   "mechanism_cause": "not stated",
+   "mechanism_effect_on_model": "baseline drift or expiry",
+   "refers_to": "M1",
+   "claim_status": "empirically demonstrated",
+   "evidence_quote": "The regression coefficients drift over the four years of record",
+   "page": 4,
+   "support_class": "direct statement"
+  },
+  {
+   "mechanism_id": "X2",
+   "mechanism_cause": "feedstock quality or composition change",
+   "mechanism_effect_on_model": "non-stationarity of the relationship",
+   "refers_to": "M2",
+   "claim_status": "applied to the case",
+   "evidence_quote": "The neural network is similarly sensitive to feedstock variability",
+   "page": 4,
+   "support_class": "direct statement"
+  }
+ ],
+ "adaptations": [
+  {
+   "adaptation_id": "D1",
+   "adaptation": "rolling window",
+   "status": "implemented",
+   "addresses_mechanism": "X1",
+   "evidence_quote": "re-estimate the baseline on a rolling twelve-month window",
+   "page": 4,
+   "support_class": "direct statement",
+   "refers_to": "M1",
+   "normative_framing": "implicit"
+  }
+ ],
+ "study_limitations": [
+  {
+   "limitation": "instrumentation unavailable",
+   "also_constrains_model": true,
+   "evidence_quote": "only one unit was instrumented at the required resolution",
+   "page": 4
+  }
+ ],
+ "implementation_barriers": [
+  {
+   "barrier": "extending metering to the whole site needs capital approval",
+   "evidence_quote": "extending the metering to the whole site would require capital approval",
+   "page": 4
+  }
+ ],
+ "C13_reproducibility": {
+  "equations_given": {
+   "value": "not reported",
+   "evidence_quote": null,
+   "page": null,
+   "support_class": "absence checked",
+   "absence_basis": "searched full text"
+  },
+  "coefficients_given": {
+   "value": "partial",
+   "evidence_quote": "The coefficient of determination of Model A is 0.91",
+   "page": 3,
+   "support_class": "direct statement"
+  },
+  "data_available": {
+   "value": "not reported",
+   "evidence_quote": null,
+   "page": null,
+   "support_class": "absence checked",
+   "absence_basis": "searched full text"
+  },
+  "code_available": {
+   "value": "not reported",
+   "evidence_quote": null,
+   "page": null,
+   "support_class": "absence checked",
+   "absence_basis": "searched full text"
+  }
+ },
+ "absence_declarations": {
+  "mechanisms": {
+   "searched": true,
+   "basis": "searched full text"
+  },
+  "adaptations": {
+   "searched": true,
+   "basis": "searched full text"
+  },
+  "study_limitations": {
+   "searched": true,
+   "basis": "searched full text"
+  },
+  "implementation_barriers": {
+   "searched": true,
+   "basis": "searched full text"
+  }
+ }
+}

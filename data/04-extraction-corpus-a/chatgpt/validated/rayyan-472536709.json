@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536709",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:46:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The energy efficiency as a key performance criteria group for sustainable buildings is investigated in this paper. In this study the most important criteria of energy efficiency are identified and based on Iran Renewable Energy Organization’s expert’s opinions, the most common renewable energies are compared, as well as, their feasibility to implementation in urban areas and buildings are studied.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Exclusive building-focused qualitative criteria survey; no EnPI/EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The best way for identifying the sustainable buildings assessment criteria is studying, surveying and comparing the various researches and finally achieve a set of criteria that can assess truly the performance of such buildings.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The study ranks sustainability and renewable-energy criteria using expert interviews; it does not construct an organisational energy baseline or EnPI model."
+  },
+  "stage2": null,
+  "stage3": null
+}

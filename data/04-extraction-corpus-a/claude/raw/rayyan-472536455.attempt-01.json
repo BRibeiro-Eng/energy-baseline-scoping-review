@@ -1,0 +1,386 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536455",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:18:47.997495+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this work, we use linear regression involving two variables: energy consumption (global, electrical, thermal, or natural gas as a function of the EnPI) and production",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "An additional focus on the cement industry (NACE 23.51) is presented in this section",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete grey-cement production cycle (one site was dismissed because of non-continuous production), were subjected to the developed statistical method",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "paper_type borderline: generalisable EnPI methodology demonstrated on one foregrounded sectoral case (cement); multi-case/methodological also arguable. type_of_organisation coded from the cement case (continuous process) though the method spans >300 NACE sectors (mixed arguable). validation_types 'empirical' = external-benchmark comparison. multi_site awkward: sector-wide multi-company, not single-org multi-site."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "energy performance indicators of the Italian cement industry sector",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "cement industry",
+      "evidence_quote": "An additional focus on the cement industry (NACE 23.51) is presented in this section",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "30 energy audits related to sites where the complete grey-cement production cycle is carried out",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "EnPIs are introduced by the ISO 50001:2018 standard",
+        "ISO 50006:2014, on the other hand, provides a guideline to establish the appropriate"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "specifically between ISO 50001 and the SEP M&V protocol",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "Article 8 of the EED introduced the obligation for large enterprises to carry out an energy audit on their production sites",
+        "in compliance with Article 8 of Italian Legislative Decree 102/2014"
+      ],
+      "page": [
+        2,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "we use linear regression involving two variables: energy consumption",
+        "a single EnPI (EnPIr) referring to the entire group and the whole production range was calculated"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production (in specific production units, P.U.; tons of cement, clinker, or flour)",
+        "number of cyclones (furnace pre-heating stages)"
+      ],
+      "evidence_quote": [
+        "and production (in its specific P.U.)",
+        "the impact of the number of cyclones on the pre-heating phase before clinker production was evaluated"
+      ],
+      "page": [
+        8,
+        22
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "Cross-sectional sectoral baseline built from mandatory energy-audit data: after data cleaning/normalisation and outlier removal, the real sectoral EnPI is computed as the mean +/- standard deviation of specific energy consumption across sites, and a linear regression of energy consumption on production (y = a*x + b) is fitted; the EnPI model (EnPIm) is a hyperbolic function with +/-2 sigma limits from error propagation, with representativeness confirmed via R^2, R>Rcritic and p-value.",
+      "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical, thermal, or natural gas as a function of the EnPI) and production",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "a comprehensive validation of EnPI obtained in this work with public data is provided",
+        "The correlations are statistically representative as p-value < 0.0001 and R > Rcritic"
+      ],
+      "page": [
+        22,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The first-Level EnPIs are computed for all manufacturing four-level NACE sectors at global plant level",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "scope_description": {
+      "value": "Italian cement sector (NACE 23.51): first-level EnPIs for the complete grey-cement production cycle at site level, plus second-level EnPIs for main phases (raw-material grinding, clinker cooking, clinker grinding).",
+      "evidence_quote": "sites where the complete grey-cement production cycle is carried out",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": [
+        "SEC does not fully represent either conversion efficiencies or energy management",
+        "The use of the mean value does not include an indication of economy of scale in the production"
+      ],
+      "page": [
+        5,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "The correlation coefficient can be very sensitive to",
+        "despite several production processes being not linear"
+      ],
+      "page": [
+        10,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": [
+        "some NACE groups are also separated, depending on the characteristic processes or products of the sites, or grouped in smaller intervals of production units",
+        "a numeric threshold of sites was set, conventionally equal to 5"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": [
+        "a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated",
+        "a partition of NACE group 23.51 depending on the characteristic processes of the sites"
+      ],
+      "page": [
+        16,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "adaptation_types": {
+      "value": [
+        "segmented baseline",
+        "other"
+      ],
+      "evidence_quote": [
+        "grouped in smaller intervals of production units",
+        "a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated"
+      ],
+      "page": [
+        8,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": [
+        "The ISO 50006 standard",
+        "recommends the use of linear regression for the estimation of indicators"
+      ],
+      "page": [
+        8,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "energy data included in the energy audits uploaded to the Audit 102 web portal at the end of December 2019",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "model_parameters_reported": {
+      "value": [
+        "EE [kWh] = 5.062 × 106 + 101.9 × t (electric, cement)",
+        "Eth [MJ] = 3.913 × 107 + 3.448 × t (thermal, clinker)",
+        "Eg [MJ] = 7.05 × 107 + 3.039 × t (global, cement)",
+        "EE [kWh] = 946,440 + 38.98 × t (clinker grinding, electric)"
+      ],
+      "evidence_quote": [
+        "EE [kWh] = 5.062 × 106 + 101.9 × t",
+        "Eg [MJ] = 7.05 × 107 + 3.039 × t",
+        "EE [kWh] = 946,440 + 38.98 × t"
+      ],
+      "page": [
+        18,
+        18,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.917",
+          "unit": null,
+          "period_or_context": "first-level electric EnPI regression, cement (N=29)",
+          "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.969",
+          "unit": null,
+          "period_or_context": "first-level thermal EnPI regression, clinker (N=29)",
+          "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.933",
+          "unit": null,
+          "period_or_context": "first-level global EnPI regression, cement (N=29)",
+          "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "first-level EnPI linear regressions (N=29)",
+          "evidence_quote": "0.917 0.958 <0.0001",
+          "page": 18,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.958 (Pearson correlation coefficient R)",
+          "unit": null,
+          "period_or_context": "electric EnPI regression, cement",
+          "evidence_quote": "0.917 0.958 <0.0001",
+          "page": 18,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "coefficient of determination (R2), Pearson correlation coefficient (R), p-value, size of the population analysed (N)",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Sectoral EnPI definition requires a very time-consuming one-by-one audit normalisation by highly specialized personnel",
+        "Profitable energy-efficiency interventions are often not implemented due to several categories of barriers"
+      ],
+      "evidence_quote": [
+        "This first normalization phase is a very time-consuming process since it requires a one-by-one audit analysis by highly specialized personnel",
+        "profitable energy-efficiency interventions are not implemented due to several barriers pertaining to different categories"
+      ],
+      "page": [
+        8,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536742",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T09:33:58.043067+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The EPI uses stochastic frontier analysis (SFA). This data analysis technique provides an estimate of the lowest observed plant energy use, given these various factors.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This paper describes the role of the EPI within the context of the overall goals of ENERGY STAR and gives examples of how this information tool was developed and is used.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "EPA released its first EPI in 2005 for the automobile manufacturing industry.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "notes": "Cross-sector 'evolution of the EPI' methodology paper (stochastic frontier / SFA benchmarking). paper_type borderline: methodological/theoretical vs multi-case (Sec.4 'Examples from specific industry sectors'). Primary empirical case = automobile assembly (discrete); corn refining example is hypothetical and not on the closed list; cement/glass/paper/petrochemicals appear only as testimonials or planned work -> level_3b=false. type_of_organisation=mixed."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "provided by 5 companies",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "auto assembly plants in the US",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "automobile assembly, wet corn refining, and cement manufacturing",
+      "evidence_quote": "automobile assembly, wet corn refining, and cement manufacturing",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "automobile assembly, wet corn refining, and cement manufacturing",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "The EPI uses stochastic frontier analysis (SFA)",
+        "a functional relationship between the level of energy use and the level and type of various production activities, quality of material inputs, and external factors"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

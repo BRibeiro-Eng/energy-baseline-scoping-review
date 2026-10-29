@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536071",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:26:42Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The result is a mathematical formula that is at once the energy-related baseline and the new energy performance indicator (EnPI) for electricity as an energy source.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the monthly energy indicators of an industrial company for the period 2013–2016.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the monthly energy indicators of an industrial company for the period 2013–2016.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "The case is described only as an industrial company; no sector in the closed Level 3B list is identified."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "With the aid of MLR, the same case study will now be used to demonstrate how the integration of the aforementioned influencing variables leads to a robust energy performance indicator.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "industrial company",
+      "evidence_quote": "the monthly energy indicators of an industrial company for the period 2013–2016.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "the monthly energy indicators of an industrial company for the period 2013–2016.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "energy management system standard DIN ISO 50001",
+        "accompanying standard ISO 50003"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The influencing variables identified are now integrated into the regression model one after the other (forward selection).",
+        "relative or specific energy indicators such as electricity consumption per product in kWh/unit."
+      ],
+      "page": [
+        6,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

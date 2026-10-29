@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535693",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:42:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The purpose of this paper is to identify main success factors for the effective implementation, operation and certification of an energy management system (EnMS) in accordance with ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Energy performance indicators are mentioned only incidentally (an audit-report optimization topic and an employee training area); the paper is a survey of organizational success factors, team composition and certification approaches for ISO 50001 EnMS implementation and identifies or characterises no EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "among already certified German companies has been conducted focussing on organizational, teambuilding and technical aspects",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Survey of 121 ISO 50001-certified German companies on organizational/team success factors; EnPI mentioned incidentally only, no measurement model characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

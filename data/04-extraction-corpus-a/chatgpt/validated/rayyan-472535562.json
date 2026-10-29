@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535562",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:48:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This study aimed to establish a Fab energy efficiency assessment model for the semiconductor industry based on the SMART Decision Analysis Framework, which used several energy-saving methods to measure the efficiency of energy cost management and considered theoretical and practical conditions to give suggestions to each indicator. decision-making on energy expenditure and distribution.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "As a result, 10 relevant articles were found and aligned with the research theme in an international database. It was also possible to identify the main approaches proposed by the authors of the bibliographic portfolio in relation to energy management indicators in manufacturing and industry 4.0.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "There is a great lack of studies on the implementation of performance indicators for energy management in the context of industry 4.0, since most of the studies were focused on traditional manufacturing companies",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Review of ten manufacturing and Industry 4.0 studies; no explicit continuous-process application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "After reading the articles, there were 10 articles that represent the bibliographic portfolio on indicators for energy management in manufacturing and industry 4.0",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Using the Proknow-C intervention method, it was possible to select a bibliographic portfolio that represents the research topic, containing 10 articles that are relevant to the topic.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "manufacturing and industry 4.0",
+      "evidence_quote": "It was also possible to identify the main approaches proposed by the authors of the bibliographic portfolio in relation to energy management indicators in manufacturing and industry 4.0.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": [
+        "The research investigates whether the adoption of additive manufacturing (AM) technology can be used to achieve transparency in terms of energy and financial inputs for manufacturing operations.",
+        "This study aimed to establish a Fab energy efficiency assessment model for the semiconductor industry based on the SMART Decision Analysis Framework"
+      ],
+      "page": [
+        8,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.87
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The ISO 50001 energy management standard dictates that organizations or companies have implemented sustainable energy management systems [21].",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "The research focuses on the exploration of the dynamic structure of energy to dissect the energy consumption per part, to better illustrate the energy inefficiencies, creating new indicators of sustainable manufacturing performance.",
+        "The paper presents an approach to determine prospective energy consumption using Method Energy Measurement combined with defined energy reference cycles for manufacturing technologies."
+      ],
+      "page": [
+        9,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.84
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "This study aimed to establish a Fab energy efficiency assessment model for the semiconductor industry based on the SMART Decision Analysis Framework, which used several energy-saving methods to measure the efficiency of energy cost management and considered theoretical and practical conditions to give suggestions to each indicator. decision-making on energy expenditure and distribution.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536035",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:19:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Next, the efficiency of the system is assessed using energy and exergy analysis. First, the performance indicators are deﬁned, followed by results that were generated through computer simulation.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Section 4 illustrates the use of this methodology through a case study of a biscuit manufacturing facility.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Section 4 illustrates the use of this methodology through a case study of a biscuit manufacturing facility.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Biscuit manufacturing is outside the closed Level 3B continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A large biscuit manufacturing facility is studied to illustrate application of the methodology presented in the previous section.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "biscuit manufacturing facility",
+      "evidence_quote": "A large biscuit manufacturing facility is studied to illustrate application of the methodology presented in the previous section.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "A large biscuit manufacturing facility is studied to illustrate application of the methodology presented in the previous section.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the latest energy management standard, the ISO 50001 has essentially succeeded previous standards, such as the EN 16001:2009",
+        "Notable among them were the EN 16001:2009 and ANSI/MSE 2000:2008."
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "process integration"
+      ],
+      "evidence_quote": [
+        "The factory building is modelled using conventional physical based approach for energy modelling in the built environment [41].",
+        "the main contribution of this paper is to present a set of prescriptive guidelines, in the ISO 50001 standard format, which incorporate the useful concept of exergy and is based on holistic simulation of factories."
+      ],
+      "page": [
+        5,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    }
+  },
+  "stage3": null
+}

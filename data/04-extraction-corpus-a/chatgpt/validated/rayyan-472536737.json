@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536737",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:20:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper focuses on the interface between industry and its service providers in Finland to describe what factors these two groups perceive as the most important barriers to energy efficiency improvement at present. The paper is based on empirical data from two interview studies carried out in industry and its equipment, systems and service providers.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "The paper studies barriers to energy-efficiency improvement through interviews and does not present, propose, evaluate, or critique an identifiable EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The study comprised six case companies representing the pulp and paper, basic metals and petrochemicals industries and a total of 32 personal interviews.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Interview study of barriers and service-provider relationships; no EnPI/EnB measurement model is presented or characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

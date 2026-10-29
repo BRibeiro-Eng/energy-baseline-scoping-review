@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535548",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:07:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this paper, we developed an aggregated dimensionless “Indicator for Energy Benchmarking” (IEB) to enhance the range of models of indicators dedicated to the engineering field.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "In last section, we calculate the indicator for 2 central sterile service departments of 2 university hospitals in Morocco to show its potential and operating mode.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "2 central sterile service departments of 2 university hospitals in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Two independent hospital CSSDs; service-sector application, outside the closed continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "2 central sterile service departments of 2 university hospitals in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Morocco",
+      "evidence_quote": "2 central sterile service departments of 2 university hospitals in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "central sterile service departments",
+      "evidence_quote": "2 central sterile service departments of 2 university hospitals in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "2 central sterile service departments of 2 university hospitals in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "IEB can be implemented as an integral part of many energy management or energy efficiency standards, methodologies or tools such as EN 16231:2012 and ISO 50001:2018.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "composite index"
+      ],
+      "evidence_quote": "The proposed aggregation of processes indicators to system-level indicator is a weighted arithmetic mean WAM. Since energy saving is the ultimate goal behind the use of energy performance indicators; the weight chosen is energy consumption.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536351",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:17:57.156716+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "specific consumption indicators were calculated for each mining complex",
+        "specific energy consumption per ton of moved ROM"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "information was obtained on 91 mining complexes that had a production of more than 1000 tons in at least one of the years within the research period",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "iron ore mining emerges as the most important extractive activity",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "EnPI study: production-weighted specific energy consumption (kWh/t, l/t) for Brazil iron ore mining, 91 complexes, 2011-2020. level_3b=false: mining is extractive, not in the closed continuous-process list. paper_type multi-case vs single sector-level case is borderline; type_of_organisation: mining not cleanly in A9 enum, coded non-continuous. No ISO 50001/50006, M&V, or energy regulation."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the production carried out by companies such as Vale S.A., Anglo American Minério de Ferro Brasil S.A., CSN Mineração, Samarco Mineração, and Mineração Usiminas S.A.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Brazil",
+      "evidence_quote": "distributed across 10 Brazilian states, with 83% of them located in the states of Minas Gerais, Mato Grosso do Sul, and Pará",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "iron ore mining",
+      "evidence_quote": "all iron ore mining in Brazil is conducted through open-pit methods",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Most Brazilian mines carry out their operations using the conventional mining cycle, which involves trucks and loaders",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "specific energy consumption per ton of produced ore in beneficiation for each mining complex",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

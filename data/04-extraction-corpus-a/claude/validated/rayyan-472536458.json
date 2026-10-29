@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536458",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:15:24.443123+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The primary goal of the BEP M&V is to measure the energy savings of the building for evaluating and verifying",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This study presents a review of the three types of papers that address",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "this study focuses on finding a pathway for the building sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Review/synthesis on blockchain-based digital MRV for building-sector carbon-credit participation. Reviews BEP M&V programs (IPMVP, ASHRAE G14, FEMP, ISO 50000) and baseline/savings models, but EnPI/EnB models are background to a blockchain/MRV framework, not clearly central to the synthesis. Genuinely borderline per v2.3 review decision-tree step 2; flagged for human review. level_3b=false: building sector, not continuous process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This study presents a review of the three types of papers that address",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "building sector",
+      "evidence_quote": "the building sector has contributed significantly to the creation of this problem",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "MRV is also pivotal to building energy performance (BEP) measurement",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "ISO 50001 also has no practice about option A",
+        "50,002, 50,003, 50,004, 50,006"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "other-named"
+      ],
+      "evidence_quote": "ASHRAE Guideline 14, IPMVP, FEMP M&V, ISO 50000 series, DOE UMP are representative energy audit programs",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "develop altered baseline models for each building",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,297 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536358",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:39:21.624537+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Regression-based statistical modelling was employed to determine typical EnPI values at both site and process levels",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "built a database of 12 producers and 38 plants",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "analyse the energy performance of industrial gases production in Italy, focusing on the air separation process to produce pure O2 and N2",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "multi_site=false: the study spans 12 independent producers / 38 sites (multi-company sectoral benchmark), not one organisation's multiple sites; schema reserves 'not applicable' for review/synthesis so it is not used. scale_of_application (facility vs sector/organisation) and baseline period (2022 reference year vs 2018 comparison cycle) are judgment calls; B7 true / B8 false rest on future-work statements."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "built a database of 12 producers and 38 plants",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "we applied the methodology to 27 Italian sites that produces atmospheric gases",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "industrial gases production",
+      "evidence_quote": "analyse the energy performance of industrial gases production in Italy",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Cryogenic Air Separation Units (ASUs) are the most common systems to produce atmospheric gases in industry",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": "it was adopted in 2014 in Italy by Legislative Decree n. 102. The Article 8 of the EED introduced the obligation for large companies to submit an energy audit of their production sites every four years",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": "the Real EnPI is calculated as the mean of the speciϐic energy consumption by production unit of the single sites analysed and then is calculated its standard deviation. Secondly, a linear correlation between energy consumption and production is analysed. Linear regression is represented by the equation",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production (in Nm3)"
+      ],
+      "evidence_quote": "a linear correlation between energy consumption and production is analysed",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "baseline_period_start": {
+      "value": "2022",
+      "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "baseline_period_end": {
+      "value": "2022",
+      "evidence_quote": "The year 2022 is the reference year of the energy use and gas production of all sites",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "baseline_construction_method": {
+      "value": "Real EnPI = mean of site-level specific energy consumption (energy per unit of production); a linear regression of energy consumption on production (Energy = a*Production + b) is fitted and accepted as statistically representative when R2>0.5, R>Rcritic (alpha=0.01) and p-value<0.05, giving an EnPI model mean curve with upper/lower bounds from the covariance matrix (2022 reference year; 27 sites, 11 excluded for sample homogeneity).",
+      "evidence_quote": "If the linear correlation complies with: R2>0.5, R > Rcritic = f (n, α=0.01), and p-value<0.05, so it is considered statistically representative",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "If the linear correlation complies with: R2>0.5, R > Rcritic = f (n, α=0.01), and p-value<0.05, so it is considered statistically representative",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "total energy, electricity, and natural gas consumption normalized per unit of output at site level",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scope_description": {
+      "value": "Air separation / atmospheric-gas production (O2, N2, Ar in gaseous and liquid state); the EnPI methodology is applied to 27 Italian atmospheric-gas production sites in the industrial gases sector.",
+      "evidence_quote": "we applied the methodology to 27 Italian sites that produces atmospheric gases",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the model cannot be considered very accurate for small productions",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the model cannot be considered very accurate for small productions",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "additional analysis by production intervals should be carried out",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "Our work analyses 76 energy audits submitted by industrial gas producers in Italy: 38 audits report the energy use of 2018 and 38 audits report the energy use of 2022",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Primary EnPI regression slope a = 8.991·10-5 toe/Nm3",
+        "Electrical EnPI regression slope a = 0.448 kWh/Nm3",
+        "Primary EnPI model intercept term b = 5.043·103 (all sites, Table 1)",
+        "Electrical EnPI model intercept term b = 2.333·107 (all sites, Table 1)"
+      ],
+      "evidence_quote": "the slope of the regression = 8.991·10-5 toe/Nm3 and 0.448 kWh/Nm3",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.736",
+          "unit": null,
+          "period_or_context": "Primary EnPI model, all sites (n=27), 2022 reference year",
+          "evidence_quote": "0.736",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.758",
+          "unit": null,
+          "period_or_context": "Electrical EnPI model, all sites (n=27)",
+          "evidence_quote": "0.758",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.823",
+          "unit": null,
+          "period_or_context": "Primary EnPI model, only-liquid-state sites (n=8)",
+          "evidence_quote": "0.823",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.831",
+          "unit": null,
+          "period_or_context": "Electrical EnPI model, only-liquid-state sites (n=8)",
+          "evidence_quote": "0.831",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "<0.0001",
+          "unit": null,
+          "period_or_context": "All-sites primary and electrical regressions",
+          "evidence_quote": "the p-value < 0.0001",
+          "page": 10,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "The coefficient of determination is close to 0.75 for both cases, and the p-value < 0.0001",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  }
+}

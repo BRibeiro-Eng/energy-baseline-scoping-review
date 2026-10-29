@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536102",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:27:16Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The base consumption index is constructed from the linear equation of the correlation of the data of processed sugarcane quantity [tons] and energy consumption [kWh]",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The contribution of this work lies in that it presents the application of energy management tools to implement the energy planning stage in Ingenio del Cauca S.A.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "sugar factory",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Applied sugar-mill case; sugar production is not in the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This mill, where this procedure was implemented, participated in the Industrial Evaluation Program (PEVI) and is located north of the department of Cauca, Colombia.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "north of the department of Cauca, Colombia",
+      "evidence_quote": "located north of the department of Cauca, Colombia",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "sugar factory",
+      "evidence_quote": "Estimation of the potential for electrical energy savings in a sugar factory",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the process of obtaining sugar and its derivatives",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "it evaluates the potential energy savings following the methodology of the ISO 50001:2018 standard",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "The base consumption index is constructed from the linear equation of the correlation of the data of processed sugarcane quantity [tons] and energy consumption [kWh]",
+        "This consumption index is obtained by dividing the energy baseline by the production P",
+        "This value is determined with the cumulative sum of the theoretical consumption index (TCI) variation to the production variation"
+      ],
+      "page": [
+        9,
+        9,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,49 @@
+"""Prove the enum snap fires on the cases it was built for, and stays silent otherwise."""
+import json, os, sys
+R = "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction"
+os.chdir(R); sys.path.insert(0, R + "/output")
+from stage_c_validate import snap_enums
+
+def env(v, **kw):
+    d = {"value": v, "evidence_quote": "q", "page": 1, "support_class": "direct statement"}
+    d.update(kw); return d
+
+def rec(quantity, vector):
+    return {"record_type": "stage_c_extraction", "paper_key": "rayyan-1",
+        "schema_version": "2.3.0-C", "prompt_tag": "t", "surface": "claude", "completed_at": "x",
+        "applications": [{"application_id": "A1",
+            "scale_of_application": env("facility"), "scope_description": env("s"),
+            "models": [{"model_id": "M1", "label_verbatim": "L",
+                "C1_dependent_variable": {"quantity": env(quantity),
+                    "energy_vector": env([vector]), "denominator": env("production mass")},
+                "C2_model_form": {"model_family": env(["linear regression"]),
+                    "estimation_method": env("OLS"), "variable_selection": env("stepwise")},
+                "C3_variables": [], "C4_data": {"acquisition_frequency": env("daily"),
+                    "modelling_frequency": env("monthly")},
+                "C5_measurement": [], "C6_re_estimation": {"regime": env("not stated"),
+                    "update_status": env("not reported", absence_basis="searched full text")},
+                "C7_validity_envelope": {"statement": env("not stated")},
+                "C8_metrics": {"in_sample_fit": {"status": env("reported"), "metrics": []},
+                    "out_of_sample_validation": {"status": env("not reported",
+                        absence_basis="searched full text"), "metrics": []},
+                    "energy_result": {"status": env("not reported",
+                        absence_basis="searched full text"), "metrics": []}}}]}],
+        "mechanisms": [], "adaptations": [], "study_limitations": [],
+        "implementation_barriers": [],
+        "C13_reproducibility": {k: env("not reported", absence_basis="searched full text")
+            for k in ("equations_given", "coefficients_given", "data_available", "code_available")}}
+
+cases = [
+    ("supplied shorter than legal", "demand", "electricity", "power or demand"),
+    ("legal shorter than supplied", "absolute energy consumption", "electricity", "absolute energy"),
+    ("already legal — must not fire", "absolute energy", "electricity", None),
+    ("ambiguous — must not fire", "yes", "electricity", None),
+]
+fail = 0
+for name, q, v, expect in cases:
+    _, snaps = snap_enums(rec(q, v))
+    got = [s["to"] for s in snaps]
+    ok = (expect in got) if expect else (len(snaps) == 0)
+    print(("PASS " if ok else "FAIL ") + name + f"  snaps={json.dumps(snaps, ensure_ascii=False)}")
+    fail += not ok
+sys.exit(1 if fail else 0)

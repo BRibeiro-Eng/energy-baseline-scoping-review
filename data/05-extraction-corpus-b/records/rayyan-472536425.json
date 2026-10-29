@@ -1,0 +1,608 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536425",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 13,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "one of largest oil companies in Middle East (SC)",
+        "evidence_quote": "one of largest oil companies in Middle East, namely SC has successfully implemented the EnMS.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Middle East",
+        "evidence_quote": "In a case study [15], one of largest oil companies in Middle East, namely SC has successfully implemented the EnMS.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "In 2012, over 50 of SC applicable organizations were requested to embrace each element of the established EnMS guidelines.",
+        "page": 10,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "SC, a large multi-disciplinary oil and gas corporation implementing an EnMS with a lagging EnPI across more than 50 organizations",
+        "evidence_quote": "SC is a huge corporation involves six main disciplines.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+        "page": 10,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "corporate lagging EnPI (Energy Intensity)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In tracking the overall organization energy performance, lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "GJ over the final product in metric ton",
+              "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "corporate EnPI is defined as the ratio between energy consumption and total production in ton (Mbtu/ton).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total production in ton",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the ratio between energy consumption and total production in ton (Mbtu/ton).",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "real-time",
+                "frequency",
+                "monthly",
+                "daily",
+                "annual"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "annual",
+                "interval"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The online corporate EnPI tracks and monitors against the targets in real-time.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Oil companies utilize the solution to analyze the energy consumption of concerned operating facilities.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "recalibrate",
+                "update baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "envelope",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": "Due to confidentially, these tracking trends will not be revealed.",
+                "page": 11,
+                "support_class": "absence checked",
+                "absence_basis": "explicitly stated absent"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+        "page": 10,
+        "support_class": "requires inference"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "Downstream facility of Purified Terephthalic Acid (PTA)",
+        "evidence_quote": "As an example, EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3.",
+        "page": 11,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "country",
+          "location",
+          "Middle East",
+          "Malaysia"
+        ]
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "EnPI for one PTA manufacturing facility [31]",
+        "page": 12,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A single Purified Terephthalic Acid (PTA) manufacturing facility used as a worked example of the lagging EnPI",
+        "evidence_quote": "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3.",
+        "page": 11,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3.",
+        "page": 11,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M2",
+          "label_verbatim": "EnPI for one PTA manufacturing facility",
+          "model_parameters_reported": [
+            "Target : 8.5 GJ/ton"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "GJ/ton",
+              "evidence_quote": "Target : 8.5 GJ/ton",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "final product in metric ton",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "annual",
+                "frequency"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "annual",
+                "period"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Due to confidentially, these tracking trends will not be revealed.",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Target : 8.5 GJ/ton",
+                "page": 12,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI target",
+                  "value": "8.5",
+                  "unit": "GJ/ton",
+                  "period_or_context": "target line shown on the PTA facility EnPI chart; actual tracking trends not disclosed",
+                  "evidence_quote": "Target : 8.5 GJ/ton",
+                  "page": 12,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3.",
+        "page": 11,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [],
+  "adaptations": [],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "Due to confidentially, these tracking trends will not be revealed.",
+      "page": 11,
+      "searched_terms": [
+        "confidential",
+        "data",
+        "not revealed",
+        "access"
+      ]
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Lack of technical knowhow: companies not informed how to effectively conserve energy",
+      "evidence_quote": "Concerned oil companies are not informed of how to effectively conserve energy.",
+      "page": 3
+    },
+    {
+      "barrier": "Energy subsidies provide little financial incentive to adopt efficiency measures",
+      "evidence_quote": "Arab Leagues indicated that current energy subsidy in the GCC provides little incentive to adopt energy efficiency and conservation measures.",
+      "page": 3
+    },
+    {
+      "barrier": "Energy efficiency is a low corporate priority",
+      "evidence_quote": "Energy efficiency has not been in the top focus of concerned oil companies.",
+      "page": 3
+    },
+    {
+      "barrier": "Geographically scattered facilities make efficiency programmes hard to manage",
+      "evidence_quote": "Most oil companies owned organizations/facilities are scattered across large areas, making it difficult to fully manage energy efficiency and conservation programs.",
+      "page": 3
+    },
+    {
+      "barrier": "Lack of top management support and limited resources during implementation",
+      "evidence_quote": "These delays can be compounded by a lack of support from top management, limited resources, and geo-political structure.",
+      "page": 10
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "corporate EnPI is defined as the ratio between energy consumption and total production in ton (Mbtu/ton).",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "The allocation for PDCA in this case study was an equal weight of 25%.",
+      "page": 12,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": "Due to confidentially, these tracking trends will not be revealed.",
+      "page": 11,
+      "support_class": "absence checked",
+      "absence_basis": "explicitly stated absent"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "script",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "This is primarily an EnMS deployment/management paper, not an energy-performance-modelling paper. The only energy performance models are intensity-ratio EnPIs: a lagging EnPI defined corporate-wide as energy/production (Mbtu/ton on p.5; GJ per metric ton for the SC case on p.11), captured as M1 (A1, SC company) and M2 (A2, PTA facility, target 8.5 GJ/ton, Fig.3). The paper also describes a 'leading EnPI' — a composite PDCA self-assessment maturity index (equal 25% weights per PDCA stage; company-wide implementation reached 89%, p.12). It was NOT enveloped as a model because it measures EnMS implementation progress rather than energy performance; the reviewer should decide if it should be treated as a composite-index model. Actual EnPI tracking trends were withheld for confidentiality (p.11). The PTA facility in Fig.3 is cited to ref [31], a study of BP Chemicals (M) Sdn Bhd in Malaysia, so A2's country/region is ambiguous and recorded as not reported.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "baseline drift",
+        "non-stationary",
+        "assumption",
+        "limitation of the model",
+        "product mix",
+        "allocation",
+        "not meaningful"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "segmented",
+        "rolling window",
+        "re-estimation",
+        "normalisation",
+        "weighted",
+        "metering"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "confidential",
+        "scope",
+        "future work",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "challenge",
+        "impediment",
+        "commitment",
+        "incentive",
+        "priority"
+      ]
+    }
+  },
+  "attempt": 2
+}

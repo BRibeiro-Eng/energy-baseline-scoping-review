@@ -1,0 +1,107 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535679",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:11:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "power intensity of the production, specific consumption of separate kinds of energy resources against the volume of output",
+        "the standard approach to the formation of the key indicators for the estimation of energy efficiency"
+      ],
+      "page": [1, 1],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "In the current research we offer the mechanism of formation of connection between the activity planning in energy management system and the strategic development of an enterprise",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: QFD/House-of-Quality strategic-management method; EnPI content limited to a critique of standard intensity/SEC indicators plus an indicator-formation proposal (no model constructed). Sole illustration 'chemical enterprises of Kazan' (KazanOrgSyntez); continuous-process/Corpus-B status not explicit - flag for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "country_region": {
+      "value": "Kazan, Russia",
+      "evidence_quote": [
+        "chemical enterprises of Kazan",
+        "leading regions of Russia"
+      ],
+      "page": [1, 1],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "chemical enterprises",
+      "evidence_quote": "chemical enterprises of Kazan",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "ISO 50001:2011",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio", "SEC mean"],
+      "evidence_quote": "power intensity of the production, specific consumption of separate kinds of energy resources against the volume of output",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": ["multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"],
+      "evidence_quote": "Relational matrix composes the central part of House of Quality diagram in box 4, which determines the degree of influence of goals",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  },
+  "stage3": null
+}

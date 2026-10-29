@@ -1,0 +1,22 @@
+{
+  "key": "rayyan-472535700",
+  "listed_sector_signals": [
+    {
+      "signal": "Cement and metal named in passing as example industrial sectors where manufacturing-plant optimization requires monitoring (cement = cement/clinker; metal = primary metals)",
+      "quote": "Whatever the industrial sector considered (food, cement, metal ...), the opti-\nmization of a manufacturing plant is a complex process that requires moni-\ntoring.",
+      "page": 6,
+      "sector": "cement, lime, clinker / steel and other primary-metals"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Chemical processes cited as a field where soft/software sensors are commonly used (reference only, not this paper's application; could include continuous chemical production)",
+      "quote": "This\nconcept is used in various ﬁelds and especially in chemical processes [5, 7, 19],\nor biological processes [3, 6, 15, 22].",
+      "page": 4,
+      "sector": "chemical processes (unspecified batch/continuous)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper designs, validates, and implements a low-cost soft sensor to estimate the gas flow consumed by a 750 kW utility gas boiler at an EDF R&D site, for energy-consumption monitoring in the general manufacturing sector; it does not apply to any continuous-flow Corpus B production process."
+}

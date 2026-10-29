@@ -1,0 +1,37 @@
+{
+  "key": "rayyan-472535797",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-13T15:55:44",
+  "finished_at": "2026-09-13T15:55:46",
+  "returncode": 1,
+  "input_sha256": "e1e7014679bf22b2cc2ae97e504c0e64ef5da0c302c5cf2406a696dce5cb5ac6",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472535797.attempt-5.raw.json",
+  "attempt": 5,
+  "session_id": "e418cc18-e1c8-417f-a2e5-4adcf96a1e20",
+  "models_returned": [],
+  "usage": {
+    "input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "output_tokens": 0,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "",
+    "iterations": [],
+    "speed": "standard"
+  },
+  "total_cost_usd": 0,
+  "duration_ms": 1164,
+  "is_error": true,
+  "status": "error",
+  "error": "You've hit your weekly limit · resets 10am (Europe/Lisbon)"
+}

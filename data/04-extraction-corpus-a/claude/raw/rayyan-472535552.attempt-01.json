@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535552",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:41:15.087047+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a novel method for assessing the quality of energy management in the form of an energy management system sustainability index (EnMS SI) framework",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Paper develops a qualitative EnMS sustainability-assessment index/framework (AHP indicator weighting + weighted arithmetic mean over 30 management-practice indicators scored 1-3), validated across 31 ISO 50001-certified companies. It is an assessment tool/framework, not an EnPI/EnB measurement model; EnPI/EnB appear only incidentally (one of 30 indicators; ISO 50006 citation).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The EnMS SI framework is a tool for assessing energy management sustainability",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EnMS SI is an AHP+WAM qualitative decision-support/composite index of EnMS 'sustainability', not an EnPI/EnB energy-performance model; typed as maturity model or framework (qualitative assessment tool)."
+  },
+  "stage2": null,
+  "stage3": null
+}

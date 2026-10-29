@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536345",
+  "listed_sector_signals": [
+    {
+      "signal": "Stray reference to energy management 'in the paper manufacturing process' tied to ISO 50001 (appears to be a copy-paste artifact but names pulp & paper explicitly)",
+      "quote": "Energy management in the paper manufacturing process is based on the Cuban standard ISO 50001: 2019 and a methodology \nfor energy use [9].",
+      "page": 2,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Sugar cane mill with continuous crushing/steam generation as the actual study object",
+      "quote": "The sugar mill has a crushing capacity of 2,700 t/d. The \nsteam supply consists of a water tube boiler with a superheated \nsteam generation capacity of 60 t/h at 1.34 MPa and 318   oC, which \nconsumes bagasse.",
+      "page": 2,
+      "sector": "sugar milling / food processing"
+    },
+    {
+      "signal": "Cogeneration unit of the sugar mill for surplus electricity production",
+      "quote": "Retrofitting a sugar mill's cogeneration unit for the purpose \nof surplus electricity production may not always be feasible due to, \namong other things, the seasonality of sugar cane production",
+      "page": 2,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Adjacent alcohol/ethanol distillery consuming molasses, juices and steam",
+      "quote": "An \nalcohol distillery near the sugar mill consumes the molasses, juices \nand steam from the first-effect evaporator.",
+      "page": 2,
+      "sector": "ethanol distillation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies energy analysis and pinch/heat-integration methods (Aspen Energy Analyzer) to a real sugar cane mill to identify energy and water savings and design a heat exchanger network; sugar milling is not a listed Corpus B sector, and the only listed-sector mention (pulp & paper) is a stray phrase."
+}

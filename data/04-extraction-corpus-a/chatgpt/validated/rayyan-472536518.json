@@ -1,0 +1,254 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536518",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:30:24Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "KPIs are a useful resource to evaluate the technical and economic quality of the projects",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "data regarding almost 3,000 projects put in place in different EU countries",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Manufacture of coke and refined petroleum products – NACE C19;",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "notes": "Cross-sector database includes continuous and discrete manufacturing; Level 3B is true because it empirically analyses closed-list continuous sectors."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "implemented by different companies.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Austria, Italy, Poland and UK",
+      "evidence_quote": "four countries (Austria, Italy, Poland and UK)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry sectors",
+      "evidence_quote": "manufacturing industry sectors",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": [
+        "Manufacture of food products – manufacture of beverages – NACE C10-C11;",
+        "Manufacture of coke and refined petroleum products – NACE C19;"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "White Certificate mechanism was introduced",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The methodology is structured in three steps:",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "implemented by different companies.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.58
+    },
+    "scope_description": {
+      "value": "almost 3,000 industrial energy-efficiency projects implemented by different companies",
+      "evidence_quote": "GPs extracted from almost 3,000 projects available in the database",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "KPIs calculation cannot be the only way to extract GPs from the database:",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "challenge of the process has been the harmonization of the data sets",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The methodology is structured in three steps:",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "Manufacture of coke and refined petroleum products – NACE C19;",
+        "implemented by different companies."
+      ],
+      "page": [
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  }
+}

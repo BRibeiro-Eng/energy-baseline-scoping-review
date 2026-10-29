@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535517",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:43:11+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "one of the key performance indicators is specific energy consumption. It is essential to differentiate specific heat consumption and electricity consumption. Moreover, when applicable, climate corrected annual heat energy consumption should be used.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study was used to research these questions.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this research paper, only EnMS in public buildings were studied.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline eligibility: organisational EnMS case study; EnPI = specific energy consumption (kWh/m2), climate-corrected. Municipal public buildings, not continuous-process; 3B=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "the city of Daugavpils has more than 120 buildings in their EnMS",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Daugavpils, Latvia",
+      "evidence_quote": "The city of Daugavpils is the second largest city in Latvia",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "municipality",
+      "evidence_quote": "such an organisation as a municipality",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "In this research paper, only EnMS in public buildings were studied.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 Energy management system (EnMS) was launched in 2011",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": "The Law was based on the EU Energy Efficiency Directive [39] and introduced a new mandatory norm for the nine largest cities in Latvia (including the city of Daugavpils) to implement and certify EnMS.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "one of the key performance indicators is specific energy consumption",
+        "average specific heat consumption 185 kWh/m2 a year"
+      ],
+      "page": [
+        10,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

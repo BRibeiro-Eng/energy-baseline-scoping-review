@@ -1,0 +1,596 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535680",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "energy-baseline-chemical-industry",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 11,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "ethylene plant / petrochemical enterprise",
+        "evidence_quote": "the cracked gas compression units of the ethy-\nlene plant in some petrochemical companies are regarded\nas the energy management object",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "China",
+          "country",
+          "petrochemical enterprise",
+          "location"
+        ]
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "this method is used on cracked gas compressor unit of ethylene plant in some petrochemical enterprise",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Cracked gas compression unit of an ethylene plant, comprising five stage compressors (K-13001 to K-13005), an alkali washing tower and a high pressure depropanizer tower",
+        "evidence_quote": "The\nmain equipment of cracked gas compressor unit includes five\nstage compressors whose numbers are K-13001, K-13002, K-\n13003, K-13004, and K-13005; alkali washing tower whose\nnumber is C-1340; and high pressure depropanizer tower\nwhose number is C-1365.",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "this method is used on cracked gas compressor unit of ethylene plant in some petrochemical enterprise; it can be proven that this\nmethod is correct and practical.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the energy baseline model is defined as a linear model",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "date",
+              "before implementation"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "date"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Linear model fitted by least-squares normal equations on data before implementation of the energy plan",
+            "evidence_quote": "the energy baseline\nmodel is established firstly according to the data before the\nimplementation of the energy plan",
+            "page": 7,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "θ̂ = (0.5244 0.0003 0.0310 −0.0222 0.0045 −0.2359 0.0016 −0.0218 −0.0191 0.1481 −0.0001 0.0289 −0.7438 0.1478 −0.1323 0.0545)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Energy input for cracked gas\ncompressor unit is ultrahigh pressure steam; product output\nfor cracked gas compressor unit is compressed cracked gas,\nso EnPI is defined as\nEnPI =\nturbine inlet flow\nK-13005 outlet flow.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "Energy input for cracked gas\ncompressor unit is ultrahigh pressure steam",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "product output\nfor cracked gas compressor unit is compressed cracked gas",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "dimensionless ratio (T/H over T/H)",
+              "evidence_quote": "EnPI (𝑋17/𝑋16)\n𝑌\n—",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "it presents linear\nrelationship between EnPI and impact factors, so the energy\nbaseline model is defined as a linear model as follows:",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "̂𝜃= (𝐴𝑇𝐴)\n−1 𝐴𝑇𝑏.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "stepwise",
+                "selection",
+                "significance",
+                "impact factors selected"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 15,
+              "evidence_quote": "And the impact factors are 𝑋1 to 𝑋15 shown in Table 2.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "MATLAB",
+                "code",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "The compressor speed",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "The compressor speed",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13001 inlet pressure",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13001 inlet pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13001 outlet temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13001 outlet temperature",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13004 outlet pressure (X4)",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13004 outlet pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13004 outlet pressure (X5)",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13004 outlet pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13004 outlet flow",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "K-13004 outlet flow",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13005 outlet temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13005 outlet temperature",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-13005 outlet pressure",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-13005 outlet pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Turbine inlet pressure",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Turbine inlet pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Turbine inlet temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Turbine inlet temperature",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "C-1365 tower top temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "C-1365 tower top temperature",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "C-1365 tower top pressure",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "C-1365 tower top pressure",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-1300 three return one",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-1300 three return one",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-1300 four return four",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-1300 four return four",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "K-1300 five return five",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "K-1300 five return five",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "sub-hourly",
+              "evidence_quote": "Data (per minute)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "sub-hourly",
+              "evidence_quote": "Data (per minute)",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "span"
+              ]
+            },
+            "n_observations": {
+              "value": 120,
+              "evidence_quote": "𝑦= (𝑦1, 𝑦2, . . . , 𝑦120)𝑇",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Data (per minute)",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Energy input for cracked gas\ncompressor unit is ultrahigh pressure steam",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "the energy baseline model is no\nlonger suitable for estimating the current state of\nEnPI; the model needs to be rebuilt according to the\ncurrent data.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the energy baseline needs to be readjusted based on the\nenergy data after the Do phase",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "If 𝑒𝑚< (𝑒𝐵𝑚−3𝜎𝐷𝑚), the energy baseline model is no longer suitable for estimating the current state of EnPI; the model needs to be rebuilt according to the current data.",
+              "evidence_quote": "If 𝑒𝑚< (𝑒𝐵\n𝑚−3𝜎𝐷\n𝑚), the energy baseline model is no\nlonger suitable for estimating the current state of\nEnPI; the model needs to be rebuilt according to the\ncurrent data.",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "Since the cracked gas compres-\nsion unit is working near the set point, it presents linear\nrelationship between EnPI and impact factors",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "working near the set point",
+              "evidence_quote": "Since the cracked gas compres-\nsion unit is working near the set point, it presents linear\nrelationship between EnPI and impact factors",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "𝑅2 is 0.904, which is close to 1",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "adjusted R2 (adjusted decision coefficient)",
+                  "value": 0.904,
+                  "unit": null,
+                  "period_or_context": "linear energy baseline model fit for the cracked gas compressor unit",
+                  "evidence_quote": "𝑅2 is 0.904, which is close to 1",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test data"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "EnPI reduced amplitude ratio = (−𝑒\n̂𝑦\n) ⋅100\n= 8.86%.",
+                "page": 9,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI reduced amplitude ratio (energy saving of per unit output)",
+                  "value": "8.86%",
+                  "unit": "%",
+                  "period_or_context": "two hours after implementation of APC on cracked gas compression unit",
+                  "evidence_quote": "EnPI reduced amplitude ratio = (−𝑒\n̂𝑦\n) ⋅100\n= 8.86%.",
+                  "page": 9,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "target energy saving per unit output",
+                  "value": "5%",
+                  "unit": "%",
+                  "period_or_context": "specific indicator set for the project",
+                  "evidence_quote": "the specific indicators are to reduce\nenergy consumption of per unit output more than 5%.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text"
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "the cracked gas compression units of the ethy-\nlene plant in some petrochemical companies are regarded\nas the energy management object",
+        "page": 8,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "the energy baseline model is no\nlonger suitable for estimating the current state of\nEnPI; the model needs to be rebuilt according to the\ncurrent data.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Since the cracked gas compres-\nsion unit is working near the set point, it presents linear\nrelationship between EnPI and impact factors",
+      "page": 8,
+      "support_class": "requires inference",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "validity envelope exceeded"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "if the adjusted decision coefficient is\ngreater than the threshold, it is considered that the model\nfitting is good; otherwise it is considered that the model fitting\nis poor; the model structure or impact factors need to be\nreselected.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "online re-estimation",
+      "status": "proposed",
+      "addresses_mechanism": "K1",
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "the model needs to be rebuilt according to the\ncurrent data.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "B-spline approximation model where each EnPI is expressed as a sum of nonlinear functions of each impact factor, each approximated by a T-order B-spline function, for strongly nonlinear processes",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "Therefore, general function forms are\nproposed to approximate various nonlinear relationships.\nThe EnPIs are the sum of nonlinear relationships of each\nimpact factor, as shown in the following:",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "𝑌= 𝜃0 +\n15\n∑\n𝑖=1\n𝜃𝑖𝑋𝑖,",
+      "page": 8,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "̂𝜃\n= (0.5244 0.0003 0.0310 −0.0222 0.0045 −0.2359 0.0016 −0.0218 −0.0191 0.1481 −0.0001 0.0289 −0.7438 0.1478 −0.1323 0.0545)",
+      "page": 8,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "partial",
+      "evidence_quote": "Variables defined in detail\nand parts of the measured data are shown in Table 2.",
+      "page": 8,
+      "support_class": "direct statement"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "software availability"
+      ]
+    }
+  },
+  "reviewer_notes": "Single empirical application: linear energy baseline model fitted to per-minute data of a cracked gas compressor unit of an ethylene plant. The B-spline and general model forms are methodological proposals not empirically applied to the case; recorded as an adaptation (D2). EnPI is a flow ratio (turbine inlet steam flow over K-13005 product flow) interpreted as specific energy consumption. The post-APC comparison serves to quantify energy savings, not to validate model accuracy out-of-sample.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "assumption",
+        "rebuild",
+        "no longer suitable",
+        "nonlinear",
+        "drift"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "rebuild",
+        "readjust",
+        "B-spline",
+        "re-estimation",
+        "nonlinear model"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "sample",
+        "data access",
+        "restrict"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "cost",
+        "maintenance",
+        "staff"
+      ]
+    }
+  },
+  "attempt": 1
+}

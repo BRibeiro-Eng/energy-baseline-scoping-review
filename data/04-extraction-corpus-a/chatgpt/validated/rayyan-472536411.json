@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536411",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:22:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Parameters of power and energy, total and individual harmonic distortion, direct normal irradiance, and ambient temperature were used as study variables to characterize and correlate both with the performance of distributed generation and with energy efficiency actions in air conditioning.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "customer units in two different parts of the country were used as a living laboratory, one in the semi-arid region of the Brazilian Northeast and the other in the Center region West with tropical climate",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The customer units studied are educational institutions located in Brasília in the Federal District and in the municipality of Ipanguaçu in the state of Rio Grande do Norte.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Two educational-building cases; no continuous-process-industry application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": [
+        "The customer unit in Brasília is a private higher education institution",
+        "In Ipanguaçu, the studies were carried out at a Federal Institute of Education, Science and Technology"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Brasília in the Federal District and in the municipality of Ipanguaçu in the state of Rio Grande do Norte",
+      "evidence_quote": "The customer units studied are educational institutions located in Brasília in the Federal District and in the municipality of Ipanguaçu in the state of Rio Grande do Norte.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "educational institutions",
+      "evidence_quote": "The customer units studied are educational institutions located in Brasília in the Federal District and in the municipality of Ipanguaçu in the state of Rio Grande do Norte.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "a classroom building with an installed load of 60 kW and a photovoltaic solar plant of 40 kWp were used.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50.006:2014. Energy management systems — Measuring energy performance using energy baselines (EnB) and energy performance indicators (EnPI) — General principles and guidance.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Correlation analysis between variables, by determining the Pearson correlation coefficient;",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

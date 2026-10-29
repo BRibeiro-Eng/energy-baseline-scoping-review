@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535479",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:47:33Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper will be reviewed the state of the art of implementation of this standard, benefits, and challenges based on literature studies",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Descriptive-analytic literature review of ISO 50001 implementation, benefits and challenges. Energy performance indicators/baselines are mentioned only incidentally (ISO 50001:2018 concept refinements) and the case-study 'energy performance improvement' percentages are reported as CEM-award outcomes; no EnPI/EnB measurement model is identified or characterised (no normalisation variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "The method used in this review is descriptive-analytic based on literature studies from several scientific journals",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Award-profile energy performance improvement percentages (e.g. 3.76%) are reported as outcomes, not characterised EnPI/EnB models; petrochemical/ammonia/steel firms appear only as case examples."
+  },
+  "stage2": null,
+  "stage3": null
+}

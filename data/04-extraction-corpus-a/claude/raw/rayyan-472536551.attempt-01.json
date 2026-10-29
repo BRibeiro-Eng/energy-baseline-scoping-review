@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536551",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:45:59Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "such tool does not directly measure an actual and reflect an as-is operational data of the companies' energy performance, it tracks the achievements in the key work processes or the implementation status of an Energy Management Systems (EnMS)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Proposes a 'leading EnPI' maturity/self-assessment framework (weighted PDCA scorecard with a 0-4 EnMS implementation-maturity matrix) that tracks EnMS implementation status; the paper states the tool does not measure actual energy performance, so it lacks EnPI/EnB energy-measurement-model content (no energy indicator's variables, functional form, or estimation approach constructed).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "EnMS progress measures are based on the second out of five levels of leading energy performance indicator matrix",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline Tier-1: 'leading EnPI' is EnPI-named but a PDCA implementation-maturity scorecard, not an energy-measurement model. Case=integrated oil&gas co (upstream+refinery+transport); level_3b false."
+  },
+  "stage2": null,
+  "stage3": null
+}

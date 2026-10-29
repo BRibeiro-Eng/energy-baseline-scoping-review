@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536502",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:59:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The regression analysis obtained is of R2 = 0.2657, as shown in figure 2, meaning that 26.6% of energy consumption was influenced by the production or distribution of fuels.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This research was conducted at the Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group as one of the busiest TBBMs and a high level of complexity among existing fuel terminals in Sumatra.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Production or distribution of fuel production consists of premium, pertamax, diesel oil, and pertalite.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Case is a PERTAMINA fuels terminal (TBBM): petroleum storage/distribution/logistics (gantry truck-loading, pumping, tank farm), not a continuous-process manufacturing sector; level_3b=false (outside closed Level-3B list). Borderline for human adjudication (oil-sector, 24/7). A9 type_of_organisation coded 'continuous process' as closest industrial bucket - enum lacks a distribution/logistics option; flag for review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This research was conducted at the Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group as one of the busiest TBBMs and a high level of complexity among existing fuel terminals in Sumatra.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Medan, North Sumatera, Indonesia",
+      "evidence_quote": "This research was conducted at the Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group as one of the busiest TBBMs and a high level of complexity among existing fuel terminals in Sumatra.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "fuels terminal",
+      "evidence_quote": "energy management patterns in the fuels terminal found in the literature",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The total production and distribution of each product reach 226 thousand kiloliters (KL) per month on average",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The regression analysis obtained is of R2 = 0.2657",
+        "the average EEC is around 0.0023 GJ/KL during 2018",
+        "ECI on building offices is obtained at 12.6 kWh / m2 / month"
+      ],
+      "page": [
+        5,
+        4,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

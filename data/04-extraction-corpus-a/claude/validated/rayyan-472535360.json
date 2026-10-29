@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535360",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:30:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The frequencies for each cross-sectional technology are compared, and it is looked into whether enterprises with an EnMS have greater potential than ones with an EMS.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Compares firms with an EnMS (ISO 50001) vs an EMS (ISO 14001) on the implementation rates of 11 cross-cutting technologies using chi-square hypothesis tests on adoption frequencies. It does not present, propose, evaluate, or critique an EnPI/EnB measurement model: the 'energy efficiency potential' (EEP) is a technology-adoption frequency, not an energy performance indicator normalised to a relevant variable, and no baseline, normalisation variable, or functional form is defined.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "A comparison of the potential of firms with an EnMS in accordance with ISO 50001 and firms with an EMS in accordance with ISO 14001 was carried out on the basis of 11 cross-sectional technologies.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EEP is the share of firms implementing each cross-cutting technology (adoption frequency), not an EnPI/EnB model; no normalisation variable, functional form, or baseline. Method: chi-square tests."
+  },
+  "stage2": null,
+  "stage3": null
+}

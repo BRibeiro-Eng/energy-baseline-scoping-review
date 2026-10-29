@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536674",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:28:54.987519+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the calibration of a building energy model based on short-term measurements of indoors and outdoors temperature, heat consumption and total solar radiation",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "results on simulation data obtained with a numerical model of an office building",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a real three-storey office building situated at Angers, France",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Building thermal model; office building case. 'continuous' appears only in the mathematical sense (continuous-time/continuous framework), never continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Two offices of the building (namely, offices A and B) were selected to be monitored.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Nantes and Angers, France",
+      "evidence_quote": "two pilot experimental office buildings in Nantes and Angers, France",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "office buildings",
+      "evidence_quote": "two pilot experimental office buildings in Nantes and Angers, France",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "a real three-storey office building situated at Angers, France",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "The model equations are the standard partial differential equations for heat diffusion.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

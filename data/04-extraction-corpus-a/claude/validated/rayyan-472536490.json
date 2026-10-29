@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536490",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:45:07Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "it is chosen to use specific energy consumption expressed as total energy consumption per tonne of flour (SEC 1) and per tonne of product (SEC 2)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Analysed facility is classified as medium size bakery, with annual production of baking goods of approximately 4500 t/a",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "detail energy audit in food processing factory is performed. This type of facility is chosen for analysis since the food and beverage sectors have highest turnover in industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Case is a medium-size bakery (food processing) in B&H; EnPI is SEC per tonne of flour/product under EN ISO 50006. Bakery/food is not in the closed continuous-process list -> level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Analysed facility is classified as medium size bakery",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Bosnia and Herzegovina",
+      "evidence_quote": "energy efficiency in Bosnia and Herzegovina (B&H)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "bakery",
+      "evidence_quote": "Analysed facility is classified as medium size bakery",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Production comprises of two sectors: production of bread and rolls and production of semi-finished and finished products",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "In line with standard EN ISO 50006",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "it is chosen to use specific energy consumption expressed as total energy consumption per tonne of flour (SEC 1) and per tonne of product (SEC 2)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535632",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:46:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper gives an insight into how energy management is implemented in Serbian manufacturing",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Questionnaire-based maturity/implementation assessment of ISO 50001 energy management practices across 52 organisations, scored by PDCA cycle. The paper does not present, propose, evaluate, or critique an EnPI/EnB measurement model: energy indicators and energy baseline appear only incidentally as survey categories, with no model variables, functional form, or construction/estimation approach characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The results were used to calculate the energy management implementation level.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Cross-sectional questionnaire survey of 52 Serbian manufacturers (food, non-metallic minerals) scoring ISO 50001 EnMS implementation level via PDCA. Assessment-tool/maturity framing; no EnPI/EnB measurement model characterised. paper_type could alternatively read as 'other' (empirical survey)."
+  },
+  "stage2": null,
+  "stage3": null
+}

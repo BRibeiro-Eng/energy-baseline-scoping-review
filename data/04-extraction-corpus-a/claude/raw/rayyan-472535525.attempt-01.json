@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535525",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T17:01:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The object of research is the relationship between 4 different standards but has the same space, namely environmental standards and sustainability",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Conceptual comparison of the principles of ISO 14001, ISO 50001, Green Building and ZEB standards aimed at integrating them; EnPIs and SEUs are mentioned only incidentally as ISO 50001 clauses/parameters, with no EnPI/EnB measurement model identified or characterised (no variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This research uses descriptive exploratory analysis method",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Mentions Significant Energy Users (SEUs) and Energy Performance Indicators (EnPIs) only as ISO 50001 parameters; no measurement model is presented or characterised, so ineligible under the v2.3 threshold."
+  },
+  "stage2": null,
+  "stage3": null
+}

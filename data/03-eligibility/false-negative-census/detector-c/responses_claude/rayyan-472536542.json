@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472536542",
+  "listed_sector_signals": [
+    {
+      "signal": "Literature-review reference to an energy management system developed for a naphtha reforming plant (petroleum refining), cited as prior SS/EM application",
+      "quote": "Development of an energy manage-\nment system for a naphtha reforming plant: A data mining\napproach.",
+      "page": 17,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Literature-review reference to a data-driven soft sensor applied to a refining process",
+      "quote": "Data-driven soft sensor\napproach for quality prediction in a refining process.",
+      "page": 17,
+      "sector": "petroleum refining"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Formation section runs continuously 24/7, though the underlying process is a batch of batteries (discrete manufacturing)",
+      "quote": "The formation\nsection operates 24 h 7 days a week, with short\nstops for cleaning and maintenance.",
+      "page": 6,
+      "sector": "24/7 discrete battery manufacturing (not continuous-flow)"
+    },
+    {
+      "signal": "Grids described as made by continuous processes (stamping/extruding), but within discrete battery grid manufacturing",
+      "quote": "produced either by lead casting in books\nmolds or by continuous processes like stamping or\nextruding",
+      "page": 2,
+      "sector": "metals forming (discrete, not primary-metals continuous)"
+    },
+    {
+      "signal": "Literature-review mentions of soft sensors applied to industrial boilers and a CHP plant",
+      "quote": "Hadid et al. (2014) developed an SS to\nassess the fuel consumption in a 750-kW industrial\nboiler.",
+      "page": 5,
+      "sector": "cogeneration/boilers"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies an energy-management/soft-sensor methodology to the formation (initial charging) process of LSI lead-acid batteries in a battery manufacturing plant—a discrete, batch manufacturing context, not continuous-flow production; refining/boiler references appear only in the literature review."
+}

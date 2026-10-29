@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536564",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:46:13Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "estimate energy consumption through HL and CL of residential buildings",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Exclusive focus on predicting heating/cooling load of residential buildings (UCI Energy Efficiency benchmark, ELM/OSELM/B-ELM machine-learning ensemble); no industrial or organisational component and no ISO 50001/50006 EnPI/EnB operational measurement-model framing.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "we develop a novel ensemble framework based on emerging machine learning approach",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "ML ensemble (ELM/OSELM/B-ELM) predicting building heating/cooling load on the UCI Energy Efficiency dataset (768 simulated residential building forms); design-stage residential domain, outside the ISO 50001/50006 industrial/organisational EnPI-EnB scope."
+  },
+  "stage2": null,
+  "stage3": null
+}

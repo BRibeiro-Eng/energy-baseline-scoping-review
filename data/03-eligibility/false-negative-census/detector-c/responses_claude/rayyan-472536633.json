@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536633",
+  "listed_sector_signals": [
+    {
+      "signal": "Author biography references work on refining schemes and energy planning at a petroleum institute (mentioned only, not the paper's application context)",
+      "quote": "he has been working as a researcher at the Colombian Petroleum Institute (ICP) on the analysis of refining schemes, and energy planning and optimization of oil production processes.",
+      "page": 6,
+      "sector": "Petroleum refining"
+    },
+    {
+      "signal": "Author biography references catalytic cracking work at a refinery (mentioned only, not the paper's application context)",
+      "quote": "He has worked on projects involving the optimization of industrial services, distillation, catalytic cracking of paraffins at a refinery in Barrancabermeja.",
+      "page": 6,
+      "sector": "Petroleum refining"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cogeneration / steam generation mentioned as an energy-efficiency measure in oil treatment facilities",
+      "quote": "Maximization of fuel efficiency through heat recovery by \nsteam generation (if cogeneration is required).",
+      "page": 1,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Application context is upstream oil treatment/production facilities separating and handling oil, gas and water from wells (continuous production, not discrete/batch)",
+      "quote": "Production Facilities include processes, equipment and \nrequired materials to collect, separate, handle, characterize \nand measure oil, gas and water from producing wells.",
+      "page": 1,
+      "sector": "upstream oil & gas production"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper presents an energy-audit methodology and key performance indicators for upstream oil treatment/production facilities (separating oil, water and gas from wells); refining appears only in the authors' biographies, not as the application context."
+}

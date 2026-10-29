@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536728",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:18:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The focus of this paper is to investigate the principal sustainable energy performance indicators for modeling the sustainable performance of the residential building envelope and develop an approach for determining the most appropriate sustainable energy performance indicators.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Exclusive focus on residential buildings without an industrial component.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "In this paper a method is developed which is largely modified from Gordon Mitchell’s [42,43].",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper develops and surveys indicators, but its application scope is exclusively residential building envelopes."
+  },
+  "stage2": null,
+  "stage3": null
+}

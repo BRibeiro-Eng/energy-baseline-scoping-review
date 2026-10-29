@@ -1,0 +1,122 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536631",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:11:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The mean active power (kW) measurement in an interval is modelled as the regression line [19] of the time (in h) the injection machine spends in an active state within the measurement interval.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The proposed method has been tested with the data for the motors of an injection machine following the forecast method of the SEPMVPI.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "we propose the use of probabilistic methods to model the energy consumption behaviour and perform predictions, increasing in this way the competitiveness of aluminium injection processes.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Aluminium injection is discrete manufacturing and lies outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Abadiño, where the plant is located",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Abadiño",
+      "evidence_quote": "Bilbao (Spain) airport (41.1 km from Abadiño, where the plant is located)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "aluminium injection processes",
+      "evidence_quote": "we propose the use of probabilistic methods to model the energy consumption behaviour and perform predictions, increasing in this way the competitiveness of aluminium injection processes.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The pilot study presented here has focused on developing a model of the energy consumption of the injection machines in a manufacturing facility.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "ISO 50015:2014 can be applied alongside ISO 50001:2011 Energy management system.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "SEP M&V"
+      ],
+      "evidence_quote": [
+        "The international performance measurement & verification protocol (IPMVP) is a standard first issued in 1996",
+        "The protocol is complemented by the American Society of Heating, Refrigeration and Air-Conditioning Engineers (ASHRAE) Guideline 14 ‘Measurement of Energy and Demand Savings’ [8].",
+        "The US Department of Energy’s Superior Energy Performance Measurement and Verification Protocol for Industry (SEPMVPI) [17]"
+      ],
+      "page": [
+        2,
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression"
+      ],
+      "evidence_quote": "The mean active power (kW) measurement in an interval is modelled as the regression line [19] of the time (in h) the injection machine spends in an active state within the measurement interval.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

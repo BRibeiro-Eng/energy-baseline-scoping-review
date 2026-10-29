@@ -1,0 +1,279 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535524",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T00:11:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this contribution, a new method is proposed to use the local energy performance indicators and energy baselines from the process level for the energy performance evaluation on the site or company level by aggregation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The number of plants in this case study is limited to three in order to be able to present the results in a transparent fashion.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The setup of this example is a part of the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "paper_type borderline: a method contribution demonstrated on a single modified-data case study of the INEOS Cologne petrochemical complex (NH3, acrylonitrile, propylene oxide)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A part of the Cologne site, denoted as a production complex, is chosen to illustrate the application of the methods.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Cologne, Germany",
+      "evidence_quote": "the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "petrochemical production site",
+      "evidence_quote": "the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The total energy demand of a continuous chemical process is mainly driven by the process utilization.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "One explicit requirement of the standards ISO 50006:2014 [54] and ISO 50001:2018 is the identification and quantification of these factors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "linear regression",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "the use of the energy intensity of a process rather than the total energy utilization as an energy performance indicator is advised",
+        "The concept is compatible with the usage of different types of baseline models, e.g. linear regression or artificial neural networks, in one system",
+        "the performance model of each plant with respect to the utilization and the ambient temperature"
+      ],
+      "page": [
+        4,
+        10,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "plant utilization (production rate)",
+        "ambient temperature"
+      ],
+      "evidence_quote": "the performance model of each plant with respect to the utilization and the ambient temperature",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline is the Best-Demonstrated Practice (BDP), obtained by fitting a model to historical process data or from a simulation model; plant-level BDP baselines (functions of production rate and ambient temperature) are aggregated bottom-up to the site level, with the reference baseline taken as each plant's BDP at its mean utilization and mean ambient temperature of the evaluated year.",
+      "evidence_quote": "The BDP can either be obtained by fitting a model to historical process data or by utilizing a simulation model.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "A part of the Cologne site, denoted as a production complex, is chosen to illustrate the application of the methods.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "scope_description": {
+      "value": "An integrated petrochemical production complex (part of the INEOS site in Cologne) of three interconnected plants: ammonia (NH3), acrylonitrile (AN) and propylene oxide (POX).",
+      "evidence_quote": "The three production plants that are considered in this section are the ammonia plant (NH3), the acrylonitrile plant (AN) and the propylene oxide (POX) plant.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The contributors to this deviation are not identified by the model and thus are unknown unless additional process knowledge is incorporated.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The energy consumption of a single product in a multi-product process can only be determined by incorporating additional process knowledge.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "the contribution of the identified factors, e.g. the plant utilization or the ambient temperature, are distinguished from performance deviations that are independent of these factors.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the contribution of the identified factors, e.g. the plant utilization or the ambient temperature, are distinguished from performance deviations that are independent of these factors.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "One explicit requirement of the standards ISO 50006:2014 [54] and ISO 50001:2018 is the identification and quantification of these factors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "The methods are used at the INEOS site in Cologne with over 20 interacting processing plants to monitor and report the site energy performance.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "In the example, monthly values of the energy consumption and of the efficiency of the plants and the complex are computed.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [
+        "NH3 steam baseline (Eq. A.1): 2 GJ/t base term, 0.5 GJ/t plant-load coefficient, 0.5 GJ/t ambient-temperature coefficient",
+        "NH3 natural gas baseline (Eq. A.3): 20 GJ/t base term, 4 GJ/t plant-load coefficient, 0.2 GJ/t ambient-temperature coefficient",
+        "POX steam baseline (Eq. A.7): 15 GJ/t base term, 2 GJ/t plant-load coefficient, 1 GJ/t ambient-temperature coefficient"
+      ],
+      "evidence_quote": [
+        "2GJ t 0.5GJ t 20 20 0.5GJ t 24 C 24 C",
+        "20GJ t 4GJ t 20 20 0.2GJ t 24 C 24 C",
+        "15GJ t 2GJ t 30 30 1GJ t 24 C 24 C"
+      ],
+      "page": [
+        12,
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of resources and knowledge is a major barrier to implementing KPIs; defining accurate KPIs suitable for energy managers and operators is difficult and time-consuming",
+        "Limited availability of resources for developing and improving the plant-level baseline models"
+      ],
+      "evidence_quote": [
+        "The lack of resources and knowledge are identified as a major barrier for the implementation of KPIs as the definition of accurate KPIs suitable for energy managers and operators is difficult and time consuming.",
+        "This makes step-wise improvements of the baseline models for each plant possible in case of a limited availability of resources."
+      ],
+      "page": [
+        3,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    }
+  }
+}

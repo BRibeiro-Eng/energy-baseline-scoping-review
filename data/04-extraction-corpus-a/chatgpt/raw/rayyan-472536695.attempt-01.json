@@ -1,0 +1,351 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536695",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:42:29Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The paper shows how these techniques have been applied to identify key inﬂuence variables on energy consumption and to develop an energy performance model of the plant. Energy baseline and energy targets have been derived for the assessment of achieved and potential energy savings.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper presents the application of a data mining approach to the deﬁnition, development and implementation of an EMS in a naphtha reforming plant with the aim of assessing energy performance and evaluating progress towards efﬁciency targets.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The main contribution of the paper is the development of an EMS for a naphtha reforming plant that allows measuring baseline performance, setting targets and tracking energy performance against those targets.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This paper presents the application of a data mining approach to the deﬁnition, development and implementation of an EMS in a naphtha reforming plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "naphtha reforming plant",
+      "evidence_quote": "The main contribution of the paper is the development of an EMS for a naphtha reforming plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Naphtha reforming plants are composed of different operating units to separate fractions and improve their quality.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the IEA has advised governments to require high energy-intensive industries to comply with ISO 50001 [5] or an equivalent energy management protocol.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "In our case a Discriminant Function Analysis (DFA) technique is selected to extract key inﬂuence variables (KIVs) from PIV and model EPI against these variables.",
+        "In the last step of the modeling phase, a regression model of EPI versus discriminant function is obtained."
+      ],
+      "page": [
+        6,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Recycle gas density (P_PP_V8)",
+        "Input Stream to the Platforming unit",
+        "Input stream from Aromax unit to debutanizer",
+        "Fuel gas consumption in heater PP_H3",
+        "Fuel gas consumption in heater PP_H4",
+        "Fuel gas consumption in heater PP_H5",
+        "Fuel gas consumption in heater PP_H6",
+        "Medium pressure steam consumption in the debenzenizer",
+        "Reﬂux ratio: debutanizer’s top stream/liquid return to the column",
+        "Reﬂux ratio of debenzenizer",
+        "Pressure operation of debenzenizer",
+        "Ambient temperature",
+        "Delta T in PP_V5 reactor",
+        "Delta T in PP_V7 reactor"
+      ],
+      "evidence_quote": [
+        "Recycle gas density (P_PP_V8)",
+        "Input Stream to the Platforming unit",
+        "Input stream from Aromax unit to debutanizer",
+        "Fuel gas consumption in heater PP_H3",
+        "Fuel gas consumption in heater PP_H4",
+        "Fuel gas consumption in heater PP_H5",
+        "Fuel gas consumption in heater PP_H6",
+        "Medium pressure steam consumption in the debenzenizer",
+        "Reﬂux ratio: debutanizer’s top stream/liquid return to the column",
+        "Reﬂux ratio of debenzenizer",
+        "Pressure operation of debenzenizer",
+        "Ambient temperature",
+        "Delta T in PP_V5 reactor",
+        "Delta T in PP_V7 reactor"
+      ],
+      "page": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "March 2008",
+      "evidence_quote": "Initially, 45 potential inﬂuence variables are selected and collected in an hourly frequency from March 2008 to August 2009.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_period_end": {
+      "value": "August 2009",
+      "evidence_quote": "Initially, 45 potential inﬂuence variables are selected and collected in an hourly frequency from March 2008 to August 2009.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_construction_method": {
+      "value": "Potential influence variables were normalised and screened with discriminant function analysis to identify key influence variables. An EPI regression model against the discriminant function was then used to calculate a baseline adjusted to actual external influence conditions.",
+      "evidence_quote": [
+        "In our case a Discriminant Function Analysis (DFA) technique is selected to extract key inﬂuence variables (KIVs) from PIV and model EPI against these variables.",
+        "In the last step of the modeling phase, a regression model of EPI versus discriminant function is obtained. This model condenses the dependence of energy performance on KIV and will be used to obtain EPI baseline.",
+        "For operation improvements, which imply changes of controllable variables to improve energy performance, baseline would be adjusted to actual external inﬂuence conditions."
+      ],
+      "page": [
+        6,
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "The whole sample is divided for analysis: the training set contains 12149 records, while the validation set contains the remaining 9402 records. The ﬁrst is used to train the model, while the second is used to test its ﬁnal performance.",
+        "The regression model of SCPU is presented in Fig. 4, showing a strong correlation with F1 (R2 = 0.9029)."
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "this research focuses on the platforming unit (PU).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scope_description": {
+      "value": "the platforming unit of a naphtha reforming plant",
+      "evidence_quote": "this research focuses on the platforming unit (PU).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "If a constant baseline value, equal to the average for the pre-implementation period is assumed, energy savings would be 2.03 GWh, 28% lower than our proposal, clearly showing that a constant baseline does not account for the actual values of KIV, and highlighting the importance of adjusting the baseline to current operating conditions to accurately calculate energy savings.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "If a constant baseline value, equal to the average for the pre-implementation period is assumed, energy savings would be 2.03 GWh, 28% lower than our proposal, clearly showing that a constant baseline does not account for the actual values of KIV, and highlighting the importance of adjusting the baseline to current operating conditions to accurately calculate energy savings.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": "The predictive models are used to adjust the baseline to current inﬂuence conditions and to calculate energy savings due to both operational and equipment improvements.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "The bottom product of the debencenizer and the top product of debutanizer and depentanizer are stored up or sent to other units of the reﬁnery.",
+        "The EMS was implemented in mid-September 2009 and it was found that the EPI tracking process produces savings from operational improvements."
+      ],
+      "page": [
+        4,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Initially, 45 potential inﬂuence variables are selected and collected in an hourly frequency from March 2008 to August 2009.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "-0.388 (x8 coefficient)",
+        "-1.897 (x9 coefficient)",
+        "-0.057 (x42 coefficient)",
+        "0.112 (x10 coefficient)",
+        "-0.701 (x43 coefficient)",
+        "-0.422 (x45 coefficient)",
+        "0.19 (x29 coefficient)",
+        "0.181 (x30 coefficient)",
+        "1.131 (x16 coefficient)",
+        "1.160 (x17 coefficient)",
+        "0.967 (x18 coefficient)",
+        "-0.378 (x19 coefficient)",
+        "0.486 (x25 coefficient)",
+        "0.093 (x32 coefficient)"
+      ],
+      "evidence_quote": "F1 ¼ \u00020:388 \u0004 x\u0003\n8 \u0002 1:897 \u0004 x\u0003\n9 \u0002 0:057 \u0004 x\u0003\n42 þ 0:112 \u0004 x\u0003\n10\n\u0002 0:701 \u0004 x\u0003\n43 \u0002 0:422 \u0004 x\u0003\n45 þ 0:19 \u0004 x\u0003\n29 þ 0:181 \u0004 x\u0003\n30\nþ 1:131 \u0004 x\u0003\n16 þ 1:160 \u0004 x\u0003\n17 þ 0:967 \u0004 x\u0003\n18 \u0002 0:378 \u0004 x\u0003\n19\nþ 0:486 \u0004 x\u0003\n25 þ 0:093 \u0004 x\u0003\n32\nð9Þ",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.9029",
+          "unit": null,
+          "period_or_context": "SCPU regression model versus F1",
+          "evidence_quote": "The regression model of SCPU is presented in Fig. 4, showing a strong correlation with F1 (R2 = 0.9029).",
+          "page": 7,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "4% to 7%",
+          "unit": "%",
+          "period_or_context": "monthly post-EMS period",
+          "evidence_quote": "Fig. 6 represents monthly energy consumption in the post-EMS period, clearly showing achieved energy savings ranging from 4% to 7%",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "meter failure and loss of measurement-system integrity"
+      ],
+      "evidence_quote": "Poor performance detected during a report period may also highlight a meter failure and help in maintaining the integrity of the measurement system. Failure to do so will make the energy performance checking process difﬁcult.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  }
+}

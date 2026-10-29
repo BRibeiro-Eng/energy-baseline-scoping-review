@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535459",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:46:55Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper provides a methodology to assess the maturity of an organization’s readiness for change based on the use of a Fuzzy Analytic Network Process and fuzzy linguistic evaluation maturity model.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Maturity assessment of organizational readiness for EnMS implementation without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This study aims to develop a readiness for change maturity model that allows decision makers to determine the maturity of their organization regarding a planned change.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "The model measures organisational readiness for change, not energy performance, an EnPI, or an energy baseline."
+  },
+  "stage2": null,
+  "stage3": null
+}

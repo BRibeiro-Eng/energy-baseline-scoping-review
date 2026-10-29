@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472536726",
+ "tier": "A",
+ "ts": "2026-09-11T11:42:10",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "kiln"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 23.3,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "inquerito sem metodologia"
+}

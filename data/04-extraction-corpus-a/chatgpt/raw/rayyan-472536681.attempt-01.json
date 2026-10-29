@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536681",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:02:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Considering the variables shown in figure 4, it is defined as the ratio of maximum power Pmax and the nominal power Pnom as follows:",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "In the following section results of industrial use cases are discussed.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this paper a new approach to increase the energy efficiency of existing machinery in discrete manufacturing is presented.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper develops and applies dimensionless power-ratio EnPIs in several discrete-manufacturing use cases."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In this use case, the electric drives of a large scale plant consisting of several machines were analyzed concerning their electric power consumption during a measurement period of 90 hours.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "In this paper a new approach to increase the energy efficiency of existing machinery in discrete manufacturing is presented.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "In this paper a new approach to increase the energy efficiency of existing machinery in discrete manufacturing is presented.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "In the following section Energy Performance Indicators (EnPIs) in compliance to the ISO Standard 50001 are introduced",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Considering the variables shown in figure 4, it is defined as the ratio of maximum power Pmax and the nominal power Pnom as follows:",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

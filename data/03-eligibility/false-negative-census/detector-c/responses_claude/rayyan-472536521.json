@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536521",
+  "listed_sector_signals": [
+    {
+      "signal": "Oil refineries listed as a source of industrial waste heat, but only named as an example, not an application context",
+      "quote": "many\nindustrial sectors: Petrochemical plants, oil reﬁneries, municipal waste incinerator plants, cement\nplants, etc.",
+      "page": 1,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Petrochemical plants named as an example source of released waste heat, no application demonstrated there",
+      "quote": "many\nindustrial sectors: Petrochemical plants, oil reﬁneries, municipal waste incinerator plants, cement\nplants, etc.",
+      "page": 1,
+      "sector": "petrochemicals"
+    },
+    {
+      "signal": "Cement plants named as an example source of waste heat, mentioned only",
+      "quote": "many\nindustrial sectors: Petrochemical plants, oil reﬁneries, municipal waste incinerator plants, cement\nplants, etc.",
+      "page": 1,
+      "sector": "cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A thermodynamic simulation study (EES) of absorption heat transformer/heat pump configurations to upgrade, transport, and distribute low-temperature industrial waste heat into urban district heating and cooling networks; refining/petrochemical/cement plants appear only as generic example waste-heat sources."
+}

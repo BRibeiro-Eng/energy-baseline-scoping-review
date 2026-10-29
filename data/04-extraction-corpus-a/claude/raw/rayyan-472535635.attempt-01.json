@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535635",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:16:51Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "focusing predominantly on electricity metering",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Practitioner presentation on electricity metering and monitoring-system (aM&T) planning for an ISO 50001 energy management system. Regression analysis, CuSum and energy 'drivers' (relevant variables) are mentioned only incidentally as generic data-analysis techniques; the paper does not present, propose, evaluate, or characterise any specific EnPI/EnB measurement model (no functional form, variable selection, or construction/estimation approach for a model). Falls under the tool/framework-without-model-content and incidental-mention ineligibility criteria.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "an example of such a system is aM&T (automated Monitoring & Targeting)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: metering/monitoring-focused practitioner paper that engages ISO 50001/50006 and names regression/CuSum/drivers generically without a characterised model. Not a review/synthesis, so borderline_review_synthesis_eligibility left false. Tier-1 call surfaced for human blind-first adjudication."
+  },
+  "stage2": null,
+  "stage3": null
+}

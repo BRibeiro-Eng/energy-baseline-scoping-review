@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535595",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:14:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "As a result, 5 baselines models were built: equation (1) the consumption of electric energy in off-peak hours, equation (2) demand, equation (3) the consumption of reactive electric energy, equation (4) the consumption of electric energy in on-peak hours, and equation (5) consumption of liters of diesel in the generator used at peak hours.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This article aims to detail, through a case study, the amount of energy savings achieved by energy management in the commercial sector. An energy efficiency work carried out by an Energy Service Company (ESCO) at a Resort located in state of Rio de Janeiro will be used for this study.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The case study is a resort in Rio de Janeiro - Brazil.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied hotel/resort case; outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study is a resort in Rio de Janeiro - Brazil.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Rio de Janeiro - Brazil",
+      "evidence_quote": "The case study is a resort in Rio de Janeiro - Brazil.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "commercial sector of hotel industry",
+      "evidence_quote": "The variables used to build baselines for the commercial sector of hotel industry are commonly the temperature and occupation of the consumer unit.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "The variables used to build baselines for the commercial sector of hotel industry are commonly the temperature and occupation of the consumer unit.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "The ISO 50001, 50002, 50004, 50006, 50015, PIMVP and GUM standards were used successfully to obtain the final savings.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol (IPMVP)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "Demand [R$/kW] \n1283,42 ×  𝑜𝑐𝑐𝑢𝑝𝑖 +  11,68",
+        "Electric energy in off-peak hours [kW h] 1456,88 × 𝑡𝑒𝑚𝑝𝑖 +  1283,42 × 𝑜𝑐𝑐𝑢𝑝𝑖 − 130,51"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

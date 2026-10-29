@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535516",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:18:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper will continue to analyze the Cost of Indecision for these two EPIAs by an Opportunity Cost Analysis, in order to evaluate the real economic impact of the Top Management decision making policy.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "Purely economic analysis of energy-saving actions without an identifiable or characterised EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In this paper, the Case Study of an industrial consumer which operates in the bricks manufacturing sub-sector will be presented.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper estimates EPIA savings and opportunity cost, but does not construct or critique an EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535591",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:39:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "It is not easy to determinate baselines, target values, energy performance indicators and correction factors based on production volume and meteorological data.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "annual energy consumption (natural gas and \nelectricity) of a factory manufacturing chisels and drills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a factory manufacturing chisels and drills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Tools/examples paper; one factory (chisels & drills) developed with data although abstract says 'plants' (single-vs-multi ambiguity). Sector is discrete manufacturing, so not Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a factory manufacturing chisels and drills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing chisels and drills",
+      "evidence_quote": "a factory manufacturing chisels and drills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "a factory manufacturing chisels and drills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the baseline ISO 50001 provides an opportunity",
+        "Energy Management System. I.S. 393:2005 Technical guideline."
+      ],
+      "page": [
+        2,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "average production and specific electricity consumption will be used for \nthe monthly energy consumption planning",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

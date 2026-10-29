@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536631",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:05:17.345103Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "is modelled as the regression line [19] of the time (in h) the injection machine spends in an active state within the measurement interval",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The proposed method has been tested with the data for the motors of an injection machine following the forecast method of the SEPMVPI",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the injection machine is producing the same part",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Aluminium/metal-mold injection molding = discrete parts manufacturing, not primary-metals CONTINUOUS production; level_3b=false. Core model: single-variable linear regression (mean active power ~ active time) with cross-validation + CLT uncertainty."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Abadiño, where the plant is located",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Abadiño, Spain",
+      "evidence_quote": "Bilbao (Spain) airport (41.1 km from Abadiño, where the plant is located)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "aluminium injection processes",
+      "evidence_quote": "the competitiveness of aluminium injection processes",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "modelling the energy consumption of a metal mold injection machine",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "conform to the ISO 50001 standard",
+        "ISO 50015:2014: Energy management systems"
+      ],
+      "page": [
+        3,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "SEP M&V"
+      ],
+      "evidence_quote": [
+        "protocol (IPMVP) is a standard",
+        "ASHRAE's guideline 14 is designed for M&V applied to",
+        "Superior Energy Performance Measurement and Verification Protocol for Industry (SEPMVPI)"
+      ],
+      "page": [
+        2,
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression"
+      ],
+      "evidence_quote": "linear regression model is fitted using all of the period data",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

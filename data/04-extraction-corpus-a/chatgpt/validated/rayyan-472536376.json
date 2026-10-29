@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536376",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T19:43:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "Energy performance indicators were calculated as specific consumption (total, electric\nor thermal), having the energy driver as the denominator:",
+        "The denominator is specific for each energy performance indicator, using the relevant\nvariables available in the database such as tons of final products."
+      ],
+      "page": [
+        12,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "About 100 energy audits related to rubber\nprocessing production sites have been analysed. These represent the totality of audits\nrelated to sites of large or energy-intensive companies uploaded to the ENEA portal in\nthe four-year period 2019–2022.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The objective of this work is the energy characterisation and evaluation of the energy\nefficiency potential of the rubber manufacturing industry in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Rubber product and tyre manufacturing is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "About 100 energy audits related to rubber\nprocessing production sites have been analysed. These represent the totality of audits\nrelated to sites of large or energy-intensive companies uploaded to the ENEA portal in\nthe four-year period 2019–2022.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "The analysis is based on 100 Italian mandatory energy audits\nof the sector collected according to Art.8 EU Directive 27/2012.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "rubber manufacturing industry",
+      "evidence_quote": "The objective of this work is the energy characterisation and evaluation of the energy\nefficiency potential of the rubber manufacturing industry in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "This sector is divided into two sub-\nactivities: the manufacture of rubber products and the production of tyres.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "EnPIs have been introduced by the ISO 50001:2018 standard [42]",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "The analysis is based on 100 Italian mandatory energy audits\nof the sector collected according to Art.8 EU Directive 27/2012.",
+        "In Italy, the Directive was transposed with the Legislative Decree 102/2014, later\namended by Legislative Decree 73/2020."
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "A regression analysis was performed for each EnPI",
+        "In addition to the regression analysis, the average values of the EnPIs, referring to the\nconsumption of the entire plant, for the electrical, thermal (consumption of natural gas\nand other fuels), and global (electrical + thermal) models, are elaborated and reported in\nTable 3."
+      ],
+      "page": [
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536615",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:43:20.520031+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy consumption data of the ceramics sanitary production would be applied by multiple linear regression to analyze factors, which affect the energy consumption of these industries.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "aims to evaluate the energy utilization index of ceramic sanitary industries in Thailand from 2014 to 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "27 are ceramic factories (non-metallic)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "level_3b=false: sector is sanitary ceramics (non-metallic ceramic industry); ceramics is NOT on the closed continuous-process Level-3B list (glass is; ceramics is a distinct, excluded sector). paper_type borderline: sector-level benchmark pooling 4 of 10 factories into one regression baseline (single applied case) vs multi-case (4 factories)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Thailand",
+      "evidence_quote": "ceramic sanitary industries in Thailand from 2014 to 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "sanitary ceramics",
+      "evidence_quote": "energy conservation opportunities at a sanitary ceramics sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The largest energy consumption was during the firing process in the kiln.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": "the Ministerial Regulation issued under the Energy Conservation Promotion Act (ECP Act)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Multiple linear regression attempts to model the relationship between two or more explanatory variables and a response variable by fitting a linear equation to observed data.",
+        "The Energy Utilization Index (EUI) is determined by the total energy consumption of designated factory (both of electricity and thermal energy) and product output is quantity of the product"
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

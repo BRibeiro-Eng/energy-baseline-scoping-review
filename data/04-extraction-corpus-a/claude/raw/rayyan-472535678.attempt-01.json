@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535678",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:10:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "With regression analysis, the most credible indicator selected was\nmunicipality energy consumption in relation to the population of the city or region.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "An EnMS implementation procedure was developed based on the data and structure of the municipality of the city\nof Daugavpils.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The correlation between municipal buildings heat consumption and population in the city or region",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "EnPI: cross-municipality regression of energy vs population (R2>0.95). Sector: Latvian municipal buildings, not continuous-process. paper_type borderline single-case(Daugavpils)/framework-guidelines."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "An EnMS implementation procedure was developed based on the data and structure of the municipality of the city\nof Daugavpils.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Latvia",
+      "evidence_quote": "guidelines have been developed for energy management system implementation in Latvian\nmunicipalities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "municipalities",
+      "evidence_quote": "how an energy management system can be implemented in municipalities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "municipal buildings heat consumption",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "standard EN ISO 50001:2011",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": [
+        "Directive 2012/27/EU of the European Parliament and of the Council of 25 October 2012 on energy\nefficiency",
+        "cumulative mandatory national\nenergy savings target in the period from 2014 — 2020"
+      ],
+      "page": [
+        5,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.4
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression"
+      ],
+      "evidence_quote": "With regression analysis, the most credible indicator selected was\nmunicipality energy consumption in relation to the population of the city or region.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

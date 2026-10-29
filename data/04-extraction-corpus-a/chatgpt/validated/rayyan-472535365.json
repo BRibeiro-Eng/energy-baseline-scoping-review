@@ -1,0 +1,316 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535365",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:18:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Gradient Boosting Machines algorithm to predict the unit’s energy consumption as an energy baseline.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "industrial-scale EDU in South Pars Gas Complex in Iran which was approved by an international certification body.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Iran",
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "gas refinery",
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The ethane decarbonization unit processes sour gaseous ethane cut from the overhead of the upstream de-ethanizer reflux drum in the ERU.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "to comply with ISO 50001:2018.",
+        "engineering model: this method is applied in numerous relevant variables that significantly affect energy performance (ISO 50006 2014)."
+      ],
+      "page": [
+        2,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "the energy consumption predictive model, as an energy baseline, was developed by the Gradient Boosting Machines (GBM) algorithm",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "QFG",
+        "TS",
+        "PS",
+        "QLATA",
+        "QSG",
+        "TFG",
+        "TLATA",
+        "∆PA"
+      ],
+      "evidence_quote": [
+        "Finally, according to the ISO 50001 requirement, the importance of the eight variables was quantified using the random forest algorithm to determine the significance of final variables on energy consumption.",
+        "Table 4. Feature importance by random forest method. No. Variable Unit Feature importance (%) Min. Max. Average 1 QFG kg.hr−1 29 15,012 44,929 31,881 2 TS °C 17 152.1 166.7 156.3 3 PS bar 12 2 3 2.45 4 QLATA kg.hr−1 12 123,239 135,036 127,204 5 QSG kg.hr−1 10 10,039 49,837 31,684 6 TFG °C 8 18.2 46.9 31.2 7 TLATA °C 6 45.5 70.9 57.8 8 ∆PA bar 6 0.20 0.37 0.27"
+      ],
+      "page": [
+        12,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "January 2020",
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "January 2021",
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "baseline_construction_method": {
+      "value": "After feature selection and min-max scaling, a Gradient Boosting Machines regression model was developed to predict energy consumption as the energy baseline.",
+      "evidence_quote": [
+        "After selecting the modeling features, a min-max standardization method has been run on the training sample points to convey all these values on an identical scale between 0 to 1",
+        "the energy consumption predictive model, as an energy baseline, was developed by the Gradient Boosting Machines (GBM) algorithm as the most suitable regression method for such processes"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": "Using these values, the GBM algorithm performed as a robust and high-accuracy model with R2 (validation set) = 0.99, RSME (validation set) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "industrial-scale EDU in South Pars Gas Complex in Iran which was approved by an international certification body.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "industrial-scale ethane decarbonization unit in South Pars Gas Complex in Iran",
+      "evidence_quote": "industrial-scale EDU in South Pars Gas Complex in Iran which was approved by an international certification body.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The main challenge with k-means is to determine the number of clusters because this algorithm cannot learn this number",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The main challenge with k-means is to determine the number of clusters because this algorithm cannot learn this number",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "In this study, in addition to multivariate outlier detection, the DBSCAN method was applied for determining the number of clusters",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "In this study, in addition to multivariate outlier detection, the DBSCAN method was applied for determining the number of clusters",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In this study, in addition to multivariate outlier detection, the DBSCAN method was applied for determining the number of clusters",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "a machine learning- \nbased EnMS to comply with ISO 50001:2018",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas refinery’s Distributed Control System (DCS) plant at Iran’s South Pars Gas Complex.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The raw dataset contains around 9.4 million data sampled every 10 min throughout 2020 as a baseline period.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.99",
+          "unit": null,
+          "period_or_context": "validation set",
+          "evidence_quote": "R2 (validation set) = 0.99",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "RMSE",
+          "value": "108.8",
+          "unit": "kg.hr−1",
+          "period_or_context": "validation set",
+          "evidence_quote": "RSME (validation set) = 108.8 kg.hr−1",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.14",
+          "unit": "%",
+          "period_or_context": "RMAE, validation set",
+          "evidence_quote": "RMAE (validation set) = 0.14%",
+          "page": 12,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "10.31",
+          "unit": "%",
+          "period_or_context": "offline study on the holdout validation set",
+          "evidence_quote": "Based upon the offline study on the holdout validation set, utilizing this data-driven approach in the EDU can result in a minimum of 10.31% save in energy usage",
+          "page": 16,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "Using these values, the GBM algorithm performed as a robust and high-accuracy model with R2 (validation set) = 0.99, RSME (validation set) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+        "Based upon the offline study on the holdout validation set, utilizing this data-driven approach in the EDU can result in a minimum of 10.31% save in energy usage"
+      ],
+      "page": [
+        12,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  }
+}

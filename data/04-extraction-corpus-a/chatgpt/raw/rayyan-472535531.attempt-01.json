@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535531",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:36:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "ISO 50001: 2011 and ISO 50006: 2014 for establishing energy baselines and energy performance indicators in higher education",
+        "implementing statistical analysis using the linear regression method"
+      ],
+      "page": [
+        3,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "limited to three buildings of a higher education institute (HEI) located in the southeast region of Brazil.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "three buildings of a higher education institute (HEI)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to institutional university buildings, not a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "limited to three buildings of a higher education institute (HEI) located in the southeast region of Brazil.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "southeast region of Brazil",
+      "evidence_quote": "located in the southeast region of Brazil",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "higher education institute",
+      "evidence_quote": "higher education institute (HEI)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "three buildings of a higher education institute (HEI)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50001: 2011 and ISO 50006: 2014 for establishing energy baselines and energy performance indicators",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "composite index"
+      ],
+      "evidence_quote": [
+        "implementing statistical analysis using the linear regression method",
+        "AUDeq = ∑FuALFcFt"
+      ],
+      "page": [
+        9,
+        19
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "thermodynamic modelling"
+      ],
+      "evidence_quote": "energy consumption, such as heat transmission by conduction",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

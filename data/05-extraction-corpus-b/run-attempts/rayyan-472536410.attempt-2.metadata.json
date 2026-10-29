@@ -1,0 +1,14 @@
+{
+  "key": "rayyan-472536410",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-13T15:01:48",
+  "finished_at": "2026-09-13T15:02:01",
+  "returncode": 129,
+  "input_sha256": "4266477cc61a47b76ec6a9467c7eeaec76fd7432334d47f2075ffbbe2de262fe",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472536410.attempt-2.raw.json",
+  "attempt": 2,
+  "status": "error",
+  "error": "Expecting value: line 1 column 1 (char 0)"
+}

@@ -1,0 +1,259 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536425",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:28:33Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In tracking the overall organization energy performance, lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Finally, a case study for the successful implementation of the selected tactics at one of leading oil companies, located in Middle East will be included in the paper.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "One oil corporation spans multiple organisations and facilities; the case explicitly includes refinery and PTA operations."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "This division consists of six gas treatment facilities",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Middle East",
+      "evidence_quote": "one of leading oil companies, located in Middle East",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "oil company",
+      "evidence_quote": "PROVEN APPROACHES TO ENHANCE IMPLEMENTATION OF ENERGY MANAGEMENT SYSTEMS AT A LEADING OIL COMPANY",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The main reference for SC's EnMS is the one published by ISO Standards (ISO 50001: 2011)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "composite index"
+      ],
+      "evidence_quote": [
+        "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation",
+        "The customized EnPI was based on an allocated weight for each of the major EnMS stages as per the Deming quality cycle of PDCA"
+      ],
+      "page": [
+        11,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "final product in metric ton"
+      ],
+      "evidence_quote": "energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "The lagging EnPI is constructed as energy consumed in GJ divided by final product in metric tons.",
+      "evidence_quote": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "the progress of companywide EnMS implementations has boosted up to 89%",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "overall organization energy performance",
+      "evidence_quote": "In tracking the overall organization energy performance",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "The customized EnPI was based on an allocated weight for each of the major EnMS stages as per the Deming quality cycle of PDCA, where a certain weight to reflect the current needs of each organization was given.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The allocation for PDCA in this case study was an equal weight of 25%",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "the progress of companywide EnMS implementations has boosted up to 89% towards meeting the minimum requirement of ISO 50001. It was based on the leading EnPI measures",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "In tracking the overall organization energy performance, lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation. Due to confidentially, these tracking trends will not be revealed. As an example, EnPI for Downstream facility of Purified Terephthalic Acid (PTA) is shown in Figure 3.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "model_parameters_reported": {
+      "value": [
+        "equal weight of 25%"
+      ],
+      "evidence_quote": "The allocation for PDCA in this case study was an equal weight of 25%",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of commitment or even rejection from respective parties",
+        "Some company organizations may not understand how to apply EnMS",
+        "lack of support from top management",
+        "limited resources",
+        "geo-political structure"
+      ],
+      "evidence_quote": "During the initial stage of EnMS implementations, delays can occur due to a lack of commitment or even rejection from respective parties. Some company organizations may not understand how to apply EnMS. These delays can be compounded by a lack of support from top management, limited resources, and geo-political structure.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536362",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T13:41:16Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "AVMIII aims to accurately predict the machine’s long-term time series energy consumption.",
+        "This paper proposes LSTM as the prediction model and extreme gradient boosting (XGBoost) as the reference model for AVMIII."
+      ],
+      "page": [
+        5,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Applied in a packaging and testing factory, a discrete-manufacturing context outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": "Taiwan",
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "packaging and testing factory",
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "This paper proposes LSTM as the prediction model and extreme gradient boosting (XGBoost) as the reference model for AVMIII.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

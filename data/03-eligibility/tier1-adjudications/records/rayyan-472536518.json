@@ -1,0 +1,71 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b",
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": true,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536518",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Maggiore, S. and Realini, A. and Zagano, C.",
+    "rayyan_decision": "Included",
+    "source": "International Journal of Energy Production and Management",
+    "title": "‘Good practices’ to improve energy efficiency in the industrial sector",
+    "year": 2020
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "quoted",
+      "quote": "The sector in which most energy is saved is iron and steel.",
+      "page": 8,
+      "rule": "§5.3 lista principal + requisito empirico: resultados ao nivel setorial reportados para setores continuos listados — aco com maiores poupancas absolutas, petroleo e coque com maiores poupancas especificas."
+    },
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "useful to have the process baseline consumption for each energy carrier to scale it to the",
+      "page": 10,
+      "rule": "§5.2 v2.3 'apresenta, propoe, avalia OU critica'; a critica de heterogeneidade de baselines e a proposta de normalizacao qualificam."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535648",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T00:00:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "proposes and describes integrated approach to \nmotivate municipalities to engage and apply a systematic approach towards energy reduction",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Proposes an integrated EnMS (ISO 50001) + SEAP management framework for municipalities and reports qualitative implementation lessons across 41 municipalities; energy performance indicators (MWh/capita, tCO2/capita) appear only incidentally to illustrate trends, with no EnPI/EnB measurement model identified or characterised (no baseline/normalisation model, variables, functional form, or estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Proposed methodology of \nthe integrated EnMS and SEAP approach",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: per-capita EnPIs (MWh/capita, tCO2/capita) present but incidental; classified ineligible as an EnMS+SEAP management-framework paper. paper_type framework vs multi-case (41 municipalities) is arguable."
+  },
+  "stage2": null,
+  "stage3": null
+}

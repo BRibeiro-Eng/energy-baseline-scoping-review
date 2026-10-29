@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536704",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:43:59Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The objective of the Key Factors (Kf) methodology is to use these calibrated BES models, to support energy managers in determining the optimal building operation strategy in relation to both energy consumption and occupants comfort. The Key Factors (Kf) are those parameters of the operation strategy that influence the environmental and energy performance of the building. Examples include temperature set-point, lighting levels set-point, etc.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This research reviews some of these new approaches and proposes a novel integrated toolkit designed to assist energy managers at different stages of their activity relating to systematic energy management in buildings.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The focus of this paper is particularly centred on the applicability of the integrated toolkit in the building industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Eligible because the toolkit embeds a calibrated BES model and baseline comparison; application is buildings, outside the closed continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The data displayed in these graphs have been accessed from the Environmental Research Institute building at the University College of Cork (UCC) in Ireland.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": "Ireland",
+      "evidence_quote": "The data displayed in these graphs have been accessed from the Environmental Research Institute building at the University College of Cork (UCC) in Ireland.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "building industry",
+      "evidence_quote": "The focus of this paper is particularly centred on the applicability of the integrated toolkit in the building industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The data displayed in these graphs have been accessed from the Environmental Research Institute building at the University College of Cork (UCC) in Ireland.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "systematic energy management approaches such as the one proposed by the ISO 16001.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "The calibration methodology is based on detailed BES models that represent the real building as closely as possible with currently available tools. The inputs of the BES model are updated with building specific measured data",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    }
+  },
+  "stage3": null
+}

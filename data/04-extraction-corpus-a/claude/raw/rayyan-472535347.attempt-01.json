@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535347",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "A baseline and a target line were established to measure progress in energy efficiency, evaluating key indicators such as the consumption index",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "operational data from the case study company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "energy management system for the metalworking industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Single-site metalworking (lathe/milling/welding) case, Colombia. Eligible: linear-regression EnB + consumption index EnPI. Not 3B: discrete manufacturing, outside closed continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "optimize energy consumption in the plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "Colombian Mining and Energy Planning Unit (UPME)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "sector_of_activity": {
+      "value": "metalworking industry",
+      "evidence_quote": "Energy management in the metalworking industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Key areas include lathe, milling, and welding stations",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "ISO 50001 standard as an alternative energy management system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "simple intensity ratio"],
+      "evidence_quote": [
+        "the monthly electrical consumption as a function of production units",
+        "The Consumption Index (CI) represents the ratio between energy consumption and the CEq"
+      ],
+      "page": [4, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

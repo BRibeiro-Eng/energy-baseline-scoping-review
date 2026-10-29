@@ -1,0 +1,130 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536054",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T11:39:19.243531+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "EPI calculated from input and output data variables using a variable fusion approach",
+        "Calculation of dynamic baselines (worst and optimal performance) for EE indicators using Sequential Quadratic Programming (SQP)"
+      ],
+      "page": [
+        9,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "review papers such as is the present case focus specifically on a detailed literature review exercise",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Review of 42 ML-for-EE papers characterising EnPI/EnB models (EPIs, baselines, SEC) -> eligible; broad ML-for-EE scope -> borderline. level_3b false: no own continuous-process application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "A total of 42 published papers are found to present original contributions in this field",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing and process industries",
+      "evidence_quote": "in the manufacturing and process industries for EE goals",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "A collection of works in nine other industry types was also identified",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The introduction of the ISO 50001 standard in 2011",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML",
+        "multiple regression",
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "an ANN model is used to enable the prediction of an EE level as a function of process inputs",
+        "Most significant variables for energy consumption determined via Principal Components Regression (PCR)",
+        "Explicit definition of EE indicator, as a quotient between total products and total energy consumption",
+        "EE is defined as a (relative) specific energy consumption"
+      ],
+      "page": [
+        8,
+        9,
+        14,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "Fuzzy Analytic Hierarchy Process (FAHP)",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

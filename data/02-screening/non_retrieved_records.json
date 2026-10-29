@@ -1,0 +1,1422 @@
+{
+  "_comment": "PRISMA 'reports not retrieved' registry. Corpus FROZEN 2026-07-10 (reviewer decision): these keys have no PDF in the canonical store level3_extraction/data/pdfs/ and are declared non-recoverable. reason=wrong_pdf_unresolved means the only PDF ever obtained was wrong-content (quarantined in pdfs_quarantine/wrong_pdf/). See data/MISSINGNESS.md for the retrieved-vs-non-retrieved sensitivity analysis.",
+  "version": "1.0",
+  "generated": "2026-07-12T20:17:13+01:00",
+  "corpus_frozen": "2026-07-10",
+  "_summary": {
+    "total_non_retrieved": 137,
+    "by_rayyan_decision": {
+      "Maybe": 84,
+      "Included": 53
+    },
+    "by_doi_presence": {
+      "with_doi": 38,
+      "without_doi": 99
+    },
+    "by_reason": {
+      "not_retrieved": 135,
+      "wrong_pdf_unresolved": 2
+    }
+  },
+  "records": [
+    {
+      "key": "rayyan-472535342",
+      "title": "Suppliers of in vitro diagnostic medical devices (IVD-MD) in the age of sustainable development: A 2025 overview",
+      "year": "2026",
+      "journal": "Annales de biologie clinique",
+      "doi": "10.1684/abc.2025.2009",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:French"
+    },
+    {
+      "key": "rayyan-472535364",
+      "title": "Core Features of Energy Management Systems – A User-centered Case Study",
+      "year": "2025",
+      "journal": "ZWF Zeitschrift fuer Wirtschaftlichen Fabrikbetrieb",
+      "doi": "10.1515/zwf-2025-1005",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535368",
+      "title": "Methodology for Coupling Divergent Aspects of ISO 50001 and ISO 14001: A Positive Synergy Between Energy and Environment",
+      "year": "2025",
+      "journal": "Environmental Science and Engineering",
+      "doi": "10.1007/978-3-032-01036-0_120",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535381",
+      "title": "ISO 50001 based energy management system: a bibliometric perspective",
+      "year": "2024",
+      "journal": "International Journal of Energy Sector Management",
+      "doi": "10.1108/IJESM-08-2023-0001",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535387",
+      "title": "Closing the loop: does corporate sustainability capability matter for improving energy efficiency? Evidence from Pakistan",
+      "year": "2024",
+      "journal": "Studies in Economics and Finance",
+      "doi": "10.1108/SEF-09-2023-0577",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535400",
+      "title": "Open Data Framework for Energy Management and ISO Certification in Smart Manufacturing Systems",
+      "year": "2024",
+      "journal": "IFIP Advances in Information and Communication Technology",
+      "doi": "10.1007/978-3-031-71637-9_22",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535402",
+      "title": "Implementation of the strategic decision stage of an energy management system: ISO 50001 standard",
+      "year": "2024",
+      "journal": "Revista de Ciencias Sociales",
+      "doi": "10.31876/rcs.v30i3.42663",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535407",
+      "title": "PDCA Cycle as the Foundation of Integrated Management Systems with an Emphasis on the Energy Management System",
+      "year": "2024",
+      "journal": "Lecture Notes in Networks and Systems",
+      "doi": "10.1007/978-3-031-66268-3_25",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535417",
+      "title": "Maintenance strategies and energy efficiency: a review",
+      "year": "2023",
+      "journal": "Journal of Quality in Maintenance Engineering",
+      "doi": "10.1108/JQME-06-2021-0046",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535429",
+      "title": "Energy management audits, systematic literature review and framework proposition",
+      "year": "2023",
+      "journal": "International Journal of Energy Technology and Policy",
+      "doi": "10.1504/IJETP.2023.10063259",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535430",
+      "title": "Strategic Energy Planning: Utilizing ISO 50001 as a Framework for Enhanced Energy Savings",
+      "year": "2023",
+      "journal": "AEE East Energy Conference and Expo 2023",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535435",
+      "title": "ISO 50001: A Cross-sectoral Proven Platform for Decarbonization",
+      "year": "2023",
+      "journal": "2023 AEE World Energy Conference and Expo",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535436",
+      "title": "AN INTEGRATED APPROACH FOR ENERGY MANAGEMENT OPTIMIZATIONS IN CUSTOMER PREMISES",
+      "year": "2023",
+      "journal": "IET Conference Proceedings",
+      "doi": "10.1049/icp.2023.0751",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535441",
+      "title": "Design of an Integrated System for the Measurement and Monitoring of Electrical Parameters Under ISO 50001: A Case Study",
+      "year": "2023",
+      "journal": "Communications in Computer and Information Science",
+      "doi": "10.1007/978-3-031-32213-6_29",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535465",
+      "title": "Driving Decarbonization with and ISO 50001 Energy Management System",
+      "year": "2022",
+      "journal": "AEE World Energy Conference and Expo 2022",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535466",
+      "title": "IMPROVING ENERGY EFFICIENCY THROUGH ENERGY MANAGEMENT SYSTEMS IMPLEMENTATION - A CLUSTER ANALYSIS OF ISO 50001",
+      "year": "2022",
+      "journal": "15th International Scientific Conference WoodEMA 2022 - Crisis Management and Safety Foresight in Forest-Based Sector and SMES Operating in the Global Environment",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535471",
+      "title": "Energy and Ghg Management of a Giant Oilfield: A New Digital Way to Face Challenge and Certify the Results",
+      "year": "2022",
+      "journal": "Society of Petroleum Engineers - ADIPEC 2022",
+      "doi": "10.2118/210962-MS",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535474",
+      "title": "Gas Processing Facility Energy Efficiency in Action Success Stories",
+      "year": "2022",
+      "journal": "International Petroleum Technology Conference, IPTC 2022",
+      "doi": "10.2523/IPTC-22274-MS",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535476",
+      "title": "Energy and Utility Management Maturity Model for Sustainable Industry",
+      "year": "2022",
+      "journal": "Mechanisms and Machine Science",
+      "doi": "10.1007/978-3-030-88465-9_33",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535478",
+      "title": "Energy efficiency improvements under conditions of low energy prices: the evidence from Russian regions",
+      "year": "2022",
+      "journal": "Energy Sources, Part B: Economics, Planning and Policy",
+      "doi": "10.1080/15567249.2021.1966134",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535490",
+      "title": "ENERGY AUDIT AT THE TEQUILERA LAS JUNTAS AND THE ISO-50001 APPROACH",
+      "year": "2021",
+      "journal": "Proceedings from the International Congress on Project Management and Engineering",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Spanish"
+    },
+    {
+      "key": "rayyan-472535495",
+      "title": "Address risk and opportunities in Energy Management Systems according to ISO 50001: methodology and application for a production plant",
+      "year": "2021",
+      "journal": "Proceedings of the Summer School Francesco Turco",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535503",
+      "title": "The Role of Information Quality in Energy Management Systems",
+      "year": "2021",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "doi": "10.1007/978-3-030-68014-5_78",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535536",
+      "title": "Energy and Economic Indicators of the Machining Process in Accordance with the Requirements of ISO 50001",
+      "year": "2020",
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "doi": "10.1007/978-3-030-49910-5_13",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535559",
+      "title": "Accelerating Energy Savings with ISO 50001",
+      "year": "2019",
+      "journal": "AEE World Energy Engineering Congress 2019",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535560",
+      "title": "Lessons learned from certifying over thirty iso 50001 sites worldwide",
+      "year": "2019",
+      "journal": "AEE World Energy Engineering Congress 2019",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535567",
+      "title": "Market opportunities and innovation of ISO 50001 energy management standard in the Colombian industrial sector",
+      "year": "2019",
+      "journal": "International Review of Mechanical Engineering",
+      "doi": "10.15866/ireme.v13i7.15189",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535569",
+      "title": "Effective energy management in the organization in the context of implementing the sustainability concept",
+      "year": "2019",
+      "journal": "Proceedings of the 33rd International Business Information Management Association Conference, IBIMA 2019: Education Excellence and Innovation Management through Vision 2020",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535576",
+      "title": "Energy management based on ISO 50001: Stage of real-time energy monitoring",
+      "year": "2019",
+      "journal": "CICIC 2019 - Novena Conferencia Iberoamericana de Complejidad, Informatica y Cibernetica, Memorias",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Portuguese"
+    },
+    {
+      "key": "rayyan-472535604",
+      "title": "Analytics, digitization, management systems... Energy the perfect storm -transforming how we operate",
+      "year": "2018",
+      "journal": "World Energy Engineering Congress, WEEC 2018",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535605",
+      "title": "ISO 50001 and smart tech",
+      "year": "2018",
+      "journal": "World Energy Engineering Congress, WEEC 2018",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535611",
+      "title": "Moving the masses to ISO 50001 with 50001 Ready",
+      "year": "2018",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535612",
+      "title": "Cost-benefit analysis of energy management systems implementation at enterprise and programme level",
+      "year": "2018",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535614",
+      "title": "Establishing a platform to harmonize ISO 50001 energy performance improvement measurement and verification protocols",
+      "year": "2018",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535619",
+      "title": "Methodic Approach to Energy Costs Reduction on the Basis of the Energy Service Contract",
+      "year": "2018",
+      "journal": "Advances in Intelligent Systems and Computing",
+      "doi": "10.1007/978-3-319-70987-1_122",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535629",
+      "title": "Energy saving measures based on ISO 50001 at augsburg site in Germany",
+      "year": "2017",
+      "journal": "Fujitsu Scientific and Technical Journal",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535641",
+      "title": "Development and implementation of energy management system based on ISO 50001 to reduce emission and get a sustainable development. A case study of gas treating plants",
+      "year": "2017",
+      "journal": "International Gas Research Conference Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535645",
+      "title": "ISO 50001 implementation without or with DOE support",
+      "year": "2017",
+      "journal": "WEEC 2017 - World Energy Engineering Congress, Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535646",
+      "title": "Closing the gap for optimal building energy performance through an iso 50001 energy management system",
+      "year": "2017",
+      "journal": "WEEC 2017 - World Energy Engineering Congress, Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535647",
+      "title": "Session N3: Management for sustainable energy projects ISO 50 001 - Energy planning and monitoring tools and examples",
+      "year": "2017",
+      "journal": "WEEC 2017 - World Energy Engineering Congress, Proceedings",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535652",
+      "title": "Energy efficiency evaluation in petrochemicals industry",
+      "year": "2017",
+      "journal": "Proceedings of the International Conference on Industrial Engineering and Operations Management",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535669",
+      "title": "Iso 50001 energy managementa “must have” for the glass industry ?",
+      "year": "2016",
+      "journal": "Glass Technology: European Journal of Glass Science and Technology Part A",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535670",
+      "title": "ISO 50001 isn't the goal. It's the launching point",
+      "year": "2016",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535675",
+      "title": "National programs to build capacity for effective ISO 50001 implementation in North America",
+      "year": "2016",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535677",
+      "title": "The value of superior energy performance® and ISO 50001",
+      "year": "2016",
+      "journal": "39th World Energy Engineering Conference, WEEC 2016",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535681",
+      "title": "An energy management system for the ZWA Hainichen",
+      "year": "2016",
+      "journal": "GWF, Wasser - Abwasser",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535683",
+      "title": "GHG reductions and sustainable energy use - ISO 50001 energy management systems",
+      "year": "2016",
+      "journal": "Air and Waste Management Association - Addressing Climate Change: Emerging Policies, Strategies, and Technological Solutions",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535685",
+      "title": "Methodological aspects of the implementation of energy audit in relation to EnMS and EMS",
+      "year": "2016",
+      "journal": "Production Management and Engineering Sciences - Scientific Publication of the International Conference on Engineering Science and Production Management, ESPM 2015",
+      "doi": "10.1201/b19259-8",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535686",
+      "title": "Establishing an integration-energy-practice model to improve energy efficiency in ISO 50001 energy management systems: A case study for a networking products company",
+      "year": "2015",
+      "journal": "Journal of Quality",
+      "doi": "10.6220/joq.2015.22(1).02",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535689",
+      "title": "The rauschert energy management system: A new development from the perspective of an industry user",
+      "year": "2015",
+      "journal": "CFI Ceramic Forum International",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535702",
+      "title": "Mathematical simulation of building thermal regime including solar gains",
+      "year": "2015",
+      "journal": "Bulletin of the Tomsk Polytechnic University, Geo Assets Engineering",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Russian"
+    },
+    {
+      "key": "rayyan-472535705",
+      "title": "ISO 50001 - Its potential yet to be unleashed",
+      "year": "2015",
+      "journal": "WEEC 2015 - World Energy Engineering Congress",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535707",
+      "title": "Energy efficiency diagnostic means as a tool of energy management system",
+      "year": "2015",
+      "journal": "WEEC 2015 - World Energy Engineering Congress",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535709",
+      "title": "Implementation of ISO 50001 to support GHG reduction",
+      "year": "2015",
+      "journal": "WEEC 2015 - World Energy Engineering Congress",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535716",
+      "title": "Criteria for an energy management (EM) software solution in the heavy clay industry",
+      "year": "2015",
+      "journal": "ZI, Ziegelindustrie International/Brick and Tile Industry International",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535726",
+      "title": "Sustainable success due to integrative management systems",
+      "year": "2014",
+      "journal": "World of Metallurgy - ERZMETALL",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535728",
+      "title": "TIPCHECK: An innovative European energy audit standard for industrial installations",
+      "year": "2014",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535729",
+      "title": "A sawmill-adapted energy management system",
+      "year": "2014",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535731",
+      "title": "Energy management in use. What has been changed after ISO 50001 introduction",
+      "year": "2014",
+      "journal": "World Petroleum Congress Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535736",
+      "title": "Towards model-based energy management",
+      "year": "2014",
+      "journal": "Tagungsband Multikonferenz Wirtschaftsinformatik 2014, MKWI 2014",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535740",
+      "title": "ISO 50001 implementation cautions & tips",
+      "year": "2014",
+      "journal": "World Energy Engineering Congress, WEEC 2014",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472535741",
+      "title": "Case Study: Implementation of an energy management system in the tobacco industry",
+      "year": "2014",
+      "journal": "World Energy Engineering Congress, WEEC 2014",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535745",
+      "title": "The Roles of an Energy Information System in a Sustainable Energy Management Program",
+      "year": "2014",
+      "journal": "32nd West Coast Energy Management Congress, EMC 2014",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535746",
+      "title": "Extending enterprise management systems - The case of energy management",
+      "year": "2014",
+      "journal": "20th Americas Conference on Information Systems, AMCIS 2014",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535747",
+      "title": "The ISO 50001 and potential impacts for the steel and metals industries",
+      "year": "2014",
+      "journal": "AISTech - Iron and Steel Technology Conference Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535754",
+      "title": "ISO 50001: Real-world business results from early adopters",
+      "year": "2013",
+      "journal": "World Energy Engineering Congress, WEEC 2013",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535756",
+      "title": "Importance of ISO 50001 to an energy manager",
+      "year": "2013",
+      "journal": "World Energy Engineering Congress, WEEC 2013",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535760",
+      "title": "Introduction of energy management at BBH stolberg and practical implementation",
+      "year": "2013",
+      "journal": "European Metallurgical Conference, EMC 2013",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535763",
+      "title": "Analysis of standards in energy management",
+      "year": "2013",
+      "journal": "Middle East Journal of Scientific Research",
+      "doi": "10.5829/idosi.mejsr.2013.13.5.1947",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535764",
+      "title": "Experience gained with energy management in the brick and tile industry",
+      "year": "2013",
+      "journal": "ZI, Ziegelindustrie International/Brick and Tile Industry International",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535766",
+      "title": "New standard raises environmental awareness",
+      "year": "2013",
+      "journal": "Glass International",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472535768",
+      "title": "Corporate reporting of boiler MACT energy assessments",
+      "year": "2013",
+      "journal": "2013 PEERS Conference, Co-located with the 2013 International Bioenergy and Bioproducts Conference",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535770",
+      "title": "Lean operations: An energy management perspective",
+      "year": "2013",
+      "journal": "21st Annual Conference of the International Group for Lean Construction 2013, IGLC 2013",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535772",
+      "title": "Implementation of energy management system according to ISO 50001:2011 in vertically organized oil companies: JSC Gazprom neft approach",
+      "year": "2013",
+      "journal": "Neftyanoe khozyaystvo - Oil Industry",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Russian"
+    },
+    {
+      "key": "rayyan-472535774",
+      "title": "Energy management as an efficient energy saving mechanism in mining industry",
+      "year": "2013",
+      "journal": "Gornyi Zhurnal",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Russian"
+    },
+    {
+      "key": "rayyan-472535777",
+      "title": "Energy Management Systems improve the energy performance in the steel industry",
+      "year": "2013",
+      "journal": "Stahl und Eisen",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535783",
+      "title": "ISO 50001 energy management continuous improvement driving financial results",
+      "year": "2012",
+      "journal": "30th West Coast Energy Management Congress 2012, EMC 2012",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472535785",
+      "title": "The application of DIN EN ISO 50001 in metallurgy - Possibilities and limits",
+      "year": "2012",
+      "journal": "World of Metallurgy - ERZMETALL",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535786",
+      "title": "The Energy Monitoring System EMS as an integrated approach by LINGL for energy management in accordance with DIN-EN 16001 or ISO 50001",
+      "year": "2012",
+      "journal": "CFI Ceramic Forum International",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535788",
+      "title": "Kanzan: Energy consumption with system",
+      "year": "2012",
+      "journal": "International Paperworld IPW",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535798",
+      "title": "Preparing your company for the future energy management systems requirements like ISO 50001",
+      "year": "2011",
+      "journal": "AISTech - Iron and Steel Technology Conference Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535800",
+      "title": "Standards for energy management systems (II)",
+      "year": "2011",
+      "journal": "Quality - Access to Success",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "wrong_pdf_unresolved"
+    },
+    {
+      "key": "rayyan-472535801",
+      "title": "Standards for energy management systems (I)",
+      "year": "2011",
+      "journal": "Quality - Access to Success",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "wrong_pdf_unresolved",
+      "language_flag": "metadata_language:Romanian"
+    },
+    {
+      "key": "rayyan-472535804",
+      "title": "Green connections: Continual improvement in energy performance",
+      "year": "2011",
+      "journal": "Pollution Engineering",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535805",
+      "title": "ISO 50001: A global energy management system standard (EnMS)",
+      "year": "2010",
+      "journal": "World Energy Engineering Congress 2010, WEEC 2010",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535806",
+      "title": "Visualization of energy efficiency as an energy management indicator",
+      "year": "2010",
+      "journal": "Nihon Enerugi Gakkaishi/Journal of the Japan Institute of Energy",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Japanese"
+    },
+    {
+      "key": "rayyan-472535807",
+      "title": "Superior energy performance: A roadmap for achieving continual energy performance improvement",
+      "year": "2008",
+      "journal": "World Energy Engineering Congress 2009, WEEC 2009",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535829",
+      "title": "Lessons Learned Implementing ISO 50001",
+      "year": "2019",
+      "journal": "CHEMICAL ENGINEERING PROGRESS",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472535844",
+      "title": "Barriers Found in the Integrated Implementation of Energy and Environmental Management Systems Through ISO 50001 and ISO 14001",
+      "year": "2024",
+      "journal": "PROCEEDINGS OF THE 3RD INTERNATIONAL CONFERENCE ON WATER ENERGY FOOD AND SUSTAINABILITY, ICOWEFS 2023",
+      "doi": "10.1007/978-3-031-48532-9_15",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535848",
+      "title": "The iso 50001: a tool of energetic management of architectural public heritage",
+      "year": "2013",
+      "journal": "HERITAGE, ARCHITECTURE, LANDESIGN: FOCUS ON CONSERVATION, REGENERATION, INNOVATION",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535864",
+      "title": "A PROPOSED IMPLEMENTATION PROCESS FOR TOTAL-QUALITY-MANAGEMENT WITH INTEGRATION OF SUSTAINABILITY ELEMENTS OF THE INTERNATIONAL STANDARDS ISO 14001 AND ISO 50001",
+      "year": "2014",
+      "journal": "2014 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH - REGIONAL CONFERENCE AFRICA, EUROPE AND THE MIDDLE EAST AND 3RD INTERNATIONAL CONFERENCE ON QUALITY AND INNOVATION IN ENGINEERING AND MANAGEMENT (ICPR-AEM 2014)",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535883",
+      "title": "Information modelling for monitoring energy-related performance Integration of relevant variables in energy performance indicators of significant energy uses",
+      "year": "2023",
+      "journal": "ATP MAGAZINE",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472535890",
+      "title": "Optimization of Energy Consumption of a Thermal Installation Based on the Energy Management System EnMS",
+      "year": "2022",
+      "journal": "ADVANCED TECHNOLOGIES FOR HUMANITY",
+      "doi": "10.1007/978-3-030-94188-8_29",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535938",
+      "title": "General Framework of Energy Management System: Managerial and Technical Aspect",
+      "year": "2019",
+      "journal": "VISION 2025: EDUCATION EXCELLENCE AND MANAGEMENT OF INNOVATIONS THROUGH SUSTAINABLE ECONOMIC COMPETITIVE ADVANTAGE",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472535950",
+      "title": "COMPARATIVE ANALYSIS (BENCHMARKING) OF ENERGY PERFORMANCE INDICATORS FOR HOTEL FACILITIES",
+      "year": "2023",
+      "journal": "REVISTA UNIVERSIDAD Y SOCIEDAD",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Spanish"
+    },
+    {
+      "key": "rayyan-472535985",
+      "title": "A Hierarchical Aggregation Concept for Resource Efficiency in Continuous Production Complexes",
+      "year": "2017",
+      "journal": "27TH EUROPEAN SYMPOSIUM ON COMPUTER AIDED PROCESS ENGINEERING, PT B",
+      "doi": "10.1016/B978-0-444-63965.3.50255-5",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536096",
+      "title": "Hospital Energy Performance Assessment by the Energy Performance Indicator \"IEB\"",
+      "year": "2022",
+      "journal": "ADVANCED INTELLIGENT SYSTEMS FOR SUSTAINABLE DEVELOPMENT (AI2SD'2020), VOL 2",
+      "doi": "10.1007/978-3-030-90639-9_9",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536230",
+      "title": "Energy performance and heat recovery assessment in a sugar refinery",
+      "year": "2022",
+      "journal": "REVISTA CUBANA DE INGENIERIA",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536269",
+      "title": "Impacts of building performance monitoring on integrated energy management",
+      "year": "2013",
+      "journal": "CONTRIBUTIONS TO BUILDING PHYSICS",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536302",
+      "title": "A framework for commissioning and energy performance measurement and verification in buildings",
+      "year": "2017",
+      "journal": "ARCHITECTURAL RESEARCH ADDRESSING SOCIETAL CHALLENGES, VOLS 1 AND 2",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536337",
+      "title": "Advanced methodological framework in energy conservation calculation for evaluating retrofitted and operational buildings via artificial intelligence and machine learning",
+      "year": "2025",
+      "journal": "Proceedings of SPIE - The International Society for Optical Engineering",
+      "doi": "10.1117/12.3077469",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536361",
+      "title": "Energy Efficiency Assessment and Monitoring in Plastic Injection Moulding: Development of a Decision-Support Dashboard",
+      "year": "2025",
+      "journal": "Proceedings of the Summer School Francesco Turco",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536365",
+      "title": "Energy Baseline for Measurement and Verification on Energy Audit for an Oil and Gas Industry",
+      "year": "2025",
+      "journal": "Lecture Notes in Electrical Engineering",
+      "doi": "10.1007/978-981-97-8197-3_49",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536381",
+      "title": "Numerical Analysis of Phase Change Material Parameters on the Behavior of a Ground-Air Heat Exchanger",
+      "year": "2024",
+      "journal": "Defect and Diffusion Forum",
+      "doi": "10.4028/p-v6GiLq",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536391",
+      "title": "Improving Energy Baseline Models Using Artificial Neural Networks in Industrial Facilities: a Case Study of Small and Medium-Sized Company",
+      "year": "2024",
+      "journal": "International Review on Modelling and Simulations",
+      "doi": "10.15866/iremos.v17i5.24656",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536399",
+      "title": "Effect of photovoltaic installation power and façade glazing ratio on the energy performance of a nursery building",
+      "year": "2023",
+      "journal": "Engineering, Construction and Architectural Management",
+      "doi": "10.1108/ECAM-08-2021-0735",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536412",
+      "title": "Roadmap for Achieving Energy Management Vision and Goals: South Platte Renew Improves Energy Efficiency While Addressing Regulatory Challenges and Aging Infrastructure in Colorado",
+      "year": "2023",
+      "journal": "WEFTEC 2023 - 96th Annual Water Environment Federation Technical Exhibition and Conference",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536413",
+      "title": "Energy Performance Monitoring Framework for Dual-Shaft Gas Turbine-Driven Gas Compressors in Processing Plants",
+      "year": "2023",
+      "journal": "Petroleum and Coal",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536438",
+      "title": "Increasing Energy Efficiency by using Energy Performance Indicators in the Metal Processing Industry",
+      "year": "2022",
+      "journal": "ZWF Zeitschrift fuer Wirtschaftlichen Fabrikbetrieb",
+      "doi": "10.1515/zwf-2022-1031",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:German"
+    },
+    {
+      "key": "rayyan-472536441",
+      "title": "Towards a future sustainable housing stock Assessment of the energy performance of dwellings of non-profit housing associations",
+      "year": "2022",
+      "journal": "A+BE Architecture and the Built Environment",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536456",
+      "title": "Heat exchanger network analysis and design in a crude oil refinery",
+      "year": "2021",
+      "journal": "Universidad y Sociedad",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Spanish"
+    },
+    {
+      "key": "rayyan-472536462",
+      "title": "Change How Your Plant Runs",
+      "year": "2021",
+      "journal": "Chemical Processing",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472536463",
+      "title": "Energy analysis procedure for the conversion of sugar cane industries into biorefineries",
+      "year": "2021",
+      "journal": "Universidad y Sociedad",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Spanish"
+    },
+    {
+      "key": "rayyan-472536473",
+      "title": "Energy saver: Stay on top with EnPIs",
+      "year": "2021",
+      "journal": "Chemical Processing",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536515",
+      "title": "NRG4-PRO: A NOVEL FULL INFERENCE ENGINE",
+      "year": "2020",
+      "journal": "IET Conference Proceedings",
+      "doi": "10.1049/icp.2021.1229",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536520",
+      "title": "Assessment of the energy performance and indoor environment of buildings in the context of the new European EPB directive",
+      "year": "2020",
+      "journal": "Vytapeni, Vetrani, Instalace",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Czech"
+    },
+    {
+      "key": "rayyan-472536550",
+      "title": "A leading indicator to track status of energy management systems (ENMS) implementation",
+      "year": "2019",
+      "journal": "AEE World Energy Engineering Congress 2019",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536552",
+      "title": "Continuous monitoring of energy performance in industrial systems",
+      "year": "2019",
+      "journal": "Refrigeration Science and Technology",
+      "doi": "10.18462/iir.icr.2019.0275",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536553",
+      "title": "Dynamic modeling, simulation and energy performance improvement of NASA Ames Sustainability Base",
+      "year": "2019",
+      "journal": "ECOS 2019 - Proceedings of the 32nd International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536556",
+      "title": "Methodology for the implementation of a Maintenance system Centered on Energy Efficiency (MCEE) in industrial organizations through a computer tool",
+      "year": "2019",
+      "journal": "Espacios",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "metadata_language:Spanish"
+    },
+    {
+      "key": "rayyan-472536558",
+      "title": "Designing zero-energy buildings using advanced fuzzy cognitive maps",
+      "year": "2019",
+      "journal": "Communications in Computer and Information Science",
+      "doi": "10.1007/978-3-030-29743-5_20",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536584",
+      "title": "Energy efficiency good practices in industry: The EIEEP platform",
+      "year": "2018",
+      "journal": "Eceee Industrial Summer Study Proceedings",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536639",
+      "title": "Streamlining corporate energy data analytics",
+      "year": "2016",
+      "journal": "39th World Energy Engineering Conference, WEEC 2016",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472536645",
+      "title": "Aluminium casting furnace energy efficiency: Recent improvements in Rio Tinto aluminium casthouses",
+      "year": "2016",
+      "journal": "TMS Light Metals",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536646",
+      "title": "An approach to electricity monitoring and targeting (M&T) in Irish precision engineering SMEs",
+      "year": "2016",
+      "journal": "Smart Innovation, Systems and Technologies",
+      "doi": "10.1007/978-3-319-32098-4_14",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536670",
+      "title": "HP innovations",
+      "year": "2014",
+      "journal": "Hydrocarbon Processing",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536684",
+      "title": "Energy performance indicator for integrated mills",
+      "year": "2014",
+      "journal": "Paper360",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536700",
+      "title": "Energy efficiency and alternative sources in MSMEs tourism sector",
+      "year": "2013",
+      "journal": "Proceedings of the 26th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental Impact of Energy Systems, ECOS 2013",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536705",
+      "title": "Innovative solutions and results of persistent energy savings for retro-commisisoning projects",
+      "year": "2012",
+      "journal": "World Energy Engineering Congress 2012, WEEC 2012",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536708",
+      "title": "Future key energy monitoring",
+      "year": "2012",
+      "journal": "Productivity Management",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472536723",
+      "title": "Energy performance monitoring",
+      "year": "2011",
+      "journal": "Petroleum Technology Quarterly",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536724",
+      "title": "Energy performance monitoring: An integrated energy management system supports improvements to a refinery's performance in energy consumption and emissions control",
+      "year": "2011",
+      "journal": "Petroleum Technology Quarterly",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536745",
+      "title": "Energy performance evaluation of campus facilities",
+      "year": "2007",
+      "journal": "Construction and Building Research Conference of the Royal Institution of Chartered Surveyors, COBRA 2007",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536773",
+      "title": "Setting the energy baseline for performance contracts",
+      "year": "2001",
+      "journal": "Strategic Planning for Energy and the Environment",
+      "doi": "10.1092/D50R-FR06-B72R-910Q",
+      "rayyan_decision": "Included",
+      "document_type": "journal article",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536779",
+      "title": "Instrumentation issues for monitoring chiller plant efficiency",
+      "year": "2001",
+      "journal": "ASHRAE Transactions",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    },
+    {
+      "key": "rayyan-472536791",
+      "title": "Industrial energy performance indicator reports",
+      "year": "1999",
+      "journal": "Proceedings ACEEE Summer Study on Energy Efficiency in Industry",
+      "doi": "",
+      "rayyan_decision": "Included",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved",
+      "language_flag": "title_suggests_non_english"
+    },
+    {
+      "key": "rayyan-472536797",
+      "title": "Energy performance monitoring in Shanghai factories",
+      "year": "1998",
+      "journal": "Proceedings of the International Conference on Energy and Environment, ICEE",
+      "doi": "",
+      "rayyan_decision": "Maybe",
+      "document_type": "conference proceedings",
+      "reason": "not_retrieved"
+    }
+  ]
+}

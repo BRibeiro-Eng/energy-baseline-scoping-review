@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535784",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:12:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "novel process model examples, covering energy management policy, system design, implementation planning, and energy management audit-related process models",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Presents the iSEE:Green energy-management architecture/framework and qualitative process models (policy, system design, implementation planning, audit). EnPI/EnB content appears only incidentally as generic ISO 50001 elements (\"establish a baseline and energy performance indicators\") and an uncharacterised \"energy flow transfer function\"; no measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). Matches the v2.3 ineligible clause for a framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The integrated architecture and framework (iSEE:Green)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Framework/architecture paper; EnPI/EnB only as generic ISO 50001 list items. Large mercury/coal-pollution digression unrelated to energy modelling."
+  },
+  "stage2": null,
+  "stage3": null
+}

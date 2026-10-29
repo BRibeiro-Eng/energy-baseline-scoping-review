@@ -1,0 +1,28 @@
+# Prompt release v2.3.1-operational
+
+Prompt release: `v2.3.1-operational`
+Eligibility release inherited from: `v2.3-eligibility-registered`
+Schema version: `v2.2.1` (FROZEN; unchanged)
+Validation protocol: `C-2.3`
+
+## Active methodological state
+
+- Stage 1 uses the registered broad eligibility threshold: a paper is eligible
+  when it presents, proposes, evaluates, or critiques an EnPI/EnB model with
+  enough detail to identify and characterise it. Validation is an extracted
+  variable, never an eligibility gate.
+- Corpus-B classification uses the closed sector list and production mode.
+  Non-stationarity, fouling, drift, and similar mechanisms are extracted
+  outcomes, not membership criteria.
+- The schema remains frozen at v2.2.1. Evidence-envelope normalization and
+  page-list rules from `v2.2.1-frozen` remain in force.
+- The superseded §13.2 n=30 pilot is not an execution target. Production and
+  validation follow `VALIDATION_PROTOCOL_C.md` C-2.3 through independent clean
+  Claude Code and Codex/ChatGPT application workspaces.
+
+## Release delta
+
+This release changes only this VERSION manifest so that the packaged prompt
+metadata matches the already-tagged v2.3 Stage-1 content and the active C-2.3
+workflow. `stage1_system.md`, `stage2_system.md`, and `stage3_system.md` are
+byte-identical to `v2.3-eligibility-registered`.

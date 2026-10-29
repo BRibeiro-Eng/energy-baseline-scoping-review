@@ -1,0 +1,268 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536612",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T12:01:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "For this reason it has been chosen to use a more objective relationship between energy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / m3)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Multi-sector sample includes closed-list continuous-process sectors (basic metals, chemical products, and paper) alongside discrete sectors."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Starting from this assumption a 12 wide-ranging questions survey were submitted to a sample of companies.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "According to Art. 8 of Legislative (Lgs.) Decree n°102 of the 4th July 2014, Italian transposition of the European Union through Directive 2012/27/EU, the large and energy intensive enterprises must undergo energy audits on their plants at least every four years",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "sector_of_activity": {
+      "value": "manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": "According to Art. 8 of Legislative (Lgs.) Decree n°102 of the 4th July 2014, Italian transposition of the European Union through Directive 2012/27/EU, the large and energy intensive enterprises must undergo energy audits on their plants at least every four years",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "For this reason it has been chosen to use a more objective relationship between energy consumption for compressed air generation and the amount of air produced measured in m3 (kWhe CAS / m3)",
+        "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and the significance",
+        "The regression method using measured data can help firms to analyze their electric consumption and thanks to control charts and CUSUM they can have a real-time monitoring system."
+      ],
+      "page": [
+        3,
+        4,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "the amount of the final product",
+        "the amount of compressed air produced"
+      ],
+      "evidence_quote": "Specifically, the most significant data indicate the total amount of energy used by the company, the amount of energy used for the compressed air production, the amount of the final product and the amount of compressed air produced.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "A company-specific internal-performance baseline is proposed, using regression on measured electric-consumption data and monitoring with control charts and CUSUM.",
+      "evidence_quote": "Each company can also develop a baseline for internal performance benchmarking, monitor them through the use of control charts and improve them. The regression method using measured data can help firms to analyze their electric consumption and thanks to control charts and CUSUM they can have a real-time monitoring system.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value and the significance (right side). From the results, if all the available data are considered, the P-Value is under 0.05 for all the linear regression inclines.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "The present study aims to define a measurement procedure that will ensure the availability of the necessary data for proper benchmarking of energy performance in production and use of compressed air.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scope_description": {
+      "value": "compressed air generation systems for energy-intensive industrial firms",
+      "evidence_quote": "The available data have made necessary a definition of indicators and procedures to collect more data in order to perform a complete benchmarking of compressed air generation systems",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "By comparing the energy consumption in kWhe CAS/m3 it is assumed that the working conditions do not vary significantly between all the enterprises, hence restricting the applications of this approach",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "By comparing the energy consumption in kWhe CAS/m3 it is assumed that the working conditions do not vary significantly between all the enterprises, hence restricting the applications of this approach",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "In the event that the system has multiple pressure levels it would be useful to develop a statistical analysis system that considers the effect of pressure and develop different benchmarks based on the pressure level.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "In the event that the system has multiple pressure levels it would be useful to develop a statistical analysis system that considers the effect of pressure and develop different benchmarks based on the pressure level. A further path could be the development of a more complex benchmark system capable of different pressure levels.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In the event that the system has multiple pressure levels it would be useful to develop a statistical analysis system that considers the effect of pressure and develop different benchmarks based on the pressure level.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "In 2015 the Italian transposition of the European Directive 2012/27/EU (i.e. Legislative Decree 102/2014) allowed to require energy audit to large and energy intensive enterprises. First analyses, aimed at developing energy performance indicators, showed some limitations in data collection.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "p-value",
+          "value": "under 0.05",
+          "unit": null,
+          "period_or_context": "all available data; linear-regression inclines",
+          "evidence_quote": "From the results, if all the available data are considered, the P-Value is under 0.05 for all the linear regression inclines.",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "From the results, if all the available data are considered, the P-Value is under 0.05 for all the linear regression inclines.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535370",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T12:44:10.845406+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Although no specific project currently exists, the paper draws on relevant scientific literature and best practices to illustrate how exergy analysis and the ISO 50001 system approach",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Conceptual 'pre-research'/feasibility proposal for district-heating modernization. It invokes ISO 50001/50006 and presents a system energy balance (Eq. 1) and an 'example' ISO 50006 EnPI-normalization/baseline table (Table 1), but does not identify or characterise an EnPI/EnB measurement model: no normalization variable, indicator functional form, or baseline construction/period is specified. EnPI/EnB is mentioned only incidentally/aspirationally.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The pre-research indicates that a green transition in Orlandovtsi is feasible if a comprehensive solution is provided",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "BORDERLINE ELIGIBILITY - flag for human blind-first review. Near-even call: paper asserts ISO 50006 EnPI normalization + baseline comparison (Table 1, p7) and gives an energy-balance eq (Eq.1, p4), but no EnPI/EnB model is actually characterised -> read as ineligible (conf 0.6). Sector = district heating/CHP for a residential+institutional urban district (Sofia); NOT on the closed continuous-process list, so level_3b would be false regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

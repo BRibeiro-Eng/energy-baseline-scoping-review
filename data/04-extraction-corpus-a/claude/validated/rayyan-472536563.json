@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536563",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:49:26.393292+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "is an Energy Performance Indicator and its formula is",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "this review study presents a guideline for the environmental performance of RES with storage systems",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "an integrated system of Photovoltaic (PV) and Battery Energy Storage (PV-battery) is used",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Borderline review/synthesis: it defines/characterises energy performance indicators (Energy Payback Time, Cumulative Energy Demand, Net Energy Ratio, embodied energy) with explicit formulae, but these are LCA life-cycle energy indicators for RES+storage, not ISO 50006 EnB/baseline models; scope match debatable -> flagged for human review. No ISO 50001/50006, no energy baseline."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "renewable energy systems",
+      "evidence_quote": "list of KPIs for the case of renewable energy systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the \"Net Energy Ratio (NER)\" and the \"Cumulative Energy Demand (CED)\" are defined",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

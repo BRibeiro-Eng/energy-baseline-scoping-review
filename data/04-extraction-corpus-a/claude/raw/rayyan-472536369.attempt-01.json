@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536369",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:36:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "based on the prediction model, EnPi is proposed to specify when and where energy savings or excess usage occur during the operation",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "four space types of a real educational building are chosen as case studies to assess the model performance",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "space types of the educational building belonging to Epsom Girls Grammar School",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Eligible: proposes ML-ensemble energy baseline + EnPI (actual/expected) under ISO 50001; NZ educational building. Not 3B (buildings; p16 only speculates future steel/chemical use)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "one main meter related to the main site and three sub-meters",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Auckland, New Zealand",
+      "evidence_quote": "located in Auckland, New Zealand",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "educational building",
+      "evidence_quote": "space types of the educational building belonging to Epsom Girls Grammar School",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "four different space types of real-world educational buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "recommended by ISO 50001 Energy",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "five stand-alone deep learning models",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

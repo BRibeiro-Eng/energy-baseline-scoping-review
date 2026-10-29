@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472535674",
+  "listed_sector_signals": [
+    {
+      "signal": "One of the five analyzed SEP-certified facilities is described as a 'chemical' facility; its energy consumption and relevant-variable data were used in the regression analysis, though production mode (continuous vs. batch) is not stated",
+      "quote": "The five facilities span a wide range of industrial subsectors including chemical, power generation equipment manufacturing, automotive assembly, and food processing.",
+      "page": 11,
+      "sector": "continuous chemical production / petrochemicals"
+    },
+    {
+      "signal": "Iron and steel facility cited only as a hypothetical example of cross-facility EPI% comparison, not a facility actually analyzed",
+      "quote": "comparing EPI %from an iron\nand steel facility in China to an automotive assembly facility in Germany",
+      "page": 16,
+      "sector": "steel / primary metals"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper compares absolute, intensity, and normalization (regression) bases for calculating facility-wide industrial energy savings under ISO 50001 / DOE Superior Energy Performance, applying them to data from five SEP-certified facilities (chemical, power-generation equipment manufacturing, automotive assembly, food processing) without characterizing their production mode as continuous."
+}

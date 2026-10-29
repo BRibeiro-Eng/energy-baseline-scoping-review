@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536603",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:41:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "We used the energy baseline models developed in section 4.2",
+        "The evaporator was modeled using a simple 2nd order polyfit regression model correlating the evaporator heat gain to ambient temperature"
+      ],
+      "page": [
+        6,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.58
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The system under investigation was a 1.5kW split type ASHP water heater retrofitting a 1501 geyser",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The control draws were designed to align with a typical residential house hot water demand profile",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Residential ASHP domestic hot-water heater (South Africa). Develops characterized energy-baseline regression models (evaporator 2nd-order polyfit; condenser multiple linear regression; R2 0.94/0.80). Methodological eligibility BORDERLINE vs the 'residential buildings without industrial component' exclusion -> flagged for human Tier-1 adjudication. Clearly NOT Level 3B (residential, not a closed-list continuous-process sector)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The system under investigation was a 1.5kW split type ASHP water heater retrofitting a 1501 geyser",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "The ASHPs supplied on the South African market",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "sector_of_activity": {
+      "value": "residential water heating",
+      "evidence_quote": "Residential air source heat pump (ASHP) water heaters",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "a typical residential house hot water demand profile",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "characterized by a simple multiple linear regression model",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

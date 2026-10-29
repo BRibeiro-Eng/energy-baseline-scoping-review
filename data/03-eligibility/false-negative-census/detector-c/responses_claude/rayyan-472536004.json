@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536004",
+  "listed_sector_signals": [
+    {
+      "signal": "Cites an EMS study structured around pulp and paper industry processes (historical reference, not applied in this paper)",
+      "quote": "Kaya and Keyes presented in their study the structure of an EMS, along\nwith its respective implementation levels based on the processes of pulp and paper indus-\ntries.",
+      "page": 8,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Mentions urban district heating systems in the context of thermal energy profiling software",
+      "quote": "evaluate the thermal energy profile of buildings or urban district heating systems",
+      "page": 9,
+      "sector": "district heating"
+    },
+    {
+      "signal": "Lists LNG and methanol as alternative fuels usable in ports (fuel consumption, not continuous production)",
+      "quote": "Use of alternative fuels\n(e.g., LNG, methanol,\nbiofuels, biomass,\nhydrogen) for combined\nheat and power (CHP),\nvehicles and other\nmotorised equipment",
+      "page": 23,
+      "sector": "LNG / alternative fuels"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A literature review of energy management systems (EMSs) and their evolution and application to harbour/port activities (shore power, microgrids, RES, peak shaving), with Corpus-B sectors appearing only as incidental cited references (e.g., pulp and paper)."
+}

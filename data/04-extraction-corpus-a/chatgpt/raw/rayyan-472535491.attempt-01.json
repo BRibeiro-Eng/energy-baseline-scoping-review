@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535491",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T13:59:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The method is based on \nthe equation (presented here at annotation in a simplified form), which gives \na numerical indicator (rating) R of the efficiency of a production facility in terms \nof hazardous emissions into the atmosphere, taking into account greenhouse gases \nand energy costs arising from their removal.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "It seems reasonable enough to use the proposed at this \nwork methodology with its testing in the pilot region, necessary adjustments and \nfurther dissemination of experience.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Currently, the technique is adapted to \nthe energy sector; for wider adaptation to various industries, a low-carbon rating \nprogram has been drawn up for boiler houses, thermal power plants and industrial \nenterprises.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "The explicit application context is energy generation/thermal power, which is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "but so far it has not been tested at the global, national and/or regional levels.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "It seems reasonable enough to use the proposed at this \nwork methodology with its testing in the pilot region",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "sector_of_activity": {
+      "value": "energy sector",
+      "evidence_quote": "Currently, the technique is adapted to \nthe energy sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "for wider adaptation to various industries",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "for use as a unified tool within the framework of ISO \n50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "The methodology is based on equations (1, 2), which give weighted av-\nerage numerical indicators R, ηCOMP of the efficiency of generating enterprises \nfor the emission of toxic ingredients and greenhouse gases, and taking into ac-\ncount the energy costs that may arise during CCS.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    }
+  },
+  "stage3": null
+}

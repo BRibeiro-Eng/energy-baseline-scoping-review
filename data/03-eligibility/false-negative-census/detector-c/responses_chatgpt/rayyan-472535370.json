@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535370",
+  "listed_sector_signals": [
+    {
+      "signal": "Hydrogen is mentioned as a possible future CHP fuel; hydrogen production is not described.",
+      "quote": "Natural gas is seen as an interim solution - with the possibility of a future switch to biogas or\nhydrogen.",
+      "page": 5,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Proposed natural-gas cogeneration units serving the base heat load.",
+      "quote": "To cover the base heat load, several small CHP units (~10 MWt / ~10 MWe in total) are planned\nto be built, running on natural gas as a transitional fuel.",
+      "page": 4,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "District heating loops with decentralized heat pumps and potential industrial waste-heat recovery.",
+      "quote": "The fifth generation (SGDHC) goes\neven further, with ambient mains temperatures (often 10-30 °C) and decentralised heat pumps at\neach site, including the ability to recover cooling and waste heat from industrial or domestic\nprocesses.",
+      "page": 4,
+      "sector": "district heating and waste-heat recovery"
+    },
+    {
+      "signal": "Illustrative seasonal energy-balance calculations for the proposed CHP district heating system.",
+      "quote": "The presented values result from a seasonal energy\nbalance calculated according to ISO 50006 methodology, using normalized energy performance\nindicators and baseline comparison.",
+      "page": 7,
+      "sector": "cogeneration and district heating"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "Conceptual modernization of residential and public-building heating in Orlandovtsi using proposed CHP, district heating, renewables, storage and ISO 50001, with illustrative ISO 50006 seasonal calculations."
+}

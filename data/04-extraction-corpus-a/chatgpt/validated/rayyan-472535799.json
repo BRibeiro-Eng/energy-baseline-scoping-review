@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535799",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T15:17:24Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper describes a four-step method to analyze utility\nbilling, weather, and production data to quantify a company's\nnormalized energy intensity over time.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The method is demonstrated in a case study\nexample.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This is useful\nnot only as a potential way to achieve ISO 50001\ncertification, but also as a way to communicate energy\nperformance in readily understood units, energy per part\nproduced.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "notes": "The case-study sector is not explicitly named; the energy-per-part/manufacturing framing does not establish a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the plant in this case study made an effort to lower\nits energy intensity",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "NAC reveals the true energy characteristics of facilities\nand manufacturing processes",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "This is useful\nnot only as a potential way to achieve ISO 50001\ncertification, but also as a way to communicate energy\nperformance in readily understood units, energy per part\nproduced.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Energy standard ISO 50001 will require industries to quantify\nimprovement in energy intensity to qualify for certification.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": [
+        "One such method is the Superior Energy Performance Default\nMethod for calculating energy intensity (SEP, 2009).",
+        "“Superior\nEnergy Performance Certification Measurement and\nVerification Protocol”"
+      ],
+      "page": [
+        7,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": "The algorithms used to generate multi-variable change point\nmodels are described in Kissock et al., 2006.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

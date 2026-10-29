@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535654",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T11:20:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the paper explains how to achieve a calibrated Building Energy\nSimulation (BES) model using an optimisation process based on a meta-heuristic strategy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the same real\ncase study described in [1], an ofﬁce area of the ‘‘Ediﬁcio Amigos”\nbuilding located at the University of Navarra",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "area of the ‘‘Ediﬁcio Amigos”\nbuilding located at the University of Navarra",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Building-envelope BES calibration (university office building); calibrated model framed as M&V baseline (EnB) under IPMVP/ASHRAE. Eligibility borderline; buildings sector, not continuous-process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "area of the ‘‘Ediﬁcio Amigos”\nbuilding located at the University of Navarra",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Spain",
+      "evidence_quote": "located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "office area",
+      "evidence_quote": "[1], an ofﬁce area of the ‘‘Ediﬁcio Amigos”\nbuilding",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "area of the ‘‘Ediﬁcio Amigos”\nbuilding located at the University of Navarra",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "international standards such as ISO 50001 focus on improving their energy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "International Performance\nMeasurement and Veriﬁcation Protocol (IPMVP)",
+        "ASHRAE Guidelines 14-2002 [3]",
+        "Federal Energy Management Program\n(FEMP)"
+      ],
+      "page": [
+        1,
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "physical properties of each model",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,52 @@
+{
+  "attempt": 1,
+  "errors": [],
+  "grounding": {
+    "checked": 5,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 13,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 8,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": true,
+        "locator": 14,
+        "page_unverified": false,
+        "score": 100.0
+      }
+    ]
+  },
+  "paper_key": "rayyan-472536563",
+  "valid": true,
+  "warnings": []
+}

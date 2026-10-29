@@ -1,0 +1,98 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535739",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Japan",
+        "ems_standard": [
+          "ISO 50001",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "other-named"
+        ],
+        "sector_of_activity": "industrial and commercial facilities",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Energy intensity is constructed as energy consumption divided by a production index and its five-year trend is reported.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "insufficient organizational capacity",
+          "difficulty understanding the EnMS standard and developing required management manuals"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "production index"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "Company-level energy-intensity reporting across all sites operated by a specified company.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535739",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Japan",
+        "ems_standard": [
+          "ISO 50001",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "other-named"
+        ],
+        "sector_of_activity": "forging manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

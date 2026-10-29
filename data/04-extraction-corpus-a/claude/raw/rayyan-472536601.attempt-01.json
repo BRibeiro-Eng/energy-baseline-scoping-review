@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536601",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:41:40.605895+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "average active power and Maximum Demand (MD) are identified as EnPI so that the correlation between influent and effluent quality, hydraulic flow, gas production and composition, sludge cakes and energy consumption can be established",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The data collection for this research is obtained from the\nindustry. The data covered for 4 years, from 2013 until 2016.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Sewage treatment plant (STP) consumes a large proportion\nof total energy consumption in Malaysia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Title says 'A Review' but body is an empirical single applied case (energy audit + EnPI on one operator's regional STP, 2013-2016). Sector = municipal sewage/wastewater treatment: continuous-flow but NOT in the closed Level-3B list -> level_3b=false. type_of_organisation coded 'continuous process' in broad A9 24/7 sense, not 3B membership."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the operational cost for the centralized\nregional STP is too costly",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Malaysia",
+      "evidence_quote": "two different systems in\nSTPs that is available in Malaysia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "sewage treatment plant",
+      "evidence_quote": "Sewage treatment plant (STP) consumes a large proportion\nof total energy consumption in Malaysia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "incoming raw sewage is lifted to a level to allow flow through",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "active power (kWh) is\ndone to setup the EnPI (kWh/m*)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536657",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:37:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this study focused on the reasons for undertaking studies and the practical issues of collecting data and presenting results, rather than investigating the underlying theory of BPE and its constituent theoretical elements",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Exclusive focus on domestic buildings without an industrial component; the interview study discusses BPE practice but does not identify or characterise an EnPI/EnB model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The study took an exploratory approach, with no pre-formed hypothesis, in order to avoid a research bias. Semi-structured interview methods were used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Qualitative study of nine UK domestic BPE practitioners; no EnPI/EnB model is presented, proposed, evaluated, or critiqued in identifiable form."
+  },
+  "stage2": null,
+  "stage3": null
+}

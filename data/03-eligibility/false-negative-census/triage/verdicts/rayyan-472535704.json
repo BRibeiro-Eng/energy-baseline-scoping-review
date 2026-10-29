@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472535704",
+ "tier": "B",
+ "ts": "2026-09-10T16:49:29",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 49.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem metodologia de EnBs e EnPIs"
+}

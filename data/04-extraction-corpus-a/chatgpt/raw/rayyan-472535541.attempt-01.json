@@ -1,0 +1,271 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535541",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:00:11Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3. The energy reductions were satisfactory and ranged from 16.30% to 42.60%.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The model and its support instruments were preliminarily evaluated in six types of organization: family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production.",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "glass container production plant",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "The EnPI is a simple per-capita energy-consumption reduction measure evaluated across six organisations; one application is glass production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The model and its support instruments were preliminarily evaluated in six types of organization",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production",
+      "evidence_quote": "family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50001 Energy Management Systems (EnMS)",
+        "ISO50047:2016, ISO50004:2014, ISO50006:2014, and ISO 50015:2014."
+      ],
+      "page": [
+        1,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "ISO 17743",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 17741:2016; ISO 17743:2016;",
+        "ISO50047:2016, ISO50004:2014, ISO50006:2014, and ISO 50015:2014."
+      ],
+      "page": [
+        17,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "per capita"
+      ],
+      "evidence_quote": "REDUCTION OF PER CAPITA ENERGY CONSUMPTION. BETWEEN YEAR 1 AND YEAR 3",
+      "page": 23,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_construction_method": {
+      "value": "Average reduction in per capita energy consumption between year 1 and year 3.",
+      "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "the fieldwork and the application of the tools and the model in the companies, allowed validating the structural logic, the pedagogical utility, and the expected functional approach.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "The model and its support instruments were preliminarily evaluated in six types of organization",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "a family compensation fund, a clinic, a municipal hospital, a pharmaceutical laboratory, a port logistics operator, and a glass container production plant",
+      "evidence_quote": "The approach presented here was applied in a family compensation fund, in a clinic and a municipal hospital, in a pharmaceutical laboratory, in a port logistics operator, and in a glass container production plant.",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "a glass container production plant",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "16.30% to 42.60%",
+          "unit": "%",
+          "period_or_context": "average reduction in per capita energy consumption between year 1 and year 3",
+          "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3. The energy reductions were satisfactory and ranged from 16.30% to 42.60%.",
+          "page": 25,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3. The energy reductions were satisfactory and ranged from 16.30% to 42.60%.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "pessimism",
+        "preliminary resistance to change",
+        "implementing energy efficiency is not cost-effective or has little financial benefits"
+      ],
+      "evidence_quote": "During the implementation processes of a CMS, the energy eﬃciency component faces many barriers and diﬃculties that are closely linked to pessimism, preliminary resistance to change, or because in some cases implementing of energy eﬃciency is not cost-eﬀective or has little ﬁnancial beneﬁts.",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  }
+}

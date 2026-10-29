@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536521",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Atienza-Márquez, A. and Bruno, J.C. and Coronas, A.",
+    "rayyan_decision": "Included",
+    "source": "Applied Sciences (Switzerland)",
+    "title": "Recovery and transport of industrialwaste heat for their use in urban district heating and cooling networks using absorption systems",
+    "year": 2020
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "Equivalent electricity saving (EqES). Defined as the ratio between the heating and cooling produced",
+      "page": 12,
+      "rule": "§5.2 LIMIAR LITERAL v2.3 (revertido apos verificacao adversarial): o limiar registado e um teste de IDENTIFICABILIDADE, nao de qualidade — 'presents, proposes, evaluates OR critiques ... with sufficient detail to identify and characterise'. A §3.3 'Performance Indicators' define COPH_tot, COPC_tot, eficiencia exergetica e Equivalent Electricity Saving EqES = (QH/COPref + QC/EERref)/QWH - 1 com variaveis e forma funcional explicitas, e o EqES normaliza contra eficiencias de tecnologia de referencia fixadas externamente (COPref 3,7/3,1/2,5; EERref 4,1) — um construto de baseline de referencia. Nenhuma das tres clausulas de inelegibilidade morde."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535451",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:41:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this study conducted an online survey of 40 polling questions during the 50001 Ready Virtual In-Plant Training to identify the barriers and challenges of implementing ISO 50001-based energy management systems.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Training/polling survey on EnMS implementation barriers; no EnPI/EnB model is presented, proposed, evaluated, or critiqued.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This study was performed using online polling surveys during the training sessions.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Linear regression is only mentioned as a training topic and participant intention; no model instance or construction details are supplied."
+  },
+  "stage2": null,
+  "stage3": null
+}

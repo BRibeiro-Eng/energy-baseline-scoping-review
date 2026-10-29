@@ -1,0 +1,55 @@
+{
+  "key": "rayyan-472536540",
+  "committed_at": "2026-09-01T14:45:59",
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "reviewer_notes": "",
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "In literature, the Energy Utilization Factor (EUF [-]) and the Trigeneration Primary Energy Saving",
+      "page": 14,
+      "rule": "§5.2 LIMIAR LITERAL v2.3 (revertido apos verificacao adversarial): define eta_e, eta_h, eta_c, EUF e Trigeneration Primary Energy Saving TPES (Eq. 2) com variaveis e forma funcional explicitas, e a TPES compara o ciclo contra um sistema de referencia de producao separada definido por regulacao (eta_e,SS = 0,24; eta_h,SS = 0,8; EER_VC,SS = 3,4 pela regulacao italiana de cogeracao) — um construto de baseline de referencia. Propoe ainda um metodo de construcao proprio (Parallel Coordinate Plots + mapas de desempenho por indicador)."
+    }
+  },
+  "review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "_done": false
+}

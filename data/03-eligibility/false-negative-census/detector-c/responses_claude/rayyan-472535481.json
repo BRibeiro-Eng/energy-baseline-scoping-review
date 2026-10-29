@@ -1,0 +1,46 @@
+{
+  "key": "rayyan-472535481",
+  "listed_sector_signals": [
+    {
+      "signal": "Iron and steel named among the manufacturing industries covered in ENEA's overall energy-audit dataset (9% of EAs), but not among the four sectors actually analysed",
+      "quote": "with particular importance to the plastic (8%), iron and steel\n(9%), food (6%), textile (3%), and paper (2%) industries.",
+      "page": 2,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Paper industry named among the manufacturing industries covered in the overall dataset (2% of EAs), mention only",
+      "quote": "with particular importance to the plastic (8%), iron and steel\n(9%), food (6%), textile (3%), and paper (2%) industries.",
+      "page": 2,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Cement industry referenced only via a cited companion paper on energy efficiency improvements",
+      "quote": "Technological Energy Eﬃciency Improvements in Cement\nIndustries.",
+      "page": 21,
+      "sector": "cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Ceramics (tiles/bricks) is one of the two manufacturing sectors empirically analysed; involves continuous kilns/furnaces (MW-scale furnace substitution mentioned)",
+      "quote": "Ceramics: C23.31—manufacture of ceramic tiles and ﬂags and C23.32—manufacture\nof bricks, tiles, and construction products in baked clay;",
+      "page": 4,
+      "sector": "ceramics"
+    },
+    {
+      "signal": "Plastics product manufacturing (NACE C22.22/C22.29) is the other manufacturing sector analysed; product-conversion (discrete) rather than polymer/olefin production",
+      "quote": "Plastics: C22.22—manufacture of plastic packing goods and C22.29—manufacture of\nother plastic products.",
+      "page": 4,
+      "sector": "plastics processing / converting"
+    },
+    {
+      "signal": "Cogeneration and trigeneration measures referenced as an EPIA category (explicitly excluded from analysis)",
+      "quote": "Measures in the categories of cogeneration and trigeneration and production\nfrom renewable sources were excluded from the analysis",
+      "page": 5,
+      "sector": "cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "Empirical statistical analysis of Italian energy-audit and energy-management-system data across four sectors (plastics product manufacturing, ceramics, retail, banks) to assess the impact of monitoring/ISO 50001 on energy performance improvement actions; registered continuous-flow sectors (steel, paper, cement) appear only as dataset descriptors or citations."
+}

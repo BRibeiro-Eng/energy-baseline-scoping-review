@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535394",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:13:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In this study, the concept and development process of the international standard for energy management assessment is discussed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "Energy-management assessment framework without an identifiable EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Each structure contained “basic items”, which are items for the assessment of all organizations, and “advanced items”, which are selectable items for each organization. The total score was changed from 300 to four levels of each structure.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "ISO TS 50011 assesses EnMS progress; references to energy intensity and ISO 50006 do not identify or characterise a central EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

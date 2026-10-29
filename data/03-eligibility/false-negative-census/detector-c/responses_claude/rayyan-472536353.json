@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536353",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The study site is a rubber glove manufacturing facility running around the clock in three shifts, i.e., 24/7 continuous production (though the product itself is discrete gloves, not one of the eight registered continuous-flow sectors)",
+      "quote": "The production facility operates around the clock, divided into three shifts, ensuring continuous production 24 h a day.",
+      "page": 8,
+      "sector": "rubber glove manufacturing (continuous 24/7 dipping line)"
+    },
+    {
+      "signal": "Rubber glove production from synthetic latex with a continuous multi-stage process flow of chemical tanks and ovens",
+      "quote": "It specializes in the production of rubber gloves, utilizing synthetic latex as its primary raw material.",
+      "page": 8,
+      "sector": "rubber glove manufacturing (latex dipping line)"
+    },
+    {
+      "signal": "Energy-intensive continuous process line of tanks and ovens characterizing the production flow",
+      "quote": "The process in­cludes several energy-intensive steps such as the Chemical Cleaning \nTank, Water Tank, Washing Brush Tank, Coagulant Tank, Coagulant \nOven, Main Oven, Beading Station, Pre Leaching Tank, Latex Oven, \nLatex Tank, Chlorination Tank, Post Rinsing Tank, Final Drying Oven, \nRobotic Arm, and Stacking & Online Packing.",
+      "page": 8,
+      "sector": "rubber glove manufacturing (process line)"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper empirically develops and validates deep-learning-based energy Measurement & Verification (IPMVP with anomaly detection) using real SCADA/SEMS data from a 24/7 rubber-glove manufacturing plant in Malaysia — a continuous-operation but discrete-product facility that is not one of the eight registered Corpus B sectors."
+}

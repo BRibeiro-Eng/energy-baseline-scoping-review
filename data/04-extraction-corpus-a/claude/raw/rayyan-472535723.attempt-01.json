@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535723",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T22:03:40.778085+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "SEP is an energy-management certification program administered by the DOE that helps facilities implement the ISO 50001 energy-management standard and verify energy savings.",
+        "Energy performance indicators (EnPIs) are measured parameters, ratios, or models that help to quantify energy use and efficiency improvements at the organization, facility, system, process, or equipment level."
+      ],
+      "page": [
+        1,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Program/framework overview of the U.S. DOE Superior Energy Performance (SEP) certification program and generic ISO 50001 EnMS implementation steps. EnPIs appear only as a generic definition; no specific EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (no variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Participating facilities can qualify for Silver, Gold, and Platinum designations",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "paper_type borderline: DOE 'Superior Energy Performance' program-overview article; coded 'maturity model or framework' (SEP certification framework with Silver/Gold/Platinum maturity tiers), but 'other' (practitioner/promotional program overview) is defensible. Ineligible under v2.3: EnPIs only generically defined, no specific EnPI/EnB model characterised. level_3b='not applicable' per ineligibility, though SEP examples cite chemical process industries."
+  },
+  "stage2": null,
+  "stage3": null
+}

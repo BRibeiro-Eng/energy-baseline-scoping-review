@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535493",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T13:58:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "To increase the economic efficiency of enterprises, the author has developed a mechanism that consists of the main stages of implementation and further operation of the energy management system in accordance with the requirements of the standard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The paper presents an ISO 50001 implementation mechanism without identifying or characterising an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The implementation of the energy management system at the enterprise can be divided into the main stages of its implementation and further operation (Figure 1).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible: staged ISO 50001 implementation mechanism; no EnPI/EnB measurement model is characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

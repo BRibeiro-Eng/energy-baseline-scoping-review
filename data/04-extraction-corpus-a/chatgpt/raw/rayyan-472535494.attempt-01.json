@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535494",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T13:59:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The article gives a methodology to assess the effectiveness of the QMS, which can be used in practice by enterprises that implement the ISO 50001 standard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "The proposed framework assesses QMS effectiveness through quality indicators; it does not identify or characterise an EnPI or EnB model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The methodology to assess the effectiveness of the QMS consists of stages, which are presented in Figure 2.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Focus is organisational QMS-effectiveness scoring under ISO 50001, not energy-use normalisation or an energy baseline."
+  },
+  "stage2": null,
+  "stage3": null
+}

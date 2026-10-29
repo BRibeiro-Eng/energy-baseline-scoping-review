@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535498",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:57:47Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "energy data information model could overcome this problem and describe energy data in a uniform and semantically unambiguous way",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Presents requirements for a unified energy data information model (UEDIM): a semantic data-communication model for representing and transferring raw energy data (kW, kWh) across automation protocols (PROFINET, OPC UA, MQTT) up to a technical energy management system. ISO 50001 is cited only as motivating context; no EnPI or EnB measurement model is presented, proposed, evaluated, or critiqued (no indicator/baseline construction, normalisation variables, or functional form). Framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "Requirements for a unified energy data information model are presented in this paper.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "UEDIM is a data/semantic communication model for energy data across automation protocols (OPC UA, MQTT, PROFINET); a requirements-engineering paper. ISO 50001/EnMS is context only, with no energy performance indicator or baseline model. Not tied to any continuous-process sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

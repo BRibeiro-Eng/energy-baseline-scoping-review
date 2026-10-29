@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535603",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:15:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This procedure is summarized with the Significance Matrix, a tool that integrates ESP's field data such as production history and electrical measurements to estimate hydraulic and electrical power requirements, and a specific method for efficiency evaluation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The continuous evaluation of electric submersible pumps (ESP) performance and its integration within the energy management system in the operation of Blocks 16 & 67 of Ecuador allowed to develop a specific procedure to assess the efficiency of ESPs in order to identify energy improvement opportunities.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "These blocks contain six major and two minor structures that produce heavy oil of 13-16 API, 4 – 81 cP, from the cretaceous Napo formation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Empirical upstream oilfield application; upstream oil production is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "This production is transported by flow lines to two main production facilities (SPF, NPF) where oil is stabilized for sale and water is treated for injection and re-injection.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Ecuador",
+      "evidence_quote": "Blocks 16 & 67 are located in the Oriente Basin and form part of the Yasuní ethnic and ecological reserve of the Amazonian rainforest in Ecuador.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "oil",
+      "evidence_quote": "These blocks contain six major and two minor structures that produce heavy oil of 13-16 API, 4 – 81 cP, from the cretaceous Napo formation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Actual production of the field is 764,000 BFPD with an average water cut of 97.4%. This production is transported by flow lines to two main production facilities (SPF, NPF) where oil is stabilized for sale and water is treated for injection and re-injection.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This approach of energy management was developed considering the methodology of the ISO 50001 standard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "The hydraulic power of a pump - piping system is determined by the fluid flow rate from the dynamic liquid level to surface, and is calculated form the desired pump head, multiplied by the specific gravity of the fluid.",
+        "The Significance Matrix categorizes ESP systems as significant or non-significant uses of energy according to the parameters defined by a team of specialists in production, artificial lift and power engineering."
+      ],
+      "page": [
+        7,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    }
+  },
+  "stage3": null
+}

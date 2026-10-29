@@ -1,0 +1,780 @@
+{
+ "d13": {
+  "frame": {
+   "excluded": 326,
+   "lexicon_hits": 13,
+   "remainder": 313,
+   "n_sample": 50,
+   "with_abstract": 200,
+   "abstract_sources": {
+    "openalex:doi": 200,
+    "unavailable": 126
+   }
+  },
+  "lexicon": {
+   "n_tasks": 13,
+   "n_done": 13,
+   "should_have_proceeded": [],
+   "no_abstract_done": 0
+  },
+  "sample": {
+   "n_tasks": 50,
+   "n_done": 50,
+   "should_have_proceeded": [],
+   "no_abstract_done": 16
+  },
+  "sample_rate": "0/50 (IC95% 0.0%–7.1%; sup. unilateral 5.8%)",
+  "escalation_binding": false,
+  "hours": 0.61
+ },
+ "d11": {
+  "frame": {
+   "decisions": 90,
+   "by_field": {
+    "eligibility.level_3b": 23,
+    "eligibility.methodological_eligibility": 67
+   },
+   "papers": 82,
+   "borderline_tagged": 0,
+   "n_sample": 30
+  },
+  "n_done": 30,
+  "n": 30,
+  "flips": 4,
+  "flip_list": [
+   {
+    "id": "rayyan-472535700|eligibility.methodological_eligibility",
+    "field": "eligibility.methodological_eligibility",
+    "final_value": "false",
+    "commit_ts": "2026-10-22T17:32:13+01:00"
+   },
+   {
+    "id": "rayyan-472536054|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "false",
+    "commit_ts": "2026-10-22T18:07:02+01:00"
+   },
+   {
+    "id": "rayyan-472535739|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "false",
+    "commit_ts": "2026-10-22T18:35:09+01:00"
+   },
+   {
+    "id": "rayyan-472536674|eligibility.methodological_eligibility",
+    "field": "eligibility.methodological_eligibility",
+    "final_value": "false",
+    "commit_ts": "2026-10-22T19:12:16+01:00"
+   }
+  ],
+  "membership_changes": [
+   {
+    "id": "rayyan-472536674|eligibility.methodological_eligibility",
+    "field": "eligibility.methodological_eligibility",
+    "original": true,
+    "final": false
+   }
+  ],
+  "flips_by_field": {
+   "eligibility.methodological_eligibility": 2,
+   "eligibility.level_3b": 2
+  },
+  "escalation_fields": [
+   "eligibility.methodological_eligibility",
+   "eligibility.level_3b"
+  ],
+  "hours": 7.01
+ },
+ "d11x": {
+  "frame": {
+   "trigger_flips": {
+    "eligibility.methodological_eligibility": 2,
+    "eligibility.level_3b": 2
+   },
+   "fields": [
+    "eligibility.level_3b",
+    "eligibility.methodological_eligibility"
+   ],
+   "by_field": {
+    "eligibility.level_3b": 17,
+    "eligibility.methodological_eligibility": 43
+   },
+   "n": 60
+  },
+  "n_done": 18,
+  "n": 60,
+  "flips": 7,
+  "flip_list": [
+   {
+    "id": "rayyan-472535657|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "true",
+    "commit_ts": "2026-10-23T10:24:36+01:00"
+   },
+   {
+    "id": "rayyan-472535750|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "false",
+    "commit_ts": "2026-10-23T10:33:29+01:00"
+   },
+   {
+    "id": "rayyan-472536379|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "true",
+    "commit_ts": "2026-10-23T10:46:32+01:00"
+   },
+   {
+    "id": "rayyan-472536587|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "true",
+    "commit_ts": "2026-10-23T11:21:21+01:00"
+   },
+   {
+    "id": "rayyan-472536588|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "true",
+    "commit_ts": "2026-10-23T11:30:30+01:00"
+   },
+   {
+    "id": "rayyan-472536661|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "false",
+    "commit_ts": "2026-10-23T11:45:52+01:00"
+   },
+   {
+    "id": "rayyan-472536742|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "final_value": "false",
+    "commit_ts": "2026-10-23T11:52:17+01:00"
+   }
+  ],
+  "membership_changes": [
+   {
+    "id": "rayyan-472535657|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "original": false,
+    "final": true
+   },
+   {
+    "id": "rayyan-472535750|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "original": true,
+    "final": false
+   },
+   {
+    "id": "rayyan-472536587|eligibility.level_3b",
+    "field": "eligibility.level_3b",
+    "original": false,
+    "final": true
+   }
+  ],
+  "flips_by_field": {
+   "eligibility.level_3b": 7
+  },
+  "escalation_fields": [
+   "eligibility.level_3b"
+  ],
+  "hours": 15.4
+ },
+ "d7a": {
+  "frame": {
+   "reports": 39,
+   "families": [
+    "T",
+    "F",
+    "K",
+    "C",
+    "Q",
+    "R",
+    "V"
+   ],
+   "units": 273,
+   "units_with_hits": 65,
+   "units_no_hit": 208,
+   "by_family": {
+    "T": {
+     "with_hits": 17,
+     "no_hit": 22,
+     "hits": 62
+    },
+    "F": {
+     "with_hits": 12,
+     "no_hit": 27,
+     "hits": 25
+    },
+    "K": {
+     "with_hits": 6,
+     "no_hit": 33,
+     "hits": 42
+    },
+    "C": {
+     "with_hits": 8,
+     "no_hit": 31,
+     "hits": 15
+    },
+    "Q": {
+     "with_hits": 11,
+     "no_hit": 28,
+     "hits": 40
+    },
+    "R": {
+     "with_hits": 2,
+     "no_hit": 37,
+     "hits": 5
+    },
+    "V": {
+     "with_hits": 9,
+     "no_hit": 30,
+     "hits": 26
+    }
+   }
+  },
+  "families": {
+   "T": {
+    "units_with_hits": 17,
+    "done": 17,
+    "a_none": 11,
+    "b_coded": 4,
+    "c_missed": 2,
+    "missed": [
+     {
+      "key": "rayyan-472536379",
+      "page": "4",
+      "field": "C8 out-of-sample validation — A1/M1 e A1/M2",
+      "corrected_value": "A1/M1 e A1/M2: out-of-sample = reported; desenho = held-out split.",
+      "quote": "Once a model is trained, it is used for prediction on the test set, and errors are calculated."
+     },
+     {
+      "key": "rayyan-472536695",
+      "page": "7",
+      "field": "C8 out-of-sample validation — A1/M1",
+      "corrected_value": "out-of-sample = reported; desenho = held-out split.",
+      "quote": "The whole sample is divided for analysis: the training set contains 12149 records, while the validation set contains the remaining 9402 records. The first is used to train the model, while the second is used to test its final performance."
+     }
+    ],
+    "no_hit": 22,
+    "complete": true
+   },
+   "F": {
+    "units_with_hits": 12,
+    "done": 12,
+    "a_none": 7,
+    "b_coded": 1,
+    "c_missed": 4,
+    "missed": [
+     {
+      "key": "rayyan-472535550",
+      "page": "12",
+      "field": "C9 mechanisms (cause) — K6",
+      "corrected_value": "causa = fouling dos permutadores de calor; efeito = observability gap — quantity not measured; applied to the case.",
+      "quote": "“fouling of heat exchangers” […] “may affect the cooling water consumption (Output 3).” […] “Technically, these drivers are not all measurable”"
+     },
+     {
+      "key": "rayyan-472535582",
+      "page": "1",
+      "field": "C9 mechanisms (cause) — acrescentar mecanismo geral.",
+      "corrected_value": "causa = fouling; efeito = non-stationarity of the relationship; general.",
+      "quote": "The energy performance of steam boilers, such as the efficiency and the evaporation ratio can decrease along time because of the poor combustion, heat transfer fouling, poor operation, and low maintenance rate."
+     },
+     {
+      "key": "rayyan-472536455",
+      "page": "6",
+      "field": "C9 mechanisms (cause) — K1, componente relativo à idade dos equipamentos.",
+      "corrected_value": "Acrescentar causa = equipment degradation or ageing; efeito = cross-site comparability; general.",
+      "quote": "However, since EnPIs depend on several parameters, such as plant size, operating parameters, energy carriers used, production process, age of machines and equipment, location and environmental conditions, and business conditions, their determination at the NACE level can have some issue."
+     },
+     {
+      "key": "rayyan-472536695",
+      "page": "3",
+      "field": "C9 mechanisms (cause) — acrescentar mecanismo.",
+      "corrected_value": "causa = degradação do catalisador; efeito = other — influência potencial no desempenho energético; applied to the case.",
+      "quote": "This variable of the RU explain the catalyst degradation"
+     }
+    ],
+    "no_hit": 27,
+    "complete": true
+   },
+   "C": {
+    "units_with_hits": 8,
+    "done": 8,
+    "a_none": 5,
+    "b_coded": 1,
+    "c_missed": 2,
+    "missed": [
+     {
+      "key": "rayyan-472536588",
+      "page": "8",
+      "field": "C13 reproducibility — data_available.",
+      "corrected_value": "data_available = partial; p.8.",
+      "quote": "Supplementary data associated with this article can be found, in the online version"
+     },
+     {
+      "key": "rayyan-472536606",
+      "page": "10",
+      "field": "C13 reproducibility — data_available",
+      "corrected_value": "data_available = partial; p.10",
+      "quote": "The Bureau collects these data to publish aggregate economic statistics but also provides access to researchers on a project-by-project basis."
+     }
+    ],
+    "no_hit": 31,
+    "complete": true
+   },
+   "Q": {
+    "units_with_hits": 11,
+    "done": 11,
+    "a_none": 1,
+    "b_coded": 5,
+    "c_missed": 5,
+    "missed": [
+     {
+      "key": "rayyan-472535480",
+      "page": "7",
+      "field": "C3 variables — A1/M1",
+      "corrected_value": "Acrescentar qualidade/grau da pasta e matéria-prima utilizada como características de produto/alimentação discutidas para definir baselines distintas.",
+      "quote": "This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc."
+     },
+     {
+      "key": "rayyan-472535585",
+      "page": "27",
+      "field": "C3 variables — extensão proposta à gestão energética do carvão",
+      "corrected_value": "Acrescentar teor de humidade e valor energético do carvão como características do combustível propostas para monitorização.",
+      "quote": "Coal moisture content and energy values"
+     },
+     {
+      "key": "rayyan-472535794",
+      "page": "5",
+      "field": "C3 variables — A1/M1",
+      "corrected_value": "Acrescentar humidade da carga como característica da alimentação discutida como fator explicativo do consumo energético específico.",
+      "quote": "moisture content of the batch composition"
+     },
+     {
+      "key": "rayyan-472536532",
+      "page": "11",
+      "field": "C3 variables — fatores discutidos na metodologia geral.",
+      "corrected_value": "Acrescentar qualidade da alimentação como variável explicativa potencial discutida.",
+      "quote": "Such factors can be process conditions such as the ambient temperature as well as disturbances, e.g., the quality of feedstock."
+     },
+     {
+      "key": "rayyan-472536606",
+      "page": "7",
+      "field": "C3 variables — características da alimentação e dos produtos nos modelos sintetizados.",
+      "corrected_value": "Acrescentar qualidade/mistura das matérias-primas e humidade do subproduto como fatores explicativos. Distinguir matérias-primas frescas/pré-processadas e fibras virgens/recicladas (p. 13). Registar dureza e humidade do calcário como discutidas, mas não incluídas por falta de dados consistentes (p. 7).",
+      "quote": "“input quality measures can be introduced into the benchmark.” (p. 7); “in corn refining the moisture content of one of the primary byproducts influences the energy use” (p. 11)."
+     }
+    ],
+    "no_hit": 28,
+    "complete": true
+   },
+   "R": {
+    "units_with_hits": 2,
+    "done": 2,
+    "a_none": 0,
+    "b_coded": 2,
+    "c_missed": 0,
+    "missed": [],
+    "no_hit": 37,
+    "complete": true
+   },
+   "V": {
+    "units_with_hits": 9,
+    "done": 9,
+    "a_none": 6,
+    "b_coded": 3,
+    "c_missed": 0,
+    "missed": [],
+    "no_hit": 30,
+    "complete": true
+   },
+   "K": {
+    "units_with_hits": 6,
+    "done": 6,
+    "a_none": 4,
+    "b_coded": 0,
+    "c_missed": 2,
+    "missed": [
+     {
+      "key": "rayyan-472536226",
+      "page": "6",
+      "field": "C9 mechanisms (cause) — acrescentar mecanismo na secção de reformação.",
+      "corrected_value": "causa = atividade do catalisador; efeito = other — condicionamento do ótimo energético do rácio vapor/carbono; applied to the case.",
+      "quote": "Operating the reformer close to the design value of the S/C ratio will improve energy performance with an optimal value of 3.0 based on the reformer outlet quality and the catalyst activity, Table 2."
+     },
+     {
+      "key": "rayyan-472536695",
+      "page": "3",
+      "field": "C9 mechanisms (cause) — acrescentar mecanismo.",
+      "corrected_value": "causa = degradação do catalisador; efeito = other — influência potencial no desempenho energético; applied to the case.",
+      "quote": "This variable of the RU explain the catalyst degradation"
+     }
+    ],
+    "no_hit": 33,
+    "complete": true
+   }
+  },
+  "hours": 19.43
+ },
+ "d7b": {
+  "frame": {
+   "items_368": 368,
+   "kept": 350,
+   "removed": 18,
+   "n_sample": 80,
+   "by_type": {
+    "MEC": 30,
+    "MOD": 31,
+    "ADP": 19
+   }
+  },
+  "done": 80,
+  "counts": {
+   "incorrect": 12,
+   "undetermined": 1,
+   "correct": 67
+  },
+  "rate": "12/79 (IC95% 8.1%–25.0%; sup. unilateral 23.4%)",
+  "by_type": {
+   "MEC": {
+    "incorrect": 8,
+    "correct": 22
+   },
+   "MOD": {
+    "undetermined": 1,
+    "correct": 28,
+    "incorrect": 2
+   },
+   "ADP": {
+    "correct": 17,
+    "incorrect": 2
+   }
+  },
+  "errors": [
+   {
+    "id": "MEC-135",
+    "key": "rayyan-472536693",
+    "path": "mechanisms[3]",
+    "current": {
+     "mechanism_id": "K4",
+     "refers_to": "M1",
+     "claim_status": "applied to the case",
+     "page": 10,
+     "support_class": "direct statement",
+     "mechanism_cause": "not stated",
+     "mechanism_effect_on_model": "other",
+     "effect_other_verbatim": "explanatory factors for the indicator not identified or understood"
+    },
+    "correct_value": "effect_other_verbatim: Explanatory factors and understanding them continues to be a major issue that requires further work"
+   },
+   {
+    "id": "MEC-067",
+    "key": "rayyan-472535794",
+    "path": "mechanisms[7]",
+    "current": {
+     "mechanism_id": "K8",
+     "refers_to": "M4",
+     "claim_status": "empirically demonstrated",
+     "page": 11,
+     "support_class": "direct statement",
+     "mechanism_cause": "operating mode or campaign change",
+     "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    "correct_value": "mechanism_effect_on_model: statistical misspecification"
+   },
+   {
+    "id": "MEC-133",
+    "key": "rayyan-472536693",
+    "path": "mechanisms[1]",
+    "current": {
+     "mechanism_id": "K2",
+     "refers_to": "M1",
+     "claim_status": "applied to the case",
+     "page": 10,
+     "support_class": "direct statement",
+     "mechanism_cause": "not stated",
+     "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    "correct_value": "refers_to: paper-level argument"
+   },
+   {
+    "id": "MEC-097",
+    "key": "rayyan-472536487",
+    "path": "mechanisms[1]",
+    "current": {
+     "mechanism_id": "K2",
+     "refers_to": "M1",
+     "claim_status": "empirically demonstrated",
+     "page": 4,
+     "support_class": "direct statement",
+     "mechanism_cause": "product mix or grade change",
+     "mechanism_effect_on_model": "cross-site comparability"
+    },
+    "correct_value": "claim_status: applied to the case"
+   },
+   {
+    "id": "ADP-085",
+    "key": "rayyan-472536693",
+    "path": "adaptations[1]",
+    "current": {
+     "adaptation_id": "D2",
+     "adaptation": "improved metering",
+     "status": "proposed",
+     "addresses_mechanism": null,
+     "normative_framing": "absent",
+     "page": 9,
+     "support_class": "direct statement",
+     "refers_to": "M1"
+    },
+    "correct_value": "refers_to: paper-level argument"
+   },
+   {
+    "id": "ADP-020",
+    "key": "rayyan-472535582",
+    "path": "adaptations[0]",
+    "current": {
+     "adaptation_id": "D1",
+     "adaptation": "outlier exclusion",
+     "status": "implemented",
+     "addresses_mechanism": null,
+     "normative_framing": "implicit",
+     "page": 5,
+     "support_class": "direct statement",
+     "refers_to": "M1"
+    },
+    "correct_value": "normative_framing: absent"
+   },
+   {
+    "id": "MEC-123",
+    "key": "rayyan-472536612",
+    "path": "mechanisms[4]",
+    "current": {
+     "mechanism_id": "K5",
+     "refers_to": "A1",
+     "claim_status": "empirically demonstrated",
+     "page": 4,
+     "support_class": "direct statement",
+     "mechanism_cause": "not stated",
+     "mechanism_effect_on_model": "statistical misspecification"
+    },
+    "correct_value": "mechanism_effect_on_model: other; effect_other_verbatim: If only the measured data have been considered, for some sectors, the regression loses its significance."
+   },
+   {
+    "id": "MEC-014",
+    "key": "rayyan-472535480",
+    "path": "mechanisms[4]",
+    "current": {
+     "mechanism_id": "K5",
+     "refers_to": "M2",
+     "claim_status": "applied to the case",
+     "page": 5,
+     "support_class": "direct statement",
+     "mechanism_cause": "not stated",
+     "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    "correct_value": "mechanism_effect_on_model: other; effect_other_verbatim: the explanatory indicator is not tied to the process of which the descriptive indicators are analyzed."
+   },
+   {
+    "id": "MEC-012",
+    "key": "rayyan-472535480",
+    "path": "mechanisms[2]",
+    "current": {
+     "mechanism_id": "K3",
+     "refers_to": "M1",
+     "claim_status": "applied to the case",
+     "page": 7,
+     "support_class": "direct statement",
+     "mechanism_cause": "product mix or grade change",
+     "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    "correct_value": "claim_status: general; mechanism_effect_on_model: other; effect_other_verbatim: This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc."
+   },
+   {
+    "id": "MOD-131",
+    "key": "rayyan-472536695",
+    "path": "applications[0].models[0].C5_measurement[1].data_origin",
+    "current": {
+     "value": "process historian tag"
+    },
+    "correct_value": "data_origin: not reported"
+   },
+   {
+    "id": "MOD-079",
+    "key": "rayyan-472536226",
+    "path": "C13_reproducibility.data_available",
+    "current": {
+     "value": "partial",
+     "page": 8,
+     "support_class": "requires inference"
+    },
+    "correct_value": "data_available: yes"
+   },
+   {
+    "id": "MEC-098",
+    "key": "rayyan-472536501",
+    "path": "mechanisms[0]",
+    "current": {
+     "mechanism_id": "K1",
+     "refers_to": "paper-level argument",
+     "claim_status": "empirically demonstrated",
+     "page": 9,
+     "support_class": "direct statement",
+     "mechanism_cause": "not stated",
+     "mechanism_effect_on_model": "other",
+     "effect_other_verbatim": "CCR/DEA efficiency scores cluster near 1, so the model cannot discriminate and rank DMUs"
+    },
+    "correct_value": "mechanism_effect_on_model: other; effect_other_verbatim: many calculated values of CCR model are close to 1, so it is difficult to rank by radar charts intuitively."
+   }
+  ],
+  "hours": 3.51
+ },
+ "d10": {
+  "frame": {
+   "frame": 331,
+   "n_sample": 40,
+   "auditable_cells": 274,
+   "by_field": {
+    "paper_type": 32,
+    "multi_site": 32,
+    "country_region": 18,
+    "sector_of_activity": 23,
+    "type_of_organisation": 24,
+    "ems_standard": 30,
+    "mv_protocol": 32,
+    "regulatory_driver": 32,
+    "enpi_enb_model_types": 23,
+    "complementary_methodologies": 28
+   }
+  },
+  "papers_done": 40,
+  "contiguous_prefix": 40,
+  "prefix_is_srs": true,
+  "fields": {
+   "complementary_methodologies": {
+    "n_v": 28,
+    "raw_e_v": 0,
+    "raw": "0/28 (IC95% 0.0%–12.3%; sup. unilateral 10.1%)",
+    "adjudicated_e_v": 0,
+    "adjudicated": "0/28 (IC95% 0.0%–12.3%; sup. unilateral 10.1%)",
+    "classes": {
+     "same": 28
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "country_region": {
+    "n_v": 18,
+    "raw_e_v": 0,
+    "raw": "0/18 (IC95% 0.0%–18.5%; sup. unilateral 15.3%)",
+    "adjudicated_e_v": 0,
+    "adjudicated": "0/18 (IC95% 0.0%–18.5%; sup. unilateral 15.3%)",
+    "classes": {
+     "same": 18
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "ems_standard": {
+    "n_v": 30,
+    "raw_e_v": 2,
+    "raw": "2/30 (IC95% 0.8%–22.1%; sup. unilateral 19.5%)",
+    "adjudicated_e_v": 1,
+    "adjudicated": "1/30 (IC95% 0.1%–17.2%; sup. unilateral 14.9%)",
+    "classes": {
+     "same": 28,
+     "extraction_error": 1,
+     "reviewer_error": 1
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "enpi_enb_model_types": {
+    "n_v": 23,
+    "raw_e_v": 12,
+    "raw": "12/23 (IC95% 30.6%–73.2%; sup. unilateral 70.4%)",
+    "adjudicated_e_v": 11,
+    "adjudicated": "11/23 (IC95% 26.8%–69.4%; sup. unilateral 66.5%)",
+    "classes": {
+     "extraction_error": 11,
+     "same": 11,
+     "reviewer_error": 1
+    },
+    "escalation_e_v_ge_3": true
+   },
+   "multi_site": {
+    "n_v": 32,
+    "raw_e_v": 13,
+    "raw": "13/32 (IC95% 23.7%–59.4%; sup. unilateral 56.7%)",
+    "adjudicated_e_v": 13,
+    "adjudicated": "13/32 (IC95% 23.7%–59.4%; sup. unilateral 56.7%)",
+    "classes": {
+     "extraction_error": 13,
+     "same": 19
+    },
+    "escalation_e_v_ge_3": true
+   },
+   "mv_protocol": {
+    "n_v": 32,
+    "raw_e_v": 2,
+    "raw": "2/32 (IC95% 0.8%–20.8%; sup. unilateral 18.4%)",
+    "adjudicated_e_v": 2,
+    "adjudicated": "2/32 (IC95% 0.8%–20.8%; sup. unilateral 18.4%)",
+    "classes": {
+     "same": 30,
+     "extraction_error": 2
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "paper_type": {
+    "n_v": 32,
+    "raw_e_v": 5,
+    "raw": "5/32 (IC95% 5.3%–32.8%; sup. unilateral 30.1%)",
+    "adjudicated_e_v": 5,
+    "adjudicated": "5/32 (IC95% 5.3%–32.8%; sup. unilateral 30.1%)",
+    "classes": {
+     "extraction_error": 5,
+     "same": 27
+    },
+    "escalation_e_v_ge_3": true
+   },
+   "regulatory_driver": {
+    "n_v": 32,
+    "raw_e_v": 1,
+    "raw": "1/32 (IC95% 0.1%–16.2%; sup. unilateral 14.0%)",
+    "adjudicated_e_v": 1,
+    "adjudicated": "1/32 (IC95% 0.1%–16.2%; sup. unilateral 14.0%)",
+    "classes": {
+     "same": 31,
+     "extraction_error": 1
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "sector_of_activity": {
+    "n_v": 23,
+    "raw_e_v": 0,
+    "raw": "0/23 (IC95% 0.0%–14.8%; sup. unilateral 12.2%)",
+    "adjudicated_e_v": 0,
+    "adjudicated": "0/23 (IC95% 0.0%–14.8%; sup. unilateral 12.2%)",
+    "classes": {
+     "same": 23
+    },
+    "escalation_e_v_ge_3": false
+   },
+   "type_of_organisation": {
+    "n_v": 24,
+    "raw_e_v": 4,
+    "raw": "4/24 (IC95% 4.7%–37.4%; sup. unilateral 34.2%)",
+    "adjudicated_e_v": 4,
+    "adjudicated": "4/24 (IC95% 4.7%–37.4%; sup. unilateral 34.2%)",
+    "classes": {
+     "same": 20,
+     "extraction_error": 4
+    },
+    "escalation_e_v_ge_3": true
+   }
+  },
+  "hours": 2.44
+ },
+ "d7c": {
+  "n_done": 0,
+  "n": 13,
+  "diffs_by_field": {},
+  "reveal_changes_by_field": {},
+  "final_map": {},
+  "hours": 0.0
+ }
+}

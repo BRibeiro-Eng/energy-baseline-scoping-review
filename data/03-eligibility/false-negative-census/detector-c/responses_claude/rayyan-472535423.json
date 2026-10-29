@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535423",
+  "listed_sector_signals": [
+    {
+      "signal": "Cited prior study applying ISO 50001 to a cement plant (reference only, not this paper's application)",
+      "quote": "Pelser, W.A., Vosloo, J.C., Mathews, M.J. (2018), Results and prospects \nof applying an ISO 50001 based reporting system on a cement plant. \nJournal of Cleaner Production, 198, 642-653.",
+      "page": 10,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Cited study on energy management in Swedish energy-intensive industries including pulp and paper (reference discussion, not this paper's application)",
+      "quote": "described and analyzed energy management practices in \nSwedish energy-intensive industries: pulp, paper, and foundry.",
+      "page": 2,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Paper's actual application context is thermoelectric (thermal) power generation plants, a continuous-flow power sector outside the registered list",
+      "quote": "This \narticle presents the application of these tools in thermal power generation systems in Colombia to analyze their energy performance",
+      "page": 1,
+      "sector": "thermoelectric power generation"
+    },
+    {
+      "signal": "Thermoelectric plants characterized by continuous fossil-fuel combustion (natural gas and coal) for electricity",
+      "quote": "Thermoelectric plants (26.69%) have the second-highest consumption of primary \nenergy. These are characterized by the use of mainly natural gas \nand coal.",
+      "page": 5,
+      "sector": "thermoelectric power generation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies an ISO 50001-based energy planning methodology to estimate energy savings potential in Colombian thermoelectric (fossil-fuel) power generation plants; cement and pulp/paper appear only as cited references."
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535509",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:58:55Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "fast track implementation plan is discussed that can be adopted",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "ineligibility_reason": "Paper is a fast-track ISO 50001:2018 implementation plan/framework applicable to any organization. EnPI and energy baseline appear only as generic PDCA process steps (e.g. 'Development of EnPI following the energy review'; 'Baseline selection for continuous improvement tracking'); no EnPI/EnB measurement model is identified or characterised - no variables, functional form, or construction/estimation approach given. Matches the ineligibility rule for a framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This half yearly plan covers all the major aspects of",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Generic ISO 50001:2018 implementation roadmap for any organization; no sector or case context. EnPI/EnB only as PDCA process steps. paper_type framework-vs-other is arguable."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535545",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:38:14Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "proposes the development of a low-cost prototype for monitoring the consumption of electricity in real-time using communication with electronic meters of power distribution companies",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Presents a low-cost monitoring web portal/prototype (PGEN) plus an electronic communication interface; ISO 50001/50006 and energy baselines/indicators are cited only as framing, with no EnPI/EnB measurement model identified or characterised (no normalisation variables, functional form, or baseline construction). Results are raw load curves and simple before/after consumption savings.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "O sistema PGEN é desenvolvido em plataforma web, com banco de dados baseado em séries temporais e em linguagens PHP, HTML5, CSS3 e Javascript.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Data-acquisition/monitoring web portal (PGEN) for public institutions (IFSC campi, government buildings); reports load curves and simple before/after savings but characterises no EnPI/EnB model. Tool/software design, ineligible; application context is buildings/services, not continuous process."
+  },
+  "stage2": null,
+  "stage3": null
+}

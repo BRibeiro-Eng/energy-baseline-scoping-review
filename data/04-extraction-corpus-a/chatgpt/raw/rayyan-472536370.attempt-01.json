@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536370",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T19:40:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This article introduces an innovative method to foster energy efficiency in the wine industry, focussing on the benchmarking of Energy Performance Indicators (EnPIs).",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "To validate this approach, a specially-developed data collection form was proposed to 20 Italian wineries",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "wine industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Wine production is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Data from 20 firms were collected",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "20 factories in Italy",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "wine industry",
+      "evidence_quote": "wine industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "In wine production, there are, in fact, three main sources of variability that can affect the final product, which are typically compensated for through different process setups",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "the implementation of the ISO 50001 energy management system scheme",
+        "The ISO 50006:2023 standard [34] provides guidelines to establish an appropriate energy performance indicator"
+      ],
+      "page": [
+        2,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "Determination of energy savings in alcoholic wine fermentation according to the IPMVP protocol.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "SEC mean",
+        "other"
+      ],
+      "evidence_quote": [
+        "The linear regression has been used to relate the dependent and the independent variables",
+        "each EnPI is given by the ratio between a value, expressed in kWh, and another value, expressed in hL",
+        "the F4 companies exhibits a higher energy efficiency, witnessed by an EnPIe average value of 2.95 kWh⋅hL−1",
+        "the categorization into distinct reference production process models and the incorporation of the three above-mentioned indices enable a more thorough analysis of a winery’s energy consumption across the entire production process"
+      ],
+      "page": [
+        7,
+        7,
+        11,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

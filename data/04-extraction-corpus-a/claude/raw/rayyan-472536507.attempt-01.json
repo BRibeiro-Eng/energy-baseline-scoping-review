@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536507",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:59:42+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "practical baselines on the energy use and CO2 emissions",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The work demonstrates the application using the national EPC database in Greece",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the Hellenic Nonresidential Building Stock (NR BS) includes about 690,000 exclusive-use buildings (excluding churches, monasteries, industrial buildings and parking stations)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "paper_type borderline: national EPC-database baseline methodology; single applied case vs methodological/theoretical. Buildings sector -> level_3b false. regulatory_driver other-named (KENAK/EPBD compulsory EPCs) vs none is a judgment call."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Greece",
+      "evidence_quote": "The work demonstrates the application using the national EPC database in Greece",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "nonresidential buildings",
+      "evidence_quote": "Nonresidential (NR) buildings, accounting for about a quarter of the total EU building stock",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "the performance of the existing NR building stock",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "The national regulation on the energy performance of buildings, KENAK, which was the EPBD transposition in Greece",
+        "issuing an EPC is compulsory for all buildings that are being sold"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.45
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "calculated as the weighted average of all building uses included in the category, using the total heated area as weight",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

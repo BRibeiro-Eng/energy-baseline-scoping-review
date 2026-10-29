@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535579",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:02:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "An energy consumption baseline is selected through a linear regression model, understanding that an Energy Baseline is a quantitative reference that provides the basis for comparing energy performance, allowing the evaluation of energy consumption.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The Engineering School (EII), is an educational building, mainly dedicated to teaching and research.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "an educational building, Engineering School (EII) at the University of Valladolid in Spain.",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to one university educational building; buildings are outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The aims of this paper were to study the change from an energy system fueled by natural gas to District Heating by biomass in a building on the campus of the University of Valladolid—the School of Engineering (EII)—studying its consumption from its connection to the District Heating system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Spain",
+      "evidence_quote": "an educational building, Engineering School (EII) at the University of Valladolid in Spain.",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "educational building",
+      "evidence_quote": "The Engineering School (EII), is an educational building, mainly dedicated to teaching and research.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The Engineering School (EII), is an educational building, mainly dedicated to teaching and research.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "An energy management methodology such as ISO 50001 is carried out, applied to efﬁciency systems in buildings",
+        "the methodology of the statistical model used in an energy management system ISO 50006 is proposed as an analysis."
+      ],
+      "page": [
+        1,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "An energy consumption baseline is selected through a linear regression model",
+        "KWh/m2",
+        "Cusum Indicator = (Emeasured −Etrend)i + (Emeasured −Etrend)i−1"
+      ],
+      "page": [
+        10,
+        7,
+        15
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

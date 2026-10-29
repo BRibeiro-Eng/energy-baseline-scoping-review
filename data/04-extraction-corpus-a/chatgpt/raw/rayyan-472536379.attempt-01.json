@@ -1,0 +1,127 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536379",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T19:44:26Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This workflow\nallows for systematic development, tuning, and comparison\nof multiple ML models to find the best performing one for\nthe given data and predicting the EnPI of compressors.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "case studies (3 steel mills)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "case studies (3 steel mills)",
+        "every change in the batch process"
+      ],
+      "page": [
+        1,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "notes": "Steel-sector application, but the paper explicitly describes batch-process operation; continuous-production mode is not established."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "energy\naudits carried out in three steel mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Italy, US",
+      "evidence_quote": "The participating mills, whose staff\nwe heartfelt thank for their time and sharing of data, are 2 in\nItaly and 1 in the US.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "steel manufacturing industry",
+      "evidence_quote": "Steel Manufacturing Industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "every change in the batch process",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Several\nmodels are evaluated in which multiple linear regression\n(MLR) assumes a linear relationship between inputs and out-\nputs",
+        "Thus, a\nML approach is tested as illustrated in Fig 3.",
+        "the energy efficiency of the compressors refers to\nefficient compression and it is measured by kWh/Nm3."
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

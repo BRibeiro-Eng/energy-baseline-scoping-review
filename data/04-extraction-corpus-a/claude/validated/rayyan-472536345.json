@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536345",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:17:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The establishment of 10 energy performance indicators, which are not currently reported for this industry, will help to define an energy baseline and systematically measure efficiency in the industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The sugar mill has a crushing capacity of 2,700 t/d.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "One of the problems identified in the sugar industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Sector is a Cuban sugar cane mill (sugar industry) - NOT on the closed v2.3 continuous-process list, so level_3b=false. But processing is continuous-flow (2,700 t/d crushing, bagasse boiler, turbogenerators, four-effect evaporators), so A9=continuous process; likely FN-census candidate for human review. The p.2 phrase 'paper manufacturing process' is an authoring error (ref [9]=sugar-cane biorefineries), not pulp & paper."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The sugar mill has a crushing capacity of 2,700 t/d.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "Cuba",
+      "evidence_quote": "Remedios Cuba",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "sugar industry",
+      "evidence_quote": "One of the problems identified in the sugar industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "The sugar mill has a crushing capacity of 2,700 t/d.",
+        "a four-effect evaporator system"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "based on the Cuban standard ISO 50001: 2019",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "process integration"
+      ],
+      "evidence_quote": [
+        "Specific energy consumption (SEC) is often used as an energy performance indicator to evaluate or measure energy efficiency performance",
+        "The pinch analysis methodology is used to determine network targets, minimum temperature difference and maximum energy recovery"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536534",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:50:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "An established EnPI methodology developed by Grabowki et al. helps to interprete measured variables in their respective role as effort, beneﬁt or inﬂuencing factors of the process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The presented concept couples this optimization procedure with the plant model in AML. In every run of the optimization routine, a parser reads the AML ﬁle and new data is fetched from the linked database.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The procedure is demonstrated using the example of an industrial cooling system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "The applied context is an industrial cooling/refrigeration system, but no host industry from the closed Level 3B sector list is identified."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A case-study on real and simulated data of a refrigeration plant veriﬁed the proposed AML/EnEffIPK concept.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "industrial cooling system",
+      "evidence_quote": "The procedure is demonstrated using the example of an industrial cooling system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "The procedure is demonstrated using the example of an industrial cooling system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "An optimization formulation is derived from this model, numerically solved and optimal set-points are returned.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

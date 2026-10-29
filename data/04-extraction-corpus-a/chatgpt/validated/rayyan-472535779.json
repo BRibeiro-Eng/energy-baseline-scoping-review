@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535779",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:51:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The activation and deactivation of A/C units is based on the total building load’s control and each ﬂoor’s temperature.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The proposed system is based on a prototype software tool for the simulation and optimization of energy consumption in the building sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The presented system was applied to a supermarket building in Greece and focused on the remote control of active systems.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Eligible because the software embeds an explicit load-and-temperature control model; the applied context is a tertiary-sector building."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The presented system was applied to a supermarket building in Athens, Greece, which consists of ﬁve ﬂoors and a total surface area of 758 m2.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Athens, Greece",
+      "evidence_quote": "The presented system was applied to a supermarket building in Athens, Greece",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "tertiary sector",
+      "evidence_quote": "The interactive system presented above achieved signiﬁcant decrease in the operating cost of A/C system in a tertiary sector building",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The presented system was applied to a supermarket building in Athens, Greece",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 Energy Management Standard.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "This action was based on recent guidance and decisions, according to which, customers of high energy consumption in Public Power Corporation (PPC) that achieve low consumption during the peak hours (11:00–14:00) in the summer months, are rewarded with a discount in their electricity bill [63].",
+        "Ministerial decision D5/HL/B/F.1B/1545/2008 – low 1161/B’/24.6.2008 ‘‘Providing ﬁnancial incentives to consumers through PPC’ Bills to reduce power demand in July 2008’’. Athens; 2008."
+      ],
+      "page": [
+        5,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "a deterministic optimization method is applied, based on control algorithms to achieve peak load reduction while still maintaining the building as a healthy, productive and comfortable environment for the building occupants.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

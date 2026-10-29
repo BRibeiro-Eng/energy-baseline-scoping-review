@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536642",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:14:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The core idea of this approach is the comparison and assessment of energy efficiency in the production of technical products based on the relation of the least energy demand to the actually consumed energy.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The learning factories in Bayreuth and Erlangen represent a combination of industrial and academic application scenarios suggested by Abele et al. [12].",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The intralogistics material flow of a series production is commonly handled by milk run systems.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to intralogistics in series-production learning factories; this is discrete manufacturing, outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The learning factories in Bayreuth and Erlangen represent a combination of industrial and academic application scenarios suggested by Abele et al. [12].",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "country_region": {
+      "value": "Bayreuth (Germany), Erlangen",
+      "evidence_quote": [
+        "were implemented in the learning factory “Green Factory Bavaria” in Bayreuth (Germany)",
+        "In Erlangen the implementation of AGVs and its constraints is addressed."
+      ],
+      "page": [
+        2,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "intralogistics",
+      "evidence_quote": "The intralogistics material flow of a series production is commonly handled by milk run systems.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The intralogistics material flow of a series production is commonly handled by milk run systems.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "It starts with the calculation of the physical energy demand for the process based on the unit operation. Furthermore technological and machine influences are considered. In the last step the measurement of the energy consumed for manufacturing the product must be determined. This can be done with a measuring system connecting the system and the energy source. Finally, the theoretically calculated and actually consumed energy are put in relation.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

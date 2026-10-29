@@ -1,0 +1,122 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536452",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:10:26+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "energy consumption models were constructed using the simple linear regression method",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The building selected in the present study was a four-story office building with a floor area of approximately 3495",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Buildings-sector HVAC study: K-means + simple linear regression + naive Bayes classifier validated on a single four-story office building in Hsinchu, Taiwan. Eligible (temperature-driven energy-consumption/baseline model). 3B=false: office building is not a closed-list continuous-process sector. Judgment calls: paper_type single-applied-case vs methodological/theoretical; type_of_organisation buildings vs services."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Hsinchu, Taiwan",
+      "evidence_quote": "the B1 office building in Hsinchu, Taiwan",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "office building",
+      "evidence_quote": "a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14",
+        "other-named"
+      ],
+      "evidence_quote": "In accordance with the requirements and recommendations of ASHRAE Guideline 14 and the FEMP's M&V Guideline 4.0",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "energy consumption models were constructed using the simple linear regression method",
+        "The multiple variable regression model was constructed with monthly average outdoor temperature and monthly average outdoor humidity as independent variables",
+        "artificial neural network (ANN)"
+      ],
+      "page": [
+        7,
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

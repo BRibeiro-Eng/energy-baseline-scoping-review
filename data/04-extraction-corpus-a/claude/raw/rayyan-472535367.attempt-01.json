@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535367",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a modular EMS architecture aligned with ISO 50001 energy management standards",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": "No EnPI/EnB energy-performance measurement model is presented, proposed, evaluated, or critiqued. The paper designs and simulates a renewable energy system (3 MW PV, 2.97 MWh LiFePO4 battery, Python/Django EMS, active harmonic filter) for a single lumber mill; ISO 50001 is cited only as EMS-architecture alignment. The LSTM+Kalman models forecast solar generation and the PV/battery/savings equations are sizing and financial formulas, not an energy baseline normalised against relevant variables or an energy performance indicator.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This section details the engineering methods employed in the design and simulation of the net-zero energy system for Elmsdale Lumber",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Simulation-only design for one site (Elmsdale Lumber); strong tool/software-design character too (Django PV sizing tool, Python EMS) but coded single applied case on site cardinality. Lumber/sawmilling is wood-products manufacturing, not a listed continuous-process sector, so level_3b would be false regardless; moot given ineligibility."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536384",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:52:26.327380+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Electricity consumption is modeled as the response variable, with the other indicators as potential explanatory predictors",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The initial machine learning model implemented is trained on the dataset of 44 hospitals",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Hospitals fall under the classification of commercial buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Sector=hospitals (commercial buildings) -> level_3b false (not continuous process). paper_type borderline: multi-case (n=44) vs methodological framework. Model coded multiple regression + ML; exact learner unnamed."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "trained on the dataset of 44 hospitals",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "hospitals",
+      "evidence_quote": "Effective energy management in hospitals",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Hospitals fall under the classification of commercial buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "Electricity consumption is modeled as the response variable, with the other indicators as potential explanatory predictors",
+        "The initial machine learning model implemented is trained on the dataset of 44 hospitals"
+      ],
+      "page": [
+        3,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

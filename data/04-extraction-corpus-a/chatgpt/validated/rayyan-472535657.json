@@ -1,0 +1,278 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535657",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T12:45:06Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "By using the specific energy consumption to estimate the energy conservation progress, equation (1) which\nadjusted from the ODEX concept.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "There are 8,390 designated facilities in 2014, which 65% are factory and the remaining 35% are building.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "4 Paper 21 -38.9 -45.69 -55.31",
+        "We estimated the energy conservation from only the designated factories and buildings that submit the\nenergy data in all year from 2010 to 2013."
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "notes": "Country-wide multi-sector analysis; Level 3B is supported by empirical SEC/ODEX results for the paper sector in the sector table."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "There are 8,390 designated facilities in 2014, which 65% are factory and the remaining 35% are building.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Thailand",
+      "evidence_quote": "Performance tracking of Thailand’s energy management system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "designated factories and buildings",
+      "evidence_quote": "We estimated the energy conservation from only the designated factories and buildings that submit the\nenergy data in all year from 2010 to 2013.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "we found that non-metallic sector has highest proportion in energy\nconsumption at 32%, followed by chemical sector at 24% in designated factory while shopping mall has highest\nproportion number at 31%, followed by office building at 17% in designated building",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The EnMS is\nnot same, but similar in concept, to the ISO 50001 Energy Management Systems",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": "the energy management system (EnMS) was introduced as Energy Management in designated buildings\nand factories Ministerial Regulations promulgated in 2009 under the ECP Act",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "When SEC is specific energy consumption which means total energy consumption in sector j in year t per unit of\nproduction in year t , by weight or volume basis in factory",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production, by weight or volume basis",
+        "total floor area"
+      ],
+      "evidence_quote": "production in year t , by weight or volume basis in factory, and if the factory produces various products each year,\nthe main products would be selected while in building SEC means energy consumption per unit of production which\nmeans total floor area.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "2010",
+      "evidence_quote": "The energy reduction is compared to the base\nyear 2010 which is the base year of Thailand energy efficiency plan [8] and also the first year of the EnMS\nregulation.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "2010",
+      "evidence_quote": "The energy reduction is compared to the base\nyear 2010 which is the base year of Thailand energy efficiency plan [8] and also the first year of the EnMS\nregulation.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Sector-level SEC is compared with base-year SEC using an equation adjusted from ODEX and multiplied by production; only facilities reporting energy data for every year from 2010 through 2013 are included.",
+      "evidence_quote": [
+        "By using the specific energy consumption to estimate the energy conservation progress, equation (1) which\nadjusted from the ODEX concept.",
+        "We estimated the energy conservation from only the designated factories and buildings that submit the\nenergy data in all year from 2010 to 2013."
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "We estimated the energy conservation from only the designated factories and buildings that submit the\nenergy data in all year from 2010 to 2013.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "We found that around 85% of 8,390 designated facilities submitted their EnMS report in 2014.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "scope_description": {
+      "value": "Country-wide tracking of selected designated factories and commercial buildings in Thailand using annual EnMS reports and sector-level SEC/ODEX estimates.",
+      "evidence_quote": "This paper analyses the role, legal framework, and results of country-wide implementing of this regulation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "neglect the supply side energy consumption; i.e. power plant, oil\nrefinery and natural gas separation plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "The DFBs have to complete these eight steps and conclude all activities as annual energy management\nreport which require to submit to the government by the end of March next calendar year",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "179.97",
+          "unit": "ktoe",
+          "period_or_context": "2013 compared with base year 2010; selected designated factories",
+          "evidence_quote": "The estimated energy savings by using ODEX estimation in the year 2013 comparing to the base year 2010 are 179.97 ktoe in\nselected designated factories and 54.41 ktoe in selected designated commercial buildings.",
+          "page": 1,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "54.41",
+          "unit": "ktoe",
+          "period_or_context": "2013 compared with base year 2010; selected designated commercial buildings",
+          "evidence_quote": "The estimated energy savings by using ODEX estimation in the year 2013 comparing to the base year 2010 are 179.97 ktoe in\nselected designated factories and 54.41 ktoe in selected designated commercial buildings.",
+          "page": 1,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "The estimated energy savings by using ODEX estimation in the year 2013 comparing to the base year 2010 are 179.97 ktoe in\nselected designated factories and 54.41 ktoe in selected designated commercial buildings.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "some DFBS do not have energy manager",
+        "the lack of strictness of law enforcement",
+        "the lack of awareness of facility’s owner"
+      ],
+      "evidence_quote": "This\nis due to many reasons as follows: (i) some DFBS do not have energy manager (so called personal responsible for\nenergy under ECP Act), (ii) the lack of strictness of law enforcement, (iii) the lack of awareness of facility’s owner\nwhich concern only production without conservation.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  }
+}

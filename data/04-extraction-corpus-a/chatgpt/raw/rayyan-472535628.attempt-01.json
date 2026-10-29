@@ -1,0 +1,250 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535628",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:37:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "To determine the energy consumption from coal the quantitate consumption at the plant was measured (tonne). This value was converted to energy consumption (kWh) and cost (R) values in order to compare it to electricity consumption and cost.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study was used to investigate the effect that the cost of the energy sources has on a cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The applied indicator compares coal and electricity through converted energy, cost distributions, and R/kWh ratios."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "cement plant",
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The plant used for the case study has two kilns consuming coal in order to produce clinker.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The use of an ISO 50001 based system would provide a plant with a conceptual framework that allows them to develop a holistic approach to energy management.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Upon comparing the consumption and cost for the two energy sources, the ratio of consumption to cost was calculated. This provides a R/kWh value, which makes it possible to compare the price of the two energy sources.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "monthly average calorific value",
+        "South African coal export price",
+        "tonnes coal consumed"
+      ],
+      "evidence_quote": "In order to determine the energy consumed by using coal it was necessary to obtain the monthly average calorific value for the specific period. Calorific value is measured in GJ/t, making it possible to calculate the GJ value of the energy obtained from the coal. This value can then be converted to kWh. The calorific value of coal cannot be measured continuously, due to the lengthy lab procedures used to conduct such tests. The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation. By making use of the South African coal export price for each month of the relevant financial year1, as well as the tonnes coal consumed, the cost of the coal consumption for each month of the financial year can be estimated.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "No energy baseline was constructed. Monthly coal quantity was converted to energy using average monthly calorific values, and monthly coal export prices were used with coal consumed to estimate monthly cost.",
+      "evidence_quote": "In order to determine the energy consumed by using coal it was necessary to obtain the monthly average calorific value for the specific period. Calorific value is measured in GJ/t, making it possible to calculate the GJ value of the energy obtained from the coal. This value can then be converted to kWh. The calorific value of coal cannot be measured continuously, due to the lengthy lab procedures used to conduct such tests. The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation. By making use of the South African coal export price for each month of the relevant financial year1, as well as the tonnes coal consumed, the cost of the coal consumption for each month of the financial year can be estimated.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "A South African cement plant with two kilns, two coal mills, a raw mill, and four finishing mills.",
+      "evidence_quote": "The plant used for the case study has two kilns consuming coal in order to produce clinker. Each of the kilns has its own coal mill, which consumes electrical energy. Further electrical energy consumers on the plant are a raw mill, and four finishing mills, used for producing cement.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The calorific value of coal cannot be measured continuously, due to the lengthy lab procedures used to conduct such tests.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The calorific value of coal cannot be measured continuously, due to the lengthy lab procedures used to conduct such tests.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "The calorific values of coal shipments to the plant are, however, measured. Thus, average monthly calorific values of coal shipments were used for this investigation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "The method was applied to a South African cement plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Data from one full financial year for the cement plant was used.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "implementation_barriers": {
+      "value": [
+        "improvements to kiln coal consumption mainly require large capital investments"
+      ],
+      "evidence_quote": "Additionally, improvements to the coal consumption of a kiln are mainly achieved by improvements to equipment, requiring large capital investments.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536078",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:26:44Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The purpose of this study is to examine current approaches for estimating building energy baselines, including physics-based, data-driven, and hybrid approaches, as well as model development process and essential elements.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "Energy baseline prediction for buildings: A review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Energy baseline prediction for buildings: A review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Review of building energy baseline models; buildings are outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "Energy baseline prediction for buildings: A review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Energy baseline prediction for buildings: A review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "Residential, commercial and industrial buildings",
+      "evidence_quote": "Residential, commercial and industrial buildings.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Residential, commercial and industrial buildings.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "The CV-RMSE value for a suitable model should be less than 30%, according to ASHRAE Guideline 14 [93].",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "physical model",
+        "ML",
+        "other"
+      ],
+      "evidence_quote": [
+        "The following is an example of a simple linear regression model:",
+        "In the same way, a multiple linear regression model could be written as follows:",
+        "For energy baseline prediction, two main approaches, ‘‘physical modeling and data-driven modeling’’, are used [8].",
+        "Several data-driven algorithms are used to predict energy baseline in buildings, some of the most prominent are the linear regression model, Gaussian process model, support vector machines (SVMs), and Artificial neural networks (ANNs).",
+        "Data-driven and physics-based approaches are combined in a hybrid approaches [24]."
+      ],
+      "page": [
+        6,
+        6,
+        2,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

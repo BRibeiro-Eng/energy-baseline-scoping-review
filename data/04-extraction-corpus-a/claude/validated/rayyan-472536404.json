@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536404",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T19:41:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the Energy Performance Indicators (EnPI) of the CAS is predicted using KNN by employing the variables from CAS itself",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This work aims to address the energy consumption in a can manufacturing factory",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The company focuses on manufacturing of general cans, aluminum cans, corrugated cartons, contract packing services (beverage), and other packaging solutions",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Can/packaging manufacturing factory (discrete); compressed air system is a utility subsystem. Sector not in the closed continuous-process list -> level_3b=false. EnPI predicted via KNN (ML)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This work is focusing on Plant 1 which responsible for all the printing and coating process in the factory",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Malaysia",
+      "evidence_quote": "In case of Malaysia, policies such as National Green Technology Policy (NGTP) and Green Technology Masterplan Malaysia (GTMP) are put in place",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "can manufacturing",
+      "evidence_quote": "The can manufacturing company studied in this work is one of the biggest packaging companies in the ASEAN region",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "the printed tin plate mentioned before is formed into component parts, assembled, and then slit at the end of the process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "by implementing ISO 50001 Energy Management System, the organization will be able to establish an EnMS",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": "This work considered the utilization of multiple linear regression (MLR), K-nearest neighbor (KNN), decision tree (DT), and random forest (RF) algorithms",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

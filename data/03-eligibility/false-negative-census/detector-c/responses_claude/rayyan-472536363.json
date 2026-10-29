@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536363",
+  "listed_sector_signals": [
+    {
+      "signal": "Passing mention of sustainable production of methanol (a continuous-chemical-production feedstock) as a fuel source in a cited PEMFC review; not applied or demonstrated here",
+      "quote": "a broad review of the sustainable production of fuels, \nsuch as hydrogen and methanol, using renewable sources such \nas solar, wind and biomass.",
+      "page": 2,
+      "sector": "continuous chemical production (methanol)"
+    },
+    {
+      "signal": "Passing mention of hydrogen production via biomass gasification evaluated technically/economically; referenced context, not the paper's own application",
+      "quote": "the production of hydrogen through biomass \ngasification was evaluated from technical, economic and \nenvironmental perspectives.",
+      "page": 3,
+      "sector": "industrial gases (hydrogen)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cited reference title about remote monitoring of an isotope separation technological process (a continuous separation process), used only as a monitoring-tech citation",
+      "quote": "Remote Monitoring \nthe Parameters of Interest in the 18O Isotope Separation Technological \nProcess",
+      "page": 7,
+      "sector": "isotope separation"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper proposes and describes an AI/ML-based energy-performance monitoring and optimization framework for hybrid fuel cell/battery power systems aimed at electric vehicles and maritime (shipping) transport, not continuous-flow industrial production."
+}

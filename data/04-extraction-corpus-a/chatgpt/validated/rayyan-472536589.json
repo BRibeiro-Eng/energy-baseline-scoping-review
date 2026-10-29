@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536589",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:55:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Once a level and granularity of energy and production data can be selected that demonstrates a clear correlation (linear regression model) then the approach of comparing actual performance versus expected performance becomes possible. This results in a KPI referred to as the Energy Performance Co-Efficient (EnPC).",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility that annually consumes approximately 20 Giga-Watt hours (GWh) of electricity and 15 GWh of natural gas.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Medical-devices manufacturing is outside the closed Level 3B sector list; the paper also describes batch production tracking."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "Medical Devices Manufacturing Facility",
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Analysis based on each production step (batch process x product numbers) ensured that scrap and reworked parts are accounted for.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 (ISO, 2011) defines Energy Performance Indicators (EnPIs) as quantitative values or metrics that measure energy performance as defined by the organisation using them.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Using the linear regression formula, yi = b0 + b1xi, where b0 is the intercept constant (residual) and b1 is the regression co-efficient (slope), the expected energy performance value (E) can be calculated for each weekly production value (P).",
+        "Figure 2 shows the Specific Energy Consumption for the available data, i.e. the kWhs per Production Step.",
+        "With the development of a clear KPI linking electricity consumption and production activity, historical analysis of the data sets using a Cumulative Sum Control Chart (CUSUM) is possible to demonstrate the changes that have occurred over the period."
+      ],
+      "page": [
+        7,
+        10,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

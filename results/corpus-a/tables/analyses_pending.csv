@@ -1,0 +1,29 @@
+analysis,reason
+source_string_and_crosses,A12 está vazio em todos os registos. Null não identifica snowballing: consultar a flag própria e o log de pesquisa.
+cross_source_string__type_of_organisation,Not enough paired observations.
+cross_source_string__enpi_enb_model_types,Not enough paired observations.
+cross_source_string__ems_standard,Not enough paired observations.
+extended_dependent_variable,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_normalisation_variables,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_application_scale,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_energy_carriers,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_data_origin,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_sampling_frequency,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_sample_size,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_series_duration,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_baseline_period,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_baseline_update,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_algorithm,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_validation_design,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_reported_metrics,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_uncertainty_treatment,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_residual_diagnostics,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_nonstationarity_treatment,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_applicability_limits,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_implementation_barriers,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_data_code_availability,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_standard_role,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+extended_standard_edition,Requer nova extração comparável em Corpus A; tabela de entrada: config/extended_content.csv.
+patents_policy_attention,Exige métricas externas com fonte e data; config/external_metrics.csv.
+unique_studies_sites,A unidade extraída é publicação; é necessário ligar artigos do mesmo estudo e enumerar instalações.
+global_author_h_index,O corpus não é a produção completa de cada autor; índices de carreira exigem consulta própria.

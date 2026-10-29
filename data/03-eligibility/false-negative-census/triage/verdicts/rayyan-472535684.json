@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535684",
+ "tier": "A",
+ "ts": "2026-09-10T18:57:31",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "kiln"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 18.9,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "Diagnóstico energético"
+}

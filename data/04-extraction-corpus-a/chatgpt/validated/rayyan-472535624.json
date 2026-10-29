@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535624",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:25:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this paragraph, a novel methodology to manage the Energy Performance by the means of an EnPIs' system and statistical control tools, is defined",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The presented methodology has been applied to the case study of an Italian manufacturing company.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The company object of the study produces consumer goods",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Applied to one consumer-goods manufacturing plant; this sector is outside the closed Level 3B list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The plant that has been analyzed in the present study is made up of four different departments",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "The presented methodology has been applied to the case study of an Italian manufacturing company.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "consumer goods",
+      "evidence_quote": "The company object of the study produces consumer goods",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": [
+        "The company object of the study produces consumer goods",
+        "corresponding to single production lines or single utilities"
+      ],
+      "page": [
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "taking into account ISO 50001:2011 and ISO 50006:2014 requirements",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "regression and correlation analysis, which aim at putting into relation the energy consumption of a system with all possible energy drivers",
+        "very simple indicators are suggested (single numbers or ratios)",
+        "It is the CuSum or Cumulative Sums chart"
+      ],
+      "page": [
+        9,
+        6,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

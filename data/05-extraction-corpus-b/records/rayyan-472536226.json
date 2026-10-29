@@ -1,0 +1,1744 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536226",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 9,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "ammonia production",
+        "evidence_quote": "Ammonia was produced from the steam reforming of natural gas",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "location",
+          "country",
+          "Egypt",
+          "plant A",
+          "different locations"
+        ]
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The real data was extracted from four \nactual ammonia production plants from different locations (A, B, C, and \nD) and at different times.",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Four significant energy user (SEU) sections of an ammonia production plant: reforming, package boiler, synthesis gas compressor and air compressor sections, applied to four actual plants",
+        "evidence_quote": "In this work, Aspen Hysys V12 was used to simulate the four SEUs in \nthe ammonia production plant; the reforming section, the package boiler \nsection, the synthesis gas compressor section, and the air compressor \nsection.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Ammonia was produced from the steam reforming of natural gas",
+        "page": 3,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Reforming section Fuel Gas, kg/hr equation (Table 4)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "date",
+              "year",
+              "months"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "date",
+              "year",
+              "months"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Multiple linear regression fitted on simulation-generated data, giving expected energy consumption (baseline EnPI)",
+            "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept = -8054.2",
+            "0.4*X1",
+            "507.4*X2",
+            "10.1*X3",
+            "8.5*X4",
+            "54.9*X5"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "The natural gas was divided into 64 % process gas and the rest was \nused as fuel gas for combustion, Fig. 1.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kg/hr",
+              "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Variables are independent \nof each other, measurable in actual plants, and can be controlled by \noperators during normal operation.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 5,
+              "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Python (scikit-learn library)",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "X1, Process gas inlet flow, kg/hr",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "X1, Process gas inlet flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X2, Steam to Carbon (S/C) ratio",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X2, Steam to Carbon (S/C) ratio",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X3, Primary reformer outlet temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X3, Primary reformer outlet temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X4, Primary reformer stack temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X4, Primary reformer stack temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X5, O2 % in flue gas (dry), %",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X5, O2 % in flue gas (dry), %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly",
+                "daily",
+                "sampling"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "frequency",
+                "per row"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 3876,
+              "evidence_quote": "The data \nsets that were collected from the simulation of the ammonia production \nplant contained 3876 rows for each significant energy user section in the \nammonia production plant",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The values were selected based on the safe operating envelope (SOE) \nranges of the actual ammonia plants according to their equipment \nsizing, maximum load, and turndown ratio as shown in Table 2.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Reforming section SOE: Minimum 18800.62 kg/hr, 2.50 S/C, 730.02 °C, 115.00 °C, 1.50 % ; Maximum 26499.13 kg/hr, 5.00 S/C, 899.97 °C, 169.97 °C, 15.00 %",
+              "evidence_quote": "Minimum \n18800.62 \n2.50 \n730.02 \n115.00 \n1.50 \nMaximum \n26499.13 \n5.00 \n899.97 \n169.97 \n15.00",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R Square",
+                  "value": 89.5,
+                  "unit": "%",
+                  "period_or_context": "Reforming section fuel gas equation",
+                  "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+                  "page": 6,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Deviation, ML \n1.4 % \n0.8 % \n6.3 % \n7.3 %",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Deviation ML vs actual (Plant A / B / C / D)",
+                  "value": "1.4 % / 0.8 % / 6.3 % / 7.3 %",
+                  "unit": "%",
+                  "period_or_context": "Reforming fuel gas, four actual plants",
+                  "evidence_quote": "Deviation, ML \n1.4 % \n0.8 % \n6.3 % \n7.3 %",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Testing data, 20 \n% of the data sets chosen randomly from the available data, this data \nwas used to test and evaluate the model.",
+                "page": 4,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Reforming section Steam, kg/hr equation (Table 4)",
+          "baseline_construction_method": {
+            "value": "Multiple linear regression on simulation-generated data",
+            "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept = -79874.6",
+            "6.3*X1",
+            "24800.1*X2"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kg/hr",
+              "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Variables are independent \nof each other, measurable in actual plants, and can be controlled by \noperators during normal operation.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Python (scikit-learn library)",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "X1, Process gas inlet flow, kg/hr",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "X1, Process gas inlet flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X2, Steam to Carbon (S/C) ratio",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X2, Steam to Carbon (S/C) ratio",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly",
+                "sampling"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "frequency"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 3876,
+              "evidence_quote": "The data \nsets that were collected from the simulation of the ammonia production \nplant contained 3876 rows for each significant energy user section in the \nammonia production plant",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The values were selected based on the safe operating envelope (SOE) \nranges of the actual ammonia plants according to their equipment \nsizing, maximum load, and turndown ratio as shown in Table 2.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Reforming section SOE ranges (Table 2)",
+              "evidence_quote": "Minimum \n18800.62 \n2.50 \n730.02 \n115.00 \n1.50 \nMaximum \n26499.13 \n5.00 \n899.97 \n169.97 \n15.00",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R Square",
+                  "value": 96.5,
+                  "unit": "%",
+                  "period_or_context": "Reforming section steam equation",
+                  "evidence_quote": "Steam, kg/hr = −\n79874.6 + 6.3*X1 + 24800.1*X2 \nR Square = 96.5 %",
+                  "page": 6,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Deviation, ML \n−0.6 % \n−0.9 % \n0.4 % \n−0.4 %",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Deviation ML vs actual (Plant A / B / C / D)",
+                  "value": "−0.6 % / −0.9 % / 0.4 % / −0.4 %",
+                  "unit": "%",
+                  "period_or_context": "Reforming steam, four actual plants",
+                  "evidence_quote": "Deviation, ML \n−0.6 % \n−0.9 % \n0.4 % \n−0.4 %",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Testing data, 20 \n% of the data sets chosen randomly from the available data, this data \nwas used to test and evaluate the model.",
+                "page": 4,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Package boiler section Fuel Gas equation (Table 4)",
+          "baseline_construction_method": {
+            "value": "Multiple linear regression on simulation-generated data",
+            "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept = 493",
+            "-8.4*X1",
+            "0.06*X2",
+            "0.03*X3",
+            "2.6*X4",
+            "24.6*X5"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the \npackage boiler section consumed 11 % of the total inlet natural gas and \nelectricity.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kg/hr",
+              "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Variables are independent \nof each other, measurable in actual plants, and can be controlled by \noperators during normal operation.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 5,
+              "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Python (scikit-learn library)",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "X1, HP BFW temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X1, HP BFW temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X2, HP steam flow, kg/hr",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "X2, HP steam flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X3, Blowdown flow, kg/hr",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X3, Blowdown flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X4, Flue gas temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X4, Flue gas temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X5, O2 % in flue gas (dry), %",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X5, O2 % in flue gas (dry), %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "frequency"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 3876,
+              "evidence_quote": "The data \nsets that were collected from the simulation of the ammonia production \nplant contained 3876 rows for each significant energy user section in the \nammonia production plant",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The values were selected based on the safe operating envelope (SOE) \nranges of the actual ammonia plants according to their equipment \nsizing, maximum load, and turndown ratio as shown in Table 2.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Package boiler section SOE ranges (Table 2)",
+              "evidence_quote": "Minimum \n110.00 \n38395.23 \n600.20 \n140.17 \n2.00 \nMaximum \n134.99 \n129223.48 \n3999.51 \n199.99 \n20.00",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R Square",
+                  "value": 96.3,
+                  "unit": "%",
+                  "period_or_context": "Package boiler fuel gas equation",
+                  "evidence_quote": "Fuel Gas, kg,hr = 493–8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5 \nR Square = 96.3 %",
+                  "page": 6,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Deviation, ML \n2.3 % \n4.2 % \n3.2 % \n1.2 %",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Deviation ML vs actual (Plant A / B / C / D)",
+                  "value": "2.3 % / 4.2 % / 3.2 % / 1.2 %",
+                  "unit": "%",
+                  "period_or_context": "Package boiler fuel gas, four actual plants",
+                  "evidence_quote": "Deviation, ML \n2.3 % \n4.2 % \n3.2 % \n1.2 %",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Testing data, 20 \n% of the data sets chosen randomly from the available data, this data \nwas used to test and evaluate the model.",
+                "page": 4,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Synthesis gas compressor section HP Steam equation (Table 4)",
+          "baseline_construction_method": {
+            "value": "Multiple linear regression on simulation-generated data",
+            "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept = 603240.9",
+            "-373.4*X1",
+            "-2176.9*X2",
+            "3.9*X3",
+            "-5584.7*X4",
+            "-253.5*X5"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kg/hr",
+              "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Variables are independent \nof each other, measurable in actual plants, and can be controlled by \noperators during normal operation.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 5,
+              "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Python (scikit-learn library)",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "X1, HP Steam temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X1, HP Steam temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X2, HP Steam pressure, bar",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X2, HP Steam pressure, bar",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X3, Syn. gas flow, kg/hr",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "X3, Syn. gas flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X4, Syn. gas inlet pressure, bar",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X4, Syn. gas inlet pressure, bar",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X5, Recycle syn. gas inlet pressure, bar",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X5, Recycle syn. gas inlet pressure, bar",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "frequency"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 3876,
+              "evidence_quote": "The data \nsets that were collected from the simulation of the ammonia production \nplant contained 3876 rows for each significant energy user section in the \nammonia production plant",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The values were selected based on the safe operating envelope (SOE) \nranges of the actual ammonia plants according to their equipment \nsizing, maximum load, and turndown ratio as shown in Table 2.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Synthesis gas compressor section SOE ranges (Table 2)",
+              "evidence_quote": "Minimum \n400.02 \n85.00 \n45436.00 \n13.00 \n85.01 \nMaximum \n539.99 \n120.00 \n64041.21 \n32.00 \n199.97",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R Square",
+                  "value": 97.3,
+                  "unit": "%",
+                  "period_or_context": "Synthesis gas compressor HP steam equation",
+                  "evidence_quote": "HP Steam, kg/hr = 603240.9–373.4*X1 −\n2176.9*X2 + 3.9*X3 – 5584.7*X4 – 253.5*X5 \nR Square = 97.3 %",
+                  "page": 6,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Deviation, ML \n0.6 % \n0.2 % \n1.5 % \n0.3 %",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Deviation ML vs actual (Plant A / B / C / D)",
+                  "value": "0.6 % / 0.2 % / 1.5 % / 0.3 %",
+                  "unit": "%",
+                  "period_or_context": "Synthesis gas compressor HP steam, four actual plants",
+                  "evidence_quote": "Deviation, ML \n0.6 % \n0.2 % \n1.5 % \n0.3 %",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Testing data, 20 \n% of the data sets chosen randomly from the available data, this data \nwas used to test and evaluate the model.",
+                "page": 4,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "Air compressor section MP Steam equation (Table 4)",
+          "baseline_construction_method": {
+            "value": "Multiple linear regression on simulation-generated data",
+            "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept = 64415.7",
+            "-184.3*X1",
+            "142.9*X2",
+            "0.83*X3"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kg/hr",
+              "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the machine learning models were developed in Python \nprogramming language using a multiple linear regression algorithm \nbased on supervised learning.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Variables are independent \nof each other, measurable in actual plants, and can be controlled by \noperators during normal operation.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 3,
+              "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Python (scikit-learn library)",
+              "evidence_quote": "3100 data samples were used in the selected mul­\ntiple linear regression algorithm using Python programming language \n(scikit-learn library)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "X1, MP Steam temperature, ◦C",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X1, MP Steam temperature, ◦C",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X2, MP Steam pressure, bar",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "X2, MP Steam pressure, bar",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "X3, Process air flow, kg/hr",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "X3, Process air flow, kg/hr",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "frequency"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 3876,
+              "evidence_quote": "The data \nsets that were collected from the simulation of the ammonia production \nplant contained 3876 rows for each significant energy user section in the \nammonia production plant",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the \nsimulated plant was used to produce large volumes of data to train and test our machine-learning model.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "The values were selected based on the safe operating envelope (SOE) \nranges of the actual ammonia plants according to their equipment \nsizing, maximum load, and turndown ratio as shown in Table 2.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Air compressor section SOE ranges (Table 2)",
+              "evidence_quote": "Minimum \n345.01 \n40.00 \n46951.78 \nMaximum \n419.97 \n50.00 \n66177.68",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+                "page": 6,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R Square",
+                  "value": 95.3,
+                  "unit": "%",
+                  "period_or_context": "Air compressor MP steam equation",
+                  "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+                  "page": 6,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Deviation, ML \n1.2 % \n4.7 % \n0.6 % \n−3.4 %",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Deviation ML vs actual (Plant A / B / C / D)",
+                  "value": "1.2 % / 4.7 % / 0.6 % / −3.4 %",
+                  "unit": "%",
+                  "period_or_context": "Air compressor MP steam, four actual plants",
+                  "evidence_quote": "Deviation, ML \n1.2 % \n4.7 % \n0.6 % \n−3.4 %",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Testing data, 20 \n% of the data sets chosen randomly from the available data, this data \nwas used to test and evaluate the model.",
+                "page": 4,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "Specific Energy Consumption (SEC = E/U) EnPI for cross-plant comparison",
+          "baseline_construction_method": {
+            "value": "Intensity ratio: energy consumption divided by ammonia produced (SEC = E/U)",
+            "evidence_quote": "Specific Energy Consumption (SEC) is the relation be­\ntween the actual or expected energy consumption, E, and the amount of \nproduced ammonia, U in tons.",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Specific Energy Consumption (SEC) is the relation be­\ntween the actual or expected energy consumption, E, and the amount of \nproduced ammonia, U in tons.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "the sec­\nondary energy; steam, and electricity, were converted to primary en­\nergy; fuel energy",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Specific Energy Consumption (SEC) is the relation be­\ntween the actual or expected energy consumption, E, and the amount of \nproduced ammonia, U in tons.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MMBtu/ton NH3",
+              "evidence_quote": "SEC \nMMBtu/ton NH3 \n32.3 \n31.9 \n32.8 \n31.0",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "SEC = E/U",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "the amount of produced ammonia, U in tons",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Specific Energy Consumption (SEC) is the relation be­\ntween the actual or expected energy consumption, E, and the amount of \nproduced ammonia, U in tons.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The real data was extracted from four \nactual ammonia production plants from different locations (A, B, C, and \nD) and at different times.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "The real data was extracted from four \nactual ammonia production plants from different locations (A, B, C, and \nD) and at different times.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 4,
+              "evidence_quote": "actual versus optimum energy consumption was analyzed for four ammonia production plants.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The real data was extracted from four \nactual ammonia production plants from different locations (A, B, C, and \nD) and at different times.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Specific Energy Consumption (SEC) was used in this work to \ncompare the energy performance of different plants with the same \nboundaries.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "envelope",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "An \nannual saving of up to 3.9 million dollars was reached in one of the ammonia production plants operating costs.",
+                "page": 1,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Operating cost saving (annual)",
+                  "value": "up to 3.9",
+                  "unit": "million $/yr",
+                  "period_or_context": "best plant (Plant A)",
+                  "evidence_quote": "An \nannual saving of up to 3.9 million dollars was reached in one of the ammonia production plants operating costs.",
+                  "page": 1,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "CO2 emission reduction",
+                  "value": "up to 4.7",
+                  "unit": "ton per hour",
+                  "period_or_context": "energy efficiency adjustment",
+                  "evidence_quote": "A reduction in carbon dioxide emissions of up to 4.7 ton per hour was achieved due to energy efficiency \nadjustment.",
+                  "page": 1,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Operating cost savings (Plant A / B / C / D)",
+                  "value": "3.9 / 2.9 / 3.8 / 1.9",
+                  "unit": "MM$/yr",
+                  "period_or_context": "Table 6 Savings",
+                  "evidence_quote": "Operating Costs \nMM$/yr \n3.9 \n2.9 \n3.8 \n1.9",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "continuous chemical production",
+        "evidence_quote": "Ammonia was produced from the steam reforming of natural gas",
+        "page": 3,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "data sets were cleaned and validated by excluding \nabnormal values that were outside the Safe Operating Envelope (SOE).",
+      "page": 3,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "validity envelope exceeded",
+      "effect_other_verbatim": "Model built and bounded to the Safe Operating Envelope (SOE) ranges; data outside the SOE were excluded"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "normalisation to a reference product",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "Specific Energy Consumption (SEC) was used in this work to \ncompare the energy performance of different plants with the same \nboundaries.",
+      "page": 5,
+      "support_class": "direct statement",
+      "refers_to": "M6"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "data sets were cleaned and validated by excluding \nabnormal values that were outside the Safe Operating Envelope (SOE).",
+      "page": 3,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "in this study the refrigeration section was \nnot considered as the amount of medium pressure steam consumed is \nalmost constant because it is a closed loop.",
+      "page": 3
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Lack of awareness, knowledge and experience in industry on how to implement energy-efficient processes",
+      "evidence_quote": "there is a lack of awareness, knowledge, and experience in \nthe industry on how to implement energy-efficient processes",
+      "page": 1
+    },
+    {
+      "barrier": "Energy efficiency is rarely an industrial priority relative to production objectives",
+      "evidence_quote": "Industrial priorities are usually set toward production objectives; how­\never, energy efficiency is seldom one of these priorities",
+      "page": 1
+    },
+    {
+      "barrier": "Requires ongoing commitment and willingness to invest in new technologies and processes",
+      "evidence_quote": "Successful implementation of an energy management system re­\nquires commitment to ongoing monitoring, analysis, and optimization, \nas well as willingness to invest in new technologies and processes to \nimprove energy efficiency and sustainability.",
+      "page": 6
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "Fuel Gas, kg/hr = −\n8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5 \nR Square = 89.5 %",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "MP Steam, kg/hr = 64415.7–184.3*X1 + 142.9*X2 + 0.83*X3 \nR Square = 95.3 %",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "partial",
+      "evidence_quote": "Data will be made available on request.",
+      "page": 8,
+      "support_class": "requires inference"
+    },
+    "code_available": {
+      "value": "partial",
+      "evidence_quote": "detailed program is shown in Appendix D",
+      "page": 4,
+      "support_class": "requires inference"
+    }
+  },
+  "reviewer_notes": "Paper builds one ML methodology (multiple linear regression) with five separate section-level energy-consumption equations (reforming fuel gas M1, reforming steam M2, package boiler fuel gas M3, synthesis gas compressor HP steam M4, air compressor MP steam M5), all fitted on Aspen Hysys simulation data (3876 rows per SEU, 80/20 train-test split) and validated against four actual plants (A-D). M6 captures the plant-level SEC (MMBtu/ton NH3) intensity ratio used as EnPI and where the energy/cost/CO2 savings are reported. The four actual plants are treated as one multi-site application because the same models are applied across all of them. R Square values (Table 4) recorded as in-sample fit; ML-vs-actual deviation percentages (Table 5) as out-of-sample validation. Estimation method OLS inferred from scikit-learn LinearRegression (not explicitly named). Ammonia classified as continuous chemical production, not petrochemical. K1 (validity envelope) is a soft inference from the SOE bounding of the model/training data; reviewer to confirm.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "assumption",
+        "drift",
+        "extrapolation",
+        "validity",
+        "stationarity",
+        "not valid"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalisation",
+        "SEC",
+        "segmented",
+        "outlier",
+        "reference product"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "not considered",
+        "excluded",
+        "future work",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "awareness",
+        "priority",
+        "investment",
+        "commitment",
+        "training"
+      ]
+    }
+  },
+  "attempt": 6
+}

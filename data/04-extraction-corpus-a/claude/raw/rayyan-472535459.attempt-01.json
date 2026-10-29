@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535459",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper provides a methodology to assess the maturity of an organization’s readiness for change \nbased on the use of a Fuzzy Analytic Network Process and fuzzy linguistic evaluation maturity model",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": "Presents a readiness-for-change maturity model (organisational assessment via Fuzzy Analytic Network Process and fuzzy linguistic evaluation); contains no EnPI/EnB measurement-model content. ISO 50001/EnMS is only the change context - no energy performance indicator or energy baseline is defined, estimated, or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Development of a readiness for change maturity model",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Model measures organisational readiness (change-management factors), not energy performance. Case is an automotive assembly plant (discrete manufacturing), outside continuous-process Corpus-B scope."
+  },
+  "stage2": null,
+  "stage3": null
+}

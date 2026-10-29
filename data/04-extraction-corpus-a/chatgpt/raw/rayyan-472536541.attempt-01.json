@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536541",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:54:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The purpose of this work is to modify the fuel supply systems for a TPP switching from solid, liquid, and gas fuel to high-potential CWSP fuels.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "No EnPI/EnB measurement model is identified or characterised; the paper evaluates fuel-system modification and techno-economic switching costs.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Dmitrienko and Strizhak (2018) considered three power-generating facilities ﬁred by various types of fuel.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Energy-performance wording refers to fuel characteristics and cost comparison, not an EnPI/EnB baseline or normalisation model."
+  },
+  "stage2": null,
+  "stage3": null
+}

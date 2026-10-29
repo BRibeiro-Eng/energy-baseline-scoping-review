@@ -1,0 +1,33 @@
+{
+  "key": "rayyan-472536102",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cogeneration of electricity from sugar cane bagasse presented as a continuous industrial power activity; sugar mills operate cogeneration plants",
+      "quote": "the country has great potential to develop a cogeneration industry \nbased on sugar cane bagasse.",
+      "page": 4,
+      "sector": "cogeneration (sugar mill bagasse)"
+    },
+    {
+      "signal": "Sugar mills identified as cogeneration plants in Colombia (11 of 21), with installed capacity growing",
+      "quote": "of the 21 cogeneration plants existing in Colombia, 11 correspond to sugar mills: Risaralda, Riopaila, San Carlos, Providencia, Manuelita, La Cabaña, Castilla, María Luisa, \nMayagüez, Incauca and Bioenergy.",
+      "page": 4,
+      "sector": "cogeneration (sugar mill bagasse)"
+    },
+    {
+      "signal": "Empirical Sankey analysis of the cogeneration process at Ingenio del Cauca, distributing electrical power to milling, substation and factory processes",
+      "quote": "Figure 5 shows the Sankey diagram for part of the cogeneration process at Ingenio \ndel Cauca. From the consumption data at the different points of the factory, it can be \nseen that the milling process demands 30% of the electrical power generated (840 \nkW) by cogeneration",
+      "page": 7,
+      "sector": "cogeneration (sugar mill bagasse)"
+    },
+    {
+      "signal": "Sugar milling described with continuous plant operation, startup/shutdown lags between milling and cogeneration/manufacturing/services",
+      "quote": "the mills have a lag \nof about 8 hours in start-ups and shutdowns between the cane milling process and the \nrest of the plant (cogeneration, manufacturing, and services)",
+      "page": 12,
+      "sector": "sugar milling / agroindustrial process"
+    }
+  ],
+  "application_strength": "demonstrated",
+  "conservative_classification": false,
+  "one_line": "The paper empirically applies ISO 50001 energy-management tools to characterize electrical energy use and estimate savings potential at a Colombian sugar mill (Ingenio del Cauca), a sugar-production/agroindustrial context that includes bagasse cogeneration but is not among the eight registered Corpus B sectors."
+}

@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472535520",
+  "listed_sector_signals": [
+    {
+      "signal": "Cement named as the most energy-intensive industrial sector in Pakistan's industrial energy-consumption breakdown (Fig. 2), context only — not the study's application site",
+      "quote": "Textile sector consumes about 17% of total\nindustrial energy, which is the second largest\nenergy intensive industry after cement industries as\npresented in Fig 2.",
+      "page": 1,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Iron and steel listed as a segment of Pakistan's industrial energy consumption pie chart (Fig. 2), mention only",
+      "quote": "lS lron and steel\n= Fertilizer\n= Cement",
+      "page": 1,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Fertilizer listed as a segment of Pakistan's industrial energy consumption pie chart (Fig. 2), mention only",
+      "quote": "= Fertilizer\n\n= Cement\n\n@ Brick kiln",
+      "page": 1,
+      "sector": "continuous chemical production (fertilizers)"
+    },
+    {
+      "signal": "Paper listed as a segment of Pakistan's industrial energy consumption pie chart (Fig. 2), mention only",
+      "quote": "@ Paper\n\n= Textile\n\nlS lron and steel",
+      "page": 1,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Continuous coal-fired boiler / steam generation and thermal-oil heating providing utilities to the textile plant (24/7 utilities dept.), though serving discrete fabric processing",
+      "quote": "To\nprovide utilities to all three units there is a separate\nutilities department which looks after for\nelectricity, steam, water etc.",
+      "page": 1,
+      "sector": "cogeneration / boiler steam utilities"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "Case study applying ISO 50001 energy management to a textile fabric-processing unit (Shafi Texcel Ltd.) in Pakistan, reducing coal/steam consumption in boilers and dyeing/finishing — a discrete/batch textile context, not continuous-flow Corpus B production."
+}

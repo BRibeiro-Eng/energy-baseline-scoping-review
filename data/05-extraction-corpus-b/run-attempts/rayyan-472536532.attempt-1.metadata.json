@@ -1,0 +1,69 @@
+{
+  "key": "rayyan-472536532",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-13T12:09:46",
+  "finished_at": "2026-09-13T12:18:21",
+  "returncode": 0,
+  "input_sha256": "0e65ddcd160d799c376ed75be07811b8fb4bcfdf04407a7869d70c065d8f0085",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472536532.attempt-1.raw.json",
+  "attempt": 1,
+  "session_id": "a6dc126f-5c4b-467c-83ec-334a89e39289",
+  "models_returned": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-8[1m]"
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 31671,
+    "cache_read_input_tokens": 20331,
+    "output_tokens": 45389,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 31671,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 45389,
+        "cache_read_input_tokens": 20331,
+        "cache_creation_input_tokens": 31671,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 31671
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "total_cost_usd": 1.4865985000000002,
+  "duration_ms": 513541,
+  "is_error": false,
+  "status": "valid",
+  "grounding": {
+    "exact": 99,
+    "wrong_page": 0,
+    "not_found": 0,
+    "interleaved": 0,
+    "negation_mismatch": 0,
+    "absent_no_quote": 20,
+    "locator_corrected": 0
+  },
+  "enum_snaps": [],
+  "support_class": {
+    "direct statement": 62,
+    "requires inference": 34,
+    "absence checked": 20,
+    "missing": 0
+  },
+  "n_models": 3,
+  "n_mechanisms": 7
+}

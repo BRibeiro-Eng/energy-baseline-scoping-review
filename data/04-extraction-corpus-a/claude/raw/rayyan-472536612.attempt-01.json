@@ -1,0 +1,122 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536612",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:39:54.139830+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Doing a linear regression with the data relative to the measured quantities has allowed to analyze the P-Value",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Companies whose data make up the dataset are all part of nine industrial sectors",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Compressed air is a cross-cutting utility studied across nine mixed sectors (continuous + discrete), not one closed-list continuous-process case -> level_3b false. paper_type borderline: primarily a benchmarking-procedure/methodological study with exploratory multi-firm empirical data."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "Italian transposition of the European Union through Directive 2012/27/EU",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "sector_of_activity": {
+      "value": "nine industrial sectors",
+      "evidence_quote": "are all part of nine industrial sectors that are",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "nine industrial sectors that are: manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree",
+        "EU EED"
+      ],
+      "evidence_quote": "According to Art. 8 of Legislative (Lgs.) Decree n°102 of the 4th July 2014, Italian transposition of the European Union through Directive 2012/27/EU, the large and energy intensive enterprises must undergo energy audits",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "kWhe CAS/t - The ratio between the amount of energy consumed for the compressed air production and the production volumes",
+        "Doing a linear regression with the data relative to the measured quantities",
+        "control charts and CUSUM they can have a real-time monitoring system"
+      ],
+      "page": [
+        3,
+        4,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

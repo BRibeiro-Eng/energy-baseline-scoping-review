@@ -1,0 +1,258 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535748",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:30:14Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The program Energy Guide, which was developed based on the principles just mentioned, makes it possible to construct norms for energy-efficiency indices on the basis of multi-factorial physical and statistical models.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The program Energy Guide, which was developed based on the principles just mentioned, makes it possible to construct norms for energy-efficiency indices on the basis of multi-factorial physical and statistical models.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant in Germany, while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station. These norms were determined on the basis of multi-factorial models constructed automatically by the Energy Guide program",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Eligible software-design paper embedding dynamic EnPI norms; explicit steelmaking application supports Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a furnace at the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "a furnace at the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "steelmaking",
+      "evidence_quote": "the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "information systems which comply with the standard ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "physical model",
+        "ML",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "multifactorial statistical models, physical models, and neural-network models",
+        "the ratio of the amount of electric power which is consumed to the volume of pipe production on the mill"
+      ],
+      "page": [
+        1,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "volume of production",
+        "parameters of the raw material and its quality",
+        "process parameters",
+        "external factors"
+      ],
+      "evidence_quote": "1 – volume of production; 2 – parameters of the raw material and its quality (fractional composition, impurity content, etc.); 3 – process parameters (furnace temperature, the diameter of pipes that are being made, etc.); and 4 – external factors (climatic factors, regime constraints, the production plan, and the maintenance and repair plan).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Several multifactorial statistical, neural-network, or physical models are built for each energy-efficiency index; the model with the smallest test-sample error is selected and the dynamic norm is periodically recalculated.",
+      "evidence_quote": "Several models can be built for each energy-efficiency index and the model with the smallest error for the test sample can then be chosen for further use.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "the model with the smallest error for the test sample can then be chosen for further use",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "the electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "scope_description": {
+      "value": "the electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant in Germany",
+      "evidence_quote": "the electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "The system identifies the main factors that affect the indices which characterize the efficiency of RFE use, runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "adaptation_types": {
+      "value": [
+        "dynamic time window"
+      ],
+      "evidence_quote": "runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": "runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "shortage of time and staff for manual energy-use analysis"
+      ],
+      "evidence_quote": "due to a shortage of time and staff",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

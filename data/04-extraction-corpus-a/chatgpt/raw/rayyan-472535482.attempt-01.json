@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535482",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:59:49Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "That is, for each EEM, the energy saving effect was measured or calculated in terms of an expert opinion. In order to compare the effect between firms, this amount of energy was divided by the respective firms’ total energy consumption, excluding transport for normalization.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "out of the total of 293 firms, 51 complete datasets could be extracted, and 45 were taken into account",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The dataset is cross-sectional in manufacturing, services and construction industries.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Mixed-sector Austrian dataset; no explicit application confined to a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "out of the total of 293 firms, 51 complete datasets could be extracted, and 45 were taken into account",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "country_region": {
+      "value": "Austria",
+      "evidence_quote": "Data on all 2200 Austrian firms which had to perform an audit or have a MS in place was gathered",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing, services and construction industries",
+      "evidence_quote": "The dataset is cross-sectional in manufacturing, services and construction industries.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "The dataset is cross-sectional in manufacturing, services and construction industries.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "external auditors performing these audits, or if they had an ISO 50001- or ISO 14001-certified management process in place, working out measures by their own staff.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "This process was initiated by the European Union Energy Efficiency Directive (Directive 2012/27/EU). It prescribes all member states to have all large firms perform technical energy efficiency audits",
+        "Audits had to follow the EN 16247 (1) technical energy auditing standard and its respective parts for production, buildings or transport energy consumption, and the Austrian energy efficiency law implementing the EU energy efficiency directive."
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "In order to compare the effect between firms, this amount of energy was divided by the respective firms’ total energy consumption, excluding transport for normalization.",
+        "Two factors were regressed on EEM implementation: project maturity, i.e. perceived risk, and management style"
+      ],
+      "page": [
+        9,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,15 @@
+{
+  "key": "rayyan-472535759",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Airport HVAC thermal energy supplied by a centralized trigeneration (combined heat/cool/power) plant — a cogeneration context, though only mentioned as the building's energy source",
+      "quote": "Thermal\nenergy\nis\nproduced\nby\na\ncentralized\ntrigeneration plant and distributed across the different\nbuilding zones, according with a modular design.",
+      "page": 7,
+      "sector": "cogeneration/trigeneration"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": true,
+  "one_line": "The paper applies calibrated whole-building performance simulation and fault detection/diagnosis to support ISO 50001 energy management at an airport terminal (Milan Malpensa), a commercial building context, not continuous-flow industrial production."
+}

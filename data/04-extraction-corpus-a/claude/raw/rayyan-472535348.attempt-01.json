@@ -1,0 +1,105 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535348",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "we analyze simulation models and software tools employed for performance assessment",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "designed as a critical systematic review",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Latin American university buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Borderline review/synthesis: critiques building energy simulation (physical) models and their validation for university (institutional) buildings; engages energy baselines, kWh/m2 indicators and ISO 50001/50006, but sector is buildings, not industrial. Flagged for human review. Not a continuous-process industry, so level_3b=false and Stage 3 is null."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "The systematic review identified 36 studies from an initial pool of 225 records",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Latin America (Brazil, Ecuador, Mexico, Colombia, Argentina, Panama; Andean highland focus)",
+      "evidence_quote": "Brazil accounting for 42% of publications dominating the research landscape, contributing 15 studies, followed by Ecuador with six studies (17%), Mexico with four (11%), and Colombia and Argentina contributed two studies each (5%), and Panama one (3%)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "university buildings",
+      "evidence_quote": "Latin American university buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "academic or mixed-use academic buildings",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": "Methodologies based on ISO 50001/50006 frameworks",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["ASHRAE 14"],
+      "evidence_quote": "per ASHRAE Guideline 14",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "enpi_enb_model_types": {
+      "value": ["physical model", "ML", "simple intensity ratio"],
+      "evidence_quote": [
+        "physics-based EnergyPlus models",
+        "Machine learning approaches have emerged",
+        "energy performance metrics (kWh/m2 annually)"
+      ],
+      "page": [24, 10, 26],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

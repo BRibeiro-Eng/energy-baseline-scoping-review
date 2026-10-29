@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536744",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:22:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "For offshore sites the indicator which has been selected is that which measures energy consumed against energy exported.  This indicator represents the percentage of total energy produced that is consumed in the process of production.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "To date TEPUK have carried out energy efficiency assessments at three sites, two offshore installations and one office location onshore.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Energy efficiency assessments of oil and gas installations are not a new concept for the identification of energy savings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Applied to upstream oil-and-gas installations and an office; upstream E&P is not in the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "To date TEPUK have carried out energy efficiency assessments at three sites, two offshore installations and one office location onshore.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "UK",
+      "evidence_quote": "Energy efficiency assessments were carried out at a number of Total E&P UK Limited (TEPUK) sites, on and offshore.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "oil and gas",
+      "evidence_quote": "Energy efficiency assessments of oil and gas installations are not a new concept for the identification of energy savings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "To date TEPUK have carried out energy efficiency assessments at three sites, two offshore installations and one office location onshore.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU-ETS",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "Both offshore installations subjected to energy efficiency assessments are regulated under the European Union Emissions Trading Scheme (EU ETS) [2].",
+        "Further regulatory drive in the UK is provided through the requirements of the recently implemented Offshore Combustion Installation (Prevention and Control of Pollution) Regulations 2001 (IPPC) [3]."
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "For offshore sites the indicator which has been selected is that which measures energy consumed against energy exported.  This indicator represents the percentage of total energy produced that is consumed in the process of production.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "This matrix allows the assessment of each recommendation against: costs, operability, maintainability, environmental impact, safety and security of supply.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    }
+  },
+  "stage3": null
+}

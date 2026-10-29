@@ -1,0 +1,1804 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535532",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 10,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Cement manufacturing",
+        "evidence_quote": "Cement manufacturing is one of the industries that consume a high amount of heat and electricity.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "South Sulawesi, Indonesia",
+        "evidence_quote": "South Sulawesi – Indonesia, 90651",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The company, \nwhich has an installed capacity of 5,980,000 tons of cement per year, has four factory units, generally known as Tonasa \nII, III, IV and V factories and supporting Coal-Fired power plants generating 120 MW electricity 1.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "PT Semen Tonasa cement plant with four factory units (Tonasa II, III, IV, V) and internal coal-fired power plant; energy performance baselines built for SEUs Plant 4, Plant 5 and Power Plant CD",
+        "evidence_quote": "Currently PT Semen Tonasa focuses on 7 SEUs (Plant 4/5 and Power Plant \nCD), and the next few years will be implemented on other SEUs that have the potential for energy efficiency.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Cement manufacturing is one of the industries that consume a high amount of heat and electricity.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Baseline thermal energy Plant 4 (Y = 834,81 X + 3.078.595.022)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Y = 834,81 X + 3.078.595.022",
+            "R square = 0,88"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Plant 4 \nKcal Coal \nTon clinker \nY = 834,81 X + 3.078.595.022",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "Plant 4 \nKcal Coal \nTon clinker \nY = 834,81 X + 3.078.595.022",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Y = 834,81 X + 3.078.595.022 \n                 0,88",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Kcal Coal",
+              "evidence_quote": "Plant 4 \nKcal Coal \nTon clinker \nY = 834,81 X + 3.078.595.022",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "regression method"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Y = 834,81 X + 3.078.595.022",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Excel",
+                "Minitab",
+                "SPSS",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Ton clinker",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Plant 4 \nKcal Coal \nTon clinker \nY = 834,81 X + 3.078.595.022",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "invoice",
+                "measurement",
+                "data source"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs that have the potential to greatly affect energy performance such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds",
+                "envelope",
+                "applicable range"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Y = 834,81 X + 3.078.595.022 \n                 0,88",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R squared",
+                  "value": "0,88",
+                  "unit": null,
+                  "period_or_context": "Plant 4 thermal baseline",
+                  "evidence_quote": "Y = 834,81 X + 3.078.595.022 \n                 0,88",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test set",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Energy efficiency was 6,4 % in 2018 and \n8,7 % during the semester 1-2019 compare to baseline.",
+                "page": 8,
+                "support_class": "requires inference"
+              },
+              "metrics": [
+                {
+                  "metric": "energy efficiency vs baseline",
+                  "value": "6,4 % in 2018; 8,7 % in semester 1-2019",
+                  "unit": "%",
+                  "period_or_context": "aggregate across SEUs (Plant 4, Plant 5, Power Plant CD), not attributable to a single model",
+                  "evidence_quote": "Energy efficiency was 6,4 % in 2018 and \n8,7 % during the semester 1-2019 compare to baseline.",
+                  "page": 8,
+                  "support_class": "requires inference"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Baseline thermal energy Plant 5 (Y = 813,42 X + 5.051.987.877)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Y = 813,42 X + 5.051.987.877",
+            "R square = 0,91"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Plant 5 \n  Kcal Coal \nTon clinker \nY = 813,42 X + 5.051.987.877",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "Plant 5 \n  Kcal Coal \nTon clinker \nY = 813,42 X + 5.051.987.877",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Y = 813,42 X + 5.051.987.877 \n0,91",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Kcal Coal",
+              "evidence_quote": "Plant 5 \n  Kcal Coal \nTon clinker \nY = 813,42 X + 5.051.987.877",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Y = 813,42 X + 5.051.987.877",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Ton clinker",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Plant 5 \n  Kcal Coal \nTon clinker \nY = 813,42 X + 5.051.987.877",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "invoice",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Y = 813,42 X + 5.051.987.877 \n0,91",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R squared",
+                  "value": "0,91",
+                  "unit": null,
+                  "period_or_context": "Plant 5 thermal baseline",
+                  "evidence_quote": "Y = 813,42 X + 5.051.987.877 \n0,91",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "saving",
+                  "efficiency",
+                  "%"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Baseline thermal energy Power Plant CD (Kcal Coal vs KWh output; Y = 3.488,96 X + 18.225.379.135)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Y = 3.488,96 X + 18.225.379.135",
+            "R square = 0,84"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nKWh output \nY = 3.488,96 X + 18.225.379.135",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "Power Plant CD \nKcal Coal \nKWh output \nY = 3.488,96 X + 18.225.379.135",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Y = 3.488,96 X + 18.225.379.135 \n0,84",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Kcal Coal",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nKWh output \nY = 3.488,96 X + 18.225.379.135",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Y = 3.488,96 X + 18.225.379.135",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "KWh output",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nKWh output \nY = 3.488,96 X + 18.225.379.135",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Y = 3.488,96 X + 18.225.379.135 \n0,84",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R squared",
+                  "value": "0,84",
+                  "unit": null,
+                  "period_or_context": "Power Plant CD, Kcal Coal vs KWh output",
+                  "evidence_quote": "Y = 3.488,96 X + 18.225.379.135 \n0,84",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "saving",
+                  "%"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Baseline thermal energy Power Plant CD (Kcal Coal vs Ton Steam; Y = 884.380,42 X + 23.789.946.925)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Y = 884.380,42 X + 23.789.946.925",
+            "R square = 0,76"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nTon Steam \nY = 884.380,42 X + 23.789.946.925",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "Power Plant CD \nKcal Coal \nTon Steam \nY = 884.380,42 X + 23.789.946.925",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Y = 884.380,42 X + 23.789.946.925 \n0,76",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Kcal Coal",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nTon Steam \nY = 884.380,42 X + 23.789.946.925",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Y = 884.380,42 X + 23.789.946.925",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Ton Steam",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Power Plant CD \nKcal Coal \nTon Steam \nY = 884.380,42 X + 23.789.946.925",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Y = 884.380,42 X + 23.789.946.925 \n0,76",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R squared",
+                  "value": "0,76",
+                  "unit": null,
+                  "period_or_context": "Power Plant CD, Kcal Coal vs Ton Steam",
+                  "evidence_quote": "Y = 884.380,42 X + 23.789.946.925 \n0,76",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "saving"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "Baseline Power Plant CD (Ton Steam vs KWh output; Y = 0,0041 X + 5,939)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Y = 0,0041 X + 5,939",
+            "R square = 0,92"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Power Plant CD \nTon Steam \nKWh output \nY = 0,0041 X + 5,939",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "Power Plant CD \nTon Steam \nKWh output \nY = 0,0041 X + 5,939",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Y = 0,0041 X + 5,939 \n0,92",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Ton Steam",
+              "evidence_quote": "Power Plant CD \nTon Steam \nKWh output \nY = 0,0041 X + 5,939",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Y = 0,0041 X + 5,939",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "KWh output",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Power Plant CD \nTon Steam \nKWh output \nY = 0,0041 X + 5,939",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Y = 0,0041 X + 5,939 \n0,92",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R squared",
+                  "value": "0,92",
+                  "unit": null,
+                  "period_or_context": "Power Plant CD, Ton Steam vs KWh output",
+                  "evidence_quote": "Y = 0,0041 X + 5,939 \n0,92",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "saving"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "Electrical energy baseline (single regression, SEUs Cement plant 4/5 and Power Plant CD)",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "single regression method",
+            "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "per ton",
+                "denominator",
+                "driver"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EnPI chosen by PT Semen Tonasa is EnPI Type 3 which is Linear Regression (according to ISO 50006).",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "energy baseline is set for thermal and electricity and was determined by using the single regression \nmethod.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "variable",
+                "driver"
+              ]
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "driver",
+              "variable",
+              "electricity baseline",
+              "kWh"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The base year is set for the 2016 and 2017 monthly data.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "significant changes to SEUs such as operating patterns or the addition of major equipment",
+              "evidence_quote": "It will only be changed if there are significant changes to SEUs that have the potential to greatly affect \nenergy performance such as operating patterns or the addition of major equipment.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R square",
+                  "electrical baseline",
+                  "equation"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "saving",
+                  "electricity"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "Cement manufacturing is one of the industries that consume a high amount of heat and electricity.",
+        "page": 2,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M6",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Changes in cement process production, in this case the clinker index reduction program has an impact on \nelectrical energy performance.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M6",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "A decrease in mill capacity with the same baseload causes the intensity of electrical energy consumption to increase.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Does not account for baseload and \nnon-linear effects",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Do not measure energy efficiency",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "proposed",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "Baseline determination by using single regression will be updated using other \ninfluential variables so that the use of multiple regression for new baselines will be considered.",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "M6"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "Currently PT Semen Tonasa focuses on 7 SEUs (Plant 4/5 and Power Plant \nCD), and the next few years will be implemented on other SEUs that have the potential for energy efficiency.",
+      "page": 10,
+      "searched_terms": [
+        "scope",
+        "SEU",
+        "coverage",
+        "all factories"
+      ]
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Energy team had to balance implementing ISO 50001 with their other primary duties; energy management tasks are functional and not in structural job descriptions",
+      "evidence_quote": "One of the main challenges faced during the Semen Tonasa implementation was the balancing act the energy \nteam had to play between implementing ISO 50001 and their other primary duties/roles.",
+      "page": 10,
+      "searched_terms": [
+        "challenge",
+        "barrier",
+        "commitment",
+        "duties"
+      ]
+    },
+    {
+      "barrier": "Need to increase competence of human resources / energy teams through training to support energy management",
+      "evidence_quote": "Increasing the competence of human resources / energy teams through training is very necessary to support \nthe implementation of energy management.",
+      "page": 10,
+      "searched_terms": [
+        "training",
+        "competence",
+        "skills"
+      ]
+    },
+    {
+      "barrier": "Need to build an IT system and central database so energy performance can be monitored online and records documented",
+      "evidence_quote": "It is important to build an IT system and central data base so that energy performance can be monitored online \nand all records are well documented.",
+      "page": 10,
+      "searched_terms": [
+        "IT system",
+        "database",
+        "monitoring",
+        "records"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "Y = 834,81 X + 3.078.595.022",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "Y = 813,42 X + 5.051.987.877 \n0,91",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "dataset"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "Paper is an ISO 50001 implementation case study for PT Semen Tonasa cement plant. Table 1 gives five single-regression thermal baselines (M1-M5), extracted individually. The paper also states electrical baselines were built by single regression (M6) but gives no equation, coefficients or R square; M6 is inferred from the text and most fields are not reported. Overall energy efficiency results (6.4% in 2018, 8.7% in semester 1-2019, cost saving 127.603.336.352 IDR, ~250,351 tCO2 avoided) are aggregate across all SEUs and cannot be cleanly attributed to a single model; recorded once on M1 as requires inference with a note. The clinker-factor reduction mechanism (K1/K2) is tied to the electrical baseline (M6).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "drift",
+        "baseline change",
+        "non-linear",
+        "baseload",
+        "variable"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "multiple regression",
+        "update",
+        "improve",
+        "future"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "limitation",
+        "scope",
+        "coverage"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "commitment",
+        "training",
+        "IT",
+        "resources"
+      ]
+    }
+  },
+  "attempt": 1
+}

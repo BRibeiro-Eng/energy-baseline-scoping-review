@@ -1,0 +1,286 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536661",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:39:29Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Stage 4: The team analyzed ADGAS assets to identify energy users and classified them into three\nlevels of performance indicators. Level 1 indicators being the high level indicators e.g. overall energy\nconsumption per unit total product.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "ADGAS\nimplemented an Energy Management System (EnMS) which not only covers plant operations but\nconsiders each and every aspect of the organization.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "ADGAS owns and operates three LNG trains; LNG trains 1 & 2 are commissioned in\n1977 while the high capacity train 3 was commissioned in 1994. Beside LNG which is produced from a\nspecial cryogenic column, the trains produce Propane, Butane, paraffinic Naphtha and Sulfur.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Applied EnPI baselines at an LNG and gas-processing organisation."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Official site performance report is circulated on monthly basis to top management and site\nmanagement",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "LNG",
+      "evidence_quote": "ADGAS owns and operates three LNG trains",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Beside LNG which is produced from a\nspecial cryogenic column, the trains produce Propane, Butane, paraffinic Naphtha and Sulfur.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Energy Management System under ISO50001:2011 standard in 2011",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "Level 1 indicators being the high level indicators e.g. overall energy\nconsumption per unit total product.",
+        "This baseline is based on past years average performance\nof indicators excluding the time of abnormal operation."
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "total product",
+        "production",
+        "forward flow"
+      ],
+      "evidence_quote": "Level 1 indicators being the high level indicators e.g. overall energy\nconsumption per unit total product. Level 2 is area level indicators e.g. LNG train 1 energy consumption\nper until production. Level 3 indicators are for equipment level e.g. carbonates pump steam consumption\nper unit forward flow.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Each indicator baseline used the average performance from past years, excluding abnormal-operation periods; implemented baselines covered three years.",
+      "evidence_quote": [
+        "This baseline is based on past years average performance\nof indicators excluding the time of abnormal operation.",
+        "Each\nwas established with baseline covering 3-years performance"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "A comprehensive Energy Performance Indicator (EnPI)\nmonitoring tool was developed with 96 Energy EnPI that covers 98% of plant energy consumption.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "scope_description": {
+      "value": "A plant-wide set of 96 EnPIs covering 98% of plant energy consumption, with indicators at overall, area and equipment levels.",
+      "evidence_quote": [
+        "classified them into three\nlevels of performance indicators.",
+        "A comprehensive Energy Performance Indicator (EnPI)\nmonitoring tool was developed with 96 Energy EnPI that covers 98% of plant energy consumption."
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "ADGAS owns and operates three LNG trains; LNG trains 1 & 2 are commissioned in\n1977 while the high capacity train 3 was commissioned in 1994.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Each\nwas established with baseline covering 3-years performance and target and actions required upon\ndeviation. Official site performance report is circulated on monthly basis",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "12,670",
+          "unit": "TJ",
+          "period_or_context": "overall energy saving",
+          "evidence_quote": "around 12,670 TJ\noverall energy saving was achieved",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "20.9",
+          "unit": "%",
+          "period_or_context": "overall energy efficiency in 2015 compared to 2014",
+          "evidence_quote": "The overall energy efficiency (GJ of total fuel consumption of all\nADGAS plants per GJ total product) showed improvement in 2015 compared to 2014 by 20.9%.",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "In terms of number, around 12,670 TJ\noverall energy saving was achieved which translates to 57,000 ton CO2 GHG emissions as well as an\noverall cost saving of $ 4,417,000. The overall energy efficiency (GJ of total fuel consumption of all\nADGAS plants per GJ total product) showed improvement in 2015 compared to 2014 by 20.9%.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "implementation_barriers": {
+      "value": [
+        "careful planning",
+        "unified approach between departments",
+        "resistance to change"
+      ],
+      "evidence_quote": "despite the task being herculean, involving careful planning, unified\napproach between departments and above all, addressing the issue of resistance to change.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  }
+}

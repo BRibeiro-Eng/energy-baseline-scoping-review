@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536168",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T16:58:21.354461+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "we apply the approach to calculate EnPIs following the guidelines of the ISO 50005:23 and consider operational ratings according to Goldstein and Eley",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This paper proposes an approach comprised of an application layer that interacts with semantic technologies to calculate and analyze energy performance indicators",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "NEST is a modular research and innovation building in which new technologies, materials, and systems are tested under real-life conditions",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline eligibility: primarily a semantic-web tool/software (application layer, KPI synchronization engine, dashboard), but it defines and applies simple intensity-ratio EnPIs (Table 2) per ISO 50006/50005, so charted eligible. 'Continuous' in title = continuous KPI calculation, not a continuous-process industry; application context is buildings (NEST demonstrator), so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The data used for this study come from the NEST (Next Evolution in Sustainability Building Technology) demonstrator at Empa",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "country_region": {
+      "value": "Switzerland",
+      "evidence_quote": "Dübendorf 8600, Switzerland",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "sector_of_activity": {
+      "value": "buildings",
+      "evidence_quote": "an initial comprehensive overview of the energy performance of buildings and their metering devices",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "NEST is a modular research and innovation building",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50006:23 provides guidelines for the creation, use, and maintenance of EnPIs",
+        "following the guidelines of the ISO 50005:23"
+      ],
+      "page": [
+        2,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "capture both overall energy usage and specific characteristics such as energy intensity and peak loads",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

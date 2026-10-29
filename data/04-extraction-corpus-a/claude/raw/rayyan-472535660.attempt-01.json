@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535660",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:19:56+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "An electrical power baseline was developed for the \ntotal power consumed by Mineshaft B and is given in \nFig. 3 The baseline was developed for a 12-month period \nfrom January until December 2014",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study was conducted on one of the deep-\nlevel shafts (Mineshaft B)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the deep-level gold \nmining industry to reduce electricity costs",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Gold mine (extractive): not on closed continuous-process list, so level_3b=false. A9 coded 'continuous process' via 24/7 catch-all (enum gap for mining; low conf, human-flag). Model=kWh/t SEC + power baseline."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study was conducted on one of the deep-\nlevel shafts (Mineshaft B)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "applied to a South African deep-\nlevel gold mine",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "deep-level gold mining",
+      "evidence_quote": "the deep-level gold \nmining industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the deep-level gold mining \nindustry is expanded to other large industrial electricity \nusers",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "the ISO 50001 energy management \nstandard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["SEC mean"],
+      "evidence_quote": "electrical intensity of the different systems and the \ncontribution to the mine's total electricity consumption, \naveraged over the 12 months",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

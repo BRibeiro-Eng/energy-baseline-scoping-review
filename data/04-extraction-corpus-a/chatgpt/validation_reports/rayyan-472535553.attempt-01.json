@@ -1,0 +1,158 @@
+{
+  "attempt": 1,
+  "errors": [
+    "stage2.enpi_enb_model_types: evidence is not grounded"
+  ],
+  "grounding": {
+    "checked": 10,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 6,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 2,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 3,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.multi_site",
+        "grounded": true,
+        "locator": 2,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.country_region",
+        "grounded": true,
+        "locator": 2,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 3,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.type_of_organisation",
+        "grounded": true,
+        "locator": 3,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage2.ems_standard",
+        "grounded": true,
+        "locator": [
+          6,
+          10
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 6,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 10,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "field": "stage2.regulatory_driver",
+        "grounded": true,
+        "locator": [
+          2,
+          2
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 2,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 2,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": false,
+        "locator": [
+          null,
+          8
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 72.40143369175627,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "failure_context": {
+              "normalized_quote": "for determining the variation function of the production with respect to the monthly average exterior temperature (production= f (temperature) ant the monthly average food and non-alcoholic expenditures per family (production = f (expenditures)), the linear regression method was used.",
+              "quote": "For determining the variation function of the production with respect to the monthly average exterior temperature (Production= f (temperature) ant the monthly average food and non-alcoholic expenditures per family (Production = f (expenditures)), the linear regression method was used.",
+              "score": 72.40143369175627,
+              "snippet": "on of the production with respect to the monthly average exterior temperature (production= f (temperature) ant the monthly average food 7 e3s web of conferences 112, 04007 (2019) te-re-rd 2019 https:/",
+              "snippet_page": 7
+            },
+            "grounded": false,
+            "locator": null,
+            "page_unverified": false,
+            "score": 72.40143369175627
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 8,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535553",
+  "valid": false,
+  "warnings": []
+}

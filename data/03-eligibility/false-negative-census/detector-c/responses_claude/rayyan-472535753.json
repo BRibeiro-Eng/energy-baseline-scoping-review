@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472535753",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Funding project title references 'Verfahrenstechnik' (process engineering), a field associated with continuous chemical/process production, alongside production technology",
+      "quote": "Analyse und\n¨Uberwachung des Energieverbrauchs in der Verfahren-\nstechnik und der Produktionstechnik",
+      "page": 4,
+      "sector": "process engineering (Verfahrenstechnik) - generic, unspecified"
+    },
+    {
+      "signal": "Software applies linear regression to values representing fluid flow or cumulative values (generic continuous-value signal, no sector named)",
+      "quote": "On values, which represents a\nﬂow of ﬂuids or cumulative values, the software is using\na linear regression approach",
+      "page": 2,
+      "sector": "unspecified fluid-flow process"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": true,
+  "one_line": "The paper presents a software architecture for synchronized energy/process data acquisition and anomaly detection in factory automation, empirically demonstrated on a discrete transport-process test platform (linear conveyor moving a metal ball), not on any continuous-flow production sector."
+}

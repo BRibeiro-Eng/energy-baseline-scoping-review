@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535632",
+ "tier": "A",
+ "ts": "2026-09-10T18:50:43",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petrochemical",
+  "petroleum",
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 37.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem modelo"
+}

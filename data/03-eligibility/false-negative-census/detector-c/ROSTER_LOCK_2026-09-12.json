@@ -1,0 +1,313 @@
+{
+  "locked_B": 42,
+  "branch": "25 < |B| <= 60",
+  "K_head": 25,
+  "n_sub": 15,
+  "n_sub_seed": 44,
+  "blind_first_total": 40,
+  "edge_case_integral_applies": false,
+  "sector_priority_rule": "refining, then petrochemicals, then remaining; 2020+ first, then recency, then key",
+  "sector_priority_head_25": [
+    "rayyan-472535351",
+    "rayyan-472535365",
+    "rayyan-472535625",
+    "rayyan-472536695",
+    "rayyan-472535524",
+    "rayyan-472535550",
+    "rayyan-472536532",
+    "rayyan-472535582",
+    "rayyan-472535649",
+    "rayyan-472535680",
+    "rayyan-472536693",
+    "rayyan-472535376",
+    "rayyan-472536358",
+    "rayyan-472535405",
+    "rayyan-472536226",
+    "rayyan-472536379",
+    "rayyan-472536410",
+    "rayyan-472536425",
+    "rayyan-472536428",
+    "rayyan-472535480",
+    "rayyan-472536455",
+    "rayyan-472536486",
+    "rayyan-472536487",
+    "rayyan-472535522",
+    "rayyan-472535532"
+  ],
+  "random_sub_sample_15": [
+    "rayyan-472535585",
+    "rayyan-472535748",
+    "rayyan-472535750",
+    "rayyan-472535762",
+    "rayyan-472535787",
+    "rayyan-472535794",
+    "rayyan-472536501",
+    "rayyan-472536518",
+    "rayyan-472536551",
+    "rayyan-472536588",
+    "rayyan-472536606",
+    "rayyan-472536612",
+    "rayyan-472536644",
+    "rayyan-472536694",
+    "rayyan-472536714"
+  ],
+  "ai_prefill_plus_verification": [
+    "rayyan-472535628",
+    "rayyan-472535797"
+  ],
+  "order": [
+    {
+      "key": "rayyan-472535351",
+      "priority_group": "refining",
+      "year": 2025,
+      "a8": "oil refinery"
+    },
+    {
+      "key": "rayyan-472535365",
+      "priority_group": "refining",
+      "year": 2025,
+      "a8": "gas refinery"
+    },
+    {
+      "key": "rayyan-472535625",
+      "priority_group": "refining",
+      "year": 2017,
+      "a8": "oil refinery"
+    },
+    {
+      "key": "rayyan-472536695",
+      "priority_group": "refining",
+      "year": 2013,
+      "a8": "refining"
+    },
+    {
+      "key": "rayyan-472535524",
+      "priority_group": "petrochemicals",
+      "year": 2020,
+      "a8": "petrochemical production site"
+    },
+    {
+      "key": "rayyan-472535550",
+      "priority_group": "petrochemicals",
+      "year": 2019,
+      "a8": "petrochemical"
+    },
+    {
+      "key": "rayyan-472536532",
+      "priority_group": "petrochemicals",
+      "year": 2019,
+      "a8": "Propylene oxide production"
+    },
+    {
+      "key": "rayyan-472535582",
+      "priority_group": "petrochemicals",
+      "year": 2018,
+      "a8": "petrochemical plant"
+    },
+    {
+      "key": "rayyan-472535649",
+      "priority_group": "petrochemicals",
+      "year": 2017,
+      "a8": "fertilizer company"
+    },
+    {
+      "key": "rayyan-472535680",
+      "priority_group": "petrochemicals",
+      "year": 2016,
+      "a8": "petrochemical enterprise"
+    },
+    {
+      "key": "rayyan-472536693",
+      "priority_group": "petrochemicals",
+      "year": 2013,
+      "a8": "pulp and paper, basic metals and petrochemicals industries"
+    },
+    {
+      "key": "rayyan-472535376",
+      "priority_group": "remaining",
+      "year": 2025,
+      "a8": "sulfuric acid production"
+    },
+    {
+      "key": "rayyan-472536358",
+      "priority_group": "remaining",
+      "year": 2025,
+      "a8": "industrial gases production"
+    },
+    {
+      "key": "rayyan-472535405",
+      "priority_group": "remaining",
+      "year": 2024,
+      "a8": "steel industry"
+    },
+    {
+      "key": "rayyan-472536226",
+      "priority_group": "remaining",
+      "year": 2024,
+      "a8": "ammonia production"
+    },
+    {
+      "key": "rayyan-472536379",
+      "priority_group": "remaining",
+      "year": 2024,
+      "a8": "steel industry"
+    },
+    {
+      "key": "rayyan-472536410",
+      "priority_group": "remaining",
+      "year": 2023,
+      "a8": "pulp and paper industry"
+    },
+    {
+      "key": "rayyan-472536425",
+      "priority_group": "remaining",
+      "year": 2022,
+      "a8": "oil companies"
+    },
+    {
+      "key": "rayyan-472536428",
+      "priority_group": "remaining",
+      "year": 2022,
+      "a8": "manufacturing industry"
+    },
+    {
+      "key": "rayyan-472535480",
+      "priority_group": "remaining",
+      "year": 2021,
+      "a8": "pulp and paper industry"
+    },
+    {
+      "key": "rayyan-472536455",
+      "priority_group": "remaining",
+      "year": 2021,
+      "a8": "cement industry"
+    },
+    {
+      "key": "rayyan-472536486",
+      "priority_group": "remaining",
+      "year": 2021,
+      "a8": "building material manufacturing (cement) industry end-user and metal processing (aluminium) industry end-user"
+    },
+    {
+      "key": "rayyan-472536487",
+      "priority_group": "remaining",
+      "year": 2021,
+      "a8": "container glass and tableware glass"
+    },
+    {
+      "key": "rayyan-472535522",
+      "priority_group": "remaining",
+      "year": 2020,
+      "a8": "dry paper production plant"
+    },
+    {
+      "key": "rayyan-472535532",
+      "priority_group": "remaining",
+      "year": 2020,
+      "a8": "cement industry"
+    },
+    {
+      "key": "rayyan-472536501",
+      "priority_group": "remaining",
+      "year": 2020,
+      "a8": "aluminum industry"
+    },
+    {
+      "key": "rayyan-472536518",
+      "priority_group": "remaining",
+      "year": 2020,
+      "a8": "manufacturing industry sectors"
+    },
+    {
+      "key": "rayyan-472536551",
+      "priority_group": "remaining",
+      "year": 2019,
+      "a8": "oil and gas"
+    },
+    {
+      "key": "rayyan-472535585",
+      "priority_group": "remaining",
+      "year": 2018,
+      "a8": "cement manufacturing"
+    },
+    {
+      "key": "rayyan-472536588",
+      "priority_group": "remaining",
+      "year": 2018,
+      "a8": "lime industry"
+    },
+    {
+      "key": "rayyan-472535628",
+      "priority_group": "remaining",
+      "year": 2017,
+      "a8": "cement plant"
+    },
+    {
+      "key": "rayyan-472536606",
+      "priority_group": "remaining",
+      "year": 2017,
+      "a8": "manufacturing"
+    },
+    {
+      "key": "rayyan-472536612",
+      "priority_group": "remaining",
+      "year": 2017,
+      "a8": "nine industrial sectors"
+    },
+    {
+      "key": "rayyan-472536644",
+      "priority_group": "remaining",
+      "year": 2016,
+      "a8": "integrated steel"
+    },
+    {
+      "key": "rayyan-472535748",
+      "priority_group": "remaining",
+      "year": 2014,
+      "a8": "metallurgical plants"
+    },
+    {
+      "key": "rayyan-472535750",
+      "priority_group": "remaining",
+      "year": 2014,
+      "a8": "manufacturing and distribution operations"
+    },
+    {
+      "key": "rayyan-472535762",
+      "priority_group": "remaining",
+      "year": 2013,
+      "a8": "cement industry"
+    },
+    {
+      "key": "rayyan-472536694",
+      "priority_group": "remaining",
+      "year": 2013,
+      "a8": "cement manufacturing"
+    },
+    {
+      "key": "rayyan-472535787",
+      "priority_group": "remaining",
+      "year": 2012,
+      "a8": "cement industry"
+    },
+    {
+      "key": "rayyan-472535794",
+      "priority_group": "remaining",
+      "year": 2012,
+      "a8": "Glass and cast iron melting processes"
+    },
+    {
+      "key": "rayyan-472536714",
+      "priority_group": "remaining",
+      "year": 2012,
+      "a8": "manufacturing"
+    },
+    {
+      "key": "rayyan-472535797",
+      "priority_group": "remaining",
+      "year": 2011,
+      "a8": "cement industry"
+    }
+  ],
+  "locked_at": "2026-09-12T12:42:47"
+}

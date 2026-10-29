@@ -1,0 +1,1206 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536588",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 9,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "lime production / Colombian lime industry",
+        "evidence_quote": "A study case of energy efﬁciency, energy proﬁle, and technological gap of\ncombustion systems in the Colombian lime industry",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Colombia",
+        "evidence_quote": "In this paper, we evaluated the performances of two limekilns\nin the Colombian lime industry.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "The control volume used for the energy and mass balances dur-\ning the energy audits was the limekiln, as calcination is the most\nenergy demanding stage of the lime production process [17].",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Energy audit and energy/mass balance of the vertical limekiln (calcination stage) at Factory 1",
+        "evidence_quote": "In this work, the energy audits and evaluation of the kilns used in the calcination stage of the calcium\noxide production process of two Colombian factories are shown.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "In this paper, we evaluated the performances of two limekilns\nin the Colombian lime industry.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "energy balance (ISO-13579) — thermal and combustion efficiency, Factory 1",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_construction_method": {
+            "value": "energy and mass balance following the ISO-13579 standard, steady-state assumption",
+            "evidence_quote": "Energy balances were made following the ISO-13579 standard\n[23], according to the following considerations:",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "process/thermal efficiency 54.68%",
+            "combustion efficiency 76.60%",
+            "flue gas loss 18.46%",
+            "kiln wall radiation and convection 14.69%"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "The thermal energy efﬁciency of a process is the ratio of useful\noutput to thermal energy input.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "The studied lime companies used coal as the fuel in their calci-\nnation process.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "%",
+              "evidence_quote": "The process and combustion efﬁciencies for factory 1 are 54.68%\nand 76.60% respectively.",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "energy balance"
+              ],
+              "evidence_quote": "Energy balances were made following the ISO-13579 standard\n[23], according to the following considerations:",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "code",
+                "MATLAB",
+                "Excel"
+              ]
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "samples",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Mass balances were calculated using to the performance and\nconversion data provided by the factories.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation",
+                  "held-out"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "independent variable"
+            ]
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "energy intensity (Eq. 18), Factory 1",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_construction_method": {
+            "value": "energy input divided by lime production (Eq. 18)",
+            "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "energy intensity 5.82 GJ/t"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "The lime manufacturing process is thermal energy intensive\ndue to the energy demand of the calcination reaction, accounting\nfor approximately 99% of the total input energy. The electrical\nenergy consumed is approximately 1% of the total input energy,",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Energy intensities were found to be between 5.45 and 5.85 GJ/t.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "I ¼\nEnergy\nProduction ¼ E\nP\nð18Þ",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "code"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "output of lime in metric tonnes",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Additionally, the energy intensity was calculated using fuel con-\nsumption and production data, along with the energy proﬁle and\nthe thermal/electrical energy demand.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Additionally, the energy intensity was calculated using fuel con-\nsumption and production data, along with the energy proﬁle and\nthe thermal/electrical energy demand.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "with technological updating this range could increase\nto values between 80% and 90%, which implies a reduction in\nenergy intensity from 5.45 to 5.82 GJ per ton to around 3.2–4.2\nGJ per ton, lowering energy costs signiﬁcantly.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "potential energy intensity reduction to state-of-the-art kiln",
+                  "value": "from 5.45–5.82 GJ/t to around 3.2–4.2 GJ/t",
+                  "unit": "GJ/t",
+                  "period_or_context": "potential with technological updating",
+                  "evidence_quote": "with technological updating this range could increase\nto values between 80% and 90%, which implies a reduction in\nenergy intensity from 5.45 to 5.82 GJ per ton to around 3.2–4.2\nGJ per ton, lowering energy costs signiﬁcantly.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "In this work, the energy audits and evaluation of the kilns used in the calcination stage of the calcium\noxide production process of two Colombian factories are shown.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "lime production / Colombian lime industry",
+        "evidence_quote": "A study case of energy efﬁciency, energy proﬁle, and technological gap of\ncombustion systems in the Colombian lime industry",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Colombia",
+        "evidence_quote": "In this paper, we evaluated the performances of two limekilns\nin the Colombian lime industry.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "The control volume used for the energy and mass balances dur-\ning the energy audits was the limekiln, as calcination is the most\nenergy demanding stage of the lime production process [17].",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Energy audit and energy/mass balance of the vertical limekiln (calcination stage) at Factory 2",
+        "evidence_quote": "In this work, the energy audits and evaluation of the kilns used in the calcination stage of the calcium\noxide production process of two Colombian factories are shown.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "In this paper, we evaluated the performances of two limekilns\nin the Colombian lime industry.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M3",
+          "label_verbatim": "energy balance (ISO-13579) — thermal and combustion efficiency, Factory 2",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_construction_method": {
+            "value": "energy and mass balance following the ISO-13579 standard, steady-state assumption",
+            "evidence_quote": "Energy balances were made following the ISO-13579 standard\n[23], according to the following considerations:",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "process efficiency 58.33%",
+            "combustion efficiency 77.01%",
+            "flue gas loss 17.13%",
+            "kiln wall radiation and convection 9.67%"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "The thermal energy efﬁciency of a process is the ratio of useful\noutput to thermal energy input.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "coal"
+              ],
+              "evidence_quote": "The studied lime companies used coal as the fuel in their calci-\nnation process.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "%",
+              "evidence_quote": "For factory 2, the process efﬁciency is\n58.33% and combustion efﬁciency is 77.01%",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "energy balance"
+              ],
+              "evidence_quote": "Energy balances were made following the ISO-13579 standard\n[23], according to the following considerations:",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "code"
+              ]
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "coal",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Mass balances were calculated using to the performance and\nconversion data provided by the factories.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor"
+            ]
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "energy intensity (Eq. 18), Factory 2",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "field meaningless here"
+          },
+          "baseline_construction_method": {
+            "value": "energy input divided by lime production (Eq. 18)",
+            "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "energy intensity 5.45 GJ/t"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "The lime manufacturing process is thermal energy intensive\ndue to the energy demand of the calcination reaction, accounting\nfor approximately 99% of the total input energy. The electrical\nenergy consumed is approximately 1% of the total input energy,",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Energy intensities were found to be between 5.45 and 5.85 GJ/t.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "I ¼\nEnergy\nProduction ¼ E\nP\nð18Þ",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "code"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "output of lime in metric tonnes",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "In this paper, energy intensity will be deﬁned as the energy\ninput divided by the output of lime in metric tonnes, as described\nby Eq. (18).",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Additionally, the energy intensity was calculated using fuel con-\nsumption and production data, along with the energy proﬁle and\nthe thermal/electrical energy demand.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "For this study, energy audits were performed at two lime facto-\nries in Colombia with a net production of 23,565 tonnes per year.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Additionally, the energy intensity was calculated using fuel con-\nsumption and production data, along with the energy proﬁle and\nthe thermal/electrical energy demand.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "with technological updating this range could increase\nto values between 80% and 90%, which implies a reduction in\nenergy intensity from 5.45 to 5.82 GJ per ton to around 3.2–4.2\nGJ per ton, lowering energy costs signiﬁcantly.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "potential energy intensity reduction to state-of-the-art kiln",
+                  "value": "from 5.45–5.82 GJ/t to around 3.2–4.2 GJ/t",
+                  "unit": "GJ/t",
+                  "period_or_context": "potential with technological updating",
+                  "evidence_quote": "with technological updating this range could increase\nto values between 80% and 90%, which implies a reduction in\nenergy intensity from 5.45 to 5.82 GJ per ton to around 3.2–4.2\nGJ per ton, lowering energy costs signiﬁcantly.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "In this work, the energy audits and evaluation of the kilns used in the calcination stage of the calcium\noxide production process of two Colombian factories are shown.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [],
+  "adaptations": [],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "The fundamental energy balance equations under the condition\nof stationary state are:",
+      "page": 5,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "In order to determine its elemental composition, a\nCHNO elemental analysis was done on coal samples taken from the\nproduction plants. Table 4 shows the results.",
+      "page": 6,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "supplementary",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "This paper is an energy audit of two Colombian lime factories using ISO-13579 energy/mass balances. Two applications (Factory 1, Factory 2) were coded, each with an energy-balance efficiency model (M1/M3) and an energy-intensity ratio model (M2/M4). The models are deterministic physical balances (not statistical fits), so estimation, variable selection, fit and validation metrics are largely not applicable; efficiency and intensity outputs are recorded in model_parameters_reported and (for the savings potential) energy_result. Control volume = the limekiln (unit). No model-specific limitations (mechanisms), study limitations, implementation barriers, or model adaptations were stated in the text (the proposed twin-shaft-regenerative kiln upgrade is a process/technology change, not a model adaptation).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "limitation",
+        "drift",
+        "uncertainty",
+        "steady state"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "proposed",
+        "improvement",
+        "adaptation",
+        "future work"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "sample",
+        "only two",
+        "data access"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "cost",
+        "training",
+        "maintenance",
+        "upgrade"
+      ]
+    }
+  },
+  "attempt": 7
+}

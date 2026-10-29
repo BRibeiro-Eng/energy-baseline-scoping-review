@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535633",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:47:38Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "propose a novel methodology that allows companies to naturally integrate an Energy Management System based on ISO 50001 into an ISO 14001 already in operation",
+        "Energy Planning (Energy Review, Energy Base Line and Energy Performance Indicators)"
+      ],
+      "page": [
+        1,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Proposes a methodology/framework for integrating an ISO 50001 EnMS into an existing ISO 14001 EMS (standards compatibility analysis, integration diagram, documentary compatibility). No EnPI/EnB measurement model is identified or characterised; EnPI and Energy Baseline appear only as ISO 50001 requirement categories to be developed. Single kWh/produced-unit figure is a reported implementation outcome, not a characterised model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "these procedures were applied in a manufacturing company of the automotive sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Contribution is an ISO 50001/ISO 14001 integration methodology validated in one automotive (discrete-manufacturing) plant; energy-per-produced-unit KPI reported as an outcome, not modelled. Not a continuous-process sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535566",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:18:10.176935+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper describes a platform-independent, cloud-based web application that implements energy management in a standardized and user-friendly manner.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Presents a cloud-based energy management software tool (TIEM) without identifying or characterising any specific EnPI/EnB measurement model; the EnPI reference is incidental to the software's KPI-logging functionality under ISO 50001.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "A comprehensive web tool called Totally Integrated Energy Management (TIEM) is developed to implement meaningful energy management.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Tool/software design paper (TIEM web app). EnPIs appear only as a user-configurable KPI-logging feature; no specific EnPI/EnB model, variables, functional form, or construction approach is presented."
+  },
+  "stage2": null,
+  "stage3": null
+}

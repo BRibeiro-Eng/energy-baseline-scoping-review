@@ -1,0 +1,132 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535489",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "linear regression",
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "steel industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "A linear regression of electrical energy consumption against production formed the baseline; the goal line was a second linear regression through points below the baseline. For the highest-consuming area, non-representative data were filtered with the Hampel method.",
+        "baseline_period_end": "December 2019",
+        "baseline_period_start": "January 2018",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [],
+        "model_parameters_reported": [
+          "company baseline slope A = 0.0454",
+          "company baseline intercept B = 123.71",
+          "company goal-line slope A = 0.0421",
+          "company goal-line intercept B = 117.62",
+          "Mckay baseline slope A = 0.0457",
+          "Mckay baseline intercept B = 21.426",
+          "Mckay goal-line slope A = 0.0591",
+          "Mckay goal-line intercept B = 6.2605"
+        ],
+        "normalisation_variables": [
+          "production in terms of processed steel in t"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "the correlation index obtained was higher than 0.6",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "company baseline correlation index",
+            "unit": null,
+            "value": ">0.6"
+          },
+          {
+            "evidence_quote": "the company’s energy-saving potential is 6%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "company",
+            "unit": "%",
+            "value": "6"
+          },
+          {
+            "evidence_quote": "there is a potential for energy savings that can reach up to 13%",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "Mckay area",
+            "unit": "%",
+            "value": "13"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "facility",
+        "scope_description": "the company in general and the area with the highest electricity consumption",
+        "specific_limitations": [],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535489",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "linear regression",
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "steel industry",
+        "type_of_organisation": "discrete manufacturing"
+      },
+      "level_b": {}
+    }
+  }
+}

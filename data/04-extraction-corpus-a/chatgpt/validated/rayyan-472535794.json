@@ -1,0 +1,340 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535794",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-29T12:20:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The whole energy system of a site is represented using a single matrix equation, which expresses the relationship between imported energies and energy drivers. The elements of the matrix are the specific energy consumptions of each single process. Mathematical process modelling, through statistical analysis of energy consumption data, is used to quantify the specific energy consumption as a function of the output.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "two examples of high energy intensity processes are considered in this paper: glass melting (Section 5.1) and cast iron melting (Section 5.2).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The conventional glass melting process is a continuously operated high temperature process that converts a batch of raw materials into a workable melt",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The glass case is fictitious but realistically representative; the foundry case uses operating data."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the present work, a grey and spheroidal cast iron foundry is analysed.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "country_region": {
+      "value": "UK",
+      "evidence_quote": "A survey of energy use in the container glass sector in the UK",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "sector_of_activity": {
+      "value": "Glass and cast iron melting processes",
+      "evidence_quote": "Glass and cast iron melting processes are presented in order to illustrate the application of the method.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "two examples of high energy intensity processes are considered in this paper: glass melting (Section 5.1) and cast iron melting (Section 5.2).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "European standard on energy management systems, EN 16001:2009, international standard ISO 50001:2011",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "by performing a regression analysis of historical data",
+        "A thermodynamic explanation can be found through a 0-dimensional heat balance of a conventional furnace with flue gas heat recovery",
+        "The whole energy system of a site is represented using a single matrix equation"
+      ],
+      "page": [
+        2,
+        5,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "furnace load (glass melted)",
+        "tapped molten mass m"
+      ],
+      "evidence_quote": [
+        "the specific energy consumption of a glass furnace depends on a number of factors, including the type, size, age and load of the furnace (glass melted)",
+        "the corresponding tapped molten mass m is the most suitable energy driver for all the furnaces"
+      ],
+      "page": [
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "The statistical model uses the most recent stable reference/setup period. For the foundry, two years of monthly historical data were analysed, tapped molten mass was selected as the energy driver, and a least-squares linear regression through the origin was fitted because the intercept was not statistically significant.",
+      "evidence_quote": [
+        "Since it is essential that the mathematical model should refer to the most recent and stable period (reference period or setup period), the regression analysis should be complemented with other statistical process control tools.",
+        "In order to characterise the electricity consumption of the foundry’s melting process through the statistical approach, two",
+        "years of monthly data have been collected for each of the four furnaces",
+        "The analysis of the historical energy consumption and potential energy driver data, performed as described in [21], has shown that the corresponding tapped molten mass m is the most suitable energy driver for all the furnaces. The relationship between input and output is linear foreach furnace, and the least square intercept is not statistically significant. Consequently, a regression through the origin is appropriate."
+      ],
+      "page": [
+        2,
+        6,
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "The reason for the lower efficiency obtained for a single cycle with the deterministic approach, with respect to the average monthly cycle (statistical approach)",
+        "R2 = 0.9971\np-value = 1.71E-41"
+      ],
+      "page": [
+        8,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "the whole melting shop (system boundary B in Fig. 7), plus the auxiliary systems",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "scope_description": {
+      "value": "the whole melting shop, plus the auxiliary systems",
+      "evidence_quote": "the whole melting shop (system boundary B in Fig. 7), plus the auxiliary systems",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "It is important to point out that thermal efficiency (2) is not a suitable indicator for processes inwhich the output has a negligible energy content, for example conveying or assembling, as Eout would approach zero. Thermal efficiency is not applicable either when physics provides poor indications of the process energy needs",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "thermal efficiency (2) is not a suitable indicator for processes inwhich the output has a negligible energy content",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "In these situations, just specific energy consumption can be used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "thermal efficiency and specific energy consumption have been broken up into two factors for the first time in order to account for the influence of the production rate and process base energy consumption",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [
+        "hybrid physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "The energy efficiency has been assessed through a statistical and deterministic approach.",
+        "thermal efficiency and specific energy consumption have been broken up into two factors for the first time in order to account for the influence of the production rate and process base energy consumption"
+      ],
+      "page": [
+        12,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "The methodology presented in this paper consists of an organic set of tools for energy management, which can be implemented within the systematic and systemic framework of the new European standard on energy management systems, EN 16001:2009, international standard ISO 50001:2011",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "two examples of high energy intensity processes are considered in this paper: glass melting (Section 5.1) and cast iron melting (Section 5.2).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "records electrical, thermodynamic, and physical data every 30 s",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "C0 = 98 MWh/day; c1 = 1.1 MWh/t",
+        "c1 = 0.5628 MWh/t",
+        "C0 = 20.806 MWh/month; c1 = 0.5953 MWh/t",
+        "c1 = 0.6129 MWh/t",
+        "c1 = 0.6305 MWh/t; c2 = -0.002816 MWh/t²"
+      ],
+      "evidence_quote": [
+        "Ein ¼ 98 þ 1:1 m",
+        "Ein ¼ 0:5628m",
+        "Ein ¼ 20:806 þ 0:5953m",
+        "Ein ¼ 0:6129m",
+        "Ein ¼ 0:6305m \u0005 0:002816m2"
+      ],
+      "page": [
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.9971",
+          "unit": null,
+          "period_or_context": "furnace #1 monthly electricity consumption versus tapped molten metal",
+          "evidence_quote": "R2 = 0.9971",
+          "page": 7,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "1.71E-41",
+          "unit": null,
+          "period_or_context": "furnace #1 monthly electricity consumption versus tapped molten metal",
+          "evidence_quote": "p-value = 1.71E-41",
+          "page": 7,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "R2 = 0.9971\np-value = 1.71E-41",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "Electricity rate structure favours off-peak melting and can offset energy savings.",
+        "Maximum demand limits prevent overlapping peak-power phases.",
+        "Labour organisation requires long overnight holding at high temperature.",
+        "The proposed holding-furnace scenario lacks profitability because two existing furnaces would be left unused."
+      ],
+      "evidence_quote": [
+        "electricity rate structure. The foundry benefits from significant savings in energy charges by conducting the melting procedures off-peak;",
+        "demand peak power. This threshold requires that the maximum power phases of the different furnaces do not overlap;",
+        "labour organisation. Tapping in the morning (6 a.m.) means that the molten metal has to be kept inside the furnace at high temperature for a long period of time;",
+        "The lack of profitability is due to the fact that, in the considered scenario, two furnaces which are already owned by the foundry are, de facto, unused."
+      ],
+      "page": [
+        11,
+        11,
+        11,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    }
+  }
+}

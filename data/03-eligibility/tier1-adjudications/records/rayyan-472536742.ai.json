@@ -1,0 +1,99 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536742",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "US",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "automobile assembly, wet corn refining, and cement manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Stochastic frontier analysis was fitted to plant-level Census energy and economic-activity data to estimate best-observed energy use while accounting for industry-specific production and structural factors.",
+        "baseline_period_end": "2000",
+        "baseline_period_start": "1998",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "lack of full support from certain shops for the corporate energy program"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "output and input mix",
+          "plant capacity and utilization",
+          "external factors like weather"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "facility",
+        "scope_description": "sector-specific plant-level energy use",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "methodological/theoretical"
+      },
+      "key": "rayyan-472536742",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "United States",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "automobile assembly, wet corn refining, and cement manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

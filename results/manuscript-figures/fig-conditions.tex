@@ -1,0 +1,19 @@
+% Figure: reported characteristics of the 140 Corpus B models (values from Section 4.4). Thesis palette (P3).
+\begin{tikzpicture}
+\begin{axis}[ntaxis, xbar, width=9.2cm, height=5.0cm, bar width=8pt,
+  xmin=0, xmax=145, xtick={0,20,...,140}, xlabel={Models (of 140)},
+  ytick={0,...,6}, yticklabel style={align=right,text width=6.2cm},
+  yticklabels={{Load is the only normalising variable},{Fit reported on training data},
+    {Re-estimation regime declared},{Validity domain declared},{of which with numerical limits},
+    {Out-of-sample result reported},{Test on later time blocks identified}},
+  nodes near coords, nodes near coords style={font=\scriptsize,text=corTinta},
+  point meta=x]
+\addplot[draw=corCinza, fill=corCinzaC, postaction={pattern=north east lines, pattern color=corCinza}, bar shift=0pt]
+  coordinates {(78,0)};
+\addplot[draw=corDestaque, fill=corDestaque, bar shift=0pt]
+  coordinates {(49,1) (23,2) (19,3) (16,5) (0,6)};
+\addplot[draw=corDestaque, fill=corDestaqueC, bar shift=0pt]
+  coordinates {(11,4)};
+\draw[corTinta, line width=.8pt] (axis cs:0,5.7) -- (axis cs:0,6.3);
+\end{axis}
+\end{tikzpicture}

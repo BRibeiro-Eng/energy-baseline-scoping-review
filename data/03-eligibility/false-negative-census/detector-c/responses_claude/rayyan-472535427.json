@@ -1,0 +1,33 @@
+{
+  "key": "rayyan-472535427",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Energy efficiency analysis applied/tested on real data of thermal power plants (electricity generation, continuous operation)",
+      "quote": "tested\non the real electrical absorption data of the auxiliary units of different thermal power plants in Italy",
+      "page": 1,
+      "sector": "thermal power generation"
+    },
+    {
+      "signal": "Combined Cycle Power Plant with gas and steam turbines operating continuously as the case study context",
+      "quote": "Combined Cycle Power Plants (CCPP) still represent a great potential in terms of higher\nefﬁciency, availability, reduced environmental pollution and smaller site space [10].",
+      "page": 2,
+      "sector": "combined cycle power generation / cogeneration"
+    },
+    {
+      "signal": "Cooling tower sub-unit with 16 energy-intensive fans modeled for continuous plant operation",
+      "quote": "This cooling system contains 16 energy-intensive fans installed in the structure",
+      "page": 5,
+      "sector": "power plant cooling system"
+    },
+    {
+      "signal": "Steam turbine condensation and vacuum process described as continuous plant operation",
+      "quote": "we use the active power produced by the turbine units as the\nmain output variable related to the overall plant performance",
+      "page": 6,
+      "sector": "thermal power generation"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "The paper applies an ANN-based energy management model (aligned with ISO 50001) to real operational data from Italian combined-cycle thermal power plants to improve energy baselines, focusing on a cooling tower fan sub-unit; the context is electricity generation, not any of the eight listed Corpus B sectors."
+}

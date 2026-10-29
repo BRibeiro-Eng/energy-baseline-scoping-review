@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535668",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:00:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The idea is to build the model of preference of the Decision Maker and to establish a generic procedure about decision supported by a MCDA tool. Our proposition is to use the ACUTA method in order to elicit this model of preference.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Paper presents an MCDA/MAUT decision-aiding model (the ACUTA method) to build the Decision Maker's model of preference for choosing where to place energy-measurement instrumentation under ISO 50001. It contains no EnPI or EnB measurement-model content: no energy performance indicator or energy baseline is presented, proposed, evaluated, or critiqued (energy consumption data is only descriptive input to the instrumentation decision). Per Stage-1 rule, a framework/tool without EnPI/EnB measurement-model content is ineligible.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "this paper is based on the case presently studied in the company adixen Vacuum Products (aVP)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "MCDA/MAUT (ACUTA) decision-aiding for instrumentation choice; no EnPI/EnB model built. Company aVP is a vacuum-technology manufacturer (discrete manufacturing/R&D/services), not a continuous-process sector; level_3b false regardless of eligibility."
+  },
+  "stage2": null,
+  "stage3": null
+}

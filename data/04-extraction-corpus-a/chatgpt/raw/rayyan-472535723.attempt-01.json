@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535723",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:16:13Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Energy performance indicators (EnPIs) are measured parameters, ratios, or models that help to quantify energy use and efficiency improvements at the organization, facility, system, process, or equipment level. When compared to baseline values, they help to gauge performance and improvements.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Program and implementation-framework overview with only a generic EnPI definition; no identifiable EnPI/EnB model variables, functional form, or construction approach.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "SEP provides the framework, rigor, and tools to continuously improve energy performance and report accurate progress.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "SEP program overview; EnPIs are defined generically without a characterised measurement model."
+  },
+  "stage2": null,
+  "stage3": null
+}

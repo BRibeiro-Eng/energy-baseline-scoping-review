@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472535665",
+  "listed_sector_signals": [
+    {
+      "signal": "Sappi paper mill discussed as an ISO 50001 case study (pulp & paper), cited from reference [4]",
+      "quote": "Sappi Fine Paper Europe is one of Europe’s largest suppliers \nproduces reels, specifically designed rotation offset printing.",
+      "page": 2,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Paper mill described as a large milling process analogous to the flour mill studied",
+      "quote": "Although the product of the plant is paper, and not flour, as in \nthe proposed paper, both are large milling processes with several \nanalogies.",
+      "page": 2,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "CHP with boilers/turbines mentioned in the Sappi paper-mill case study for energy reduction",
+      "quote": "a decision tree \nhas been designed to manage the shut down of several boilers or \nturbines in the CHP to reduce energy consumption.",
+      "page": 2,
+      "sector": "cogeneration (CHP)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies an optimization method to design an energy-metering sensor network for ISO 50001 in a 1.2 MW industrial flour (grain) milling plant; pulp & paper (Sappi mill with CHP) appears only as a cited comparative case study, not the paper's own application context."
+}

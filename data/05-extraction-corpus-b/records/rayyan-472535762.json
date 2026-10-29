@@ -1,0 +1,1292 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535762",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stageC-v2.3.0-C",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 9,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "industria de producción de cemento por vía húmeda",
+        "evidence_quote": "Este artículo presenta la metodología y los resultados de la implementación del SGIE en una industria de producción de cemento por vía \nhúmeda",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Colombia",
+        "evidence_quote": "La tecnología de gestión energética denominada “Sistema de Gestión Integral de la Energía, SGIE” fue propuesta en Colombia \nen el 2007 como resultado de un proyecto de investigación financiado por el gobierno.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "A continuación se presenta los resultados obtenidos en \nla implementación de las etapas uno y dos en una planta \nde producción de cemento por vía húmeda.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Pilot implementation of the Integral Energy Management System (SGIE) in a single wet-process cement plant, focused on electricity consumption of the production process and its cost centres.",
+        "evidence_quote": "Este artículo presenta la metodología y los resultados de la implementación del SGIE en una industria de producción de cemento por vía \nhúmeda",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Este artículo presenta la metodología y los resultados de la implementación del SGIE en una industria de producción de cemento por vía \nhúmeda",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Línea de Base Energética (E = m.P + Enap, Eq. 1)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "periodo base",
+              "fecha",
+              "año",
+              "start"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "periodo base",
+              "fecha",
+              "año",
+              "end"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Best-fit line of the energy vs production scatter (Línea de Base Energética), intercept = non-production energy Enap",
+            "evidence_quote": "la energía no \nasociada  es el valor del intercepto sobre el eje Y de la \nlínea de mejor ajuste a la dispersión de datos, también \nconocida como Línea de Base Energética.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "La relación entre la producción y el consumo de \nenergía es lineal para la mayoría de industrias.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "La industria del cemento es una industria intensiva en \nel consumo de energía eléctrica y sus costos están en el \norden del 20% entre los costos totales de producción.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "En un gráfico de dispersión de Energía \nvs. Producción para un proceso, figura 2, la energía no \nasociada  es el valor del intercepto sobre el eje Y de la \nlínea de mejor ajuste a la dispersión de datos",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "kWh",
+                "unidad"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "diagrama de dispersión de consumo de energía frente \na producción pueden aproximarse directamente por \nuna línea y expresarse por una ecuación lineal (1) en \nforma general:",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "mínimos cuadrados",
+                "OLS",
+                "regresión",
+                "ajuste"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "selección de variables",
+                "stepwise",
+                "variables"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "pueden aproximarse directamente por \nuna línea y expresarse por una ecuación lineal (1) en \nforma general:",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "programa",
+                "herramienta"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Producción (P)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "La relación entre la producción y el consumo de \nenergía es lineal para la mayoría de industrias.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "metas de energía modeladas a partir del conjunto de datos \ndiarios de consumos de energía y producción del periodo \nbase seleccionado correspondiente a un año.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "metas de energía modeladas a partir del conjunto de datos \ndiarios de consumos de energía y producción del periodo \nbase seleccionado correspondiente a un año.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "del periodo \nbase seleccionado correspondiente a un año.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "número de datos",
+                "observaciones",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "metas de energía modeladas a partir del conjunto de datos \ndiarios de consumos de energía y producción del periodo \nbase seleccionado correspondiente a un año.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Esta actividad consiste en cuantificar a \ntravés de datos históricos recopilados por contadores \nde energía, el consumo promedio con respecto a la \nproducción total de cemento realizada en el mismo \nperiodo para los Centro de Costo de Energía, CCE",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización",
+                "re-estimación",
+                "recalcular"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización",
+                "recalcular"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "rango",
+                "válido",
+                "límites",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "R²",
+                  "correlación",
+                  "ajuste"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación",
+                  "hold-out",
+                  "test"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación",
+                  "cross-validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "lograron la reducción del consumo de energía eléctrica \nen un 4,6 % equivalente a 5,2 kWh/t cemento en doce \nmeses comparados a un mismo nivel de producción y \ncon la línea base de tendencia de dos años anteriores.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "electricity consumption reduction achieved",
+                  "value": "4.6",
+                  "unit": "%",
+                  "period_or_context": "twelve months compared to two-year trend baseline at same production level",
+                  "evidence_quote": "lograron la reducción del consumo de energía eléctrica \nen un 4,6 % equivalente a 5,2 kWh/t cemento en doce \nmeses comparados a un mismo nivel de producción y \ncon la línea base de tendencia de dos años anteriores.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electricity consumption reduction achieved",
+                  "value": "5.2",
+                  "unit": "kWh/t cemento",
+                  "period_or_context": "twelve months at same production level",
+                  "evidence_quote": "lograron la reducción del consumo de energía eléctrica \nen un 4,6 % equivalente a 5,2 kWh/t cemento en doce \nmeses",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "estimated recoverable savings by operational variability reduction",
+                  "value": "7.0",
+                  "unit": "kWh/t cemento (6% of total electricity)",
+                  "period_or_context": "estimated potential, base period",
+                  "evidence_quote": "Los potenciales de ahorro recuperables por variabilidad \noperacional estimados fueron de 7,0 kWh/t cemento, \nequivalentes al 6% del consumo total de energía eléctrica.",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Indicador de Consumo de energía IC (Eq. 3-5)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "El indicador de consumo específico de energía se define \ncomo la relación entre la energía consumida y el valor \nde la producción obtenida con dicha energía, según \n(3).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "La industria del cemento es una industria intensiva en \nel consumo de energía eléctrica y sus costos están en el \norden del 20% entre los costos totales de producción.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "estos se dan con base \nen la producción total de cemento efectuada durante el \nperiodo base de referencia, kWh/t cemento.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t cemento",
+              "evidence_quote": "estos se dan con base \nen la producción total de cemento efectuada durante el \nperiodo base de referencia, kWh/t cemento.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "El indicador de consumo específico de energía se define \ncomo la relación entre la energía consumida y el valor \nde la producción obtenida con dicha energía, según \n(3).",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Producción",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "El indicador de consumo específico de energía se define \ncomo la relación entre la energía consumida y el valor \nde la producción obtenida con dicha energía, según \n(3).",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frecuencia",
+                "diario",
+                "mensual"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "periodo",
+                "frecuencia"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meses",
+                "año"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observaciones",
+                "datos"
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "serie",
+                "datos"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Esta actividad consiste en cuantificar a \ntravés de datos históricos recopilados por contadores \nde energía, el consumo promedio con respecto a la \nproducción total de cemento realizada en el mismo \nperiodo para los Centro de Costo de Energía, CCE",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización",
+                "re-estimación"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "rango",
+                "límites"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "ajuste"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Indicador de eficiencia base 100 (Eq. 6)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "El indicador base 100 es una herramienta de gestión \ndel área energética, el cual permite comparar el \ncomportamiento de los resultados de consumo \nenergético medidos en un proceso durante un periodo \noperativo, respecto a los valores de consumo energético \nbase o de tendencia del mismo",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "La industria del cemento es una industria intensiva en \nel consumo de energía eléctrica y sus costos están en el \norden del 20% entre los costos totales de producción.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "adimensional (referencia 100)",
+              "evidence_quote": "tomando como \nreferencia de cumplimiento un valor adimensional de \n100",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "composite index"
+              ],
+              "evidence_quote": "El indicador base 100 es una herramienta de gestión \ndel área energética, el cual permite comparar el \ncomportamiento de los resultados de consumo \nenergético medidos en un proceso durante un periodo \noperativo, respecto a los valores de consumo energético \nbase o de tendencia del mismo",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Producción (a través de la energía de tendencia base)",
+              "type": "throughput",
+              "role": "reference condition",
+              "evidence_quote": "Este indicador se calcula a partir de los datos de \nproducción y energía para un periodo de análisis \ndeterminado y la ecuación o línea de base energética \nestablecida durante la caracterización energética.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frecuencia",
+                "periodo"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "periodo de análisis"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meses"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observaciones"
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "serie",
+                "datos"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Este indicador se calcula a partir de los datos de \nproducción y energía para un periodo de análisis \ndeterminado y la ecuación o línea de base energética \nestablecida durante la caracterización energética.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización",
+                "re-estimación"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "rango",
+                "límites"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "ajuste"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Indicador Gráfico de Tendencia o de Sumas Acumulado CUSUM (Eq. 7)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "A partir del CUSUM se puede determinar \ncuantitativamente la magnitud de la energía que se ha \ndejado de consumir o se ha sobre-consumido hasta el \nmomento de su actualización [7].",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "La industria del cemento es una industria intensiva en \nel consumo de energía eléctrica y sus costos están en el \norden del 20% entre los costos totales de producción.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "A partir del CUSUM se puede determinar \ncuantitativamente la magnitud de la energía que se ha \ndejado de consumir o se ha sobre-consumido hasta el \nmomento de su actualización [7].",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "kWh",
+                "unidad"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "control chart"
+              ],
+              "evidence_quote": "Este indicador y su gráfico se utilizan para monitorear \nla tendencia de la empresa, área o equipo en cuanto a \nla variación de sus consumos energéticos, con respecto \na un período base dado.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Producción (vía energía de tendencia de la línea base)",
+              "type": "throughput",
+              "role": "reference condition",
+              "evidence_quote": "Este indicador y su gráfico se utilizan para monitorear \nla tendencia de la empresa, área o equipo en cuanto a \nla variación de sus consumos energéticos, con respecto \na un período base dado.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frecuencia"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "periodo"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meses"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observaciones"
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "serie"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Esta actividad consiste en cuantificar a \ntravés de datos históricos recopilados por contadores \nde energía",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización",
+                "período base"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "actualización"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "rango",
+                "límites"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validación"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "La producción de cemento por vía \nhúmeda es un proceso intensivo en el consumo de \nenergía eléctrica, este proceso comprende cuatro \netapas principales: extracción y molienda de la \nmateria prima, homogeneización de la materia prima, \nproducción del Clinker y  molienda de cemento [5].",
+        "page": 2,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "Siempre y cuando la relación  entre las variables \nanalizadas sea adecuada se considera esta ecuación \ncomo la Línea de Base Energética [4], [7-8].",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Esta línea meta se traza considerando el mismo valor de \nla pendiente “m” de la línea base, puesto que se supone \nen el momento que no hay ningún cambio tecnológico \nsobre los equipos, áreas o procesos sobre los que se \nrealiza el análisis [4], [7].",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "plant or process modification",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "el Indicador de Consumo de \nreferencia corresponde a una función inversa de la \nvariable producción.",
+      "page": 5,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "segmented baseline",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "la tecnología SGIE recomienda \nestablecer una estructura de indicadores de  desempeño \nenergético a nivel de empresa o proceso en forma de \n“árbol de indicadores”, figura 7, de manera tal, que \nel indicador de eficiencia base 100 de la empresa sea \nestructurado a partir de los indicadores de eficiencia base \n100 de cada uno de las áreas y equipos de uso final que \nlo componen.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M3"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "identificación y estabilización de variables de control operacional por centro de costo de energía",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "Como resultado \nse identificaron siete variables con el mayor impacto en \nel consumo de energía en los centros de costos críticos \nde clinkerización, molienda de cemento y primaria, las \ncuales se resumen en la tabla 3.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "No existence of leaders or work teams responsible for monitoring analysis, operational decision-making and results evaluation",
+      "evidence_quote": "La no existencia de líderes o equipos de trabajo \nencargados del análisis del monitoreo, toma de \ndecisiones operativas, evaluación de resultados \ndel manejo de variables y la identificación de \nnuevos potenciales de incremento de la eficiencia \nenergética.",
+      "page": 3,
+      "searched_terms": [
+        "barrera",
+        "cultura",
+        "personal",
+        "gestión"
+      ]
+    },
+    {
+      "barrier": "Lack of policies, written procedures and indicators in all areas focused on controlling energy expenditure",
+      "evidence_quote": "Falta de políticas,  procedimientos escritos e \nindicadores en todas las áreas con enfoque al control \ndel gasto energético.",
+      "page": 3,
+      "searched_terms": [
+        "políticas",
+        "procedimientos"
+      ]
+    },
+    {
+      "barrier": "No promotion among staff of a culture of reducing energy costs / teamwork toward energy efficiency",
+      "evidence_quote": "No fomento en el personal hacia una cultura \nrespecto a la reducción de los costos energéticos, \nestimulado el trabajo en equipo hacia la eficiencia \nenergética a nivel de todas las áreas de la empresa.",
+      "page": 3,
+      "searched_terms": [
+        "cultura",
+        "personal"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "diagrama de dispersión de consumo de energía frente \na producción pueden aproximarse directamente por \nuna línea y expresarse por una ecuación lineal (1) en \nforma general:",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "m =",
+        "pendiente",
+        "Enap",
+        "coeficientes"
+      ]
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "datos disponibles",
+        "datos",
+        "repositorio"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "código",
+        "software",
+        "code"
+      ]
+    }
+  },
+  "reviewer_notes": "Single wet-process cement plant in Colombia; four energy performance tools recorded as models: M1 the energy baseline linear regression E=m·P+Enap (used to quantify operational-variability savings and the achieved 4.6% electricity reduction), M2 the specific-consumption intensity ratio (IC), M3 the dimensionless base-100 efficiency index, and M4 the CUSUM control chart. No R², no out-of-sample validation and no plant-specific regression coefficients are reported. Energy vector is electricity throughout; energy per cost centre implies allocation but boundary correspondence is not explicitly stated. K3 (SEC as inverse function of production) is inference-flagged.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "supone",
+        "linealidad",
+        "cambio tecnológico",
+        "función inversa",
+        "adecuada"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "árbol de indicadores",
+        "variables de control",
+        "recomienda",
+        "normalización"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitación",
+        "no se pudo",
+        "alcance",
+        "datos no publicados"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrera",
+        "falta",
+        "no existencia",
+        "cultura",
+        "compromiso"
+      ]
+    }
+  },
+  "attempt": 10
+}

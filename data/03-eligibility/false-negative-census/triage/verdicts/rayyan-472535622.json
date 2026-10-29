@@ -1,0 +1,18 @@
+{
+ "key": "rayyan-472535622",
+ "tier": "A",
+ "ts": "2026-09-10T18:50:05",
+ "detectors": [
+  "lexicon",
+  "model_flags"
+ ],
+ "terms": [
+  "pulp and paper",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 9.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "EPI ENERGY STAR"
+}

@@ -1,0 +1,64 @@
+{
+  "key": "rayyan-472535393",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference-only mention of energy management in kraft pulp mills.",
+      "quote": "indicators for successful energy management practices in kraft\npulpmills.",
+      "page": 20,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference-only mention of iron and steel production through direct reduction.",
+      "quote": "Decarbonization\nof the iron and steel industry with direct reduction of iron ore with\ngreen hydrogen.",
+      "page": 20,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Green hydrogen appears in a cited steel decarbonization study; hydrogen production is not established.",
+      "quote": "of the iron and steel industry with direct reduction of iron ore with\ngreen hydrogen.",
+      "page": 20,
+      "sector": "industrial gases"
+    },
+    {
+      "signal": "Reference-only mention of Cementos Argos in a share-sale article.",
+      "quote": "González., X. (2019), Revista La República, Cementos Argos Venderá\nsu Participación Accionaria en Omya Andina por $62.700 Millones.",
+      "page": 20,
+      "sector": "cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The audited gypsum calcination operation is explicitly described as an online process.",
+      "quote": "The main function of oven 5 is the thermal transformation using\na gaseous fuel; here, the calcination of natural gypsum is carried\nout, which is considered important as it is an online process.",
+      "page": 10,
+      "sector": "gypsum calcination"
+    },
+    {
+      "signal": "Gypsum grinding requires constant feeding, although the existing feed control cycles on and off.",
+      "quote": "Moreover, the mill feed has\nan on-off control; but it is not an ideal control for a process in\nwhich the feeding must be constant and guarantee maximum use;",
+      "page": 11,
+      "sector": "gypsum grinding"
+    },
+    {
+      "signal": "The oven audit records 1,440 operating minutes per day and 1,415–1,440 minutes switched on.",
+      "quote": "Oven 5\nOperating time (minutes)\n1440\n1440\n1440\n1440\n1440\nTurned on time (minutes)\n1440\n1415\n1440\n1440\n1440",
+      "page": 16,
+      "sector": "gypsum calcination"
+    },
+    {
+      "signal": "Three production shifts extend through the night, with gaps between shifts.",
+      "quote": "The three shifts correspond to the following time slot; Shift 1:\nFrom 6:00 a.m. to 1:00 p.m.; Shift 2: From 2:00 p.m. to 9:00 p.m.;\nand Shift 3: From 10:00 p.m. to 11:00 p.m. of the same day and\n12:00 a.m. to 5:00 a.m. of the following day.",
+      "page": 3,
+      "sector": "non-metallic mineral processing"
+    },
+    {
+      "signal": "Reference-only mention of ceramics production; continuous operation is not established.",
+      "quote": "Analysis of barriers to the implementation of energy\nefficiency actions in the production of ceramics in Colombia.",
+      "page": 21,
+      "sector": "ceramics"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "An ISO 50002 energy audit is applied on site at a Colombian non-metallic minerals SME, focusing on gypsum grinding and calcination for plaster and stucco production."
+}

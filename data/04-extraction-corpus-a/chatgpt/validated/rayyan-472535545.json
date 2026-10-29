@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535545",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:02:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper proposes the development of a low-cost prototype for monitoring the consumption of electricity in real-time using communication with electronic meters of power distribution companies (ISO 50001) and a web platform that can process and display the data.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Tool/software design for real-time electricity monitoring without an identifiable or characterised EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "O projeto visa desenvolver uma interface eletrônica e uma plataforma computacional web.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper reports monitoring software and descriptive load curves, but no EnPI/EnB model variables, functional form, or estimation approach."
+  },
+  "stage2": null,
+  "stage3": null
+}

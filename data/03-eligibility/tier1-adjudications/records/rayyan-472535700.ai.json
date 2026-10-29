@@ -1,0 +1,47 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535700",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "near Paris, France",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "ML"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "IPMVP"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing sector",
+        "type_of_organisation": "discrete manufacturing"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "tool/software design"
+      },
+      "key": "rayyan-472535700",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536459",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:01:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The baseline model was established by collecting data and information, such as building geometry and orientation, gross floor area (GFA), air-conditioned area (ACA), and construction type with its thermophysical properties, through the DEA.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The empirical context is a public hospital building, not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Penang",
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang, which was located at latitude 5.51◦N and longitude 100.43◦E of Peninsular Malaysia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "public hospital",
+      "evidence_quote": "The overall aim of this article is to evaluate the potential for energy saving in public hospital using a systematic approach.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The overall aim of this article is to evaluate the potential for energy saving in public hospital using a systematic approach.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "DOE, M&VGuidelines: Measurement and Verification for performance based contracts",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The baseline model was established by collecting data and information, such as building geometry and orientation, gross floor area (GFA), air-conditioned area (ACA), and construction type with its thermophysical properties, through the DEA.",
+        "This value represents annual building energy intensity (BEI) of 278.6 kWh/m2."
+      ],
+      "page": [
+        6,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535667",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:01:05Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper proposes a new ISO 50001-based energy management maturity model which links ISO 50001 processes and Capability Maturity Model Integration criteria",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper proposes an energy management maturity model (EMMM50001), a qualitative CMMI-based self-assessment tool linking ISO 50001 processes and the PDCA cycle, not an EnPI/EnB measurement model. Energy performance indicators and the energy baseline appear only as ISO 50001 process rows scored on a 1-5 maturity scale, never characterised as a measurement model (no variables, functional form, or construction/estimation approach). Maturity assessment without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The paper presents a new energy management maturity model.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Maturity assessment scored via SPSS averages of CMMI 1-5 levels; model is universal across manufacturing and service sectors, not a continuous-process EnPI/EnB study."
+  },
+  "stage2": null,
+  "stage3": null
+}

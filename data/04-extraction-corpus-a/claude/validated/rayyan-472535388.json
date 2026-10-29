@@ -1,0 +1,105 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535388",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:30:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "created an applied model using simple regression for each pumping unit",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "used a case study approach in the Zai water treatment plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the water sector is one of the most energy-intensive sectors",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Eligible: uses specific-consumption intensity ratio and simple linear regression (electrical consumption vs water flow) as EnPIs at the Zai water treatment plant, Jordan. Level_3B=false: water treatment/pumping is continuous-flow but is not on the v2.3 closed continuous-process sector list; flag for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the case of the Zai water pumping station as an example",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "country_region": {
+      "value": "Jordan",
+      "evidence_quote": "The station draws its water from the King Abdullah Canal in the Jordan Valley",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "water treatment",
+      "evidence_quote": "the ISO 50001 energy management system in water treatment facilities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "one of the industrial sectors that uses the most energy nationally is the water industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "The energy management system ISO 50001 is one method",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "simple intensity ratio", "physical model"],
+      "evidence_quote": [
+        "linear regression equation before taking corrective action",
+        "This refers to the ratio of electrical consumption (kilowatts) to water flow",
+        "Calculating the pump's efficiency requires first dividing the hydraulic power by the mechanical power"
+      ],
+      "page": [14, 6, 6],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

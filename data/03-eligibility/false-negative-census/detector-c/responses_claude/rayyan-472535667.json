@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535667",
+  "listed_sector_signals": [
+    {
+      "signal": "Literature reference to energy efficiency in iron and steel production (mentioned in intro, not the application context)",
+      "quote": "research about energy efﬁciency in European iron and steel pro-\nduction",
+      "page": 1,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Literature reference to energy efficiency improvement in the cement industry (cited, not applied)",
+      "quote": "energy efﬁciency improvement in cement\nindustry",
+      "page": 2,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference-list citation to a cement industry technical conference paper on energy management",
+      "quote": "Energy efﬁciency improvement in\nthe cement industry through energy management",
+      "page": 12,
+      "sector": "cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Validation sample included non-metallic mineral products' factories (production mode not described; could span cement/glass/ceramics), used as one of the test sectors for the maturity model",
+      "quote": "three of them food factories and three\nnon-metallic mineral products' factories",
+      "page": 6,
+      "sector": "non-metallic mineral products (ceramics/cement/glass, mode unspecified)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper proposes and validates an ISO 50001-based energy management maturity model by self-assessment questionnaires in ISO 50001 certified organizations across mixed industrial sectors and in ISO 50001 non-certified food and non-metallic mineral products factories in Serbia and the region; steel and cement appear only as literature citations, not as the demonstrated context."
+}

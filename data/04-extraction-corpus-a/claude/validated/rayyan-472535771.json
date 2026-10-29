@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535771",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T14:57:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the basic principles of Change Management and implementing an Energy Management System (EnMS) in accordance with ISO 50001 will become the framework",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Change-management (ADKAR) and ISO 50001 EnMS implementation case study at a commercial lifestyle centre; a baseline is mentioned and naive percentage electricity savings are reported against an unadjusted historical base year, but no EnPI/EnB measurement model is identified or characterised (no normalisation variables, functional form, or estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This case study demonstrates a local business that reduced energy consumption in a sustainable manner through the implementation of energy efficiency",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Borderline: a baseline is mentioned and % savings reported, but no EnPI/EnB model is characterised. Not a review/synthesis, so borderline flag N/A. Flag for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

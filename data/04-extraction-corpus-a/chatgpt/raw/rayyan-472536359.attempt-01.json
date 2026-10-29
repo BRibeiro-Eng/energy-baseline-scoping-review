@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536359",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T13:39:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The primary aim of this paper is to group the EU member states into clusters based on six key energy performance indicators: primary energy consumption, energy productivity, renewable energy in transport, renewable energy in electricity, and renewable energy in heating and cooling.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Exclusive macro-level government energy-policy analysis without an organisational EnPI/EnB dimension.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This paper employs two-step cluster analysis using IBM SPSS 26.0 to classify EU member states based on six key energy indicators.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Macro-level comparison of EU member states; no organisational EnPI/EnB context."
+  },
+  "stage2": null,
+  "stage3": null
+}

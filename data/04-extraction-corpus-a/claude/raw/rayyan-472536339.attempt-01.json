@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536339",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:14:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The TISM-P method has been used to find the hierarchical relationship among the sustainability factors in the hotel",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Mentions 'energy baseline' and 'energy performance indicator' only aspirationally (framed as an extension of the triple bottom-line sustainability framework). The actual methods (TISM-P, SAP-LAP linkages, flowing stream strategy, rough set theory) model hierarchical/polarity relationships among qualitative sustainability factors and derive IF-THEN rules for hotel service ratings; energy is one factor (SENF3). No energy quantity is measured or normalised and no EnPI/EnB model, functional form, normalisation variables, or estimation approach is characterised. Incidental EnPI/EnB mention within a framework -> methodologically ineligible per the v2.3 registered threshold.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This study presents an in-depth case study of the intersection of sustainability and business strategy in the hotel",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility. Abstract claims to 'establish a correct baseline and energy performance indicator' (p1); p17 names hotel-level variables (location, service quality, size) for a 'proposed' EnPI, but no energy quantity is measured/normalised and no EnPI/EnB model is operationalised; energy is one qualitative TISM-P factor (SENF3). Sector=hotels (services), also out-of-scope for 3B. Flagged for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

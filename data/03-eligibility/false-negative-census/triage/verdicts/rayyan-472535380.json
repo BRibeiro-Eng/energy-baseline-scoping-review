@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535380",
+ "tier": "A",
+ "ts": "2026-09-10T18:44:48",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petrochemical",
+  "petroleum",
+  "ethylene",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 94.8,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sobre priorização de projetos e tomada de decisao"
+}

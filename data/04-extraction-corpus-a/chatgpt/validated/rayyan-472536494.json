@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536494",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:43:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This study developed a new approach to assess the energy performance of compressed air systems based on a six-step local energy benchmarking methodology. The methodology includes an energy management procedure to monitor and control the electricity consumption and sustain the energy performance of compressed air systems in time. The procedure monitors the production and use of compressed at plant and at manufacturing section levels based on the real-time monitoring of relevant variables to calculate energy performance indicators, energy baselines, and CUSUM charts.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "5. Case study. The compressed air system in a battery manufacturing plant",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "5. Case study. The compressed air system in a battery manufacturing plant",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to battery manufacturing, a discrete-manufacturing context outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the plant under study, the CAS includes four rotary-screw compressors and one air dryer.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "battery manufacturing",
+      "evidence_quote": "The manufacturing of lead-acid batteries is an energy-intensive process, in which electricity represents around 70% of the energy demand [53].",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "During the assembling process the cured grids, connectors, and terminals are assembled and sealed in a plastic case to make a battery.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "Given the variety of products manufactured in some plants, the concept of equivalent production outlined by ISO 50006 [50], might be indicated.",
+        "The ISO 50000 standard proposes guidance for the development and implementation of an energy management system based on tools like the energy benchmarking, the EnB, the EnPIs, etc. [27,33]."
+      ],
+      "page": [
+        4,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "The daily use of CA was correlated to the equivalent battery production.",
+        "The CUSUM is used as a control tool at both levels. It is used for monitoring the deviation of the real-time consumption of CA or electricity as compared to the consumption forecasted by the EnB, thus alerting the occurrence of inefficiencies."
+      ],
+      "page": [
+        8,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

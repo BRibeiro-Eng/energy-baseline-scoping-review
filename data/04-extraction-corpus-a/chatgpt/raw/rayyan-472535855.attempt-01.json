@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535855",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T15:17:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Then, we determined energy intensity (TEnCI, in log) by calculating the ratio of TEnCL to the firm’s real output (RO), which is deflated to 2007 prices.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This dataset includes the names of 10,169 certified organizations and the validity periods of their certifications.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a research sample that encompasses firms from a wide range of industries.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Multi-sector manufacturing sample includes both continuous-process and discrete sectors; it is not an explicit application in one closed-list continuous sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This dataset includes the names of 10,169 certified organizations and the validity periods of their certifications.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "China",
+      "evidence_quote": "China serves as an ideal context for several reasons.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "we empirically evaluate ISOEnMS’s impact on the energy intensity of manufacturing firms.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "a research sample that encompasses firms from a wide range of industries.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 energy management system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "During the sample period, the Chinese central government implemented two major nationwide energy regulation policies. The first policy set energy intensity reduction targets in the 11th (2006–2010) and 12th (2011–2015) Five-Year Plans, requiring provinces to meet centrally assigned targets. The second policy, the Top 10,000 Energy-Consuming Enterprises Program (Top 10,000 Program), targeted industrial firms consuming at least 10,000 tons of standard coal in 2010, mandating them to achieve assigned energy-saving goals between 2012 and 2015.",
+        "To avoid biased estimates, we controlled for these policies in Eq. (1) by collecting data on provincial energy intensity reduction targets and individual firm energy-saving targets under the Top 10,000 Program. These variables were matched to our sample based on firm location and name"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "ISOEnMS indicates whether firm i obtained certification in year t. The vector X includes five control variables: capital-labor ratio, debt ratio, total factor productivity, size, and the Herfindahl-Hirschman Index.",
+        "Then, we determined energy intensity (TEnCI, in log) by calculating the ratio of TEnCL to the firm’s real output (RO), which is deflated to 2007 prices."
+      ],
+      "page": [
+        7,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,277 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536693",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:06:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "All the companies monitor their monthly and annual specific energy consumption of electricity, fuels and the primary heat of production departments. These are reported at company, site and department levels. These indicators are typically not corrected in reporting with respect to any explanatory factors.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Our research objective is approached by analysing data from 32 in-depth personal interviews carried out in six international companies operating in three energy-intensive sectors in Finland.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Empirical multi-case assessment of specific-energy indicators across three explicitly listed continuous-process sectors."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "country_region": {
+      "value": "Finland",
+      "evidence_quote": "The total number of interviews was 32, and these were carried out in Finland in October and November 2009.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "pulp and paper, basic metals and petrochemicals industries",
+      "evidence_quote": "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50001:2011. Energy management systems - Requirements with guidance for use.",
+        "Companies in energy-intensive sectors in Finland have committed themselves to the adoption of an energy management system, called the energy efficiency system (EES), as part of voluntary energy efficiency agreements"
+      ],
+      "page": [
+        14,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "MWh/t works just fine in many places but there could be something else as well. It helps to draw the big lines but explanatory factors are missing.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "t"
+      ],
+      "evidence_quote": "MWh/t works just fine in many places but there could be something else as well.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_construction_method": {
+      "value": "Monthly and annual specific energy consumption is calculated for electricity, fuels and primary heat at production-department level and reported at company, site and department levels; the indicators are not corrected for explanatory factors.",
+      "evidence_quote": "All the companies monitor their monthly and annual specific energy consumption of electricity, fuels and the primary heat of production departments. These are reported at company, site and department levels. These indicators are typically not corrected in reporting with respect to any explanatory factors.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "These are reported at company, site and department levels.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scope_description": {
+      "value": "Six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries; indicators reported at company, site and department levels.",
+      "evidence_quote": [
+        "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+        "These are reported at company, site and department levels."
+      ],
+      "page": [
+        5,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "These indicators are typically not corrected in reporting with respect to any explanatory factors. Identifying and quantifying the reasons for the changes in the indicators rely on human reasoning and case-by-case analyses that are carried out by energy managers.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "These indicators are typically not corrected in reporting with respect to any explanatory factors.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "MWh/t works just fine in many places but there could be something else as well. It helps to draw the big lines but explanatory factors are missing. If you step into operation, you should be able to form a view of the conditions which give you the best performance",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "There is some need for modelling and simple simulation models to be used for process operation",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "There is some need for modelling and simple simulation models to be used for process operation",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "Interviews were performed in six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries.",
+        "All the companies monitor their monthly and annual specific energy consumption of electricity, fuels and the primary heat of production departments."
+      ],
+      "page": [
+        5,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.89
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "information overload",
+        "information delivery",
+        "lack of personnel resources"
+      ],
+      "evidence_quote": [
+        "There is so much information. It comes from everywhere—but picking the right piece, that’s where it gets hard",
+        "One of the shortcomings is probably information delivery—that information would go to the right people who can do something about things",
+        "There is always a scarcity of resources, especially in personnel resources. Operative management has a thousand and one irons in the fire"
+      ],
+      "page": [
+        10,
+        10,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    }
+  }
+}

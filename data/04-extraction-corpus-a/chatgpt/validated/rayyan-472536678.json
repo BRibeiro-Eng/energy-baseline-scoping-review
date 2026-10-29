@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536678",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:01:42Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy consumption per part consists of two parts: the\nparticular solution, which is dynamic and is the energy per\npart consumed due to random downtime events and the\nhomogeneous solution, which is static and is the energy\nconsumption due to the interactions of machines without any\ndisruption events.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "Extensive numerical simulations are performed to validate\nthe Energy Proﬁt Bottleneck.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper investigates the dynamic energy structure of a\nserial production line to incorporate the warmup time and\nbetter understand the energy consumption per part EPP.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Simulated serial production line of parts; the continuous-flow model is a mathematical abstraction, not an application in a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Each simulation uses a\n6 Machine 5 Buffer line (6M5B).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Extensive numerical simulations are performed to validate\nthe Energy Proﬁt Bottleneck.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry",
+      "evidence_quote": "Sustainability in the manufacturing industry has become\nmore prevalent with increasing energy costs and the desire\nof US companies to remain competitive in the global envi-\nronment.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "This paper investigates the dynamic energy structure of a\nserial production line to incorporate the warmup time and\nbetter understand the energy consumption per part EPP.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "This papers uses a continuous ﬂow model as shown in\nFig. 1 [13-15].",
+        "where EPP is the energy per production count of the line"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

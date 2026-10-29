@@ -1,0 +1,128 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536606",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "USA",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "segmented baseline",
+          "other"
+        ],
+        "baseline_construction_method": "A reduced-form regression relates plant-level total source energy to production/activity vectors and plant characteristics using cross-sectional or panel data. The case studies use linear or log-linear OLS and stochastic-frontier variants, with statistical tests used to select variables and distributional form.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [],
+        "model_parameters_reported": [
+          "industry-specific returns-to-scale elasticity estimates (0.70 to 1.11, with short-run and long-run estimates for selected sectors)"
+        ],
+        "normalisation_variables": [
+          "Product mix",
+          "Process input choices",
+          "Size—physical or productive capacity and utilization rates",
+          "Climate"
+        ],
+        "normative_framing_of_adaptations": "ISO 50001/50006 explicit",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "Our estimate of the overall energy efficiency improvement in the 96 plants in our database represents a 13 % change in total source energy",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 17,
+            "period_or_context": "cement-industry energy-efficiency improvement",
+            "unit": "%",
+            "value": "13"
+          },
+          {
+            "evidence_quote": "The combined effect when evaluated against the over 7 million vehicles produced in 2005 by the plants in our study implies in a reduction of 11.6 % or 1462 million lbs of CO2, attributable to changes in observed industry energy efficiency practices.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 17,
+            "period_or_context": "auto-assembly industry update",
+            "unit": "%",
+            "value": "11.6"
+          },
+          {
+            "evidence_quote": "this represents about a 4.3 % reduction in overall energy use by this industry",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 17,
+            "period_or_context": "corn-refining industry in 2009",
+            "unit": "%",
+            "value": "4.3"
+          }
+        ],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "facility",
+        "scope_description": "whole-plant energy performance benchmarking across industry subsectors",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536606",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "USA",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "other"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

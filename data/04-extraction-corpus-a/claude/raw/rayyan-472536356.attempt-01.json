@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536356",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:18:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper focuses on developing a data-driven model to predict energy consumption in a twin-screw granulator (TSG) within the DiPP.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper focuses its energy analysis solely on the twin-screw granulator within the Diamond Pilot Plant.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Granulation is a critical unit operation in the pharmaceutical industry since it produces the necessary wet granules which can then be pressed into medicine tablets for patients",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Pharma continuous manufacturing (twin-screw granulation): continuous-flow but pharmaceuticals are NOT on the v2.3 closed continuous-process sector list, so level_3b=false. Flagged for human decision."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This paper examines the University of Sheffield's Diamond Pilot Plant (DiPP)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Sheffield, UK",
+      "evidence_quote": [
+        "University of Sheffield's Diamond Pilot Plant (DiPP)",
+        "Sheffield S1 3JD, UK"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "pharmaceutical manufacturing",
+      "evidence_quote": "Continuous pharmaceutical manufacturing utilises twin-screw granulators to produce",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "continuous manufacturing allows for the use of continuous unit operations, which are generally more efficient than their batch counterparts",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "the best regression model produced was a second-degree polynomial regression",
+        "Random forest, K-Nearest-Neighbour, and SVR with an RBF (radial basis function) kernel were used"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "process flowsheet simulation"
+      ],
+      "evidence_quote": "a flowsheet of the process was developed",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

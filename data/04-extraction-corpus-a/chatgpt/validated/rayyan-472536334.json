@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536334",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T09:37:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Drawing on the literature on energy efficiency measurement issues [9–11] and on the selection of criteria and performance indicators, this work proposes the M2KPIEn methodology (Measurement Methodology with Energy-based KPI). This methodology has three main stages (see Figure 2). The first stage analyses the planning and documentation process. In the second stage, indicators are implemented and evaluated. The final stage analyses the indicators and their validity.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For this reason, the M2KPIEn model was implemented through a 52-week pilot study in an abrasives manufacturing plant.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The energy efficiency model developed in this study (M2KPIEn) demonstrated its applicability in the context of a batch-production manufacturing company.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to an abrasives batch-production manufacturing company; outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "For this reason, the M2KPIEn model was implemented through a 52-week pilot study in an abrasives manufacturing plant.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "abrasive product manufacturing",
+      "evidence_quote": "the results of a pilot study at an abrasive product manufacturing company are presented as a case study.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The energy efficiency model developed in this study (M2KPIEn) demonstrated its applicability in the context of a batch-production manufacturing company.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002"
+      ],
+      "evidence_quote": "The international standards ISO 50001, “Energy Management Systems,” and ISO 50002, “Energy Audits,” provide a framework of requirements based on",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "The Energy Regulatory Commission (CRE) approved agreement A/073/2023 on 13 December 2023, establishing that the minimum Power Factor increases from 0.90 to 0.95 for users with an electrical demand greater than 1 MW or",
+        "This study revealed an average power factor of 0.8966, which does not meet the current minimum requirement, resulting in financial penalties."
+      ],
+      "page": [
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "This variability limits the predictive capacity of linear regression, as the independent variables used in the model do not fully capture these changing dynamics.",
+        "The annual electrical energy consumption for Plant PL1 was 838,415 kWh, corresponding to a total production of 24,315,576 pieces. This equates to approximately 0.0345 kWh per manufactured piece."
+      ],
+      "page": [
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "To address this, the M2KPIEn applies the analytical hierarchy process (AHP) to solve multi-variable problems.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

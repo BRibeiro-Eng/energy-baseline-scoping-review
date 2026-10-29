@@ -1,0 +1,18 @@
+{
+ "key": "rayyan-472536494",
+ "tier": "A",
+ "ts": "2026-09-10T18:51:41",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "blast furnace",
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 49.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "estudo de simulação"
+}

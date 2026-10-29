@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536459",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:15:58.729436+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "An energy baseline model was developed using Integrated Environmental Solutions Virtual Environment",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "categorized as minor specialist hospital",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Eligible: paper develops+calibrates an EnB (IES VE dynamic thermal energy baseline model, RMSE 2.1%/2.0% vs utility bills) and reports BEI as EnPI. Context is a public hospital building -> level_3b=false (not continuous process). Judgment calls: type_of_organisation buildings-vs-services; mv_protocol other-named=DOE M&V Guidelines (IPMVP/ISO50001 not named in text)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Penang, Malaysia",
+      "evidence_quote": "The study was conducted in Hospital Kepala Batas in Penang",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "public hospital",
+      "evidence_quote": "public hospital using a systematic approach",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Hospital buildings are the main energy users among government facilities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Measurement and Verification for performance based contracts",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "ApacheSim was used as a tool for the dynamic thermal simulation of the hospital building",
+        "building energy intensity (BEI) of 278.6 kWh/m2"
+      ],
+      "page": [
+        6,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

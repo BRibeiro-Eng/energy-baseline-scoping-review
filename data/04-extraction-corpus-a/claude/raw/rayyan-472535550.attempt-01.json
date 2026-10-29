@@ -1,0 +1,406 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535550",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T02:48:09+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "two statistical methods of MLR and ANN were used to design and develop a comprehensive energy baseline representing the predicted amounts of energy consumption based on the recognized drivers",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The aim of this paper is to monitor energy consumption and characterize energy baseline for a tubular LDPE plant located in Assaluyeh",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "a tubular LDPE plant located in Assaluyeh",
+        "Current LDPE plant produces 300,000 tons/year of polymers"
+      ],
+      "page": [
+        7,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "notes": "LDPE (low density polyethylene) production is a petrochemical/polymer continuous process (closed sector list); model empirically applied to a real LDPE plant with 2,012 days of daily data."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The aim of this paper is to monitor energy consumption and characterize energy baseline for a tubular LDPE plant located in Assaluyeh",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Assaluyeh, Iran",
+      "evidence_quote": "a tubular LDPE plant located in Assaluyeh - economical zone in south of Iran",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "petrochemical",
+      "evidence_quote": "In petrochemical plants, production deals with energy-intensive processes",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Petrochemical plants have almost all of these complexities, dealing with energy intensive processes to continuously transform the raw materials into final throughputs",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "consider the proposed model for baseline development in the future version of the standard ISO 50006 as the supplementary extension for the ISO 50001",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Multivariate linear regression (MLR)",
+        "multi-layer perceptron artificial neural",
+        "cumulative summations (CUSUM) are proposed and applied as an effective indicator"
+      ],
+      "page": [
+        1,
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "MFI (Melt Flow Index)",
+        "Polymer production",
+        "Number of plant's start-ups",
+        "Number of plant's shut-downs",
+        "Equipment lifetime",
+        "Cooling degree days (CDD)",
+        "Humidity",
+        "Wind speed"
+      ],
+      "evidence_quote": [
+        "Melt Flow Index",
+        "Polymer production",
+        "Number of plant's start-ups",
+        "Number of plant's shut-downs",
+        "Equipment lifetime",
+        "Cooling degree days (CDD)",
+        "Humidity",
+        "Wind speed"
+      ],
+      "page": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "baseline_period_start": {
+      "value": "March 2011",
+      "evidence_quote": "period of March 2011-August 2016",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "August 2016",
+      "evidence_quote": "period of March 2011-August 2016",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline was developed by separately fitting a multivariate linear regression (MLR) and a multi-layer perceptron ANN (trained with Levenberg-Marquardt and gradient-descent algorithms in MATLAB) to daily plant data; 8 independent drivers were selected (brainstorming with plant engineers, confirmed by linear correlation R and p-values) and the data split 90% training / 10% testing, with predicted outputs taken as the baseline.",
+      "evidence_quote": [
+        "both MLR and MLP ANN methods are utilized for further analysis, modeling and predicting the consumption of the days ahead as a baseline",
+        "we applied 1,713 data to train the network, and then 181 data to validate the models performance"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "The mean absolute percentage error (MAPE) between the predicted outputs and actual data are measured to validate the models",
+        "The R2 coefficients and MAPE results are calculated"
+      ],
+      "page": [
+        9,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Production line level is considered to be the system boundary in this research because it includes the entire plant facilities",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "scope_description": {
+      "value": "Production line (entire plant facilities) of a tubular LDPE plant producing 300,000 tons/year of polymers in Assaluyeh, south Iran.",
+      "evidence_quote": "Production line level is considered to be the system boundary in this research because it includes the entire plant facilities",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": [
+        "both MLR and MLP ANN models are challenged with unknown drivers",
+        "inherent uncertainty of the acquired data should not be overlooked. This was mainly the source of prediction error recorded for output 2 and 3"
+      ],
+      "page": [
+        13,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "both MLR and MLP ANN models are challenged with unknown drivers",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "the research can be extended to investigate the uncertainty and the model could also become completed applying more advanced ANNs such as recurrent neural networks",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": [
+        "The noisy data that belong to the days within which, the plant has been under maintenance or long-term overhaul are eliminated to decrease the errors (118 days)",
+        "SEC as the earlier indicator should not be used anymore by the company and EnB as described in this paper is recommended to be developed and maintained"
+      ],
+      "page": [
+        8,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The noisy data that belong to the days within which, the plant has been under maintenance or long-term overhaul are eliminated to decrease the errors (118 days)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "consider the proposed model for baseline development in the future version of the standard ISO 50006 as the supplementary extension for the ISO 50001",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "a tubular LDPE plant located in Assaluyeh",
+        "The authors have access to relevant daily data extracted for the period of March 2011"
+      ],
+      "page": [
+        7,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": [
+        "relevant daily data extracted for the period of March 2011",
+        "(Data set: 2,012 days)"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "model_parameters_reported": {
+      "value": [
+        "MLR coefficients for Output 1 (b1..b8, b0): 12, 0.66, 21.38, 16.2, 0.000374, 0.46, 0.092, 0.42, 79.9",
+        "MLR coefficients for Output 2 (b1..b8, b0): 1.28, 0.13, 41.33, 1.8, 0.0012, 0.146, 0.086, 0.364, 328.5",
+        "MLR coefficients for Output 3 (b1..b8, b0): 197.6, 19.35, 628.6, 411.5, 0.54, 2,176.5, 319.8, 25.93, 1,09,660"
+      ],
+      "evidence_quote": [
+        "0.000374",
+        "2,176.5",
+        "1,09,660"
+      ],
+      "page": [
+        11,
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.9638",
+          "unit": null,
+          "period_or_context": "MLR, Output 1 (electrical energy consumption)",
+          "evidence_quote": "0.9638",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.9860",
+          "unit": null,
+          "period_or_context": "MLP ANN (LM, 1 and 1 hidden neurons), Output 1",
+          "evidence_quote": "0.9860",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "MAPE",
+          "value": "2.108",
+          "unit": "%",
+          "period_or_context": "MLR, Output 1",
+          "evidence_quote": "2.108",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "MAPE",
+          "value": "1.270",
+          "unit": "%",
+          "period_or_context": "MLP ANN best, Output 1",
+          "evidence_quote": "1.270",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.7303",
+          "unit": null,
+          "period_or_context": "MLR, Output 2 (steam consumption)",
+          "evidence_quote": "0.7303",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.6331",
+          "unit": null,
+          "period_or_context": "MLR, Output 3 (cooling water consumption)",
+          "evidence_quote": "0.6331",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "< 0.0001",
+          "unit": null,
+          "period_or_context": "significance of input-output correlations",
+          "evidence_quote": "the P-values are less than 0.0001",
+          "page": 10,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "The R2 coefficients and MAPE results are calculated",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Personnel understanding and basic knowledge",
+        "Required level of training",
+        "Computing speed",
+        "Existing hardware system"
+      ],
+      "evidence_quote": "we consider a number of limitations such as personnel understanding and their basic knowledge, required level of training, computing speed, and existing hardware system",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  }
+}

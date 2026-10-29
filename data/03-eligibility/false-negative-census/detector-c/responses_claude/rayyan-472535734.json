@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472535734",
+  "listed_sector_signals": [
+    {
+      "signal": "Refining/petrochemical plants listed as typical energy-consuming activities in the oil and gas industry (table reference, not the paper's own application context)",
+      "quote": "Refining/petrochemical plants\nSeismic\nProcess plants",
+      "page": 2,
+      "sector": "petroleum refining / petrochemicals"
+    },
+    {
+      "signal": "Passing mention that oil and gas used by the industry is transformed into electricity and heat especially in refineries",
+      "quote": "Some of the oil and gas used directly by the industry is\ntransformed into electricity and heat, especially in the case of refineries and other large facilities.",
+      "page": 3,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Crude oil (ADCO's product) is transferred to shipping terminals and oil refineries — refineries are downstream recipients, not the paper's operation",
+      "quote": "Crude Oil: the main product of ADCO – is transferred to the shipping Terminals and oil refineries.",
+      "page": 5,
+      "sector": "petroleum refining"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper describes ADCO's implementation and ISO 50001 accreditation of an energy management system across its upstream onshore oil and gas production operations (extraction, gas/water injection, pumping, compression); refineries/petrochemical plants are only referenced generically as industry activities and as downstream recipients of ADCO's crude."
+}

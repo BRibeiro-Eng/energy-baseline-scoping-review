@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472535404",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to ML energy-efficiency analysis in petrochemical industries (context/motivation only)",
+      "quote": "While numerous researchers have paid attention to the \napplication of ML for energy efficiency analysis in various \nindustries, especially petrochemicals, there still is not an \nadequate focus on leveraging data-driven energy management \nin the tire manufacturing industry.",
+      "page": 2,
+      "sector": "petrochemicals"
+    },
+    {
+      "signal": "Cited work on energy efficiency in ethylene production process (olefins/petrochemicals) — reference list only",
+      "quote": "S. Gong, C. Shao, and L. Zhu, “Energy efficiency evaluation in \nethylene production process with respect to operation classification,”",
+      "page": 5,
+      "sector": "petrochemicals"
+    },
+    {
+      "signal": "Cited work on performance evaluation in complex petrochemical industries — reference list only",
+      "quote": "energy \noptimization \nmodeling: \nApplication \nto \ncomplex \npetrochemical industries,”",
+      "page": 5,
+      "sector": "petrochemicals"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cited framework for modeling steam consumption of a gas sweetening unit (gas processing) — reference/motivation only",
+      "quote": "Moghadasi et al. [7] presented a \nframework for modeling the steam consumption of a gas \nsweetening unit.",
+      "page": 2,
+      "sector": "natural gas sweetening / gas processing"
+    },
+    {
+      "signal": "Cited work on energy performance analysis of continuous processes using surrogate models — reference list only",
+      "quote": "“Energy \nperformance analysis of continuous processes using surrogate \nmodels,”",
+      "page": 5,
+      "sector": "continuous processes (unspecified)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and evaluates machine-learning models to predict steam consumption in a tire manufacturing factory (discrete curing/press operations); petrochemical, gas-sweetening, ethylene and \"continuous processes\" appear only as cited prior work, not as the application context."
+}

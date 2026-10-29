@@ -1,0 +1,52 @@
+{
+  "key": "rayyan-472536226",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-13T12:53:37",
+  "finished_at": "2026-09-13T13:03:59",
+  "returncode": 0,
+  "input_sha256": "2e1ca5c1ce40f855de0bc9b64a1eca418ab052c8afb2b49cf835faca2018e41c",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472536226.attempt-2.raw.json",
+  "attempt": 2,
+  "session_id": "8d9d79be-1979-4b01-b73e-455356655fac",
+  "models_returned": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-8[1m]"
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 23586,
+    "cache_read_input_tokens": 20331,
+    "output_tokens": 58398,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 23586,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 58398,
+        "cache_read_input_tokens": 20331,
+        "cache_creation_input_tokens": 23586,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 23586
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "total_cost_usd": 1.7243255,
+  "duration_ms": 620427,
+  "is_error": false,
+  "status": "error",
+  "error": "grounding applications[0].sector_verbatim: quote not found on physical page 2: 'In this work, we applied artificial intelligence with a focus on machine learning to improve energy efficiency and reduce the carbon footprint of ammonia produc'\ngrounding applications[0].models[0].C2_model_form.model_family: quote not found on physical page 3: 'The multiple linear regression algorithm was used to model the relationship between the independent variables; the operating variables and the dependent variabl'\ngrounding applications[0].models[0].C2_model_form.estimation_method: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[0].C2_model_form.software_verbatim: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[1].C2_model_form.model_family: quote not found on physical page 3: 'The multiple linear regression algorithm was used to model the relationship between the independent variables; the operating variables and the dependent variabl'\ngrounding applications[0].models[1].C2_model_form.estimation_method: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[1].C2_model_form.software_verbatim: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[2].C2_model_form.model_family: quote not found on physical page 3: 'The multiple linear regression algorithm was used to model the relationship between the independent variables; the operating variables and the dependent variabl'\ngrounding applications[0].models[2].C2_model_form.estimation_method: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[2].C2_model_form.software_verbatim: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'\ngrounding applications[0].models[3].C2_model_form.model_family: quote not found on physical page 3: 'The multiple linear regression algorithm was used to model the relationship between the independent variables; the operating variables and the dependent variabl'\ngrounding applications[0].models[3].C2_model_form.estimation_method: quote not found on physical page 4: '3100 data samples were used in the selected multiple linear regression algorithm using Python programming language (scikit-learn library)'"
+}

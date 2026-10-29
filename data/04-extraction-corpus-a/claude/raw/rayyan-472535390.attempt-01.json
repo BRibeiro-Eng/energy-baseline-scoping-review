@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535390",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "by dividing the produced items per period and the water and energy consumption at the same period",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the experimental results of an integrated energy and water management system in a company in the manufacturing industry sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the kind of industry or explicit items produced are not mentioned due to confidentiality issues",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "EnB/EnPI = specific energy consumption (kWh/item); annual EnBL 0.770 equals the mean of the 12 monthly kWh/item ratios, so coded SEC mean rather than simple intensity ratio. Sector undisclosed for confidentiality; production is discrete counted items, hence discrete manufacturing and not a listed continuous-process sector, so level_3b=false. ISO 46001 (water) and ISO 9001 are also cited but are not energy-management standards."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "this project has the limitation of focusing on a manufacturing company",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Mexico",
+      "evidence_quote": "an interdisciplinary Mexican case study",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry sector",
+      "evidence_quote": "a company in the manufacturing industry sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "information on the items manufactured monthly and annually was required",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "the ISO 50001 is known as the most widely used corporate energy management standard in the world",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["SEC mean"],
+      "evidence_quote": "an annual EnBL of 0.770 kWh/yr/item",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

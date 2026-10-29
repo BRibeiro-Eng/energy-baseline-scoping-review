@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535539",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:29:20.186929+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents the analysis of the electricity consumption of the University of Unicomfacauca in Popayán-Colombia, which leads to the generation of proposals for savings, energy efficiency and generation of photovoltaic energy for self-consumption",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "ISO 50001 energy-review / energy audit of a single university campus: it analyses and disaggregates electricity consumption and proposes efficiency (LED), substation consolidation and photovoltaic self-consumption measures. No EnPI/EnB measurement model is identified or characterised - no energy performance indicator, energy baseline model, normalisation/relevant variables, or fitted functional form.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For Unicomfacauca headquarters in Popayán, an analysis of the electrical energy consumption is carried out in a period between January 2015 and August 2019",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Bottom-up equipment inventory (power x hours x utilisation) compared to billing is the closest thing to a model but is not framed/characterised as an EnPI/EnB; no normalisation or indicator. Context is institutional buildings (university), out of scope for Level 3B regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

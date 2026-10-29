@@ -1,0 +1,276 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536532",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:37:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this contribution, a method is proposed to identify a surrogate performance model for the attainable energy performance considering the relevant factors.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The application to real plant data from INEOS in K¨oln is described in Section 3.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "K¨oln",
+      "evidence_quote": "The application to real plant data from INEOS in K¨oln is described in Section 3.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "Propylene Oxide (PO) production",
+      "evidence_quote": "The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "An application of the developed method to real industrial data is provided in this subsection. The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "ISO 50001:2018 demands the use of energy performance indicators (EnPI) which have to be compared with an energy baseline.",
+        "ISO 50006:2017 [20] proposes the analysis of factors influencing the process performance."
+      ],
+      "page": [
+        5,
+        25
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "The modeling method is based solely on the evaluation of historical process data and employs a novel combination of known surrogate modeling techniques using clustering, model fitting and model simplification by backward elimination.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "load",
+        "ambient temperature"
+      ],
+      "evidence_quote": "The load and the ambient temperature of the cluster centers are used as input variables (xi) and the EnPI values are used as the response variables (zi).",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Historical process data are mean-centered and unit-variance-scaled, clustered to identify operational regimes, and used to fit a nonlinear surrogate BDP model; backward elimination removes influencing factors with minor significance.",
+      "evidence_quote": "The raw data is pretreated by mean centering and unit variance (UV) scaling to have the same range of variation of all variables. The data is then clustered to identify different operational regimes and to reduce the number of data points that are used in the model identification step. The model is constructed using surrogate modeling techniques.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "The resulting AICWLSC is depicted in Fig. 7. The minimum value is reached when the number of basis functions is equal to 3.",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scope_description": {
+      "value": "Propylene Oxide (PO) production plant of INEOS in K¨oln",
+      "evidence_quote": "The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The model is trustworthy only for the operating points inside of the hull and its accuracy outside of the limits cannot be guaranteed.",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The model is trustworthy only for the operating points inside of the hull and its accuracy outside of the limits cannot be guaranteed.",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "A conservative method for the definition of the validity domain of the regression models in higher dimensions is the ”Convex Hull” of the input variables [55]. This method was used to calculate the validity bounds of the model.",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "The novelty of this contribution is the combination of state-of-the-art methods for data clustering and model identification which were not yet used in the context of the computation of energy baselines.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The model identification combined with a statistical backward elimination of influence factors with minor significance generates a simple, non-linear model which is accessible for people with limited mathematical knowledge.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "ISO 50006:2017 [20] proposes the analysis of factors influencing the process performance. While this analysis is not an explicit requirement of ISO 50001:2018, a continuous improvement of energy performance is.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "An application of the developed method to real industrial data is provided in this subsection. The data is taken from the Propylene Oxide (PO) production plant of INEOS in K¨oln.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "As the first step, the measurement data of the load and the total 5 bar steam consumption of the plant together with the ambient temperature with a sampling interval of one hour is collected.",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "−0.7484",
+        "3.2778"
+      ],
+      "evidence_quote": [
+        "−0.7484",
+        "3.2778"
+      ],
+      "page": [
+        30,
+        30
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "0.1318",
+          "unit": null,
+          "period_or_context": "model error ϵ for the original model with 2 influencing factors",
+          "evidence_quote": "The original model with 2 influencing factors has an OIPavg of 0.4978 and a value of ϵ of 0.1318.",
+          "page": 29,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "The original model with 2 influencing factors has an OIPavg of 0.4978 and a value of ϵ of 0.1318.",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "implementation_barriers": {
+      "value": [
+        "skills and experience of the plant personnel",
+        "expensive modeling and advanced process control are not viable"
+      ],
+      "evidence_quote": "Since the method only identifies the operational improvement potential the success depends on the skills and the experience of the plant personnel. The development of data driven rule extraction to support plant operators to derive efficient process intervention is the next step for processes where expensive modeling and advanced process control are not viable.",
+      "page": 31,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  }
+}

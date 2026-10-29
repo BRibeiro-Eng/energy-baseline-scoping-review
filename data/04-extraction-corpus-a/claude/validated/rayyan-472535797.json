@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535797",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T10:55:49.415593+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "PPC is implementing the key performance indicators for each production step in the process for the electrical energy consumption in a cement plant",
+        "The specific electrical energy consumption of a cement and lime plant is directly related to the output"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "PPC is implementing a corporate energy management program that targets operational efficiency, alternative energy and energy cost stability",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "PPC is developing energy management systems at two pilot sites, De Hoek Cement Factory and Lime Acres Lime Factory",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.62
+    },
+    "notes": "Eligible on broad v2.3 threshold via simple intensity-ratio/SEC EnPIs (kWh/ton, MJ/kg clinker; specific electrical energy consumption ~ output). level_3b=false: cement sector but the EnMS/per-step EnPIs are only being implemented (pilot stage, target 2012); no EnPI/EnB model empirically demonstrated with data/results. paper_type single-case vs 'other' arguable."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "two pilot sites, De Hoek Cement Factory and Lime Acres Lime Factory",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "In the South African cement industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "cement industry",
+      "evidence_quote": "South African cement industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The kiln feed is first heated, then calcined and then processed into cement clinker",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "an Energy Management System (EnMS) based on ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "kWh/ton clinker",
+        "The specific electrical energy consumption of a cement and lime plant is directly related to the output"
+      ],
+      "page": [
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

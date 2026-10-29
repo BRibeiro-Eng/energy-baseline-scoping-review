@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535665",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T13:02:56+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the authors have defined three main performance indexes that follow the guidelines of ISO 50001",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This case study regards the flour mills",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "industrial flour mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Defines 3 EnPI ratio KPIs -> eligible; main focus is metering-network optimization. Application is flour milling (unlisted sector). Pulp&paper (Sappi) only a related-work analogy, not the case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the energy sensor network of a 1.2MW flour mill plant sited in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "flour mill plant sited in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "industrial flour mills",
+      "evidence_quote": "industrial flour mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The wheat processing is made by a number of machines whose total installed capacity is about 1.2 MW. For our purposes this installed power is assumed constant in time.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "requirements of the ISO 50001, standard for energy management systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio"],
+      "evidence_quote": "is a ratio usually expressed in quintals over kWh",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": ["multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"],
+      "evidence_quote": ["the authors derived a fitness function from the model obtained in [5]", "supported by a multicriteria decision-aid tool"],
+      "page": [4, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

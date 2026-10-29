@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535529",
+  "listed_sector_signals": [
+    {
+      "signal": "Continuous-process sectors (chemicals, steel, cement, paper) named as high-growth industrial sub-sectors in the introduction context, not the study's application",
+      "quote": "trend of increasing production in industrial sub-sectors such as the chemicals, steel, cement, paper,\nand aluminum sub-sectors [4,5].",
+      "page": 2,
+      "sector": "cement, lime, clinker / steel / pulp & paper / petrochemicals"
+    },
+    {
+      "signal": "Prior ISO 50001 work cited as implemented in a cement plant (background literature, not this paper's application)",
+      "quote": "Pelser et al. [23] developed and implemented an energy performance report\ncovering the veriﬁcation of ISO Standard 50001, in a South African cement plant where the cost of",
+      "page": 2,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference to authors' earlier cement-industry (wet-process) energy management case, cited only",
+      "quote": "Mejoramiento de la eﬁciencia energética en la industria del cemento por\nproceso húmedo a través de la implementación del sistema de gestión integral de la energía.",
+      "page": 18,
+      "sector": "cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Aluminium primary-metals sub-sector named in passing among growing industrial sectors",
+      "quote": "the chemicals, steel, cement, paper,\nand aluminum sub-sectors [4,5].",
+      "page": 2,
+      "sector": "aluminium"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and validates an energy-baseline (ISO 50001/50006) methodology applied to a plastic injection molding process (discrete/batch manufacturing) in Colombia; continuous-flow sectors like cement, steel and paper appear only as background mentions."
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535750",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:53:50+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "to illustrate the kind of energy saving opportunities that can be typically",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Industrial-assessment case report: two example energy audits (a container-glass manufacturing operation and a distribution centre) producing lists of energy-saving recommendations. It does not present, propose, evaluate, or critique an EnPI/EnB measurement model with identifiable variables, functional form, or construction/estimation approach (v2.3 threshold). Benchmarking against industry average/theoretical minimums and a heat/mass balance (Fig.2, figure-only) are mentioned incidentally and never characterised; ISO 50001 is cited only as management strategy.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "presents two case studies – one energy intensive manufacturing organization, and one typical",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible on model-content grounds, not sector. HUMAN/FN-CENSUS: Case 1 is container-glass manufacturing with melting furnaces (a continuous-process sector), so this paper hits the continuous-process lexicon; flagged so the FN census reviews it despite the ineligible call. Closest model-adjacent content is benchmarking vs industry average/theoretical minimum plus a heat/mass balance, neither characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

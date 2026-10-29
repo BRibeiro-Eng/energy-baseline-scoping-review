@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535659",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:08:33Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The paper proposes a new concept of using of Mathematical Model Benchmarking (MMB).  The unitless indicator i.e. Benchmark Energy Factor (BEF) overcomes the current barriers.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The exercise of obtaining the BEF Range was performed for over 25 IRS’s. The outcome of this activity was a range of BEF (average annual) values assigned to every facility of the same category.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Another typical example can be found in Industrial Refrigeration sector.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Industrial refrigeration is not in the closed Level 3B sector list; route to human review if sector expansion is considered."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The exercise of obtaining the BEF Range was performed for over 25 IRS’s. The outcome of this activity was a range of BEF (average annual) values assigned to every facility of the same category.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "country_region": {
+      "value": "Canada",
+      "evidence_quote": "It is estimated that energy saving potential of 480…580 GWh/y is obtainable on IRS in Canada (retrofits and new designs) by introducing this new standard.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "sector_of_activity": {
+      "value": "Industrial Refrigeration",
+      "evidence_quote": "Another typical example can be found in Industrial Refrigeration sector.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "The exercise of obtaining the BEF Range was performed for over 25 IRS’s. The outcome of this activity was a range of BEF (average annual) values assigned to every facility of the same category.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The MMB concept can be used by any IS&P owner enabling easy implementation of ISO 50001.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "Perform M&V using IPMVP methods [4], Certification.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "The Ideal Energy can be calculated very accurately by using well known laws of physics chosen as a function of the work type performed by the end-use equipment [1], [11]. A mathematical model incorporating all the independent parameters and automatically normalize for any variability is used to determine the Ideal Energy, eliminating the tedious normalization process.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

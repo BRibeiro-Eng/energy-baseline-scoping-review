@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536493",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Reference to a 52.5 MW cogeneration facility at an airport for energy performance improvement (literature mention, not the paper's own case)",
+      "quote": "A study was carried out at the 52.5 MW cogeneration facility located at\nSuvarnabhumi Airport in Thailand to improve energy performance.",
+      "page": 4,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Reference to Combined Heating, Cooling and Power (CHCP/trigeneration) systems evaluated at airports (literature mention)",
+      "quote": "it was determined that a signiﬁcant amount of energy savings could be achieved\nby using the Combined Heating,Cooling and Power (CHCP) system.",
+      "page": 4,
+      "sector": "cogeneration/trigeneration"
+    },
+    {
+      "signal": "Reference to a natural-gas cogeneration plant in public buildings (literature mention)",
+      "quote": "Study of operational parameters improve-\nment of natural-gas cogeneration plant in public buildings in Thailand.",
+      "page": 17,
+      "sector": "cogeneration"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper is a case study on energy performance indicators and global-warming potential for an airport terminal building (Dalaman International Airport), a commercial/service building context, using regression and LCA methods — no continuous-flow industrial production is studied."
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535506",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:03:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the database aliment the energy consumption model based on regression and Neural network to predict the energy consumption correlated with cost and production profitability",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "Figure 3 is a proposed approach and the general concept to collect energy data automatically and storing it in a database to visualize these computed data and analyses in a SCADA system.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The previous scheme in figure 3, can be implemented for a mining industry application",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Mining is outside the closed Level 3B sector list; the architecture is proposed for future implementation, not empirically demonstrated."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The previous scheme in figure 3, can be implemented for a mining industry application",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.76
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "In the future work, the vision is to develop different predictive models for energy consumption",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "mining industry",
+      "evidence_quote": "The previous scheme in figure 3, can be implemented for a mining industry application",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "In the future work, the vision is to develop different predictive models for energy consumption",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "this paper discusses the impact of energy consumption on energy management system according to ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "the database aliment the energy consumption model based on regression and Neural network to predict the energy consumption correlated with cost and production profitability",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

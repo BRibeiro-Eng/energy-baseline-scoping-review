@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535419",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:57:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Calculation of the ratio of the actual consumption of spent energy resources to the volume of work performed for a separate ECO for a discrete unit of production time;",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This work is based on an analysis of the functioning of an automated energy efﬁciency management system implemented at 11 mining enterprises in Russia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "implemented at 11 mining enterprises in Russia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Mining is unlisted in the closed Level 3B sector list despite the paper describing continuous production processes."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "implemented at 11 mining enterprises in Russia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Russia",
+      "evidence_quote": "implemented at 11 mining enterprises in Russia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "mining enterprises",
+      "evidence_quote": "implemented at 11 mining enterprises in Russia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Due to the continuity of the production processes themselves and, consequently, the continuous operation of the equipment",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "One of the fundamental and guiding regulatory documents in this area is the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Calculation of the ratio of the actual consumption of spent energy resources to the volume of work performed for a separate ECO for a discrete unit of production time;",
+        "The detection and identiﬁcation of anomalous behavior of parameters can be implemented using heuristic procedures based on generalized statistical estimates of the behavior of the general dataset for all available energy-consuming objects of the same type."
+      ],
+      "page": [
+        6,
+        18
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

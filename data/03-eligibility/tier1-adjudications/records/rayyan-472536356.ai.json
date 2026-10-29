@@ -1,0 +1,149 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536356",
+      "level_a": {
+        "complementary_methodologies": [
+          "process flowsheet simulation"
+        ],
+        "country_region": "Sheffield",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "ML"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "pharmaceutical manufacturing",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "hybrid physical model"
+        ],
+        "baseline_construction_method": "Past DiPP campaign data were divided into TSG-activity slices; each torque profile was fitted with y = k × ln(x + 1), poor-fitting slices were removed, and the retained speed, feed-rate, L/S-ratio and k observations were used to select a second-degree polynomial regression model.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "time and resource constraints prevented automated integration",
+          "limited documentation and restrictive proprietary software"
+        ],
+        "model_parameters_reported": [
+          "n1 = −1.13097020 × 10−2",
+          "n2 = 3.27713175 × 10−1",
+          "n3 = 3.42615181 × 10+0",
+          "n4 = 6.17107414 × 10−6",
+          "n5 = −3.71204881 × 10−4",
+          "n6 = 2.32487761 × 10−2",
+          "n7 = 1.84521172 × 10−3",
+          "n8 = −1.53832945 × 10−1",
+          "n9 = −1.42015029 × 10+1",
+          "C = 7.83459685 × 10−1"
+        ],
+        "normalisation_variables": [
+          "speed",
+          "feed rate",
+          "L/S ratio"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 9,
+            "period_or_context": "second-degree polynomial, training",
+            "unit": null,
+            "value": "0.91168"
+          },
+          {
+            "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+            "metric": "RMSE",
+            "non_contiguous_evidence": false,
+            "page": 9,
+            "period_or_context": "second-degree polynomial, training",
+            "unit": null,
+            "value": "0.18178"
+          },
+          {
+            "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 9,
+            "period_or_context": "second-degree polynomial, testing",
+            "unit": null,
+            "value": "0.81638"
+          },
+          {
+            "evidence_quote": "2nd-degree polynomial 0.91168 0.18178 0.81638 0.28847",
+            "metric": "RMSE",
+            "non_contiguous_evidence": false,
+            "page": 9,
+            "period_or_context": "second-degree polynomial, testing",
+            "unit": null,
+            "value": "0.28847"
+          }
+        ],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "equipment",
+        "scope_description": "the twin-screw granulator within the Diamond Pilot Plant",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "empirical",
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536356",
+      "level_a": {
+        "complementary_methodologies": [
+          "process flowsheet simulation"
+        ],
+        "country_region": "Sheffield, UK",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "ML"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "pharmaceutical manufacturing",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

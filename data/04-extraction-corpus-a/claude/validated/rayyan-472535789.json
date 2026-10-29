@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535789",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:12:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper proposes to present the benefits of Energy Management Systems (EnMS) according ISO 50001, similarities with Environmental Management Systems (EMS) and how it can serve the environmental oriented management of the company.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Mentions ISO 50001 EnPI(s) and energy baseline only incidentally, as generic energy-planning-process concepts reproduced from the standard (Figure 1). The paper presents an EnMS/ISO 50001 framework and a qualitative conformity/status evaluation at Knorr Bremse, but identifies or characterises no EnPI/EnB measurement model: no normalisation variables, functional form, or construction/estimation approach.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "present some instruments and tools for assisting the status evaluation of energy consumption, improving instruments for data monitoring and helping the implementation and maintenance of EnMS in a company",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible: no characterisable EnPI/EnB model (EnPI/baseline mentioned only as generic ISO 50001 concepts). paper_type is a judgement call between 'maturity model or framework' and 'single applied case' (illustrative Knorr Bremse conformity assessment); flagged for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

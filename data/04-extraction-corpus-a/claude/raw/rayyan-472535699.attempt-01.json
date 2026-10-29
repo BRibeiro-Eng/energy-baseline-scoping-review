@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535699",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:43:41.762404+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the model was used as a stable baseline to explore known problems regarding HVAC operation and to assess the impact of different ECMs",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Calibrated white-box EnergyPlus WBPS of airport terminal HVAC used as M&V baseline for ECM savings; ISO 50001 (CASCADE). Buildings sector, not continuous process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Rome, Italy",
+      "evidence_quote": "Terminal 1 at Fiumicino Rome Airport",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "airport terminals",
+      "evidence_quote": "Airport terminals are conceived as big open spaces",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "airport terminals pose some difficulties to be reflected as building models",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "that follows ISO-50001 guidelines",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "an accurate calibration as defined by ASHRAE guideline 14 (ASHRAE 2002)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "calibrating detailed white box WBPS models can be an arduous experience",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

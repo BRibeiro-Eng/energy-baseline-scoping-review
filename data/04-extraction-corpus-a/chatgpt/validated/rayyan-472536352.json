@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536352",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T13:28:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This section describes the 30 studies that defined indicators mixing electricity and heat following the categorization described in section 2.4.1, starting with the energy metric followed by the primary energy form, exergy, and finally energy equivalence.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "To evaluate how existing research compares the energy performance of PV, ST, and PVT technologies through a systematic review analysis.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "PV, ST, and PVT systems are more applicable to residential and commercial buildings.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Review characterises energy-performance criteria for solar technologies in residential/commercial building contexts, not a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This study presents a comprehensive analysis of 30 research papers that define criteria for evaluating the energy performance of photovoltaic (PV), solar thermal (ST), and hybrid photovoltaic-thermal (PVT) panels in building integration.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "This study presents a comprehensive analysis of 30 research papers that define criteria for evaluating the energy performance of photovoltaic (PV), solar thermal (ST), and hybrid photovoltaic-thermal (PVT) panels in building integration.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "building integration",
+      "evidence_quote": "This study presents a comprehensive analysis of 30 research papers that define criteria for evaluating the energy performance of photovoltaic (PV), solar thermal (ST), and hybrid photovoltaic-thermal (PVT) panels in building integration.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "PV, ST, and PVT systems are more applicable to residential and commercial buildings.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "process integration",
+        "other"
+      ],
+      "evidence_quote": [
+        "It represents the ratio between the amount of the produced energy over the amount of incident solar energy on the surface of the collector.",
+        "The second law analysis, whether based on entropy or exergy, is crucial for optimizing processes and is applied to solar energy systems.",
+        "Other papers used an energy equivalence process to convert one form of energy to another, with the use of other metrics than the primary energy factor."
+      ],
+      "page": [
+        7,
+        11,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

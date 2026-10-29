@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535654",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:02:23+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Through a real case-study that guides the process, the paper explains how to achieve a calibrated Building Energy Simulation (BES) model using an optimisation process based on a meta-heuristic strategy (genetic algorithm - NSGA-II).",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the same real case study described in [1], an ofﬁce area of the ‘‘Ediﬁcio Amigos” building located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "an ofﬁce area of the ‘‘Ediﬁcio Amigos” building located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to an office area in a university building, outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the same real case study described in [1], an ofﬁce area of the ‘‘Ediﬁcio Amigos” building located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "SPAIN",
+      "evidence_quote": "located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "ofﬁce area",
+      "evidence_quote": "an ofﬁce area of the ‘‘Ediﬁcio Amigos” building",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "an ofﬁce area of the ‘‘Ediﬁcio Amigos” building located at the University of Navarra (SPAIN)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "international standards such as ISO 50001 focus on improving their energy performance, including energy efﬁciency, use and consumption",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14"
+      ],
+      "evidence_quote": [
+        "The International Performance Measurement and Veriﬁcation Protocol (IPMVP), proposes a calibrated simulation model (Option D)",
+        "ASHRAE Guidelines 14-2002 [3], M&V Guidelines [4] and IPMVP [5]"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "a calibrated Building Energy Simulation (BES) model using an optimisation process based on a meta-heuristic strategy (genetic algorithm - NSGA-II)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  },
+  "stage3": null
+}

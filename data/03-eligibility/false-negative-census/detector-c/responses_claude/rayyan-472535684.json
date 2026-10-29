@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472535684",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Ceramic / brick manufacturing sector studied, but production relies on beehive kilns the paper explicitly calls intermittent (batch firing), not continuous flow",
+      "quote": "The concept of efficiency (η) of a kiln can be established by the ratio of useful energy and the \nenergy supplied to the system by adding certain fuel such as coal, in the case of intermittent kilns as \nit the beehive model.",
+      "page": 5,
+      "sector": "ceramics (intermittent beehive kilns)"
+    },
+    {
+      "signal": "Tunnel kiln referenced for comparison; tunnel kilns are a continuous firing technology, mentioned only in passing",
+      "quote": "such a point that the efficiency of a tunnel kiln is about \n40% [7] greater than a pampas kiln, due to the clear differences between these two.",
+      "page": 5,
+      "sector": "ceramics (continuous tunnel kiln, mention only)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper is an energy-environmental diagnosis of 44 ceramic/brick-making companies in Cucuta, Colombia, whose firing is done in intermittent beehive kilns (batch firing), not continuous-flow production; continuous tunnel kilns are mentioned only as a comparison."
+}

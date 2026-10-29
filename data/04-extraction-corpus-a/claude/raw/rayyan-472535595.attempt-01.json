@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535595",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T17:39:03+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "it is necessary to create a mathematical model called the baseline, which reproduces the behavior of the energy consumption",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This article is based on a case study, using real data and analyzing an energy efficiency work carried out by an ESCO at a resort in the state of Rio de Janeiro",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "commercial sector of hotel industry",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Resort/hotel case (commercial sector); baselines built by linear/multiple regression on temperature and occupation. Not a continuous-process industry, so level_3b false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "at a resort in the state of Rio de Janeiro",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Rio de Janeiro - Brazil",
+      "evidence_quote": "The case study is a resort in Rio de Janeiro - Brazil.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "commercial sector of hotel industry",
+      "evidence_quote": "build baselines for the commercial sector of hotel industry",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "commercial sector of hotel industry",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50002", "ISO 50006", "other-named"],
+      "evidence_quote": "The ISO 50001, 50002, 50004, 50006, 50015, PIMVP and GUM standards were used successfully",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["IPMVP", "other-named"],
+      "evidence_quote": "the International Performance Measurement and Verification Protocol (IPMVP) and the Guide to Expression of Uncertainty in Measurements (GUM)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "multiple regression"],
+      "evidence_quote": [
+        "model the consumption of energy utilities given by linear regression",
+        "the external temperature and the occupation of the hotel were independent variables"
+      ],
+      "page": [4, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535792",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:42:20.937204+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the energy intensity as energy consumption amount (10,000 kWh) per million U.S. dollars output value as the key energy performance indicators (EnPIs)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "An electronics company in China was examined to perform feasibility analysis and energy conservation performance evaluation of this model.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Its primary products are electronic parts and components.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Eligibility rests on defined EnPI 'energy intensity' (energy/output value, 2010 benchmark); headline IEP model is organizational. Discrete electronics-manufacturing case, not continuous process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a production plant area of approximately 281,000 m2",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Guangdong Province, China",
+      "evidence_quote": "This study case company is located in Guangdong Province, China.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "electronic parts and components",
+      "evidence_quote": "Its primary products are electronic parts and components.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Its primary products are electronic parts and components.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 energy management system",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Energy intensity = energy consumption [10,000 kWh]/output value [in million U.S. dollars]",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

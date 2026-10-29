@@ -1,0 +1,662 @@
+{
+ "rayyan-472535386|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "According to the results of an energy management study at the domestic gas processing plant",
+   "page": 1,
+   "rule": "§5.3 clausula de setor continuo NAO-LISTADO (decisao do revisor, 2026-08-25): o contexto e uma central de processamento/adocicamento de gas natural. O revisor determinou que NAO e 'Petroleum refining' mas E continuo, logo level_3b=false + unlisted_continuous nomeando o setor. Coerente com o tratamento dado ao A01 (LNG) e com a §5.3, que nomeia 'LNG / gas liquefaction' entre os exemplos fora da lista."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Natural gas processing / gas sweetening. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472535489|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The company under study belongs to the steel industry and is in",
+   "page": 3,
+   "rule": "§5.3 ESCOPO DO SETOR LISTADO + flag de continuo nao-listado (decisao do revisor, 2026-08-25): a entrada le 'Steel (and other primary-metals continuous production)', logo significa producao primaria; a fabrica so transforma aco COMPRADO em produtos conformados e nao e o setor listado. O revisor decidiu marcar unlisted_continuous, preservando o paper como candidato no censo de falsos negativos (§3-Step-4)."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Downstream steel conversion / tube and profile forming lines. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472535511|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.3 REQUISITO (revertido apos verificacao adversarial): a unidade estudada e um framework generico de gestao cross-setorial (CMS QHSE3+) 'tentativamente aplicado' em seis organizacoes, cinco delas inequivocamente fora de ambito (fundo de compensacao, hospital, clinica, laboratorio farmaceutico, operador portuario). Nada no modelo e especifico do vidro, nada e normalizado por variavel de processo de vidro; a fabrica de vidro contribui uma coluna de figura e uma percentagem per capita. Alem disso NENHUM dos dois papers caracteriza alguma vez o processo como continuo — 'continuous' nunca e aplicado ao vidro em nenhum dos textos, e a B04 escreve 'the melting AND SHAPING of glass containers', nomeando a metade discreta na mesma frase. A pertenca ao setor teria de ser importada de conhecimento de dominio, contra a §5.3 ('explicitly') e contra a disciplina de decidir so pelo texto."
+  },
+  "notes": "Revisão assistida por IA (Codex), 2026-09-09; não constitui adjudicação humana. Reveal level_3b: manter false. Conferidas pp.22 e 26–27: a citação identifica aplicação real numa fábrica de recipientes de vidro, mas não caracteriza o modo de fusão como contínuo/24h. O critério relevante é esse limite de §5.3; não se exige que o modelo seja exclusivo do vidro nem normalizado por uma variável específica desse processo. A citação é real, mas não resolve o modo de produção. Finalização humana pendente."
+ },
+ "rayyan-472535541|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.3 REQUISITO (revertido apos verificacao adversarial): a unidade estudada e um framework generico de gestao cross-setorial (CMS QHSE3+) 'tentativamente aplicado' em seis organizacoes, cinco delas inequivocamente fora de ambito (fundo de compensacao, hospital, clinica, laboratorio farmaceutico, operador portuario). Nada no modelo e especifico do vidro, nada e normalizado por variavel de processo de vidro; a fabrica de vidro contribui uma coluna de figura e uma percentagem per capita. Alem disso NENHUM dos dois papers caracteriza alguma vez o processo como continuo — 'continuous' nunca e aplicado ao vidro em nenhum dos textos, e a B04 escreve 'the melting AND SHAPING of glass containers', nomeando a metade discreta na mesma frase. A pertenca ao setor teria de ser importada de conhecimento de dominio, contra a §5.3 ('explicitly') e contra a disciplina de decidir so pelo texto."
+  },
+  "notes": "Revisão assistida por IA (Codex), 2026-09-09; não constitui adjudicação humana. Reveal level_3b: manter false. Citação da p.28 verificada; contexto adicional pp.20,23–24 identifica aplicação em vidro e operação de fornos de fusão/formação, mas não explicita fusão contínua/24h versus batch. O caráter genérico do framework e a falta de variáveis específicas do vidro não são, por si, exclusões de §5.3. Mantém-se a decisão pelo modo de produção não resolvido; finalização humana pendente."
+ },
+ "rayyan-472535628|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The plant used for the case study has two kilns",
+   "page": 2,
+   "rule": "§5.3 lista principal 'Cement': aplicacao empirica real a uma fabrica de cimento em operacao."
+  },
+  "notes": ""
+ },
+ "rayyan-472535650|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The plant has more than 30 years with a hot dip galvanizing line with a capacity of 70,000 tons/year",
+   "page": 3,
+   "rule": "§5.3 clausula de setor continuo NAO-LISTADO: 'galvanizing lines' e nomeada como exemplo de setor continuo fora da lista. false + unlisted_continuous."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Hot dip galvanizing line (linha de galvanizacao). Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472535657|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.3 exige contexto de aplicacao explicitamente num setor continuo listado; aqui o contexto e o regime regulatorio nacional. Setores listados (Paper, Chemical, Non-metallic, Basic metal) aparecem apenas como linhas de estatistica agregada — mencao de passagem numa lista de industrias intensivas."
+  },
+  "notes": ""
+ },
+ "rayyan-472535750|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "improve energy efficiency in the container glass manufacturing sector.",
+   "page": 2,
+   "rule": "§5.3 lista principal 'Glass': o Caso 1 e uma avaliacao energetica aplicada num site cujo setor o paper nomeia como fabrico de vidro de embalagem ('large melting furnaces with high temprature inside'), com 12 recomendacoes e >500.000 USD/ano."
+  },
+  "notes": ""
+ },
+ "rayyan-472536356|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "in the DiPP (Diamond Pilot Plant) Consigma-25 pilot plant, a dedicated research facility.",
+   "page": 3,
+   "rule": "§5.3 clausula de setor continuo NAO-LISTADO: fabrico farmaceutico continuo nao esta na lista das oito. false + unlisted_continuous, sem auto-classificar farmaceutica em 'continuous chemical production'."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Farmaceutica de fabrico continuo (granulacao por parafuso duplo), a escala piloto. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472536379|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "the use of ML in the steel industry. The case study considers",
+   "page": 6,
+   "rule": "§5.3 lista principal 'Steel (and other primary-metals continuous production)' + requisito empirico: auditorias energeticas em tres aciarias reais e modelos EnPI de regressao ajustados a dados reais."
+  },
+  "notes": ""
+ },
+ "rayyan-472536518|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The sector in which most energy is saved is iron and steel.",
+   "page": 8,
+   "rule": "§5.3 lista principal + requisito empirico: resultados ao nivel setorial reportados para setores continuos listados — aco com maiores poupancas absolutas, petroleo e coque com maiores poupancas especificas."
+  },
+  "notes": ""
+ },
+ "rayyan-472536551|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+   "page": 11,
+   "rule": "§5.3 lista principal + requisito empirico: o EnPI leading foi implantado e pontuado num caso real cuja Divisao D sao seis instalacoes de refinacao e condensate splitters, com scores por divisao na Fig. 4."
+  },
+  "notes": ""
+ },
+ "rayyan-472536587|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Abbas, has a total number of 240 reduction cells which utilize center break and",
+   "page": 2,
+   "rule": "§5.3 clausula de setor continuo NAO-LISTADO: fundicao de aluminio e continua 24/7 mas nao esta na lista; false + unlisted, sem auto-classificar em 'Steel and other primary-metals'."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Aluminio primario (reducao eletrolitica Hall-Heroult). Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472536588|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Energy audits were performed in two Colombian Lime factories.",
+   "page": 1,
+   "rule": "§5.3 lista principal 'Cement (and lime / clinker)': auditorias energeticas, balancos de massa/energia e calculos ISO-13579 em duas fabricas de cal em operacao. Tabela 7 confirma 'Production: Continuous' nos fornos estudados."
+  },
+  "notes": ""
+ },
+ "rayyan-472536606|eligibility.level_3b": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Figure 3 shows the energy use per short ton of clinker",
+   "page": 15,
+   "rule": "§5.3 lista principal + requisito aplicar/demonstrar: EPI/EnB estimados empiricamente com dados de fabrica para setores continuos listados (Tabelas 1-2), nao mencao de passagem."
+  },
+  "notes": ""
+ },
+ "rayyan-472536661|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "ADGAS owns and operates three LNG trains",
+   "page": 2,
+   "rule": "§5.3 clausula de setor continuo NAO-LISTADO: contexto e liquefacao de LNG, continuo mas fora da lista principal. level_3b=false + nota de caso exploratorio."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: LNG / gas liquefaction. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472536742|eligibility.level_3b": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.3 REQUISITO (revertido apos verificacao adversarial): o unico conteudo de cimento no paper e um testemunho de parceiro atribuido a comunicacao pessoal (p.6, nota 13), uma contagem de premios e uma lista de trabalho futuro — sem variaveis, forma funcional, dados ou resultado de cimento em lado nenhum. Os dois setores efetivamente demonstrados sao montagem automovel (discreto, fora de ambito) e moagem humida de milho (continuo mas NAO listado), o que dispara a clausula CRITICAL."
+  },
+  "notes": "Continuous-flow sector not on the §5.3 main list: Wet corn refining (moagem humida de milho). Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector."
+ },
+ "rayyan-472535360|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 'EnPI/EnB incidental — nenhum modelo identificado'. Os termos EnPI, energy performance indicator, baseline, normalizacao e regressao nao ocorrem no texto (verificado)."
+  },
+  "notes": ""
+ },
+ "rayyan-472535482|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Both were controlled",
+   "page": 5,
+   "rule": "§5.2: mensurando + (a) variaveis + (c) abordagem de construcao. A exclusao 'estudo de barreiras sem conteudo de modelo' nao morde."
+  },
+  "notes": ""
+ },
+ "rayyan-472535487|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "regression analysis to normalize the energy consumption",
+   "page": 39,
+   "rule": "§5.2: e um modelo de maturidade, mas a exclusao 'sem qualquer conteudo de modelo de medicao' nao morde — duas das tres alineas presentes."
+  },
+  "notes": ""
+ },
+ "rayyan-472535511|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "(ix). MMAE of monthly consumption vs. daily bed occupations, x. Reduction in per capita energy",
+   "page": 26,
+   "rule": "§5.2: criterio (a) cumprido; a exclusao 'sem qualquer conteudo de modelo de medicao' nao morde."
+  },
+  "notes": "Revisão assistida por IA (Codex), 2026-09-09; não constitui adjudicação humana. Reveal level_3b: manter false. Conferidas pp.22 e 26–27: a citação identifica aplicação real numa fábrica de recipientes de vidro, mas não caracteriza o modo de fusão como contínuo/24h. O critério relevante é esse limite de §5.3; não se exige que o modelo seja exclusivo do vidro nem normalizado por uma variável específica desse processo. A citação é real, mas não resolve o modo de produção. Finalização humana pendente."
+ },
+ "rayyan-472535519|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 EXCLUSAO TOPICAL RESIDENCIAL (revertido apos verificacao adversarial): contexto de aplicacao exclusivamente residencial (parque de habitacao social gerido pela ALER; toda a unidade em ambito e habitacao, sem componente industrial). A §5.2 e um limiar positivo seguido de uma lista fechada 'INELIGIBLE only if' — as clausulas 1 e 2 ja despacham qualquer paper sem conteudo de modelo, pelo que a clausula residencial SO tem trabalho a fazer sobre papers que caracterizam um modelo. Ler a ressalva como salvamento geral deixaria a clausula residencial com extensao vazia. Conteudo de modelo reconhecido, mas a exclusao topical prevalece."
+  },
+  "notes": ""
+ },
+ "rayyan-472535539|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "the model for the total monthly and annual electricity consumption, the energy analysis of the electrical system of the specified",
+   "page": 1,
+   "rule": "§5.2: o limiar v2.3 so exige que um baseline seja identificavel e caracterizado; o enquadramento ISO 50001 e explicito e a comparacao referencia-vs-projetado e quantificada."
+  },
+  "notes": ""
+ },
+ "rayyan-472535556|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "EnPG per usage floor area and per temperature difference are given by Eq. (1) and Eq. (2).",
+   "page": 3,
+   "rule": "§5.2: dois indicadores explicitos com variaveis e forma funcional; a exclusao topical so morde em estudos exclusivamente residenciais."
+  },
+  "notes": ""
+ },
+ "rayyan-472535586|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The multi-level grouping step is followed by a multi-level calculation step that yields the consumption numbers and CO2 equivalents for production steps and production orders.",
+   "page": 11,
+   "rule": "§5.2: mensurando + (c) abordagem de construcao; a exclusao de ferramenta/software nao morde."
+  },
+  "notes": ""
+ },
+ "rayyan-472535592|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Both user input and the regression analysis could potentially be streamlined using a web-based form to allow user input to populate a GUI-based Ishikawa diagram.",
+   "page": 6,
+   "rule": "§5.2: (a) variaveis e (c) abordagem de construcao por regressao; a exclusao 'software sem conteudo de modelo' nao morde. Propostas conceptuais nao ajustadas e ausencia de validacao sao explicitamente elegiveis."
+  },
+  "notes": ""
+ },
+ "rayyan-472535622|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 'EnPI/EnB incidental — nenhum modelo identificado'. Nas 4 paginas nao ha ocorrencia de indicador, baseline, consumo especifico, normalizacao, regressao, correlacao ou modelo; a ISO 50001 e invocada so como obrigacao de conformidade/desconto tarifario."
+  },
+  "notes": ""
+ },
+ "rayyan-472535627|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Sectoral Units (SU)-Energy Efficiency Indicator (EEI)-Benchmarks of Excellence/Specific Benchmarks (BE)",
+   "page": 13,
+   "rule": "§5.2 clausula de revisoes/sinteses que caracterizam os modelos que cobrem, mais critica; a Tabela 3 da unidade de normalizacao, indicador e benchmark por setor. Sem exclusao topical (hoteis sao comerciais; a analise de ISO 14001 esta explicitamente ligada a ISO 50001)."
+  },
+  "notes": ""
+ },
+ "rayyan-472535628|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 exclusao 'ferramenta/framework sem conteudo de modelo de medicao' + 'EnPI/EnB incidental'. Busca em texto integral: sem ocorrencias de EnPI, energy performance indicator, energy baseline, normalizacao, consumo especifico ou qualquer procedimento de regressao."
+  },
+  "notes": ""
+ },
+ "rayyan-472535633|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "energy consumption per produced unit decreased from 14.60 to 13.45 kW/h",
+   "page": 6,
+   "rule": "§5.2: a clausula de exclusao so morde quando NAO ha 'qualquer conteudo de modelo de medicao'; um EnPI identificavel com a sua variavel normalizadora chega."
+  },
+  "notes": ""
+ },
+ "rayyan-472535638|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "LIST OF ENERGY PERFORMANCE INDICATORS [11]",
+   "page": 4,
+   "rule": "§5.2 alinea (a): denominadores (trabalhadores, area, quantidade produzida, valor, receita) identificam o que e medido/normalizado e as variaveis envolvidas."
+  },
+  "notes": ""
+ },
+ "rayyan-472535648|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 AMBITO DO EnPI ao nivel de organizacao/instalacao (regra adotada pelo revisor, 2026-08-25): os unicos indicadores caracterizados sao TERRITORIAIS — consumo final anual e emissoes divididos pela POPULACAO (MWh/capita, tCO2/capita) calculados para todo o territorio de tres cidades, mais o Baseline Emission Inventory do Covenant of Mayors. Nenhum EnPI normaliza o desempenho de uma organizacao ou instalacao. A dimensao organizacional existe (o municipio certifica um EnMS, nomeia gestor de energia, faz auditoria interna) mas nao esta ligada a nenhum indicador caracterizado."
+  },
+  "notes": ""
+ },
+ "rayyan-472535653|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 AMBITO DO EnPI ao nivel de organizacao/instalacao (regra adotada pelo revisor, 2026-08-25): o construto que funciona como referencia — ATPEC/TPEC — e consumo total projetado ao nivel de pais e do mundo, nao de uma organizacao. As percentagens de poupanca (5% no primeiro ano, 1%/ano de melhoria continua) sao pressupostos exogenos e nao quantidades medidas. O proprio paper declara que o desempenho ao nivel de instalacao se mede com 'organization-specific metrics' e nao caracteriza esses modelos."
+  },
+  "notes": ""
+ },
+ "rayyan-472535676|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The EEDI requires a minimum energy efficiency level (CO2 emissions) per capacity mile",
+   "page": 3,
+   "rule": "§5.2: EEDI apresentado com mensurando (CO2 por milha de capacidade), variaveis e baseline associada; nao e mencao incidental. Sem exclusao topical (logistica maritima e aerea de petroleo e gas offshore)."
+  },
+  "notes": ""
+ },
+ "rayyan-472535687|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 exclusao: framework de manutencao (estrategia PDCA centrada no desempenho para projetos DSM industriais) sem qualquer conteudo de modelo de medicao."
+  },
+  "notes": ""
+ },
+ "rayyan-472535711|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Different types of EnPI can be defined, ranging from simple energy consumption to a quantitative relationship (a simple ratio or a more complex engineering models) between the energy consumption and one or more energy drivers, which are those independent variables that can influence the energy efficiency",
+   "page": 5,
+   "rule": "§5.2: mensurando (consumo normalizado face a drivers) + (a) variaveis + (b) forma funcional, mais critica do mau desenho de EnPIs seguindo Goldstein et al."
+  },
+  "notes": ""
+ },
+ "rayyan-472535714|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Based on the presented there is need in terms of energy management to define a reference level as known as a condition, that takes into account all the specifications of the above and suggests a level of such data, which will be assessed against the newly acquired data from devices in the respective organizations administered by the observed local government.",
+   "page": 5,
+   "rule": "§5.2: propoe um EnB e caracteriza-o o suficiente para identificar o mensurando + (a) variaveis de influencia + (c) abordagem de construcao; propostas conceptuais nao ajustadas sao elegiveis."
+  },
+  "notes": ""
+ },
+ "rayyan-472535719|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 exclusoes 'EnPI/EnB incidental' e 'ferramenta/software sem qualquer conteudo de modelo de medicao'."
+  },
+  "notes": ""
+ },
+ "rayyan-472535767|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Based on the energy profile and baseline data gathered for almost one year, EnPIs for different departments would be established. EnPIs are a quantitative index of energy performance as defined by the organization.",
+   "page": 11,
+   "rule": "§5.2 limiar inclusivo + ROTA BORDERLINE: caracteriza mensurando e (c) abordagem de construcao, mas nunca especifica variaveis ou forma funcional, pelo que a caracterizacao genuina e discutivel."
+  },
+  "notes": ""
+ },
+ "rayyan-472535779|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 exclusao de ferramenta/software sem conteudo de modelo de medicao. Grep sobre o texto integral por 'baseline', 'indicator', 'EnPI', 'normalis/normaliz', 'kWh/m', 'benchmark', 'regression' e 'energy performance indicator': ZERO hits. ISO 50001 e EN 15232 citadas so como enquadramento de conformidade."
+  },
+  "notes": ""
+ },
+ "rayyan-472535995|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Establishment of an energy baseline: One interviewee highlighted the importance of establishing an energy baseline by gathering data on energy consumption and current energy needs.",
+   "page": 7,
+   "rule": "§5.2: mensurando + (c) abordagem de construcao; a clausula de propostas conceptuais nao ajustadas a dados mantem a elegibilidade."
+  },
+  "notes": ""
+ },
+ "rayyan-472536049|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "The Performance Metrics (PMs) are subset objectives used for measuring the energy performance of each case study building while the Key Performance Indicators (KPIs) are standardised whole-building analysis metrics used for comparing and benchmarking across case-study buildings",
+   "page": 5,
+   "rule": "§5.2: propoe e avalia um modelo de medicao de desempenho energetico com variaveis, forma funcional e abordagem de estimacao identificaveis; edificios nao-residenciais nao sao exclusao topical."
+  },
+  "notes": ""
+ },
+ "rayyan-472536352|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "In Eqs. (1) and (2), a general definition of the instantaneous and averaged efficiencies of a solar panel is presented.",
+   "page": 7,
+   "rule": "§5.2 clausula de revisoes que caracterizam os modelos que cobrem; (a), (b) e (c) todos cumpridos."
+  },
+  "notes": ""
+ },
+ "rayyan-472536372|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "solar fraction, which is the ratio of the thermal energy generated by the collector to the total",
+   "page": 4,
+   "rule": "§5.2: EnPI com mensurando, variaveis e forma funcional; EnB explicito. Sem exclusao topical (edificio industrial)."
+  },
+  "notes": ""
+ },
+ "rayyan-472536416|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "factor (NPTF) is calculated, which is defined as the ratio of non-production time and total",
+   "page": 6,
+   "rule": "§5.2: (b) e (c) identificaveis, logo a exclusao 'ferramenta sem qualquer conteudo de modelo' nao morde."
+  },
+  "notes": ""
+ },
+ "rayyan-472536444|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "the current energy costs are the baseline line scenario which",
+   "page": 3,
+   "rule": "§5.2 via alinea (c) — abordagem de construcao identificavel — mais a alegacao explicita do abstract de que o paper 'extracts energy baselines as a reference'."
+  },
+  "notes": ""
+ },
+ "rayyan-472536457|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "Based on these two inputs, performance tests are carried out within the tool to automatically and continuously compare actual building performance to expected performance baseline set by the simulations.",
+   "page": 9,
+   "rule": "§5.2: EnB caracterizado com (a) variaveis e (c) abordagem de construcao. A exclusao de ferramenta/software nao morde porque ha conteudo de modelo de medicao. Edificios nao-residenciais nao sao exclusao topical."
+  },
+  "notes": ""
+ },
+ "rayyan-472536460|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "In the global sensitivity analysis, based on the Scaled Morris Method, the total yearly load and maximum peak loads are proposed as performance indicators.",
+   "page": 4,
+   "rule": "§5.2: mensurando, (a) variaveis, (b) forma funcional e (c) construcao, todos presentes. Edificios comerciais nao sao exclusao topical."
+  },
+  "notes": ""
+ },
+ "rayyan-472536474|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "A novel performance indicator, namely annual grid independence",
+   "page": 8,
+   "rule": "§5.2: propoe explicitamente como novo um EnPI caracterizado (GIR_ann) com variaveis e forma funcional completas; propostas conceptuais e ausencia de validacao sao admitidas."
+  },
+  "notes": ""
+ },
+ "rayyan-472536479|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 'EnPI/EnB incidental'. Zero conteudo ISO 50001/50006, sem sistema de gestao de energia, sem normalizacao de consumo contra drivers operacionais."
+  },
+  "notes": ""
+ },
+ "rayyan-472536482|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "In accordance with literature, the main indexes to compare the energy performance are the solar cooling",
+   "page": 16,
+   "rule": "§5.2: indicadores explicitamente nomeados 'energy performance indicators', definidos por equacoes com variaveis, ao nivel de sistema e nao COP de dispositivo isolado, incluindo normalizacoes genuinas."
+  },
+  "notes": ""
+ },
+ "rayyan-472536534|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "An established EnPI",
+   "page": 1,
+   "rule": "§5.2: (a) conjunto de variaveis e (c) abordagem de construcao dados explicitamente; a exclusao 'ferramenta sem conteudo de modelo' nao morde porque o modelo de papeis de variaveis do EnPI e o conteudo substantivo."
+  },
+  "notes": ""
+ },
+ "rayyan-472536535|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "where Ea is the electric energy demand of the building in a month and Eb is the energy",
+   "page": 5,
+   "rule": "§5.2: a seccao 'Performance indexes' caracteriza indicadores com variaveis, forma funcional e construcao a partir de dados medidos. As logicas de despacho System Led / Market Led por si so NAO qualificariam."
+  },
+  "notes": ""
+ },
+ "rayyan-472536540|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "In literature, the Energy Utilization Factor (EUF [-]) and the Trigeneration Primary Energy Saving",
+   "page": 14,
+   "rule": "§5.2 LIMIAR LITERAL v2.3 (revertido apos verificacao adversarial): define eta_e, eta_h, eta_c, EUF e Trigeneration Primary Energy Saving TPES (Eq. 2) com variaveis e forma funcional explicitas, e a TPES compara o ciclo contra um sistema de referencia de producao separada definido por regulacao (eta_e,SS = 0,24; eta_h,SS = 0,8; EER_VC,SS = 3,4 pela regulacao italiana de cogeracao) — um construto de baseline de referencia. Propoe ainda um metodo de construcao proprio (Parallel Coordinate Plots + mapas de desempenho por indicador)."
+  },
+  "notes": ""
+ },
+ "rayyan-472536569|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "(i.e. four independent variables) are used in the baseline",
+   "page": 3,
+   "rule": "§5.2: EnB com as tres alineas — variaveis, forma funcional escrita duas vezes (Eq. 5 generica, Eq. 7 instanciada) e abordagem de estimacao descrita passo a passo com hiperparametros PSO tabelados. A exclusao topical so morde em foco exclusivamente residencial SEM conteudo de modelo."
+  },
+  "notes": ""
+ },
+ "rayyan-472536603|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 EXCLUSAO TOPICAL RESIDENCIAL (revertido apos verificacao adversarial): bomba de calor de aguas quentes sanitarias com perfis de tiragem 'designed to align with a typical residential house hot water demand profile' e conclusao 'a promising residential energy efficiency initiative ... per household'. A unica mencao industrial (p.1, que estas unidades seriam 'more suitable for large industrial and commercial applications') e contraste de fundo sobre tecnologia que o paper NAO estuda. Sem componente industrial."
+  },
+  "notes": ""
+ },
+ "rayyan-472536650|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "With this information, the specific energy consumption, energy performance indicators and operation time of each individual part can be calculated.",
+   "page": 5,
+   "rule": "§5.2: a §5.2 so exige mensurando + UMA das tres alineas; a alinea (c) esta claramente cumprida."
+  },
+  "notes": ""
+ },
+ "rayyan-472536713|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "An energy baseline was developed for Blue Plains, as shown in Figure 4. This baseline can be readily modified to incorporate ongoing improvements and then reflect the energy consumption breakdown between the various processes.",
+   "page": 12,
+   "rule": "§5.2 via alinea (c): mensurando identificado (consumo eletrico por area de servico e processo, ano-base FY2008) e abordagem de construcao enunciada (auditoria de 12 meses, modelo de processo, atualizavel). A exclusao 'EnB incidental' nao morde: a linha de base e entregavel nomeado, tem duas figuras dedicadas e enquadra toda a logica de identificacao de poupancas."
+  },
+  "notes": ""
+ },
+ "rayyan-472536732|eligibility.methodological_eligibility": {
+  "original_final": false,
+  "original_blind": false,
+  "evidence": {
+   "mode": "not_reported_after_full_text_review",
+   "quote": null,
+   "page": null,
+   "rule": "§5.2 EXCLUSAO TOPICAL — 'politica energetica governamental sem dimensao organizacional'. O foco exclusivo e uma decomposicao de indices ao nivel de cidade/economia (Pequim, 2000-2008) sobre agregados primario/secundario/terciario, enquadrada para politica ('providing decision support for carrying out relevant policies and measures'; seccao final 'CONCLUSION AND POLICY SUGGESTION' recomendando tarifas escalonadas). Nenhuma unidade de analise organizacional, de instalacao, fabrica ou empresa aparece: sem ISO 50001/50006, sem sistemas de gestao de energia, sem auditorias, sem EnPI/EnB ao nivel de empresa."
+  },
+  "notes": ""
+ },
+ "rayyan-472536752|eligibility.methodological_eligibility": {
+  "original_final": true,
+  "original_blind": true,
+  "evidence": {
+   "mode": "quoted",
+   "quote": "These indicators are simple ratios that relate either energy expenditure of energy quantities to the underlying factors that influence energy demand",
+   "page": 6,
+   "rule": "§5.2: mensurando (consumo e despesa energetica) + (a) variaveis (numero de estudantes, area) + (b) forma funcional (racios simples, kWh/m2). Universidade e contexto nao-residencial, julgado por conteudo metodologico."
+  },
+  "notes": ""
+ }
+}

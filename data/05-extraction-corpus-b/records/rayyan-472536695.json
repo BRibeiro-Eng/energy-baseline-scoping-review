@@ -1,0 +1,528 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536695",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 9,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "naphtha reforming plant (platforming unit)",
+        "evidence_quote": "This paper describes\nthe development of an energy management system for a naphtha reforming plant by the use of a data\nmining approach.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Spain",
+          "location",
+          "refinery location",
+          "country"
+        ]
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "lar, this research focuses on the platforming unit (PU). A process",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Platforming unit (PU) of a naphtha reforming plant, divisible into the reaction unit (RU) and the distillation unit (DU)",
+        "evidence_quote": "The unit might be\ndivided into the reaction unit (RU), where the catalytic reforming\nis carried out, and the distillation unit (DU).",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "The bottom product of the debencenizer and the top product of\ndebutanizer and depentanizer are stored up or sent to other units\nof the reﬁnery.",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "The regression model of SCPU",
+          "baseline_period_start": {
+            "value": "March 2008",
+            "evidence_quote": "potential inﬂu-\nence variables are selected and collected in an hourly\nfrequency from March 2008 to August 2009.",
+            "page": 7,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "August 2009",
+            "evidence_quote": "potential inﬂu-\nence variables are selected and collected in an hourly\nfrequency from March 2008 to August 2009.",
+            "page": 7,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Predictive EPI regression model of specific consumption on the discriminant function F1, used to set the energy baseline based on actual influence conditions",
+            "evidence_quote": "We propose the use of a predictive model to set a baseline based\non actual conditions to obtain reliable energy savings.",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Discriminant function F1 coefficients (Eq. 9)",
+            "R2 = 0.9029"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "we have chosen the speciﬁc consump-\ntions of platforming, reaction and distillation units (Eqs. (6)–(8))\nfor energy performance assessment.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "Fuel gas is consumed in the\nreactors and desbutanizer heater while steam is used in desbence-\nnizer and despentanizer boilers.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production volume",
+              "evidence_quote": "SCPU ¼ PU energy consumption\nPlatforming load\nkWh\nm3",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/m3",
+              "evidence_quote": "SCPU (kWh/m3)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "In the last step of the modeling phase, a regression model of EPI\nversus discriminant function is obtained.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fit"
+              ]
+            },
+            "variable_selection": {
+              "value": "other",
+              "evidence_quote": "a Discriminant Func-\ntion Analysis (DFA) technique is selected to extract key inﬂuence\nvariables (KIVs) from PIV",
+              "page": 6,
+              "support_class": "direct statement",
+              "other_verbatim": "Discriminant Function Analysis (DFA)"
+            },
+            "n_independent_variables": {
+              "value": 14,
+              "evidence_quote": "a total of 14 KIV are identiﬁed from\nthe 45 potential inﬂuence variables and the discriminant function\nmay be written as follows:",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": "SPSS Modeler Clementine",
+              "evidence_quote": "The software SPSS Modeler Clementine has been used as the basic\ntool for our data mining analysis.",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Input Stream to the Platforming unit",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Input Stream to the Platforming unit",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Delta T in PP_V5 reactor",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Delta T in PP_V5 reactor",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Ambient temperature",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Recycle gas density (P_PP_V8)",
+              "type": "feed quality",
+              "role": "predictor",
+              "evidence_quote": "Recycle gas density (P_PP_V8)",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Fuel gas consumption in heater PP_H3",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Fuel gas consumption in heater PP_H3",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "controllable fuel gas consumption in a heater"
+            },
+            {
+              "verbatim": "Platforming load",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "SCPU ¼ PU energy consumption\nPlatforming load\nkWh\nm3",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "potential inﬂu-\nence variables are selected and collected in an hourly\nfrequency from March 2008 to August 2009.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "hourly",
+              "evidence_quote": "showing hourly progress of current and\ntarget SCPU.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 18,
+              "evidence_quote": "collected in an hourly\nfrequency from March 2008 to August 2009.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 12149,
+              "evidence_quote": "the training set con-\ntains 12149 records, while the validation set contains the remain-\ning 9402 records.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "potential inﬂu-\nence variables are selected and collected in an hourly\nfrequency from March 2008 to August 2009.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Many variables are measured and collected in the PU.",
+              "page": 7,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "fuel gas"
+            },
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Many variables are measured and collected in the PU.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "recalibration",
+                "update model",
+                "refit"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid range",
+                "operating envelope",
+                "applicability",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The regression model of SCPU is presented in Fig. 4, showing a\nstrong correlation with F1 (R2 = 0.9029).",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.9029,
+                  "unit": null,
+                  "period_or_context": "SCPU regression on discriminant function F1 (training set)",
+                  "evidence_quote": "The regression model of SCPU is presented in Fig. 4, showing a\nstrong correlation with F1 (R2 = 0.9029).",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation error",
+                  "test set",
+                  "RMSE",
+                  "held-out metric"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "The whole sample is divided for analysis: the training set con-\ntains 12149 records, while the validation set contains the remain-\ning 9402 records. The ﬁrst is used to train the model, while the\nsecond is used to test its ﬁnal performance.",
+                "page": 7,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "clearly showing achieved energy\nsavings ranging from 4% to 7%, so energy consumption and en-\nergy cost can be approximately monthly reduced in 830 MWh\nand 37.500 € respectively",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "achieved energy savings",
+                  "value": "4% to 7%",
+                  "unit": "%",
+                  "period_or_context": "monthly, post-EMS period",
+                  "evidence_quote": "clearly showing achieved energy\nsavings ranging from 4% to 7%, so energy consumption and en-\nergy cost can be approximately monthly reduced in 830 MWh\nand 37.500 € respectively",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total potential energy savings",
+                  "value": "9.5",
+                  "unit": "GWh",
+                  "period_or_context": "post-EMS period",
+                  "evidence_quote": "We found that total potential energy sav-\nings during the post-EMS period were 9.5 GWh but only 2.82 GWh\nenergy savings have been achieved.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "achieved energy savings",
+                  "value": "2.82",
+                  "unit": "GWh",
+                  "period_or_context": "post-EMS period",
+                  "evidence_quote": "We found that total potential energy sav-\nings during the post-EMS period were 9.5 GWh but only 2.82 GWh\nenergy savings have been achieved.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "efficiency ratio",
+                  "value": "27% to 32%",
+                  "unit": "%",
+                  "period_or_context": "monthly, post-EMS period",
+                  "evidence_quote": "Monthly efﬁciency ratio grows from 27%\nto 32%, showing that the EMS is helping to improve plant energy\nefﬁciency through changes in controllable inﬂuence variables",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Availability of massive historical data (hourly measurements of 45 potential influence variables)"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "petroleum refining",
+        "evidence_quote": "Catalytic reforming of heavy naphtha is a key process in the\nproduction of gasoline.",
+        "page": 2,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "clearly showing that a constant baseline does not account\nfor the actual values of KIV, and highlighting the importance of\nadjusting the baseline to current operating conditions to accurately\ncalculate energy savings.",
+      "page": 8,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "In a ﬁrst step of processing phase, 120 outliers corresponding\nto the days where the plant had unusual operation were ﬁltered\nand deleted from the training sample.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "For operation improvements, which imply changes of controllable\nvariables to improve energy performance, baseline would be ad-\njusted to actual external inﬂuence conditions.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "F1 ¼ \u00020:388 \u0004 x\u0003\n8 \u0002 1:897 \u0004 x\u0003\n9 \u0002 0:057 \u0004 x\u0003\n42 þ 0:112 \u0004 x\u0003\n10",
+      "page": 7,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "þ 1:131 \u0004 x\u0003\n16 þ 1:160 \u0004 x\u0003\n17 þ 0:967 \u0004 x\u0003\n18 \u0002 0:378 \u0004 x\u0003\n19\nþ 0:486 \u0004 x\u0003\n25 þ 0:093 \u0004 x\u0003\n32",
+      "page": 7,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "supplementary",
+        "dataset",
+        "available"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "github",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper defines three specific-consumption EPIs (SCPU, SCRU, SCDU) and categorises all three (Table 4), and states two canonical discriminant functions are obtained per EPI. Only the SCPU regression model is presented in detail (F1 coefficients in Eq. 9, R2=0.9029), so a single model (M1) is recorded; SCRU and SCDU regression models are mentioned but no coefficients or fit metrics are reported for them. Note that 'Input Stream to the Platforming unit' (variable 9) functions both as a KIV predictor in the discriminant function and as the denominator (Platforming load) in the SEC definition; it is recorded once in each role. Energy vector for the dependent variable is 'multiple' because SCPU combines fuel gas and steam.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "baseline",
+        "drift",
+        "assumption",
+        "cannot",
+        "constant baseline"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "outlier",
+        "filter",
+        "adjust baseline",
+        "normalise",
+        "segment"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "further investigation",
+        "future work",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "cost",
+        "staff",
+        "maintenance",
+        "meter failure"
+      ]
+    }
+  },
+  "attempt": 1
+}

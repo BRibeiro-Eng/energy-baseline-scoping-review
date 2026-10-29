@@ -1,0 +1,502 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536551",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "leading-enpi-oilgas",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 16,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "national oil and gas company (Company X)",
+        "evidence_quote": "The above methodology of tracking the leading EnPI has \nbeen successfully implemented at one of the oil and gas \ncompanies referred to as Company X.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "country",
+          "Malaysia",
+          "Middle East",
+          "location",
+          "anonymous"
+        ]
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "Each division is made up of five or more facilities that \napply to EnMS.",
+        "page": 11,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Company X, an oil and gas company whose EnMS monitoring programme spans six divisions (gas treatment, oil/gas/water separation production, refinery and condensate splitters, transportation), each made up of five or more facilities.",
+        "evidence_quote": "The Company X’s \nmonitoring program involves six divisions, which are \nreferred to A, B, C, D, E and F.",
+        "page": 10,
+        "support_class": "requires inference"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+        "page": 11,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the proposed leading EnPI / customised leading energy performance indicator",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "start",
+              "dates"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "end",
+              "dates"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Baselines set from previous years'/historical data; targets set from industry best practice, expressed against ISO 50001 minimum requirements and defined implementation tasks.",
+            "evidence_quote": "Two assessments per year based on \nhistorical data",
+            "page": 10,
+            "support_class": "requires inference"
+          },
+          "model_parameters_reported": [
+            "Equal PDCA weight of 25% per element (Plan, Do, Check, Act) in early implementation stage"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "This paper presents a novel methodology that track and measures the overall energy performance \nin oil and gas companies based on the leading energy performance indicator (EnPI).",
+              "page": 1,
+              "support_class": "requires inference",
+              "other_verbatim": "leading energy performance indicator (EnPI) score — a weighted index of EnMS implementation status, not a measured energy quantity"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Although such \ntool does not directly measure an actual and reflect an as-is operational data of the companies’ \nenergy performance, it tracks the achievements in the key work processes or the implementation \nstatus of an Energy Management Systems (EnMS).",
+              "page": 1,
+              "support_class": "requires inference",
+              "other_verbatim": "no specific energy vector — the indicator tracks EnMS implementation status rather than measured energy"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "percentage (%) of compliance level score",
+              "evidence_quote": "Overall progress was 94% \ntoward meeting “compliance level” score.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "composite index"
+              ],
+              "evidence_quote": "The customised leading EnPI shall be based on an \nallocated weight for each of the major EnMS elements as per \nDeming quality cycle of Plan-Do-Check-Act (PDCA)",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "The selection of leading drivers \nis reliant upon definition of what is important to the \ncompany.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 4,
+              "evidence_quote": "the PDCA stage will be given \nan equal weight of 25%.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool",
+                "Excel",
+                "programming",
+                "computer"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Plan-Do-Check-Act (PDCA) elements",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "The customised leading EnPI shall be based on an \nallocated weight for each of the major EnMS elements as per \nDeming quality cycle of Plan-Do-Check-Act (PDCA)",
+              "page": 7,
+              "support_class": "requires inference",
+              "type_other_verbatim": "EnMS PDCA implementation element weighted into the composite index"
+            },
+            {
+              "verbatim": "Divisions A, B, C, D, E and F",
+              "type": "other",
+              "role": "segmentation",
+              "evidence_quote": "The Company X’s \nmonitoring program involves six divisions, which are \nreferred to A, B, C, D, E and F.",
+              "page": 10,
+              "support_class": "requires inference",
+              "type_other_verbatim": "organisational division / business line for which a separate score is produced"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "At a defined interval, each of the concerned \nfacility shall conduct a comprehensive self-assessment based \non customised questionnaires to gauge the progress of its \nEnMS implementation against appropriate targets as \ndefined by the corporate entity.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Figure 4 shows an actual data of leading EnPI score by six \ndivisions from the Company X against the minimum \nrequirement of ISO 50001.",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "duration",
+                "years of data"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "number of",
+                "sample size",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "each of the concerned \nfacility shall conduct a comprehensive self-assessment based \non customised questionnaires",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here",
+              "energy_vector_other_verbatim": "no energy vector metered — the model input is self-assessment questionnaire scores of EnMS implementation, not a measured energy quantity"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "However, as the program progress, the Do and Check will be \ngiven the highest weight. Once the program is matured, the \nAct stage will obtain the highest weight in order to ensure \ncontinuous improvement is fully embraced by the concerned \ndivisions.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "In this case, study, since this is an early stage of EnMS \nimplementation at Company-X, therefore all PDCA will be \ngiven equal weight.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "reallocation of PDCA weights as the programme progresses / matures",
+              "evidence_quote": "Once the program is matured, the \nAct stage will obtain the highest weight in order to ensure \ncontinuous improvement is fully embraced by the concerned \ndivisions.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds",
+                "applicable range",
+                "limits"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation",
+                  "hold-out",
+                  "test set"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy savings",
+                  "% saved",
+                  "reduction",
+                  "kWh",
+                  "GJ"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Self-assessment questionnaires completed by all concerned facilities with supporting evidence furnished",
+            "Data validation, analysis and gaps identification by the corporate entity"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "petroleum refining",
+        "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+        "page": 11,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Although such \ntool does not directly measure an actual and reflect an as-is operational data of the companies’ \nenergy performance, it tracks the achievements in the key work processes or the implementation \nstatus of an Energy Management Systems (EnMS).",
+      "page": 1,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "the indicator does not directly measure actual/as-is energy performance; it is a proxy for EnMS implementation status"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "In \naddition, dedicated computer programming models can be \ndeveloped if applicable to minimise the subjectivity of the \noutcome and for document control purposes.",
+      "page": 14,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "subjectivity of the self-assessment outcome underlying the indicator score"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "development of dedicated computer programming models to minimise subjectivity of the self-assessment outcome and for document control",
+      "status": "proposed",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "In \naddition, dedicated computer programming models can be \ndeveloped if applicable to minimise the subjectivity of the \noutcome and for document control purposes.",
+      "page": 14,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "Company-wide monitoring programme implementation is fraught with political and cultural challenges rather than technical ones",
+      "evidence_quote": "Although the proposed concept is simple, the actual \nimplementation of a company-wide monitoring program is \nusually fraught with challenges, many of which are often \npolitical and cultural rather than technical (Kumana and \nSidhwa, 2009).",
+      "page": 2,
+      "searched_terms": [
+        "barrier",
+        "challenge",
+        "cultural",
+        "political",
+        "resource"
+      ]
+    },
+    {
+      "barrier": "Oil and gas companies lack strategic development and execution on EnPI monitoring, corrective and preventive action, and continuous improvement",
+      "evidence_quote": "the concerned oil and gas \ncompanies are lacked strategic development and execution \non EnPI monitoring, corrective and preventive action, and \ncontinuous improvement efforts",
+      "page": 3,
+      "searched_terms": [
+        "barrier",
+        "lack",
+        "execution",
+        "continuous improvement"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "equation",
+        "formula",
+        "Eq."
+      ]
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "during the early stage of EnMS implementation, \nthe PDCA stage will be given an equal weight of 25%.",
+      "page": 11,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository",
+        "raw data"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software available",
+        "GitHub",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper proposes a 'leading EnPI' — a weighted composite index of EnMS (PDCA) implementation status, self-assessed via questionnaires. It explicitly does not measure actual energy consumption/performance, so several C-schema fields (energy vector, denominator, C5 measurement, C8 fit/validation) are meaningless or absent and coded accordingly. The case study at 'Company X' (an integrated oil and gas company including gas treatment, production separation, a refinery/condensate-splitter division, and transportation) reported an overall 94% score toward 'compliance level'; this is the model's headline output but is an implementation-progress score, not an energy result, so it is not recorded under C8.energy_result. Sector coded 'petroleum refining' by inference from the refinery division (Division D); the company is actually integrated upstream/midstream/downstream oil & gas. Estimation is a weighted scoring scheme, not statistical estimation.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "subjective",
+        "does not measure",
+        "assumption",
+        "drift"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "programming",
+        "improve",
+        "future work",
+        "computer models",
+        "adjust weight"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "anonymous",
+        "single company",
+        "further research",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "challenge",
+        "political",
+        "cultural",
+        "resource",
+        "lack"
+      ]
+    }
+  },
+  "attempt": 7
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535356",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "energy accounting of WWTPs, identification of energy intensive processes and equipment",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Two WWTPs, Molina de Segura and Alcantarilla are selected for this study",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Energy is a critical input for wastewater treatment plants (WWTPs)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline: does energy performance measurement under ISO 50001 (equipment energy accounting, pump/blower efficiency, SEC kWh/m3) but core aim is decarbonisation feasibility. WWTP is 24/7 continuous-flow yet not in the closed Level-3B sector list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Two WWTPs, Molina de Segura and Alcantarilla are selected for this study",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Region of Murcia, Spain",
+      "evidence_quote": "In the Region of Murcia, Spain",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "wastewater treatment plants",
+      "evidence_quote": "Energy is a critical input for wastewater treatment plants (WWTPs)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "both operate at full capacity year-around",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "In line with ISO 50001 (ISO, 2018)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "the electricity consumption of individual equipment was estimated using Eq",
+        "specific energy consumption per unit volume of treated water"
+      ],
+      "page": [
+        5,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

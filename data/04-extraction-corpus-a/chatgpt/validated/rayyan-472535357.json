@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535357",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:05:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "A conceptual model was developed for conducting audits, analyzing the electricity consumption of equipment, using the multicriteria method Promethee-ROC to rank recommendations from the IAC - Industrial Assessment Centers database, proposing performance indicators, and finally, analyzing the performance of the proposed model and its applicability.",
+        "Energy consumption per production CEP = Energy consumption in the period / production in the period"
+      ],
+      "page": [
+        1,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study was conducted in a small plastic injection company, where the model was tested and refined.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Company T is a manufacturer of plastic caps for packaging solvents, food, lubricants, mineral water, wine, cleaning and hygiene products.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Eligible because it proposes explicit energy performance indicators. Level 3B is false because plastic injection is discrete manufacturing and outside the closed sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This research was conducted in a plastic injection company in Curitiba, Paraná, which was named Company T.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Curitiba, Paraná",
+      "evidence_quote": "This research was conducted in a plastic injection company in Curitiba, Paraná, which was named Company T.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "plastic injection",
+      "evidence_quote": "This research was conducted in a plastic injection company in Curitiba, Paraná, which was named Company T.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Company T is a manufacturer of plastic caps for packaging solvents, food, lubricants, mineral water, wine, cleaning and hygiene products.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "tips for implementing an energy management system based on ISO 50001.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Energy consumption per Production (kWh/units) CEP = Energy consumption in the period/ production in the period CEP = 11.8982 kWh/unit",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "the Promethee-ROC multicriteria decision-making support method was applied to rank the recommendations that best fit the studied context.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

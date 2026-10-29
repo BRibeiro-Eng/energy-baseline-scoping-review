@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535531",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:16:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper presents a novel methodology that considers the recommendations of ISO 50001: 2011 and ISO 50006: 2014 for establishing energy baselines and energy performance indicators in higher education",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "As part of an extensive case study of the campus of the Federal University of Itajubá",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "higher education institution buildings",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "HEI campus buildings (UNIFEI, Brazil); EnB/EnPI built via linear regression on a composite areas-used-per-days indicator per ISO 50001/50006. Buildings context, not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study was implemented in three buildings at the Federal University of Itajubá",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Itajubá, Minas Gerais, Brazil",
+      "evidence_quote": [
+        "city of Itajubá",
+        "southeast region of Brazil"
+      ],
+      "page": [
+        10,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "higher education institution buildings",
+      "evidence_quote": "higher education institution buildings",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "University campuses represent specific groups of diverse buildings",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50001: 2011 and ISO 50006: 2014 for establishing energy baselines and energy performance indicators",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "composite index"
+      ],
+      "evidence_quote": [
+        "implementing statistical analysis using the linear regression method",
+        "does not depend on a single factor and it is necessary to incorporate as many"
+      ],
+      "page": [
+        9,
+        25
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    }
+  },
+  "stage3": null
+}

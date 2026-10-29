@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535618",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:42:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "La pertinencia de Índice de Consumo se evaluó a través de un análisis de correlación entre el consumo mensual de fuel-oíl y la cantidad de lencería procesada en los años 2012 y 2013, el coeficiente de correlación (R2) fue de 0,86",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "La lavandería Unicornio se encuentra instalada en la ciudad de Cienfuegos, Cuba y es la encargada de lavar la lencería de 6 Hoteles de turismo internacional de la provincia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Energy planning for fuel oil saving in an industrial laundry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Indice de consumo (L/kg) as EnPI; energy baseline from consumption-vs-production correlation. Sector is an industrial laundry serving hotels (a service), not a continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "La lavandería Unicornio se encuentra instalada en la ciudad de Cienfuegos, Cuba",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Cienfuegos, Cuba",
+      "evidence_quote": "la ciudad de Cienfuegos, Cuba",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "industrial laundry",
+      "evidence_quote": "in an industrial laundry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "algunos servicios como: lavandería",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "compatible con la norma ISO 50001",
+        "Los Estados Unidos con la norma ANSI/MSE 2000:2008"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "El Ministerio del turismo en Cuba (MINTUR) establece como indicador los litros de combustible consumido entre los kilogramos de lencería procesada (L/kg), para el mismo establece como valor máximo 0,23 L/kg de lencería procesada",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "análisis de correlación entre el consumo mensual de fuel-oíl y la cantidad de lencería procesada en los años 2012 y 2013, el coeficiente de correlación (R2) fue de 0,86",
+        "los litros de combustible consumido entre los kilogramos de lencería procesada (L/kg)"
+      ],
+      "page": [
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472536467",
+ "tier": "A",
+ "ts": "2026-09-11T11:47:10",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 16.8,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "nao continuo"
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536720",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T23:16:11+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents a review on the predictive maintenance approaches, methods and tools in manufacturing systems and proposes an integrated predictive maintenance platform. This platform consists of three pillars, namely data acquisition and analysis, knowledge management, and a sustainability maintenance dashboard. The first pillar is responsible for data extraction and processing, the second one focuses on the maintenance knowledge modeling and representation and the third pillar provides advisory capabilities on maintenance planning with special emphasis given to environmental and energy performance indicators.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Tool/platform proposal; energy performance indicators are only dashboard outputs and no EnPI/EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The current approach envisions the development of a platform that would be supporting designing systems for reliability, fault detection, degradation capturing, maintenance activities planning, and visualization of complex data and information.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper discusses energy performance indicators only as dashboard content; it does not identify or characterise an EnPI/EnB measurement model."
+  },
+  "stage2": null,
+  "stage3": null
+}

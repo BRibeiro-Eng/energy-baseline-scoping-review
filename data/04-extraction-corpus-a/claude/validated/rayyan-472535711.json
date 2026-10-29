@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535711",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:01:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper aims to fill this gap, providing a state of art of ISO 50001 certifications in Italy and reporting \nthe results of a survey about the certified organizations in the national territory",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Questionnaire survey of ISO 50001 EnMS implementation status in Italy (background motivations, which ISO 50001 requirements companies/consultants find hardest, most-disregarded elements, and energy savings achieved). EnPIs and the energy baseline are discussed only as ISO 50001 requirements and via a generic, reference-attributed definition of EnPI types; the paper presents, proposes, evaluates or critiques no specific EnPI/EnB measurement model that could be identified and characterised (no model variables, functional form, or construction/estimation approach given). Incidental mention -> ineligible under v2.3.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The work presented in this paper summarizes the results of a survey that aimed to collect and review the \nknow-hows and experiences",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Survey of ISO 50001 EnMS adoption in Italy (motivations, requirement difficulty, savings). EnPIs/baseline appear only as ISO requirements; no specific EnPI/EnB model characterised (ineligible)."
+  },
+  "stage2": null,
+  "stage3": null
+}

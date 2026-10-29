@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535513",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T17:30:28+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The aim of the \nwork is to develop a concept and model for integrated \ncontrol of the electrical processes of an enterprise in an \nenergy management system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": "Proposes energy-management decision-support models (a scene-target simulation model of electrotechnical equipment and a fuzzy cognitive map for scenario forecasting of effectiveness/energy efficiency/equipment use), not an EnPI or EnB measurement model. No energy performance indicator or energy baseline is constructed or characterised (no defining variables, functional form, or estimation approach for an indicator/baseline); the 'energy efficiency indicator' appears only as an uncharacterised element of the ISO 50001 planning scheme in Fig. 1. Fuzzy cognitive mapping is a decision-support methodology, not an EnPI/EnB model type.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "by the example of the experimental data from a reputable sugar-beet enterprise",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: fuzzy cognitive map 'for predicting energy consumption' could read as eligible under broad v2.3, but is decision-support, not an EnPI/EnB model. Sugar-beet/food sector is continuous-flow yet off the closed 3B list."
+  },
+  "stage2": null,
+  "stage3": null
+}

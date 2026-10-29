@@ -1,0 +1,55 @@
+{
+  "key": "rayyan-472536713",
+  "committed_at": "2026-09-01T14:45:59",
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "reviewer_notes": "",
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "An energy baseline was developed for Blue Plains, as shown in Figure 4. This baseline can be readily modified to incorporate ongoing improvements and then reflect the energy consumption breakdown between the various processes.",
+      "page": 12,
+      "rule": "§5.2 via alinea (c): mensurando identificado (consumo eletrico por area de servico e processo, ano-base FY2008) e abordagem de construcao enunciada (auditoria de 12 meses, modelo de processo, atualizavel). A exclusao 'EnB incidental' nao morde: a linha de base e entregavel nomeado, tem duas figuras dedicadas e enquadra toda a logica de identificacao de poupancas."
+    }
+  },
+  "review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "_done": false
+}

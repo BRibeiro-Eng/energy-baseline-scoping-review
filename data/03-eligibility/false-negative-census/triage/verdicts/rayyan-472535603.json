@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535603",
+ "tier": "B",
+ "ts": "2026-09-11T12:10:50",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 8.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "avaliação de bombas"
+}

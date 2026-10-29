@@ -1,0 +1,282 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535585",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:09:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "“Total energy per cement produced” is a critical indicator",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "validation of the developed methodology will thus be done by implementing the solution on a",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "case study plant in South Africa.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "cement plant",
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "We propose the use of an ISO 50001 based system focussing on the management of",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "“Total energy per cement produced” is a critical indicator",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "cement produced"
+      ],
+      "evidence_quote": "“Total energy per cement produced” is a critical indicator",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "Initial performance targets were based on three months of historical performance and benchmarked values from literature.",
+      "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "validation of the developed methodology will thus be done by implementing the solution on a",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "reporting that provides feedback on the electrical energy performance of the entire plant",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "the electrical energy performance of the entire plant",
+      "evidence_quote": "the electrical energy performance of the entire plant",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": [
+        "An important shortcoming of this research",
+        "on all energy sources."
+      ],
+      "page": [
+        27,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "An important shortcoming of this research",
+        "on all energy sources."
+      ],
+      "page": [
+        27,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "monitor coal consumption have to be installed. Coal moisture content and energy values",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": [
+        "it will also be beneficial to modify the framework for",
+        "coal energy management"
+      ],
+      "page": [
+        27,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "it will also be beneficial to modify the framework for",
+        "coal energy management"
+      ],
+      "page": [
+        27,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "The novelty of the achieved result is seen in adapting ISO 50001 to a step-by-step approach",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "reports were generated on a weekly and monthly basis for a total period of 14-months",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "25",
+          "unit": "%",
+          "period_or_context": "electrical energy cost per cement produced over the implementation period",
+          "evidence_quote": "per tonne reduced by 25% (8.61 ZAR/tonne).",
+          "page": 25,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "per tonne reduced by 25% (8.61 ZAR/tonne).",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "capital and technological constraints"
+      ],
+      "evidence_quote": "the capital and technological constraints",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  }
+}

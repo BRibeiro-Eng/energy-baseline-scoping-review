@@ -1,0 +1,76 @@
+{
+  "key": "rayyan-472535855",
+  "listed_sector_signals": [
+    {
+      "signal": "Cited case study of ISO 50001 applied to a cement manufacturing plant (cement production)",
+      "quote": "Pelser et al. (2018) examined ISOEnMS’s impact on the energy performance of a cement manufacturing firm in South Africa.",
+      "page": 3,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference to prior ISO 50001 study on large steel enterprises (primary-metals continuous production)",
+      "quote": "their study focused exclusively on large steel enterprises. Specifically, they examined data from 54 large steel firms obtained from the China Iron and Steel Industry Association.",
+      "page": 3,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Sample distribution highlights energy-intensive continuous-production sectors among the most-certified firms",
+      "quote": "the sectors with the most certified firms—non-metallic mineral products, ferrous metal smelting and rolling, and chemical raw materials and products—are precisely those with substantial energy use.",
+      "page": 8,
+      "sector": "steel / cement / petrochemicals"
+    },
+    {
+      "signal": "Industry distribution table lists petroleum processing firms in the sample",
+      "quote": "Petroleum processing, coking and nuclear fuel processing\n36",
+      "page": 17,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Industry distribution table lists chemical raw materials firms in the sample",
+      "quote": "Chemical raw materials and chemical products\n124",
+      "page": 17,
+      "sector": "petrochemicals / continuous chemical production"
+    },
+    {
+      "signal": "Industry distribution table lists pulp & paper firms in the sample",
+      "quote": "Paper and paper products\n19",
+      "page": 17,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Industry distribution table lists non-metallic mineral products (cement/glass/lime) firms in the sample",
+      "quote": "Non-metallic mineral products\n273",
+      "page": 17,
+      "sector": "cement / glass"
+    },
+    {
+      "signal": "Industry distribution table lists ferrous metal smelting and rolling (steel) firms in the sample",
+      "quote": "Ferrous metal smelting and rolling processing\n139",
+      "page": 17,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cited reference applying ISO 50001 to thermal power plants",
+      "quote": "ISO 50001 data driven methods for energy efficiency analysis of thermal power plants.",
+      "page": 18,
+      "sector": "thermal power plants / power generation"
+    },
+    {
+      "signal": "Cited case study of ISO 50001 in a copper manufacturer (non-ferrous metal smelting)",
+      "quote": "Mohamad et al. (2014)\nA Malaysian Copper manufacturer",
+      "page": 4,
+      "sector": "non-ferrous primary metals (copper)"
+    },
+    {
+      "signal": "Industry distribution table lists non-ferrous metal smelting and rolling firms",
+      "quote": "Non-ferrous metal smelting and rolling processing\n37",
+      "page": 17,
+      "sector": "non-ferrous primary metals"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "An econometric (PSM-DID) study of how ISO 50001 energy management certification affects energy intensity across Chinese manufacturing firms broadly (2007–2016 tax survey data); continuous-flow sectors appear only as pooled sample industries or cited case studies, not as the paper's specific application context."
+}

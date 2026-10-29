@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472536454",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to prior work on the Swedish pulp and paper industry for EnPI boundary levels — cited only, not the study's application context",
+      "quote": "The same boundary levels are adopted in the study by Andersson and Thollander on the Swedish pulp and paper industry [30]",
+      "page": 3,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Bibliographic reference to a pulp and paper KPI study",
+      "quote": "Andersson E, Thollander P. Key performance indicators for energy management in the Swedish pulp and paper industry. Energy Strategy Rev 2019;24:229–35.",
+      "page": 17,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cited method developed for continuous production processes (EnPI aggregation), used conceptually here; not the paper's own setting",
+      "quote": "A recent study by Beisheim et al. [33] proposes a method that \nutilizes local EnPIs and an Energy Baseline (EnB) from the process level \nto the evaluation of a company or site.",
+      "page": 3,
+      "sector": "generic continuous production (cited reference)"
+    },
+    {
+      "signal": "Bibliographic reference explicitly naming continuous production processes",
+      "quote": "Beisheim B, Kr¨amer S, Engell S. Hierarchical aggregation of energy performance \nindicators in continuous production processes. Appl Energy 2020;264:114709.",
+      "page": 16,
+      "sector": "generic continuous production (cited reference)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and applies an energy end-use taxonomy, performance indicators, and a planning framework to the Swedish food industry (meat, beer, biscuit, dairy, fruit/vegetable, sauces, flour, pasta), which is batch/discrete food processing; Corpus-B sectors (pulp & paper, continuous production) appear only as cited references."
+}

@@ -1,0 +1,70 @@
+{
+  "key": "rayyan-472535632",
+  "listed_sector_signals": [
+    {
+      "signal": "Non-metallic mineral products sector surveyed includes glass manufacture (questionnaire sector option)",
+      "quote": "Manufacture of glass and glass products",
+      "page": 40,
+      "sector": "glass (continuous melting, float lines)"
+    },
+    {
+      "signal": "Non-metallic mineral products sector surveyed includes cement/lime manufacture (questionnaire sector option)",
+      "quote": "Manufacture of cement, lime and plaster",
+      "page": 40,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Steel industry cited in literature on energy efficiency and CO2 emissions",
+      "quote": "energy efficiency and CO2 emissions in the steel",
+      "page": 3,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Petrochemical industry cited in literature on energy-saving potential",
+      "quote": "potential in the petrochemical industry",
+      "page": 4,
+      "sector": "petrochemicals (organic chemistry, polymers, olefins)"
+    },
+    {
+      "signal": "Cement industry cited in literature review on energy efficiency",
+      "quote": "a review of energy efficiency in the cement industry",
+      "page": 4,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Coke and refined petroleum products listed among Serbian manufacturing CO2 emitters",
+      "quote": "Manufacture of coke and refined petroleum products",
+      "page": 6,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Paper and paper products listed among Serbian manufacturing CO2 emitters",
+      "quote": "Manufacture of paper and paper products",
+      "page": 6,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Basic metals listed among Serbian manufacturing CO2 emitters",
+      "quote": "Manufacture of basic metals",
+      "page": 6,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cogeneration plants mentioned as an improvement installed in participating dairy plants",
+      "quote": "Cogeneration plants are installed in dairies.",
+      "page": 25,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Sugar production plant with own power plant producing electricity and steam for manufacturing",
+      "quote": "its own power plant to produce the electricity and steam needed in the manufacturing process.",
+      "page": 17,
+      "sector": "sugar processing / cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A questionnaire-based survey of 52 Serbian manufacturing organizations (food processing and non-metallic mineral products) assessing ISO 50001 energy-management implementation via the PDCA cycle; continuous-flow sectors (steel, cement, petroleum, paper, glass) appear only in literature, emission tables, or as questionnaire sector options."
+}

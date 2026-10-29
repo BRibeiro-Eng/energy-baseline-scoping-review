@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472535346",
+ "tier": "A",
+ "ts": "2026-09-10T18:52:55",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "ammonia",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 74.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "nao continuo"
+}

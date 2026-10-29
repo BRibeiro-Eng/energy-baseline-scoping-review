@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536479",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:26:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "To estimate the main benefits of using CWS and CWSP, a method of calculating the relative environmental, economic, and energy performance indicators was used [42]. It enabled us to determine the composite integral indicators accounting for the main environmental (gaseous substance concentrations), economic (fuel cost) and energy (heat of combustion) performance indicators, which were presented in two variations.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "Laboratory experiments with such slurry fuels have been conducted.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this research, the problem of wide application of composite fuels in heat and power industry has been addressed in a comprehensive way, with experiments for a large group of industrial waste components, accumulated in the Extreme North, the Arctic and Antarctic.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Laboratory fuel-performance indicator study; no empirical application in a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Laboratory experiments with such slurry fuels have been conducted.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Laboratory experiments with such slurry fuels have been conducted.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "sector_of_activity": {
+      "value": "heat and power industry",
+      "evidence_quote": "In this research, the problem of wide application of composite fuels in heat and power industry has been addressed in a comprehensive way, with experiments for a large group of industrial waste components, accumulated in the Extreme North, the Arctic and Antarctic.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "The purpose of this research is to experimentally study the combustion of composite slurries from industrial waste, accumulated in abandoned industrial regions, especially the Arctic and the Extreme North.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The second variation calculates the ratio of energy yield (MJ) per fuel cost ($) and emission concentrations (ppm).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "In these cases, multiple-criteria decision-making (MCDM) is often the method of choice [43].",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

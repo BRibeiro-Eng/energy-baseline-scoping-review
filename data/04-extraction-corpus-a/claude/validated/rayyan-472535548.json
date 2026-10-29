@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535548",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:43:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "IEB is a process-oriented energy performance indicator to be used as a tool for assessing and benchmarking energy performance",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "we apply the proposed indicator on 2 central sterile service departments CSSD of 2 university hospitals in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "we apply the proposed indicator on 2 central sterile service departments CSSD of 2 university hospitals in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Proposes IEB composite indicator; demoed on 2 hospital CSSDs (Morocco). paper_type borderline methodological vs multi-case. Sector healthcare/services, not continuous process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "university hospital of Marrakech city and Mohammed VI university hospital (673 beds) of Oujda city; both in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Marrakech and Oujda, Morocco",
+      "evidence_quote": "Marrakech city and Mohammed VI university hospital (673 beds) of Oujda city; both in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "university hospitals",
+      "evidence_quote": "2 university hospitals in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "2 central sterile service departments CSSD of 2 university hospitals in Morocco",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "such as EN 16231:2012 and ISO 50001:2018",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "composite index",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The proposed aggregation of processes indicators to system-level indicator is a weighted arithmetic mean",
+        "Specific energy consumption Ei(kWh)/S(beds)"
+      ],
+      "page": [
+        6,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

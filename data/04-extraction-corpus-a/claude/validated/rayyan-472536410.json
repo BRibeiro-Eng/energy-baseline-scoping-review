@@ -1,0 +1,311 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536410",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T20:49:53.936072+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "SEC is used as the energy performance indicator (EnPI) in the pulp and paper industry of Vietnam. SEC of product/process is calculated as the rate of total input energy (electricity and thermal) and the corresponding equivalent total production output",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The sector survey was carried out with a target of 136 pulp and paper enterprises among 308 pulp and paper enterprises in the whole industry",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "I focused on benchmarking energy consumption and estimating the energy saving potential of the pulp and paper industry of Vietnam. I relied on the survey data of the pulp and paper industry of Vietnam during 2015",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "SEC-based energy benchmark of Vietnam's pulp & paper industry (survey/audit of ~37 factories across 3 sub-sectors). Pulp & paper is on the closed continuous-process list and the model is empirically applied => level_3b=true. paper_type coded 'multi-case study' but is essentially a national sector benchmarking survey ('other' defensible)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The sector survey was carried out with a target of 136 pulp and paper enterprises among 308 pulp and paper enterprises in the whole industry",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Vietnam",
+      "evidence_quote": "the pulp and paper industry of Vietnam",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "pulp and paper industry",
+      "evidence_quote": "the pulp and paper industry of Vietnam",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the pulp and paper industry of Vietnam",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "the VNEEP program concentrated on the reduction of energy consumption through energy audits",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "In general, the average SEC of each scale group was used as the benchmark SEC value for this group",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production output (equivalent production, tons)",
+        "pulp type",
+        "product type/family"
+      ],
+      "evidence_quote": [
+        "SEC of product/process is calculated as the rate of total input energy (electricity and thermal) and the corresponding equivalent total production output",
+        "Energy consumption of papermaking processes may vary by different pulps and different products and requires normalization"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "baseline_period_start": {
+      "value": "2014",
+      "evidence_quote": "specific energy consumption (final SEC) of each factory in the year 2014",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "baseline_period_end": {
+      "value": "2014",
+      "evidence_quote": "specific energy consumption (final SEC) of each factory in the year 2014",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "baseline_construction_method": {
+      "value": "SEC computed as the ratio of total input energy (electricity + thermal, converted to MJ) to equivalent total production output for each surveyed factory; the average SEC of each product family and production-scale group (small/medium/large) is taken as the benchmark, from energy survey and audit data (survey conducted 2015-2016; SEC values reported for 2014).",
+      "evidence_quote": "The calculation of SEC is based on the separation of data for the corresponding product/process and then deciding SEC as the rate between total energy consumption and total production output of the corresponding product in a specific period, for example, one year",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "the results of this study are comparable with the results of Laurijssen, Faaij [20] for several paper products such as tissue paper (SEC = 14.7 GJ/ton)",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "SEC value for a pulp and paper factory is given below",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "scope_description": {
+      "value": "The benchmarking boundary is each factory's area of production (production line, utility and waste facilities) of pulp and paper factories, benchmarked across three sub-sectors (packaging, tissue, printing & writing) and three production-scale groups.",
+      "evidence_quote": "The benchmarking area is the area of production (production line, utility and waste facilities)",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "doing the energy benchmark that takes into account the quality of pulp and paper is quite limited",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": [
+        "feedstock variability",
+        "other"
+      ],
+      "evidence_quote": [
+        "the discrimination in energy consumption of DIP and non-DIP processes among the factories in Vietnam cannot be considered",
+        "I cannot get data from all factories in the industries and the number of audit factories can be increased to enhance the quality of results"
+      ],
+      "page": [
+        11,
+        17
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.45
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The variation due to different pulp properties could be normalized by converting it into one main pulp",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "it was finalized to carry out benchmarking per range of production scale for each sub-sector",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "adaptation_types": {
+      "value": [
+        "segmented baseline",
+        "other"
+      ],
+      "evidence_quote": [
+        "it was finalized to carry out benchmarking per range of production scale for each sub-sector",
+        "The variation due to different pulp properties could be normalized by converting it into one main pulp"
+      ],
+      "page": [
+        7,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.4
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "model_parameters_reported": {
+      "value": [
+        "equivalent-production conversion factors 1.31 and 1.48 (packaging paper)",
+        "equivalent-production conversion factors 1.33 and 1.11 (tissue paper)"
+      ],
+      "evidence_quote": [
+        "The conversion factor 1.31 and 1.48 for different types of packaging products",
+        "The factors 1.33 and 1.11 are obtained from audits"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.45
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "19.5",
+          "unit": "%",
+          "period_or_context": "packaging paper sub-sector, Scenario 1 (moving the average baseline)",
+          "evidence_quote": "The energy saving potential, in this case, was estimated at 19.5%",
+          "page": 14
+        },
+        {
+          "metric": "% energy savings",
+          "value": "11.6",
+          "unit": "%",
+          "period_or_context": "tissue paper sub-sector, Scenario 1 (moving the average baseline)",
+          "evidence_quote": "The energy saving potential, in this case, was estimated at 11.6%",
+          "page": 15
+        },
+        {
+          "metric": "% energy savings",
+          "value": "20",
+          "unit": "%",
+          "period_or_context": "printing and writing paper sub-sector, Scenario 1 (moving the average baseline)",
+          "evidence_quote": "The energy saving potential, in this case, was estimated at 20%",
+          "page": 15
+        }
+      ],
+      "evidence_quote": "The energy saving potential, in this case, was estimated at 19.5%",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "implementation_barriers": {
+      "value": [
+        "low interest of the enterprises (limited survey participation)",
+        "small factories have less modern machinery with inadequate maintenance"
+      ],
+      "evidence_quote": [
+        "the low interest of the enterprises",
+        "small factories have less modern machinery with inadequate maintenance"
+      ],
+      "page": [
+        7,
+        15
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.4
+    }
+  }
+}

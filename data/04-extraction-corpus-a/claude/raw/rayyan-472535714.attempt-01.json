@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535714",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:00:50Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "there is proposed management process according to ISO 50001 connected with the dynamic activities and systems that are affected specifically by the environment and focus of the management groups",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.74
+    },
+    "ineligibility_reason": "Public-sector/local-government energy management framework proposal per ISO 50001; energy performance is treated only organisationally. No EnPI or EnB model is identified or characterised (no normalisation variables, functional form, or construction/estimation approach); the 'reference level' concept is invoked conceptually only.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The monitored local territory has area 8,974 km2, in which are 126 schools and school facilities, 27 social facilities and 28 cultural facilities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Crux Tier-1 call is eligibility: a 'reference level'/'reference value' (EnB-like) is invoked (pp.1,5,7) but never characterised (no variables/functional form/construction method), so it fails the v2.3 identify-and-characterise bar; deliverable is a qualitative public-sector management framework. paper_type coded as single-organisation study of one local government (framework/theoretical is the alternative)."
+  },
+  "stage2": null,
+  "stage3": null
+}

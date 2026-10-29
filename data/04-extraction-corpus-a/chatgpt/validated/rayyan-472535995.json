@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535995",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:08:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Establishment of an energy baseline: One interviewee highlighted the importance of establishing an energy baseline by gathering data on energy consumption and current energy needs. This baseline would serve as a starting point for the evaluation of the improvement in energy performance of the port as a result of implementing its energy plan.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The method of collecting primary data for this study is through the use of structured interviews conducted with two leading North-European port authorities",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "structured interviews conducted with two leading North-European port authorities",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The proposed energy baseline is minimally characterised by its variables and construction approach; port authorities are outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "structured interviews conducted with two leading North-European port authorities",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Northern Europe",
+      "evidence_quote": "the speciﬁc port authorities are located in Northern Europe",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "port sector",
+      "evidence_quote": "such a system in the port sector",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "Both ports are municipality-owned and represent the main national ports of the countries where they are located, oﬀering services to a large variety of marine traﬃc",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The ISO 50001 energy management standard is a recognized international standard that applies to various industrial segments and provides organizations with a structured framework for the improvement of the energy performance of their operations",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Establishment of an energy baseline: One interviewee highlighted the importance of establishing an energy baseline by gathering data on energy consumption and current energy needs.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.79
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

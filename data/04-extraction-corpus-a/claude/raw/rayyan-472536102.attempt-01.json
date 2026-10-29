@@ -1,0 +1,107 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536102",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T13:05:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The base consumption index is constructed from the linear equation of the correlation of the data of processed sugarcane quantity [tons] and energy consumption [kWh]",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "One of the selected companies was Ingenio del Cauca (Incauca S.A.) where energy management was implemented as part of the PEVI program.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The energy study was applied to obtaining sugar and its derivatives at Ingenio del Cauca S.A.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Sector is sugarcane sugar milling (Ingenio del Cauca, Colombia); not in the closed v2.3 continuous-process list, so level_3b=false, though it is continuous-flow. Flag for human FN-census review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This mill, where this procedure was implemented, participated in the Industrial Evaluation Program (PEVI) and is located north of the department of Cauca, Colombia.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Cauca, Colombia",
+      "evidence_quote": "is located north of the department of Cauca, Colombia",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "sugar mill",
+      "evidence_quote": "in the factory area of the sugar mill",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the average milling rate of 30.39 tons of cane per hour (TCH)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50002"],
+      "evidence_quote": [
+        "following the methodology of the ISO 50001:2018 standard",
+        "applying the recommendations for planning energy audits established in ISO 50002"
+      ],
+      "page": [5, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "multiple regression"],
+      "evidence_quote": [
+        "The base consumption index is constructed from the linear equation of the correlation of the data of processed sugarcane quantity [tons] and energy consumption [kWh]",
+        "Table 1 presents the statistical analysis of the different variables selected in the study to determine which variable has the greatest influence on energy consumption"
+      ],
+      "page": [9, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

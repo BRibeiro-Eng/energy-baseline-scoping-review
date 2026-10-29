@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535487",
+  "listed_sector_signals": [
+    {
+      "signal": "Passing reference to steelmakers in China deploying energy monitoring/metering information technologies",
+      "quote": "Most large steelmakers in China have deployed similar information technologies and achieved Automatic Meter Reading over the past decade.",
+      "page": 38,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Cited reference to an EnMS study in chemical fertilizer enterprises (continuous chemical/fertilizer production)",
+      "quote": "Discussion on the establishment and operation effect of energy management system in chemical fertilizer enterprises.",
+      "page": 46,
+      "sector": "continuous chemical production (fertilizers)"
+    },
+    {
+      "signal": "Explicit note that pulp and paper industry was among the industrial sectors considered (though no such cases were included)",
+      "quote": "In this study, 51% of 73 reviewed case firms \nwere EIM (no pulp and paper industry cases) and 23% were NEIM.",
+      "page": 20,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "One validation case firm produces aluminium alloy sections (building materials), noted as a fabricator rather than primary aluminium smelting",
+      "quote": "Case A and B present \ntwo firms from the building materials industry, producing aluminum alloy sections and metal \nbathroom accessories respectively.",
+      "page": 32,
+      "sector": "aluminium (fabrication/extrusion, not primary smelting)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper proposes and validates an ISO 50001-based energy management maturity model for Chinese industrial enterprises, empirically tested on three discrete-manufacturing case firms (aluminium-section and bathroom-accessory building-materials makers and a semiconductor component maker), with continuous-flow sectors like steel, fertilizer and pulp & paper only mentioned in passing or references."
+}

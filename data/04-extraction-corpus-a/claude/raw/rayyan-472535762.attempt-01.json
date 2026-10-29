@@ -1,0 +1,274 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535762",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:00:18.786643Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Los Indicadores de desempeño Energético propuestos para implementar dentro del SGIE son los siguientes: Indicador de Consumo de energía IC, Indicador de Eficiencia Base 100 e Indicador Gráfico de Tendencia o de Sumas Acumulativas CUSUM.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper presents a pilot scheme for the implementation of the SGIE technology in a cement industry with wet process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "La implementación del Sistema de Gestión Integral de la Energía como proyecto piloto en la industria de producción de cemento por vía húmeda",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "B5 borderline: linearity/no-tech-change stated as premises, not framed as model limits. validation_types=empirical is borderline. country=Colombia inferred (national SGIE context; plant city not stated)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "en una planta de producción de cemento por vía húmeda",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "was proposed in Colombia in 2007 as a result of a research project funded by the government",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "sector_of_activity": {
+      "value": "cement industry",
+      "evidence_quote": "This paper presents a pilot scheme for the implementation of the SGIE technology in a cement industry with wet process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "La producción de cemento por vía húmeda es un proceso intensivo en el consumo de energía eléctrica, este proceso comprende cuatro etapas principales",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "conforms to the requirements of the Standard ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "La relación entre la producción y el consumo de energía es lineal para la mayoría de industrias",
+        "El indicador de consumo específico de energía se define como la relación entre la energía consumida y el valor de la producción obtenida con dicha energía",
+        "Indicador Gráfico de Tendencia o de Sumas Acumulativas CUSUM"
+      ],
+      "page": [
+        3,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "producción de cemento (cement production, t)"
+      ],
+      "evidence_quote": "el consumo promedio con respecto a la producción total de cemento realizada en el mismo periodo",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "Energy baseline (Linea de Base Energetica) built as the linear best-fit line of energy consumption vs. production (E = m.P + Enap) per energy cost centre, estimated from daily energy-consumption and production data over a selected one-year base period; a parallel target line (same slope m) through the lowest-consumption points was used to quantify operational-variability savings.",
+      "evidence_quote": "las líneas bases y metas de energía modeladas a partir del conjunto de datos diarios de consumos de energía y producción del periodo base seleccionado correspondiente a un año",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "en doce meses comparados a un mismo nivel de producción y con la línea base de tendencia de dos años anteriores",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "en una planta de producción de cemento por vía húmeda",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "scope_description": {
+      "value": "Implementation of the SGIE across a wet-process cement plant, analysed through seven defined Energy Cost Centres (Centros de Costo de Energia): cement grinding, clinkerisation+cooling, primary/secondary grinding, homogenisation, crushing, packing.",
+      "evidence_quote": "la distribución promedio del consumo de energía eléctrica por producción total en la planta de cemento para los siete CCE establecidos",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "This paper presents a pilot scheme for the implementation of the SGIE technology in a cement industry with wet process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "el conjunto de datos diarios de consumos de energía y producción del periodo base",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "4.6",
+          "unit": "%",
+          "period_or_context": "electricity consumption reduction over twelve months vs. two-year trend baseline",
+          "evidence_quote": "lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "implementation_barriers": {
+      "value": [
+        "Absence of leaders or work teams in charge of energy monitoring, operational decision-making and results evaluation (low energy-management maturity found by survey)",
+        "Lack of written policies, procedures and indicators across all areas focused on energy-expenditure control",
+        "Improving efficiency/productivity indicators requires fundamental changes in organisational culture and in productive processes and procedures"
+      ],
+      "evidence_quote": [
+        "La no existencia de líderes o equipos de trabajo encargados del análisis del monitoreo, toma de decisiones operativas",
+        "Falta de políticas, procedimientos escritos e indicadores en todas las áreas con enfoque al control del gasto energético",
+        "Para el mejoramiento de los indicadores de eficiencia y productividad se requieren cambios primordiales tanto en la cultura organizacional"
+      ],
+      "page": [
+        3,
+        3,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    }
+  }
+}

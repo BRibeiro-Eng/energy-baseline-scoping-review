@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535909",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T15:16:33Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This work presents an analytical hierarchy process (AHP) to rank alternatives on energy saving opportunities as provided by an energy audit report undertaken on an onshore and offshore oil and gas operation in Java Sea.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "AHP decision-support ranking of energy-saving alternatives without an EnPI/EnB measurement or baseline model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "an energy audit report undertaken on an onshore and offshore oil and gas operation in Java Sea",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "The AHP ranks energy-saving projects; it does not present an EnPI/EnB baseline, normalisation, or performance-measurement model."
+  },
+  "stage2": null,
+  "stage3": null
+}

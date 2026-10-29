@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536468",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:20:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "to establish a baseline for the EnPIs (Energy Performance Indicators), Table I presents the yearly energy uses for every analysed industrial end-user",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The case studies of the paper consist in automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The case studies of the paper consist in automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Borderline eligibility: EnPIs are electrical power-distribution/transformer loss indicators framed via ISO 50001 SEU and ISO 50006 baseline/static-factor concepts, not a classic regression EnB. Four distinct end-users (automotive, textile, aluminium profile, chemical products); none explicitly in the closed continuous-process list (chemical case uses mixing machines=batch; deep-dive is automotive). Equation glyphs corrupted; prose/tables intact."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case studies of the paper consist in automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "Many of the large industrial end-users in Romania ended up with an increase in quarterly operational expenditures",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "automotive industry, textile manufacturing, aluminium profile manufacturing, chemical products manufacturing",
+      "evidence_quote": "The case studies of the paper consist in automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "The case studies of the paper consist in automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001:2018 - Energy management systems",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU-ETS"
+      ],
+      "evidence_quote": "an obligation imposed by the EU-ETS mechanism and the ever-growing EUA certificate prices",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "the energy balance of the Power Transformers was determined, in order to calculate the annual energy losses for each end-user",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

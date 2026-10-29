@@ -1,0 +1,294 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535522",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:43:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded by the plant not associated with the production",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Pulp & paper plant (closed-list continuous process); ISO 50001 energy baseline E=Eo+mP and consumption index (kWh/kg) empirically applied to one Colombian paper plant."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Colombian Caribbean",
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "dry paper production plant",
+      "evidence_quote": "the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "based on the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded by the plant not associated with the production",
+        "the energy performance indicator studied was the consumption index (IC) to show the energy consumption (E) variation as a function of production (P)"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production"
+      ],
+      "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded by the plant not associated with the production",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "January 2018",
+      "evidence_quote": "The data used for the analysis are from January to October 2018",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "October 2018",
+      "evidence_quote": "The data used for the analysis are from January to October 2018",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline was built as a linear model E = Eo + m*P relating energy consumption to production, fitted to January-October 2018 data after filtering out days when the plant was not in typical production; the minimum number of data points was determined from the coefficient of variance.",
+      "evidence_quote": [
+        "Having the minimum number of data, the baseline model was calculated",
+        "These data were subjected to a filtration process, in which the days in which the plant was not in typical production were discarded"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "correlation coefficient of the proposed baseline",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "consumption indicators were calculated for the plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "scope_description": {
+      "value": "Energy characterization (energy baseline and consumption indicators) based on ISO 50001 applied to a dry paper production plant operating on electricity, gas, and coal.",
+      "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant. This plant operates using electricity, gas, and coal as energy sources.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "However, in the case of coal, this value was very low. This can be explained by the fact that there is no measurement of the steam that enters the machine.",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "there is no measurement of the steam that enters the machine",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical data on the production and consumption of electrical energy present in the production plant.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "0.7586",
+          "unit": null,
+          "period_or_context": "correlation coefficient of the electricity-consumption baseline",
+          "evidence_quote": "for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.6539",
+          "unit": null,
+          "period_or_context": "correlation coefficient of the coal-consumption baseline",
+          "evidence_quote": "for coal (Figure 8b) with 0.6539",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.8169",
+          "unit": null,
+          "period_or_context": "correlation coefficient of the gas-consumption baseline",
+          "evidence_quote": "for the gas consumption (Figure 8c), which reached a coefficient of 0.8169",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "1.51",
+          "unit": "%",
+          "period_or_context": "overall energy savings from adjusting production to a 77% load factor",
+          "evidence_quote": "to achieve energy savings of 1.51%",
+          "page": 19,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  }
+}

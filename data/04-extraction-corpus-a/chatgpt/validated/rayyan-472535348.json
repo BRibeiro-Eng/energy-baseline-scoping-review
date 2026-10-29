@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535348",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T10:45:26Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "iterative calibration of occupancy schedules, equipment loads, and internal heat gains",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This systematic review analyzed 36 studies (2015–2025)",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Most of the research focused on academic or mixed-use academic buildings (83%)",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The review characterises building-energy models, but university buildings are outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This systematic review analyzed 36 studies (2015–2025)",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Latin America",
+      "evidence_quote": "buildings located in Latin America or highland climates",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "university buildings",
+      "evidence_quote": "research focused on academic or mixed-use academic buildings",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Most of the research focused on academic or mixed-use academic buildings (83%)",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "Methodologies based on ISO 50001/50006 frameworks have demonstrated 9.6% energy savings without capital investment through systematic baseline establishment",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "CVRMSE < 15%, NMBE < 10% per ASHRAE Guideline 14",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "ML"
+      ],
+      "evidence_quote": [
+        "physics-based EnergyPlus models calibrated to ASHRAE Guideline 14 standards",
+        "Machine learning approaches have emerged as innovative methods for benchmarking"
+      ],
+      "page": [
+        24,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.91
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    }
+  },
+  "stage3": null
+}

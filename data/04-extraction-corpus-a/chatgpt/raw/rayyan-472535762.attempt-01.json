@@ -1,0 +1,297 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535762",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T14:55:19+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Los Indicadores de desempeño Energético propuestos para implementar dentro del SGIE son los siguientes: Indicador de Consumo de energía IC, Indicador de Eficiencia Base 100 e Indicador Gráfico de Tendencia o de Sumas Acumulativas CUSUM.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A continuación se presenta los resultados obtenidos en la implementación de las etapas uno y dos en una planta de producción de cemento por vía húmeda.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This paper presents a pilot scheme for the implementation of the SGIE technology in a cement industry with wet process, in order to improve its energy efficiency.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Single-plant wet-process cement case with linear energy baselines, energy-performance indicators and CUSUM monitoring."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A continuación se presenta los resultados obtenidos en la implementación de las etapas uno y dos en una planta de producción de cemento por vía húmeda.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "industria de producción de cemento por vía húmeda",
+      "evidence_quote": "En este artículo se presenta los resultados de la instalación del Sistema de Gestión Integral de la Energía para el caso de una industria de producción de cemento por vía húmeda.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "producción de cemento por vía húmeda",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Ésta consiste en la aplicación de herramientas estadísticas para el seguimiento de la eficiencia energética en procesos productivos, y de indicadores que se ajustan a los requisitos de la Norma ISO 50001.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "SEC mean",
+        "change-point or SPC",
+        "other"
+      ],
+      "evidence_quote": [
+        "Siempre y cuando la relación entre las variables analizadas sea adecuada se considera esta ecuación como la Línea de Base Energética",
+        "El indicador de consumo específico de energía se define como la relación entre la energía consumida y el valor de la producción obtenida con dicha energía",
+        "Esta actividad consiste en cuantificar a través de datos históricos recopilados por contadores de energía, el consumo promedio con respecto a la producción total de cemento realizada en el mismo periodo",
+        "Indicador Gráfico de Tendencia o de Sumas Acumulado CUSUM",
+        "El indicador base 100 es una herramienta de gestión del área energética, el cual permite comparar el comportamiento de los resultados de consumo energético medidos en un proceso durante un periodo operativo, respecto a los valores de consumo energético base o de tendencia del mismo"
+      ],
+      "page": [
+        4,
+        5,
+        3,
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "producción"
+      ],
+      "evidence_quote": "El indicador de consumo específico de energía se define como la relación entre la energía consumida y el valor de la producción obtenida con dicha energía",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "A linear energy baseline was fitted to daily energy-consumption and production data for a selected one-year base period. A parallel target line through the lower-consumption observations, using the baseline slope, was used to estimate savings from reduced operational variability.",
+      "evidence_quote": [
+        "Siempre y cuando la relación entre las variables analizadas sea adecuada se considera esta ecuación como la Línea de Base Energética",
+        "Esta línea meta se traza considerando el mismo valor de la pendiente “m” de la línea base",
+        "las líneas bases y metas de energía modeladas a partir del conjunto de datos diarios de consumos de energía y producción del periodo base seleccionado correspondiente a un año"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "Las acciones ejecutadas durante la implementación del SGIE en la planta, son de muy baja inversión y lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses comparados a un mismo nivel de producción y con la línea base de tendencia de dos años anteriores.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "A continuación se presenta los resultados obtenidos en la implementación de las etapas uno y dos en una planta de producción de cemento por vía húmeda.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scope_description": {
+      "value": "una planta de producción de cemento por vía húmeda",
+      "evidence_quote": "A continuación se presenta los resultados obtenidos en la implementación de las etapas uno y dos en una planta de producción de cemento por vía húmeda.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "las líneas bases y metas de energía modeladas a partir del conjunto de datos diarios de consumos de energía y producción del periodo base seleccionado correspondiente a un año",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "m (slope)",
+        "Enap (intercept; energy not associated with production)"
+      ],
+      "evidence_quote": [
+        "Esta línea meta se traza considerando el mismo valor de la pendiente “m” de la línea base",
+        "la energía no asociada es el valor del intercepto sobre el eje Y de la línea de mejor ajuste a la dispersión de datos, también conocida como Línea de Base Energética"
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "4.6",
+          "unit": "%",
+          "period_or_context": "electricity-consumption reduction over 12 months versus the same production level and the prior two-year trend baseline",
+          "evidence_quote": "Las acciones ejecutadas durante la implementación del SGIE en la planta, son de muy baja inversión y lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses comparados a un mismo nivel de producción y con la línea base de tendencia de dos años anteriores.",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Las acciones ejecutadas durante la implementación del SGIE en la planta, son de muy baja inversión y lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses comparados a un mismo nivel de producción y con la línea base de tendencia de dos años anteriores.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of energy-management leaders or work teams",
+        "lack of policies, written procedures and indicators focused on energy expenditure control",
+        "lack of promotion of an energy-saving culture among personnel"
+      ],
+      "evidence_quote": [
+        "La no existencia de líderes o equipos de trabajo encargados del análisis del monitoreo, toma de decisiones operativas, evaluación de resultados del manejo de variables y la identificación de nuevos potenciales de incremento de la eficiencia energética.",
+        "Falta de políticas, procedimientos escritos e indicadores en todas las áreas con enfoque al control del gasto energético.",
+        "No fomento en el personal hacia una cultura respecto a la reducción de los costos energéticos, estimulado el trabajo en equipo hacia la eficiencia energética a nivel de todas las áreas de la empresa."
+      ],
+      "page": [
+        3,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    }
+  }
+}

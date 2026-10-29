@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472535443",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to a cement-industry case study used as a methodological analogue for energy performance indicators (bibliography entry, not the paper's own application)",
+      "quote": "From Energy Audit to\nEnergy Performance Indicators (EnPI): A Methodology to Characterize Productive Sectors. The Italian Cement Industry Case\nStudy.",
+      "page": 17,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference to a steel/siderurgical company energy-baseline study, cited and included in the comparison table of indicators (row [39])",
+      "quote": "Modelos de regresión y diseño de línea base para indicadores energéticos\nen una empresa siderúrgica.",
+      "page": 19,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies the ISO 50001 energy-planning stage to a hotel (Hotel Punta la Cueva, Cuba), a service-sector accommodation facility, to build an energy baseline and performance indicator; the only Corpus-B-adjacent content is cement- and steel-industry studies cited in the references/comparison table."
+}

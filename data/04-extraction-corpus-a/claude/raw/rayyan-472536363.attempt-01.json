@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536363",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:32:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In this code we use a linear regression model to predict the remaining lifespan of a fuel cell/battery system, based on the input data collected.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Proposes a fuel-cell/battery monitoring and energy-flow optimization framework plus a linear-regression model predicting component remaining life (RUL); no EnPI/EnB energy-performance measurement model is presented or characterised (no energy baseline, EnPI, SEC, or ISO 50001/50006).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "present a system that monitors in real time the performance of a hybrid fuel cell/battery system",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Title/abstract say 'energy performance monitoring' but substantively this is condition monitoring + RUL prognostics + energy-flow optimization for FC/battery hybrids (EV/marine). Only fitted model targets remaining life, not energy. Terminological overlap flagged for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

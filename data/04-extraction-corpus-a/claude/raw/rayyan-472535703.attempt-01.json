@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535703",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:01:37Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "provides the rational basis for the selection of the best auto-id system with logistics system energy consumption taken into account",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Proposes a multi-criteria 'utilitarian value of information' method for selecting auto-id (barcode/RFID/biometric) systems in logistics; ISO 50001 and system energy consumption are cited only as selection considerations, with no EnPI/EnB measurement model identified or characterised (variables/functional form of the model are for information utility, not energy).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "A new approach to auto-id system evaluation is proposed",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "ISO 50001 invoked as an evaluation/framing tool and warehouse energy figures reported, but the proposed model quantifies the 'utilitarian value of information' (weighted MCDM), not energy performance; no EnPI/EnB model characterised. paper_type borderline vs 'single applied case' (illustrative press-distribution example, Sect. 3)."
+  },
+  "stage2": null,
+  "stage3": null
+}

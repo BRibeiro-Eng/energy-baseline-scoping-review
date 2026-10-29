@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536549",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:49:45.753968+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the annual energy consumption per square meter of the built area of the hospital (kWh /m2/year) or the annual energy consumption per hospital bed (kWh/bed/year) are used",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "a state of the art based on a bibliographic study relating to energy efficiency at international and regional level is proposed",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Hospitals or health care buildings are social facilities designed to provide care to patients, which operate in general over 24 h/day",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Benchmarking/good-practices paper on Moroccan hospital energy performance indicators; review/synthesis vs 'other' is borderline. EnPIs = intensity ratios (kWh/bed, kWh/m2) under ISO 50006; multiple regression from reviewed ref [10]. Sector = healthcare buildings, not continuous process -> level_3b false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "country_region": {
+      "value": "Morocco",
+      "evidence_quote": "This paper is about energy performance of Moroccan hospitals",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "health care buildings",
+      "evidence_quote": "Hospitals or health care buildings are social facilities designed to provide care to patients",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The energy consumption of hospital buildings is among the highest, compared to commercial and residential buildings",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006",
+        "ISO 50001"
+      ],
+      "evidence_quote": [
+        "international standard ISO 50006",
+        "ISO 50001:2018 Energy management systems"
+      ],
+      "page": [
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "The most widely used relevant indicator in the health sector is the annual energy consumption per bed (kWh/bed/year)",
+        "a regression analysis was performed based on the feedback to predict the annual energy consumption"
+      ],
+      "page": [
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

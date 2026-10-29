@@ -1,0 +1,40 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535434",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "The model is referred to as the Eco Ladder for energy management, and describes an approach with gradual introduction of specific measures",
+        "Our literature review does not show empirical studies that specifically examine how much fuel can be saved by implementing a comprehensive system for energy management"
+      ],
+      "page": [1, 14],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Systematic literature review of eco-driving and energy management in road-freight/trucking companies whose contribution is the qualitative 'Eco Ladder' organisational maturity framework (Levels 0-3 of management practices). No EnPI/EnB energy-performance measurement model is presented or characterised: no normalisation variables, functional form, or construction/estimation approach for an energy model. ISO 50001 appears only as an energy-management-system standard, and the authors state they found no empirical studies of such systems. Framework/maturity assessment without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "We have identified 16 studies of economic driving with heavy vehicles in general, and five that deal with HGVs",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Transport-sector (road-freight) review; central artifact is the 'Eco Ladder', an organisational maturity/management-practice framework. Dual review/framework nature; classified as review/synthesis on its systematic-review methodology (16 studies, Table 2)."
+  },
+  "stage2": null,
+  "stage3": null
+}

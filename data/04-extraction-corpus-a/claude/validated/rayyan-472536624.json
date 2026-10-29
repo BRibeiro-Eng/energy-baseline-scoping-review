@@ -1,0 +1,126 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536624",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:41:06.103162+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper aims at developing an energy performance indicator, requiring little technology for its implementation, in order to assess, control and manage the electricity consumption in hotels on a daily basis",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "conducted in two Cuban hotels (hotels A and B) located in the province of Cienfuegos",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Hotel A is a beach hotel with 222 rooms and hotel B is a city hotel with 49 rooms",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Application sector is hotels (tourism/hospitality) in Cuba, outside the closed Level-3B continuous-process list, so level_3b=false. Two distinct case hotels (A beach, B city) -> multi-case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Hotel A is a beach hotel with 222 rooms and hotel B is a city hotel with 49 rooms",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Cienfuegos, Cuba",
+      "evidence_quote": "two Cuban hotels (hotels A and B) located in the province of Cienfuegos",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "hotels",
+      "evidence_quote": "two Cuban hotels (hotels A and B)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "Both hotels provide non-guest services like restaurants, shops, bars, gaming room, conference rooms",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the ISO 50001 and 50006 standards",
+        "ISO 50004 and 50006"
+      ],
+      "page": [
+        5,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The equations of the fitted straight lines for EnB and GB are",
+        "the ratio between energy consumption and a reference value"
+      ],
+      "page": [
+        5,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

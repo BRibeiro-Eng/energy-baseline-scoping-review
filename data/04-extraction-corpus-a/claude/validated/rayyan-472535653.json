@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535653",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T11:16:26.873920+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper describes the ISO 50001 Impacts Methodology as set forth in the ISO 50001 Impacts Estimator Tool (IET 50001) and presents estimates of the potential global energy, energy cost, and carbon dioxide (CO2) emissions savings associated with ISO 50001 uptake.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ineligibility_reason": "Presents the ISO 50001 Impacts Methodology / IET 50001 software tool, a policy-scale methodology that estimates national/regional/global energy, cost and CO2 savings from ISO 50001 uptake using a logistic adoption curve and exogenous savings percentages. It does not present, propose, evaluate, or characterise an EnPI/EnB energy-performance measurement model (no normalisation variables, functional form, or construction/estimation approach for measuring energy performance); EnPI/baseline concepts appear only incidentally when describing ISO 50001 requirements.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This paper presents the ISO 50001 Impacts Methodology, an internationally-developed methodology to calculate these impacts at a national, regional, or global scale suitable for use by policymakers.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Policy-scale impact-estimation methodology (IET 50001 tool): logistic uptake curve + exogenous savings %, no EnPI/EnB measurement model. paper_type methodological vs tool/software arguable."
+  },
+  "stage2": null,
+  "stage3": null
+}

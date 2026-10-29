@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535758",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T14:55:38+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "We also developed the method of energy-economic analysis of enterprise activity which can be\nused in analysis within framework of energy management system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": "Available Stage-0 text is the abstract / CORE cover page only (truncated_or_preview=true; full article pp.570-575 absent from the 1-page PDF). The abstract describes a general 'method of energy-economic analysis of enterprise activity' to support ISO 50001 implementation, but does not identify or characterise any specific EnPI/EnB measurement model: no measured/normalised quantity, variables, functional form, or construction/estimation approach is stated in the available text.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "We also developed the method of energy-economic analysis of enterprise activity",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Stage-0 is abstract/CORE cover page only (article is pp.570-575; PDF = 1 image page, 1146 chars). Eligibility judged from abstract: no EnPI/EnB model characterised. Full text could change the call - genuine borderline from truncation; flag for human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

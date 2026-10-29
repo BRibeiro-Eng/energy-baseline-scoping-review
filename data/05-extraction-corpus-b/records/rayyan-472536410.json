@@ -1,0 +1,1080 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536410",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "pulp-paper-vietnam-benchmark",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 22,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "pulp and paper industry of Vietnam",
+        "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of \nVietnam.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Vietnam",
+        "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of \nVietnam.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The factories in the pulp and paper industry of Vietnam are \ndivided into three production scales, and the energy benchmarks are specified by production scales.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Energy benchmark (SEC) for three major paper product families (packaging, printing and writing, tissue) across three production scale groups, based on a national survey and energy audits of pulp and paper factories in Vietnam.",
+        "evidence_quote": "I, therefore, focus on three major paper product families, including packaging paper, printing \nand writing paper, and tissue paper.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "I use specific energy consumption (SEC) as the \nenergy performance indicator (EnPI) for computing energy benchmarks for the main sub-sectors in the \npulp and paper industry of Vietnam.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "SEC benchmark for the packaging paper sub-sector (Eq 1)",
+          "baseline_period_start": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Average SEC of the factories within each production scale group used as the benchmark SEC value; SEC computed as total energy divided by equivalent total production.",
+            "evidence_quote": "In general, the average SEC of each scale group was used as the benchmark SEC value for this group.",
+            "page": 7,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Average SEC Group 1 (small scale) = 6,782 MJ/ton",
+            "Average SEC Group 2 (medium scale) = 7,872 MJ/ton",
+            "Average SEC Group 3 (large scale) = 7,809 MJ/ton",
+            "Whole subsector average SEC = 7,587 MJ/ton",
+            "Equivalent production conversion factors 1.31 and 1.48"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/ton",
+              "evidence_quote": "(MJ/ton)",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio",
+                "mean SEC"
+              ],
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Excel",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total production output",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "production sizes / scale group",
+              "type": "throughput",
+              "role": "segmentation",
+              "evidence_quote": "factories need to be classified according to the production sizes to estimate appropriate SECs.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "pulp properties / product type converted to equivalent product",
+              "type": "product mix",
+              "role": "reference condition",
+              "evidence_quote": "The variation due to different pulp properties could be normalized by converting it into one main pulp.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 20,
+              "evidence_quote": "This was \nobserved in the preliminary audit at the 20 factories.",
+              "page": 11,
+              "support_class": "requires inference",
+              "page_as_recorded": 12,
+              "locator_corrected": true
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The energy performance of a \nmanufacturer is identified by energy consumption and its production in the benchmarking areas \nonly (Figure 1).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Te = Ti  ki  \n \n[MJ]",
+              "page": 8,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy (process heat from coal, oil, gas converted via conversion coefficients)"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalculate",
+                "revise benchmark"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range",
+                "extrapolation"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The energy saving potential, in this case, was estimated at 19.5% (Figure 8).",
+                "page": 14,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy saving potential (Scenario 1, packaging paper sub-sector)",
+                  "value": "19.5",
+                  "unit": "%",
+                  "period_or_context": "Scenario 1: moving the average baseline",
+                  "evidence_quote": "The energy saving potential, in this case, was estimated at 19.5% (Figure 8).",
+                  "page": 14,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Whole subsector average SEC benchmark (packaging)",
+                  "value": "7,587",
+                  "unit": "MJ/ton",
+                  "period_or_context": "packaging paper subsector, year 2014",
+                  "evidence_quote": "Whole subsector \n7,587 \n4,237",
+                  "page": 11,
+                  "support_class": "direct statement",
+                  "page_as_recorded": 12,
+                  "locator_corrected": true
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Energy consumption (electricity and thermal) data per factory over one year",
+            "Production output by product type for equivalent-product conversion",
+            "Classification of factories by production scale"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "SEC benchmark for the tissue paper sub-sector (Eq 1)",
+          "baseline_period_start": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Average SEC of the tissue factories within each production scale group used as benchmark SEC.",
+            "evidence_quote": "In general, the average \nSEC of each scale group was used as the benchmark SEC value for this group.",
+            "page": 7,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Average SEC Group 1 (small scale) = 14,914 MJ/ton",
+            "Average SEC Group 2 (medium scale) = 16,503 MJ/ton",
+            "Whole subsector average SEC = 15,438 MJ/ton",
+            "Equivalent production conversion factors 1.33 and 1.11"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/ton",
+              "evidence_quote": "(MJ/ton)",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio",
+                "mean SEC"
+              ],
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total production output",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "production scale group",
+              "type": "throughput",
+              "role": "segmentation",
+              "evidence_quote": "factories need to be classified according to the production sizes to estimate appropriate SECs.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "fibre source type (virgin pulp, DIP, non-DIP recycled)",
+              "type": "product mix",
+              "role": "reference condition",
+              "evidence_quote": "In Vietnam, tissue papers are produced from two types of fiber sources: Virgin pulp and recycled \npulp.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 10,
+              "evidence_quote": "Tissue papers \n19 \n176,000 \n10 \n107,682 \n61%",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The energy performance of a \nmanufacturer is identified by energy consumption and its production in the benchmarking areas \nonly (Figure 1).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Te = Ti  ki  \n \n[MJ]",
+              "page": 8,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy (process heat from fuels converted via conversion coefficients)"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "revise"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The energy saving potential, in this case, was estimated at 11.6% (Figure 9).",
+                "page": 15,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy saving potential (Scenario 1, tissue paper sub-sector)",
+                  "value": "11.6",
+                  "unit": "%",
+                  "period_or_context": "Scenario 1: moving the average baseline",
+                  "evidence_quote": "The energy saving potential, in this case, was estimated at 11.6% (Figure 9).",
+                  "page": 15,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Whole subsector average SEC benchmark (tissue)",
+                  "value": "15,438",
+                  "unit": "MJ/ton",
+                  "period_or_context": "tissue paper subsector",
+                  "evidence_quote": "Whole subsector \n15,438 \n5,926",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Energy consumption per factory for one year",
+            "Production output split by fibre source (virgin pulp, DIP) for equivalent-product conversion"
+          ]
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "SEC benchmark for the printing and writing paper sub-sector (Eq 1)",
+          "baseline_period_start": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2014",
+            "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+            "page": 9,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Average SEC of factories within scale group; only group 2 (4 factories) could be used to benchmark this sub-sector.",
+            "evidence_quote": "It has been noted that only group 2 of this subsector with 04 sets of data could be used for \nbenchmarking exercise (Table 7).",
+            "page": 13,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Average SEC Group 1 (small scale) = 17,542 MJ/ton",
+            "Average SEC Group 2 (medium scale) = 10,495 MJ/ton",
+            "Average SEC Group 3 (large scale) = 15,138 MJ/ton"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "SEC of product/process is calculated as the rate of total input energy \n(electricity and thermal) and the corresponding equivalent total production output.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/ton",
+              "evidence_quote": "(MJ/ton)",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio",
+                "mean SEC"
+              ],
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total production output",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "production scale group",
+              "type": "throughput",
+              "role": "segmentation",
+              "evidence_quote": "factories need to be classified according to the production sizes to estimate appropriate SECs.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "pulp/process type (DIP, commercial virgin pulp, integrated Kraft pulping)",
+              "type": "product mix",
+              "role": "segmentation",
+              "evidence_quote": "The factory in \ngroup 1 used deinked pulp along with commercial virgin pulp as raw materials and possesses DIP \nfacilities. The factories in group 2 used only virgin pulp.",
+              "page": 13,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "deciding SEC as the rate between total energy consumption and total production output of the \ncorresponding product in a specific period, for example, one year.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of \neach factory in the year 2014 is presented in Table 5.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 4,
+              "evidence_quote": "It has been noted that only group 2 of this subsector with 04 sets of data could be used for \nbenchmarking exercise (Table 7).",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The energy performance of a \nmanufacturer is identified by energy consumption and its production in the benchmarking areas \nonly (Figure 1).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Te = Ti  ki  \n \n[MJ]",
+              "page": 8,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy (process heat from fuels converted via conversion coefficients)"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The energy saving potential, in this case, was estimated at 20% (Figure 10).",
+                "page": 15,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy saving potential (Scenario 1, printing and writing paper sub-sector)",
+                  "value": "20",
+                  "unit": "%",
+                  "period_or_context": "Scenario 1: moving the average baseline",
+                  "evidence_quote": "The energy saving potential, in this case, was estimated at 20% (Figure 10).",
+                  "page": 15,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Average final SEC benchmark, Group 2 (medium scale)",
+                  "value": "10,495",
+                  "unit": "MJ/ton",
+                  "period_or_context": "printing and writing paper, group 2 (4 factories)",
+                  "evidence_quote": "Group 2 (medium scale) \n4 \n10,495 \nWithout pulping and DIP process",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Energy consumption per factory for one year",
+            "Production of printing and writing paper (no equivalent-product conversion applied)"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "pulp & paper",
+        "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of \nVietnam.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Energy consumption of papermaking processes may vary by different pulps and different products \nand requires normalization.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "As the product quality has not been compared, the lower SEC of group 1 is explained as the simpler process with fewer stages in the \nstock preparation section, which has been observed during the preliminary audits at the sample factories.",
+      "page": 10,
+      "support_class": "requires inference",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M2",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Therefore, the discrimination in energy \nconsumption of DIP and non-DIP processes among the factories in Vietnam cannot be considered.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M3",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "It has been noted that only group 2 of this subsector with 04 sets of data could be used for \nbenchmarking exercise (Table 7).",
+      "page": 13,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "insufficient data length for the model"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "normalisation to a reference product",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "The variation due to different pulp properties could be normalized by converting it into one main pulp.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "segmented baseline",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "it was finalized to carry out benchmarking per range of \nproduction scale for each sub-sector (i.e. packaging, tissue, writing and printing sub-sector).",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "In this research, I cannot get data \nfrom all factories in the industries and the number of audit factories can be increased to enhance the \nquality of results.",
+      "page": 17,
+      "searched_terms": [
+        "limitation",
+        "cannot",
+        "data",
+        "sample"
+      ]
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "However, the \nconsumption of different energy sources in different paper facilities has not been statistically \nreported.",
+      "page": 4,
+      "searched_terms": [
+        "not reported",
+        "statistically"
+      ]
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "It should be noted that only in Group 3 (small capacity category) under the packaging sub-sector, the total production capacity of the samples does \nnot reach 35% of the total sub-sector capacity as required due to the low interest of the enterprises.",
+      "page": 7,
+      "searched_terms": [
+        "35%",
+        "capacity",
+        "samples"
+      ]
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Small factories have less modern machinery with inadequate maintenance",
+      "evidence_quote": "It is noted that small \nfactories have less modern machinery with inadequate maintenance.",
+      "page": 15,
+      "searched_terms": [
+        "maintenance",
+        "machinery",
+        "barrier"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "SEC value for a pulp and paper factory is given below (Eq 1):",
+      "page": 8,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "The conversion factor 1.31 and 1.48 for different types of packaging products (testliner, standard \nmedium, coasting testliner, chipboard, and coreboard) are obtained by audit results in RCEE_NIRAS \nand ENERTEAM [7].",
+      "page": 9,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "github"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a benchmarking study using specific energy consumption (SEC) as an intensity ratio, aggregated as mean SEC per scale group; no fitted regression, so estimation method, variable selection, in-sample fit and out-of-sample validation are treated as not applicable. Modelled as one multi-site application (Vietnam pulp & paper industry) with three sub-sector SEC models distinguished by their equivalent-production conversion formulas (Eqs 4-9). Note internal inconsistencies in reported saving potentials: section 3.4.1 gives 19.5% (packaging), 11.6% (tissue), 20% (printing/writing) for Scenario 1, while the Discussion (section 4.1) states 13.6%, 17.6% and 14.4% respectively; the section 3.4.1 figures were recorded. Table 8 gives Scenario 2 whole-subsector potentials of 19%, 9% and 29%. n_observations for tissue derived from Table 3 (10 surveyed); packaging from '20 factories' in preliminary audit text; printing/writing recorded as the 4 group-2 data points actually usable.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalization",
+        "quality",
+        "cannot be considered",
+        "variation",
+        "data"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalize",
+        "equivalent product",
+        "scale group",
+        "segment"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "cannot get data",
+        "sample",
+        "not reported"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "maintenance",
+        "machinery",
+        "low interest",
+        "management"
+      ]
+    }
+  },
+  "attempt": 4
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536516",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:57:35.437969+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this study, the following five EnPI are defined. The first is the total energy consumption (TEC) and is the result of the energy simulation.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "this paper presents a case study in which an industrial part has been analyzed and optimized using the energy performance assessment (EPA)-based Eco-DfAM method",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Selective laser melting (SLM) is selected as the AM process to produce the optimized component.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Simulation-based AM (SLM) part-design case; 'steel' is part feedstock not steelmaking, so level_3b=false. paper_type applied-case vs methodological is borderline."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The component in the case study is a cam plate driven by a chain gear",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "additive manufacturing",
+      "evidence_quote": "Additive manufacturing (AM) is the general term for manufacturing processes in which the parts are produced layer by layer",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "manufacturing processes in which the parts are produced layer by layer",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Energy management systems - measuring energy performance using energy baselines and energy performance indicators (EnPI) - general principles and guidance",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The third EnPI is the safety factor-energy consumption ratio (SFER) and is expressed as follows:",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "the WF are calculated through the pairwise-comparison as depicted in Fig. 5A",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

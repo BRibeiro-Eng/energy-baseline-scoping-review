@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535663",
+ "tier": "B",
+ "ts": "2026-09-10T16:58:38",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 32.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "generico iso 50001"
+}

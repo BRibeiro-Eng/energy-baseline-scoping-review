@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535488",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T15:02:20Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "Electricity consumption data of the schools before and after the implementation of the criteria and indicators",
+        "The 2019 data were compared with data from the 2017 and 2018 academic years, which were the times before the implementation of the energy management criteria and indicators"
+      ],
+      "page": [
+        10,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Conducting a training course for 18 energy management committees from 3 secondary schools in the Bangkok Metropolitan area under the Office of the Basic Education Commission.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Conducting a training course for 18 energy management committees from 3 secondary schools in the Bangkok Metropolitan area under the Office of the Basic Education Commission.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Eligible via an explicit historical electricity-consumption comparison. The application comprises three independent secondary schools, an institutional-building context outside Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The three schools included in this training course were the following: Rithiyawanalai 2, a large-sized school, Kunnontheerutharam Withayakhom, a medium-sized school, and Watnoinophakhun, a small-sized school.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Bangkok Metropolitan area",
+      "evidence_quote": "3 secondary schools in the Bangkok Metropolitan area",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "educational institutions",
+      "evidence_quote": "promote energy conservation in educational institutions",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Improving energy efficiency in school buildings provides environmental, economical, and educational benefits.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "After the training, the assessment was conducted by energy auditors from the ISO 50001 accredited agencies.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The 2019 data were compared with data from the 2017 and 2018 academic years, which were the times before the implementation of the energy management criteria and indicators",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

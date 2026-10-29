@@ -1,0 +1,46 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "methodological/theoretical"
+      },
+      "key": "rayyan-472536540",
+      "level_a": {
+        "complementary_methodologies": [
+          "process flowsheet simulation"
+        ],
+        "country_region": "not applicable",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "physical model"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": null,
+        "type_of_organisation": "not specified"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "methodological/theoretical"
+      },
+      "key": "rayyan-472536540",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

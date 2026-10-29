@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535568",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:51:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy baseline is obtained from the linear regression of historical energy consumption determining the baseline and target, the efficiency determining the baseline and target, the efficiency and production data",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "a particular case applied to a piro-tubular boiler with a capacity of 75,000 lb/h operating in a vegetable oils and fats production process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "operating in a vegetable oils and fats production process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Vegetable oils and fats production/refining is not in the v2.3 closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a particular case applied to a piro-tubular boiler with a capacity of 75,000 lb/h operating in a vegetable oils and fats production process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "application of operational data analysis in detail to obtain energy efficiency indicators for an industrial steam boiler in Colombia is presented",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "vegetable oils and fats production process",
+      "evidence_quote": "operating in a vegetable oils and fats production process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "The objective of the refinery section is to refine the raw palm and soybean",
+        "The chemical processes carried out for the raw material processing is the chemical refining"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Since the approval of the ISO 50001 standard, there has been an increase in the industrial sector's adoption of energy management systems worldwide",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "linear regression"
+      ],
+      "evidence_quote": [
+        "The actual CI was calculated with the energy consumption (EActual) and the production (P) as follows",
+        "The energy baseline is obtained from the linear regression of historical energy consumption determining the baseline and target, the efficiency determining the baseline and target, the efficiency and production data"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

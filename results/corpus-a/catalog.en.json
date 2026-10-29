@@ -1,0 +1,875 @@
+[
+ {
+  "id": "annual",
+  "title": "Growth of the literature",
+  "caption": "Time coverage set by the search; do not read the last year as a complete year.",
+  "provisional": false,
+  "pdf": "figures/annual.pdf",
+  "title_pt": "Evolução da literatura",
+  "caption_pt": "Cobertura temporal definida pela pesquisa; não interpretar o último ano como ano completo."
+ },
+ {
+  "id": "source",
+  "title": "Publication sources",
+  "caption": "Field available in 331/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 20 of 194 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/source.pdf",
+  "title_pt": "Fontes de publicação",
+  "caption_pt": "Campo disponível em 331/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 20 de 194 categorias; tabela CSV completa."
+ },
+ {
+  "id": "document_type",
+  "title": "Document types",
+  "caption": "Field available in 331/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 2 of 2 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/document_type.pdf",
+  "title_pt": "Tipos de documento",
+  "caption_pt": "Campo disponível em 331/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 2 de 2 categorias; tabela CSV completa."
+ },
+ {
+  "id": "paper_type",
+  "title": "Study type",
+  "caption": "Field available in 258/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 7 of 7 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/paper_type.pdf",
+  "title_pt": "Tipo de estudo",
+  "caption_pt": "Campo disponível em 258/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 7 de 7 categorias; tabela CSV completa."
+ },
+ {
+  "id": "multi_site",
+  "title": "Multi-site studies",
+  "caption": "Field available in 268/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 4 of 4 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/multi_site.pdf",
+  "title_pt": "Estudos com várias instalações",
+  "caption_pt": "Campo disponível em 268/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 4 de 4 categorias; tabela CSV completa."
+ },
+ {
+  "id": "type_of_organisation",
+  "title": "Organisation types",
+  "caption": "Field available in 238/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 7 of 7 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/type_of_organisation.pdf",
+  "title_pt": "Tipos de organização",
+  "caption_pt": "Campo disponível em 238/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 7 de 7 categorias; tabela CSV completa."
+ },
+ {
+  "id": "country_region",
+  "title": "Case location — original text",
+  "caption": "Field available in 178/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 20 of 114 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/country_region.pdf",
+  "title_pt": "Localização dos casos — texto original",
+  "caption_pt": "Campo disponível em 178/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 20 de 114 categorias; tabela CSV completa."
+ },
+ {
+  "id": "countries_case",
+  "title": "Countries of the cases studied",
+  "caption": "Field available in 178/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Derived normalisation, to be reviewed; the original text is unchanged. Showing 20 of 53 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/countries_case.pdf",
+  "title_pt": "Países dos casos estudados",
+  "caption_pt": "Campo disponível em 178/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Normalização derivada a rever; não altera o texto original. Mostradas 20 de 53 categorias; tabela CSV completa."
+ },
+ {
+  "id": "sector_of_activity",
+  "title": "Sectors — original text",
+  "caption": "Field available in 201/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 20 of 167 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/sector_of_activity.pdf",
+  "title_pt": "Setores — texto original",
+  "caption_pt": "Campo disponível em 201/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 20 de 167 categorias; tabela CSV completa."
+ },
+ {
+  "id": "sectors_derived",
+  "title": "Sectors — exploratory grouping",
+  "caption": "Field available in 201/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Derived normalisation, to be reviewed; the original text is unchanged. Showing 17 of 17 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/sectors_derived.pdf",
+  "title_pt": "Setores — agrupamento exploratório",
+  "caption_pt": "Campo disponível em 201/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Normalização derivada a rever; não altera o texto original. Mostradas 17 de 17 categorias; tabela CSV completa."
+ },
+ {
+  "id": "ems_standard",
+  "title": "Energy management standards",
+  "caption": "Field available in 258/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 6 of 6 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/ems_standard.pdf",
+  "title_pt": "Normas de gestão de energia",
+  "caption_pt": "Campo disponível em 258/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 6 de 6 categorias; tabela CSV completa."
+ },
+ {
+  "id": "mv_protocol",
+  "title": "Measurement and verification protocols",
+  "caption": "Field available in 271/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 8 of 8 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/mv_protocol.pdf",
+  "title_pt": "Protocolos de medição e verificação",
+  "caption_pt": "Campo disponível em 271/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 8 de 8 categorias; tabela CSV completa."
+ },
+ {
+  "id": "regulatory_driver",
+  "title": "Regulatory framing",
+  "caption": "Field available in 265/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 6 of 6 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/regulatory_driver.pdf",
+  "title_pt": "Enquadramento regulamentar",
+  "caption_pt": "Campo disponível em 265/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 6 de 6 categorias; tabela CSV completa."
+ },
+ {
+  "id": "enpi_enb_model_types",
+  "title": "EnPI/EnB model families",
+  "caption": "Field available in 162/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 11 of 11 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/enpi_enb_model_types.pdf",
+  "title_pt": "Famílias de modelos EnPI/EnB",
+  "caption_pt": "Campo disponível em 162/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 11 de 11 categorias; tabela CSV completa."
+ },
+ {
+  "id": "complementary_methodologies",
+  "title": "Complementary methodologies",
+  "caption": "Field available in 266/331 publications. Full counting per publication; multiple labels can sum to more than 100%. Showing 7 of 7 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/complementary_methodologies.pdf",
+  "title_pt": "Metodologias complementares",
+  "caption_pt": "Campo disponível em 266/331 publicações. Contagem integral por publicação; múltiplas etiquetas podem somar mais de 100%. Mostradas 7 de 7 categorias; tabela CSV completa."
+ },
+ {
+  "id": "author_count",
+  "title": "Team size",
+  "caption": "Distribution per publication; unresolved categories kept. Showing 12 of 12 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/author_count.pdf",
+  "title_pt": "Dimensão das equipas",
+  "caption_pt": "Distribuição por publicação; categorias não resolvidas mantidas. Mostradas 12 de 12 categorias; tabela CSV completa."
+ },
+ {
+  "id": "model_count",
+  "title": "Number of model families per article",
+  "caption": "Distribution per publication; unresolved categories kept. Showing 6 of 6 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/model_count.pdf",
+  "title_pt": "Número de famílias de modelos por artigo",
+  "caption_pt": "Distribuição por publicação; categorias não resolvidas mantidas. Mostradas 6 de 6 categorias; tabela CSV completa."
+ },
+ {
+  "id": "source_concentration",
+  "title": "Concentration of sources",
+  "caption": "Empirical distribution; not a test of Bradford's law.",
+  "provisional": false,
+  "pdf": "figures/source_concentration.pdf",
+  "title_pt": "Concentração das fontes",
+  "caption_pt": "Distribuição empírica; não é um teste da lei de Bradford."
+ },
+ {
+  "id": "authors_productivity",
+  "title": "Most frequent authors",
+  "caption": "Names as exported, not fully disambiguated; not the authors' total output. Showing 20 of 1100 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/authors_productivity.pdf",
+  "title_pt": "Autores mais presentes",
+  "caption_pt": "Nomes do export, sem desambiguação completa; não representa a produção total dos autores. Mostradas 20 de 1100 categorias; tabela CSV completa."
+ },
+ {
+  "id": "author_productivity_distribution",
+  "title": "Distribution of author productivity",
+  "caption": "Number of authors by number of articles in the corpus; descriptive, no fit to Lotka's law. Showing 9 of 9 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/author_productivity_distribution.pdf",
+  "title_pt": "Distribuição da produtividade dos autores",
+  "caption_pt": "Número de autores por número de artigos no corpus; descrição, sem ajuste à lei de Lotka. Mostradas 9 de 9 categorias; tabela CSV completa."
+ },
+ {
+  "id": "authors_timeline",
+  "title": "Author continuity in the corpus",
+  "caption": "18 names with most publications; not the full career; name identity not reviewed.",
+  "provisional": false,
+  "pdf": "figures/authors_timeline.pdf",
+  "title_pt": "Continuidade dos autores no corpus",
+  "caption_pt": "18 nomes com mais publicações; não representa a carreira completa; identidade nominal por rever."
+ },
+ {
+  "id": "annual_study_types",
+  "title": "Growth by study type",
+  "caption": "Unresolved categories included; the last search year may be partial.",
+  "provisional": true,
+  "pdf": "figures/annual_study_types.pdf",
+  "title_pt": "Evolução por tipo de estudo",
+  "caption_pt": "Categorias não resolvidas incluídas; último ano de pesquisa pode ser parcial."
+ },
+ {
+  "id": "cross_sectors_derived__enpi_enb_model_types",
+  "title": "Sectors — exploratory grouping × EnPI/EnB model families",
+  "caption": "Field pairs available in 120/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_sectors_derived__enpi_enb_model_types.pdf",
+  "title_pt": "Setores — agrupamento exploratório × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 120/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_type_of_organisation__enpi_enb_model_types",
+  "title": "Organisation types × EnPI/EnB model families",
+  "caption": "Field pairs available in 140/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_type_of_organisation__enpi_enb_model_types.pdf",
+  "title_pt": "Tipos de organização × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 140/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_enpi_enb_model_types__enpi_enb_model_types",
+  "title": "EnPI/EnB model families × EnPI/EnB model families",
+  "caption": "Field pairs available in 162/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_enpi_enb_model_types__enpi_enb_model_types.pdf",
+  "title_pt": "Famílias de modelos EnPI/EnB × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 162/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_ems_standard__ems_standard",
+  "title": "Energy management standards × Energy management standards",
+  "caption": "Field pairs available in 258/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_ems_standard__ems_standard.pdf",
+  "title_pt": "Normas de gestão de energia × Normas de gestão de energia",
+  "caption_pt": "Pares de campos disponíveis em 258/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_period__enpi_enb_model_types",
+  "title": "period × EnPI/EnB model families",
+  "caption": "Field pairs available in 162/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_period__enpi_enb_model_types.pdf",
+  "title_pt": "period × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 162/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_period__sectors_derived",
+  "title": "period × Sectors — exploratory grouping",
+  "caption": "Field pairs available in 201/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_period__sectors_derived.pdf",
+  "title_pt": "period × Setores — agrupamento exploratório",
+  "caption_pt": "Pares de campos disponíveis em 201/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_period__paper_type",
+  "title": "period × Study type",
+  "caption": "Field pairs available in 258/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_period__paper_type.pdf",
+  "title_pt": "period × Tipo de estudo",
+  "caption_pt": "Pares de campos disponíveis em 258/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_period__ems_standard",
+  "title": "period × Energy management standards",
+  "caption": "Field pairs available in 258/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_period__ems_standard.pdf",
+  "title_pt": "period × Normas de gestão de energia",
+  "caption_pt": "Pares de campos disponíveis em 258/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_period__mv_protocol",
+  "title": "period × Measurement and verification protocols",
+  "caption": "Field pairs available in 271/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_period__mv_protocol.pdf",
+  "title_pt": "period × Protocolos de medição e verificação",
+  "caption_pt": "Pares de campos disponíveis em 271/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_ems_standard__enpi_enb_model_types",
+  "title": "Energy management standards × EnPI/EnB model families",
+  "caption": "Field pairs available in 150/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_ems_standard__enpi_enb_model_types.pdf",
+  "title_pt": "Normas de gestão de energia × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 150/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_mv_protocol__enpi_enb_model_types",
+  "title": "Measurement and verification protocols × EnPI/EnB model families",
+  "caption": "Field pairs available in 155/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_mv_protocol__enpi_enb_model_types.pdf",
+  "title_pt": "Protocolos de medição e verificação × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 155/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_sectors_derived__ems_standard",
+  "title": "Sectors — exploratory grouping × Energy management standards",
+  "caption": "Field pairs available in 187/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_sectors_derived__ems_standard.pdf",
+  "title_pt": "Setores — agrupamento exploratório × Normas de gestão de energia",
+  "caption_pt": "Pares de campos disponíveis em 187/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_sectors_derived__mv_protocol",
+  "title": "Sectors — exploratory grouping × Measurement and verification protocols",
+  "caption": "Field pairs available in 194/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_sectors_derived__mv_protocol.pdf",
+  "title_pt": "Setores — agrupamento exploratório × Protocolos de medição e verificação",
+  "caption_pt": "Pares de campos disponíveis em 194/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_paper_type__enpi_enb_model_types",
+  "title": "Study type × EnPI/EnB model families",
+  "caption": "Field pairs available in 134/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_paper_type__enpi_enb_model_types.pdf",
+  "title_pt": "Tipo de estudo × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 134/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_multi_site__enpi_enb_model_types",
+  "title": "Multi-site studies × EnPI/EnB model families",
+  "caption": "Field pairs available in 158/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_multi_site__enpi_enb_model_types.pdf",
+  "title_pt": "Estudos com várias instalações × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 158/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_countries_case__sectors_derived",
+  "title": "Countries of the cases studied × Sectors — exploratory grouping",
+  "caption": "Field pairs available in 126/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_countries_case__sectors_derived.pdf",
+  "title_pt": "Países dos casos estudados × Setores — agrupamento exploratório",
+  "caption_pt": "Pares de campos disponíveis em 126/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_countries_case__enpi_enb_model_types",
+  "title": "Countries of the cases studied × EnPI/EnB model families",
+  "caption": "Field pairs available in 108/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_countries_case__enpi_enb_model_types.pdf",
+  "title_pt": "Países dos casos estudados × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 108/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_source__sectors_derived",
+  "title": "Publication sources × Sectors — exploratory grouping",
+  "caption": "Field pairs available in 201/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_source__sectors_derived.pdf",
+  "title_pt": "Fontes de publicação × Setores — agrupamento exploratório",
+  "caption_pt": "Pares de campos disponíveis em 201/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_source__enpi_enb_model_types",
+  "title": "Publication sources × EnPI/EnB model families",
+  "caption": "Field pairs available in 162/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_source__enpi_enb_model_types.pdf",
+  "title_pt": "Fontes de publicação × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 162/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_enpi_enb_model_types__complementary_methodologies",
+  "title": "EnPI/EnB model families × Complementary methodologies",
+  "caption": "Field pairs available in 155/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_enpi_enb_model_types__complementary_methodologies.pdf",
+  "title_pt": "Famílias de modelos EnPI/EnB × Metodologias complementares",
+  "caption_pt": "Pares de campos disponíveis em 155/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_ems_standard__mv_protocol",
+  "title": "Energy management standards × Measurement and verification protocols",
+  "caption": "Field pairs available in 252/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_ems_standard__mv_protocol.pdf",
+  "title_pt": "Normas de gestão de energia × Protocolos de medição e verificação",
+  "caption_pt": "Pares de campos disponíveis em 252/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_regulatory_driver__ems_standard",
+  "title": "Regulatory framing × Energy management standards",
+  "caption": "Field pairs available in 244/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_regulatory_driver__ems_standard.pdf",
+  "title_pt": "Enquadramento regulamentar × Normas de gestão de energia",
+  "caption_pt": "Pares de campos disponíveis em 244/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "cross_regulatory_driver__enpi_enb_model_types",
+  "title": "Regulatory framing × EnPI/EnB model families",
+  "caption": "Field pairs available in 156/331 articles. Multiple labels; each article counted once per cell. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/cross_regulatory_driver__enpi_enb_model_types.pdf",
+  "title_pt": "Enquadramento regulamentar × Famílias de modelos EnPI/EnB",
+  "caption_pt": "Pares de campos disponíveis em 156/331 artigos. Etiquetas múltiplas; cada artigo contado uma vez por célula. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "comparison_paper_type",
+  "title": "B and the rest of the set: Study type",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_paper_type.pdf",
+  "title_pt": "B e restante conjunto: Tipo de estudo",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "comparison_type_of_organisation",
+  "title": "B and the rest of the set: Organisation types",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_type_of_organisation.pdf",
+  "title_pt": "B e restante conjunto: Tipos de organização",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "comparison_ems_standard",
+  "title": "B and the rest of the set: Energy management standards",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_ems_standard.pdf",
+  "title_pt": "B e restante conjunto: Normas de gestão de energia",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "comparison_mv_protocol",
+  "title": "B and the rest of the set: Measurement and verification protocols",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_mv_protocol.pdf",
+  "title_pt": "B e restante conjunto: Protocolos de medição e verificação",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "comparison_enpi_enb_model_types",
+  "title": "B and the rest of the set: EnPI/EnB model families",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_enpi_enb_model_types.pdf",
+  "title_pt": "B e restante conjunto: Famílias de modelos EnPI/EnB",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "comparison_sectors_derived",
+  "title": "B and the rest of the set: Sectors — exploratory grouping",
+  "caption": "Denominators: {'A only': 291, 'B': 40}. Disjoint groups; do not infer sector representativeness.",
+  "provisional": true,
+  "pdf": "figures/comparison_sectors_derived.pdf",
+  "title_pt": "B e restante conjunto: Setores — agrupamento exploratório",
+  "caption_pt": "Denominadores: {'A sem B': 291, 'B': 40}. Grupos disjuntos; não inferir representatividade setorial."
+ },
+ {
+  "id": "upset_enpi_enb_model_types",
+  "title": "Combinations: EnPI/EnB model families",
+  "caption": "Exact intersections. 162/331 articles with the field available; 18 combinations shown, full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/upset_enpi_enb_model_types.pdf",
+  "title_pt": "Combinações: Famílias de modelos EnPI/EnB",
+  "caption_pt": "Interseções exatas. 162/331 artigos com campo disponível; 18 combinações mostradas, tabela completa em CSV."
+ },
+ {
+  "id": "upset_ems_standard",
+  "title": "Combinations: Energy management standards",
+  "caption": "Exact intersections. 258/331 articles with the field available; 11 combinations shown, full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/upset_ems_standard.pdf",
+  "title_pt": "Combinações: Normas de gestão de energia",
+  "caption_pt": "Interseções exatas. 258/331 artigos com campo disponível; 11 combinações mostradas, tabela completa em CSV."
+ },
+ {
+  "id": "upset_mv_protocol",
+  "title": "Combinations: Measurement and verification protocols",
+  "caption": "Exact intersections. 271/331 articles with the field available; 12 combinations shown, full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/upset_mv_protocol.pdf",
+  "title_pt": "Combinações: Protocolos de medição e verificação",
+  "caption_pt": "Interseções exatas. 271/331 artigos com campo disponível; 12 combinações mostradas, tabela completa em CSV."
+ },
+ {
+  "id": "alluvial",
+  "title": "Sector → model → normative framing",
+  "caption": "115 articles with all three fields. Each article spreads a total weight of 1 over its combinations; fractional widths, not full counts.",
+  "provisional": true,
+  "pdf": "figures/alluvial.pdf",
+  "title_pt": "Setor → modelo → enquadramento normativo",
+  "caption_pt": "115 artigos com os três campos. Cada artigo distribui peso total 1 pelas combinações; larguras fracionadas, não contagens integrais."
+ },
+ {
+  "id": "field_status",
+  "title": "Verification status of the fields",
+  "caption": "Agreement between models is not human validation. Divergences and single extractions are given no automatic precedence.",
+  "provisional": true,
+  "pdf": "figures/field_status.pdf",
+  "title_pt": "Estado de verificação dos campos",
+  "caption_pt": "Concordância entre IA não é validação humana. Divergências e extrações únicas não recebem precedência automática."
+ },
+ {
+  "id": "model_surface_sensitivity_plot",
+  "title": "Sensitivity to the extraction surface",
+  "caption": "Two independent pre-extractions kept separate. This chart does not measure reliability. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/model_surface_sensitivity_plot.pdf",
+  "title_pt": "Sensibilidade à superfície de extração",
+  "caption_pt": "Duas pré-extrações independentes mantidas separadas. Este gráfico não mede fiabilidade. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "coauthorship",
+  "title": "Co-authorship network",
+  "caption": "Names as exported; at least 2 articles per name. Homonyms and variants not fully resolved. Network: 70 nodes, 89 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/coauthorship.pdf",
+  "title_pt": "Rede de coautoria",
+  "caption_pt": "Nomes do export; mínimo 2 artigos por nome. Homónimos e variantes não totalmente resolvidos. Rede: 70 nós, 89 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "enriched_affiliation_countries",
+  "title": "Countries of affiliation",
+  "caption": "Enriched metadata available for 267/331 articles; absence does not mean non-existence. Showing 20 of 62 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/enriched_affiliation_countries.pdf",
+  "title_pt": "Países de afiliação",
+  "caption_pt": "Metadados enriquecidos disponíveis em 267/331 artigos; ausências não significam inexistência. Mostradas 20 de 62 categorias; tabela CSV completa."
+ },
+ {
+  "id": "enriched_institutions_names",
+  "title": "Institutions",
+  "caption": "Enriched metadata available for 267/331 articles; absence does not mean non-existence. Showing 20 of 342 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/enriched_institutions_names.pdf",
+  "title_pt": "Instituições",
+  "caption_pt": "Metadados enriquecidos disponíveis em 267/331 artigos; ausências não significam inexistência. Mostradas 20 de 342 categorias; tabela CSV completa."
+ },
+ {
+  "id": "enriched_institution_types",
+  "title": "Institution types",
+  "caption": "Enriched metadata available for 267/331 articles; absence does not mean non-existence. Showing 8 of 8 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/enriched_institution_types.pdf",
+  "title_pt": "Tipos de instituições",
+  "caption_pt": "Metadados enriquecidos disponíveis em 267/331 artigos; ausências não significam inexistência. Mostradas 8 de 8 categorias; tabela CSV completa."
+ },
+ {
+  "id": "enriched_funders",
+  "title": "Funders",
+  "caption": "Enriched metadata available for 97/331 articles; absence does not mean non-existence. Showing 20 of 106 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/enriched_funders.pdf",
+  "title_pt": "Entidades financiadoras",
+  "caption_pt": "Metadados enriquecidos disponíveis em 97/331 artigos; ausências não significam inexistência. Mostradas 20 de 106 categorias; tabela CSV completa."
+ },
+ {
+  "id": "enriched_oa_status",
+  "title": "Open access",
+  "caption": "Enriched metadata available for 282/331 articles; absence does not mean non-existence. Showing 6 of 6 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/enriched_oa_status.pdf",
+  "title_pt": "Acesso aberto",
+  "caption_pt": "Metadados enriquecidos disponíveis em 282/331 artigos; ausências não significam inexistência. Mostradas 6 de 6 categorias; tabela CSV completa."
+ },
+ {
+  "id": "network_affiliation_countries",
+  "title": "International collaboration",
+  "caption": "Co-occurrence per publication; affiliations from OpenAlex. Geography differs from the location of the cases. Network: 42 nodes, 38 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/network_affiliation_countries.pdf",
+  "title_pt": "Colaboração internacional",
+  "caption_pt": "Coocorrência por publicação; afiliações do OpenAlex. Geografia distinta da localização dos casos. Rede: 42 nós, 38 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "network_institutions_ids",
+  "title": "Inter-institutional collaboration",
+  "caption": "Co-occurrence per publication; affiliations from OpenAlex. Geography differs from the location of the cases. Network: 60 nodes, 37 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/network_institutions_ids.pdf",
+  "title_pt": "Colaboração interinstitucional",
+  "caption_pt": "Coocorrência por publicação; afiliações do OpenAlex. Geografia distinta da localização dos casos. Rede: 60 nós, 37 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "international_collaboration",
+  "title": "International collaboration",
+  "caption": "True: at least two countries of affiliation; None: affiliations not available. Showing 3 of 3 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/international_collaboration.pdf",
+  "title_pt": "Colaboração internacional",
+  "caption_pt": "True: pelo menos dois países de afiliação; None: afiliações não disponíveis. Mostradas 3 de 3 categorias; tabela CSV completa."
+ },
+ {
+  "id": "education_company",
+  "title": "Education–industry collaboration",
+  "caption": "Institution types as declared by OpenAlex; no company in the metadata does not exclude industry participation. Showing 3 of 3 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/education_company.pdf",
+  "title_pt": "Colaboração educação–empresa",
+  "caption_pt": "Tipos institucionais declarados pelo OpenAlex; ausência de empresa nos metadados não exclui participação industrial. Mostradas 3 de 3 categorias; tabela CSV completa."
+ },
+ {
+  "id": "keywords",
+  "title": "Most frequent keywords",
+  "caption": "323/331 articles with keywords; author and indexer keywords not separated in the export. Showing 20 of 2565 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/keywords.pdf",
+  "title_pt": "Palavras-chave mais frequentes",
+  "caption_pt": "323/331 artigos com palavras-chave; origem autor/indexação não separada no export. Mostradas 20 de 2565 categorias; tabela CSV completa."
+ },
+ {
+  "id": "keyword_network",
+  "title": "Keyword co-occurrence",
+  "caption": "Presence per article; at least 3 occurrences, at most 65 terms; weights = co-occurrences. Network: 65 nodes, 1258 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": true,
+  "pdf": "figures/keyword_network.pdf",
+  "title_pt": "Coocorrência de palavras-chave",
+  "caption_pt": "Presença por artigo; mínimo 3 ocorrências, máximo 65 termos; pesos = coocorrências. Rede: 65 nós, 1258 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "themes_period",
+  "title": "Exploratory themes × period",
+  "caption": "318 articles shown. An article can belong to several clusters. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/themes_period.pdf",
+  "title_pt": "Temas exploratórios × period",
+  "caption_pt": "318 artigos representados. Um artigo pode pertencer a vários clusters. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "themes_sectors_derived",
+  "title": "Exploratory themes × sectors_derived",
+  "caption": "195 articles shown. An article can belong to several clusters. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/themes_sectors_derived.pdf",
+  "title_pt": "Temas exploratórios × sectors_derived",
+  "caption_pt": "195 artigos representados. Um artigo pode pertencer a vários clusters. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "themes_enpi_enb_model_types",
+  "title": "Exploratory themes × enpi_enb_model_types",
+  "caption": "158 articles shown. An article can belong to several clusters. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/themes_enpi_enb_model_types.pdf",
+  "title_pt": "Temas exploratórios × enpi_enb_model_types",
+  "caption_pt": "158 artigos representados. Um artigo pode pertencer a vários clusters. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "themes_ems_standard",
+  "title": "Exploratory themes × ems_standard",
+  "caption": "248 articles shown. An article can belong to several clusters. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/themes_ems_standard.pdf",
+  "title_pt": "Temas exploratórios × ems_standard",
+  "caption_pt": "248 artigos representados. Um artigo pode pertencer a vários clusters. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "thematic_map",
+  "title": "Position of thematic clusters",
+  "caption": "Exploratory indicators defined on the axes; do not read maturity, emergence or importance into them.",
+  "provisional": true,
+  "pdf": "figures/thematic_map.pdf",
+  "title_pt": "Posição dos clusters temáticos",
+  "caption_pt": "Indicadores exploratórios definidos nos eixos; não atribuir automaticamente rótulos de maturidade, emergência ou importância."
+ },
+ {
+  "id": "keyword_temporal_map",
+  "title": "Keywords by period",
+  "caption": "Fixed 5-year windows; see the prevalence CSV for denominators by period. Full table in CSV; visual selection by marginal count.",
+  "provisional": true,
+  "pdf": "figures/keyword_temporal_map.pdf",
+  "title_pt": "Palavras-chave por período",
+  "caption_pt": "Janelas fixas de 5 anos; consultar CSV de prevalência com denominadores por período. Tabela completa em CSV; seleção visual por contagem marginal."
+ },
+ {
+  "id": "text_title",
+  "title": "Titles: frequent terms",
+  "caption": "331 documents; English stop words; 1–2 words; min_df=3; presence per document. Showing 20 of 310 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/text_title.pdf",
+  "title_pt": "Títulos: termos frequentes",
+  "caption_pt": "331 documentos; stopwords em inglês; 1–2 palavras; min_df=3; presença por documento. Mostradas 20 de 310 categorias; tabela CSV completa."
+ },
+ {
+  "id": "text_abstract_enriched",
+  "title": "Enriched abstracts: frequent terms",
+  "caption": "222 documents; English stop words; 1–2 words; min_df=3; presence per document. Showing 20 of 400 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/text_abstract_enriched.pdf",
+  "title_pt": "Resumos enriquecidos: termos frequentes",
+  "caption_pt": "222 documentos; stopwords em inglês; 1–2 palavras; min_df=3; presença por documento. Mostradas 20 de 400 categorias; tabela CSV completa."
+ },
+ {
+  "id": "abstract_topics_distribution",
+  "title": "Abstracts: exploratory NMF topics",
+  "caption": "222 abstracts; TF-IDF; 6 topics; seed=44. Dominant assignment, open to interpretation. Showing 6 of 6 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/abstract_topics_distribution.pdf",
+  "title_pt": "Resumos: tópicos exploratórios NMF",
+  "caption_pt": "222 resumos; TF-IDF; 6 tópicos; seed=44. Atribuição dominante, sujeita a interpretação. Mostradas 6 de 6 categorias; tabela CSV completa."
+ },
+ {
+  "id": "citations_openalex",
+  "title": "Citations received — OpenAlex",
+  "caption": "Databases and dates kept separate; counts are not quality. Division by age is not field normalisation. Showing 20 of 282 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/citations_openalex.pdf",
+  "title_pt": "Citações recebidas — OpenAlex",
+  "caption_pt": "Bases e datas mantidas separadas; contagens não equivalem a qualidade. Divisão por idade não é normalização por campo. Mostradas 20 de 282 categorias; tabela CSV completa."
+ },
+ {
+  "id": "citations_crossref",
+  "title": "Citations received — Crossref",
+  "caption": "Databases and dates kept separate; counts are not quality. Division by age is not field normalisation. Showing 20 of 278 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/citations_crossref.pdf",
+  "title_pt": "Citações recebidas — Crossref",
+  "caption_pt": "Bases e datas mantidas separadas; contagens não equivalem a qualidade. Divisão por idade não é normalização por campo. Mostradas 20 de 278 categorias; tabela CSV completa."
+ },
+ {
+  "id": "citations_citations_per_elapsed_year",
+  "title": "Citations per elapsed year",
+  "caption": "Databases and dates kept separate; counts are not quality. Division by age is not field normalisation. Showing 20 of 282 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/citations_citations_per_elapsed_year.pdf",
+  "title_pt": "Citações por ano decorrido",
+  "caption_pt": "Bases e datas mantidas separadas; contagens não equivalem a qualidade. Divisão por idade não é normalização por campo. Mostradas 20 de 282 categorias; tabela CSV completa."
+ },
+ {
+  "id": "citation_distribution",
+  "title": "Distribution of citations",
+  "caption": "282/331 with counts. An observed zero is not missing metadata.",
+  "provisional": false,
+  "pdf": "figures/citation_distribution.pdf",
+  "title_pt": "Distribuição das citações",
+  "caption_pt": "282/331 com contagens. Zero observado é distinto de metadado ausente."
+ },
+ {
+  "id": "citations_year_received",
+  "title": "Citations received per year",
+  "caption": "Sum of the histories available in OpenAlex, which may cover recent years only.",
+  "provisional": false,
+  "pdf": "figures/citations_year_received.pdf",
+  "title_pt": "Citações recebidas por ano",
+  "caption_pt": "Soma dos históricos disponíveis no OpenAlex; estes históricos podem cobrir apenas anos recentes."
+ },
+ {
+  "id": "direct_citations",
+  "title": "Direct citations within the set",
+  "caption": "Arrow: citing → cited publication. References indexed by OpenAlex only. Network: 158 nodes, 323 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/direct_citations.pdf",
+  "title_pt": "Citações diretas dentro do conjunto",
+  "caption_pt": "Seta: publicação citante → citada. Apenas referências indexadas pelo OpenAlex. Rede: 158 nós, 323 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "local_citations",
+  "title": "Local citations received",
+  "caption": "Citations from other publications in this set; depend on reference-list coverage. Showing 20 of 158 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/local_citations.pdf",
+  "title_pt": "Citações locais recebidas",
+  "caption_pt": "Citações provenientes de outras publicações deste conjunto; dependem da cobertura das bibliografias. Mostradas 20 de 158 categorias; tabela CSV completa."
+ },
+ {
+  "id": "bibliographic_coupling",
+  "title": "Bibliographic coupling",
+  "caption": "At least 2 shared references; weight = shared / √(nref₁ × nref₂). Subgraph of the 65 strongest nodes. Network: 65 nodes, 457 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/bibliographic_coupling.pdf",
+  "title_pt": "Acoplamento bibliográfico",
+  "caption_pt": "Pelo menos 2 referências partilhadas; peso = partilhadas / √(nref₁ × nref₂). Subgrafo dos 65 nós de maior força. Rede: 65 nós, 457 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "cocitation",
+  "title": "Reference co-citation",
+  "caption": "Two references linked when cited by the same article; min. 3 citing articles. Unresolved external IDs kept. Network: 65 nodes, 898 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": false,
+  "pdf": "figures/cocitation.pdf",
+  "title_pt": "Cocitação de referências",
+  "caption_pt": "Duas referências ligadas quando citadas pelo mesmo artigo; min. 3 artigos citantes. IDs externos não resolvidos conservados. Rede: 65 nós, 898 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "cited_references",
+  "title": "References most cited by the set",
+  "caption": "Citation frequency in the indexed reference lists; names available only for identified references. Showing 20 of 5637 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/cited_references.pdf",
+  "title_pt": "Referências mais citadas pelo conjunto",
+  "caption_pt": "Frequência de citação nas bibliografias indexadas; nomes disponíveis apenas para referências identificadas. Mostradas 20 de 5637 categorias; tabela CSV completa."
+ },
+ {
+  "id": "reference_list_length",
+  "title": "Size of indexed reference lists",
+  "caption": "Number of references in OpenAlex, which may be lower than in the article. Showing 20 of 70 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/reference_list_length.pdf",
+  "title_pt": "Dimensão das bibliografias indexadas",
+  "caption_pt": "Número de referências no OpenAlex, que pode ser inferior ao número de referências no artigo. Mostradas 20 de 70 categorias; tabela CSV completa."
+ },
+ {
+  "id": "reference_age_distribution",
+  "title": "Age of references",
+  "caption": "Crossref references with a deposited year only; negative values should be audited. Showing 35 of 59 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/reference_age_distribution.pdf",
+  "title_pt": "Idade das referências",
+  "caption_pt": "Apenas referências Crossref com ano depositado; valores negativos devem ser auditados. Mostradas 35 de 59 categorias; tabela CSV completa."
+ },
+ {
+  "id": "cocitation_source",
+  "title": "Co-citation by source",
+  "caption": "Restricted to the 79 most frequent references with resolved metadata; 145 articles contribute. Network: 24 nodes, 145 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": true,
+  "pdf": "figures/cocitation_source.pdf",
+  "title_pt": "Cocitação por fonte",
+  "caption_pt": "Cobertura restrita às 79 referências de maior frequência com metadados resolvidos; 145 artigos contribuem. Rede: 24 nós, 145 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "cited_source",
+  "title": "Frequency of cited sources",
+  "caption": "Presence per citing article; only 79 references with resolved metadata. Not a ranking of the whole literature. Showing 20 of 24 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/cited_source.pdf",
+  "title_pt": "Frequência de fontes citadas",
+  "caption_pt": "Presença por artigo citante; apenas 79 referências com metadados resolvidos. Não é um ranking de toda a bibliografia. Mostradas 20 de 24 categorias; tabela CSV completa."
+ },
+ {
+  "id": "cocitation_author",
+  "title": "Co-citation by author",
+  "caption": "Restricted to the 79 most frequent references with resolved metadata; 152 articles contribute. Network: 50 nodes, 1181 edges; 12 nodes labelled; the rest in the CSV/GEXF. Layout seed=44; exploratory communities.",
+  "provisional": true,
+  "pdf": "figures/cocitation_author.pdf",
+  "title_pt": "Cocitação por autor",
+  "caption_pt": "Cobertura restrita às 79 referências de maior frequência com metadados resolvidos; 152 artigos contribuem. Rede: 50 nós, 1181 ligações; 12 nós identificados na legenda; restantes no CSV/GEXF. Layout seed=44; comunidades exploratórias."
+ },
+ {
+  "id": "cited_author",
+  "title": "Frequency of cited authors",
+  "caption": "Presence per citing article; only 79 references with resolved metadata. Not a ranking of the whole literature. Showing 20 of 272 categories; full table in CSV.",
+  "provisional": true,
+  "pdf": "figures/cited_author.pdf",
+  "title_pt": "Frequência de autores citados",
+  "caption_pt": "Presença por artigo citante; apenas 79 referências com metadados resolvidos. Não é um ranking de toda a bibliografia. Mostradas 20 de 272 categorias; tabela CSV completa."
+ },
+ {
+  "id": "fwci_openalex",
+  "title": "Field-weighted citation impact — OpenAlex",
+  "caption": "FWCI as provided by OpenAlex; definition and coverage depend on the source; not a measure of methodological adequacy. Showing 20 of 282 categories; full table in CSV.",
+  "provisional": false,
+  "pdf": "figures/fwci_openalex.pdf",
+  "title_pt": "Impacto normalizado por campo — OpenAlex",
+  "caption_pt": "FWCI tal como fornecido pelo OpenAlex; definição e cobertura dependem da fonte; não mede adequação metodológica. Mostradas 20 de 282 categorias; tabela CSV completa."
+ },
+ {
+  "id": "citation_provider_comparison",
+  "title": "Sensitivity to the citation source",
+  "caption": "278 articles with both sources. Counts not merged; query dates in the table.",
+  "provisional": false,
+  "pdf": "figures/citation_provider_comparison.pdf",
+  "title_pt": "Sensibilidade à fonte das citações",
+  "caption_pt": "278 artigos com ambas as fontes. Contagens não fundidas; datas de cada consulta na tabela."
+ },
+ {
+  "id": "prisma_flow",
+  "title": "PRISMA — draft with the existing counts",
+  "caption": "Adapted from PRISMA 2020 (CC BY 4.0): prisma-statement.org/prisma-2020-flow-diagram. Amber boxes: open points; dashed arrows: provisional link.",
+  "provisional": true,
+  "pdf": "figures/prisma_flow.pdf",
+  "title_pt": "PRISMA — rascunho com as contagens existentes",
+  "caption_pt": "Adaptado de PRISMA 2020 (CC BY 4.0): prisma-statement.org/prisma-2020-flow-diagram. Caixas âmbar: pontos por fechar; setas tracejadas: ligação provisória."
+ }
+]

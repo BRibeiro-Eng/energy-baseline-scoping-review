@@ -1,0 +1,52 @@
+{
+  "key": "rayyan-472535787",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-14T17:08:35",
+  "finished_at": "2026-09-14T17:14:29",
+  "returncode": 0,
+  "input_sha256": "0bcfe555b364d7e57c9f5e4350313c7452e114600650a0a1554117c92b835d25",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472535787.attempt-8.raw.json",
+  "attempt": 8,
+  "session_id": "8d8a2f4a-ce0c-4051-857d-f9e2e2093a7c",
+  "models_returned": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-8[1m]"
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 10971,
+    "cache_read_input_tokens": 20331,
+    "output_tokens": 31299,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 10971,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 31299,
+        "cache_read_input_tokens": 20331,
+        "cache_creation_input_tokens": 10971,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 10971
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "total_cost_usd": 0.9108265,
+  "duration_ms": 353392,
+  "is_error": false,
+  "status": "error",
+  "error": "grounding applications[0].models[0].C1_dependent_variable.denominator: quote not found on physical page 4: 'a scatter diagram of energy consumption versus production and estimation of the energy baseline for a \\nproductive process'"
+}

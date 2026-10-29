@@ -1,0 +1,40 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535608",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:38:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "The objective of this paper is to present the design and modeling of the Energy Management System (EnMS)",
+        "Engineering synthesizes data through appropriate software and establishes energy baseline and EnPI"
+      ],
+      "page": [1, 10],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Paper designs an EnMS management process using Business Process Management and models the Energy Review process in BPMN under ISO 50001. EnPI and energy baseline are mentioned only as generic outputs/steps of the designed process, with no EnPI/EnB measurement model identified or characterised (no variables, no functional form, no construction/estimation approach). This is a conceptual framework/process design without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The research is characterized as basic, experimental and qualitative, oriented in the light of the BPM development cycles recommended in the literature, in its stages of design and modeling.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "paper_type borderline vs 'maturity model or framework' (presents a conceptual framework); classified methodological/theoretical as qualitative model/process construction with no empirical case (future case studies foreseen)."
+  },
+  "stage2": null,
+  "stage3": null
+}

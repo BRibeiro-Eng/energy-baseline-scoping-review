@@ -1,0 +1,20 @@
+{
+ "key": "rayyan-472535793",
+ "tier": "A",
+ "ts": "2026-09-10T17:10:53",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "pulp and paper",
+  "clinker",
+  "cement",
+  "steel",
+  "kiln"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 38.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem metodologia"
+}

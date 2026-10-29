@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535666",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:05:14Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The present work proposes a performance indicators matrix that allows the evaluation and monitoring of energy consumption, energy costs and CO2 emissions",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The indicator matrix was tested in a case study, namely the municipality of Loulé in Portugal",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "energy management in municipal water services",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "EnPI content = specific-energy-consumption / intensity indicators (kWh/m3, kWh/inhab). Eligible under broad v2.3 threshold despite framework framing. paper_type borderline framework-vs-single-case; coded single applied case (one municipality, Loule, quantified 2013-2014). Sector municipal water services -> not continuous process (level_3b false)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Loulé Municipality was used for this purpose",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Loulé, Portugal",
+      "evidence_quote": "The municipality of Loulé is located in the Algarve region, southern Portugal",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "municipal water and wastewater services",
+      "evidence_quote": "municipal water and wastewater services",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "municipalities are then responsible for water distribution to consumers, and for collecting and draining wastewater to treatment plants",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "integrated management energy (ISO 50001)",
+        "ISO 50006:2014. Energy management systems"
+      ],
+      "page": [
+        2,
+        25
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "Energy consumption per inhabitant during the year",
+        "Specific energy consumption per volume of water sold"
+      ],
+      "page": [
+        13,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

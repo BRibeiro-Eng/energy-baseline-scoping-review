@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535622",
+  "listed_sector_signals": [
+    {
+      "signal": "Case study is a glass-processing company; glass tempering furnace is the focus, but the operations are cutting/finishing/tempering/lamination/packing of glass sheets (discrete processing), not continuous melting or float lines",
+      "quote": "In-depth analysis of production process energy consumption shows that glass tempering is included in almost all glass production processes and is the most energy- intensive process.",
+      "page": 1,
+      "sector": "glass"
+    },
+    {
+      "signal": "Registered continuous sectors named only as comparison examples of energy-intensive industries",
+      "quote": "In energy intensive industries (e.g. pulp and paper, iron and steel, chemical production), these costs constitute more than 5% of the production costs, with even 15-20% being reported for some industries",
+      "page": 1,
+      "sector": "pulp & paper / steel / continuous chemical production"
+    },
+    {
+      "signal": "Reference citing energy management study in the paper and pulp industry",
+      "quote": "a quantitative\nanalysis of relevant factors in the Austrian paper and pulp industry",
+      "page": 1,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Glass tempering furnace kept running via an idle regime rather than switching off (continuous furnace operation), though used for batch/discrete glass sheet tempering",
+      "quote": "with a more efficient idle regime (which makes it possible to\nnot switch the furnace off and not use the stored energy), the\nglass- tempering energy consumption per | m2 of glass will\ndiminish two times.",
+      "page": 1,
+      "sector": "glass tempering / furnace operation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "Case study applying energy efficiency and demand-side management (idle-regime glass tempering furnace, ISO 50001, NPV/MPC analysis) at a glass finishing/tempering company in Latvia — discrete glass sheet processing, not continuous glass melting or float lines."
+}

@@ -1,0 +1,115 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536661",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": null,
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "SEC mean"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "LNG",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Each indicator baseline used the average performance from past years, excluding abnormal-operation periods; implemented baselines covered three years.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [
+          "careful planning",
+          "unified approach between departments",
+          "resistance to change"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "total product",
+          "production",
+          "forward flow"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "around 12,670 TJ\noverall energy saving was achieved",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "overall energy saving",
+            "unit": "TJ",
+            "value": "12,670"
+          },
+          {
+            "evidence_quote": "The overall energy efficiency (GJ of total fuel consumption of all\nADGAS plants per GJ total product) showed improvement in 2015 compared to 2014 by 20.9%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "overall energy efficiency in 2015 compared to 2014",
+            "unit": "%",
+            "value": "20.9"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "facility",
+        "scope_description": "A plant-wide set of 96 EnPIs covering 98% of plant energy consumption, with indicators at overall, area and equipment levels.",
+        "specific_limitations": [],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536661",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "United Arab Emirates",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "SEC mean"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "LNG production",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535565",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:17:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper contains a methodology for the implementation of energy management system according to which companies can design there structure and processes to fulfil all the requirements specified in ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Presents the Totally Integrated Energy Management (TIEM) organisational/change-management framework, built on McKinsey's 7S model, for implementing an ISO 50001 energy management system. Energy indicators/key figures are mentioned only incidentally; no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). Falls under the eligibility rule excluding a framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "McKinsey's 7S change management tool provides the framework",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Conceptual 7S-based framework (TIEM) for EnMS implementation; no measurement model. Application context is German manufacturing/lean production (discrete), not a continuous-process sector; level_3b forced false by ineligibility."
+  },
+  "stage2": null,
+  "stage3": null
+}

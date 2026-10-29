@@ -1,0 +1,119 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536373",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T19:40:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "using the indicator of electrical consumption per area (ENPI). For AC systems, ENPI is\ncalculated next (Equation (2)):\nENPI = Forecasted AC Energy consumption\nCooled area\n[kWh/m²]",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study uses four AC technologies to assess the energy performance—this is a case study\nof an educational building in Barranquilla, Colombia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Therefore, this paper aims to analyze a case study in an educational building in\nBarranquilla, Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Single educational-building case; the application is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study is conducted in a university building located in Barranquilla, (10◦59′16′′ N;\n074◦47′20′′ W), in the Caribbean region of Colombia (Figure 1).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Barranquilla, Colombia",
+      "evidence_quote": "educational building in Barranquilla, Colombia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "educational building",
+      "evidence_quote": "educational building in Barranquilla, Colombia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "educational building in Barranquilla, Colombia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50001 and ISO 50006",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The energy simulation of the building is the most used tool for the energy performance\nassessment of buildings due to the use of EnergyPlus calculation engine and the Transfer\nFunction (TF) [31–33] (Equation (1)):",
+        "using the indicator of electrical consumption per area (ENPI). For AC systems, ENPI is\ncalculated next (Equation (2)):\nENPI = Forecasted AC Energy consumption\nCooled area\n[kWh/m²]"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

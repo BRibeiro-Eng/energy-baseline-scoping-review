@@ -1,0 +1,1248 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535524",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 14,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "petrochemical production site of INEOS in Cologne",
+        "evidence_quote": "The setup of this example is a part of the petrochemical production\nsite of INEOS in Cologne which has also been used as an example for the\ndevelopment of strategies for the optimal allocation of resources",
+        "page": 7,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Germany",
+        "evidence_quote": "The setup of this example is a part of the petrochemical production\nsite of INEOS in Cologne which has also been used as an example for the\ndevelopment of strategies for the optimal allocation of resources",
+        "page": 7,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "A part of the Cologne site, denoted as a production complex, is\nchosen to illustrate the application of the methods. The number of\nplants in this case study is limited to three in order to be able to present\nthe results in a transparent fashion.",
+        "page": 7,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Integrated chemical production complex of three plants (ammonia, acrylonitrile, propylene oxide) aggregated to site level",
+        "evidence_quote": "The three production plants that are considered in this section are\nthe ammonia plant (NH3), the acrylonitrile plant (AN) and the propy-\nlene oxide (POX) plant.",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "The methods are used at the INEOS site in Cologne with over 20\ninteracting processing plants to monitor and report the site energy\nperformance.",
+        "page": 11,
+        "support_class": "direct statement"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the EnPI of the aggregated site",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "date",
+              "month"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "date",
+              "month"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Aggregated automatically from the plant-level best-demonstrated-practice baselines (bottom-up aggregation)",
+            "evidence_quote": "energy baseline models on higher hierarchical layers are generated\nautomatically by aggregation",
+            "page": 10,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "aggregation equations Eq. (23), Eq. (24)",
+            "site EnPI definition Eq. (28)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In this contribution, the EnPIEi\nwith respect to energy carrier Ei is defined as the sum of j inputs Ei j,\ndivided by the sum of product flows Pl.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Performance evaluation of the chemical site with respect to all carriers\nof energy",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "In this contribution, the EnPIEi\nwith respect to energy carrier Ei is defined as the sum of j inputs Ei j,\ndivided by the sum of product flows Pl.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "In this contribution, the EnPIEi\nwith respect to energy carrier Ei is defined as the sum of j inputs Ei j,\ndivided by the sum of product flows Pl.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "number of variables",
+                "factors"
+              ]
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool",
+                "MATLAB",
+                "Python"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "the plant utilization",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "the plant utilization or the ambient tem-\nperature",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "the ambient temperature",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "the plant utilization or the ambient tem-\nperature",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "the product mix",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "e.g. of the ambient\ntemperature, the product mix or the utilization.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 12,
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "of the Cologne site, but have been modified due to confidentiality\nreasons.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The electric power and\nsteam demands are covered by imports from the grid.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "steam",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "These flows do not cross the system boundary and\nthus are not considered as products of the aggregated RMU.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement",
+                "natural gas metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted. The baseline on higher layers is adapted automatically by\naggregation.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted. The baseline on higher layers is adapted automatically by\naggregation.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "modification of a process on the lowest hierarchical layer",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "operating range",
+                "envelope",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "goodness of fit",
+                  "RMSE",
+                  "residual"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation",
+                  "hold-out",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation design",
+                  "hold-out",
+                  "test period"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "the contribution of\nthis plant to the OIP of the site decreases from over 60kg\n/t\nCO2\nto 0 for\nmonths 9–12.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction of propylene oxide plant contribution to the site CO2 operational improvement potential",
+                  "value": "over 60 to 0",
+                  "unit": "kg CO2/t",
+                  "period_or_context": "months 9–12 (after energy efficiency project)",
+                  "evidence_quote": "the contribution of\nthis plant to the OIP of the site decreases from over 60kg\n/t\nCO2\nto 0 for\nmonths 9–12.",
+                  "page": 10,
+                  "support_class": "requires inference"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "a performance model (energy baseline) for each unit on the lowest hierarchical layer",
+            "process data for the chosen evaluation period",
+            "definition of system boundaries, aggregation hierarchy and resource currencies"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "EnB (BDP) model of the ammonia plant (NH3)",
+          "baseline_construction_method": {
+            "value": "Best-Demonstrated Practice (BDP), obtained by fitting a model to historical process data or a simulation model; models known and used as EnBs in the example",
+            "evidence_quote": "The BDP models for each production plant are\nknown and used as the energy baselines (EnBs).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "EnB_S,NH3 with intercept 2 GJ/t and coefficients on load and ambient temperature (Eq. A.1)",
+            "EnB_EP,NH3 (Eq. A.2)",
+            "EnB_NG,NH3 (Eq. A.3)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The reference specific energy\nconsumptions of the plants are defined as the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam",
+                "electricity",
+                "natural gas"
+              ],
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The concept is compatible with the\nusage of different types of baseline models, e.g. linear regression or\nartificial neural networks, in one system",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "fitted",
+                "regression method"
+              ]
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "variable selection",
+                "stepwise",
+                "significance"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production rates of the plants",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Ambient temperature",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "of the Cologne site, but have been modified due to confidentiality\nreasons.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement",
+                "natural gas metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "modification of a process on the lowest hierarchical layer",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "for production rates P > 0 (EnB(P=0)=0)",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "goodness of fit",
+                  "RMSE"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation design"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "EnB (BDP) model of the acrylonitrile plant (AN)",
+          "baseline_construction_method": {
+            "value": "Best-Demonstrated Practice (BDP) models known and used as energy baselines",
+            "evidence_quote": "The BDP models for each production plant are\nknown and used as the energy baselines (EnBs).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "EnB_S,AN with a squared load term (Eq. A.4)",
+            "EnB_EP,AN with a squared load term (Eq. A.5)",
+            "EnB_NG,AN = 0 (Eq. A.6)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The reference specific energy\nconsumptions of the plants are defined as the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam",
+                "electricity"
+              ],
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The concept is compatible with the\nusage of different types of baseline models, e.g. linear regression or\nartificial neural networks, in one system",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "least squares",
+                "fitted",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "variable selection",
+                "stepwise"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production rates of the plants",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "of the Cologne site, but have been modified due to confidentiality\nreasons.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement",
+                "steam metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "for production rates P > 0",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation design"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "EnB (BDP) model of the propylene oxide (POX) plant",
+          "baseline_construction_method": {
+            "value": "Best-Demonstrated Practice (BDP) models known and used as energy baselines",
+            "evidence_quote": "The BDP models for each production plant are\nknown and used as the energy baselines (EnBs).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "EnB_S,POX with a squared load term and ambient temperature term (Eq. A.7)",
+            "EnB_EP,POX with a squared load term (Eq. A.8)",
+            "EnB_NG,POX = 0 (Eq. A.9)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The reference specific energy\nconsumptions of the plants are defined as the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam",
+                "electricity"
+              ],
+              "evidence_quote": "This pro-\ncess is highly energy intensive and consumes large amounts of steam.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "Steam consumption in GJ/t",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The concept is compatible with the\nusage of different types of baseline models, e.g. linear regression or\nartificial neural networks, in one system",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "least squares",
+                "fitted",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "variable selection",
+                "stepwise"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "production rates of the plants",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Ambient temperature",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "Ambient temperature and production rates of the plants in t/h.",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "In the example, monthly values of the energy consumption and of\nthe efficiency of the plants and the complex are computed.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the best-demonstrated\npractice at the mean utilization of each plant and the mean temperature\nof the evaluated year",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "of the Cologne site, but have been modified due to confidentiality\nreasons.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measurement",
+                "steam metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "In case of a modification of a process on the lowest\nhierarchical layer, only the corresponding energy baseline has to be\nadapted.",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "for production rates P > 0",
+              "evidence_quote": "EnB models for the plants with respect to steam (S), electricity (EP) and\nnatural gas (NG) for production rates",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation design"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The OIP with\nrespect to steam is lowered for the propylene oxide plant from month 9\non as the energy efficiency project is conducted in this month.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "steam operational improvement potential of the POX plant lowered following the energy efficiency project",
+                  "value": "lowered to 0.00 GJ/t from month 9",
+                  "unit": "GJ/t",
+                  "period_or_context": "months 9–12",
+                  "evidence_quote": "The OIP with\nrespect to steam is lowered for the propylene oxide plant from month 9\non as the energy efficiency project is conducted in this month.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "The setup of this example is a part of the petrochemical production\nsite of INEOS in Cologne",
+        "page": 7,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "the definition of system boundaries\nand assumptions used for the evaluation often vary which hinders the\ncomparison of SECs taken from different studies.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "One of the difficulties\noccurs for integrated processes as a clear allocation of the energy\nconsumption to specific production steps or products is not possible.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "multi-product allocation"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The\ncontributors to this deviation are not identified by the model and thus are\nunknown unless additional process knowledge is incorporated.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "One es-\nsential requirement for the evaluation is the correction of these indicators and the corresponding baselines by the\ninfluences of external static or dynamic factors, e.g. the ambient conditions, the product spectrum or the plant\nload.",
+      "page": 1,
+      "support_class": "direct statement",
+      "mechanism_cause": "ambient conditions",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "It\nhas been shown that seasonal effects, e.g. the utilization or the ambient\ntemperature, can have a strong impact on the absolute value of the\nenergy intensity of an integrated production site",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "ambient conditions",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "The energy consumption of a single product in a multi-product\nprocess can only be determined by incorporating additional process\nknowledge.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "multi-product allocation"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "hierarchical bottom-up aggregation of process-level energy performance indicators and baselines to site/company level",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "an aggregation method is proposed to exploit the analysis of the factors on lower hierarchical\nlayers for the evaluation of the performance of an aggregated domain.",
+      "page": 1,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K5",
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "splitting the perfor-\nmance of the plants and of the site into contributions of influenceable\nand non-influenceable factors.",
+      "page": 11,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "use of different baseline model types (linear regression or artificial neural networks) within one aggregation system",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "The concept is compatible with the\nusage of different types of baseline models, e.g. linear regression or\nartificial neural networks, in one system",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The number of\nplants in this case study is limited to three in order to be able to present\nthe results in a transparent fashion.",
+      "page": 7
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "of the Cologne site, but have been modified due to confidentiality\nreasons.",
+      "page": 8
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "lack of resources and knowledge for defining accurate KPIs suitable for energy managers and operators",
+      "evidence_quote": "The lack of resources and knowledge are identified as a\nmajor barrier for the implementation of KPIs as the definition of ac-\ncurate KPIs suitable for energy managers and operators is difficult and\ntime consuming.",
+      "page": 3
+    },
+    {
+      "barrier": "high modelling effort required, questionable willingness of a company to invest it only to compute energy baselines",
+      "evidence_quote": "it is questionable if a company is willing to\ninvest the required modeling effort only to calculate energy baselines\nfor the processes.",
+      "page": 3
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "With the given data sets the results presented in this contribution are\nrepeatable (see Tables A.1–A.3).",
+      "page": 12,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "With the given data sets the results presented in this contribution are\nrepeatable (see Tables A.1–A.3).",
+      "page": 12,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "yes",
+      "evidence_quote": "With the given data sets the results presented in this contribution are\nrepeatable (see Tables A.1–A.3).",
+      "page": 12,
+      "support_class": "direct statement"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "software availability",
+        "GitHub"
+      ]
+    }
+  },
+  "reviewer_notes": "This is primarily a methodology paper proposing a hierarchical aggregation method for EnPIs/EnBs, demonstrated on a semi-synthetic example (numerical values modified for confidentiality) based on the INEOS Cologne petrochemical site. M1 is the aggregated site-level EnPI/BDP model; M2–M4 are the plant-level Best-Demonstrated-Practice baseline models (ammonia, acrylonitrile, propylene oxide). Each plant model carries three energy-carrier equations (steam, electricity, natural gas); these were kept as one model per plant rather than split per carrier. Plant baseline equations are given in Appendix A but the payload text is heavily garbled, so functional form (linear for NH3; quadratic terms for AN and POX) and the P>0 validity domain are recorded with requires-inference support. The event-triggered re-estimation regime reflects the paper's stated capability to adapt baselines on process modification; it is recorded as proposed since no coefficient re-estimation is shown in the example.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "difficulty",
+        "not possible",
+        "allocation",
+        "boundary",
+        "influence",
+        "factor",
+        "drift",
+        "comparison"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "aggregation",
+        "correction",
+        "normalisation",
+        "baseline model",
+        "adapt",
+        "segment"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limited",
+        "confidentiality",
+        "modified",
+        "case study",
+        "scope",
+        "three plants"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "resources",
+        "knowledge",
+        "effort",
+        "willing",
+        "gap"
+      ]
+    }
+  },
+  "attempt": 1
+}

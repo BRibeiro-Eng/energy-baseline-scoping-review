@@ -1,0 +1,937 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536501",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 11,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "aluminum industry",
+        "evidence_quote": "propose an analytical framework combining an enhanced DEA\nmethod with the LCA to evaluate a group of energy-saving tech-\nnological routes for the complete supply chain for the aluminum\nindustry in China.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "China",
+        "evidence_quote": "This is particularly true for\nChina, because coal-ﬁred power generation dominates China’s\nelectricity supply.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "This paper addresses the issue of evaluating energy-saving\ntechnological combinations in three stages of the complete sup-\nply chain",
+        "page": 9,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Evaluation of 16 energy-saving technological combinations across the complete aluminum production supply chain (power generation, electrolytic anodes, aluminum supply modes), per 1 ton of aluminum, using LCA + DEA.",
+        "evidence_quote": "This paper addresses the issue of evaluating energy-saving\ntechnological combinations in three stages of the complete sup-\nply chain\n(i.e.,\nelectricity\ngeneration,\nelectrolytic\nanodes,\nand\naluminum supply modes).",
+        "page": 9,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "propose an analytical framework combining an enhanced DEA\nmethod with the LCA to evaluate a group of energy-saving tech-\nnological routes for the complete supply chain for the aluminum\nindustry in China.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "EPI model (energy performance indicator)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "The EPI model only considers energy input and desirable output.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "data envelopment analysis"
+              ],
+              "evidence_quote": "This paper establishes three DEA models for efﬁciency assess-\nment under different sets of input and output indicators.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "linear programming",
+              "evidence_quote": "The following linear programming model is obtained:",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "The input index does not consider\nalumina because different power generation technologies, anodes,\nand raw material supply modes included in this paper have little\neffect on the conversion of alumina.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "fossil energy input"
+            },
+            {
+              "verbatim": "non-fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "non-fossil energy input"
+            },
+            {
+              "verbatim": "product price",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "product price (desirable output)"
+            },
+            {
+              "verbatim": "alumina",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "The input index does not consider\nalumina because different power generation technologies, anodes,\nand raw material supply modes included in this paper have little\neffect on the conversion of alumina.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "raw material input (alumina)"
+            },
+            {
+              "verbatim": "aluminum products",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "Similarly, the output index\ndoes not include aluminum products.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "product output (aluminum products)"
+            },
+            {
+              "verbatim": "NOx",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "However, NOx is not included in the analysis, because the coal used\nfor power generation in China normally comprises a high amount of\nsulfur and low amount of nitrogen, which signiﬁcantly reduces its",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "pollutant emission (NOx)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly",
+                "monthly",
+                "annual",
+                "data collection"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Table 1 shows the input and output data for producing 1 ton of\naluminum by each decision-making unit (DMU).",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "Therefore, 16 tech-\nnical schemes can be obtained (Fig. 2).",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "fossil fuels"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "non-fossil fuels"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "baseline",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy saving",
+                  "% saved",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "UEPI model (energy performance indicator with undesirable output)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "The UEPI model considers energy input, desirable outputs, and\nundesirable outputs.",
+              "page": 7,
+              "support_class": "direct statement",
+              "other_verbatim": "energy performance indicator with undesirable output (efficiency incorporating CO2 and SOx emissions)"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "data envelopment analysis"
+              ],
+              "evidence_quote": "This paper establishes three DEA models for efﬁciency assess-\nment under different sets of input and output indicators.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "linear programming",
+              "evidence_quote": "The following linear programming model is obtained:",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "The input index does not consider\nalumina because different power generation technologies, anodes,\nand raw material supply modes included in this paper have little\neffect on the conversion of alumina.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "fossil energy input"
+            },
+            {
+              "verbatim": "non-fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "non-fossil energy input"
+            },
+            {
+              "verbatim": "product price",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "product price (desirable output)"
+            },
+            {
+              "verbatim": "CO2",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "undesirable output (CO2 emissions)"
+            },
+            {
+              "verbatim": "SOx",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "undesirable output (SOx emissions)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly",
+                "monthly"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Table 1 shows the input and output data for producing 1 ton of\naluminum by each decision-making unit (DMU).",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "Therefore, 16 tech-\nnical schemes can be obtained (Fig. 2).",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "fossil fuels"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "non-fossil fuels"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy saving",
+                  "% saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "TPI model (total performance indicator)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "The TPI model is developed for the overall inputeoutput efﬁ-\nciency.",
+              "page": 7,
+              "support_class": "direct statement",
+              "other_verbatim": "total performance indicator (overall input–output efficiency including energy, water and cost)"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "data envelopment analysis"
+              ],
+              "evidence_quote": "This paper establishes three DEA models for efﬁciency assess-\nment under different sets of input and output indicators.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "linear programming",
+              "evidence_quote": "The following linear programming model is obtained:",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "The input index does not consider\nalumina because different power generation technologies, anodes,\nand raw material supply modes included in this paper have little\neffect on the conversion of alumina.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "fossil energy input"
+            },
+            {
+              "verbatim": "non-fossil fuels (MJ)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "CO2 (ton), SOx (kg), fossil fuels (MJ), non-fossil\nfuels (MJ), and water (ton) are used as input variables in the DEA\nmodel.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "non-fossil energy input"
+            },
+            {
+              "verbatim": "water",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Input indicators in this model include water, fossil energy,\nnonfossil energy, and cost.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "water consumption input"
+            },
+            {
+              "verbatim": "cost",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Input indicators in this model include water, fossil energy,\nnonfossil energy, and cost.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "cost input"
+            },
+            {
+              "verbatim": "product price",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "product price (desirable output)"
+            },
+            {
+              "verbatim": "CO2",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "undesirable output (CO2 emissions)"
+            },
+            {
+              "verbatim": "SOx",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Desirable output only in-\ncludes product price, whereas undesirable outputs include CO2 and\nSOx, which are the two largest types of emissions in all undesirable\noutputs.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "undesirable output (SOx emissions)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "monthly",
+                "annual"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Table 1 shows the input and output data for producing 1 ton of\naluminum by each decision-making unit (DMU).",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "Therefore, 16 tech-\nnical schemes can be obtained (Fig. 2).",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "fossil fuels"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "simulation",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The data in Table 1 are calculated using the reference data pri-\nmarily from the Greeting software,",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "non-fossil fuels"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy saving",
+                  "% saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "Aluminum produc-\ntion is one of the most energy-intensive industrial sectors (Chen\nand Graedel, 2012).",
+        "page": 1,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Figs. 4e6 show that many calculated values of CCR model are close\nto 1, so it is difﬁcult to rank by radar charts intuitively.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "CCR/DEA efficiency scores cluster near 1, so the model cannot discriminate and rank DMUs"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "primarily because energy input comprises fossil and\nnonfossil energy; however, the model cannot distinguish between\nthe two energy sources.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "EPI model aggregates energy and cannot distinguish fossil from non-fossil energy sources, distorting the efficiency ranking"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "weighted estimation",
+      "adaptation_other_verbatim": "SBM-DEA model setting preference weights for inputs and outputs",
+      "status": "proposed",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "To solve the problem, the\nSBM-DEA model are proposed, which set different preference\nweights for input and output, and the sorting results are more\ndistinct (Lozano and Gutierrez, 2011).",
+      "page": 9,
+      "support_class": "direct statement",
+      "refers_to": "paper-level argument"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The weight needs expert scoring, questionnaire\nsurvey in many ways beyond this study.",
+      "page": 2
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Adoption of energy-saving technologies requires enhanced organisational management systems and a performance-based reward/punishment system that are not currently in place.",
+      "evidence_quote": "Organizational management systems\nmust be enhanced, and an effective system of reward and punish-\nment based on the performance must be developed.",
+      "page": 10
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "In this method, relative efﬁciency is expressed\nusing Eq. (1). Efﬁciency is generally limited to [0,1].",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "weight",
+        "coefficient",
+        "optimal solution"
+      ]
+    },
+    "data_available": {
+      "value": "yes",
+      "evidence_quote": "Table 1 shows the input and output data for producing 1 ton of\naluminum by each decision-making unit (DMU).",
+      "page": 5,
+      "support_class": "direct statement"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "repository",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a scenario-based LCA+DEA technology assessment, not a fitted statistical energy performance model. The three 'models' (EPI, UEPI, TPI) are CCR-DEA efficiency formulations differing only in which input/output indicators enter (Table 2). DEA has no dependent variable in the regression sense, no goodness-of-fit or out-of-sample validation, and no fixed coefficients (weights are computed endogenously per DMU); these are coded not applicable / not reported accordingly. C3 'role' does not map cleanly to DEA — all inputs and outputs were coded 'predictor' since they jointly determine the efficiency score; excluded variables (alumina, aluminum products, NOx) recorded on M1. Data are LCA figures per 1 ton aluminum, calculated primarily from GREET software (coded data_type simulation). Scale coded 'facility' by inference; the actual scope is a whole aluminum production supply chain (power generation + electrolysis + processing) for which no exact scale enum exists. Sector 'steel and primary metals' is inferred (aluminum is a primary/nonferrous metal).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "cannot distinguish",
+        "shortcoming",
+        "close to 1",
+        "limitation",
+        "drift"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "SBM-DEA",
+        "preference weight",
+        "next research plan",
+        "propose"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "beyond this study",
+        "limitation",
+        "future research",
+        "assumed"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "management",
+        "adoption",
+        "barrier",
+        "policy",
+        "organization"
+      ]
+    }
+  },
+  "attempt": 1
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535412",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:25:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The purpose of this study is to evaluate the main indicators of energy performance management systems. In this way, a new model is proposed to make a priority analysis for the hospitals.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Decision-support prioritisation model; no EnPI/EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The most significant methodological novelty of this study is proposing a new technique to the literature named RATGOS.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper ranks ISO 50006-derived management indicators and G7 countries via fuzzy MCDM; it does not model or normalise organisational energy use."
+  },
+  "stage2": null,
+  "stage3": null
+}

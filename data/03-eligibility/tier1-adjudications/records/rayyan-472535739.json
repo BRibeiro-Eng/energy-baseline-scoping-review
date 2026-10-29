@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": false,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472535739",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Kimura, O. and Noda, F.",
+    "rayyan_decision": "Maybe",
+    "source": "Eceee Industrial Summer Study Proceedings",
+    "title": "Does regulation of energy management systems work? A case study of the energy conservation law in Japan",
+    "year": 2014
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "not_reported_after_full_text_review",
+      "quote": null,
+      "page": null,
+      "rule": "§5.3: nenhuma aplicacao/validacao num setor continuo listado. Setores da lista aparecem so como as quatro industrias-benchmark da lei e como citacoes de entrevista de uma linha. O caso aprofundado e manufatura discreta (forjagem), fora de ambito."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

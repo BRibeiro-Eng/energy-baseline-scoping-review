@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535758",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:40:06Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "We also developed the method of energy-economic analysis of enterprise activity which can be used in analysis within framework of energy management system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The available text names an energy-economic analysis method but does not identify what is measured or normalised, its variables, functional form, or construction approach.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "We also developed the method of energy-economic analysis of enterprise activity which can be used in analysis within framework of energy management system.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The available PDF is an abstract-only preview; no EnPI/EnB measurement model can be characterised from its extractable text."
+  },
+  "stage2": null,
+  "stage3": null
+}

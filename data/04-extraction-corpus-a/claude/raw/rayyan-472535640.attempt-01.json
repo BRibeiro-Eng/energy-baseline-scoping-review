@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535640",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:19:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "KOC has established the Energy Performance Indicators (EnPIs) for each of the process units and specific KPIs has been identified to monitor and control the energy performance.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "KOC undertaken a pilot study consisting of three process units and two main buildings.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "is involved in exploration, drilling and production of oil and gas",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "notes": "Upstream oil & gas E&P (KOC): gathering centre, booster station, effluent plant + 2 office buildings. Not refining/petrochemicals, so outside closed level_3b list; flag for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "opportunities in the five selected pilot sites",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Kuwait",
+      "evidence_quote": "headquartered in Ahmadi, Kuwait",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "oil and gas",
+      "evidence_quote": "is involved in exploration, drilling and production of oil and gas",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "is involved in exploration, drilling and production of oil and gas",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "ISO 50001 Energy Management System (EnMS)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": ["SEC mean"],
+      "evidence_quote": [
+        "Baseline Data Including Energy Performance Indicators (EnPIs)",
+        "kWh/MBOE"
+      ],
+      "page": [3, 3],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

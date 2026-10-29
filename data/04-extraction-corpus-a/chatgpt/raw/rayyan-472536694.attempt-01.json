@@ -1,0 +1,289 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536694",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:08:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The cement EPI model is an ordinary least squares (OLS) regression of the natural log of total source energy, natural log of capacity, natural log of labor, and several operating ratios.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The final data set included data for approximately 96 plants over a 9-year period, for a total of 862 plant-year observations.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This paper presents an approach used by ENERGY STAR to implement manufacturing plant energy benchmarking for the cement industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Industry-wide plant-level benchmark fitted to 96 US cement plants; the applied sector is explicitly cement."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The final data set included data for approximately 96 plants over a 9-year period, for a total of 862 plant-year observations.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "US",
+      "evidence_quote": "Measuring improvement in energy efficiency of the US cement industry with the ENERGY STAR Energy Performance Indicator",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "cement manufacturing industry",
+      "evidence_quote": "The first EPI for the cement manufacturing industry was released in 2006",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Cement manufacturing is an energy-intensive process that requires significant thermal energy to decarbonize limestone, the primary raw material, into clinker, the primary component of cement.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "The independent variables include the natural logarithm of producing clinker capacity, the natural logarithm of labor usage, wet kiln ratio, clinker-to-cement ratio, clinker-to-capacity ratio, squared clinker-to-capacity ratio, interaction between the logarithm of average capacity and 2 kilns dummy, and interaction between the logarithm of average capacity and 3 and more kilns dummy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "natural logarithm of producing clinker capacity",
+        "natural logarithm of labor usage",
+        "wet kiln ratio",
+        "clinker-to-cement ratio",
+        "clinker-to-capacity ratio",
+        "squared clinker-to-capacity ratio",
+        "interaction between the logarithm of average capacity and 2 kilns dummy",
+        "interaction between the logarithm of average capacity and 3 and more kilns dummy"
+      ],
+      "evidence_quote": "The independent variables include the natural logarithm of producing clinker capacity, the natural logarithm of labor usage, wet kiln ratio, clinker-to-cement ratio, clinker-to-capacity ratio, squared clinker-to-capacity ratio, interaction between the logarithm of average capacity and 2 kilns dummy, and interaction between the logarithm of average capacity and 3 and more kilns dummy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "2000",
+      "evidence_quote": "All data are on an annual basis for an individual plant i in year t02000–2008.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_period_end": {
+      "value": "2008",
+      "evidence_quote": "All data are on an annual basis for an individual plant i in year t02000–2008.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_construction_method": {
+      "value": "An ordinary least squares regression models the natural log of total source energy using capacity, labor, and several operating ratios.",
+      "evidence_quote": "The cement EPI model is an ordinary least squares (OLS) regression of the natural log of total source energy, natural log of capacity, natural log of labor, and several operating ratios.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Adjusted R2 0.9273",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Throughout this paper, we consider the relevant entity to be the entire plant.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "US cement plants",
+      "evidence_quote": "To develop an EPI for US cement plants, EPA engaged cement manufacturers with plants in the USA",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the error variance, σ2, is not constant, but a function of some other variable. When the error variance is not constant, the error term is called heteroscedastic.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the error variance, σ2, is not constant, but a function of some other variable. When the error variance is not constant, the error term is called heteroscedastic.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "For purposes of representing the error variance for plants of different sizes, the squared residuals were regressed against the inverse of the average capacity without an intercept",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "For purposes of representing the error variance for plants of different sizes, the squared residuals were regressed against the inverse of the average capacity without an intercept",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "For purposes of representing the error variance for plants of different sizes, the squared residuals were regressed against the inverse of the average capacity without an intercept",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "This paper presents an approach used by ENERGY STAR to implement manufacturing plant energy benchmarking for the cement industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "All data are on an annual basis for an individual plant i in year t02000–2008.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "ln (capacity) coefficient: 0.7918",
+        "ln (labor) coefficient: 0.1276",
+        "Wet kiln ratio coefficient: 0.2028",
+        "Clinker-to-cement ratio coefficient: −0.1613",
+        "Clinker-to-capacity ratio coefficient: 2.2051",
+        "Squared clinker-to-capacity ratio coefficient: −0.6925",
+        "Interaction between ln(avercap) and 2 kilns dummy coefficient: 0.0083",
+        "Interaction between ln(avercap) and 3 and more kilns dummy coefficient: 0.0133",
+        "Constant: 16.1910",
+        "error-variance capacity coefficient β: 0.00346"
+      ],
+      "evidence_quote": [
+        "The coefficient for β was 0.00346 and was significant at the 99 % confidence level.",
+        "Table 2 Regression results—updated EPI Variable Coefficient Standard error t statistical ratio ln (capacity) 0.7918 0.0129 61.2300 ln (labor) 0.1276 0.0191 6.6900 Wet kiln ratio 0.2028 0.0105 19.3500 Clinker-to-cement ratio −0.1613 0.0369 −4.3800 Clinker-to-capacity ratio 2.2051 0.2367 9.3200 Squared clinker-to-capacity ratio −0.6925 0.1465 −4.7300 Interaction between ln(avercap) and 2 kilns dummy 0.0083 0.0007 11.3500 Interaction between ln(avercap) and 3 and more kilns dummy 0.0133 0.0009 14.1700 Constant 16.1910 0.1594 101.6000"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "adjusted R²",
+          "value": "0.9273",
+          "unit": null,
+          "period_or_context": "updated EPI",
+          "evidence_quote": "Adjusted R2 0.9273",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Adjusted R2 0.9273",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of information regarding economic potential for lower energy use",
+        "proprietary plant benchmarking data arising from competitiveness issues among companies"
+      ],
+      "evidence_quote": [
+        "It is the lack of information regarding economic potential for lower energy use that is the focus here.",
+        "Because of competitiveness issues among companies, the data necessary for benchmarking industrial energy efficiency were usually considered proprietary"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    }
+  }
+}

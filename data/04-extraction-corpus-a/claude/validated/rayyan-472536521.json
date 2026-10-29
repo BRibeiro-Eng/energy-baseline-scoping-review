@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536521",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T18:20:49+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The aim of this paper was to perform a detailed analysis of absorption systems to upgrade industrial waste heat to appropriate conditions for its transport at long distances using an absorption heat transformer and use it in distribution district heating networks to supply heat or heat and cooling simultaneously to the connected buildings using an absorption heat pump.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Thermodynamic design/simulation study (steady-state EES model) of absorption-system configurations for recovering, upgrading and transporting industrial waste heat to urban district heating/cooling networks. It evaluates thermodynamic figures of merit (COP, temperature lift, equivalent electricity saving, exergetic efficiency, avoided GHG) to compare candidate system designs; it does not present, propose, evaluate or critique an ISO 50006-type EnPI/EnB energy-performance measurement/normalisation model (no energy baseline, no relevant/normalisation variables, no ISO 50001/50006 framing or M&V).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "We developed and simulated six complete system configurations using the software Engineering Equation Solver (EES)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "BORDERLINE eligibility call for human adjudication: paper uses 'energy performance indicators' but these are thermodynamic figures of merit (COP, EqES, exergetic efficiency) for absorption-system design comparison, not ISO 50006 EnPI/EnB measurement models -> judged ineligible on model-scope grounds. level_3b false regardless: the paper's own case is the waste-heat transport/DHC infrastructure, not an EnPI/EnB model in a closed continuous-process facility."
+  },
+  "stage2": null,
+  "stage3": null
+}

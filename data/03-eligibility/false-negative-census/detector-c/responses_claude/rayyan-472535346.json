@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472535346",
+  "listed_sector_signals": [
+    {
+      "signal": "Literature-review mention of a wastewater/solar/carbon-capture study set in the steel industry (primary-metals production)",
+      "quote": "solar-based energy generation, and car­\nbon capture in the steel industry.",
+      "page": 2,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Literature-review mention of polygeneration including ammonia production at a WWTP-based study",
+      "quote": "including green \nhydrogen and ammonia production.",
+      "page": 2,
+      "sector": "continuous chemical production (ammonia)"
+    },
+    {
+      "signal": "Literature-review mention of green/electrolytic hydrogen production",
+      "quote": "including green \nhydrogen and ammonia production.",
+      "page": 2,
+      "sector": "industrial gases (hydrogen)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Reference to energy generated from wastewater cogeneration at Steinhof WWTP",
+      "quote": "energy is \ngenerated from \nwastewater \ncogeneration",
+      "page": 11,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Continuous 24/7 wastewater treatment operation (water utility, out of Corpus B scope)",
+      "quote": "treats around 25,000 cubic \nmeters of wastewater (both domestic and industrial) per day (m3/d)",
+      "page": 6,
+      "sector": "wastewater treatment (continuous water utility)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and applies the Water-Energy Nexus Tool (WENT) to assess energy consumption, emissions, energy recovery, and renewable integration at three municipal wastewater treatment plants; listed-sector references (steel, ammonia, hydrogen) appear only in the literature review."
+}

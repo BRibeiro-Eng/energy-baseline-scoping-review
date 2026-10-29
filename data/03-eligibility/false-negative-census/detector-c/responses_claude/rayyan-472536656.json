@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472536656",
+  "listed_sector_signals": [
+    {
+      "signal": "Survey sample includes a chemicals and chemical products sector, but no evidence it refers specifically to continuous-flow petrochemical production (batch vs. continuous not distinguished)",
+      "quote": "19% came from\nthe chemicals and chemical products sector; 19% came from the\nbasic metal and fabricated metal products sector",
+      "page": 4,
+      "sector": "petrochemicals / continuous chemical production"
+    },
+    {
+      "signal": "Survey sample includes a basic metal (primary-metal) products sector, mentioned only within a broad manufacturing survey",
+      "quote": "19% came from the\nbasic metal and fabricated metal products sector",
+      "page": 4,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Bibliographic reference to a study of the Swedish iron and steel industry",
+      "quote": "Empirical investigation of barriers\nand drivers to the adoption of energy conservation measures, energy man-\nagement practices and energy services in the Swedish iron and steel industry.",
+      "page": 10,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Bibliographic reference to a study of the Swedish pulp and paper industry",
+      "quote": "An energy efﬁcient Swedish pulp and paper in-\ndustry e exploring barriers to and driving forces for cost-effective energy ef-\nﬁciency investments.",
+      "page": 11,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "General statement about plants that run continuously and the risk of stopping a continuous production line, used as generic hypothesis rationale rather than tied to a specific continuous-flow sector",
+      "quote": "Implementing energy efﬁciency projects implies stopping a\nplant that may run continuously except for periodic maintenance\nshutdowns, which is problematic in most cases. The rationale for\nthis is that stopping a continuous production line entails sub-\nstantial technical risks",
+      "page": 4,
+      "sector": "generic continuous production"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A survey-based study applying Motivation-Opportunity-Ability theory to explain energy efficiency barriers across a broad mix of Singapore manufacturing firms (machinery, chemicals, metals, electronics, food & beverage), not focused on any specific continuous-flow production process."
+}

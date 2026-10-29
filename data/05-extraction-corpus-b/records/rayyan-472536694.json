@@ -1,0 +1,1158 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536694",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 12,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "cement manufacturing",
+        "evidence_quote": "implement manufacturing plant energy benchmarking\nfor the cement industry.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "United States",
+        "evidence_quote": "Measuring improvement in energy efficiency of the US\ncement industry with the ENERGY STAR Energy\nPerformance Indicator",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The final data set\nincluded data for approximately 96 plants over a 9-\nyear period, for a total of 862 plant-year observations",
+        "page": 6,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "A plant-level statistical benchmark (Energy Performance Indicator) of whole-plant energy use across the US cement manufacturing industry",
+        "evidence_quote": "The EPI is a statistical model of plant-level energy use\nthat enables comparison across sites with different\nlevels and types of production-related activities that\ninfluence energy use.",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "implement manufacturing plant energy benchmarking\nfor the cement industry.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the updated EPI / new model (Eq. (1))",
+          "baseline_period_start": {
+            "value": "2000",
+            "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2008",
+            "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "OLS regression of the natural log of total source energy on log capacity, log labor and several operating ratios",
+            "evidence_quote": "The cement EPI model is an ordinary least squares\n(OLS) regression of the natural log of total source\nenergy, natural log of capacity, natural log of labor,\nand several operating ratios.",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "ln(capacity) coefficient = 0.7918",
+            "ln(labor) = 0.1276",
+            "Wet kiln ratio = 0.2028",
+            "Clinker-to-cement ratio = −0.1613",
+            "Clinker-to-capacity ratio = 2.2051",
+            "Squared clinker-to-capacity ratio = −0.6925",
+            "Interaction ln(avercap) and 2 kilns dummy = 0.0083",
+            "Interaction ln(avercap) and 3 and more kilns dummy = 0.0133",
+            "Constant = 16.1910",
+            "Adjusted R2 = 0.9273",
+            "σ2 = 0.0127"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "The dependent vari-\nable is the natural logarithm of total energy usage for\nplant i in year t.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Energy is defined as total\nsource energy; the sum of all combustible forms of\nenergy at higher heating value and electricity use con-\nverted at 11,988 kJ/kWh",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "The dependent vari-\nable is the natural logarithm of total energy usage for\nplant i in year t.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "gigajoules (Gj)",
+              "evidence_quote": "energy reported in gigajoules.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The cement EPI model is an ordinary least squares\n(OLS) regression of the natural log of total source\nenergy",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "The cement EPI model is an ordinary least squares\n(OLS) regression of the natural log of total source\nenergy",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Several versions of the statistical model were\nestimated and provided to the representatives of cement\ncompanies for comments",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "The independent variables include the\nnatural logarithm of producing clinker capacity, the\nnatural logarithm of labor usage, wet kiln ratio,\nclinker-to-cement ratio, clinker-to-capacity ratio,\nsquared clinker-to-capacity ratio, interaction between\nthe logarithm of average capacity and 2 kilns dummy,\nand interaction between the logarithm of average ca-\npacity and 3 and more kilns dummy.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "SAS",
+                "Stata",
+                "R"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "natural logarithm of producing clinker capacity",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "the\nnatural logarithm of producing clinker capacity",
+              "page": 7,
+              "support_class": "direct statement",
+              "type_other_verbatim": "clinker production capacity"
+            },
+            {
+              "verbatim": "natural logarithm of labor usage",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "natural logarithm of labor usage",
+              "page": 7,
+              "support_class": "direct statement",
+              "type_other_verbatim": "labor usage (person hours)"
+            },
+            {
+              "verbatim": "wet kiln ratio",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "wet kiln ratio",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "clinker-to-cement ratio",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "clinker-to-cement ratio",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "clinker-to-capacity ratio",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "clinker-to-capacity ratio",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "squared clinker-to-capacity ratio",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "squared clinker-to-capacity ratio",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "interaction between the logarithm of average capacity and 2 kilns dummy",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "interaction between\nthe logarithm of average capacity and 2 kilns dummy",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "interaction between the logarithm of average capacity and 3 and more kilns dummy",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "interaction between the logarithm of average ca-\npacity and 3 and more kilns dummy",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ASTM 4 and masonry (specialty) cements",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "ASTM 4 and masonry cements were found to\nhave higher energy use.",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 108,
+              "evidence_quote": "over a 9-\nyear period",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 862,
+              "evidence_quote": "for a total of 862 plant-year observations",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "The PCA U.S. and Canadian Labor-Energy Survey is\na proprietary annual survey of the members of PCA",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "metering",
+                "measured",
+                "invoice"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "If the industry improves over time, then the bench-\nmark is not representative of current industry perfor-\nmance, requiring periodic updates",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "EPA agreed to develop a new EPI based on new data\nand released it to the industry so further improvement\ncould be achieved.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "the industry improves over time so the benchmark is no longer representative of current performance",
+              "evidence_quote": "If the industry improves over time, then the bench-\nmark is not representative of current industry perfor-\nmance, requiring periodic updates",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Adjusted R2\n0.9273",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Adjusted R2",
+                  "value": "0.9273",
+                  "evidence_quote": "Adjusted R2\n0.9273",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "error variance (σ2)",
+                  "value": "0.0127",
+                  "evidence_quote": "The error variance in the new model12 is 0.0127",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test sample"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "Figure 2 shows the kernel density13 of residuals\nfrom different models in 2000, 2003, 2006, and\n2008.",
+                "page": 9,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "an almost 13 % reduction.",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction in total source energy",
+                  "value": "13",
+                  "unit": "%",
+                  "period_or_context": "1997 to 2008",
+                  "evidence_quote": "an almost 13 % reduction.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "annual CO2 emissions reduction",
+                  "value": "5.4 billion kg",
+                  "period_or_context": "energy-related carbon dioxide emissions",
+                  "evidence_quote": "an annual reduction of 5.4 billion kg of energy-related\nCO2 emissions.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "reduction in energy use",
+                  "value": "more than 68 million Gj",
+                  "evidence_quote": "this is a reduction of more than 68\nmillion Gj in energy use.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "plant-level data on total source energy, clinker-producing capacity, labor usage, number and type of kilns, and clinker and cement production"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "the original 1997 EPI / old model (Eq. (2))",
+          "baseline_period_start": {
+            "value": "1997",
+            "evidence_quote": "The data for this original\nbenchmark analysis are confidential, plant-level data\nfrom the 1997 Census of Manufacturing and 1998\nManufacturing Energy Consumption Survey",
+            "page": 5,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "1998",
+            "evidence_quote": "The data for this original\nbenchmark analysis are confidential, plant-level data\nfrom the 1997 Census of Manufacturing and 1998\nManufacturing Energy Consumption Survey",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "OLS log-linear regression of total energy (Eq. (2))",
+            "evidence_quote": "The original EPI was based on Eq. (2).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "error variance (σ2) = 0.0264",
+            "interquartile range ~20%"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Energy is defined as total\nsource energy; the sum of all combustible forms of\nenergy at higher heating value and electricity use con-\nverted at 11,988 kJ/kWh",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Energy is defined as total\nsource energy; the sum of all combustible forms of\nenergy at higher heating value and electricity use con-\nverted at 11,988 kJ/kWh",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "The original EPI was based on Eq. (2).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The original EPI was based on Eq. (2).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "The original EPI was based on Eq. (2).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Several versions of the statistical model were\nestimated and provided to the representatives of cement\ncompanies for comments",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 5,
+              "evidence_quote": "The original EPI was based on Eq. (2).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "ln capacity",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "b1 ln capacity",
+              "page": 8,
+              "support_class": "direct statement",
+              "type_other_verbatim": "clinker production capacity"
+            },
+            {
+              "verbatim": "ln kiln",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "b2 ln kiln",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ln labor",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "b3 ln labor",
+              "page": 8,
+              "support_class": "direct statement",
+              "type_other_verbatim": "labor usage"
+            },
+            {
+              "verbatim": "ln cement",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "b4 ln cement",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "wet kiln ratio",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "b5 weti;t",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "annual",
+                "monthly",
+                "frequency"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measured",
+                "Census",
+                "survey"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "If the industry improves over time, then the bench-\nmark is not representative of current industry perfor-\nmance, requiring periodic updates",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "EPA agreed to develop a new EPI based on new data\nand released it to the industry so further improvement\ncould be achieved.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "compared to 0.0264 in the old model.",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "error variance (σ2)",
+                  "value": "0.0264",
+                  "evidence_quote": "compared to 0.0264 in the old model.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "interquartile range",
+                  "value": "~20",
+                  "unit": "%",
+                  "evidence_quote": "The interquartile range is ~20 % for the\noriginal model and ~10 % for the new model.",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "reduction",
+                  "savings"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "1997 original EPI using new data (Table 3)",
+          "baseline_period_start": {
+            "value": "2000",
+            "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+            "page": 6,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2008",
+            "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+            "page": 6,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "original model form (Eq. (2)) fitted to the new 2000–2008 data",
+            "evidence_quote": "One way to assess which is more likely is to\nfit the old model (Eq. (2)) to the new data.",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "ln(capacity) = 0.1372",
+            "ln(kiln) = 0.1452",
+            "ln(labor) = 0.1055",
+            "ln(cement) = 0.6631",
+            "Wet kiln ratio = 0.2054",
+            "Constant = 17.4870",
+            "Adjusted R2 = 0.9114",
+            "Sigma = 0.0155"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Energy is defined as total\nsource energy; the sum of all combustible forms of\nenergy at higher heating value and electricity use con-\nverted at 11,988 kJ/kWh",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Energy is defined as total\nsource energy; the sum of all combustible forms of\nenergy at higher heating value and electricity use con-\nverted at 11,988 kJ/kWh",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "One way to assess which is more likely is to\nfit the old model (Eq. (2)) to the new data.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "fit the old model (Eq. (2)) to the new data.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "fit the old model (Eq. (2)) to the new data.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Several versions of the statistical model were\nestimated and provided to the representatives of cement\ncompanies for comments",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 5,
+              "evidence_quote": "fit the old model (Eq. (2)) to the new data.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "ln(capacity)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "ln(capacity)\n0.1372",
+              "page": 8,
+              "support_class": "direct statement",
+              "type_other_verbatim": "clinker production capacity"
+            },
+            {
+              "verbatim": "ln(kiln)",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "ln(kiln)\n0.1452",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ln(labor)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "ln(labor)\n0.1055",
+              "page": 8,
+              "support_class": "direct statement",
+              "type_other_verbatim": "labor usage"
+            },
+            {
+              "verbatim": "ln(cement)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "ln(cement)\n0.6631",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wet kiln ratio",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "Wet kiln ratio\n0.2054",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "All data are on an annual basis for an individual\nplant i in year t02000–2008.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 862,
+              "evidence_quote": "for a total of 862 plant-year observations",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "The PCA U.S. and Canadian Labor-Energy Survey is\na proprietary annual survey of the members of PCA",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "measured",
+                "survey"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimate",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Adjusted R2\n0.9114",
+                "page": 8,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Adjusted R2",
+                  "value": "0.9114",
+                  "evidence_quote": "Adjusted R2\n0.9114",
+                  "page": 8,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Sigma (error variance)",
+                  "value": "0.0155",
+                  "evidence_quote": "Sigma\n0.0155",
+                  "page": 8,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "implement manufacturing plant energy benchmarking\nfor the cement industry.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "When the error variance is not constant, the error term is\ncalled heteroscedastic.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "It was also\nobserved that the range of performance, represented\nby the residuals from the above regression, was wider\nfor small plants and narrower for large ones.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "statistical misspecification",
+      "cause_other_verbatim": "differences between large and small capacity plants (error variance a function of plant capacity)"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "If the industry improves over time, then the bench-\nmark is not representative of current industry perfor-\nmance, requiring periodic updates",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "baseline drift or expiry",
+      "cause_other_verbatim": "improvement in industry energy performance over time"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "A small number of data points were dropped because of\nmissing values and an erroneous plant result.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "It is also\npossible for plants to ship clinker for grinding\nelsewhere or grind cement from clinker produced\nat another plant.",
+      "page": 7,
+      "support_class": "requires inference",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Specialty cements can take additional energy to pro-\nduce.",
+      "page": 9,
+      "support_class": "requires inference",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "product-type (specialty cement) differences in energy use bias the benchmark unless adjusted for"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "modelling the error variance as a function of average kiln capacity (heteroscedastic variance)",
+      "status": "implemented",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "the\nsquared residuals were regressed against the in-\nverse of the average capacity without an intercept",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "periodic update / re-estimation of the EPI benchmark using more recent data",
+      "status": "implemented",
+      "addresses_mechanism": "K3",
+      "normative_framing": "absent",
+      "evidence_quote": "EPA agreed to develop a new EPI based on new data\nand released it to the industry so further improvement\ncould be achieved.",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K6",
+      "normative_framing": "absent",
+      "evidence_quote": "we adjust the intercept term, β0 in Eq. (1) to reflect the\n1997 estimates of the impact of specialty cement pro-\nduction.",
+      "page": 9,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K5",
+      "normative_framing": "absent",
+      "evidence_quote": "The new model\ncaptures the joint effect of producing clinker and\nfinish grinding cement.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "It is not\npossible to do a formal decomposition of the sources\nof the change between the two distributions discussed\nhere",
+      "page": 11,
+      "searched_terms": [
+        "confidential",
+        "cannot",
+        "not possible"
+      ]
+    },
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The PCA\nsurvey also includes plants from Canada; these were\nexcluded from the analysis.",
+      "page": 6
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "These data are provided to Duke University under a\nnondisclosure agreement to support the benchmark\nanalysis",
+      "page": 6
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "absence of whole-plant energy intensity information and of a benchmarking system, a major obstacle to improving efficiency",
+      "evidence_quote": "EPA observed that the absence of information on\nwhole-plant energy intensity and lack of a system for\nbenchmarking industrial plant energy efficiency rep-\nresented a major obstacle to improving US industrial\nenergy efficiency.",
+      "page": 3
+    },
+    {
+      "barrier": "benchmarking data considered proprietary due to competitiveness issues among companies",
+      "evidence_quote": "Because of competitiveness issues\namong companies, the data necessary for bench-\nmarking industrial energy efficiency were usually\nconsidered proprietary",
+      "page": 3
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "The cement EPI model is an ordinary least squares\n(OLS) regression of the natural log of total source\nenergy, natural log of capacity, natural log of labor,\nand several operating ratios.",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "Table 2 gives the\nresults from the above regression.",
+      "page": 7,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": "The data for this original\nbenchmark analysis are confidential, plant-level data\nfrom the 1997 Census of Manufacturing and 1998\nManufacturing Energy Consumption Survey",
+      "page": 5,
+      "support_class": "absence checked",
+      "absence_basis": "explicitly stated absent"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "Single application: the whole US cement plant population benchmarked by the ENERGY STAR EPI. Three models extracted: M1 = the updated EPI (Eq. (1), 2000–2008 data, full coefficients in Table 2); M2 = the original 1997 EPI (Eq. (2), 1997 Census/1998 MECS data, only error variance 0.0264 and interquartile ~20% reported, no coefficient table); M3 = the same original form (Eq. (2)) refitted to the new data (Table 3, coefficients given). Energy vector and dependent-variable quantity are defined study-wide (total source energy) and were reused for M2/M3 with requires-inference. C5 metering origin is nowhere described. The 13%/5.4 billion kg CO2/68 million Gj results derive from comparing M1 and M2; recorded under M1.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "heteroscedastic",
+        "variance",
+        "drift",
+        "product mix",
+        "missing",
+        "erroneous"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "update",
+        "adjust",
+        "intercept",
+        "heteroscedastic"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "confidential",
+        "excluded",
+        "cannot",
+        "not possible"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "obstacle",
+        "proprietary",
+        "information"
+      ]
+    }
+  },
+  "attempt": 7
+}

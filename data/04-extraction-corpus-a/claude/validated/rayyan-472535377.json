@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535377",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This study, conducted in an office building located in Morocco, presents a concrete methodology for optimizing energy consumption in buildings",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": "Energy audit (ISO 50002) and techno-economic analysis of a single tertiary/office building in Meknes, Morocco, proposing three energy-conservation measures (resizing subscribed power, installing an EMS, installing a PV plant) evaluated via cost/savings, CO2 and payback. No EnPI/EnB performance-measurement model is presented or characterised: energy is treated only as total metered consumption plus tariff/cost accounting, the baseline is measured current consumption, and energy is not normalised against relevant variables (no regression, functional form, or indicator such as SEC or kWh/m2).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A practical case study conducted in a tertiary building in Morocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Methodology 'complies with ISO 50001 and ISO 50002' (audit standard) with on-site measurement plus SketchUp/PVSYST simulation. Quantitative apparatus = electricity-tariff formulas, energy savings=before-after, CO2 factor, payback. Tertiary/office building, not a continuous process industry; level_3b not applicable."
+  },
+  "stage2": null,
+  "stage3": null
+}

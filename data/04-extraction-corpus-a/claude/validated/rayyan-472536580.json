@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536580",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:55:38.245505+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "for real-time power measurement and which would be used for generating Linked Open Data",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Presents an IoT power-measurement device (EnBoX = Arduino + non-invasive current sensor computing P = V x I) and a semantic-web Linked Open Data architecture for real-time Life Cycle Inventory data collection. No EnPI/EnB measurement model is identified or characterised: no normalisation/relevant variables, no functional form, no baseline-construction approach. The energy link is to LCA (ISO 14040/14044), not to ISO 50001/50006 energy performance.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "here we present the development of an energy measurement device",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Device name 'Energy Baseline of X (EnBoX)' is branding for a current-sensor power meter (P=V*I), not an ISO 50006 energy baseline; no EnPI or normalisation. Tool/data-architecture paper. Case study is injection moulding (discrete manufacturing), so level_3b is false on sector grounds too. Human flag: the 'Energy Baseline' name could trip a keyword FN detector."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,425 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535550",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T15:08:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Multivariate linear regression (MLR) and multi-layer perceptron artiﬁcial neural network (ANN) methods are separately used to anticipate the energy consumption. The baseline will be assumed as a reference to be compared with the actual data to estimate the real saving values.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The aim of this paper is to monitor energy consumption and characterize energy baseline for a tubular LDPE plant located in Assaluyeh – economical zone in south of Iran – as shown in Figure 3.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "In petrochemical plants, production deals with energy-intensive processes, and measuring energy performance for recognition and assessment of potentials for saving is critical.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a tubular LDPE plant located in Assaluyeh – economical zone in south of Iran",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Assaluyeh – economical zone in south of Iran",
+      "evidence_quote": "a tubular LDPE plant located in Assaluyeh – economical zone in south of Iran",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "Low Density Poly-Ethylene (LDPE) plant",
+      "evidence_quote": "In this paper baseline development is used to evaluate energy improvement in Low Density Poly-Ethylene (LDPE) plant.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Petrochemical plants have almost all of these complexities, dealing with energy intensive processes to continuously transform the raw materials into ﬁnal throughputs",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "It is highly suggested to the ISO technical committee dealing with energy management standards, to consider the proposed model for baseline development in the future version of the standard ISO 50006 as the supplementary extension for the ISO 50001 for measuring energy performance using EnB and EnPI.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Multivariate linear regression (MLR) and multi-layer perceptron artiﬁcial neural network (ANN) methods are separately used to anticipate the energy consumption.",
+        "Finally, cumulative summations (CUSUM) are proposed and applied as an effective indicator for measurement of energy performance in an LDPE."
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "MFI (Melt Flow Index, as a production grade index)",
+        "Polymer production",
+        "Number of plant’s start-ups",
+        "Number of plant’s shut-downs",
+        "Equipment lifetime",
+        "Cooling degree days (CDD)",
+        "Humidity",
+        "Wind speed"
+      ],
+      "evidence_quote": [
+        "MFI (Melt Flow Index, as a production grade index)",
+        "Polymer production",
+        "Number of plant’s start-ups",
+        "Number of plant’s shut-downs",
+        "Equipment lifetime",
+        "Cooling degree days (CDD)",
+        "Humidity",
+        "Wind speed"
+      ],
+      "page": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "March 2011",
+      "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-August 2016 (Data set: 2,012 days).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "August 2016",
+      "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-August 2016 (Data set: 2,012 days).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Daily observations were used to build separate MLR and MLP ANN baseline models. The dataset was divided into 90% training and 10% testing sets, and the trained models predicted held-out consumption.",
+      "evidence_quote": [
+        "The authors have access to relevant daily data extracted for the period of March 2011-August 2016 (Data set: 2,012 days).",
+        "both MLR and MLP ANN methods are utilized for further analysis, modeling and predicting the consumption of the days ahead as a baseline.",
+        "the dataset are divided to training (90 per cent) and testing (10 per cent) sets"
+      ],
+      "page": [
+        8,
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "we applied 1,713 data to train the network, and then 181 data to validate the models performance.",
+        "The mean absolute percentage error (MAPE) between the predicted outputs and actual data are measured to validate the models"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Production line level is considered to be the system boundary in this research because it includes the entire plant facilities",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scope_description": {
+      "value": "Production line level covering the entire tubular LDPE plant facilities.",
+      "evidence_quote": "Production line level is considered to be the system boundary in this research because it includes the entire plant facilities, which can cover the plant’s energy inﬂuential drivers and also is limited enough to prevent entire noise from other plants.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "both MLR and MLP ANN models are challenged with unknown drivers",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "both MLR and MLP ANN models are challenged with unknown drivers",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "as for future studies, the research can be extended to investigate the uncertainty and the model could also become completed applying more advanced ANNs such as recurrent neural networks.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "the model could also become completed applying more advanced ANNs such as recurrent neural networks.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the model could also become completed applying more advanced ANNs such as recurrent neural networks.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "consider the proposed model for baseline development in the future version of the standard ISO 50006 as the supplementary extension for the ISO 50001 for measuring energy performance using EnB and EnPI.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "The aim of this paper is to monitor energy consumption and characterize energy baseline for a tubular LDPE plant located in Assaluyeh – economical zone in south of Iran",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-August 2016 (Data set: 2,012 days).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "O1 b1=-12",
+        "O1 b2=0.66",
+        "O1 b3=21.38",
+        "O1 b4=16.2",
+        "O1 b5=-0.000374",
+        "O1 b6=0.46",
+        "O1 b7=0.092",
+        "O1 b8=0.42",
+        "O1 b0=79.9",
+        "O2 b1=-1.28",
+        "O2 b2=0.13",
+        "O2 b3=41.33",
+        "O2 b4=1.8",
+        "O2 b5=-0.0012",
+        "O2 b6=0.146",
+        "O2 b7=0.086",
+        "O2 b8=0.364",
+        "O2 b0=328.5",
+        "O3 b1=197.6",
+        "O3 b2=19.35",
+        "O3 b3=-628.6",
+        "O3 b4=411.5",
+        "O3 b5=-0.54",
+        "O3 b6=2,176.5",
+        "O3 b7=319.8",
+        "O3 b8=25.93",
+        "O3 b0=1,09,660"
+      ],
+      "evidence_quote": "Based on MLR analysis, equation below are exploited and used to predict the outputs, and relevant coefﬁcients are demonstrated in Table V:",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "96",
+          "unit": "%",
+          "period_or_context": "MLR, output 1",
+          "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "R²",
+          "value": "98",
+          "unit": "%",
+          "period_or_context": "MLP ANN, output 1",
+          "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "2.1",
+          "unit": "%",
+          "period_or_context": "MLR, output 1",
+          "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "1.3",
+          "unit": "%",
+          "period_or_context": "MLP ANN, output 1",
+          "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "R²",
+          "value": "73",
+          "unit": "%",
+          "period_or_context": "MLR, output 2",
+          "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "R²",
+          "value": "76",
+          "unit": "%",
+          "period_or_context": "MLP ANN, output 2",
+          "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "3.4",
+          "unit": "%",
+          "period_or_context": "MLR, output 2",
+          "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "2.4",
+          "unit": "%",
+          "period_or_context": "MLP ANN, output 2",
+          "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "R²",
+          "value": "63",
+          "unit": "%",
+          "period_or_context": "output 3",
+          "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "9.2",
+          "unit": "%",
+          "period_or_context": "MLR, output 3",
+          "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+          "page": 13
+        },
+        {
+          "metric": "MAPE",
+          "value": "11.4",
+          "unit": "%",
+          "period_or_context": "MLP ANN, output 3",
+          "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+          "page": 13
+        }
+      ],
+      "evidence_quote": [
+        "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+        "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+        "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively."
+      ],
+      "page": [
+        13,
+        13,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "personnel understanding and their basic knowledge",
+        "required level of training",
+        "computing speed",
+        "existing hardware system"
+      ],
+      "evidence_quote": "we consider a number of limitations such as personnel understanding and their basic knowledge, required level of training, computing speed, and existing hardware system.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  }
+}

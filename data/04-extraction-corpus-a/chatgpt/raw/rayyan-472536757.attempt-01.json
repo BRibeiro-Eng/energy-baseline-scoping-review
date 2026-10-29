@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536757",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:31:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper explains this proposed statistical approach and presents recent empirical results, prepared for ENERGY STAR, using stochastic frontier analysis on plant level data for corn refining.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The result is that 37 observations (plant years) were included in the analysis. Since there are 29 plants identified in Galitsky et al (2003), one of which is now closed",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper presents recent empirical results prepared for ENERGY STAR for corn refining.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Wet corn milling/corn refining is continuous but outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The result is that 37 observations (plant years) were included in the analysis. Since there are 29 plants identified in Galitsky et al (2003), one of which is now closed",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "US",
+      "evidence_quote": "Typical plants in the US process at least 100,000 bushels per day (bu/day, or 2,500 tonne/day) and operate continuously for nearly 365 days per year.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "corn refining",
+      "evidence_quote": "This paper presents recent empirical results prepared for ENERGY STAR for corn refining.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Typical plants in the US process at least 100,000 bushels per day (bu/day, or 2,500 tonne/day) and operate continuously for nearly 365 days per year.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "The major effects in the corn refining model are total corn processed, the mix of products, and capacity utilization.",
+        "using stochastic frontier analysis on plant level data for corn refining"
+      ],
+      "page": [
+        10,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

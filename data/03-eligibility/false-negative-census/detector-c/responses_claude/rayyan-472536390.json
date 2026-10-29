@@ -1,0 +1,58 @@
+{
+  "key": "rayyan-472536390",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to mass-thermal network optimization in iron and steel industry (mentioned in literature review only)",
+      "quote": "Wang et al. [13]\ndeveloped the concept of mass-thermal network optimiza-\ntion in the iron and steel industry to consider current\nenergy conservation technologies",
+      "page": 2,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Reference to specific energy consumption analysis using the pulp and paper sector (literature review only)",
+      "quote": "conducted a critical analysis of specific energy con-\nsumption (SEC) using the pulp and paper sector as an\nillustration",
+      "page": 3,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference to energy KPI operationalization in the Swedish pulp and paper industry (literature review only)",
+      "quote": "the current\nlevel of energy-related KPI implementation and oper-\nationalization in the Swedish pulp and paper industry",
+      "page": 3,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference to waste heat recovery in industrial reheating furnaces / steel industry (literature review only)",
+      "quote": "Zhao et al. [56] studied\nthe use of various waste heat recovery (WHR) systems\nwithin industrial reheating furnaces to assess possible\nrecovery efficiencies and suitability.",
+      "page": 2,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Cited own prior work on GHG reduction by the glass sheet industry through energy conservation (reference list only)",
+      "quote": "Potentials of gas emission\nreduction (GHG) by the glass sheet industry through energy\nconservation.",
+      "page": 13,
+      "sector": "glass (continuous melting, float lines)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Paper's case-study context is the aluminium parts industry (metal melting, pouring, and processing); primary aluminium production is also discussed in the literature review",
+      "quote": "Particularly in\nthe global aluminium industry, energy efficiency is facing\nserious challenges in achieving the goal of halving green-\nhouse gas emissions by 2050 [16]",
+      "page": 2,
+      "sector": "aluminium"
+    },
+    {
+      "signal": "Production flow includes continuous melting and pouring of aluminium (ingot and scrap briquettes)",
+      "quote": "the raw materials of 50% ingot and 50%\ndry scrap briquettes (DSB) go through the processes of\nmelting, pouring, cutting, machining, painting, assem-\nbling, and becoming finished goods.",
+      "page": 4,
+      "sector": "aluminium"
+    },
+    {
+      "signal": "Reference to waste heat recovery across three sectors including aluminium low pressure die casting and ceramic tiles manufacturing (literature review)",
+      "quote": "potential for waste heat recovery in three sectors: aluminium\nlow pressure die casting, steel sector and ceramic tiles\nmanufacturing sector.",
+      "page": 12,
+      "sector": "aluminium / ceramics"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and simulates an energy-savings baseline and energy management control system (EMCS) applied to an automotive aluminium-component (parts) manufacturing plant that melts ingot/scrap, casts, machines, and assembles discrete parts, with direct waste-heat reuse; the listed continuous-flow sectors (steel, pulp & paper, glass) appear only as literature/reference mentions."
+}

@@ -1,0 +1,40 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535512",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:25:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "based on ISO 50001: 2018 and the Pearce II and Robinson's strategic management model",
+        "the plant has not formalized energy target in terms of energy performance indicator and baseline"
+      ],
+      "page": [1, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Paper proposes a strategic energy-management framework (EDIM, integrating ISO 50001:2018 with the Pearce II & Robinson strategic-management model) and assesses it qualitatively through expert interviews. It does not present, propose, evaluate, or characterise any EnPI/EnB measurement model (no normalisation variables, functional form, or construction/estimation approach); EnPI and energy baseline appear only as unformalised ISO clause elements. Ineligible under the v2.3 framework-without-measurement-model rule.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "this study aims to investigate the design and implementation of strategic energy management system (EDIM) model",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "paper_type borderline: single cement plant (PTC, East Java) but core deliverable is a generalisable qualitative strategic framework, so coded framework over 'single applied case'. Set in a cement plant (continuous-process sector); level_3b forced false only by the ineligibility rule, not by sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

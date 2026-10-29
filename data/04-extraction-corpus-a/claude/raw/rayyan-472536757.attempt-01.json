@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536757",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T09:37:01Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "A statistical model which provides a functional relationship between the level of energy use and the level and type of various production activities, material inputs quality, and external factors",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This paper presents an approach to statistically measure plant specific energy efficiency when there are multiple outputs",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Wet corn milling (SIC 2046 or NAICS 311221), which is also referred to as corn refining",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "notes": "Own empirical case = corn refining / wet corn milling (SIC 2046, NAICS 311221), a food-manufacturing sector, fitted by stochastic frontier to 37 plant-years (the paper's own case, not an illustrative example). Plants operate continuously ~365 d/yr so A9 type_of_organisation=continuous process (broad 24/7 def); but corn refining is NOT on the closed Level-3B sector list, so level_3b=false per the v2.3 unlisted-but-continuous-flow rule. Flag for human 3B decision."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "there are 29 plants identified in Galitsky et al (2003)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "plants in the US process at least 100,000 bushels per day",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "corn refining",
+      "evidence_quote": "using stochastic frontier analysis on plant level data for corn refining",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "operate continuously for nearly 365 days per year",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "stochastic frontier analysis",
+        "functional relationship between the level of energy use and the level and type of various production activities"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

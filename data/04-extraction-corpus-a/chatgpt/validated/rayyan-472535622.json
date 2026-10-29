@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535622",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:22:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the\nglass- tempering energy consumption per | m2 of glass will\ndiminish two times.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study is a glass-work company in Latvia with an\nannual production 16500m2 of glass per month.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The\nglassworks produce different types of glass finishing, glass\nlamination, tempering and packing.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Glass finishing/tempering case, not continuous glass melting or a float line; therefore outside the closed Level 3B glass scope."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study is a glass-work company in Latvia with an\nannual production 16500m2 of glass per month.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Latvia",
+      "evidence_quote": "The case study is a glass-work company in Latvia with an\nannual production 16500m2 of glass per month.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "glass-work company",
+      "evidence_quote": "The case study is a glass-work company in Latvia with an\nannual production 16500m2 of glass per month.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The\nglassworks produce different types of glass finishing, glass\nlamination, tempering and packing.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "efficiency according to the LVS EN ISO 50001:2012 standard at\na glass-work company in Latvia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED"
+      ],
+      "evidence_quote": "The EU Energy Efficiency Directive encourages energy\nauditing and implementation of energy efficiency measures in\nSMEs (European Parliament, 2012) [7]. Due to this, the\nlegislation in Latvia stipulates that enterprises with a high\nenergy consumption have to comply with the energy\nefficiency standard LVS EN ISO 50001:2012 [8, 9].",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "the\nglass- tempering energy consumption per | m2 of glass will\ndiminish two times.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535653",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T11:09:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Methodology users must identify a region of interest, gather relevant input data including projected energy consumption on a delivered basis and carbon emission factors for various energy types, establish a projection of ISO 50001 uptake for the time period of interest, and select what level of annual savings will be realized from ISO 50001 implementation.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This paper presents the ISO 50001 Impacts Methodology, an internationally-developed methodology to calculate these impacts at a national, regional, or global scale suitable for use by policymakers.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The ISO 50001 Impacts Methodology has been established to assist policymakers in determining the impact of industrial and commercial (service) sector ISO 50001 implementation on a regional, national, or global scale.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Aggregate industrial/service-sector impact methodology; no empirical application in an explicitly named continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This paper presents the ISO 50001 Impacts Methodology, an internationally-developed methodology to calculate these impacts at a national, regional, or global scale suitable for use by policymakers.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "at a national, regional, or global scale suitable for use by policymakers",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "industrial and commercial (service) sectors",
+      "evidence_quote": "industrial and commercial (service) sector ISO 50001 implementation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "industrial and commercial (service) sector ISO 50001 implementation",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 is a voluntary, internationally-developed standard for energy management systems",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "A logistic function is used to model this non-linear uptake of ISO 50001.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,132 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536512",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:56:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The Energy Baseline of the company as a linear regression model was obtained by the correlation between energy consumption and volume of production in",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study is a balanced animal feed manufacturing plant.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "A balanced animal feed manufacturing enterprise in Cuba was selected for this study.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Header tag 'Review' on p.1 is a journal artifact; body is a single applied case (one Cienfuegos feed plant). Sector 'balanced animal feed manufacturing' is not on the closed 3B list. type_of_organisation continuous-vs-discrete is borderline (batch feed mill, ~12.5 h/day)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A balanced animal feed manufacturing enterprise in Cuba was selected for this study.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Cienfuegos, Cuba",
+      "evidence_quote": [
+        "Balanced animal feed plant of Cienfuegos",
+        "enterprise in Cuba was selected for this study"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "balanced animal feed manufacturing",
+      "evidence_quote": "balanced animal feed manufacturing enterprise in Cuba",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": [
+        "balanced animal feed manufacturing enterprise in Cuba",
+        "with around",
+        "12.5 h a day"
+      ],
+      "page": [
+        3,
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "recommended by ISO 50 001 and ISO 50 006",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression"
+      ],
+      "evidence_quote": [
+        "Energy Baseline of the company as a linear regression model",
+        "This kind of model considered only one variable: the production"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

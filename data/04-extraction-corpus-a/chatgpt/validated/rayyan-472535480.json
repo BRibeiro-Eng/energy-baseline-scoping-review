@@ -1,0 +1,264 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535480",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:59:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The aim of this paper is to present a model for the development and implementation of EnPIs for in-house energy management in a kraft pulp mill.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The study was carried out as a multiple case study, as described by Yin (2014). Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Three mills from one company group; the proposed EnPI-development model is tailored to kraft pulp production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases. All mills belonged to the same group of companies.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Sweden",
+      "evidence_quote": "Sweden is the context of the case study in this paper",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "kraft pulp mills",
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "The presented model is related to the standardized and general method for EnPI development and implementation within an energy management system according to ISO 50001 and ISO 50006.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "a commonly applied EnPI is specific energy use1 (SEC) expressed as e.g. kWh/ADt or GJ/ADt",
+        "Based on the case study method in this paper, a model for the development and implementation of EnPIs is suggested."
+      ],
+      "page": [
+        3,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "type of pulp quality produced",
+        "raw material used"
+      ],
+      "evidence_quote": "This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "The normal state of each mill and its processes is used as the energy baseline. Multiple normal states are defined for different pulp-quality and raw-material production setups.",
+      "evidence_quote": "The normal state of the mill, and its processes, is used as the energy baseline for comparing energy performance (Step 4). EnPIs are monitored at all three levels.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "Validations of the suggested EnPIs are provided, based on experiences and lessons learned at one of the company group mills, henceforth referred to as the reference mill.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.83
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases. All mills belonged to the same group of companies.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "Three kraft pulp mills belonging to the same group of companies",
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases. All mills belonged to the same group of companies.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Further research is suggested, preferably in the form of case studies, where the methodology is implemented and further validated.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Further research is suggested, preferably in the form of case studies, where the methodology is implemented and further validated.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Further research is suggested, preferably in the form of case studies, where the methodology is implemented and further validated.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "adaptation_types": {
+      "value": [
+        "segmented baseline",
+        "other"
+      ],
+      "evidence_quote": [
+        "This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc.",
+        "It is therefore suggested that EnPIs are also monitored at process level and at systems and flow levels."
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "the developed model provides a practical tool for implementing the guidelines and meeting the requirements of the energy management standard (ISO 50001) and the standard on EnPI development (ISO 50006) in kraft pulp mills.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "data-collection frequency is constrained by practical feasibility"
+      ],
+      "evidence_quote": "The frequency of data collection for EnPIs, which also applies to this step, has to be decided based on what is practically possible.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

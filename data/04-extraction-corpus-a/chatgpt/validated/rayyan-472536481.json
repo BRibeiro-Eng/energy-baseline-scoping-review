@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536481",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:27:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Ratio of OE to production quantity N, i.e. SECi. This indicator provides an overall state of energy efficiency in terms of input-output.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The validity and practicability of the method were demonstrated using an industrial case study of a die-casting plant.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a national leader in the sector of aluminum alloy die-casting manufacturing.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied die-casting manufacturing is discrete and outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": [
+        "industrial case study of a die-casting plant",
+        "The EB1 came from a branch plant of the company."
+      ],
+      "page": [
+        14,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.79
+    },
+    "country_region": {
+      "value": "Chongqing, China",
+      "evidence_quote": "the method has been implemented in a die-casting company in Chongqing, China",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "aluminum alloy die-casting manufacturing",
+      "evidence_quote": "a national leader in the sector of aluminum alloy die-casting manufacturing.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The process chain works two shifts a day, six days a week. Firstly, aluminum alloy blocks and rejected die-casting parts are put into the melting furnace to obtain the molten metal which is then shaped into semi-finished parts by the die-casting process. Next, the shot blasting process is utilized to improve the surface quality and mechanical properties of semi-finished parts.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "where Pi; Si, ti, and Ei denote the component power matrix, component activation state matrix, state duration matrix, and energy losses matrix",
+        "Ratio of OE to production quantity N, i.e. SECi. This indicator provides an overall state of energy efficiency in terms of input-output."
+      ],
+      "page": [
+        5,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

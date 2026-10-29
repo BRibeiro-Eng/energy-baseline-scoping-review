@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535380",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:48:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "To fill these gaps in the literature, we propose a practical solution for\nevaluating and prioritizing EEPs.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The paper presents an MCDM framework for prioritizing energy-efficiency projects, not an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Therefore, we applied the same\nFAHP approach to two petrochemical firms (one from Ireland and the\nother from Qatar) and compared the results to those of the current case\nstudy (Egyptian petrochemical complex).",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Ineligible under the explicit tool/framework rule: MCDM scores rank EEP alternatives but do not measure or normalise energy performance."
+  },
+  "stage2": null,
+  "stage3": null
+}

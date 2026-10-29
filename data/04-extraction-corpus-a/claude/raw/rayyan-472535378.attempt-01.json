@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535378",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "in enhancing fault detection capabilities in AIoT-based environments, while also customizing ISO 50001:2018 standards to align with the unique energy management needs of academic institutions",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "EnPI/EnB referenced only incidentally as generic ISO 50001:2018 requirements; the study's actual models (MobileNetV2/InceptionV3) are image classifiers for solar-panel defect/fault detection, and the ISO 50001 contribution is a qualitative organisational framework for universities. No EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This study leverages open-source AI architectures, specifically MobileNetV2 and InceptionV3, as core components of the proposed fault detection system",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Dual-nature: (1) deep-learning fault-detection tool (MobileNetV2 80% / InceptionV3 90% accuracy on solar-panel defect image classification) plus (2) qualitative ISO 50001:2018 organisational customisation for universities, illustrated with Kangwon National University Samcheok Campus, South Korea (academic/buildings, not continuous-process). EnPI/EnB mentioned only incidentally; no energy-performance model characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

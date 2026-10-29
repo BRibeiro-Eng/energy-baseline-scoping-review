@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535687",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:41:39+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "A maintenance strategy for DSM projects was therefore developed and is presented in this paper.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": "Presents a performance-centred maintenance (PCM) strategy built on the plan-do-check-act cycle for industrial DSM projects. DSM performance is tracked as peak-load impact (MW) versus a fixed project target, but no EnPI/EnB measurement model is identified or characterised: no normalisation variables, no functional form, and no construction/estimation approach are given. This is a maintenance/management framework without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "A strategy for continuous performance improvement and known as the performance-centred maintenance strategy was introduced in this paper.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Energy-adjacent (ISO 50001, DSM peak-load performance vs target, KPIs) but the deliverable is a maintenance framework, not an EnPI/EnB model. Application context is deep-level gold mining (dewatering pumps), which is out of Corpus-B scope regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

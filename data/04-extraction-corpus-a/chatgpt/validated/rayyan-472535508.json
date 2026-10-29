@@ -1,0 +1,126 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535508",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:04:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "La línea base se elaboró en base a un modelo de regresión.",
+        "La variable dependiente del modelo fue siempre la energía consumida.",
+        "Las variables independientes del modelo fueron las variables significativas que no dependen de la operación o del mantenimiento."
+      ],
+      "page": [
+        5,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "a small foundry company in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "La empresa en cuestión se dedica a la fundición y mecanizado de piezas para maquinaria industrial.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Single-site foundry casting and machining industrial machinery parts; discrete manufacturing, so not Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a small foundry company in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Valle del Cauca, Colombia",
+      "evidence_quote": "La empresa donde se implementó este procedimiento, participó en el PEVI, y está ubicada en el departamento del Valle del Cauca, Colombia.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "fundición y mecanizado de piezas para maquinaria industrial",
+      "evidence_quote": "La empresa en cuestión se dedica a la fundición y mecanizado de piezas para maquinaria industrial.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "En cuanto al proceso productivo, este puede ser divido en tres macro etapas, la primera es la recepción y almacenamiento del material, la segunda etapa es la fundición y moldeo, y la tercera es el mecanizado y puesta a punto de las piezas finales.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This paper presents the application of tools to develop a procedure to estimate the energy saving potentials in a small foundry company in Colombia, based on the ISO 50001 standard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "La línea base se elaboró en base a un modelo de regresión.",
+        "CUSUM, permite comparar el desempeño energético con el periodo base."
+      ],
+      "page": [
+        5,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

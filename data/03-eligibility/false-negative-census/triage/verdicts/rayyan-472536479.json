@@ -1,0 +1,18 @@
+{
+ "key": "rayyan-472536479",
+ "tier": "A",
+ "ts": "2026-09-10T18:50:52",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum",
+  "steel",
+  "kiln"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 9.0,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "avaliação ecológica"
+}

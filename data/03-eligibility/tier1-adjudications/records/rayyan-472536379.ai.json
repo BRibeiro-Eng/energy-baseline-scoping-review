@@ -1,0 +1,177 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536379",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Italy, US",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "ML",
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "steel manufacturing industry",
+        "type_of_organisation": "discrete manufacturing"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536379",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Italy, United States",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "ML"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "steel industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "The compressor EnPI (kWh/Nm3, and an alternative Wh/Nm3/ton) is predicted with a MATLAB regression learner over a one-year investigation period using data from 20 compressors; input and output data are split into training and test sets with iterative model selection, parameter tuning and cross-validation.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "audit data",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "Gaps in the type and importance of the data to be collected at each energy-intensive process, needing to be addressed to implement Industry 4.0"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "Load utilization factor hours/year",
+          "Volume of the gas flow in Nm3/year",
+          "Idle working hours of compressors",
+          "Average electric power absorbed when idle in kW",
+          "Average electric power absorbed under load in kW",
+          "Relative pressure in MPa"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "rRMSE\n34.93\n27.5",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI1 kWh/Nm3 compressor regression model",
+            "unit": "rRMSE (dimensionless)",
+            "value": "34.93"
+          },
+          {
+            "evidence_quote": "rRMSE\n34.93\n27.5",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI2 Wh/Nm3/ton compressor regression model",
+            "unit": "rRMSE (dimensionless)",
+            "value": "27.5"
+          },
+          {
+            "evidence_quote": "R-Squared\n0.55\n0.71",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI1 kWh/Nm3",
+            "unit": null,
+            "value": "0.55"
+          },
+          {
+            "evidence_quote": "R-Squared\n0.55\n0.71",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI2 Wh/Nm3/ton",
+            "unit": null,
+            "value": "0.71"
+          },
+          {
+            "evidence_quote": "MSE\n2376.0\n1.9515",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI1 kWh/Nm3",
+            "unit": "MSE",
+            "value": "2376.0"
+          },
+          {
+            "evidence_quote": "MSE\n2376.0\n1.9515",
+            "metric": "other-named",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI2 Wh/Nm3/ton",
+            "unit": "MSE",
+            "value": "1.9515"
+          },
+          {
+            "evidence_quote": "MAE\n24.216\n0.70339",
+            "metric": "MAE",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI1 kWh/Nm3",
+            "unit": null,
+            "value": "24.216"
+          },
+          {
+            "evidence_quote": "MAE\n24.216\n0.70339",
+            "metric": "MAE",
+            "non_contiguous_evidence": false,
+            "page": 5,
+            "period_or_context": "EnPI2 Wh/Nm3/ton",
+            "unit": null,
+            "value": "0.70339"
+          }
+        ],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "sub-system / utility system",
+        "scope_description": "the energy consumed by the air compressors facility of the case study (3 steel mills) to deliver 1Nm3 for each t of produced steel",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "empirical",
+          "statistical"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536642",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:08:31.753867+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "energy efficiency of alternative assets is measured, simulated and characterized by using Energy Performance",
+        "based on the relation of the least energy demand to the actually consumed energy"
+      ],
+      "page": [
+        1,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "to offer a learning concept for knowledge transfer from research institutions into industrial practice",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the manufacturing of composite products",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Borderline eligibility: pedagogical learning-factory concept; EnPIs (annual energy demand; REE physical-efficiency ratio) characterised. paper_type 'other' vs 'single applied case'. multi_site: Bayreuth+Erlangen two-site ambiguity."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "in Bayreuth (Germany) where a reference process chain for the manufacturing of composite products is built up",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "Bayreuth (Germany)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "industrial manufacturing",
+      "evidence_quote": "industrial manufacturing",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Intralogistics assets in manufacturing environments",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "the calculation of the physical energy demand for the process based on the unit operation",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

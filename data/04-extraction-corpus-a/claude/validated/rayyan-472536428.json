@@ -1,0 +1,275 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536428",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-14T15:35:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "two new Energy Performance Indicators have been proposed to guide energy audit evaluation",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The data of this paper is based on 44 factory from 10 different sector",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This factory produces 9,650 t/year steel",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "notes": "level_3b borderline: cross-sector compressed-air study (44 facilities/10 sectors; org=mixed), but headline indicators SCAS/SLS are empirically demonstrated on one steel facility (Tables 4-5; steel is listed). Set true per 'demonstrates the model in one of these sectors'; flag for blind-first human review. Facility country not explicitly stated (Turkish context implied via affiliation/policy only)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The energy audits were evaluated separately for each corporation and industrial sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry",
+      "evidence_quote": "evaluating compressed air performance in the manufacturing industry",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "cement 31.1%, automotive 19.5%, manufacturing 18.2% and mining 18.3%",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "using the application of ISO 50001 as a strategy for continuous monitoring of energy efficiency",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Specific Energy Consumption (SEC) is also calculated and highlighted after audits",
+        "Specific Compressed Air Saving (SCAS) is also defined to increase the awareness"
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "amount of product (annual production, e.g. tons of steel)"
+      ],
+      "evidence_quote": "P is the amount of product in",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "No time-window/regression baseline is built; the specific indicators (SEC, SES, SCAS, SLS) are constructed as ratios of audit-derived annual energy or energy savings to annual production.",
+      "evidence_quote": "Equation (4) is described as the ratio of total energy consumption to total production",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "A, B, and C are correlation constants depending on operation pressure",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "CAS are one of the main subsystems",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "scope_description": {
+      "value": "Compressed air system of a steel production facility (9,650 t/year steel) used as the detailed worked example; broader study covers CAS in 44 industrial facilities.",
+      "evidence_quote": "belonging to a steel production facility",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "such a small number of data sets are not suitable for making a whole sectoral generalization",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "more generalized empirical correlations also used for much generalized approach instead of industry-specific statistical correlations",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "recommended to update Table 2 with some additional data to be obtained from future studies",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "using data from in-situ energy audits",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Empirical correlation constants A, B, C of the dB-to-flow-rate equation (Eq. 2), tabulated per operational pressure in Table 1"
+      ],
+      "evidence_quote": "A, B, and C are correlation constants depending on operation pressure",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.99",
+          "unit": null,
+          "period_or_context": "Coefficient of determination for the empirical dB-to-flow-rate conversion correlation (Eq. 2), all five operational pressures (Table 1)",
+          "evidence_quote": "0.99",
+          "page": 3,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of staff education and inadequate awareness; neglect of CAS maintenance",
+        "Difficulty of measuring leaks due to crack geometry (needs sophisticated devices/professionals)",
+        "Employees not taking air leaks into account (perception that compressed air is cheap)"
+      ],
+      "evidence_quote": [
+        "the lack of education levels of the staff, inadequate awareness level",
+        "Measuring leaks in CAS is frequently difficult due to the geometry of the cracks",
+        "the sounds of air leaks were not taken into consideration by the employees"
+      ],
+      "page": [
+        4,
+        2,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    }
+  }
+}

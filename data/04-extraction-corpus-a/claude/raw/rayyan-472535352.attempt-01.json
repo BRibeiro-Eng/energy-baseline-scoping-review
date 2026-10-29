@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535352",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the PG2E solution comes into play upstream, facilitating the initial identification of a relevant scope for deploying an EMS. It thus constitutes a strategic preparatory tool",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ineligibility_reason": "Presents PG2E, a combinatorial-optimization software tool that selects which municipal buildings form the ISO 50001 certification scope. It ranks candidate subsets with simple aggregate statistics (mean consumption, upper quartile) as proxies for obsolescence/regulatory status; it does not present, propose, evaluate, or critique an EnPI/EnB measurement model (no baseline, no normalisation of energy against driver variables). Authors explicitly place PG2E upstream of ISO 50006 EnPI-based energy-performance measurement. Tool/software design without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "PG2E is an innovative, fully digital solution that uses a combinatorial approach to automatically identify the ISO 50001 certification scope",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Case study: French municipality Quesnoy-sur-Deule, 2021 electricity data for 15 buildings (public/institutional). 'Energy consumption per m2' appears once as one of seven correlation variables but is not adopted; chosen criteria are mean and Q75 for subset selection. Judged ineligible as scope-selection software rather than an EnPI/EnB model; borderline noted for human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

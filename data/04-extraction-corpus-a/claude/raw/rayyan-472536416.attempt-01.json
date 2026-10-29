@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536416",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T19:43:13.547142+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this paper presents a cost-efficient holistic framework to acquire and analyze energy data as an essential step in improving the energy efficiency of production machines",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Paper develops a data acquisition and analysis system (ETAS: hardware + Raspberry Pi App + Web App) for production machines. Energy performance indicators appear only as a downstream capability of the tool, and the sole computed indicator is the non-production time factor (a time-utilisation ratio, ref. 18) used to demonstrate the framework exemplarily. No EnPI/EnB measurement model relating or normalising energy is presented or characterised, so the v2.3 rule excluding tools/frameworks/software without EnPI/EnB measurement-model content applies.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "an energy transparency and analysis system is being developed that can measure, record and analyze electrical quantities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: repeatedly invokes 'energy performance indicators' and computes the NPTF, but only to demonstrate a measurement/analysis tool; no energy-normalising EnPI/EnB model is constructed. Context is discrete manufacturing (lathe, cleaning machine), so level_3b is false regardless. Flag for human review of the eligibility call."
+  },
+  "stage2": null,
+  "stage3": null
+}

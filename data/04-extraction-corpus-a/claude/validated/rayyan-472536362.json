@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536362",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:39:01.966102+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "This paper proposes LSTM as the prediction model and extreme gradient boosting (XGBoost) as the reference model for AVMIII",
+        "Past data comprise machine energy consumption and temperature data, while future data come from factory production schedules"
+      ],
+      "page": [
+        2,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The example is based on actual data from a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline Tier-1 eligibility (flag for human): ML virtual-metrology method (AVMIII: LSTM + XGBoost) forecasting a machine's energy consumption, framed as 'energy baseline forecasting'; no ISO 50001/50006, EnPI or M&V content. Judged eligible under broad v2.3 threshold (energy model with variables temperature + production schedule). paper_type also arguable as tool/software design. level_3b=false: packaging/testing factory is discrete, not continuous-process."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Taiwan",
+      "evidence_quote": "a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "packaging and testing",
+      "evidence_quote": "a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "a packaging and testing factory in Taiwan",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "This paper proposes LSTM as the prediction model and extreme gradient boosting (XGBoost) as the reference model for AVMIII",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

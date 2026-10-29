@@ -1,0 +1,135 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535511",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia: Atlántico, La Guajira, Cundinamarca",
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "ISO 17743"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "goods and services companies",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Energy performance was tracked using per-capita consumption reductions comparing 2019 with 2018, with monthly consumption normalised against daily bed occupations for hospital and clinic cases.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "need to particularize and detail tools for different business sectors",
+          "creative and analytical skills, discipline, culture, and organisation of leaders and process managers",
+          "incompatibility between information-system and process-control interfaces",
+          "changes in ICT development priorities"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "daily bed occupations",
+          "container",
+          "capita"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 8.1%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 26,
+            "period_or_context": "Compensation Fund; 2019 vs. 2018",
+            "unit": "%",
+            "value": "8.1%"
+          },
+          {
+            "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 18.2%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 26,
+            "period_or_context": "Municipal Hospital; 2019 vs. 2018",
+            "unit": "%",
+            "value": "18.2%"
+          },
+          {
+            "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 20.3%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 26,
+            "period_or_context": "Clinic; 2019 vs. 2018",
+            "unit": "%",
+            "value": "20.3%"
+          },
+          {
+            "evidence_quote": "Reduction in per capita consumption (2019 vs. 2018): 12.2%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 26,
+            "period_or_context": "Pharmaceutical Laboratory; 2019 vs. 2018",
+            "unit": "%",
+            "value": "12.2%"
+          },
+          {
+            "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 15.2%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 26,
+            "period_or_context": "Port Operation and Logistics Services; 2019 vs. 2018",
+            "unit": "%",
+            "value": "15.2%"
+          },
+          {
+            "evidence_quote": "Reduction in per capita energy consumption (2019 vs. 2018): 10.2%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 27,
+            "period_or_context": "Manufacturing (Glass Containers); 2019 vs. 2018",
+            "unit": "%",
+            "value": "10.2%"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "The glass-container manufacturing organisation's energy-efficiency programme covered its furnace, lighting, ventilation and conditioning, and supply chain.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "maturity model or framework"
+      },
+      "key": "rayyan-472535511",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

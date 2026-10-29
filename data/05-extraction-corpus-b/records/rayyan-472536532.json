@@ -1,0 +1,1142 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536532",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "energy-performance-surrogate-BDP",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "attempt": 1,
+  "n_pages_read": 40,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Propylene Oxide (PO) production plant",
+        "evidence_quote": "The data is taken from the Propylene Oxide (PO) produc-\ntion plant of INEOS in K¨oln.",
+        "page": 25,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Germany (Köln/Cologne)",
+        "evidence_quote": "The data is taken from the Propylene Oxide (PO) produc-\ntion plant of INEOS in K¨oln.",
+        "page": 25,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The concept was applied to process data of a large production plant of\nINEOS in K¨oln",
+        "page": 31,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Propylene Oxide production plant using the Chlorohydrin process; modelling of the specific 5 bar steam consumption (EnPI) as best demonstrated practice",
+        "evidence_quote": "This plant produces PO using the Chlorohydrin\nprocess, which, as shown in Fig. 4, has three main steps:",
+        "page": 25,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "This plant produces PO using the Chlorohydrin\nprocess, which, as shown in Fig. 4, has three main steps:",
+        "page": 25,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the model with three basis functions (Eq. 29), load and ambient temperature",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year",
+              "months",
+              "time interval"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year",
+              "months"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Data-driven best demonstrated practice: kmeans++ clustering of preprocessed hourly data, 5-10% percentile centres per cluster, then surrogate model fitting (adapted ALAMO, weighted least squares) with basis-function selection",
+            "evidence_quote": "employs a novel combination\nof known surrogate modeling techniques using clustering, model ﬁtting and\nmodel simpliﬁcation by backward elimination.",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "-0.6989 (coefficient of ṁp^2)",
+            "2.9402 (coefficient of ṁp^-1)",
+            "0.4195 (coefficient of Tamb^-3)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "GJ/t",
+                "unit",
+                "kWh",
+                "dimensionless"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The resulting models are non-linear but as simple as possible to\npresent clear trends to the plant personnel.",
+              "page": 31,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "WLS",
+              "evidence_quote": "the diﬀerent weights of the clusters are considered\nusing a Weighted Least Square (WLS) formulation in the objective function\nrather than the ordinary least square error",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "Con-\nducting interviews before starting the modeling eﬀort is a way to narrow\ndown the set of factor candidates.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "The load and\nthe ambient temperature of the cluster centers are used as input variables\n(xi) and the EnPI values are used as the response variables (zi).",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Coin-OR Branch and Cut (CBC) solver",
+              "evidence_quote": "The MILP problem (Eq. 24) is solved using the\n“Coin-OR Branch and Cut” (CBC) solver [50].",
+              "page": 28,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "load / production rate (ṁp)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "The load and\nthe ambient temperature of the cluster centers are used as input variables\n(xi) and the EnPI values are used as the response variables (zi).",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ambient temperature (Tamb)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "The load and\nthe ambient temperature of the cluster centers are used as input variables\n(xi) and the EnPI values are used as the response variables (zi).",
+              "page": 27,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "year",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "The number of clusters is a tuning\nparameter for the model identiﬁcation process and here it was chosen as 16.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Measurement data is typically available in a process information man-\nagement system (PIMS), which archives measurement data continuously at\ndiﬀerent sampling times (due to internal compression).",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the proposed method can be applied to redeﬁne the energy base-\nline of a process after retroﬁtting (c.f. ISO 50001:2018).",
+              "page": 25,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "significant process modifications / retrofitting",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "This method was used to calculate the validity bounds of the\nmodel. The model is trustworthy only for the operating points inside of the\nhull and its accuracy outside of the limits cannot be guaranteed.",
+              "page": 29,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Convex Hull of the input variables",
+              "evidence_quote": "A conservative method for the deﬁnition of the validity domain of\nthe regression models in higher dimensions is the ”Convex Hull” of the input\nvariables [55].",
+              "page": 29,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The original model with 2 inﬂuencing factors has an OIPavg of 0.4978 and\na value of ϵ of 0.1318.",
+                "page": 29,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "OIPavg (average operational improvement potential)",
+                  "value": "0.4978",
+                  "period_or_context": "model with 2 influencing factors (load and ambient temperature)",
+                  "evidence_quote": "The original model with 2 inﬂuencing factors has an OIPavg of 0.4978 and\na value of ϵ of 0.1318.",
+                  "page": 29,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "ϵ (weighted least squared error of initial model)",
+                  "value": "0.1318",
+                  "period_or_context": "model with 2 influencing factors",
+                  "evidence_quote": "The original model with 2 inﬂuencing factors has an OIPavg of 0.4978 and\na value of ϵ of 0.1318.",
+                  "page": 29,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "model distance ratio",
+                  "value": "0.26",
+                  "period_or_context": "2 influence factors, 3 base functions",
+                  "evidence_quote": "2\n3\n0.26\n87.1%\n10.6%",
+                  "page": 38,
+                  "support_class": "requires inference"
+                },
+                {
+                  "metric": "fraction of points below model curve",
+                  "value": "10.6%",
+                  "period_or_context": "2 influence factors, 3 base functions",
+                  "evidence_quote": "2\n3\n0.26\n87.1%\n10.6%",
+                  "page": 38,
+                  "support_class": "requires inference"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set",
+                  "RMSE"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "2\n3\n0.26\n87.1%\n10.6%",
+                "page": 38,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "% reduction",
+                  "GJ saved",
+                  "energy saving"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Historical (reconciled) process measurement data from a PIMS",
+            "Information on non-influenceable factors (e.g. ambient temperature, feedstock quality)"
+          ],
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "the model after backward elimination (Eq. 30), plant load only, clustered on load and temperature",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "As M1 but with backward elimination removing the ambient temperature influencing factor",
+            "evidence_quote": "an approach based on backward elimination\n[51] to eliminate the inﬂuencing factors with a minor inﬂuence on the OIP is\napplied.",
+            "page": 21,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "-0.2287 (coefficient of ṁp^3)",
+            "2.7202 (coefficient of ṁp^-2)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "unit",
+                "GJ/t",
+                "dimensionless"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The resulting models are non-linear but as simple as possible to\npresent clear trends to the plant personnel.",
+              "page": 31,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "WLS",
+              "evidence_quote": "the diﬀerent weights of the clusters are considered\nusing a Weighted Least Square (WLS) formulation in the objective function\nrather than the ordinary least square error",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "stepwise",
+              "evidence_quote": "an approach based on backward elimination\n[51] to eliminate the inﬂuencing factors with a minor inﬂuence on the OIP is\napplied.",
+              "page": 21,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "The model after the elimination of the ambient temperature is:",
+              "page": 29,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Coin-OR Branch and Cut (CBC) solver",
+              "evidence_quote": "The MILP problem (Eq. 24) is solved using the\n“Coin-OR Branch and Cut” (CBC) solver [50].",
+              "page": 28,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "load / production rate (ṁp)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "the load of the plant was left out, which results in a\nmodel with Fk equal to 0.9958. This means that the plant load has a\nhigh eﬀect on the quality of the model and cannot be left out.",
+              "page": 29,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ambient temperature (Tamb)",
+              "type": "ambient conditions",
+              "role": "excluded",
+              "evidence_quote": "Leaving out\nthe ambient temperature results in a model with an Fk of 0.0472, indicating\nthat the loss of information due to its elimination is not signiﬁcant.",
+              "page": 29,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "The number of clusters is a tuning\nparameter for the model identiﬁcation process and here it was chosen as 16.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Measurement data is typically available in a process information man-\nagement system (PIMS), which archives measurement data continuously at\ndiﬀerent sampling times (due to internal compression).",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the proposed method can be applied to redeﬁne the energy base-\nline of a process after retroﬁtting (c.f. ISO 50001:2018).",
+              "page": 25,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "significant process modifications / retrofitting",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "Within these bounds the model is applicable for comparison\nwith process data whereas outside the limits the results have to be handled\nwith care due to the lacking extrapolation capabilities of the BDP model.",
+              "page": 30,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "minimum and maximum value of the percentile centers used in the model identification",
+              "evidence_quote": "The left and right bound in the ﬁgure indicate the\nminimum and maximum value of the percentile centers used in the model\nidentiﬁcation.",
+              "page": 30,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Leaving out\nthe ambient temperature results in a model with an Fk of 0.0472, indicating\nthat the loss of information due to its elimination is not signiﬁcant.",
+                "page": 29,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Fk (backward elimination ratio, ambient temperature left out)",
+                  "value": "0.0472",
+                  "period_or_context": "loss of information from eliminating ambient temperature",
+                  "evidence_quote": "Leaving out\nthe ambient temperature results in a model with an Fk of 0.0472, indicating\nthat the loss of information due to its elimination is not signiﬁcant.",
+                  "page": 29,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Fk (backward elimination ratio, plant load left out)",
+                  "value": "0.9958",
+                  "period_or_context": "effect of eliminating plant load",
+                  "evidence_quote": "First, the load of the plant was left out, which results in a\nmodel with Fk equal to 0.9958.",
+                  "page": 29,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "% reduction",
+                  "energy saving"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "the model based only on the plant load (Eq. 34), clustered on plant load only",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "As the method, but clustering and fitting based only on the plant load as influencing factor",
+            "evidence_quote": "As the temperature\nhas a negligible eﬀect on the model quality, as the ﬁnal step, a model was\nﬁtted using only the plant load as the inﬂuencing factor.",
+            "page": 30,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "-0.7484 (coefficient of ṁp^2)",
+            "3.2778 (coefficient of ṁp^-1)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "where Ej denotes the energy demand and mP the amount of product in\nspeciﬁcation during a speciﬁed time interval.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "unit",
+                "GJ/t",
+                "dimensionless"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The resulting models are non-linear but as simple as possible to\npresent clear trends to the plant personnel.",
+              "page": 31,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "WLS",
+              "evidence_quote": "the diﬀerent weights of the clusters are considered\nusing a Weighted Least Square (WLS) formulation in the objective function\nrather than the ordinary least square error",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "stepwise",
+              "evidence_quote": "As the temperature\nhas a negligible eﬀect on the model quality, as the ﬁnal step, a model was\nﬁtted using only the plant load as the inﬂuencing factor.",
+              "page": 30,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "as the ﬁnal step, a model was\nﬁtted using only the plant load as the inﬂuencing factor.",
+              "page": 30,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Coin-OR Branch and Cut (CBC) solver",
+              "evidence_quote": "The MILP problem (Eq. 24) is solved using the\n“Coin-OR Branch and Cut” (CBC) solver [50].",
+              "page": 28,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "plant load / production rate (ṁp)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "as the ﬁnal step, a model was\nﬁtted using only the plant load as the inﬂuencing factor.",
+              "page": 30,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "hourly",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": 16,
+              "evidence_quote": "The number of clusters is a tuning\nparameter for the model identiﬁcation process and here it was chosen as 16.",
+              "page": 27,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Measurement data is typically available in a process information man-\nagement system (PIMS), which archives measurement data continuously at\ndiﬀerent sampling times (due to internal compression).",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "the measurement data of the load and the total 5 bar\nsteam consumption of the plant together with the ambient temperature with\na sampling interval of one hour is collected.",
+              "page": 27,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the proposed method can be applied to redeﬁne the energy base-\nline of a process after retroﬁtting (c.f. ISO 50001:2018).",
+              "page": 25,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": "significant process modifications / retrofitting",
+              "evidence_quote": "The occurrence of signiﬁcant process modiﬁcations has to be taken into\naccount when choosing the time interval for the determination of the\nBDP.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "Within these bounds the model is applicable for comparison\nwith process data whereas outside the limits the results have to be handled\nwith care due to the lacking extrapolation capabilities of the BDP model.",
+              "page": 30,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "minimum and maximum value of the percentile centers used in the model identification",
+              "evidence_quote": "The left and right bound in the ﬁgure indicate the\nminimum and maximum value of the percentile centers used in the model\nidentiﬁcation.",
+              "page": 30,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "1\n2\n0.23\n98.8%\n10.0%",
+                "page": 38,
+                "support_class": "requires inference"
+              },
+              "metrics": [
+                {
+                  "metric": "model distance ratio",
+                  "value": "0.23",
+                  "period_or_context": "1 influence factor, 2 base functions",
+                  "evidence_quote": "1\n2\n0.23\n98.8%\n10.0%",
+                  "page": 38,
+                  "support_class": "requires inference"
+                },
+                {
+                  "metric": "fraction of points below model curve",
+                  "value": "10.0%",
+                  "period_or_context": "1 influence factor, 2 base functions",
+                  "evidence_quote": "1\n2\n0.23\n98.8%\n10.0%",
+                  "page": 38,
+                  "support_class": "requires inference"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "1\n2\n0.23\n98.8%\n10.0%",
+                "page": 38,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "% reduction",
+                  "energy saving"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "The data is taken from the Propylene Oxide (PO) produc-\ntion plant of INEOS in K¨oln. This plant produces PO using the Chlorohydrin\nprocess",
+        "page": 25,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Such models only rep-\nresent the data that has been used to parameterize them, so extrapolation\nusually is not possible and their accuracy depends on the density, accuracy\nand reproducibility of the available data.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "validity envelope exceeded"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Within these bounds the model is applicable for comparison\nwith process data whereas outside the limits the results have to be handled\nwith care due to the lacking extrapolation capabilities of the BDP model.",
+      "page": 30,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "validity envelope exceeded"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Such models only rep-\nresent the data that has been used to parameterize them, so extrapolation\nusually is not possible and their accuracy depends on the density, accuracy\nand reproducibility of the available data.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Data prior to modiﬁcations may not be suitable for the model iden-\ntiﬁcation of the current BDP, but contrariwise a signiﬁcant time period is\nnecessary to collect suﬃcient process data to identify a reliable and accurate\nBDP model.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "plant or process modification",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Data prior to modiﬁcations may not be suitable for the model iden-\ntiﬁcation of the current BDP, but contrariwise a signiﬁcant time period is\nnecessary to collect suﬃcient process data to identify a reliable and accurate\nBDP model.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "insufficient data length for the model"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "For continuous processes, the analysis is based upon the assumption that\nthe process is stationary, unless storage terms are taken into account in the\ncomputation of the indicators.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "In many\ncases, the use of linear regression models is insuﬃcient since the performance\ncurves of the process data clearly indicate nonlinear behavior.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "The ambient temperature should be ini-\ntially included in every analysis in order to be in accordance with normative\nstandards (c.f. ISO 50006:2017 [20]).",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Outlier removal is performed by ﬁltering data by specifying upper and\nlower bounds which deﬁne the typical operational envelope.",
+      "page": 11,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "weighted estimation",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "the diﬀerent weights of the clusters are considered\nusing a Weighted Least Square (WLS) formulation in the objective function\nrather than the ordinary least square error",
+      "page": 18,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "redefine the energy baseline of a process after retrofitting / re-evaluate the BDP after a period of time",
+      "status": "proposed",
+      "addresses_mechanism": "K4",
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "the proposed method can be applied to redeﬁne the energy base-\nline of a process after retroﬁtting (c.f. ISO 50001:2018).",
+      "page": 25,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "nonlinear surrogate model composed of simple basis functions to overcome shortcomings of linear regression",
+      "status": "implemented",
+      "addresses_mechanism": "K7",
+      "normative_framing": "absent",
+      "evidence_quote": "In order to overcome the shortcomings of linear regression models,\nALAMO selects a combination of simple basis functions that ﬁt the responses\nwith an acceptable accuracy.",
+      "page": 17,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "Due to the conﬁdentiality\nof the data, only the processed data are presented throughout this section.",
+      "page": 27
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Success depends on the skills and experience of the plant personnel, since the method only identifies improvement potential",
+      "evidence_quote": "Since the method only identiﬁes\nthe operational improvement potential the success depends on the skills and\nthe experience of the plant personnel.",
+      "page": 30
+    },
+    {
+      "barrier": "Surrogate model development requires considerable efforts in data pre-treatment and in choice/parameterization of the model structure",
+      "evidence_quote": "Their development also requires\nconsiderable eﬀorts in data pre-treatment and in the choice and parameteri-\nzation of the model structure.",
+      "page": 7
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "y = −0.6989 ˙m2\np + 2.9402 ˙m−1\np\n+ 0.4195T −3\namb",
+      "page": 29,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "y = −0.2287 ˙m3\np + 2.7202 ˙m−2\np .",
+      "page": 29,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "partial",
+      "evidence_quote": "Due to the conﬁdentiality\nof the data, only the processed data are presented throughout this section.",
+      "page": 27,
+      "support_class": "requires inference"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "github",
+        "available",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "Three models were extracted, corresponding to the three fitted BDP equations for 5 bar steam intensity of the INEOS Propylene Oxide plant: M1 (Eq. 29, load + ambient temperature, 3 basis functions), M2 (Eq. 30, after backward elimination of temperature, clustered on both factors), and M3 (Eq. 34, load only, clustered on load only). Table 2 reports two rows: '2 influence factors / 3 base functions' assigned to M1 and '1 influence factor / 2 base functions' assigned to M3 (this assignment is inferential; the row could alternatively belong to M2, since M2 and M3 both have one influence factor and two basis functions). Sector: propylene oxide is a petrochemical product, but the paper frames the case as continuous chemical production; sector_registered and refinery_or_petrochemical_case were coded as petrochemicals with 'requires inference' — reviewer should confirm eligibility. modelling_frequency coded hourly by inference; the models are actually fitted to 16 clustered percentile centres rather than to a temporal step, and n_observations=16 reflects the number of cluster representatives used for fitting, not the raw (confidential) sample count. EnPI = energy demand / amount of product in specification; denominator coded production mass by inference (ṁP is a production rate).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "extrapolation",
+        "assumption",
+        "stationary",
+        "drift",
+        "modification",
+        "overfitting",
+        "nonlinear",
+        "data quality"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "clustering",
+        "weighted",
+        "backward elimination",
+        "outlier",
+        "normalization",
+        "re-estimation",
+        "retrofitting"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "confidentiality",
+        "limitation",
+        "only",
+        "future research",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "personnel",
+        "skills",
+        "effort",
+        "development",
+        "training",
+        "cost"
+      ]
+    }
+  }
+}

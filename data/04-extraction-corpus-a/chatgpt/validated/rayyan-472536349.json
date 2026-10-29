@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536349",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T09:43:50Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The core of the procedure is the ship energy performance simulation section, where the mathematical equations adopted in the model are described.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study is based on the Queen Elizabeth, a real medium-sized cruise ship measuring 294 m in length, 32 m in width, and 46.2 m in height, as depicted in Fig. 6.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Despite the growing interest in digital twin models across various industries, its application to onboard HVAC systems in maritime context remains largely unexplored.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The empirical context is maritime shipping, outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study is based on the Queen Elizabeth, a real medium-sized cruise ship measuring 294 m in length, 32 m in width, and 46.2 m in height, as depicted in Fig. 6.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Caribbean Sea; Mediterranean Sea",
+      "evidence_quote": "the cruise ship is assumed to take on two types of cruises: one in the Caribbean Sea and the other in the Mediterranean Sea.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "maritime transport",
+      "evidence_quote": "Maritime transport accounts for 11 % of the transportation sector [1] and 2.6 % of global CO2 emissions [2,3]",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "ships are transportation systems that are selfsufficient in terms of energy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "It also to evaluates the impact of different energy-efficient solutions on the carbon intensity indicator (CII). This parameter, introduced by IMO, becomes more restrictive over time.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "The model simultaneously solves for each timestep the energy balance of all thermal zones and allows for assessing the indoor air temperature, relative humidity, and the energy required for provide proper hygro-thermal conditions.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "process flowsheet simulation"
+      ],
+      "evidence_quote": "The three-dimensional model is implemented in TRNSYS environment using type56.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.79
+    }
+  },
+  "stage3": null
+}

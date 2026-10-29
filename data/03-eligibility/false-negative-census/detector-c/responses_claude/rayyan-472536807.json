@@ -1,0 +1,33 @@
+{
+  "key": "rayyan-472536807",
+  "listed_sector_signals": [
+    {
+      "signal": "Paper listed as one of the industrial sectors in the aggregate decomposition (statistical category, no process-level application)",
+      "quote": "eight industrial sectors (food, textiles, paper, chemical, building materials,\nmetallurgical, mechanical, and other industry)",
+      "page": 4,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Chemical sector listed as an aggregate industrial category",
+      "quote": "eight industrial sectors (food, textiles, paper, chemical, building materials,\nmetallurgical, mechanical, and other industry)",
+      "page": 4,
+      "sector": "continuous chemical production / petrochemicals"
+    },
+    {
+      "signal": "Metallurgical / basic metals listed as an aggregate industrial category",
+      "quote": "food, textiles, wood, paper, chemical, non-metal, basic metal, machinery, and\nother industry",
+      "page": 4,
+      "sector": "steel / primary-metals continuous production"
+    },
+    {
+      "signal": "Petroleum and coal products, chemical materials and non-metallic mineral products listed as Taiwan industrial categories",
+      "quote": "chemical materials, chemical products, petroleum and coal products, rubber products, plastic products, non-metallic mineral products, basic",
+      "page": 4,
+      "sector": "petroleum refining / petrochemicals / cement"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper is an economy-wide Divisia-index decomposition of aggregate industrial energy intensity for China, South Korea and Taiwan; registered sectors (paper, chemical, metallurgical, petroleum products) appear only as statistical aggregate categories, with no process-level continuous-production application."
+}

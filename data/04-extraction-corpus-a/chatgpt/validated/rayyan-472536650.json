@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536650",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:32:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Since energy performance indicators were calculated manually, there is still a lack of automated pattern recognition of operations or products for an automated generation of key performance indicators. In previous studies [8] a measurement system for analyzing the active power of variable frequency drives was developed and applied on two different production processes. In this paper a method for automated classification of load profiles of electric drives is discussed on the example of the mentioned spindle load profiles. In the first part, a combination of Hidden Markov Models and Cross-Correlation is applied on the active power profile.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The profile of a CNC lathe’s spindle is acquired behind the inverter drive during the manufacture of two different parts which can be found at figure 4. Four samples of Product 1 and eight of Product 2 were acquired.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this paper methods for pattern recognition in load profiles of electric drives are presented on the example of a multiaxial lathe.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Empirical application is a multiaxial/CNC lathe in discrete manufacturing, not a continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In this paper methods for pattern recognition in load profiles of electric drives are presented on the example of a multiaxial lathe.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "manufacturing plants",
+      "evidence_quote": "With the introduction of energy management systems, an analysis of load profiles of manufacturing plants becomes increasingly important.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "This method can be applied to non-networked manufacturing plants where different products are manufactured with various operations, e.g. older mills or lathes.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "The defined pattern profiles were used to train the models, while each pattern has its own HMM. The transition and emission probabilities (A and B) were estimated using the Maximum Likelihood Estimation algorithm (MLE).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

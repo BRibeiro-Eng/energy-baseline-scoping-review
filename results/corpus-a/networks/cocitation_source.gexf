@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-21">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="occurrences" type="long" />
+    </attributes>
+    <nodes>
+      <node id="https://openalex.org/S10134376" label="https://openalex.org/S10134376">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S105637730" label="https://openalex.org/S105637730">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S109565702" label="https://openalex.org/S109565702">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S133853345" label="https://openalex.org/S133853345">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S175056054" label="https://openalex.org/S175056054">
+        <attvalues>
+          <attvalue for="0" value="45" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S198098182" label="https://openalex.org/S198098182">
+        <attvalues>
+          <attvalue for="0" value="41" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2497375143" label="https://openalex.org/S2497375143">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2764773172" label="https://openalex.org/S2764773172">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2764877105" label="https://openalex.org/S2764877105">
+        <attvalues>
+          <attvalue for="0" value="25" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2764911704" label="https://openalex.org/S2764911704">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2898407351" label="https://openalex.org/S2898407351">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2898434319" label="https://openalex.org/S2898434319">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S2898565713" label="https://openalex.org/S2898565713">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S32776067" label="https://openalex.org/S32776067">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S4210185096" label="https://openalex.org/S4210185096">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S4210188153" label="https://openalex.org/S4210188153">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S4306402487" label="https://openalex.org/S4306402487">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S45645249" label="https://openalex.org/S45645249">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S48957891" label="https://openalex.org/S48957891">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S58516903" label="https://openalex.org/S58516903">
+        <attvalues>
+          <attvalue for="0" value="85" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S6846437" label="https://openalex.org/S6846437">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S68497187" label="https://openalex.org/S68497187">
+        <attvalues>
+          <attvalue for="0" value="46" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S75069817" label="https://openalex.org/S75069817">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="https://openalex.org/S94499970" label="https://openalex.org/S94499970">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S58516903" id="0" weight="14" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S68497187" id="1" weight="9" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S175056054" id="2" weight="13" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S198098182" id="3" weight="14" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S2764773172" id="4" weight="4" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S2764877105" id="5" weight="6" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S4210188153" id="6" weight="4" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S48957891" id="7" weight="4" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S2898407351" id="8" weight="3" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S94499970" id="9" weight="2" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S75069817" id="10" weight="7" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S133853345" id="11" weight="4" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S109565702" id="12" weight="1" />
+      <edge source="https://openalex.org/S10134376" target="https://openalex.org/S2764911704" id="13" weight="1" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S2764877105" id="14" weight="1" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S2898565713" id="15" weight="1" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S32776067" id="16" weight="2" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S45645249" id="17" weight="2" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S58516903" id="18" weight="5" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S68497187" id="19" weight="3" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S4306402487" id="20" weight="1" />
+      <edge source="https://openalex.org/S105637730" target="https://openalex.org/S175056054" id="21" weight="1" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S4210185096" id="22" weight="2" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S175056054" id="23" weight="9" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S58516903" id="24" weight="13" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S68497187" id="25" weight="6" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S198098182" id="26" weight="5" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S2764911704" id="27" weight="3" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S6846437" id="28" weight="1" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S75069817" id="29" weight="1" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S2497375143" id="30" weight="2" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S2764877105" id="31" weight="2" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S2898565713" id="32" weight="2" />
+      <edge source="https://openalex.org/S109565702" target="https://openalex.org/S2898434319" id="33" weight="1" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S175056054" id="34" weight="4" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S198098182" id="35" weight="4" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S2898407351" id="36" weight="1" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S4210188153" id="37" weight="2" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S48957891" id="38" weight="2" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S58516903" id="39" weight="3" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S2764877105" id="40" weight="3" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S2764773172" id="41" weight="2" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S68497187" id="42" weight="1" />
+      <edge source="https://openalex.org/S133853345" target="https://openalex.org/S75069817" id="43" weight="1" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S198098182" id="44" weight="16" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2764773172" id="45" weight="4" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2764877105" id="46" weight="14" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S4210188153" id="47" weight="3" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S48957891" id="48" weight="5" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S58516903" id="49" weight="35" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S75069817" id="50" weight="8" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2898407351" id="51" weight="2" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S68497187" id="52" weight="19" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S4306402487" id="53" weight="3" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2497375143" id="54" weight="3" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2764911704" id="55" weight="5" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2898565713" id="56" weight="4" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S4210185096" id="57" weight="2" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S2898434319" id="58" weight="1" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S6846437" id="59" weight="1" />
+      <edge source="https://openalex.org/S175056054" target="https://openalex.org/S94499970" id="60" weight="1" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2764773172" id="61" weight="5" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S58516903" id="62" weight="23" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S68497187" id="63" weight="17" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2764877105" id="64" weight="10" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S4210188153" id="65" weight="4" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S48957891" id="66" weight="5" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S75069817" id="67" weight="6" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2898434319" id="68" weight="2" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2898407351" id="69" weight="1" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2764911704" id="70" weight="7" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S6846437" id="71" weight="7" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S94499970" id="72" weight="1" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2898565713" id="73" weight="5" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S2497375143" id="74" weight="2" />
+      <edge source="https://openalex.org/S198098182" target="https://openalex.org/S4210185096" id="75" weight="3" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S58516903" id="76" weight="8" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S75069817" id="77" weight="2" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S2764877105" id="78" weight="3" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S2898565713" id="79" weight="2" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S68497187" id="80" weight="4" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S45645249" id="81" weight="1" />
+      <edge source="https://openalex.org/S2497375143" target="https://openalex.org/S4210185096" id="82" weight="1" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S58516903" id="83" weight="3" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S68497187" id="84" weight="2" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S2764877105" id="85" weight="4" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S4210188153" id="86" weight="1" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S48957891" id="87" weight="2" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S75069817" id="88" weight="3" />
+      <edge source="https://openalex.org/S2764773172" target="https://openalex.org/S94499970" id="89" weight="1" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S4210188153" id="90" weight="2" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S48957891" id="91" weight="5" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S58516903" id="92" weight="16" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S68497187" id="93" weight="11" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S75069817" id="94" weight="7" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S6846437" id="95" weight="2" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S2898565713" id="96" weight="6" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S32776067" id="97" weight="1" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S45645249" id="98" weight="1" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S4210185096" id="99" weight="2" />
+      <edge source="https://openalex.org/S2764877105" target="https://openalex.org/S2764911704" id="100" weight="1" />
+      <edge source="https://openalex.org/S2764911704" target="https://openalex.org/S2898565713" id="101" weight="4" />
+      <edge source="https://openalex.org/S2764911704" target="https://openalex.org/S58516903" id="102" weight="7" />
+      <edge source="https://openalex.org/S2764911704" target="https://openalex.org/S68497187" id="103" weight="5" />
+      <edge source="https://openalex.org/S2764911704" target="https://openalex.org/S2898434319" id="104" weight="1" />
+      <edge source="https://openalex.org/S2764911704" target="https://openalex.org/S4210185096" id="105" weight="2" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S58516903" id="106" weight="3" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S68497187" id="107" weight="2" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S94499970" id="108" weight="1" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S2898565713" id="109" weight="1" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S4210188153" id="110" weight="1" />
+      <edge source="https://openalex.org/S2898407351" target="https://openalex.org/S48957891" id="111" weight="1" />
+      <edge source="https://openalex.org/S2898434319" target="https://openalex.org/S58516903" id="112" weight="2" />
+      <edge source="https://openalex.org/S2898434319" target="https://openalex.org/S2898565713" id="113" weight="1" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S58516903" id="114" weight="11" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S68497187" id="115" weight="9" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S75069817" id="116" weight="2" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S32776067" id="117" weight="1" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S45645249" id="118" weight="1" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S48957891" id="119" weight="1" />
+      <edge source="https://openalex.org/S2898565713" target="https://openalex.org/S4210185096" id="120" weight="3" />
+      <edge source="https://openalex.org/S32776067" target="https://openalex.org/S45645249" id="121" weight="4" />
+      <edge source="https://openalex.org/S32776067" target="https://openalex.org/S58516903" id="122" weight="3" />
+      <edge source="https://openalex.org/S32776067" target="https://openalex.org/S68497187" id="123" weight="4" />
+      <edge source="https://openalex.org/S4210185096" target="https://openalex.org/S58516903" id="124" weight="5" />
+      <edge source="https://openalex.org/S4210185096" target="https://openalex.org/S68497187" id="125" weight="1" />
+      <edge source="https://openalex.org/S4210188153" target="https://openalex.org/S48957891" id="126" weight="2" />
+      <edge source="https://openalex.org/S4210188153" target="https://openalex.org/S58516903" id="127" weight="3" />
+      <edge source="https://openalex.org/S4306402487" target="https://openalex.org/S68497187" id="128" weight="1" />
+      <edge source="https://openalex.org/S4306402487" target="https://openalex.org/S58516903" id="129" weight="3" />
+      <edge source="https://openalex.org/S4306402487" target="https://openalex.org/S6846437" id="130" weight="1" />
+      <edge source="https://openalex.org/S45645249" target="https://openalex.org/S58516903" id="131" weight="4" />
+      <edge source="https://openalex.org/S45645249" target="https://openalex.org/S68497187" id="132" weight="6" />
+      <edge source="https://openalex.org/S48957891" target="https://openalex.org/S58516903" id="133" weight="4" />
+      <edge source="https://openalex.org/S48957891" target="https://openalex.org/S68497187" id="134" weight="3" />
+      <edge source="https://openalex.org/S48957891" target="https://openalex.org/S75069817" id="135" weight="3" />
+      <edge source="https://openalex.org/S58516903" target="https://openalex.org/S68497187" id="136" weight="29" />
+      <edge source="https://openalex.org/S58516903" target="https://openalex.org/S94499970" id="137" weight="4" />
+      <edge source="https://openalex.org/S58516903" target="https://openalex.org/S75069817" id="138" weight="13" />
+      <edge source="https://openalex.org/S58516903" target="https://openalex.org/S6846437" id="139" weight="4" />
+      <edge source="https://openalex.org/S6846437" target="https://openalex.org/S75069817" id="140" weight="3" />
+      <edge source="https://openalex.org/S6846437" target="https://openalex.org/S68497187" id="141" weight="3" />
+      <edge source="https://openalex.org/S68497187" target="https://openalex.org/S94499970" id="142" weight="2" />
+      <edge source="https://openalex.org/S68497187" target="https://openalex.org/S75069817" id="143" weight="6" />
+      <edge source="https://openalex.org/S75069817" target="https://openalex.org/S94499970" id="144" weight="1" />
+    </edges>
+  </graph>
+</gexf>

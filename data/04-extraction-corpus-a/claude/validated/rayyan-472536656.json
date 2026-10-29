@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536656",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:06:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "This paper investigates the main barriers to energy efficiency in Singapore-based industries.",
+        "we explicitly considered the effects of energy performance measurement on energy efficiency outcomes and their determinants in the MOA framework"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "The paper proposes and empirically tests a behavioural/organisational framework (Motivation, Opportunity, and Ability) explaining the determinants of firms' energy-efficiency adoption outcomes, using a 143-firm industry survey and PLS structural equation modelling. It does not present, propose, evaluate, or characterise an EnPI or EnB measurement model: no energy performance indicator, energy baseline, normalisation variables, functional form, or baseline-construction/estimation approach for energy consumption is defined. Energy performance measurement enters only as an incidental behavioural construct ('monitoring ability') moderating adoption, not as a characterised measurement model. Ineligible under the v2.3 threshold (incidental EnPI/EnB mention; behavioural/decision framework).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "We tested this novel framework using data from an industry survey conducted by the Energy Studies Institute, National University of Singapore.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Behavioural MOA survey/PLS-SEM study of energy-efficiency barriers; no EnPI/EnB model characterised. paper_type='other' (survey framework-test fits no model enum)."
+  },
+  "stage2": null,
+  "stage3": null
+}

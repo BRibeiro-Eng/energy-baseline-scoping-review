@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472535357",
+  "listed_sector_signals": [
+    {
+      "signal": "Literature-review mention of energy analyses in a chemical industry and in manufacturing of non-metallic mineral products (potential continuous chemical / cement / glass contexts) — cited from another study, not applied here",
+      "quote": "energy analyses \nwere carried out in four industrial sectors in Spain: \nchemical industry, food and beverage, textile industry, \nand manufacturing of non-metallic mineral products.",
+      "page": 2,
+      "sector": "continuous chemical production / cement / glass (non-metallic minerals)"
+    },
+    {
+      "signal": "Reference cited for a proposed indicator, describing energy auditing/conservation for glass works (continuous glass melting context) — cited only, not applied",
+      "quote": "Energy auditing and \nenergy conservation potential for glass works. Applied Energy,",
+      "page": 20,
+      "sector": "glass"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Literature-review mention of energy audits in cast iron foundries in Italy — a primary-metals casting context, cited from another study, not applied here",
+      "quote": "conducted energy \naudits in cast iron foundries in Italy, analyzing energy \nbills, equipment lists, consumption, proposed improve-\nments",
+      "page": 3,
+      "sector": "foundry / primary metals (cast iron casting, batch)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and case-tests an audit-based energy-management model in a small plastic injection molding company (discrete manufacturing SME); Corpus-B-adjacent sectors (chemical, non-metallic minerals, glass, foundries) appear only as cited literature examples."
+}

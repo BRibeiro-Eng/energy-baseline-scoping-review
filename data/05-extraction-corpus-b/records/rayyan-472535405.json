@@ -1,0 +1,2143 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535405",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "steel production process",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Italy",
+          "country",
+          "location",
+          "region",
+          "plant location"
+        ]
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Electric arc furnace steel mill (Mill 1), production 480 kton/year and CO2 emissions 105 kton/year in 2022",
+        "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022. The CO2 emissions from\nmill 1 were 105 kton/year , whereas from mill 2 were 64\nkton/year.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "total energy consumption (GJ/t) EnPI",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "and total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "and total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "By calculating the energy consumption\nof each equipment the total energy of the process is calculated.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "baseline update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range",
+                "load range",
+                "envelope"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 2.18,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 1 — steelmaking (ACC)",
+                  "evidence_quote": "Global\nGJ/t\n2.18\n3.16",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 5.62,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 1 — casting (RIF)",
+                  "evidence_quote": "RIF\nGlobal\nGJ/t\n5.62",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 2.61,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 1 — forging (FOR)",
+                  "evidence_quote": "Global\nGJ/t\n2.61\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 2.19,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 1 — hot rolling (LAM)",
+                  "evidence_quote": "Global\nGJ/t\n2.19\n2.68",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 1.63,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 1 — heat treatment (TT)",
+                  "evidence_quote": "Global\nGJ/t\n1.63\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "carbon emissions avoided from proposed interventions",
+                  "value": "approximately 2000",
+                  "unit": "tons per year",
+                  "period_or_context": "proposed energy-saving interventions",
+                  "evidence_quote": "to be approximately 2000 tons per year.",
+                  "page": 5,
+                  "support_class": "direct statement",
+                  "page_as_recorded": 6,
+                  "locator_corrected": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "electrical energy consumption (kWh/t) EnPI",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Electric\nkWh/t\n450.93\n504.71",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 450.93,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 1 — steelmaking (ACC)",
+                  "evidence_quote": "Electric\nkWh/t\n450.93\n504.71",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 55.12,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 1 — forging (FOR)",
+                  "evidence_quote": "FOR\nElectric\nkWh/t\n55.12\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 69.9,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 1 — hot rolling (LAM)",
+                  "evidence_quote": "LAM\nElectric\nkWh/t\n69.90\n124.72",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 15.3,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 1 — heat treatment (TT)",
+                  "evidence_quote": "TT\nElec\nkWh/t\n15.30\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "thermal energy consumption (Sm3/t) EnPI",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Sm3/t",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "By calculating the energy consumption\nof each equipment the total energy of the process is calculated.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Thermal\nSm3/t\n16.17\n38.97\nNew",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 16.17,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 1 — steelmaking (ACC)",
+                  "evidence_quote": "Thermal\nSm3/t\n16.17\n38.97\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 69.8,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 1 — forging (FOR)",
+                  "evidence_quote": "Thermal\nSm3/t\n69.80\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 56.16,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 1 — hot rolling (LAM)",
+                  "evidence_quote": "Termal\nSm3/t\n56.16\n64.61\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 45.52,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 1 — heat treatment (TT)",
+                  "evidence_quote": "Term\nSm3/t\n45.52\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "emissions per ton of steel (tCO2/t) EnPI",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "CO2 or emissions",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "The energy consumption is then converted to Tera joul (TJ)\nby using the emission factors of that region for the sake of\ncomparison.",
+              "page": 2,
+              "support_class": "requires inference",
+              "other_verbatim": "CO2 emissions derived from total energy via regional emission factors"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "tco2/t",
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "The energy consumption is then converted to Tera joul (TJ)\nby using the emission factors of that region for the sake of\ncomparison.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Emissions at the process ACC are found less as\ncompared with the [16] whereas emissions at the process LAM\ncan not be found in the literature.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "emissions per ton (ACC)",
+                  "value": 0.57,
+                  "unit": "tco2/t-ACC",
+                  "period_or_context": "Mill 1 — steelmaking (ACC)",
+                  "evidence_quote": "0.57\n1\n0.2-0.3\nGood",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "emissions per ton (LAM)",
+                  "value": 2,
+                  "unit": "tco2/t-LAM",
+                  "period_or_context": "Mill 1 — hot rolling (LAM)",
+                  "evidence_quote": "2\n0.50\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "specific consumption of compressors (kWh/Nm3) EnPI",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "compressed air volume (Nm3)"
+            },
+            "unit_verbatim": {
+              "value": "kWh/Nm3",
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "compressed air produced (Nm3)",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "requires inference",
+              "type_other_verbatim": "compressed air volume"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "ACO\nkWh/\nNm3\n0.064\n0.118\nNew",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "specific consumption of compressors",
+                  "value": 0.064,
+                  "unit": "kWh/Nm3",
+                  "period_or_context": "Mill 1 — air compression (ACO)",
+                  "evidence_quote": "ACO\nkWh/\nNm3\n0.064\n0.118\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "steel production process",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Italy",
+          "country",
+          "location",
+          "region"
+        ]
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Electric arc furnace steel mill (Mill 2), production 190 kton/year and CO2 emissions 64 kton/year in 2022",
+        "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022. The CO2 emissions from\nmill 1 were 105 kton/year , whereas from mill 2 were 64\nkton/year.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M6",
+          "label_verbatim": "total energy consumption (GJ/t) EnPI — Mill 2",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "and total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "GJ/t",
+              "evidence_quote": "and total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "and total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "By calculating the energy consumption\nof each equipment the total energy of the process is calculated.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Global\nGJ/t\n2.18\n3.16",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 3.16,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 2 — steelmaking (ACC)",
+                  "evidence_quote": "Global\nGJ/t\n2.18\n3.16",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "total energy consumption (Global)",
+                  "value": 2.68,
+                  "unit": "GJ/t",
+                  "period_or_context": "Mill 2 — hot rolling (LAM)",
+                  "evidence_quote": "Global\nGJ/t\n2.19\n2.68",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M7",
+          "label_verbatim": "electrical energy consumption (kWh/t) EnPI — Mill 2",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Electric\nkWh/t\n450.93\n504.71",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 504.71,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 2 — steelmaking (ACC)",
+                  "evidence_quote": "Electric\nkWh/t\n450.93\n504.71",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "electrical energy consumption",
+                  "value": 124.72,
+                  "unit": "kWh/t",
+                  "period_or_context": "Mill 2 — hot rolling (LAM)",
+                  "evidence_quote": "LAM\nElectric\nkWh/t\n69.90\n124.72",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M8",
+          "label_verbatim": "thermal energy consumption (Sm3/t) EnPI — Mill 2",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t),\nand total energy consumption (GJ/t) for ACC, FOR, LAM,\nand TT, GJ/t for RIF.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Sm3/t",
+              "evidence_quote": "thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "thermal energy consumption (Sm3/t),",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the tons of steel are provided at five\ndifferent steps for one mill and the three levels for the second\nsteel mill.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "By calculating the energy consumption\nof each equipment the total energy of the process is calculated.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Thermal\nSm3/t\n16.17\n38.97\nNew",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 38.97,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 2 — steelmaking (ACC)",
+                  "evidence_quote": "Thermal\nSm3/t\n16.17\n38.97\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "thermal energy consumption",
+                  "value": 64.61,
+                  "unit": "Sm3/t",
+                  "period_or_context": "Mill 2 — hot rolling (LAM)",
+                  "evidence_quote": "Termal\nSm3/t\n56.16\n64.61\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M9",
+          "label_verbatim": "emissions per ton of steel (tCO2/t) EnPI — Mill 2",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "CO2 or emissions",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "The energy consumption is then converted to Tera joul (TJ)\nby using the emission factors of that region for the sake of\ncomparison.",
+              "page": 2,
+              "support_class": "requires inference",
+              "other_verbatim": "CO2 emissions derived from total energy via regional emission factors"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "tco2/t",
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tons of steel produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "The energy consumption is then converted to Tera joul (TJ)\nby using the emission factors of that region for the sake of\ncomparison.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Emissions at the process ACC are found less as\ncompared with the [16] whereas emissions at the process LAM\ncan not be found in the literature.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "emissions per ton (ACC)",
+                  "value": 1,
+                  "unit": "tco2/t-ACC",
+                  "period_or_context": "Mill 2 — steelmaking (ACC)",
+                  "evidence_quote": "0.57\n1\n0.2-0.3\nGood",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "emissions per ton (LAM)",
+                  "value": 0.5,
+                  "unit": "tco2/t-LAM",
+                  "period_or_context": "Mill 2 — hot rolling (LAM)",
+                  "evidence_quote": "2\n0.50\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M10",
+          "label_verbatim": "specific consumption of compressors (kWh/Nm3) EnPI — Mill 2",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Other EnPIs identified are specific\nconsumption of compressors (kWh/Nm3) and emissions per\nton of steel for ACC and LAM.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "compressed air volume (Nm3)"
+            },
+            "unit_verbatim": {
+              "value": "kWh/Nm3",
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "compressed air produced (Nm3)",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "specific\nconsumption of compressors (kWh/Nm3)",
+              "page": 4,
+              "support_class": "requires inference",
+              "type_other_verbatim": "compressed air volume"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The production of mill 1 was 480 kton/year whereas,\nof mill 2 it is 190 kton/year in 2022.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The study is carried out with the participation of two steel\nmills, whose audit is carried out by an energy consulting\ncompany.",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "The energy consumption of each\nequipment (i.e., electrical, thermal, diesel, water, ...) is attributed\nto each m-th process.",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "ACO\nkWh/\nNm3\n0.064\n0.118\nNew",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "specific consumption of compressors",
+                  "value": 0.118,
+                  "unit": "kWh/Nm3",
+                  "period_or_context": "Mill 2 — air compression (ACO)",
+                  "evidence_quote": "ACO\nkWh/\nNm3\n0.064\n0.118\nNew",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "it represents the application of energy management in an\nenergy-intensive sector, like the steel production process",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "EnPIs can as effectively be\nidentified and calculated as much detailed data is provided\nby the mills.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The precision of the monitoring system\nand the efficiency of equipment/process/plants can further give\ndetailed and accurate energy intensity.",
+      "page": 6,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "use of machine learning techniques to better assess the various EnPIs",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Further, a potential tool is foreseen\nin the use of machine learning techniques which can better\nassess the various EnPIs, by using all the possible data that\ncan link the complex production with its consumption.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "paper-level argument"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "online re-estimation",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "This model i.e. Fig. 5 can\nbe matured with the continuous monitoring and update of data\nfrom different case studies.",
+      "page": 6,
+      "support_class": "requires inference",
+      "refers_to": "paper-level argument"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "The benchmark-\ning can become more accurate if more sites participate in this\nactivity from the different regions of the world.",
+      "page": 6
+    },
+    {
+      "limitation": "other",
+      "also_constrains_model": false,
+      "evidence_quote": "The authors are unable to compare the energy consumption\nin process FOR because of the unavailability of the EnPIs\nfor this process in the literature.",
+      "page": 4,
+      "limitation_other_verbatim": "unavailability of literature EnPIs for benchmarking some processes"
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "The major challenge was the collection and sorting of the data\naccording to the different processes and functional areas.",
+      "page": 6
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "requires continuous communication between industry and energy manager for effective implementation",
+      "evidence_quote": "It requires continuous communication between the in-\ndustry and energy manager for effective implementation.",
+      "page": 6
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "Three categories\nare set based on the total of scores acquired by taking into\naccount A, B, and C. The total scores can be from 1 to 25.",
+      "page": 2,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "supplementary",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "GitHub",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a methodological energy-audit paper that develops 17 intensity-ratio EnPIs for two electric arc furnace steel mills. The two mills are recorded as two applications (A1 = Mill 1, 480 kton/yr; A2 = Mill 2, 190 kton/yr). The 17 EnPIs share one functional form (energy or emissions per ton, or kWh per Nm3 of compressed air) and were grouped into models by dependent variable / energy vector; process-level values (ACC, RIF, FOR, LAM, TT, ACO) are recorded as separate metric entries within each model's energy_result block, since no statistical fitting is performed and there is no in-sample fit metric. The paper also reports a price EnPI 'C/t-ACC' (158 for Mill 1, 204 for Mill 2) which is a product-price indicator rather than an energy-performance model, so it was not given its own model; the reviewer may wish to note it. The 'validation' in Table II is a comparison of computed EnPIs against literature benchmark ranges (labelled Good/Bad/New), not a statistical out-of-sample validation, so out_of_sample_validation is coded not applicable. Mill/plant country is not stated (the consulting company is in Italy).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "limitation",
+        "monitoring",
+        "data",
+        "accuracy",
+        "drift",
+        "baseline"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "future work",
+        "machine learning",
+        "update",
+        "monitoring",
+        "proposed"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "limitation",
+        "more sites",
+        "unable",
+        "data collection"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "communication",
+        "implementation",
+        "barrier",
+        "energy manager"
+      ]
+    }
+  },
+  "attempt": 1
+}

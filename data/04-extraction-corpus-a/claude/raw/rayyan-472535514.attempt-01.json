@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535514",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:24:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a qualitatively new approach, which includes the widespread introduction of effective management techniques, namely energy management systems based on the ISO 50001 standard",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Mentions energy efficiency indicators only incidentally as generic EMS documentation requirements under ISO 50001; no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). Focus is organisational energy-management implementation and its adoption barriers.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The paper considers a range of issues of improving energy efficiency and saving",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "ISO 50001 EMS advocacy/discussion paper; brief KAMAZ automotive example (electricity cut 30% over five years). No EnPI/EnB measurement model characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

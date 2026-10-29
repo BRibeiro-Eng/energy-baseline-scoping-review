@@ -1,0 +1,555 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535351",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 16,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "oil refinery cogeneration plant",
+        "evidence_quote": "evaluate technological changes in the cogeneration plant of an oil refinery, for better energy",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Mexico",
+        "evidence_quote": "the Tula refinery which is part of the Tula-Vito-Apaxco industrial \ncorridor, 90 km north of the metropolitan area of Mexico City",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "the plant consumes around 55% of the \ntotal energy used; therefore, the scope of the refinery’s EnMS \nrefers to this plant.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "The cogeneration plant of the Tula oil refinery (Pemex), Mexico, modelled in three technological scenarios: Baseline, Optimized Fuel and Transition to RE.",
+        "evidence_quote": "A simulation model is used to facilitate the analysis of the energy \nand environmental performance of a thermodynamic system as \ncomplex as the Tula refinery's cogeneration plant",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "In the simulation model of the refinery’s cogeneration \nplant, the output data used to validate the model is the natural \ngas consumed by the set of seven boilers.",
+        "page": 7,
+        "support_class": "direct statement"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the simulation model",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "months",
+              "data collection period"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "year",
+              "months"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Thermodynamic process simulation of the current state of the cogeneration plant (referred to as the Baseline), programmed in Thermoflex.",
+            "evidence_quote": "The model is used to represent three scenarios of the \ncogeneration plant: the current technological state, which will \nbe referred to as the Baseline in accordance with the \nterminology of the standards",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "High-pressure header: 482.2°C, 60.12 bar, enthalpy 3380 kJ/kg",
+            "Natural gas lower calorific value 40,156 kJ/kg at 25°C",
+            "Emission factors (Table 4): CO2 6.715E-02 t/GJ; CO 2.010E-06; SO2 3.990E-05; NO 7.335E-05"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "It is the ratio of the useful electrical \nenergy produced by the plant to the primary energy \nused from the combustion of natural gas to generate \nboth electricity and heat.",
+              "page": 7,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "It is the ratio of the useful electrical \nenergy produced by the plant to the primary energy \nused from the combustion of natural gas to generate \nboth electricity and heat.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "%",
+              "evidence_quote": "The electric \nefficiency rises from 15.31% in the baseline to 45.72% in the \noptimized fuel scenario, and a little decrease to 44.78% in the \ntransition to RE scenario.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "energy balance"
+              ],
+              "evidence_quote": "It uses a system of nonlinear \nequations solved by iterative methods to calculate energy and \nmass balances and applies the IAPWS-IF97 standard to \ncalculate \nthermodynamic \nproperties",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "independent variables",
+                "predictors",
+                "inputs"
+              ]
+            },
+            "software_verbatim": {
+              "value": "Thermoflex",
+              "evidence_quote": "The model is programmed in Thermoflex ©, a general-\npurpose simulation software for modeling thermodynamic \nsystems.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Natural gas consumption",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Natural gas consumption: It is a measure of the fossil \nfuel energy used by the cogeneration plant, allowing \nthe IEU to be quantified.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "replacing the boilers with a set of 4 natural gas turbines linked to a heat recovery system",
+              "type": "equipment configuration",
+              "role": "segmentation",
+              "evidence_quote": "The first proposed technological change consists of \nreplacing the boilers with a set of 4 natural gas turbines linked \nto a heat recovery system, as seen in Figure 3.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "hourly",
+                "daily",
+                "monthly",
+                "frequency",
+                "sampling"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "steady state",
+                "per hour"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points",
+                "samples"
+              ]
+            },
+            "data_type": {
+              "value": "simulation",
+              "evidence_quote": "A simulation model is used to facilitate the analysis of the energy \nand environmental performance of a thermodynamic system as \ncomplex as the Tula refinery's cogeneration plant",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "simulation",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "In the simulation model of the refinery’s cogeneration \nplant, the output data used to validate the model is the natural \ngas consumed by the set of seven boilers.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "rolling",
+                "recalibration"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range",
+                "operating range",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "the correlation coefficient between real and \nsimulated data is 0.6408, which is a strong correlation according \nto Cohen, cited by Lalinde et al. (2018).",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "correlation coefficient between real and simulated natural gas consumption",
+                  "value": 0.6408,
+                  "unit": null,
+                  "period_or_context": "model validation against real plant data (per boiler)",
+                  "evidence_quote": "the correlation coefficient between real and \nsimulated data is 0.6408, which is a strong correlation according \nto Cohen, cited by Lalinde et al. (2018).",
+                  "page": 7,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "median percentage difference (real vs simulated natural gas)",
+                  "value": "7.8%",
+                  "unit": "%",
+                  "period_or_context": "model validation against real plant data (per boiler)",
+                  "evidence_quote": "The median of these differences \nis 7.8%, an appropriate margin of error considering an \nacceptable range of 4% to 8% (Walpole, Myers & Myers 2012).",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "hold-out",
+                  "cross-validation",
+                  "split",
+                  "validation design"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The electric \nefficiency rises from 15.31% in the baseline to 45.72% in the \noptimized fuel scenario, and a little decrease to 44.78% in the \ntransition to RE scenario.",
+                "page": 10,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "electric efficiency (baseline / optimized fuel / transition to RE)",
+                  "value": "15.31% / 45.72% / 44.78%",
+                  "unit": "%",
+                  "period_or_context": "three scenarios",
+                  "evidence_quote": "The electric \nefficiency rises from 15.31% in the baseline to 45.72% in the \noptimized fuel scenario, and a little decrease to 44.78% in the \ntransition to RE scenario.",
+                  "page": 10,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "reduction in rate of energy consumption per kWh generated vs baseline",
+                  "value": "68%",
+                  "unit": "%",
+                  "period_or_context": "proposed technologies vs baseline",
+                  "evidence_quote": "showing a substantial improvement of 68% less energy \nconsumed per kWh generated compared to the baseline.",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "rate of energy consumption (baseline / hybrid)",
+                  "value": "25,376 / 8,197 kJ/kWh",
+                  "unit": "kJ/kWh",
+                  "period_or_context": "baseline vs hybrid technology",
+                  "evidence_quote": "confirmed by the decrease in the rate of energy \nconsumption from 25,376 in the baseline to 8,197 \nkJ/kWh.",
+                  "page": 12,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "natural gas consumption (baseline / optimized fuel)",
+                  "value": "113 / 233 t/h",
+                  "unit": "t/h",
+                  "period_or_context": "baseline vs optimized fuel scenario",
+                  "evidence_quote": "from 113 t/h in the baseline to 233 t/h in the optimized fuel \nscenario.",
+                  "page": 10,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Thermodynamic process simulation software (Thermoflex) applying the IAPWS-IF97 standard and iterative solution of nonlinear energy and mass balance equations",
+            "Real natural gas consumption data per boiler for validation, provided by the Mexican Petroleum Institute"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "petroleum refining",
+        "evidence_quote": "Towards sustainable cogeneration in an oil refinery: A synergy between ISO \n50001 and ISO 14001 management systems",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The main assumptions adopted for the simulation model \nhave to do with the fact that the cogeneration plant is \nrepresentative of the energy and environmental performance of \nthe refinery",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "model assumes the cogeneration plant is representative of the whole refinery's energy and environmental performance"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Except for boiler \nCB5, the values returned by the model are lower than the real \nvalues.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "model systematically underestimates natural gas consumption relative to real values (except one boiler)"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "natural gas is sampled from all fossil fuels used as \nenergy sources since it is widely used and considered IEU by \nthe refinery",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "only natural gas is modelled as a sample representing all fossil fuels used"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "these conventional indicators are \nabsolute and can give a distorted perception of overall \nperformance, since energy generation increases in greater \nproportion to the increase in fuel consumption",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "adaptation_other_verbatim": null,
+      "status": "proposed",
+      "addresses_mechanism": "K4",
+      "normative_framing": "ISO 50001/50006 explicit",
+      "evidence_quote": "Emissions of CO2, CO, SO2 and NO per unit of energy \ngenerated: It is the proposed relative measure of \natmospheric pollutant emissions per unit of energy \ngenerated, which most accurately shows the variation \nin the SEA.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "For \neach polluting gas, an emission factor is multiplied by the \namount of natural gas spent and for its lower calorific value of \n40,156 kJ/kg",
+      "page": 11,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "The high-pressure header is set at \na temperature of 482.2°C, a pressure of 60.12 bar, and an \nenthalpy of 3380 kJ/kg.",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "supplementary",
+        "repository",
+        "available upon request"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "model file",
+        "available"
+      ]
+    }
+  },
+  "reviewer_notes": "This paper builds a single Thermoflex thermodynamic process simulation of the Tula refinery cogeneration plant, exercised in three scenarios (Baseline, Optimized Fuel, Transition to RE). The three scenarios share one model/functional form, so they are represented as one model (M1) rather than three. The simulation produces multiple outputs (energy/mass balances, natural gas consumption, electric and CHP efficiency, rate of energy consumption, and emissions); C1 quantity was set to 'energy efficiency ratio' (electric/cogeneration efficiency being the headline energy performance indicator) with requires-inference support because selecting one dependent variable among many outputs is a judgement. The model is validated by comparing simulated versus real observed natural gas consumption per boiler (correlation 0.6408, median difference 7.8%); this was placed in out_of_sample_validation, but validation_design has no matching enum value for 'comparison against independently observed real plant data' (no train/test split or CV), so it is recorded as not reported. Emission results (environmental) were not recorded under energy_result.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "limitation",
+        "underestimate",
+        "distorted",
+        "representative",
+        "does not"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "cross indicator",
+        "normalisation",
+        "proposed",
+        "baseline",
+        "segmented"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future research",
+        "scope",
+        "data access",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "cost",
+        "training",
+        "staff",
+        "maintenance",
+        "implementation"
+      ]
+    }
+  },
+  "attempt": 2
+}

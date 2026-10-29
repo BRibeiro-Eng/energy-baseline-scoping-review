@@ -1,0 +1,765 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536644",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 15,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "integrated steel mills",
+        "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. \nand Canada.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "United States and Canada",
+        "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. \nand Canada.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period \n(2005-2014) under a non-disclosure agreement with Duke University.",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Plant-level energy performance indicator (EPI) benchmarking whole integrated steel mills, not process-specific",
+        "evidence_quote": "The scope for the EPI is a plant-level indicator, not process-specific, and it relates plant inputs in \nterms of all types of energy use to plant outputs as expressed in a unit of production.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. \nand Canada.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the ENERGY STAR EPI (Integrated Steel Mill Frontier Model, equation (6))",
+          "baseline_period_start": {
+            "value": "2005",
+            "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period \n(2005-2014) under a non-disclosure agreement with Duke University.",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2014",
+            "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period \n(2005-2014) under a non-disclosure agreement with Duke University.",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Log-linear multivariate regression fit on an unbalanced panel of plant-year data",
+            "evidence_quote": "Given data on energy use and production, the parameters can be fit via a linear regression model.",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Log Capacity 0.2002",
+            "Log Slab Production 0.8479",
+            "Finished Production Ratio 0.0982",
+            "Liquid Iron Production Ratio 0.5719",
+            "Charged Scrap Production Ratio 0.3353",
+            "Hot Mill Production Ratio 0.1362",
+            "Oxygen Production Ratio 0.0208",
+            "Year 2009 0.0464",
+            "Constant 1.4088"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Where E is the measure of total source energy (total Btu of fuels and electricity use converted to Btu based on average \nU.S. thermal plant efficiency including line losses)",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Where E is the measure of total source energy (total Btu of fuels and electricity use converted to Btu based on average \nU.S. thermal plant efficiency including line losses)",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Where E is the measure of total source energy (total Btu of fuels and electricity use converted to Btu based on average \nU.S. thermal plant efficiency including line losses)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "total Btu",
+              "evidence_quote": "Where E is the measure of total source energy (total Btu of fuels and electricity use converted to Btu based on average \nU.S. thermal plant efficiency including line losses)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The EPI uses a standard linear regression model to estimate the lowest observed plant energy use, given these factors.",
+              "page": 1,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "For the models using ordinary least square (OLS), we have also estimated the variance of the error term of equation (1)",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "significance test",
+              "evidence_quote": "standard measures of statistical significance provide a test for whether or \nnot to include a particular characteristic.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "F(8, 97)",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Stata",
+                "R",
+                "SAS",
+                "spreadsheet"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Log Capacity",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "Log Capacity \n0.2002",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Log Slab Production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Log Slab Production \n0.8479",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Liquid Iron Production Ratio",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Liquid Iron Production Ratio \n0.5719",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Hot Mill Production Ratio",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "Hot Mill Production Ratio \n0.1362",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Charged Scrap Production Ratio",
+              "type": "feed quality",
+              "role": "predictor",
+              "evidence_quote": "Charged Scrap Production Ratio \n0.3353",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Finished Production Ratio",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "Finished Production Ratio \n0.0982",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Oxygen Production Ratio",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Oxygen Production Ratio \n0.0208",
+              "page": 11,
+              "support_class": "direct statement",
+              "type_other_verbatim": "oxygen use (process input) per cast slab"
+            },
+            {
+              "verbatim": "Year 2009",
+              "type": "calendar",
+              "role": "predictor",
+              "evidence_quote": "Year 2009 \n0.0464",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "on-site waste water treatment",
+              "type": "equipment configuration",
+              "role": "excluded",
+              "evidence_quote": "the \nnumber of plants was minimal so this was not included in the analysis.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 120,
+              "evidence_quote": "voluntarily provided data for 14 plants over a set time period \n(2005-2014)",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 106,
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Due to the evolving nature of the study, not all \ncompanies and plants provided for every year, resulting in an unbalanced panel.",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Energy used in the on-site coke ovens is subtracted from total energy use.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Electricity is converted to Btu's by multiplying by a conversion factor that includes the U.S. average power plant and \ntransmission losses thermal efficiency (3412 Btu/kWh * 3.14 loss factor = 10,714 Btu/kWh).",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "re-fit",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable range",
+                "bounds",
+                "extrapolate"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "R – squared \n0.984",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R-squared",
+                  "value": 0.984,
+                  "evidence_quote": "R – squared \n0.984",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "F-statistic",
+                  "value": "755.45",
+                  "period_or_context": "F(8, 97)",
+                  "evidence_quote": "F(8, 97) \n755.45",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "out-of-sample error",
+                  "RMSE"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test set",
+                  "cross-validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Total source energy (fuels and electricity converted to Btu)",
+            "Cast slab production, liquid iron, hot mill tons, finished tons, scrap charged, oxygen use, capacity"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "total source energy per ton of cast steel slab (simple intensity)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Of particular interest is \nthe wide range of energy intensity, i.e., total source energy per ton of cast steel slab.  This can be thought of as the “raw data” \nmeasure of energy efficiency.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Of particular interest is \nthe wide range of energy intensity, i.e., total source energy per ton of cast steel slab.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Of particular interest is \nthe wide range of energy intensity, i.e., total source energy per ton of cast steel slab.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MMBtu/ton",
+              "evidence_quote": "Total Energy per ton (MMBtu/ton)",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "However, this simple intensity is not a good performance indicator for efficiency.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "ton of cast steel slab",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the wide range of energy intensity, i.e., total source energy per ton of cast steel slab.",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 120,
+              "evidence_quote": "voluntarily provided data for 14 plants over a set time period \n(2005-2014)",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 106,
+              "evidence_quote": "The total number of “plant-years” of data \nincluded in the final analysis was 106.",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Total source energy is the energy purchased (or transferred) into the plant net of sales or transfers out.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recompute"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "field meaningless here"
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. \nand Canada.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M2",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "The analysis clearly \ndemonstrates that energy per ton of steel is an inadequate measure of energy efficiency and that plant specific factors have a \nlarge impact on energy use that should not be misconstrued as inefficiency.",
+      "page": 14,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "for some plants, oxygen was hard to track or record and there were many gaps in the data, especially in the earlier \nyears of the dataset.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Scrap is not an essential material in steel production although it is commonly used but is sometimes difficult to \ntrack in internal production statistics.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "linear regression estimates of the parameters rely on the proposition that any departures in the plant data \nfrom Eq. 1, which cannot be directly observed, are randomly distributed within the population.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "These estimates capture the fact that when production \ndrops as it does during an economic recession, energy output ratios will rise.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "imputation of missing oxygen and scrap data using plant-specific ratios",
+      "status": "implemented",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "imputations were made to estimate oxygen usage \nfor plants with missing observations.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K5",
+      "normative_framing": "absent",
+      "evidence_quote": "the 2009 dummy variable was included in the final regression to account for the extreme impact on energy use \nin the recession.",
+      "page": 11,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "the ENERGY STAR EPI uses a \nmultivariate approach to normalization where multiple effects are simultaneously considered.",
+      "page": 3,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "there were too few reported mills under the 331111 NAICS \nclassification that met the above criteria to pass disclosure requirements, and therefore, the models developed were based on \nindustry provided data.",
+      "page": 5
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "Due to the evolving nature of the study, not all \ncompanies and plants provided for every year, resulting in an unbalanced panel.",
+      "page": 8
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period \n(2005-2014) under a non-disclosure agreement with Duke University.",
+      "page": 8
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Barriers to adoption of cost-effective energy management solutions in industry",
+      "evidence_quote": "this voluntary program works with businesses to evaluate the unique conditions that impact energy efficiency in specific \nindustrial sectors and then strives to help these industries overcome the barriers to adoption of cost-effective solutions in energy \nmanagement.",
+      "page": 1
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "𝒍𝒏(𝑬) = 𝒂+ ∑\n𝒃𝒊\n𝒏\n𝒊=𝟏\n𝒍𝒏(𝒚𝒊) + ∑\n𝒄𝒊\n𝒎\n𝒊=𝟏\n𝑿𝒊+ 𝜺   \n(3)",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "Log Slab Production \n0.8479 \n0.0272 \n31.17",
+      "page": 11,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": "All results have been \nprepared to protect the confidentiality of the underlying data.",
+      "page": 14,
+      "support_class": "absence checked",
+      "absence_basis": "explicitly stated absent"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "repository",
+        "available"
+      ]
+    }
+  },
+  "reviewer_notes": "Paper develops an ENERGY STAR EPI (log-linear panel regression) for integrated steel mills (US+Canada, 14 plants, 106 plant-years). M1 is the fitted regression; M2 records the simple total-energy-per-ton intensity the paper reports and explicitly criticises. Underlying plant data are confidential (non-disclosure), so raw distributions are shown only as kernel density plots. Out-of-sample use is described conceptually but no out-of-sample validation metrics are reported.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "imputed",
+        "missing data",
+        "trend",
+        "recession",
+        "inadequate measure"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalization",
+        "dummy variable",
+        "imputation",
+        "adjustment factor"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "disclosure",
+        "confidential",
+        "unbalanced panel",
+        "too few",
+        "non-disclosure"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "adoption",
+        "cost-effective",
+        "cannot be measured"
+      ]
+    }
+  },
+  "attempt": 29
+}

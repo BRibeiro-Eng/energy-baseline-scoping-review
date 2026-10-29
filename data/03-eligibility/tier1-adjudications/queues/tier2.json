@@ -1,0 +1,4286 @@
+[
+  {
+    "chatgpt": "The current cogeneration-plant configuration was represented as the baseline in a nonlinear thermodynamic simulation programmed in Thermoflex, using mass and energy balances and specified plant operating conditions.",
+    "claude": "Baseline = current technological state of the cogeneration plant, represented via a Thermoflex thermodynamic simulation (a system of non-linear thermodynamic equations) reproducing the actual plant configuration; model output (natural-gas consumption) is validated against real plant values.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535351",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [],
+    "claude": [
+      "CO2 emission factor 6.715E-02 t/GJ",
+      "CO emission factor 2.010E-06 t/GJ",
+      "SO2 emission factor 3.990E-05 t/GJ",
+      "NO emission factor 7.335E-05 t/GJ"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535351",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "natural gas consumption",
+      "heat generation",
+      "power generation"
+    ],
+    "claude": [
+      "thermal energy plus the electrical energy generated"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535351",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "the smallest is 6.8% for boiler CB1 and the largest is 14.2% for boiler CB4.",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "percentage difference between real and simulated natural gas consumption across boilers",
+        "unit": "%",
+        "value": "6.8% to 14.2%"
+      },
+      {
+        "evidence_quote": "The median of these differences is 7.8%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "median percentage difference between real and simulated natural gas consumption",
+        "unit": "%",
+        "value": "7.8%"
+      },
+      {
+        "evidence_quote": "the correlation coefficient between real and simulated data is 0.6408",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "correlation coefficient between real and simulated natural gas consumption",
+        "unit": null,
+        "value": "0.6408"
+      },
+      {
+        "evidence_quote": "The error for both the energy and mass balance of the three scenarios is 0.000%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 9,
+        "period_or_context": "energy and mass balance error for all three scenarios",
+        "unit": "%",
+        "value": "0.000%"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "the correlation coefficient between real and simulated data is 0.6408",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "Pearson correlation coefficient between real and simulated natural-gas consumption",
+        "unit": null,
+        "value": "0.6408"
+      },
+      {
+        "evidence_quote": "The median of these differences is 7.8%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "median percentage difference between real and simulated natural-gas consumption per boiler (range 6.8%-14.2%)",
+        "unit": "%",
+        "value": "7.8%"
+      },
+      {
+        "evidence_quote": "The error for both the energy and mass balance of the three scenarios is 0.000%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 9,
+        "period_or_context": "energy and mass balance closure error across the three simulated scenarios",
+        "unit": "%",
+        "value": "0.000%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535351",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the Tula refinery's cogeneration plant",
+    "claude": "The cogeneration plant of the Tula oil refinery (seven natural-gas boilers and five turbogenerators) supplying heat and electricity to the refining processes; it consumes about 55% of the refinery's total energy and is the scope of the refinery's EnMS.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535351",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "After feature selection and min-max scaling, a Gradient Boosting Machines regression model was developed to predict energy consumption as the energy baseline.",
+    "claude": "A supervised energy-consumption (steam flow, QS) predictive model was fitted as the energy baseline using the Gradient Boosting Machines (GBM) regression algorithm on the 2020 baseline-period data. Relevant variables were identified from process knowledge, then reduced by multicollinearity analysis and univariate/DBSCAN outlier removal, min-max standardised, and ranked by random-forest feature importance (8 final variables); GBM hyper-parameters were tuned (n_estimators=500, learning_rate=0.01, max_depth=20) with an 80%/20% train-validation split.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "January 2021",
+    "claude": "December 2020",
+    "field": "baseline_period_end",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [],
+    "claude": [
+      "n_estimators = 500",
+      "learning_rate = 0.01",
+      "max_depth = 20"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "QFG",
+      "TS",
+      "PS",
+      "QLATA",
+      "QSG",
+      "TFG",
+      "TLATA",
+      "∆PA"
+    ],
+    "claude": [
+      "Feed gas flow (QFG)",
+      "Steam temperature (TS)",
+      "Steam pressure (PS)",
+      "Lean amine flow to absorber (QLATA)",
+      "Sweet gas flow (QSG)",
+      "Feed gas temperature (TFG)",
+      "Lean amine temperature to absorber (TLATA)",
+      "Pressure differential on absorber (∆PA)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "R2 (validation set) = 0.99",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "validation set",
+        "unit": null,
+        "value": "0.99"
+      },
+      {
+        "evidence_quote": "RSME (validation set) = 108.8 kg.hr−1",
+        "metric": "RMSE",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "validation set",
+        "unit": "kg.hr−1",
+        "value": "108.8"
+      },
+      {
+        "evidence_quote": "RMAE (validation set) = 0.14%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "RMAE, validation set",
+        "unit": "%",
+        "value": "0.14"
+      },
+      {
+        "evidence_quote": "Based upon the offline study on the holdout validation set, utilizing this data-driven approach in the EDU can result in a minimum of 10.31% save in energy usage",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 16,
+        "period_or_context": "offline study on the holdout validation set",
+        "unit": "%",
+        "value": "10.31"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "high-accuracy model with R2 (validation set) = 0.99",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "GBM energy-baseline holdout validation set",
+        "unit": null,
+        "value": "0.99"
+      },
+      {
+        "evidence_quote": "RSME (validation set) = 108.8",
+        "metric": "RMSE",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "GBM validation set (paper writes 'RSME')",
+        "unit": "kg.hr-1",
+        "value": "108.8"
+      },
+      {
+        "evidence_quote": "RMAE (validation set) = 0.14%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "RMAE (relative mean absolute error), validation set",
+        "unit": "%",
+        "value": "0.14"
+      },
+      {
+        "evidence_quote": "can result in a minimum of 10.31% save in energy usage",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 16,
+        "period_or_context": "annual energy-conservation potential from holdout study",
+        "unit": "%",
+        "value": "10.31"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_treatment_mechanism",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "industrial-scale ethane decarbonization unit in South Pars Gas Complex in Iran",
+    "claude": "Industrial-scale ethane decarbonization unit (EDU) at South Pars Gas Complex, Iran, where diethanolamine (DEA) solvent removes CO2 from sour ethane gas; the modelled energy use is the regenerator reboiler steam consumption.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535365",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Forward and backward multiple stepwise regression were used for variable selection; the final model was the forward multiple regression model without a constant.",
+    "claude": "A baseline model for sulfur consumption was built by forward and backward stepwise multiple regression, using the partial F-test to add or remove terms; the simplest forward model without constant was retained. Data were taken from energy consumption reports and organised in STATGRAPHICS, with shutdown outliers discarded to model only regular operation.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535376",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "lack of understanding, training, recognition and rewards",
+      "difficulty to maintain and acess"
+    ],
+    "claude": [
+      "Lack of training and staff commitment (failure to meet targets attributed to lack of training)",
+      "Multipass heat exchangers difficult to maintain and access"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535376",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "0.348986",
+      "0.000932678"
+    ],
+    "claude": [
+      "0.348986 (coefficient on sulfuric acid production)",
+      "0.000932678 (coefficient on 12 bar and 5 bar turbine extraction)",
+      "no constant / intercept (forward model without constant)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535376",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "sulfuric acid production",
+      "12 bar and 5 bar extraction from the turbo-alternator unit"
+    ],
+    "claude": [
+      "sulfuric acid production",
+      "turbine extractions (12 bar and 5 bar)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535376",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Equipment energy consumption is aggregated to process totals, converted to TJ for comparison, and expressed as process- and mill-level intensity indicators per unit of production.",
+    "claude": "Energy consumption of each equipment is summed to obtain each process's total energy, then converted to Tera joule (TJ) using regional emission factors and expressed as specific energy-consumption EnPIs (per tonne of steel) that are benchmarked against literature values; no regression baseline model is fitted.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "continuous communication between the industry and energy manager"
+    ],
+    "claude": [
+      "Collection and sorting of the data according to the different processes and functional areas",
+      "Accurate information about the monitoring system and efficiencies of the plants/processes"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "tons of steel",
+      "Nm3"
+    ],
+    "claude": [
+      "production (tonnes of steel produced)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_treatment_mechanism",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "EnPIs at process and mill level for two steel mills",
+    "claude": "The steel manufacturing process of two steel mills, categorized into mill level, system flows and processes (steelmaking, casting, conditioning, forging, hot rolling, heat treatment, surface treatment, cold working, peeling, reeling).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535405",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The normal state of each mill and its processes is used as the energy baseline. Multiple normal states are defined for different pulp-quality and raw-material production setups.",
+    "claude": "The energy baseline is defined as the mill's 'normal state of operation' (the range of accepted EnPI values), established from historical best practice and defined individually for each mill; multiple normal states are defined for each pulp grade and raw material.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "data-collection frequency is constrained by practical feasibility"
+    ],
+    "claude": [
+      "Lack of necessary data or indicators at a sufficiently detailed level for effective decision support",
+      "Knowledge-related barriers eminent in the pulp and paper industry",
+      "Training underprioritized in pulp and paper mills",
+      "ISO 50001 risks competing with personnel's main assignments"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "type of pulp quality produced",
+      "raw material used"
+    ],
+    "claude": [
+      "amount of pulp produced (ADt)",
+      "dry content of the weak black liquor",
+      "sulfidity",
+      "residual alkali"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "organisation",
+    "claude": "facility",
+    "field": "scale_of_application",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Three kraft pulp mills belonging to the same group of companies",
+    "claude": "A model for developing and implementing EnPIs across three system-boundary levels of a kraft pulp mill: the entire mill (level 1), systems and flows (level 2), and individual production processes (level 3), covering both descriptive and explanatory indicators.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [
+      "non-stationarity",
+      "feedstock variability"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535480",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Production and energy-consumption observations from January-October 2018 were filtered to remove atypical production days. A minimum sample size was determined, then a linear baseline E = Eo + m × P was fitted.",
+    "claude": "The energy baseline was built as a linear model E = Eo + m*P relating energy consumption to production, fitted to January-October 2018 data after filtering out days when the plant was not in typical production; the minimum number of data points was determined from the coefficient of variance.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "detailed engineering study, assembly, and commissioning",
+      "nationalization of the inputs to be used",
+      "maintenance activities to keep the equipment in optimal operation"
+    ],
+    "claude": [],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "equipment or plant production"
+    ],
+    "claude": [
+      "production"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "electricity-consumption baseline correlation coefficient",
+        "unit": null,
+        "value": "0.7586"
+      },
+      {
+        "evidence_quote": "for coal (Figure 8b) with 0.6539",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "coal-consumption baseline correlation coefficient",
+        "unit": null,
+        "value": "0.6539"
+      },
+      {
+        "evidence_quote": "for the gas consumption (Figure 8c), which reached a coefficient of 0.8169",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "gas-consumption baseline correlation coefficient",
+        "unit": null,
+        "value": "0.8169"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "correlation coefficient of the electricity-consumption baseline",
+        "unit": null,
+        "value": "0.7586"
+      },
+      {
+        "evidence_quote": "for coal (Figure 8b) with 0.6539",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "correlation coefficient of the coal-consumption baseline",
+        "unit": null,
+        "value": "0.6539"
+      },
+      {
+        "evidence_quote": "for the gas consumption (Figure 8c), which reached a coefficient of 0.8169",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "correlation coefficient of the gas-consumption baseline",
+        "unit": null,
+        "value": "0.8169"
+      },
+      {
+        "evidence_quote": "to achieve energy savings of 1.51%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 19,
+        "period_or_context": "overall energy savings from adjusting production to a 77% load factor",
+        "unit": "%",
+        "value": "1.51"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "dry paper production plant",
+    "claude": "Energy characterization (energy baseline and consumption indicators) based on ISO 50001 applied to a dry paper production plant operating on electricity, gas, and coal.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535522",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Known plant-level BDP models are used as EnBs and aggregated to the site level; reference specific energy consumptions are set at mean plant utilization and mean temperature of the evaluated year.",
+    "claude": "The energy baseline is the Best-Demonstrated Practice (BDP), obtained by fitting a model to historical process data or from a simulation model; plant-level BDP baselines (functions of production rate and ambient temperature) are aggregated bottom-up to the site level, with the reference baseline taken as each plant's BDP at its mean utilization and mean ambient temperature of the evaluated year.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": false,
+    "claude": true,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "high effort to prepare the data for site-wide management systems",
+      "limited availability of resources"
+    ],
+    "claude": [
+      "Lack of resources and knowledge is a major barrier to implementing KPIs; defining accurate KPIs suitable for energy managers and operators is difficult and time-consuming",
+      "Limited availability of resources for developing and improving the plant-level baseline models"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "NH3 steam EnB coefficients: 2, 0.5, 0.5 GJ/t",
+      "NH3 electricity EnB coefficients: 2, 0.4 GJ/t",
+      "NH3 natural-gas EnB coefficients: 20, 4, 0.2 GJ/t",
+      "AN steam EnB coefficients: 2, 1 GJ/t",
+      "AN electricity EnB coefficients: 3, 1 GJ/t",
+      "AN natural-gas EnB: 0",
+      "POX steam EnB coefficients: 15, 2, 1 GJ/t",
+      "POX electricity EnB coefficients: 4, 0.8 GJ/t",
+      "POX natural-gas EnB: 0"
+    ],
+    "claude": [
+      "NH3 steam baseline (Eq. A.1): 2 GJ/t base term, 0.5 GJ/t plant-load coefficient, 0.5 GJ/t ambient-temperature coefficient",
+      "NH3 natural gas baseline (Eq. A.3): 20 GJ/t base term, 4 GJ/t plant-load coefficient, 0.2 GJ/t ambient-temperature coefficient",
+      "POX steam baseline (Eq. A.7): 15 GJ/t base term, 2 GJ/t plant-load coefficient, 1 GJ/t ambient-temperature coefficient"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "internal and external production rate of each plant",
+      "import and export situation for products",
+      "utilization",
+      "ambient temperature"
+    ],
+    "claude": [
+      "plant utilization (production rate)",
+      "ambient temperature"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "a production complex within the petrochemical production site of INEOS in Cologne, limited to three interconnected plants",
+    "claude": "An integrated petrochemical production complex (part of the INEOS site in Cologne) of three interconnected plants: ammonia (NH3), acrylonitrile (AN) and propylene oxide (POX).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [],
+    "claude": [
+      "other"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535524",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Separate single-regression baselines for thermal and electrical energy were constructed from monthly data for 2016 and 2017, using clinker output, electrical output, or steam output as the driver.",
+    "claude": "Energy baselines for thermal and electrical Significant Energy Users were determined using the single (linear) regression method per ISO 50006, regressing energy data (e.g. Kcal coal) on a single production driver (ton clinker, kWh output or ton steam) fitted to 2016 and 2017 monthly data; baseline equations of the form Y = mX + C were accepted once the R-square met the 0.75 minimum.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Top-management commitment of technical, financial, and human resources",
+      "Energy-team duties competing with primary organisational roles",
+      "Need for staff competence and training",
+      "Need for an IT system and central database"
+    ],
+    "claude": [
+      "Energy team had to balance ISO 50001 implementation with other primary duties; energy-management tasks are functional and not part of structural job descriptions (organisational).",
+      "Reliable energy consumption data is needed to set the performance baseline (data quality).",
+      "Increasing the competence of the human resources / energy team through training is necessary (staff skills).",
+      "Need to build an IT system and central database for online energy-performance monitoring and record-keeping (IT/software infrastructure)."
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Plant 4 slope 834,81 and intercept 3.078.595.022",
+      "Plant 5 slope 813,42 and intercept 5.051.987.877",
+      "Power Plant CD slope 3.488,96 and intercept 18.225.379.135",
+      "Power Plant CD slope 884.380,42 and intercept 23.789.946.925",
+      "Power Plant CD slope 0,0041 and intercept 5,939"
+    ],
+    "claude": [
+      "Y = 834,81 X + 3.078.595.022",
+      "Y = 813,42 X + 5.051.987.877",
+      "Y = 3.488,96 X + 18.225.379.135",
+      "Y = 884.380,42 X + 23.789.946.925",
+      "Y = 0,0041 X + 5,939"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "0,88",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Plant 4 thermal baseline",
+        "unit": null,
+        "value": "0.88"
+      },
+      {
+        "evidence_quote": "0,91",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Plant 5 thermal baseline",
+        "unit": null,
+        "value": "0.91"
+      },
+      {
+        "evidence_quote": "0,84",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Power Plant CD coal versus electrical output baseline",
+        "unit": null,
+        "value": "0.84"
+      },
+      {
+        "evidence_quote": "0,76",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Power Plant CD coal versus steam baseline",
+        "unit": null,
+        "value": "0.76"
+      },
+      {
+        "evidence_quote": "0,92",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Power Plant CD steam versus electrical output baseline",
+        "unit": null,
+        "value": "0.92"
+      },
+      {
+        "evidence_quote": "Energy efficiency was 6,4 % in 2018 and 8,7 % during the semester 1-2019 compare to baseline.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "2018 compared with baseline",
+        "unit": "%",
+        "value": "6.4"
+      },
+      {
+        "evidence_quote": "Energy efficiency was 6,4 % in 2018 and 8,7 % during the semester 1-2019 compare to baseline.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "semester 1-2019 compared with baseline",
+        "unit": "%",
+        "value": "8.7"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": [
+          "Y = 834,81 X + 3.078.595.022",
+          "0,88"
+        ],
+        "metric": "R²",
+        "non_contiguous_evidence": true,
+        "page": [
+          5,
+          5
+        ],
+        "period_or_context": "Baseline thermal energy, Plant 4 (Kcal Coal ~ Ton clinker), Table 1",
+        "unit": null,
+        "value": "0,88"
+      },
+      {
+        "evidence_quote": [
+          "Y = 813,42 X + 5.051.987.877",
+          "0,91"
+        ],
+        "metric": "R²",
+        "non_contiguous_evidence": true,
+        "page": [
+          5,
+          5
+        ],
+        "period_or_context": "Baseline thermal energy, Plant 5 (Kcal Coal ~ Ton clinker), Table 1",
+        "unit": null,
+        "value": "0,91"
+      },
+      {
+        "evidence_quote": [
+          "Y = 3.488,96 X + 18.225.379.135",
+          "0,84"
+        ],
+        "metric": "R²",
+        "non_contiguous_evidence": true,
+        "page": [
+          5,
+          5
+        ],
+        "period_or_context": "Baseline, Power Plant CD (Kcal Coal ~ KWh output), Table 1",
+        "unit": null,
+        "value": "0,84"
+      },
+      {
+        "evidence_quote": [
+          "Y = 884.380,42 X + 23.789.946.925",
+          "0,76"
+        ],
+        "metric": "R²",
+        "non_contiguous_evidence": true,
+        "page": [
+          5,
+          5
+        ],
+        "period_or_context": "Baseline, Power Plant CD (Kcal Coal ~ Ton Steam), Table 1",
+        "unit": null,
+        "value": "0,76"
+      },
+      {
+        "evidence_quote": [
+          "Y = 0,0041 X + 5,939",
+          "0,92"
+        ],
+        "metric": "R²",
+        "non_contiguous_evidence": true,
+        "page": [
+          5,
+          5
+        ],
+        "period_or_context": "Baseline, Power Plant CD (Ton Steam ~ KWh output), Table 1",
+        "unit": null,
+        "value": "0,92"
+      },
+      {
+        "evidence_quote": "Energy efficiency was 6,4 % in 2018 and 8,7 % during the semester 1-2019 compare to baseline",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "Energy efficiency vs baseline",
+        "unit": "%",
+        "value": "6,4% (2018); 8,7% (semester 1 2019)"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "7 SEUs (Plant 4/5 and Power Plant CD)",
+    "claude": "ISO 50001 EnMS and its regression baselines/EnPIs cover PT Semen Tonasa's significant energy users: electrical SEUs (Cement plant 4 and 5, Power Plant CD) and thermal SEUs (Kiln Tonasa 4, Kiln Tonasa 5, Power Plant CD).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Daily observations were used to build separate MLR and MLP ANN baseline models. The dataset was divided into 90% training and 10% testing sets, and the trained models predicted held-out consumption.",
+    "claude": "The energy baseline was developed by separately fitting a multivariate linear regression (MLR) and a multi-layer perceptron ANN (trained with Levenberg-Marquardt and gradient-descent algorithms in MATLAB) to daily plant data; 8 independent drivers were selected (brainstorming with plant engineers, confirmed by linear correlation R and p-values) and the data split 90% training / 10% testing, with predicted outputs taken as the baseline.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "personnel understanding and their basic knowledge",
+      "required level of training",
+      "computing speed",
+      "existing hardware system"
+    ],
+    "claude": [
+      "Personnel understanding and basic knowledge",
+      "Required level of training",
+      "Computing speed",
+      "Existing hardware system"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "O1 b1=-12",
+      "O1 b2=0.66",
+      "O1 b3=21.38",
+      "O1 b4=16.2",
+      "O1 b5=-0.000374",
+      "O1 b6=0.46",
+      "O1 b7=0.092",
+      "O1 b8=0.42",
+      "O1 b0=79.9",
+      "O2 b1=-1.28",
+      "O2 b2=0.13",
+      "O2 b3=41.33",
+      "O2 b4=1.8",
+      "O2 b5=-0.0012",
+      "O2 b6=0.146",
+      "O2 b7=0.086",
+      "O2 b8=0.364",
+      "O2 b0=328.5",
+      "O3 b1=197.6",
+      "O3 b2=19.35",
+      "O3 b3=-628.6",
+      "O3 b4=411.5",
+      "O3 b5=-0.54",
+      "O3 b6=2,176.5",
+      "O3 b7=319.8",
+      "O3 b8=25.93",
+      "O3 b0=1,09,660"
+    ],
+    "claude": [
+      "MLR coefficients for Output 1 (b1..b8, b0): 12, 0.66, 21.38, 16.2, 0.000374, 0.46, 0.092, 0.42, 79.9",
+      "MLR coefficients for Output 2 (b1..b8, b0): 1.28, 0.13, 41.33, 1.8, 0.0012, 0.146, 0.086, 0.364, 328.5",
+      "MLR coefficients for Output 3 (b1..b8, b0): 197.6, 19.35, 628.6, 411.5, 0.54, 2,176.5, 319.8, 25.93, 1,09,660"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "MFI (Melt Flow Index, as a production grade index)",
+      "Polymer production",
+      "Number of plant’s start-ups",
+      "Number of plant’s shut-downs",
+      "Equipment lifetime",
+      "Cooling degree days (CDD)",
+      "Humidity",
+      "Wind speed"
+    ],
+    "claude": [
+      "MFI (Melt Flow Index)",
+      "Polymer production",
+      "Number of plant's start-ups",
+      "Number of plant's shut-downs",
+      "Equipment lifetime",
+      "Cooling degree days (CDD)",
+      "Humidity",
+      "Wind speed"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+        "metric": "R²",
+        "page": 13,
+        "period_or_context": "MLR, output 1",
+        "unit": "%",
+        "value": "96"
+      },
+      {
+        "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+        "metric": "R²",
+        "page": 13,
+        "period_or_context": "MLP ANN, output 1",
+        "unit": "%",
+        "value": "98"
+      },
+      {
+        "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLR, output 1",
+        "unit": "%",
+        "value": "2.1"
+      },
+      {
+        "evidence_quote": "Comparing the predicted output with actual outputs, the R2 of output 1 was 96 per cent and 98 per cent and that of MAPE was 2.1 per cent and 1.3 per cent for MLR and MLP ANN models, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLP ANN, output 1",
+        "unit": "%",
+        "value": "1.3"
+      },
+      {
+        "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+        "metric": "R²",
+        "page": 13,
+        "period_or_context": "MLR, output 2",
+        "unit": "%",
+        "value": "73"
+      },
+      {
+        "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+        "metric": "R²",
+        "page": 13,
+        "period_or_context": "MLP ANN, output 2",
+        "unit": "%",
+        "value": "76"
+      },
+      {
+        "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLR, output 2",
+        "unit": "%",
+        "value": "3.4"
+      },
+      {
+        "evidence_quote": "Moreover, the R2 of output 2 was 73 per cent and 76 per cent while the MAPE associated R2 was 3.4 per cent and 2.4 per cent, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLP ANN, output 2",
+        "unit": "%",
+        "value": "2.4"
+      },
+      {
+        "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+        "metric": "R²",
+        "page": 13,
+        "period_or_context": "output 3",
+        "unit": "%",
+        "value": "63"
+      },
+      {
+        "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLR, output 3",
+        "unit": "%",
+        "value": "9.2"
+      },
+      {
+        "evidence_quote": "The value of R2 related to output 3 was 63 per cent and the value of MAPE was 9.2 per cent and 11.4 per cent, respectively.",
+        "metric": "MAPE",
+        "page": 13,
+        "period_or_context": "MLP ANN, output 3",
+        "unit": "%",
+        "value": "11.4"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.9638",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLR, Output 1 (electrical energy consumption)",
+        "unit": null,
+        "value": "0.9638"
+      },
+      {
+        "evidence_quote": "0.9860",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLP ANN (LM, 1 and 1 hidden neurons), Output 1",
+        "unit": null,
+        "value": "0.9860"
+      },
+      {
+        "evidence_quote": "2.108",
+        "metric": "MAPE",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLR, Output 1",
+        "unit": "%",
+        "value": "2.108"
+      },
+      {
+        "evidence_quote": "1.270",
+        "metric": "MAPE",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLP ANN best, Output 1",
+        "unit": "%",
+        "value": "1.270"
+      },
+      {
+        "evidence_quote": "0.7303",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLR, Output 2 (steam consumption)",
+        "unit": null,
+        "value": "0.7303"
+      },
+      {
+        "evidence_quote": "0.6331",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "MLR, Output 3 (cooling water consumption)",
+        "unit": null,
+        "value": "0.6331"
+      },
+      {
+        "evidence_quote": "the P-values are less than 0.0001",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 10,
+        "period_or_context": "significance of input-output correlations",
+        "unit": null,
+        "value": "< 0.0001"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Production line level covering the entire tubular LDPE plant facilities.",
+    "claude": "Production line (entire plant facilities) of a tubular LDPE plant producing 300,000 tons/year of polymers in Assaluyeh, south Iran.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535550",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The baseline was fitted by linear regression of historical energy-consumption and production data. The data were filtered using a final criterion of two standard deviations to obtain a more stable correlation.",
+    "claude": "The energy baseline was obtained by linear regression of historical daily data on energy consumption and steam production. Outliers were filtered (points beyond three, then two, standard deviations from the mean) to establish a more stable correlation, yielding EB = 0.0595x + 0.988 (R2 = 0.973) alongside a target line.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535582",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "not reported",
+    "claude": "04-12-2016",
+    "field": "baseline_period_start",
+    "paper_key": "rayyan-472535582",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "0.0595",
+      "0.988",
+      "0.0586",
+      "1.3814"
+    ],
+    "claude": [
+      "EB = 0.0595x + 0.988 (energy baseline: slope 0.0595, intercept 0.988)",
+      "EG = 0.0586x + 1.3814 (target/goal line: slope 0.0586, intercept 1.3814)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535582",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "baseline",
+        "unit": null,
+        "value": "0.973"
+      },
+      {
+        "evidence_quote": "a target line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "target line",
+        "unit": null,
+        "value": "0.9933"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "linear correlation equal to R2 =  0.973",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 2,
+        "period_or_context": "energy baseline EB = 0.0595x + 0.988",
+        "unit": null,
+        "value": "0.973"
+      },
+      {
+        "evidence_quote": "0.9933; this is shown in Figure 4",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "target line (results section; abstract states 0.97)",
+        "unit": null,
+        "value": "0.9933"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535582",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+    "claude": "Steam generator (water-tube boiler, 130.51 MMBTU/h heat input, 125,000 lb/h superheated steam capacity) at a petrochemical plant.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535582",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Initial performance targets were based on three months of historical performance and benchmarked values from literature.",
+    "claude": "Targets/benchmarks were set by comparing expected performance from literature with the plant's historical equipment performance; the initial benchmarking used three months of historical performance plus benchmarked values from literature, and targets were adapted over time (budgeting) toward the benchmarked value for continuous improvement.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535585",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "capital and technological constraints"
+    ],
+    "claude": [
+      "Capital and technological constraints in developing economies are barriers to effective energy management",
+      "Use of older, less efficient equipment on the plants prohibits the use of technological solutions",
+      "Energy-cost-saving strategies (e.g., time-of-use load shifting) are difficult to sustain by plant personnel"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535585",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "cement produced"
+    ],
+    "claude": [
+      "tonnes of cement produced",
+      "tonnes of clinker produced",
+      "production rate"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535585",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "per tonne reduced by 25% (8.61 ZAR/tonne).",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 25,
+        "period_or_context": "electrical energy cost per cement produced over the implementation period",
+        "unit": "%",
+        "value": "25"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "Total electrical energy per cement produced (kWh/t) 65.23 50.90 22%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 26,
+        "period_or_context": "Total electrical energy per cement produced (kWh/t), Jan-15 (65.23) to Feb-16 (50.90)",
+        "unit": "%",
+        "value": "22%"
+      },
+      {
+        "evidence_quote": "Cement manufacturing – electrical energy (kWh/t) 46.36 37.46 19%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 26,
+        "period_or_context": "Cement manufacturing – electrical energy (kWh/t), Jan-15 (46.36) to Feb-16 (37.46)",
+        "unit": "%",
+        "value": "19%"
+      },
+      {
+        "evidence_quote": "reduced by 25% (8.61 ZAR/tonne)",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 25,
+        "period_or_context": "Electrical energy cost per cement produced (ZAR/t), 8.61 ZAR/tonne reduction, Jan-15 to Feb-16",
+        "unit": "% (electrical energy cost per cement produced reduction)",
+        "value": "25%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535585",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the electrical energy performance of the entire plant",
+    "claude": "Electrical energy management of an entire South African cement plant (one coal-fired kiln with coal mill, a raw mill, and two finishing mills), with the finishing mills as the largest electrical consumers.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535585",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Dynamic targeting creates calculation models fitted to operating modes, equipment availability, crude oil changes, and production changes, then manages detailed targets.",
+    "claude": "Not explicitly detailed; a commercial 'dynamic targeting' tool creates calculation models fitted to operating modes, equipment availability, crude oil and production changes.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "certifying additionally ISO 50001 is a heavy burden"
+    ],
+    "claude": [
+      "Companies regard additional ISO 50001 certification as a heavy burden",
+      "Belief that only complying with the Energy Saving Act is enough",
+      "Energy saving already addressed under ISO 14001, so ISO 50001 seen as redundant",
+      "Management reviews and internal audits insufficient for continuous improvement"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "operating modes",
+      "equipment availability",
+      "crude oil",
+      "production changes"
+    ],
+    "claude": [
+      "production volume",
+      "operating modes",
+      "equipment availability",
+      "crude oil and production changes"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Saudi Aramco has announced that its energy intensity is improved 23 % compared with it in 2011",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "energy intensity compared with 2011",
+        "unit": "%",
+        "value": "23 %"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "its energy intensity is improved 23 % compared with it in 2011",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Saudi Aramco energy intensity vs 2011",
+        "unit": "%",
+        "value": "23"
+      },
+      {
+        "evidence_quote": "ten millions dollars of energy cost are reduced",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 5,
+        "period_or_context": "Saudi Aramco Abqaiq energy cost reduction",
+        "unit": "USD",
+        "value": "ten millions dollars"
+      },
+      {
+        "evidence_quote": "9% (about 60 million yen) of energy consumption are reduced annually on average",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "SEP Program (USA) average annual energy reduction",
+        "unit": "%",
+        "value": "9"
+      },
+      {
+        "evidence_quote": "the annual reducing rate of energy consumption on average is 9.1%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "JEITA survey of 27 companies",
+        "unit": "%",
+        "value": "9.1"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Adaqaiq plant of Saudi Aramco",
+    "claude": "Abqaiq plant of Saudi Aramco (oil company) using an advanced energy-management tool with an EnPI dashboard and 'dynamic targeting'.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535625",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Linear regression of historical energy-consumption and production data was used to construct product-specific baselines. Control limits were applied first to exclude atypical gas-consumption and production observations.",
+    "claude": "Energy baselines were built by linear regression of historical energy-consumption vs. production data (equivalent production method), giving linear models y = mx + b; boundary control limits at three standard deviations from the mean were first applied to exclude atypical gas-consumption and production data, and separate baselines were fitted for three fertilizer references.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "not reported",
+    "claude": "2015",
+    "field": "baseline_period_end",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "not reported",
+    "claude": "2015",
+    "field": "baseline_period_start",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "continuous time series",
+    "claude": "unspecified or not stated",
+    "field": "data_type",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "amount of units produced for every different product"
+    ],
+    "claude": [
+      "production",
+      "equivalent production"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "R² = 0,49618",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Reference 15-15-15 baseline",
+        "unit": null,
+        "value": "0,49618"
+      },
+      {
+        "evidence_quote": "R² = 0,82515",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Reference 13-26-6 baseline",
+        "unit": null,
+        "value": "0,82515"
+      },
+      {
+        "evidence_quote": "R² = 0,64084",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Reference 17-6-18-2 baseline",
+        "unit": null,
+        "value": "0,64084"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "energy baseline, fertilizer reference 15-15-15",
+        "unit": null,
+        "value": "0,49618"
+      },
+      {
+        "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "energy baseline, fertilizer reference 13-26-6",
+        "unit": null,
+        "value": "0,82515"
+      },
+      {
+        "evidence_quote": "with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "energy baseline, fertilizer reference 17-6-18-2",
+        "unit": null,
+        "value": "0,64084"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "fertilizer plant",
+    "claude": "Whole fertilizer (petrochemical) production complex in Colombia producing NPK 15-15-15; energy (natural gas) consumed by the complex fertilizers line (63.4%), the energy supply plant (29.2%) and the fertigation SoluNKP plant (7.4%).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535649",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "A linear energy baseline model relates the EnPI to 15 impact factors. Its parameters are solved with the paper's linear-model solution method.",
+    "claude": "The energy baseline model was defined as a linear model relating the EnPI to 15 impact factors; the model parameters were solved by the linear (least-squares) solution method from the measured production data, and the fit was checked with the adjusted decision coefficient (R2 = 0.904).",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "𝑅2 is 0.904, which is close to 1",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "energy baseline model fitting accuracy",
+        "unit": null,
+        "value": "0.904"
+      },
+      {
+        "evidence_quote": "EnPI reduced amplitude ratio = (−𝑒 ̂𝑦 ) ⋅100 = 8.86%.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 9,
+        "period_or_context": "EnPI reduced amplitude ratio after APC implementation",
+        "unit": "%",
+        "value": "8.86"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.904, which is close to 1",
+        "metric": "adjusted R²",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "adjusted decision coefficient for the linear energy baseline model of the cracked gas compressor unit",
+        "unit": null,
+        "value": "0.904"
+      },
+      {
+        "evidence_quote": "8.86%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 9,
+        "period_or_context": "average EnPI reduced amplitude ratio after APC implementation (target 5%)",
+        "unit": null,
+        "value": "8.86%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "cracked gas compression unit of the ethylene plant in a petrochemical enterprise",
+    "claude": "The cracked gas compression units of the ethylene plant in some petrochemical companies are regarded as the energy management object.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535680",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "dynamic time window"
+    ],
+    "claude": [
+      "dynamic time window",
+      "hybrid physical model"
+    ],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Several multifactorial statistical, neural-network, or physical models are built for each energy-efficiency index; the model with the smallest test-sample error is selected and the dynamic norm is periodically recalculated.",
+    "claude": "Dynamic norms (baselines) are formulated and continually updated automatically from multi-factorial statistical models, physical models, and neural-network models built on influencing factors (e.g., production volume and ambient temperature); several models are built per energy-efficiency index and the one with the smallest error on the test sample is selected.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "shortage of time and staff for manual energy-use analysis"
+    ],
+    "claude": [
+      "a shortage of time and staff",
+      "the energy manager must manually analyze a raft of tables and graphs"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "volume of production",
+      "parameters of the raw material and its quality",
+      "process parameters",
+      "external factors"
+    ],
+    "claude": [
+      "volume of production",
+      "ambient temperature",
+      "parameters of the raw material and its quality",
+      "process parameters (furnace temperature, diameter of pipes)",
+      "external factors (climatic factors, regime constraints, production plan, maintenance and repair plan)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "equipment",
+    "claude": "facility",
+    "field": "scale_of_application",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant in Germany",
+    "claude": "Plant-wide energy-efficiency management at a metallurgical plant; dynamic norms illustrated for a pipe mill's unit electric-power consumption, a steelmaking-plant furnace, and a compressor station.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "empirical"
+    ],
+    "claude": [
+      "none reported"
+    ],
+    "field": "validation_types",
+    "paper_key": "rayyan-472535748",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "A linear energy baseline was fitted to daily energy-consumption and production data for a selected one-year base period. A parallel target line through the lower-consumption observations, using the baseline slope, was used to estimate savings from reduced operational variability.",
+    "claude": "Energy baseline (Linea de Base Energetica) built as the linear best-fit line of energy consumption vs. production (E = m.P + Enap) per energy cost centre, estimated from daily energy-consumption and production data over a selected one-year base period; a parallel target line (same slope m) through the lowest-consumption points was used to quantify operational-variability savings.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "lack of energy-management leaders or work teams",
+      "lack of policies, written procedures and indicators focused on energy expenditure control",
+      "lack of promotion of an energy-saving culture among personnel"
+    ],
+    "claude": [
+      "Absence of leaders or work teams in charge of energy monitoring, operational decision-making and results evaluation (low energy-management maturity found by survey)",
+      "Lack of written policies, procedures and indicators across all areas focused on energy-expenditure control",
+      "Improving efficiency/productivity indicators requires fundamental changes in organisational culture and in productive processes and procedures"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "m (slope)",
+      "Enap (intercept; energy not associated with production)"
+    ],
+    "claude": [],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "producción"
+    ],
+    "claude": [
+      "producción de cemento (cement production, t)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Las acciones ejecutadas durante la implementación del SGIE en la planta, son de muy baja inversión y lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses comparados a un mismo nivel de producción y con la línea base de tendencia de dos años anteriores.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "electricity-consumption reduction over 12 months versus the same production level and the prior two-year trend baseline",
+        "unit": "%",
+        "value": "4.6"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "lograron la reducción del consumo de energía eléctrica en un 4,6 % equivalente a 5,2 kWh/t cemento en doce meses",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "electricity consumption reduction over twelve months vs. two-year trend baseline",
+        "unit": "%",
+        "value": "4.6"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "una planta de producción de cemento por vía húmeda",
+    "claude": "Implementation of the SGIE across a wet-process cement plant, analysed through seven defined Energy Cost Centres (Centros de Costo de Energia): cement grinding, clinkerisation+cooling, primary/secondary grinding, homogenisation, crushing, packing.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535762",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "A linear energy baseline was fitted to energy-consumption versus production data as E = mP + Enap. The selected 2008 baseline used daily energy-consumption and production data, and the target line retained the baseline slope through lower-consumption observations.",
+    "claude": "Linear best-fit line of energy consumption versus production estimated from daily data of the 2008 base period, giving the energy baseline E = mP + Enap (Enap = intercept, energy not associated to production); relationship strength assessed with the correlation coefficient r.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "No leaders or teams responsible for analysis, operational decision-making, or evaluation of monitored variables",
+      "Lack of policies, written procedures, and indicators for controlling energy costs",
+      "Lack of staff culture regarding energy-cost reduction and energy efficiency"
+    ],
+    "claude": [
+      "Lack of leaders or teams responsible for analysis of monitored data and operational decision-making",
+      "Lack of policies, written procedures and indicators to control energy costs",
+      "Lack of energy-efficiency culture among staff",
+      "Implementation requires top-management commitment and institutional/organizational changes"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "m (slope)",
+      "Enap (Y-axis intercept; energy non-associated to production)"
+    ],
+    "claude": [],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "implicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "succeeded in reducing the consumption of electricity by 4.6 % which is equivalent to 5.2 kWh/ton cement during a period of twelve months compared to the same level of production and with the trend baseline of the last two years.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "twelve months compared to the same production level and the prior two-year trend baseline",
+        "unit": "%",
+        "value": "4.6"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "reducing the consumption of electricity by 4.6 %",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "reduction of electricity consumption over twelve months (year 2009) vs. two-year trend baseline",
+        "unit": "%",
+        "value": "4.6"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "cement plant with a wet process",
+    "claude": "Cement plant operating a wet process; the SGIE energy management system was applied plant-wide as a pilot project.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535787",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "hybrid physical model",
+      "other"
+    ],
+    "claude": [
+      "hybrid physical model"
+    ],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The statistical model uses the most recent stable reference/setup period. For the foundry, two years of monthly historical data were analysed, tapped molten mass was selected as the energy driver, and a least-squares linear regression through the origin was fitted because the intercept was not statistically significant.",
+    "claude": "Statistical energy characterisation: for each furnace the electricity consumption is regressed against a single energy driver (tapped molten mass) using two years of monthly data; because the least-squares intercept was not statistically significant a regression through the origin was used. A complementary deterministic (thermodynamic) approach and tabular-CUSUM reference-period selection support the model.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Electricity rate structure favours off-peak melting and can offset energy savings.",
+      "Maximum demand limits prevent overlapping peak-power phases.",
+      "Labour organisation requires long overnight holding at high temperature.",
+      "The proposed holding-furnace scenario lacks profitability because two existing furnaces would be left unused."
+    ],
+    "claude": [
+      "Lack of detailed furnace-specific operating data, hampering benchmarking across installations",
+      "Operational/labour constraints and electricity tariff structure dictating the melting schedule (morning tapping needs long high-temperature holding)",
+      "Poor economics / long payback (~9 years) of the proposed holding-furnace energy-saving measure"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "C0 = 98 MWh/day; c1 = 1.1 MWh/t",
+      "c1 = 0.5628 MWh/t",
+      "C0 = 20.806 MWh/month; c1 = 0.5953 MWh/t",
+      "c1 = 0.6129 MWh/t",
+      "c1 = 0.6305 MWh/t; c2 = -0.002816 MWh/t²"
+    ],
+    "claude": [
+      "0.5628 - slope of furnace #1 electricity-vs-tapped-molten-mass regression (MWh/month per t/month)",
+      "1.1 - glass furnace marginal energy consumption / regression slope (MWh/t)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "furnace load (glass melted)",
+      "tapped molten mass m"
+    ],
+    "claude": [
+      "production rate",
+      "pull rate (furnace load)",
+      "tapped molten metal mass",
+      "degree days"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "R2 = 0.9971",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "furnace #1 monthly electricity consumption versus tapped molten metal",
+        "unit": null,
+        "value": "0.9971"
+      },
+      {
+        "evidence_quote": "p-value = 1.71E-41",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "furnace #1 monthly electricity consumption versus tapped molten metal",
+        "unit": null,
+        "value": "1.71E-41"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "R2 = 0.9971",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "Furnace #1 electricity consumption vs tapped molten metal regression",
+        "unit": null,
+        "value": "0.9971"
+      },
+      {
+        "evidence_quote": "p-value = 1.71E-41",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "Furnace #1 regression significance",
+        "unit": null,
+        "value": "1.71E-41"
+      },
+      {
+        "evidence_quote": "The energy and economic savings are substantial (nearly 13%)",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Modified scheduling (1 melting + 1 holding furnace) vs current 3-furnace scenario",
+        "unit": "%",
+        "value": "nearly 13%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "sub-system / utility system",
+    "claude": "facility",
+    "field": "scale_of_application",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the whole melting shop, plus the auxiliary systems",
+    "claude": "The methodology is applied to a glass melting furnace and, in full, to a grey and spheroidal cast-iron foundry - modelled from individual induction furnaces up to the whole melting shop plus auxiliary systems, i.e. the site energy system represented by a matrix equation.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [
+      "feedstock variability",
+      "other"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472535794",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Separate multiple-linear-regression baseline equations were constructed for each significant energy user from Aspen Hysys simulation data. The simulated data were split randomly into 80% training data and 20% testing data, with operating variables as independent variables and energy consumption as the dependent variable.",
+    "claude": "Expected energy consumption (EnB) equations were built per significant energy user by multiple linear regression (Python scikit-learn) using supervised learning. Training/testing data were generated by an Aspen Hysys process simulation of the plant, with operating variables sampled within safe-operating-envelope ranges via Monte Carlo (Excel NORM.INV); ~3876 rows per SEU split 80% training / 20% testing.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Lack of awareness, knowledge, and experience in implementing energy-efficient industrial processes",
+      "Need for ongoing monitoring, analysis, optimization, and investment in new technologies and processes"
+    ],
+    "claude": [
+      "Lack of awareness, knowledge, and experience in the industry on how to implement energy-efficient processes",
+      "Energy efficiency is seldom an industrial priority (priorities set toward production objectives)"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Reforming fuel-gas equation: intercept -8054.2; coefficients 0.4, 507.4, 10.1, 8.5, 54.9",
+      "Reforming steam equation: intercept -79874.6; coefficients 6.3, 24800.1",
+      "Package-boiler fuel-gas equation: intercept 493; coefficients -8.4, 0.06, 0.03, 2.6, 24.6",
+      "Synthesis-gas-compressor HP-steam equation: intercept 603240.9; coefficients -373.4, -2176.9, 3.9, -5584.7, -253.5",
+      "Air-compressor MP-steam equation: intercept 64415.7; coefficients -184.3, 142.9, 0.83"
+    ],
+    "claude": [
+      "Reforming section, Fuel Gas (kg/hr) = -8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5",
+      "Reforming section, Steam (kg/hr) = -79874.6 + 6.3*X1 + 24800.1*X2",
+      "Package boiler section, Fuel Gas (kg/hr) = 493 - 8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5",
+      "Synthesis gas compressor section, HP Steam (kg/hr) = 603240.9 - 373.4*X1 - 2176.9*X2 + 3.9*X3 - 5584.7*X4 - 253.5*X5",
+      "Air compressor section, MP Steam (kg/hr) = 64415.7 - 184.3*X1 + 142.9*X2 + 0.83*X3"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Process gas inlet flow",
+      "Steam to Carbon (S/C) ratio",
+      "Primary reformer outlet temperature",
+      "Primary reformer stack temperature",
+      "O2 % in flue gas (dry)",
+      "HP BFW temperature",
+      "HP steam flow",
+      "Blowdown flow",
+      "Flue gas temperature",
+      "HP Steam temperature",
+      "HP Steam pressure",
+      "Synthesis gas flow",
+      "Synthesis gas inlet pressure",
+      "Recycle synthesis gas inlet pressure",
+      "MP Steam temperature",
+      "MP Steam pressure",
+      "Process air flow"
+    ],
+    "claude": [
+      "Process gas inlet flow (kg/hr)",
+      "Steam to Carbon (S/C) ratio",
+      "Primary reformer outlet temperature (C)",
+      "Primary reformer stack temperature (C)",
+      "O2 % in flue gas (dry)",
+      "HP Boiler Feed Water (BFW) temperature (C)",
+      "HP steam flow (kg/hr)",
+      "Blowdown flow (kg/hr)",
+      "Flue gas temperature (C)",
+      "HP Steam temperature (C)",
+      "HP Steam pressure (bar)",
+      "Synthesis gas flow (kg/hr)",
+      "Synthesis gas inlet pressure (bar)",
+      "Recycle synthesis gas inlet pressure (bar)",
+      "MP Steam temperature (C)",
+      "MP Steam pressure (bar)",
+      "Process air flow (kg/hr)",
+      "Amount of produced ammonia, U (tons) [SEC denominator]"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "R Square = 89.5 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Reforming-section fuel-gas model",
+        "unit": "%",
+        "value": "89.5%"
+      },
+      {
+        "evidence_quote": "R Square = 96.5 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Reforming-section steam model",
+        "unit": "%",
+        "value": "96.5%"
+      },
+      {
+        "evidence_quote": "R Square = 96.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Package-boiler fuel-gas model",
+        "unit": "%",
+        "value": "96.3%"
+      },
+      {
+        "evidence_quote": "R Square = 97.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Synthesis-gas-compressor HP-steam model",
+        "unit": "%",
+        "value": "97.3%"
+      },
+      {
+        "evidence_quote": "R Square = 95.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Air-compressor MP-steam model",
+        "unit": "%",
+        "value": "95.3%"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "R Square = 89.5 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Reforming section fuel gas equation",
+        "unit": null,
+        "value": "89.5%"
+      },
+      {
+        "evidence_quote": "R Square = 96.5 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Reforming section steam equation",
+        "unit": null,
+        "value": "96.5%"
+      },
+      {
+        "evidence_quote": "R Square = 96.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Package boiler section fuel gas equation",
+        "unit": null,
+        "value": "96.3%"
+      },
+      {
+        "evidence_quote": "R Square = 97.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Synthesis gas compressor section HP steam equation",
+        "unit": null,
+        "value": "97.3%"
+      },
+      {
+        "evidence_quote": "R Square = 95.3 %",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 6,
+        "period_or_context": "Air compressor section MP steam equation",
+        "unit": null,
+        "value": "95.3%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The entire ammonia plant, comprising four significant energy-user sections: reforming, package boiler, synthesis gas compression, and air compression.",
+    "claude": "The four significant energy users (SEUs) of the ammonia production plant: the reforming section, the package boiler section, the synthesis gas compressor section, and the air compressor section.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472536226",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Facility-level mean specific energy consumption was used as the Real EnPI; energy consumption was then regressed on production and converted to a production-dependent EnPI model with uncertainty bounds.",
+    "claude": "Real EnPI = mean of site-level specific energy consumption (energy per unit of production); a linear regression of energy consumption on production (Energy = a*Production + b) is fitted and accepted as statistically representative when R2>0.5, R>Rcritic (alpha=0.01) and p-value<0.05, giving an EnPI model mean curve with upper/lower bounds from the covariance matrix (2022 reference year; 27 sites, 11 excluded for sample homogeneity).",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "not reported",
+    "claude": "2022",
+    "field": "baseline_period_end",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "not reported",
+    "claude": "2022",
+    "field": "baseline_period_start",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Primary all-sites 2022: 8.991·10-5 + 5.043·103 / Production",
+      "Electrical all-sites 2022: 0.448 + 2.333·107 / Production",
+      "Primary liquid-only 2022: 8.849·10-5 + 5.278·103 / Production",
+      "Electrical liquid-only 2022: 0.464 + 2.857·107 / Production",
+      "Primary all-sites 2018: 10.183·10-5 + 3.310·103 / Production"
+    ],
+    "claude": [
+      "Primary EnPI regression slope a = 8.991·10-5 toe/Nm3",
+      "Electrical EnPI regression slope a = 0.448 kWh/Nm3",
+      "Primary EnPI model intercept term b = 5.043·103 (all sites, Table 1)",
+      "Electrical EnPI model intercept term b = 2.333·107 (all sites, Table 1)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Production [Nm3]"
+    ],
+    "claude": [
+      "production (in Nm3)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Primary toe/Nm3 1.27 ·10-4 ± 4.83 ·10-5 8.991·10-5 + 5.043·103/ Production 0.736 <0.0001 10-1000 (n=27)",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary all-sites model, 2022 (n=27)",
+        "unit": null,
+        "value": "0.736"
+      },
+      {
+        "evidence_quote": "Primary toe/Nm3 1.27 ·10-4 ± 4.83 ·10-5 8.991·10-5 + 5.043·103/ Production 0.736 <0.0001 10-1000 (n=27)",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary all-sites model, 2022 (n=27)",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "Electrical kWh/Nm3 0.650 ± 0.257 0.448 + 2.333·107 / Production 0.758 <0.0001 10-1000 (n=27)",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical all-sites model, 2022 (n=27)",
+        "unit": null,
+        "value": "0.758"
+      },
+      {
+        "evidence_quote": "Electrical kWh/Nm3 0.650 ± 0.257 0.448 + 2.333·107 / Production 0.758 <0.0001 10-1000 (n=27)",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical all-sites model, 2022 (n=27)",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "Primary toe/Nm3 1.60 ·10-4 ± 4.07 ·10-5 8.849·10-5 + 5.278·103 / Production 0.823 0.0019 15-320 (n=8)",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary liquid-only model, 2022 (n=8)",
+        "unit": null,
+        "value": "0.823"
+      },
+      {
+        "evidence_quote": "Primary toe/Nm3 1.60 ·10-4 ± 4.07 ·10-5 8.849·10-5 + 5.278·103 / Production 0.823 0.0019 15-320 (n=8)",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary liquid-only model, 2022 (n=8)",
+        "unit": null,
+        "value": "0.0019"
+      },
+      {
+        "evidence_quote": "Electrical kWh/Nm3 0.850 ± 0.219 0.464 + 2.857·107 / Production 0.831 0.0016 15-320 (n=8)",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical liquid-only model, 2022 (n=8)",
+        "unit": null,
+        "value": "0.831"
+      },
+      {
+        "evidence_quote": "Electrical kWh/Nm3 0.850 ± 0.219 0.464 + 2.857·107 / Production 0.831 0.0016 15-320 (n=8)",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical liquid-only model, 2022 (n=8)",
+        "unit": null,
+        "value": "0.0016"
+      },
+      {
+        "evidence_quote": "regression model presents a higher correlation (R2=0.873 vs. 0.736) compared to 2022 data.",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 13,
+        "period_or_context": "Primary all-sites model, 2018",
+        "unit": null,
+        "value": "0.873"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.736",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary EnPI model, all sites (n=27), 2022 reference year",
+        "unit": null,
+        "value": "0.736"
+      },
+      {
+        "evidence_quote": "0.758",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical EnPI model, all sites (n=27)",
+        "unit": null,
+        "value": "0.758"
+      },
+      {
+        "evidence_quote": "0.823",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Primary EnPI model, only-liquid-state sites (n=8)",
+        "unit": null,
+        "value": "0.823"
+      },
+      {
+        "evidence_quote": "0.831",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 12,
+        "period_or_context": "Electrical EnPI model, only-liquid-state sites (n=8)",
+        "unit": null,
+        "value": "0.831"
+      },
+      {
+        "evidence_quote": "the p-value < 0.0001",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 10,
+        "period_or_context": "All-sites primary and electrical regressions",
+        "unit": null,
+        "value": "<0.0001"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "27 Italian sites producing atmospheric gases, with primary and electrical EnPIs calculated at site level.",
+    "claude": "Air separation / atmospheric-gas production (O2, N2, Ar in gaseous and liquid state); the EnPI methodology is applied to 27 Italian atmospheric-gas production sites in the industrial gases sector.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536358",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "segmented baseline"
+    ],
+    "claude": [
+      "segmented baseline",
+      "other"
+    ],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Factories were grouped by product family and production scale. SEC was calculated as total input energy divided by equivalent production, and the average SEC of each scale group was used as that group's benchmark.",
+    "claude": "SEC computed as the ratio of total input energy (electricity + thermal, converted to MJ) to equivalent total production output for each surveyed factory; the average SEC of each product family and production-scale group (small/medium/large) is taken as the benchmark, from energy survey and audit data (survey conducted 2015-2016; SEC values reported for 2014).",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "less modern machinery with inadequate maintenance in small factories"
+    ],
+    "claude": [
+      "low interest of the enterprises (limited survey participation)",
+      "small factories have less modern machinery with inadequate maintenance"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "1.31",
+      "1.48",
+      "1.33",
+      "1.11"
+    ],
+    "claude": [
+      "equivalent-production conversion factors 1.31 and 1.48 (packaging paper)",
+      "equivalent-production conversion factors 1.33 and 1.11 (tissue paper)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Equivalent production by electricity consumption",
+      "Equivalent production by thermal energy consumption"
+    ],
+    "claude": [
+      "production output (equivalent production, tons)",
+      "pulp type",
+      "product type/family"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 17,
+        "period_or_context": "Scenario 1, packaging sub-sector",
+        "unit": "%",
+        "value": "13.6%"
+      },
+      {
+        "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 17,
+        "period_or_context": "Scenario 1, tissue paper sub-sector",
+        "unit": "%",
+        "value": "17.6%"
+      },
+      {
+        "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 17,
+        "period_or_context": "Scenario 1, printing and writing paper",
+        "unit": "%",
+        "value": "14.4%"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "The energy saving potential, in this case, was estimated at 19.5%",
+        "metric": "% energy savings",
+        "page": 14,
+        "period_or_context": "packaging paper sub-sector, Scenario 1 (moving the average baseline)",
+        "unit": "%",
+        "value": "19.5"
+      },
+      {
+        "evidence_quote": "The energy saving potential, in this case, was estimated at 11.6%",
+        "metric": "% energy savings",
+        "page": 15,
+        "period_or_context": "tissue paper sub-sector, Scenario 1 (moving the average baseline)",
+        "unit": "%",
+        "value": "11.6"
+      },
+      {
+        "evidence_quote": "The energy saving potential, in this case, was estimated at 20%",
+        "metric": "% energy savings",
+        "page": 15,
+        "period_or_context": "printing and writing paper sub-sector, Scenario 1 (moving the average baseline)",
+        "unit": "%",
+        "value": "20"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the area of production (production line, utility and waste facilities)",
+    "claude": "The benchmarking boundary is each factory's area of production (production line, utility and waste facilities) of pulp and paper factories, benchmarked across three sub-sectors (packaging, tissue, printing & writing) and three production-scale groups.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [
+      "feedstock variability",
+      "other"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "none reported"
+    ],
+    "claude": [
+      "empirical"
+    ],
+    "field": "validation_types",
+    "paper_key": "rayyan-472536410",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The lagging EnPI is constructed as energy consumed in GJ divided by final product in metric tons.",
+    "claude": "Lagging EnPI computed as energy consumed (GJ) divided by final product (metric ton); no statistical/regression baseline model reported.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "lack of commitment or even rejection from respective parties",
+      "Some company organizations may not understand how to apply EnMS",
+      "lack of support from top management",
+      "limited resources",
+      "geo-political structure"
+    ],
+    "claude": [
+      "Lack of technical knowhow to effectively conserve energy",
+      "Low incentive to adopt efficiency due to energy subsidies",
+      "Energy efficiency not a top company priority (mind-share)",
+      "Facilities scattered across large areas (geo-political structure)"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "equal weight of 25%"
+    ],
+    "claude": [],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "final product in metric ton"
+    ],
+    "claude": [
+      "total production"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "ISO 50001/50006 explicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "overall organization energy performance",
+    "claude": "Corporate/company-wide EnPI across the oil company's organizations; facility-level example for a Purified Terephthalic Acid (PTA) manufacturing facility.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536425",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "SCAS is constructed as total identified compressed-air-system energy savings from the audit divided by annual production; SLS divides savings from avoided air leaks by production.",
+    "claude": "No time-window/regression baseline is built; the specific indicators (SEC, SES, SCAS, SLS) are constructed as ratios of audit-derived annual energy or energy savings to annual production.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Employees ignored air leaks that they had already noticed.",
+      "Personnel lacked a solid understanding of energy saving by compressed-air systems."
+    ],
+    "claude": [
+      "Lack of staff education and inadequate awareness; neglect of CAS maintenance",
+      "Difficulty of measuring leaks due to crack geometry (needs sophisticated devices/professionals)",
+      "Employees not taking air leaks into account (perception that compressed air is cheap)"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "At 0.7 bar: A = 2.84 × 10^-4, B = 1.198 × 10^-3, C = -6.53 × 10^-2",
+      "At 1.75 bar: A = 3.93 × 10^-4, B = -2.73 × 10^-3",
+      "At 3.5 bar: A = 5.83 × 10^-4, B = -1.726 × 10^-2, C = 3.01 × 10^-1",
+      "At 5 bar: A = 5.18 × 10^-4, B = -7.23 × 10^-3, C = 2.38 × 10^-1",
+      "At 7 bar: A = 5.86 × 10^-4, B = -1.081 × 10^-2, C = 3.15 × 10^-1"
+    ],
+    "claude": [
+      "Empirical correlation constants A, B, C of the dB-to-flow-rate equation (Eq. 2), tabulated per operational pressure in Table 1"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "amount of product annually"
+    ],
+    "claude": [
+      "amount of product (annual production, e.g. tons of steel)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "0.99",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "Pressure-dependent dB-to-flow-rate empirical correlations in Table 1",
+        "unit": null,
+        "value": "0.99"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.99",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "Coefficient of determination for the empirical dB-to-flow-rate conversion correlation (Eq. 2), all five operational pressures (Table 1)",
+        "unit": null,
+        "value": "0.99"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Compressed Air Systems in 44 industrial facilities from different sectors",
+    "claude": "Compressed air system of a steel production facility (9,650 t/year steel) used as the detailed worked example; broader study covers CAS in 44 industrial facilities.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536428",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [
+      "segmented baseline",
+      "other"
+    ],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Linear regression models energy consumption as a function of production; the fitted slope and intercept are then divided by production to form a hyperbolic EnPI model.",
+    "claude": "Cross-sectional sectoral baseline built from mandatory energy-audit data: after data cleaning/normalisation and outlier removal, the real sectoral EnPI is computed as the mean +/- standard deviation of specific energy consumption across sites, and a linear regression of energy consumption on production (y = a*x + b) is fitted; the EnPI model (EnPIm) is a hyperbolic function with +/-2 sigma limits from error propagation, with representativeness confirmed via R^2, R>Rcritic and p-value.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [],
+    "claude": [
+      "Sectoral EnPI definition requires a very time-consuming one-by-one audit normalisation by highly specialized personnel",
+      "Profitable energy-efficiency interventions are often not implemented due to several categories of barriers"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Electric site: intercept 5.062 × 106; slope 101.9",
+      "Thermal site: intercept 3.913 × 107; slope 3.448",
+      "Global site: intercept 7.05 × 107; slope 3.039",
+      "Raw-material grinding electric: intercept 3,395,804; slope 16.24",
+      "Clinker cooking electric: intercept 1,685,681; slope 27.19",
+      "Clinker grinding electric: intercept 946,440; slope 38.98",
+      "Clinker cooking thermal: intercept 2.749·107; slope 3447"
+    ],
+    "claude": [
+      "EE [kWh] = 5.062 × 106 + 101.9 × t (electric, cement)",
+      "Eth [MJ] = 3.913 × 107 + 3.448 × t (thermal, clinker)",
+      "Eg [MJ] = 7.05 × 107 + 3.039 × t (global, cement)",
+      "EE [kWh] = 946,440 + 38.98 × t (clinker grinding, electric)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "amount of flour actually produced on site",
+      "amount of clinker actually produced on site",
+      "amount of cement actually produced on site",
+      "number of cyclones"
+    ],
+    "claude": [
+      "production (in specific production units, P.U.; tons of cement, clinker, or flour)",
+      "number of cyclones (furnace pre-heating stages)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "implicit",
+    "claude": "ISO 50001/50006 explicit",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917 0.958 <0.0001 29 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site electric consumption versus cement production",
+        "unit": null,
+        "value": "0.917"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917 0.958 <0.0001 29 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site electric consumption versus cement production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site thermal consumption versus clinker production",
+        "unit": null,
+        "value": "0.969"
+      },
+      {
+        "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site thermal consumption versus clinker production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site global consumption versus cement production",
+        "unit": null,
+        "value": "0.933"
+      },
+      {
+        "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "site global consumption versus cement production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t 0.730 0.854 <0.0001 26 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "raw-material grinding electric consumption versus flour production",
+        "unit": null,
+        "value": "0.730"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t 0.730 0.854 <0.0001 26 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "raw-material grinding electric consumption versus flour production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-cooking electric consumption versus clinker production",
+        "unit": null,
+        "value": "0.804"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-cooking electric consumption versus clinker production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-grinding electric consumption versus cement production",
+        "unit": null,
+        "value": "0.951"
+      },
+      {
+        "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-grinding electric consumption versus cement production",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-cooking thermal consumption versus clinker production",
+        "unit": null,
+        "value": "0.969"
+      },
+      {
+        "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 20,
+        "period_or_context": "clinker-cooking thermal consumption versus clinker production",
+        "unit": null,
+        "value": "<0.0001"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t 0.917",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "first-level electric EnPI regression, cement (N=29)",
+        "unit": null,
+        "value": "0.917"
+      },
+      {
+        "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "first-level thermal EnPI regression, clinker (N=29)",
+        "unit": null,
+        "value": "0.969"
+      },
+      {
+        "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "first-level global EnPI regression, cement (N=29)",
+        "unit": null,
+        "value": "0.933"
+      },
+      {
+        "evidence_quote": "0.917 0.958 <0.0001",
+        "metric": "p-value",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "first-level EnPI linear regressions (N=29)",
+        "unit": null,
+        "value": "<0.0001"
+      },
+      {
+        "evidence_quote": "0.917 0.958 <0.0001",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 18,
+        "period_or_context": "electric EnPI regression, cement",
+        "unit": null,
+        "value": "0.958 (Pearson correlation coefficient R)"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Global plant level, including all activities and processes within the site, with second-level indicators for cement-production processes and auxiliary and general activities.",
+    "claude": "Italian cement sector (NACE 23.51): first-level EnPIs for the complete grey-cement production cycle at site level, plus second-level EnPIs for main phases (raw-material grinding, clinker cooking, clinker grinding).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536455",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "For each company, the 2017-2018 baseline calculated specific electricity use as yearly electricity use divided by yearly final product and global energy intensity as annual equivalent energy use divided by annual production value.",
+    "claude": "EnPI baselines for the 2017-2018 reference period were established by computing yearly specific electricity use (annual electricity use divided by annual product manufactured, MWh/ton) and a global energy intensity (annual equivalent energy use divided by annual production value); simple unfitted intensity ratios, no regression.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "continuous time series",
+    "claude": "audit data",
+    "field": "data_type",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "lack of financial support for EPIA plan implementation without the SA mechanism",
+      "SA mechanism only applies for electricity use"
+    ],
+    "claude": [
+      "Without the state-aid (SA) mechanism, the companies could not financially support implementation of the EPIA plan under present market conditions"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "yearly final product manufactured by the company",
+      "annual production value"
+    ],
+    "claude": [
+      "yearly final product manufactured (P) - production tonnage",
+      "annual production value (PV)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "By implementing 31.75% of the planned EPIAs by the end of 2020, the aluminium industry end-user managed to lower its specific electricity end-use by roughly 5%, to a value of 8.21 MWh/ton by the end of 2020.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Aluminium specific electricity end-use by the end of 2020",
+        "unit": "%",
+        "value": "roughly 5%"
+      },
+      {
+        "evidence_quote": "If determined by using a weighted average price, the EI dropped by 4% to a weighted value of 0.38 t.o.e. per thousand EUR.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Aluminium weighted energy intensity",
+        "unit": "%",
+        "value": "4%"
+      },
+      {
+        "evidence_quote": "The cement industry end-user implemented 40% of its EPIA plan by the end of 2020, thus lowering its specific electricity use by approximatively 5% to a value of 0.128 MWh/ton.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Cement specific electricity use by the end of 2020",
+        "unit": "%",
+        "value": "approximatively 5%"
+      },
+      {
+        "evidence_quote": "The EI of the company is currently 0.95 t.o.e. per thousand EUR, respectively 4.5% lower than the reference value of 2017.",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "Cement energy intensity relative to the 2017 reference",
+        "unit": "%",
+        "value": "4.5%"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "The planned EPIAs were estimated to lead to a 1.52% \nreduction in the annual electricity use by the end of the \nprogram",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "aluminium end-user - estimated reduction in annual electricity use by the end of the EPIA program (planned)",
+        "unit": "%",
+        "value": "1.52"
+      },
+      {
+        "evidence_quote": "an annual energy saving of 20,346 MWh/year, which amounts to 5.9% of \nthe yearly electricity use",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 3,
+        "period_or_context": "cement end-user - planned annual energy saving (20,346 MWh/year) as share of yearly electricity use",
+        "unit": "%",
+        "value": "5.9"
+      },
+      {
+        "evidence_quote": "the aluminium industry end-user managed to lower its \nspecific electricity end-use by roughly 5%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "aluminium end-user - actual reduction in specific electricity end-use after implementing 31.75% of EPIAs by end 2020",
+        "unit": "%",
+        "value": "5"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "organisation",
+    "claude": "facility",
+    "field": "scale_of_application",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the global energy performance of the two analysed industrial end-users",
+    "claude": "Overall energy performance of two large, 24/7-operating industrial end-users - an aluminium (metal processing) plant and a cement (building material manufacturing) plant - evaluated company-wide via EnPIs.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "empirical"
+    ],
+    "claude": [
+      "none reported"
+    ],
+    "field": "validation_types",
+    "paper_key": "rayyan-472536486",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Using 2016-2017 audit and measurement data from participating factories, the authors screened measurable independent variables using reasoning, collinearity, curve fitting, Chuvenet's criterion, and Pearson correlation, then fitted second-order polynomial BEC and SEC regressions.",
+    "claude": "BEC and SEC baseline indicators were built from 2016-2017 audit and measurement data of the participating glass factories using statistical methods and regression analysis; independent variables were screened for correlation/collinearity (Pearson's correlation, Chauvenet's criterion, curve fitting) and the best-fit second-order polynomial equations were selected on R-squared, adjusted R-squared and p-value.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "BEC electric coefficients a1-a8: -2.149, 2.475, 7,925.387, 7.564 × 10-5, -6.008 × 10-5, -2.059 × 10-5, -3,657.015, -1,754.560",
+      "BEC thermal coefficients a1-a8: -17.206, 18.121, -2,221.222, 7.937 × 10-6, 0.001, -0.001, -511.160, 18,865.889",
+      "BEC total coefficients a1-a8: -19.355, 20.596, 5,704.190, 8.358 × 10-5, 0.001, -0.001, -4,168.180, 17,111.303",
+      "SEC electric coefficients b1-b8: -1.336, 1.146, -1,741.442, 3.159 x 10-6, 3.861 x 10-5, -3.105 x 10-5, 356.079, 2,965.356",
+      "SEC thermal coefficients b1-b8: -8.025, 5.711, -2,812.881, 7.824 x 10-6, 0.000, 0.000, 497.218, 18,712.545",
+      "SEC total coefficients b1-b8: -9.361, 6.856, -4,554.318, 1.098 x 10-5, 0.000, 0.000, 853.296, 21,677.893"
+    ],
+    "claude": [
+      "Second-order polynomial BEC equation constants a1-a8 for Electric, Thermal and Total energy (Table 2), e.g. a3(electric)=7,925.387, a8(thermal)=18,865.889",
+      "Second-order polynomial SEC equation constants b1-b8 for Electric, Thermal and Total energy (Table 3), e.g. b1(electric)=-1.336, b3(total)=-4,554.318"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "total product quantity",
+      "the volume of the molten glass",
+      "glass melting furnace age ratio"
+    ],
+    "claude": [
+      "Average quantity of product",
+      "Molten glass volume from glass melting furnace",
+      "Glass melting furnace age ratio"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "𝑅2 \n0.997 \n0.988 \n0.991",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC electric",
+        "unit": null,
+        "value": "0.997"
+      },
+      {
+        "evidence_quote": "𝑅2 \n0.997 \n0.988 \n0.991",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC thermal",
+        "unit": null,
+        "value": "0.988"
+      },
+      {
+        "evidence_quote": "𝑅2 \n0.997 \n0.988 \n0.991",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC total",
+        "unit": null,
+        "value": "0.991"
+      },
+      {
+        "evidence_quote": "𝑅2 \n0.788 \n0.931 \n 0.928",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC electric",
+        "unit": null,
+        "value": "0.788"
+      },
+      {
+        "evidence_quote": "𝑅2 \n0.788 \n0.931 \n 0.928",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC thermal",
+        "unit": null,
+        "value": "0.931"
+      },
+      {
+        "evidence_quote": "𝑅2 \n0.788 \n0.931 \n 0.928",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC total",
+        "unit": null,
+        "value": "0.928"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.997",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC electric-energy indicator (Table 2)",
+        "unit": null,
+        "value": "0.997"
+      },
+      {
+        "evidence_quote": "0.988",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC thermal-energy indicator (Table 2)",
+        "unit": null,
+        "value": "0.988"
+      },
+      {
+        "evidence_quote": "0.991",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "BEC total-energy indicator (Table 2)",
+        "unit": null,
+        "value": "0.991"
+      },
+      {
+        "evidence_quote": "0.788",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC electric-energy indicator (Table 3)",
+        "unit": null,
+        "value": "0.788"
+      },
+      {
+        "evidence_quote": "0.931",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC thermal-energy indicator (Table 3)",
+        "unit": null,
+        "value": "0.931"
+      },
+      {
+        "evidence_quote": "0.928",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "SEC total-energy indicator (Table 3)",
+        "unit": null,
+        "value": "0.928"
+      },
+      {
+        "evidence_quote": "in the range of ±10",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 4,
+        "period_or_context": "prediction error band, predicted vs actual BEC/SEC (Figure 3)",
+        "unit": "%",
+        "value": "±10%"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Plant-performance BEC and SEC models for electricity, thermal energy, and total energy across 14 participating glass factories.",
+    "claude": "Whole-plant (total plant efficiency) energy performance of container and tableware glass manufacture factories, covering electrical, thermal and total energy, rather than equipment, systems or product performance.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "non-stationarity",
+      "other"
+    ],
+    "claude": [
+      "non-stationarity"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472536487",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "The EPI is constructed with DEA using energy as input and product price as the desirable output; efficiency is measured relative to the optimal decision-making unit.",
+    "claude": null,
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "unspecified or not stated",
+    "claude": "simulation",
+    "field": "data_type",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "high cost of energy-saving technologies"
+    ],
+    "claude": [
+      "Organizational management systems must be enhanced",
+      "Statistical monitoring systems must be continually improved"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "product price"
+    ],
+    "claude": [
+      "fossil energy",
+      "nonfossil energy",
+      "water",
+      "cost"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "technological combinations in three stages of the complete supply chain (i.e., electricity generation, electrolytic anodes, and aluminum supply modes)",
+    "claude": "the complete supply chain for the aluminum industry in China",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536501",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Historical process data are mean-centered and unit-variance-scaled, clustered to identify operational regimes, and used to fit a nonlinear surrogate BDP model; backward elimination removes influencing factors with minor significance.",
+    "claude": "Data-driven surrogate 'best demonstrated practice' (BDP) energy baseline: historical plant data are outlier-filtered and unit-variance scaled, clustered with kmeans++ into operational regimes, the 5-10th percentile centre of each cluster taken as the representative best-practice point, and a non-linear surrogate model (adapted ALAMO; weighted-least-squares selection of power/exponential basis functions via MILP, AIC-based model size) fitted to those points, then simplified by backward elimination of low-influence factors.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "skills and experience of the plant personnel",
+      "expensive modeling and advanced process control are not viable"
+    ],
+    "claude": [
+      "Realising the identified operational improvement potential depends on the skills and experience of the plant personnel",
+      "A significant time period of sufficient-quality historical process data is needed to identify a reliable BDP model"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "−0.7484",
+      "3.2778"
+    ],
+    "claude": [
+      "-0.6989 (mp^2), 2.9402 (mp^-1), 0.4195 (Tamb^-3): full 2-factor BDP model, Eq. 29",
+      "-0.2287 (mp^3), 2.7202 (mp^-2): model after backward elimination, Eq. 30",
+      "-0.7484 (mp^2), 3.2778 (mp^-1): load-only model, Eq. 34",
+      "gamma = 0.05 (backward-elimination threshold); 16 clusters; 7 basis functions (+intercept), max 10"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "load",
+      "ambient temperature"
+    ],
+    "claude": [
+      "plant load (production rate, mp)",
+      "ambient temperature (Tamb)"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "The original model with 2 influencing factors has an OIPavg of 0.4978 and a value of ϵ of 0.1318.",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 29,
+        "period_or_context": "model error ϵ for the original model with 2 influencing factors",
+        "unit": null,
+        "value": "0.1318"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "0.23",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Model distance ratio, 1 influence factor (load-only), Table 2",
+        "unit": null,
+        "value": "0.23"
+      },
+      {
+        "evidence_quote": "0.26",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Model distance ratio, 2 influence factors, Table 2",
+        "unit": null,
+        "value": "0.26"
+      },
+      {
+        "evidence_quote": "98.8%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Fraction of points in convex hull, 1 influence factor, Table 2",
+        "unit": "%",
+        "value": "98.8"
+      },
+      {
+        "evidence_quote": "87.1%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Fraction of points in convex hull, 2 influence factors, Table 2",
+        "unit": "%",
+        "value": "87.1"
+      },
+      {
+        "evidence_quote": "10.0%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Fraction of points below model curve, 1 influence factor, Table 2",
+        "unit": "%",
+        "value": "10.0"
+      },
+      {
+        "evidence_quote": "10.6%",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 38,
+        "period_or_context": "Fraction of points below model curve, 2 influence factors, Table 2",
+        "unit": "%",
+        "value": "10.6"
+      },
+      {
+        "evidence_quote": "0.4978",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 29,
+        "period_or_context": "OIPavg (average operational improvement potential), initial 2-factor model",
+        "unit": null,
+        "value": "0.4978"
+      },
+      {
+        "evidence_quote": "0.9958",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 29,
+        "period_or_context": "Fk loss ratio when plant load is left out (load is significant)",
+        "unit": null,
+        "value": "0.9958"
+      },
+      {
+        "evidence_quote": "0.0472",
+        "metric": "other-named",
+        "non_contiguous_evidence": false,
+        "page": 29,
+        "period_or_context": "Fk loss ratio when ambient temperature is left out (negligible)",
+        "unit": null,
+        "value": "0.0472"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Propylene Oxide (PO) production plant of INEOS in K¨oln",
+    "claude": "The 5 bar steam consumption (EnPI) of the propylene-oxide production plant of INEOS in Koeln, modelled as a function of plant load and ambient temperature.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [
+      "non-stationarity",
+      "other"
+    ],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472536532",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "A log-linear, multivariate plant-level regression was fitted to an unbalanced panel of 106 plant-years from 14 plants, with production, capacity, production-mix ratios, oxygen use, scrap use, and a 2009 dummy variable as predictors.",
+    "claude": "A log-linear multiple regression / frontier model (log total source energy on log capacity, log cast slab production and production-ratio and plant-characteristic variables) estimated by ordinary least squares on an unbalanced panel of 14 integrated steel plants (106 plant-years, 2005-2014); a 2009 dummy captures the recession and variables were retained via statistical significance tests.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "identifies_model_limitations",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [],
+    "claude": [
+      "Barriers to adoption of cost-effective energy-management solutions in the steel industry (addressed by the ENERGY STAR Steel Focus)",
+      "Difficulty tracking/recording some operational data (e.g. oxygen and scrap steel hard to track, gaps in the data)"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Log Capacity: 0.2002",
+      "Log Slab Production: 0.8479",
+      "Finished Production Ratio: 0.0982",
+      "Liquid Iron Production Ratio: 0.5719",
+      "Charged Scrap Production Ratio: 0.3353",
+      "Hot Mill Production Ratio: 0.1362",
+      "Oxygen Production Ratio: 0.0208",
+      "Year 2009: 0.0464",
+      "Constant: 1.4088"
+    ],
+    "claude": [
+      "Log Capacity = 0.2002",
+      "Log Slab Production = 0.8479",
+      "Finished Production Ratio = 0.0982",
+      "Liquid Iron Production Ratio = 0.5719",
+      "Charged Scrap Production Ratio = 0.3353",
+      "Hot Mill Production Ratio = 0.1362",
+      "Oxygen Production Ratio = 0.0208",
+      "Year 2009 = 0.0464",
+      "Constant = 1.4088"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "capacity",
+      "cast slab production",
+      "liquid iron/cast slab ratio",
+      "slabs charged to hot mill/cast slab ratio",
+      "charged scrap/cast slab ratio",
+      "total onsite finished tons/cast slab ratio",
+      "oxygen use/cast slab ratio",
+      "Year 2009 dummy variable"
+    ],
+    "claude": [
+      "Capacity",
+      "cast slab production",
+      "Liquid Iron Production Ratio",
+      "Hot Mill Production Ratio (slabs charged to hot mill)",
+      "Charged Scrap Production Ratio",
+      "Finished Production Ratio (onsite finishing)",
+      "Oxygen Production Ratio",
+      "Year 2009 dummy"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "absent",
+    "claude": "implicit",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "R – squared 0.984",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "Integrated Steel Mill Frontier Model Estimates",
+        "unit": null,
+        "value": "0.984"
+      },
+      {
+        "evidence_quote": "F(8, 97) 755.45",
+        "metric": "F-statistic",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "F(8, 97)",
+        "unit": null,
+        "value": "755.45"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "R - squared 0.984",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "Integrated Steel Mill Frontier Model estimates (106 plant-years, 2005-2014)",
+        "unit": null,
+        "value": "0.984"
+      },
+      {
+        "evidence_quote": "F(8, 97) 755.45",
+        "metric": "F-statistic",
+        "non_contiguous_evidence": false,
+        "page": 11,
+        "period_or_context": "F(8, 97)",
+        "unit": null,
+        "value": "755.45"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_treatment_mechanism",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "integrated steel mills in the U.S. and Canada",
+    "claude": "Whole-plant (facility-level) energy performance indicator for integrated steel mills; a fence-line 'black box' relating total source energy to plant-level production activities rather than individual process steps.",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "specific_limitations",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "empirical",
+      "statistical"
+    ],
+    "claude": [
+      "statistical"
+    ],
+    "field": "validation_types",
+    "paper_key": "rayyan-472536644",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "An ordinary least squares regression models the natural log of total source energy using capacity, labor, and several operating ratios.",
+    "claude": "Ordinary least squares regression of the natural log of total source energy on the natural logs of clinker capacity and labor plus operating ratios (wet kiln ratio, clinker-to-cement and clinker-to-capacity ratios, squared clinker-to-capacity, and average-capacity x kiln-count interactions), estimated on 862 plant-year observations for ~96 US cement plants (2000-2008); the regression error term (assumed log-normal, with heteroscedastic variance modelled as a function of average kiln capacity) is used as the measure of plant-level energy-efficiency dispersion.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "lack of information regarding economic potential for lower energy use",
+      "proprietary plant benchmarking data arising from competitiveness issues among companies"
+    ],
+    "claude": [
+      "Lack of information on whole-plant energy intensity and absence of an industrial energy-efficiency benchmarking system",
+      "Proprietary/confidential plant-level data (nondisclosure requirements) limiting benchmarking"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "ln (capacity) coefficient: 0.7918",
+      "ln (labor) coefficient: 0.1276",
+      "Wet kiln ratio coefficient: 0.2028",
+      "Clinker-to-cement ratio coefficient: −0.1613",
+      "Clinker-to-capacity ratio coefficient: 2.2051",
+      "Squared clinker-to-capacity ratio coefficient: −0.6925",
+      "Interaction between ln(avercap) and 2 kilns dummy coefficient: 0.0083",
+      "Interaction between ln(avercap) and 3 and more kilns dummy coefficient: 0.0133",
+      "Constant: 16.1910",
+      "error-variance capacity coefficient β: 0.00346"
+    ],
+    "claude": [
+      "ln(capacity) = 0.7918",
+      "ln(labor) = 0.1276",
+      "wet kiln ratio = 0.2028",
+      "clinker-to-cement ratio = -0.1613",
+      "clinker-to-capacity ratio = 2.2051",
+      "squared clinker-to-capacity ratio = -0.6925",
+      "interaction ln(avercap) x 2 kilns dummy = 0.0083",
+      "interaction ln(avercap) x 3-and-more kilns dummy = 0.0133",
+      "constant (intercept) = 16.1910",
+      "error variance sigma^2 = 0.0127"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "Adjusted R2 0.9273",
+        "metric": "adjusted R²",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "updated EPI",
+        "unit": null,
+        "value": "0.9273"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "Adjusted R2\n0.9273",
+        "metric": "adjusted R²",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "updated cement EPI, 862 plant-year observations 2000-2008 (Table 2)",
+        "unit": null,
+        "value": "0.9273"
+      },
+      {
+        "evidence_quote": "Adjusted R2\n0.9114",
+        "metric": "adjusted R²",
+        "non_contiguous_evidence": false,
+        "page": 9,
+        "period_or_context": "1997 original EPI specification refit to 2000-2008 data (Table 3)",
+        "unit": null,
+        "value": "0.9114"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "US cement plants",
+    "claude": "Whole-plant (facility-level) energy-efficiency benchmarking of US cement manufacturing plants: total source energy of the entire plant across the industry (~96 plants, 2000-2008).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536694",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "other"
+    ],
+    "claude": [],
+    "field": "adaptation_types",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "Potential influence variables were normalised and screened with discriminant function analysis to identify key influence variables. An EPI regression model against the discriminant function was then used to calculate a baseline adjusted to actual external influence conditions.",
+    "claude": "Data-mining (CRISP-DM) workflow: 45 potential influence variables collected hourly; specific-consumption EPIs (SCPU/SCRU/SCDU) categorised into five groups and the influence variables normalised; Discriminant Function Analysis selected 14 key influence variables and derived a discriminant function F1; a regression of EPI versus F1 was fitted (R2=0.9029 for SCPU) and used to obtain the EPI baseline, adjusted to actual external influence conditions.",
+    "field": "baseline_construction_method",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "meter failure and loss of measurement-system integrity"
+    ],
+    "claude": [
+      "Controllable-variable changes to capture energy savings must remain within safety limits set by the plant technical manager to avoid potential risk"
+    ],
+    "field": "implementation_barriers",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "-0.388 (x8 coefficient)",
+      "-1.897 (x9 coefficient)",
+      "-0.057 (x42 coefficient)",
+      "0.112 (x10 coefficient)",
+      "-0.701 (x43 coefficient)",
+      "-0.422 (x45 coefficient)",
+      "0.19 (x29 coefficient)",
+      "0.181 (x30 coefficient)",
+      "1.131 (x16 coefficient)",
+      "1.160 (x17 coefficient)",
+      "0.967 (x18 coefficient)",
+      "-0.378 (x19 coefficient)",
+      "0.486 (x25 coefficient)",
+      "0.093 (x32 coefficient)"
+    ],
+    "claude": [
+      "Discriminant function F1 weighting coefficients (Eq. 9): -0.388 (x8), -1.897 (x9), -0.057 (x42), +0.112 (x10), -0.701 (x43), -0.422 (x45), +0.19 (x29), +0.181 (x30), +1.131 (x16), +1.160 (x17), +0.967 (x18), -0.378 (x19), +0.486 (x25), +0.093 (x32)"
+    ],
+    "field": "model_parameters_reported",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      "Recycle gas density (P_PP_V8)",
+      "Input Stream to the Platforming unit",
+      "Input stream from Aromax unit to debutanizer",
+      "Fuel gas consumption in heater PP_H3",
+      "Fuel gas consumption in heater PP_H4",
+      "Fuel gas consumption in heater PP_H5",
+      "Fuel gas consumption in heater PP_H6",
+      "Medium pressure steam consumption in the debenzenizer",
+      "Reﬂux ratio: debutanizer’s top stream/liquid return to the column",
+      "Reﬂux ratio of debenzenizer",
+      "Pressure operation of debenzenizer",
+      "Ambient temperature",
+      "Delta T in PP_V5 reactor",
+      "Delta T in PP_V7 reactor"
+    ],
+    "claude": [
+      "input stream to the PU (platforming load)",
+      "delta temperature in PP_V5 reactor",
+      "recycle gas density",
+      "input stream from Aromax unit to debutanizer",
+      "ambient temperature",
+      "delta temperature in PP_V7 reactor"
+    ],
+    "field": "normalisation_variables",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "implicit",
+    "claude": "absent",
+    "field": "normative_framing_of_adaptations",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": [
+      {
+        "evidence_quote": "The regression model of SCPU is presented in Fig. 4, showing a strong correlation with F1 (R2 = 0.9029).",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "SCPU regression model versus F1",
+        "unit": null,
+        "value": "0.9029"
+      },
+      {
+        "evidence_quote": "Fig. 6 represents monthly energy consumption in the post-EMS period, clearly showing achieved energy savings ranging from 4% to 7%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "monthly post-EMS period",
+        "unit": "%",
+        "value": "4% to 7%"
+      }
+    ],
+    "claude": [
+      {
+        "evidence_quote": "strong correlation with F1 (R2 = 0.9029)",
+        "metric": "R²",
+        "non_contiguous_evidence": false,
+        "page": 7,
+        "period_or_context": "SCPU regression model correlation with discriminant function F1",
+        "unit": null,
+        "value": "0.9029"
+      },
+      {
+        "evidence_quote": "achieved energy savings ranging from 4% to 7%",
+        "metric": "% energy savings",
+        "non_contiguous_evidence": false,
+        "page": 8,
+        "period_or_context": "monthly achieved savings, post-EMS implementation period",
+        "unit": "%",
+        "value": "4 to 7"
+      }
+    ],
+    "field": "performance_metrics_reported",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": true,
+    "claude": false,
+    "field": "proposes_adaptations",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  },
+  {
+    "chatgpt": "the platforming unit of a naphtha reforming plant",
+    "claude": "The platforming unit (PU) of a naphtha reforming plant, divided into the reaction unit (RU) where catalytic reforming is carried out and the distillation unit (DU).",
+    "field": "scope_description",
+    "paper_key": "rayyan-472536695",
+    "section": "level_b",
+    "tier": 2
+  }
+]

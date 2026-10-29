@@ -1,0 +1,333 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536487",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:48:31.251328+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The development of BEC and SEC equations uses statistical methods and regression analysis. The best equation for selection is based on statistical values, including R-squared, adjusted R-squared, and p-value.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This research analyzed only 14 of 15 participating factories.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This paper presents the investigation of ENPI in the containers glass and tableware glass manufacture industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Sector=glass (closed continuous-process list); model empirically derived from 14 audited glass plants. paper_type multi-case vs single-case borderline. data_type audit vs continuous-series borderline. Thai ENPI/EEP2015 cited as context, not coded as regulatory driver of dataset."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "There are 15 container glass and tableware glass manufacture factories in Thailand (2017).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Thailand",
+      "evidence_quote": "14 of 15 containers glass and tableware glass plants in Thailand were audited and analyzed in this paper.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "container glass and tableware glass",
+      "evidence_quote": "Thailand Standard Industrial Classification (TSIC 2009) classifies the container glass and tableware glass industry as a nonmetallic sector by TSIC-ID as 23102.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "then feeding the ingredients mixed into the glass melting furnace. Next, the melting glass will pass to the conditioning process to reduce the temperature before forming a circle",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "The second-order polynomial term obtains the best correlation for BEC of container and tableware glass manufacture industry as shown in Eq(1)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Average quantity of product",
+        "Molten glass volume from glass melting furnace",
+        "Glass melting furnace age ratio"
+      ],
+      "evidence_quote": [
+        "Average quantity of product",
+        "Molten glass volume from glass melting furnace",
+        "Glass melting furnace age ratio"
+      ],
+      "page": [
+        3,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "baseline_period_start": {
+      "value": "2016",
+      "evidence_quote": "In this research, 2016 - 2017 audit and measurement data are used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_period_end": {
+      "value": "2017",
+      "evidence_quote": "In this research, 2016 - 2017 audit and measurement data are used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_construction_method": {
+      "value": "BEC and SEC baseline indicators were built from 2016-2017 audit and measurement data of the participating glass factories using statistical methods and regression analysis; independent variables were screened for correlation/collinearity (Pearson's correlation, Chauvenet's criterion, curve fitting) and the best-fit second-order polynomial equations were selected on R-squared, adjusted R-squared and p-value.",
+      "evidence_quote": [
+        "The development of BEC and SEC equations uses statistical methods and regression analysis. The best equation for selection is based on statistical values, including R-squared, adjusted R-squared, and p-value.",
+        "The second-order polynomial term obtains the best correlation for BEC"
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "The best equation for selection is based on statistical values, including R-squared, adjusted R-squared, and p-value.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "this study focused on total plant efficiency rather than equipment, systems, or product performance.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "scope_description": {
+      "value": "Whole-plant (total plant efficiency) energy performance of container and tableware glass manufacture factories, covering electrical, thermal and total energy, rather than equipment, systems or product performance.",
+      "evidence_quote": "this study focused on total plant efficiency rather than equipment, systems, or product performance.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the amount of energy consumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "specific_limitations": {
+      "value": [
+        "non-stationarity"
+      ],
+      "evidence_quote": "the amount of energy consumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "BEC and SEC baseline should also be adjusted accordingly.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "In this research, 2016 - 2017 audit and measurement data are used.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Second-order polynomial BEC equation constants a1-a8 for Electric, Thermal and Total energy (Table 2), e.g. a3(electric)=7,925.387, a8(thermal)=18,865.889",
+        "Second-order polynomial SEC equation constants b1-b8 for Electric, Thermal and Total energy (Table 3), e.g. b1(electric)=-1.336, b3(total)=-4,554.318"
+      ],
+      "evidence_quote": [
+        "7,925.387",
+        "18,865.889"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.997",
+          "unit": null,
+          "period_or_context": "BEC electric-energy indicator (Table 2)",
+          "evidence_quote": "0.997",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.988",
+          "unit": null,
+          "period_or_context": "BEC thermal-energy indicator (Table 2)",
+          "evidence_quote": "0.988",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.991",
+          "unit": null,
+          "period_or_context": "BEC total-energy indicator (Table 2)",
+          "evidence_quote": "0.991",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.788",
+          "unit": null,
+          "period_or_context": "SEC electric-energy indicator (Table 3)",
+          "evidence_quote": "0.788",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.931",
+          "unit": null,
+          "period_or_context": "SEC thermal-energy indicator (Table 3)",
+          "evidence_quote": "0.931",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.928",
+          "unit": null,
+          "period_or_context": "SEC total-energy indicator (Table 3)",
+          "evidence_quote": "0.928",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "±10%",
+          "unit": "%",
+          "period_or_context": "prediction error band, predicted vs actual BEC/SEC (Figure 3)",
+          "evidence_quote": "in the range of ±10",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  }
+}

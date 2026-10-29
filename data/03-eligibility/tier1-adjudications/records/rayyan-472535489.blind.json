@@ -1,0 +1,55 @@
+{
+  "key": "rayyan-472535489",
+  "committed_at": "2026-09-01T14:45:59",
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": false,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "reviewer_notes": "Continuous-flow sector not on the §5.3 main list: Downstream steel conversion / tube and profile forming lines. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector.",
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "quoted",
+      "quote": "The company under study belongs to the steel industry and is in",
+      "page": 3,
+      "rule": "§5.3 ESCOPO DO SETOR LISTADO + flag de continuo nao-listado (decisao do revisor, 2026-08-25): a entrada le 'Steel (and other primary-metals continuous production)', logo significa producao primaria; a fabrica so transforma aco COMPRADO em produtos conformados e nao e o setor listado. O revisor decidiu marcar unlisted_continuous, preservando o paper como candidato no censo de falsos negativos (§3-Step-4)."
+    }
+  },
+  "review_fields": [
+    "eligibility.level_3b"
+  ],
+  "_done": false
+}

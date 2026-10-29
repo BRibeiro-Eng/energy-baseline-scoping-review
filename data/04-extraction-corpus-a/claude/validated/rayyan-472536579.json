@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536579",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:58:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The inputs of the three regression models are global flow rate, ratio flow rate and external air temperature",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The comparative analysis has been applied to the case study of a compressed air generation system in an Italian manufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The comparative analysis has been applied to the case study of a compressed air generation system in an Italian manufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Utility-system EnPI comparison (ANN/SVM/linear regression) on a single compressed-air case in a generic Italian manufacturing company; not in the closed continuous-process list -> 3B false. paper_type single-applied-case vs methodological/theoretical is borderline."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The comparative analysis has been applied to the case study of a compressed air generation system in an Italian manufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "an Italian \nmanufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "an Italian \nmanufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The comparative analysis has been applied to the case study of a compressed air generation system in an Italian manufacturing company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "ISO 50001",
+        "ISO 50006:2014"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "The inputs of the three regression models are global flow rate, ratio flow rate and external air temperature",
+        "Three different typologies of models have been therefore realized: artificial neural network, support vector machine and statistical linear regression",
+        "The residuals control charts are made using control limits"
+      ],
+      "page": [
+        5,
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

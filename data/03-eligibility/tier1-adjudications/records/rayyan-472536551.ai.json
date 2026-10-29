@@ -1,0 +1,84 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536551",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": null,
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006"
+        ],
+        "enpi_enb_model_types": [
+          "other"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "oil and gas",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Facilities complete customised self-assessment questionnaires. The indicator weights the Plan, Do, Check and Act stages equally at the early EnMS implementation stage and measures status against the compliance-level target.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "audit data",
+        "empirical_refinery_application": true,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "political and cultural challenges in implementing a company-wide monitoring program"
+        ],
+        "model_parameters_reported": [
+          "Plan weight: 25%",
+          "Do weight: 25%",
+          "Check weight: 25%",
+          "Act weight: 25%"
+        ],
+        "normalisation_variables": [
+          "Plan",
+          "Do",
+          "Check",
+          "Act"
+        ],
+        "normative_framing_of_adaptations": "ISO 50001/50006 explicit",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "Company X across six divisions, each comprising five or more facilities, including gas treatment, production, refinery and condensate-splitter facilities.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "maturity model or framework"
+      },
+      "key": "rayyan-472536551",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

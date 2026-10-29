@@ -1,0 +1,598 @@
+{
+  "stamp": "20260909T173542",
+  "action": "revert_ai_reveal_edits + confirm_blind_decisions",
+  "papers": 82,
+  "reverted": [
+    {
+      "key": "rayyan-472536742",
+      "blocks": [
+        "eligibility",
+        "reviewer_evidence"
+      ]
+    }
+  ],
+  "done_flag_set": [
+    "rayyan-472535377",
+    "rayyan-472535386",
+    "rayyan-472535481",
+    "rayyan-472535482",
+    "rayyan-472535487",
+    "rayyan-472535488",
+    "rayyan-472535489",
+    "rayyan-472535491",
+    "rayyan-472535506",
+    "rayyan-472535511",
+    "rayyan-472535513",
+    "rayyan-472535519",
+    "rayyan-472535528",
+    "rayyan-472535539",
+    "rayyan-472535541",
+    "rayyan-472535556",
+    "rayyan-472535586",
+    "rayyan-472535588",
+    "rayyan-472535592",
+    "rayyan-472535616",
+    "rayyan-472535622",
+    "rayyan-472535627",
+    "rayyan-472535628",
+    "rayyan-472535633",
+    "rayyan-472535636",
+    "rayyan-472535638",
+    "rayyan-472535648",
+    "rayyan-472535650",
+    "rayyan-472535653",
+    "rayyan-472535657",
+    "rayyan-472535676",
+    "rayyan-472535687",
+    "rayyan-472535688",
+    "rayyan-472535691",
+    "rayyan-472535700",
+    "rayyan-472535711",
+    "rayyan-472535714",
+    "rayyan-472535715",
+    "rayyan-472535719",
+    "rayyan-472535739",
+    "rayyan-472535750",
+    "rayyan-472535767",
+    "rayyan-472535779",
+    "rayyan-472535797",
+    "rayyan-472535995",
+    "rayyan-472536049",
+    "rayyan-472536054",
+    "rayyan-472536339",
+    "rayyan-472536352",
+    "rayyan-472536356",
+    "rayyan-472536372",
+    "rayyan-472536379",
+    "rayyan-472536416",
+    "rayyan-472536444",
+    "rayyan-472536457",
+    "rayyan-472536460",
+    "rayyan-472536474",
+    "rayyan-472536479",
+    "rayyan-472536482",
+    "rayyan-472536518",
+    "rayyan-472536521",
+    "rayyan-472536534",
+    "rayyan-472536535",
+    "rayyan-472536537",
+    "rayyan-472536540",
+    "rayyan-472536551",
+    "rayyan-472536569",
+    "rayyan-472536587",
+    "rayyan-472536588",
+    "rayyan-472536603",
+    "rayyan-472536606",
+    "rayyan-472536612",
+    "rayyan-472536650",
+    "rayyan-472536661",
+    "rayyan-472536674",
+    "rayyan-472536693",
+    "rayyan-472536713",
+    "rayyan-472536714",
+    "rayyan-472536732",
+    "rayyan-472536742",
+    "rayyan-472536752"
+  ],
+  "finalised": [
+    "rayyan-472535377",
+    "rayyan-472535386",
+    "rayyan-472535481",
+    "rayyan-472535482",
+    "rayyan-472535487",
+    "rayyan-472535488",
+    "rayyan-472535489",
+    "rayyan-472535491",
+    "rayyan-472535506",
+    "rayyan-472535511",
+    "rayyan-472535513",
+    "rayyan-472535519",
+    "rayyan-472535528",
+    "rayyan-472535539",
+    "rayyan-472535541",
+    "rayyan-472535556",
+    "rayyan-472535586",
+    "rayyan-472535588",
+    "rayyan-472535592",
+    "rayyan-472535616",
+    "rayyan-472535622",
+    "rayyan-472535627",
+    "rayyan-472535628",
+    "rayyan-472535633",
+    "rayyan-472535636",
+    "rayyan-472535638",
+    "rayyan-472535648",
+    "rayyan-472535650",
+    "rayyan-472535653",
+    "rayyan-472535657",
+    "rayyan-472535676",
+    "rayyan-472535687",
+    "rayyan-472535688",
+    "rayyan-472535691",
+    "rayyan-472535700",
+    "rayyan-472535711",
+    "rayyan-472535714",
+    "rayyan-472535715",
+    "rayyan-472535719",
+    "rayyan-472535739",
+    "rayyan-472535750",
+    "rayyan-472535767",
+    "rayyan-472535779",
+    "rayyan-472535797",
+    "rayyan-472535995",
+    "rayyan-472536049",
+    "rayyan-472536054",
+    "rayyan-472536339",
+    "rayyan-472536352",
+    "rayyan-472536356",
+    "rayyan-472536372",
+    "rayyan-472536379",
+    "rayyan-472536416",
+    "rayyan-472536444",
+    "rayyan-472536457",
+    "rayyan-472536460",
+    "rayyan-472536474",
+    "rayyan-472536479",
+    "rayyan-472536482",
+    "rayyan-472536518",
+    "rayyan-472536521",
+    "rayyan-472536534",
+    "rayyan-472536535",
+    "rayyan-472536537",
+    "rayyan-472536540",
+    "rayyan-472536551",
+    "rayyan-472536569",
+    "rayyan-472536587",
+    "rayyan-472536588",
+    "rayyan-472536603",
+    "rayyan-472536606",
+    "rayyan-472536612",
+    "rayyan-472536650",
+    "rayyan-472536661",
+    "rayyan-472536674",
+    "rayyan-472536693",
+    "rayyan-472536713",
+    "rayyan-472536714",
+    "rayyan-472536732",
+    "rayyan-472536742",
+    "rayyan-472536752"
+  ],
+  "already_finalised": [
+    "rayyan-472535360"
+  ],
+  "voided_reveal_logs": [
+    "rayyan-472536742"
+  ],
+  "prior_states": {
+    "rayyan-472535360": {
+      "state": "finalised",
+      "_done": true,
+      "revealed_at": "2026-09-01T14:59:41"
+    },
+    "rayyan-472535377": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-01T15:08:50"
+    },
+    "rayyan-472535386": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-01T15:09:19"
+    },
+    "rayyan-472535481": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-01T15:10:29"
+    },
+    "rayyan-472535482": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535487": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535488": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535489": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535491": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535506": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535511": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-09T17:52:50"
+    },
+    "rayyan-472535513": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535519": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535528": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535539": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535541": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-09T17:54:04"
+    },
+    "rayyan-472535556": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535586": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535588": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535592": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535616": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535622": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535627": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535628": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535633": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535636": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535638": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535648": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535650": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535653": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535657": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535676": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535687": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535688": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535691": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535700": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535711": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535714": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535715": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535719": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535739": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-09T17:56:47"
+    },
+    "rayyan-472535750": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535767": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535779": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535797": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472535995": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536049": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536054": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-09T17:55:07"
+    },
+    "rayyan-472536339": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536352": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536356": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536372": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536379": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536416": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536444": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536457": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536460": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536474": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536479": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536482": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536518": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536521": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536534": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536535": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536537": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536540": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536551": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536569": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536587": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536588": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536603": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536606": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536612": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536650": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536661": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536674": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536693": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536713": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536714": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536732": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    },
+    "rayyan-472536742": {
+      "state": "revealed",
+      "_done": false,
+      "revealed_at": "2026-09-09T17:55:43"
+    },
+    "rayyan-472536752": {
+      "state": "committed",
+      "_done": false,
+      "revealed_at": null
+    }
+  }
+}

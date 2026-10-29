@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536032",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T11:30:24.081571+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the article examines a variation of the in-house energy management system implementation and proposes an algorithm concerning the method preparation necessary for energy management system formation",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "ineligibility_reason": "Economic/managerial analysis of reasons for low ISO 50001 adoption in Russia; proposes an organisational EnMS-formation algorithm but presents/characterises no EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The reasons of the low intensity of the energy management system certification of Russian enterprises were established in the process of this research.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Incidentally names chemical/petrochemical/metallurgical sectors and Sibur (petrochemical) as EnMS adopters, but presents no EnPI/EnB model; ineligible so level_3b forced false."
+  },
+  "stage2": null,
+  "stage3": null
+}

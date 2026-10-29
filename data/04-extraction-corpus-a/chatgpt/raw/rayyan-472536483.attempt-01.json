@@ -1,0 +1,131 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536483",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T13:29:31+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The first step of the proposed method consists in the identification of the correlation, supposed to be linear, between energy consumptions and site production.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "In the ceramic sector 197 EAs, carried out from 143 companies, have been collected by ENEA at December 2019 [2]",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The Italian ceramic manufacturing sector is made up of industrial-level companies producing ceramic tiles and slabs, sanitaryware, porcelain and tableware, refractory materials, technical ceramics, bricks and roof tiles.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Ceramic manufacturing is not in the v2.3 closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the ceramic sector 197 EAs, carried out from 143 companies, have been collected by ENEA at December 2019 [2]",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "According to [1] in 2019, the sector includes a total of 279 companies operating in Italy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "ceramic tiles and bricks",
+      "evidence_quote": "The analysis is focused on the production of ceramic tiles and bricks.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "The raw materials are mixed and wet ground in continuous rotary mills, until a liquid called slip is obtained.",
+        "The most common type is a tunnel kiln, followed by periodic kilns."
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "18 companies are equipped with the ISO 50001 energy management system",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "national audit decree"
+      ],
+      "evidence_quote": [
+        "The Italian Government transposed the EED in 2014 (by issuing the legislative Decree n. 102/2014, recently updated by legislative Decree n. 73/2020 to make it compliant with new European Directive 2018/2002) assigning to ENEA (Italian National Agency for New Technologies, Energy, and the Sustainable Economic Development) the management of EED article 8 obligation [2].",
+        "The analysis is based on 197 Energy Audits [2] from ceramics sector received by ENEA (National Agency for New Technologies, Energy and Sustainable Economic Development) at December 2019 and conducted pursuant to art. 8 of Legislative Decree 102/2014"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "The first step of the proposed method consists in the identification of the correlation, supposed to be linear, between energy consumptions and site production.",
+        "In addition to the EPI model, the average EPIs are also calculated by evaluating their statistical distribution, the mean value and the relative standard deviations of the statistical sample."
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,1242 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535794",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "energy-efficiency-measurement-industrial-processes",
+  "surface": "claude",
+  "completed_at": "2026-09-15",
+  "attempt": 2,
+  "n_pages_read": 15,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "container glass melting",
+        "evidence_quote": "Container glass (used for packaging, mostly in the food\nand drink sector) is the main segment in the glass industry in the EU",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "United Kingdom",
+        "evidence_quote": "A survey of energy use in the container glass sector in the UK,\nconducted by the Carbon Trust [23], has pointed out that furnace\nmelting energy usually exhibits a good linear relationship with\nfurnace load",
+        "page": 5,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "the average\ncontainer glass furnace mentioned above [23] e which is ﬁctitious,\nbut realistically representative e is used in this paper as a case study.",
+        "page": 6,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A single representative (fictitious) container glass melting furnace, operating at 264 t/day with a cullet ratio of 41%, taken from a Carbon Trust survey of five furnaces.",
+        "evidence_quote": "A representative sample of ﬁve furnaces was analysed in detail\nin the Carbon Trust survey [23]. For the average furnace, operating\nat 264 t/day, with a cullet ratio of 41%",
+        "page": 6,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Glass making is a very energy intensive\nprocess and, in general, the energy necessary to melt glass accounts\nfor over 75% of the total energy requirements of glass manufacture",
+        "page": 5,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Characteristic equation (18): Ein = 98 + 1.1 m",
+          "model_parameters_reported": [
+            "C0 = 98 MWh/day (base energy consumption / furnace holding heat)",
+            "c1 = 1.1 MWh/t (marginal consumption)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Ein ¼ 98 þ 1:1 m",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Fuel oil and natural gas are the predominant energy sources for\nmelting [30].",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": "fuel oil and natural gas (melting fuel)"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "where the energy input is in MWh/day and the pull rate in t/day.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh/day",
+              "evidence_quote": "where the energy input is in MWh/day and the pull rate in t/day.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "furnace\nmelting energy usually exhibits a good linear relationship with\nfurnace load",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "least squares",
+                "regression",
+                "OLS",
+                "fit"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "furnace\nmelting energy usually exhibits a good linear relationship with\nfurnace load",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "furnace\nmelting energy usually exhibits a good linear relationship with\nfurnace load",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "furnace load (pull rate)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "furnace\nmelting energy usually exhibits a good linear relationship with\nfurnace load",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "cullet ratio",
+              "type": "feed quality",
+              "role": "excluded",
+              "evidence_quote": "with a cullet ratio of 41% (cullet reduces energy\nconsumption by 337 kWh for each tonne of cullet)",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "daily",
+                "monthly",
+                "annual",
+                "survey"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "per furnace",
+                "point"
+              ]
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "A representative sample of ﬁve furnaces was analysed in detail\nin the Carbon Trust survey [23].",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Fuel oil and natural gas are the predominant energy sources for\nmelting [30].",
+              "page": 5,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "fuel oil and natural gas (melting fuel)"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "reference period"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "R-squared",
+                  "correlation",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "glass",
+        "evidence_quote": "Glass making is a very energy intensive\nprocess and, in general, the energy necessary to melt glass accounts\nfor over 75% of the total energy requirements of glass manufacture",
+        "page": 5,
+        "support_class": "direct statement"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "grey and spheroidal cast iron foundry",
+        "evidence_quote": "In the present work, a grey and spheroidal cast iron foundry is\nanalysed.",
+        "page": 6,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Italy",
+          "location",
+          "country",
+          "region"
+        ]
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "In the present work, a grey and spheroidal cast iron foundry is\nanalysed. The foundry uses approximately 13 GWh of electricity per\nyear, which accounts for 12% of the production costs.",
+        "page": 6,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A grey (70%) and spheroidal (30%) cast iron foundry using four medium frequency coreless induction furnaces (~13 GWh electricity/year), with the melting process analysed at various system boundaries.",
+        "evidence_quote": "Four medium frequency coreless induction furnaces are used:",
+        "page": 6,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The iron and steel sector is the second largest industrial user of\nenergy, after the chemical and petrochemical sector [37].",
+        "page": 6,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M2",
+          "label_verbatim": "characteristic equation (20): Ein = 0.5628 m (furnace #1, boundary C1)",
+          "model_parameters_reported": [
+            "slope c1 = 0.5628 MWh/t (marginal consumption)",
+            "intercept = 0 (regression through the origin)",
+            "R2 = 0.9971",
+            "p-value = 1.71E-41"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "the characteristic equation that describes the electrical\nconsumption (MWh/month) of furnace #1 (system boundary C1 in\nFig. 7) as a function of m (t/month) is (Fig. 8):",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "the characteristic equation that describes the electrical\nconsumption (MWh/month) of furnace #1 (system boundary C1 in\nFig. 7) as a function of m (t/month) is (Fig. 8):",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Ein ¼ 0:5628m",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh/month",
+              "evidence_quote": "the characteristic equation that describes the electrical\nconsumption (MWh/month) of furnace #1 (system boundary C1 in\nFig. 7) as a function of m (t/month) is (Fig. 8):",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "The\nrelationship between input and output is linear foreach furnace, and\nthe least square intercept is not statistically signiﬁcant. Conse-\nquently, a regression through the origin is appropriate.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "the least square intercept is not statistically signiﬁcant. Conse-\nquently, a regression through the origin is appropriate.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "other",
+              "evidence_quote": "the corresponding tapped molten\nmass m is the most suitable energy driver for all the furnaces.",
+              "page": 7,
+              "support_class": "requires inference",
+              "other_verbatim": "identification of the most suitable energy driver among potential energy driver data"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "the corresponding tapped molten\nmass m is the most suitable energy driver for all the furnaces.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tapped molten mass m",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "the corresponding tapped molten\nmass m is the most suitable energy driver for all the furnaces.",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "years of monthly data have been collected for each of the four\nfurnaces (meter M3 to M6 in Fig. 7).",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "years of monthly data have been collected for each of the four\nfurnaces (meter M3 to M6 in Fig. 7).",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "years of monthly data have been collected for each of the four\nfurnaces (meter M3 to M6 in Fig. 7).",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "years of monthly data have been collected for each of the four\nfurnaces (meter M3 to M6 in Fig. 7).",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "and others on each furnace (from M3\nto M6, systemboundariesC0 to C3) with data storage every30 s.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "R2 = 0.9971",
+                "page": 7,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.9971,
+                  "period_or_context": "furnace #1 regression (Fig. 8)",
+                  "evidence_quote": "R2 = 0.9971",
+                  "page": 7,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "1.71E-41",
+                  "period_or_context": "furnace #1 regression (Fig. 8)",
+                  "evidence_quote": "p-value = 1.71E-41",
+                  "page": 7,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test",
+                  "cross"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "overall specific energy consumption including auxiliaries (matrix equation (12)/(28))",
+          "model_parameters_reported": [
+            "Ein = 20.806 + 0.5953 m (MWh/month)",
+            "overall SEC q110 = 649.3 kWh/t",
+            "marginal consumption 595.3 kWh/t",
+            "variable consumption ratio 0.92"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "is the speciﬁc energy consumption including the auxiliaries (overall\nspeciﬁc energy consumption).",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "will be restricted to the electric energy imported for the melting\nprocess performed in furnace #1 only.",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "the total number of electricity units needed\nfor each molten tonne q110 amounts to 649.3 kWh/t.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "the total number of electricity units needed\nfor each molten tonne q110 amounts to 649.3 kWh/t.",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "hybrid physical-statistical"
+              ],
+              "evidence_quote": "matrix equation (12) is applied, but\nwill be restricted to the electric energy imported for the melting\nprocess performed in furnace #1 only.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "molten mass m",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Ein ¼ q110m",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "operating hours of pumps and fans",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "the energy consumption is just a function of the number of operating\nhours ðEin ¼ constÞ; as a result, the speciﬁc consumption varies\nwith the production",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The power and ﬂow rate in Table 1 are assumed to be in\ndesign conditions, since no meters are installed for the single pieces\nof equipment, while the number of working hours per day was\ntaken from actual operation processes.",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "Equation\n(26)\nbecomes:",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The power and ﬂow rate in Table 1 are assumed to be in\ndesign conditions, since no meters are installed for the single pieces\nof equipment",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "and others on each furnace (from M3\nto M6, systemboundariesC0 to C3) with data storage every30 s.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "The power and ﬂow rate in Table 1 are assumed to be in\ndesign conditions, since no meters are installed for the single pieces\nof equipment,",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The energy and\neconomic savings are substantial (nearly 13%), as shown in Table 4.",
+                "page": 12,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "specific consumption saving (modified vs current melting schedule)",
+                  "value": "12.4",
+                  "unit": "%",
+                  "period_or_context": "Table 4, use of a single melting furnace plus a holding furnace",
+                  "evidence_quote": "The energy and\neconomic savings are substantial (nearly 13%), as shown in Table 4.",
+                  "page": 12,
+                  "support_class": "requires inference"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Equation (31): Ein = 0.6305 m - 0.002816 m2 (furnace #2, daily data)",
+          "model_parameters_reported": [
+            "Ein = 0.6305 m - 0.002816 m^2 (daily data, furnace #2)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Ein ¼ 0:6305m \u0005 0:002816m2",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh (per day)",
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found: the energy efﬁciency increases as more mass is\ntapped from a furnace in a day.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "least squares",
+                "fit",
+                "regression"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "a nonlinear rela-\ntionship between the energy consumption (MWh) and molten\nmass (t) is found",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "molten mass tapped per day",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "the energy efﬁciency increases as more mass is\ntapped from a furnace in a day. This is particularly true for furnace\n#2 (Fig. 13), which uses sequential melting extensively:",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "This aspect can be\naddressed through an energy characterisation of the furnace, using\ndaily data instead of monthly data.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "This aspect can be\naddressed through an energy characterisation of the furnace, using\ndaily data instead of monthly data.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "This aspect can be\naddressed through an energy characterisation of the furnace, using\ndaily data instead of monthly data.",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "and others on each furnace (from M3\nto M6, systemboundariesC0 to C3) with data storage every30 s.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "fit",
+                  "correlation"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "The iron and steel sector is the second largest industrial user of\nenergy, after the chemical and petrochemical sector [37].",
+        "page": 6,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "speciﬁc energy consumption depends on the production rate\nwhen, for example, there is a base energy consumption,\nwhatever the utilisation of the production capacity;",
+      "page": 1,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "which shows that the speciﬁc energy consumption has no meaning\nin absolute terms, because it is inversely proportional to the vari-\nable consumption ratio k.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "a comparison between different installations using energy\nefﬁciency indicators can lead to misleading conclusions,",
+      "page": 1,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "A2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "A literature analysis has revealed a lack of\ninformation on some important factors that can affect energy efﬁ-\nciency, such as the boundary of the melting process and the actual\nproduction rate.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "A2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "because SEC is affected by many factors and each installation has its\nown distinctive features.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the SEC would rise to\n1.66 MWh/t (þ13%) and the thermal efﬁciency would drop to 37%,\nonly\nbecause\nof\nthe\ngreater\ninﬂuence\nof\nthe\nbase\nenergy\nconsumption at a lower pull rate (k ¼ 0.66).",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "M4",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "This nonlinear energy characteristic seems to be in contrast with\nthe linear relationship obtained using monthly data. This is due to\nthe averaging property that the monthly data show with respect to\nthe weekly, daily data, etc.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K8",
+      "refers_to": "M4",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the marginal efﬁciency does change depending on the\nmelting practice, such as in sequential melting.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K9",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Since it is essential that the mathematical\nmodel should refer to the most recent and stable period (reference\nperiod or setup period), the regression analysis should be com-\nplemented with other statistical process control tools.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K10",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "thermal efﬁciency (2) is not\na suitable indicator for processes inwhich the output has a negligible\nenergy content, for example conveying or assembling, as Eout would\napproach zero.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K11",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "a production site may make various types of products, each\nwith its own energy intensity factor;",
+      "page": 1,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "In general, with multiple energy drivers, the multivariate\nregression analysis can provide a mathematical model of the\nprocess energy consumption",
+      "page": 12,
+      "support_class": "direct statement",
+      "refers_to": "A2"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "tabular CUSUM control chart to ensure the model refers to the most recent and stable period",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "The authors\nhave recently made a contribution to this ﬁeld [21,22], by sug-\ngesting the use of the tabular CUSUM control chart.",
+      "page": 2,
+      "support_class": "direct statement",
+      "refers_to": "paper-level argument"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "complement SEC with the variable consumption ratio k or the marginal consumption c1 to separate the production-rate effect",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "it should be\ncomplemented with another\nindicator e for example, the variable consumption ratio k or the\nmarginal consumption c1 e since, in general, SEC depends on the\nproduction rate.",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "A2"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "compare technologies at full capacity (nominal variable consumption ratio) to remove the effect of production level",
+      "status": "proposed",
+      "addresses_mechanism": "K3",
+      "normative_framing": "absent",
+      "evidence_quote": "the comparison of technologies should be\nperformed at full capacity, i.e. at nominal variable consumption ratio\nkn, which changes from installation to installation.",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "paper-level argument"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "energy characterisation of the furnace using daily data instead of monthly data to capture the nonlinear behaviour",
+      "status": "implemented",
+      "addresses_mechanism": "K8",
+      "normative_framing": "absent",
+      "evidence_quote": "This aspect can be\naddressed through an energy characterisation of the furnace, using\ndaily data instead of monthly data.",
+      "page": 11,
+      "support_class": "direct statement",
+      "refers_to": "M4"
+    },
+    {
+      "adaptation_id": "D6",
+      "adaptation": "normalisation to a reference product",
+      "status": "proposed",
+      "addresses_mechanism": "K11",
+      "normative_framing": "implicit",
+      "evidence_quote": "provided that the allocation of the energy consumptions\nis stipulated among the products, for example in accordance with\nthe steps outlined in LCA standard ISO 14044:2006.",
+      "page": 12,
+      "support_class": "direct statement",
+      "refers_to": "paper-level argument"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "Although many literature works address the issue of energy\nusage and efﬁciency in the process of glass melting, there is a lack of\ndetailed furnace-speciﬁc operating data.",
+      "page": 6
+    },
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "has only been marginally dealt with in this\narticle, since a single energy driver was present in the presented\nexamples.",
+      "page": 12
+    },
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The case studies presented in this paper refer to single product\nprocesses.",
+      "page": 12
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Labour organisation and historical constraints require all furnaces to operate during the night for morning tapping",
+      "evidence_quote": "Currently, for historical reasons and because of labour and\nenergy costs, the pouring of molten metal is conducted at the\nbeginning of the ﬁrst shift in the morning, which means that all\nfurnaces have to operate during the night.",
+      "page": 10,
+      "page_as_recorded": 11,
+      "locator_corrected": true
+    },
+    {
+      "barrier": "Energy-efficient sequential melting is negated by higher peak-hour electricity cost",
+      "evidence_quote": "the foundry currently performs sequential melting during the\npeak hours, thus the energy saving is cancelled out by the higher\nhourly cost.",
+      "page": 11
+    },
+    {
+      "barrier": "Poor profitability of the holding-furnace investment because existing furnaces would be left unused",
+      "evidence_quote": "The lack of\nproﬁtability is due to the fact that, in the considered scenario, two\nfurnaces which are already owned by the foundry are, de facto,\nunused.",
+      "page": 12
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "Ein ¼ 0:5628m",
+      "page": 7,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "Ein ¼ 0:6305m \u0005 0:002816m2",
+      "page": 11,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository",
+        "dataset"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software",
+        "script",
+        "available"
+      ]
+    }
+  },
+  "reviewer_notes": "Methodology paper with two illustrative applications: a literature-derived representative container glass furnace (A1) and a grey/spheroidal cast iron foundry (A2). Additional fitted models exist but were not enveloped separately to avoid duplication: the melting-shop regression Ein = 0.6129 m (Eq. 30, system boundary B, p.10) which is analogous to furnace #1 model M2, and a representative overall foundry SEC of 675 kWh/t (p.10). The ~14% energy saving from scheduling/holding-furnace optimisation (Table 4, p.12) is a deterministic scenario comparison and was attached to M3 as the closest overall model. The evidence for two years of monthly data spans the page 6/7 break ('...through the statistical approach, two' | 'years of monthly data...'); the contiguous page-7 portion was quoted, and span_months=24 is marked requires inference.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "misleading",
+        "depends on production rate",
+        "base energy consumption",
+        "stationary",
+        "reference period",
+        "boundary",
+        "allocation"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "multivariate",
+        "CUSUM",
+        "daily data",
+        "full capacity",
+        "allocation",
+        "complemented"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "lack of data",
+        "single energy driver",
+        "single product",
+        "marginally dealt",
+        "further research"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "peak hours",
+        "labour",
+        "cost",
+        "payback",
+        "profitability",
+        "investment"
+      ]
+    }
+  }
+}

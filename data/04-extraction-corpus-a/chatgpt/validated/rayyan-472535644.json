@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535644",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:57:27Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Furthermore, wastage factors, target saving baseline, energy performance indicator, and strategic energy management plan were identified and developed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In addition, based on electricity record from the year 2009 to 2013, the average electricity consumption at TH Headquarters building for each year was 5.9 million kWh",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This building consists of 22 floors of office, 7 floors of parking, 3 floors of Mechanical and Electrical Room, 1 floor of banking area, 1 floor of Café, Multipurpose Hall and Mini Theatre, and 1 floor of main lobby.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Single commercial headquarters-building case; not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The objective of the study is to improve energy performance at TH Headquarters building and to reduce electricity energy consumption.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Kuala Lumpur, Malaysia",
+      "evidence_quote": "Tabung Haji Headquaters Building, 201, Jalan Tun Razak, 50400, Kuala Lumpur, Malaysia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "sector_of_activity": {
+      "value": "office",
+      "evidence_quote": "This building consists of 22 floors of office, 7 floors of parking",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "the standard value of BEI for commercial building in Malaysia (referring to MS1525) is 135kWh/m2/yr",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The proposed methods refer to MS ISO 50001:2011 as a guideline.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Meanwhile, the Building Energy Index (BEI) for this building is 239kWh/m2/yr.",
+        "In this study, two types of tool have been used. The two tools are cumulative sum (CUSUM) analysis and load factor analysis."
+      ],
+      "page": [
+        2,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

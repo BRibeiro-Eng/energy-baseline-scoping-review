@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472535415",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Cooling tower serves a closed-cycle system removing heat from distillation towers and a soap plant's vacuum systems — indicating oleochemical / soap-glycerin chemical processing",
+      "quote": "It is part of a closed-\ncycle cooling system that extracts the most outstanding amount of heat energy generated in the \ndistillation towers' heat exchangers and the soap plant's vacuum systems.",
+      "page": 4,
+      "sector": "oleochemical / soap-glycerin processing"
+    },
+    {
+      "signal": "Motors dedicated to a glycerin basin and palm kernel pumps, pointing to oleochemical product streams in the facility",
+      "quote": "M12 \nMotor of glycerin basin 1 \n56.0 \n88.4 \n460 \n1,780",
+      "page": 7,
+      "sector": "oleochemical / glycerin production"
+    },
+    {
+      "signal": "Cooling/pumping system runs effectively around the clock (720 h/month ≈ 24h×30 days), consistent with continuous plant operation",
+      "quote": "the estimated operating time of 30 days (720 h/month) and 11 months \n(7,920 h/year)",
+      "page": 15,
+      "sector": "continuous industrial operation (cooling utility)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies and validates an ISO-50001-based methodology to quantify energy savings from replacing motors and adding variable speed drives in a cooling-tower pumping system at a soap/glycerin (oleochemical) plant, with the continuous-process units (distillation towers, soap vacuum systems) mentioned only as the heat source."
+}

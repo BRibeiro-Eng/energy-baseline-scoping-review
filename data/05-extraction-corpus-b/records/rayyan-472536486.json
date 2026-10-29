@@ -1,0 +1,1064 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536486",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 5,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "metal processing industry end-user (aluminium)",
+        "evidence_quote": "The case study consisted in a building material manufacturing industry end-user and a metal processing industry end-user.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Romania",
+        "evidence_quote": "The paper aims at evaluating the energy savings and \nfinancial efficiency of the Romanian State-Aid (SA) Green \nCertificate exemption scheme for two large industrial end-users.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "organisation",
+        "evidence_quote": "Both industrial end-users have a 24 hours per day, 7 days \nper week working schedule,",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Primary aluminium (metal processing) industrial end-user in Romania, electricity-intensive, 24/7 operation, analysed under the State-Aid green certificate exemption scheme.",
+        "evidence_quote": "for the \naluminium industry end-user, it amounts to more than 87% of \nthe total energy used (expressed as tons of oil equivalent –",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The case study consisted in a building material manufacturing industry end-user and a metal processing industry end-user.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "specific electricity use (Wsp el), equation (1)",
+          "baseline_period_start": {
+            "value": "2017",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2018",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Specific electricity use computed as yearly electricity use divided by yearly production, by applying equation (1).",
+            "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "where: Wyealy\nel\nis the yearly electricity use and P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MWh/ton",
+              "evidence_quote": "than the global average of 14.221 MWh/ton, as proven by [7] – [9].",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the yearly final product manufactured by the company",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "where: Wyealy\nel\nis the yearly electricity use and P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "Electricity use [MWh/month]",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Based on the  productivity achieved by the users on a yearly \nbasis, the specific electricity use",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 48,
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Electricity use [MWh/month]",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "the aluminium industry end-user managed to lower its \nspecific electricity end-use by roughly 5%, to a value of 8.21 \nMWh/ton by the end of 2020.",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "specific electricity use reduction",
+                  "value": "roughly 5%",
+                  "unit": "%",
+                  "period_or_context": "by the end of 2020, 31.75% of EPIA plan implemented",
+                  "evidence_quote": "the aluminium industry end-user managed to lower its \nspecific electricity end-use by roughly 5%, to a value of 8.21 \nMWh/ton by the end of 2020.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "environmental impact reduction",
+                  "value": "7,814",
+                  "unit": "tons CO2 equivalent per year",
+                  "period_or_context": "by the end of 2020",
+                  "evidence_quote": "The \nenvironmental impact of the company was decreased by \napproximatively 7,814 tons of CO2 equivalent per year.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Energy Intensity (EI) global EnPI, equation (2)",
+          "baseline_period_start": {
+            "value": "2017",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2018",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Energy Intensity computed as annual equivalent energy use divided by annual production value, by applying equation (2).",
+            "evidence_quote": "the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In order to evaluate the global energy performance of the \ntwo analysed industrial end-users, the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "value added",
+              "evidence_quote": "is \nthe annual production value.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "t.o.e./(EUR x 10^3)",
+              "evidence_quote": "As it can be observed, the EI for both industries is higher \nthan the European average value of 0.11 t.o.e. per thousand \nEUR [13].",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "PV [EUR x 103/year] is the annual production value",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "is \nthe annual production value.",
+              "page": 2,
+              "support_class": "direct statement",
+              "type_other_verbatim": "annual production value (monetary output)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 48,
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The EI of the company reached \na value of 0.48 t.o.e. per thousand EUR because of the extreme \ndrop in the price of the production (from an average price of \n2,108 EUR/ton in 2018 to 1,660 EUR/ton in 2020).",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy Intensity 2020",
+                  "value": "0.48",
+                  "unit": "t.o.e. per thousand EUR",
+                  "period_or_context": "2020, using average production price",
+                  "evidence_quote": "The EI of the company reached \na value of 0.48 t.o.e. per thousand EUR because of the extreme \ndrop in the price of the production (from an average price of \n2,108 EUR/ton in 2018 to 1,660 EUR/ton in 2020).",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Energy Intensity 2020 (weighted average price)",
+                  "value": "0.38",
+                  "unit": "t.o.e. per thousand EUR",
+                  "period_or_context": "2020, weighted average price, 4% drop",
+                  "evidence_quote": "If \ndetermined by using a weighted average price, the EI dropped \nby 4% to a weighted value of 0.38 t.o.e. per thousand EUR.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "for the \naluminium industry end-user, it amounts to more than 87% of \nthe total energy used (expressed as tons of oil equivalent –",
+        "page": 2,
+        "support_class": "requires inference"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "building material manufacturing industry end-user (cement)",
+        "evidence_quote": "The case study consisted in a building material manufacturing industry end-user and a metal processing industry end-user.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Romania",
+        "evidence_quote": "The paper aims at evaluating the energy savings and \nfinancial efficiency of the Romanian State-Aid (SA) Green \nCertificate exemption scheme for two large industrial end-users.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "scale_of_application": {
+        "value": "organisation",
+        "evidence_quote": "Both industrial end-users have a 24 hours per day, 7 days \nper week working schedule,",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Cement (building material manufacturing) industrial end-user in Romania, predominantly fossil-fuel energy use, 24/7 operation, analysed under the State-Aid green certificate exemption scheme.",
+        "evidence_quote": "the share \nof electricity is only 12.89% whilst the highest share of energy \nuse comes from fossil fuels (coal, heavy fuel oil (HFO), petrol \nand diesel) – more than 86%.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The case study consisted in a building material manufacturing industry end-user and a metal processing industry end-user.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M3",
+          "label_verbatim": "specific electricity use (Wsp el), equation (1)",
+          "baseline_period_start": {
+            "value": "2017",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2018",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Specific electricity use computed as yearly electricity use divided by yearly production, by applying equation (1).",
+            "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "where: Wyealy\nel\nis the yearly electricity use and P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MWh/ton",
+              "evidence_quote": "specific \nelectricity use values just over the average value of 0.11 \nMWh/ton [10], [11].",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the yearly final product manufactured by the company",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "where: Wyealy\nel\nis the yearly electricity use and P is the yearly \nfinal product manufactured by the company.",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "Electricity use [MWh/month]",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Based on the  productivity achieved by the users on a yearly \nbasis, the specific electricity use",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 48,
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Electricity use [MWh/month]",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "thus lowering its specific \nelectricity use by approximatively 5% to a value of 0.128 \nMWh/ton.",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "specific electricity use reduction",
+                  "value": "approximatively 5%",
+                  "unit": "%",
+                  "period_or_context": "by the end of 2020, 40% of EPIA plan implemented",
+                  "evidence_quote": "thus lowering its specific \nelectricity use by approximatively 5% to a value of 0.128 \nMWh/ton.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "environmental impact reduction",
+                  "value": "2,403",
+                  "unit": "tons CO2 equivalent per year",
+                  "period_or_context": "by the end of 2020",
+                  "evidence_quote": "The EIR achieved by the company was \napproximatively 2,403 tons of CO2 equivalent per year.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Energy Intensity (EI) global EnPI, equation (2)",
+          "baseline_period_start": {
+            "value": "2017",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2018",
+            "evidence_quote": "in the reference period \n(2017-2018)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Energy Intensity computed as annual equivalent energy use divided by annual production value, by applying equation (2).",
+            "evidence_quote": "the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In order to evaluate the global energy performance of the \ntwo analysed industrial end-users, the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "value added",
+              "evidence_quote": "is \nthe annual production value.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "t.o.e./(EUR x 10^3)",
+              "evidence_quote": "As it can be observed, the EI for both industries is higher \nthan the European average value of 0.11 t.o.e. per thousand \nEUR [13].",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the Energy Intensity (EI) \nglobal EnPI was used, by applying (2):",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "PV [EUR x 103/year] is the annual production value",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "is \nthe annual production value.",
+              "page": 2,
+              "support_class": "direct statement",
+              "type_other_verbatim": "annual production value (monetary output)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": 48,
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "the \nevolution of the companies over a period of four years was \nanalysed",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "where Wyearly\neq,en [t.o.e./year] is the annual equivalent energy use, \ndetermined in accordance with [12]",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The EI of the company is currently 0.95 t.o.e. per \nthousand EUR, respectively 4.5% lower than the reference \nvalue of 2017.",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy Intensity 2020",
+                  "value": "0.95",
+                  "unit": "t.o.e. per thousand EUR",
+                  "period_or_context": "2020, 4.5% lower than 2017 reference",
+                  "evidence_quote": "The EI of the company is currently 0.95 t.o.e. per \nthousand EUR, respectively 4.5% lower than the reference \nvalue of 2017.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "the global average specific \nelectricity use for the cement industry sector.",
+        "page": 4,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M2",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "The EI of the company reached \na value of 0.48 t.o.e. per thousand EUR because of the extreme \ndrop in the price of the production (from an average price of \n2,108 EUR/ton in 2018 to 1,660 EUR/ton in 2020).",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "cause_other_verbatim": "extreme drop in the price of the production"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M3",
+      "claim_status": "applied to the case",
+      "evidence_quote": "the SA mechanism \nonly applies for electricity use. While the aluminium industry \nend-user predominantly uses electricity in its technological \nprocesses, the cement industry end-user has a much higher \nshare of fossil fuels compared to electricity.",
+      "page": 5,
+      "support_class": "requires inference",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "cause_other_verbatim": "much higher share of fossil fuels compared to electricity; electricity-only indicator does not capture the dominant fossil-fuel energy"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M3",
+      "claim_status": "applied to the case",
+      "evidence_quote": "the cement industry \nend-user’s electricity use is highly influenced by the demand of \nthe construction industry, which is significantly lower in the \ncold seasons.",
+      "page": 2,
+      "support_class": "requires inference",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "non-stationarity of the relationship",
+      "cause_other_verbatim": "seasonal construction-industry demand"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "recomputing Energy Intensity using a weighted average production price to remove the distortion caused by product price changes",
+      "status": "evaluated",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "If \ndetermined by using a weighted average price, the EI dropped \nby 4% to a weighted value of 0.38 t.o.e. per thousand EUR.",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M2"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "EPIAs not prioritized by top management without external financial incentive",
+      "evidence_quote": "the State helped \nredirect a considerable share of that cashflow towards \nimplementing EPIAs which would otherwise not be prioritized \nby the Top Management of the companies.",
+      "page": 4
+    },
+    {
+      "barrier": "companies could not financially support EPIA plan implementation without the State-Aid mechanism in present market conditions",
+      "evidence_quote": "Without the SA mechanism, the companies could not \nfinancially support the EPIA plan implementation in the present \nmarket conditions, with high confidence, thus delaying the \nenergy savings and the EIR.",
+      "page": 5
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "the specific electricity use (\u0002\u0003\u0004\n\u0005\u0006) was determined, by \napplying equation (1):",
+      "page": 2,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "partial",
+      "evidence_quote": "The results are presented in Table I. As it can be observed, \nin both cases, the specific electricity use registered an ascending \ntrend in the 2017-2018 period,",
+      "page": 2,
+      "support_class": "requires inference"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    }
+  },
+  "reviewer_notes": "The paper is a case study of two Romanian industrial end-users (aluminium/metal processing and cement) evaluating a green-certificate cost-exemption scheme. Energy performance is captured with two intensity indicators — specific electricity use (SEC, Eq. 1) and Energy Intensity (EI, Eq. 2) — applied per end-user; these were modelled as four models (M1-M4). A green-certificate cost calculation (Eq. 3) is financial rather than an energy performance model and was not extracted as a model. K1 (price distorting EI) is strongly demonstrated and directly motivates the weighted-average-price adaptation (D1). K2 and K3 are borderline/requires inference: K2 concerns the electricity-only indicator not capturing cement's dominant fossil-fuel energy, and K3 concerns seasonal construction demand driving electricity use; both are framed around the case rather than proven statistically. No explicit study limitation is stated in the paper (future-work statements were not coded).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "assumption",
+        "influenced by",
+        "price",
+        "seasonal",
+        "fossil fuel",
+        "drift"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "weighted average",
+        "normalisation",
+        "further research",
+        "methodology"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "cannot",
+        "only two",
+        "scope",
+        "data"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "management",
+        "financial",
+        "cost",
+        "prioritize",
+        "CAPEX",
+        "support"
+      ]
+    }
+  },
+  "attempt": 1
+}

@@ -1,0 +1,106 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535659",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T11:19:22Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "By definition, Benchmark Energy Factor (BEF) represents the overall invested energy EUsed compared to the minimum energy required to obtain the desired output",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The paper proposes a new concept of using of Mathematical Model Benchmarking (MMB)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The series started with Industrial Refrigeration Systems (IRS): CSA C500",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Case study = Industrial Refrigeration (Canada), an unlisted sector -> level_3b=false. Cement/mining appears only as a regression-critique example, not BEF's application context."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Canada",
+      "evidence_quote": "is obtainable on IRS in Canada (retrofits and new designs)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "sector_of_activity": {
+      "value": "Industrial Refrigeration",
+      "evidence_quote": "Another typical example can be found in Industrial Refrigeration sector.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "The MMB concept can be used by any IS&P owner",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "implementation of the global energy management standard ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["IPMVP"],
+      "evidence_quote": "Perform M&V using IPMVP methods",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": ["physical model", "simple intensity ratio", "linear regression", "SEC mean"],
+      "evidence_quote": [
+        "The Ideal Energy can be calculated very accurately by using well known laws of physics",
+        "The EPI represents a ratio between energy spent [kWh] per unit of product",
+        "energetic efficiencies for large grinding mils in cement and mining industry by use of linear regression",
+        "the Specific Energy Consumption (SEC)"
+      ],
+      "page": [3, 1, 2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

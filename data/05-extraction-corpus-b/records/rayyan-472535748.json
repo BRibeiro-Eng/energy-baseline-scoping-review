@@ -1,0 +1,1123 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535748",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "metallurgical plants",
+        "evidence_quote": "Software products that are used to automate the management of energy efficiency at metallurgical plants",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Russia",
+          "Germany",
+          "country",
+          "plant location"
+        ]
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "We will illustrate this by examining energy use on a pipe mill.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Energy use (electric power) on a pipe mill, evaluated via unit electric-power consumption relative to pipe production",
+        "evidence_quote": "We will illustrate this by examining energy use on a pipe mill.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Software products that are used to automate the management of energy efficiency at metallurgical plants",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the ratio of the amount of electric power which is consumed to the volume of pipe production on the mill",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "period",
+              "year",
+              "month"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "the ratio of the amount of electric power which is consumed to the\nvolume of pipe production on the mill",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "the ratio of the amount of electric power which is consumed to the\nvolume of pipe production on the mill",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production volume",
+              "evidence_quote": "the ratio of the amount of electric power which is consumed to the\nvolume of pipe production on the mill",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "unit electric-power consumption",
+              "evidence_quote": "Graph of unit electric-power consumption.",
+              "page": 2,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the ratio of the amount of electric power which is consumed to the\nvolume of pipe production on the mill",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "volume of pipe production on the mill",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the ratio of the amount of electric power which is consumed to the\nvolume of pipe production on the mill",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "hourly",
+                "daily",
+                "monthly",
+                "frequency"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "invoice",
+                "instrument",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "a two-factor model which accounts for RFE use in relation to the volume of production and ambient temperature",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Unit electric-power-consumption norm in relation to the volume of production and ambient\ntemperature.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Unit electric-power-consumption norm in relation to the volume of production and ambient\ntemperature.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production volume",
+              "evidence_quote": "Fig. 3 shows a two-factor model which accounts for RFE use in relation to the volume of production and ambient tempera-\nture.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "Unit electric-power-consumption norm",
+              "evidence_quote": "Unit electric-power-consumption norm in relation to the volume of production and ambient\ntemperature.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Fig. 3 shows a two-factor model which accounts for RFE use in relation to the volume of production and ambient tempera-\nture.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "two-factor (multi-factorial) statistical model"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "Fig. 3 shows a two-factor model which accounts for RFE use in relation to the volume of production and ambient tempera-\nture.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "volume of production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Fig. 3 shows a two-factor model which accounts for RFE use in relation to the volume of production and ambient tempera-\nture.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "ambient temperature",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "Fig. 3 shows a two-factor model which accounts for RFE use in relation to the volume of production and ambient tempera-\nture.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "online or adaptive",
+              "evidence_quote": "the automated formulation and continual updating of dynamic norms that are calculated on the basis of multi-\nfactorial statistical models, physical models, and neural-network models",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "runs mod-\nels periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing\nnorms",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "error",
+                  "RMSE",
+                  "confidence interval"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the model with the smallest error for the test sam-\nple can then be chosen for further use",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "Software products that are used to automate the management of energy efficiency at metallurgical plants",
+        "page": 1,
+        "support_class": "requires inference"
+      }
+    },
+    {
+      "application_id": "A2",
+      "sector_verbatim": {
+        "value": "Siempelkamp steel-making plant",
+        "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Germany",
+        "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "equipment",
+        "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Electric-power-consumption norm of a furnace at the Siempelkamp steelmaking plant",
+        "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M3",
+          "label_verbatim": "the electric-power-consumption norm of a furnace at the Siempelkamp steel-making plant",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Norms for the unit consumption of electric power (a) and natural gas (b) in the program “Energy Guide.”",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Figure 4a presents an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "unit_verbatim": {
+              "value": "unit consumption of electric power",
+              "evidence_quote": "Norms for the unit consumption of electric power (a) and natural gas (b) in the program “Energy Guide.”",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "These\nnorms were determined on the basis of multi-factorial models constructed automatically by the Energy Guide program",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "multi-factorial model"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "other",
+              "evidence_quote": "The system identifies the main factors that affect the indices which characterize the efficiency of RFE use",
+              "page": 6,
+              "support_class": "requires inference",
+              "other_verbatim": "system automatically identifies the main factors"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "factor",
+              "variable",
+              "temperature",
+              "production"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "online or adaptive",
+              "evidence_quote": "runs mod-\nels periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing\nnorms",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "The Energy Guide program automatically analyzes the norms, which sig-\nnificantly reduces the number of routine tasks that the energy manager must perform and minimizes the error that is made.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the model with the smallest error for the test sam-\nple can then be chosen for further use",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "an example of the electric-power-consumption norm of a furnace at the Siempelkamp steel-\nmaking plant in Germany",
+        "page": 4,
+        "support_class": "direct statement"
+      }
+    },
+    {
+      "application_id": "A3",
+      "sector_verbatim": {
+        "value": "compressor station (metallurgical plant context)",
+        "evidence_quote": "while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station.",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text"
+      },
+      "scale_of_application": {
+        "value": "sub-system",
+        "evidence_quote": "while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station.",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Natural-gas-consumption norm for a compressor station",
+        "evidence_quote": "while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station.",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station.",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M4",
+          "label_verbatim": "a natural-gas-consumption norm for a compressor station",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Norms for the unit consumption of electric power (a) and natural gas (b) in the program “Energy Guide.”",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "while Fig. 4b gives an example of a natural-gas-consumption norm for a compressor station.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "unit_verbatim": {
+              "value": "unit consumption of natural gas",
+              "evidence_quote": "Norms for the unit consumption of electric power (a) and natural gas (b) in the program “Energy Guide.”",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "These\nnorms were determined on the basis of multi-factorial models constructed automatically by the Energy Guide program",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "multi-factorial model"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "other",
+              "evidence_quote": "The system identifies the main factors that affect the indices which characterize the efficiency of RFE use",
+              "page": 6,
+              "support_class": "requires inference",
+              "other_verbatim": "system automatically identifies the main factors"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "factor",
+              "variable",
+              "temperature",
+              "production"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "online or adaptive",
+              "evidence_quote": "runs mod-\nels periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing\nnorms",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "The Energy Guide program automatically analyzes the norms, which sig-\nnificantly reduces the number of routine tasks that the energy manager must perform and minimizes the error that is made.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the model with the smallest error for the test sam-\nple can then be chosen for further use",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "Software products that are used to automate the management of energy efficiency at metallurgical plants",
+        "page": 1,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "existing equipment undergoes wear or is operated outside of its design regimes due to a change in production\nplans, i.e., the energy-efficiency indices decline",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "equipment degradation or ageing",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "existing equipment undergoes wear or is operated outside of its design regimes due to a change in production\nplans, i.e., the energy-efficiency indices decline",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The actual unit composition of electric power can vary quite broadly (Fig. 2).",
+      "page": 3,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Even programs in the second group, which calcu-\nlate norms solely on the basis of a one-factor statistical model – the volume of production – are adequate for simple equipment.",
+      "page": 4,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K4",
+      "normative_framing": "implicit",
+      "evidence_quote": "More complex statistical models are constructed with allowance for several influencing factors.",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M2"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "online re-estimation",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "runs mod-\nels periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing\nnorms",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "M3"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "hybrid physical-statistical",
+      "status": "implemented",
+      "addresses_mechanism": "K4",
+      "normative_framing": "implicit",
+      "evidence_quote": "The errors are even smaller for multi-factorial models, including those which make use of the theory of artificial\nneural networks or various physical models of equipment constructed on the basis of the results of tests or numerical model-\ning [4, 5].",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M3"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "Energy manager must manually analyse large volumes of tables and graphs, and under shortage of time and staff decisions may be sub-optimal",
+      "evidence_quote": "Even if a given metallurgical plant monitors energy use by each subdivision (furnace,\nmill, etc.) and collects data in its information system, the energy manager still has to analyze a raft of tables and graphs.",
+      "page": 1,
+      "searched_terms": [
+        "staff",
+        "time",
+        "manual",
+        "barrier",
+        "training"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "equation",
+        "formula",
+        "model form"
+      ]
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "coefficient",
+        "parameter",
+        "estimate"
+      ]
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software availability",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a survey/product-description paper about energy-management software (Energy Guide) rather than a single empirical case study. Concrete contexts appear only as illustrative examples: a pipe mill (intensity ratio, A1/M1), a two-factor dynamic-norm illustration (A1/M2, whose attachment to the pipe mill is inferred), a furnace at the Siempelkamp steelmaking plant in Germany (A2/M3), and a compressor station (A3/M4). No fitted coefficients, equations, fit statistics or dataset details are reported for any model; multi-factorial models are described generically as constructed automatically by the Energy Guide program, sometimes using neural-network or physical models. Model families for M2/M3/M4 recorded as 'other' because the paper says only 'multi-factorial statistical model' without specifying linearity.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "drift",
+        "wear",
+        "error",
+        "false alarm",
+        "vary",
+        "misspecification"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "multi-factorial",
+        "neural network",
+        "physical model",
+        "recalculate",
+        "update"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "sample",
+        "data access",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "staff",
+        "time",
+        "manual",
+        "cost",
+        "training"
+      ]
+    }
+  },
+  "attempt": 8
+}

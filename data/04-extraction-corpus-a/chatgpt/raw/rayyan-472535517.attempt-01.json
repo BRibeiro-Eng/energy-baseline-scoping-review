@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535517",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:18:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The main idea is to find the buildings with the highest energy efficiency potential, by dividing all buildings in four groups depending on their total energy consumption and specific heat energy consumption.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The aim of this paper was to research and present the current status of EnMS performance in one municipality.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this research paper, only EnMS in public buildings were studied.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Municipal public-building case; not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Initially the boundaries of the EnMS included 100 public buildings, public street lighting system with 9183 luminaires and total length of the system of 351 km as well as public transport with over 90 vehicles for 32 bus and 3 tram routes.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "southeast of Latvia",
+      "evidence_quote": "It is located in the southeast of Latvia, close to borders with Lithuania and Belorussia.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "public buildings",
+      "evidence_quote": "In this research paper, only EnMS in public buildings were studied.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "In this research paper, only EnMS in public buildings were studied.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "At the end of 2016, the city of Daugavpils received the ISO 50001:2012 certificate.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU EED",
+        "other-named"
+      ],
+      "evidence_quote": "The Law was based on the EU Energy Efficiency Directive [39] and introduced a new mandatory norm for the nine largest cities in Latvia (including the city of Daugavpils) to implement and certify EnMS.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "In case of buildings, one of the key performance indicators is specific energy consumption.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536693",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T21:31:10Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the objective is to\nanalyse how important and topical the development of\nperformance measurement is, in comparison to other\ndevelopment issues",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Qualitative grounded-theory interview study of the organisational development priority and R&D needs of energy performance measurement across six companies in three sectors; energy performance indicators (e.g. uncorrected specific energy consumption) are discussed only as current management practice, and no specific EnPI/EnB model is identified or characterised (no variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "similarities and differences between cases (companies)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: paper critiques current energy performance measurement (uncorrected monthly/annual specific energy consumption) and urges explanatory/modelled indicators, but identifies no specific EnPI/EnB model. Judged ineligible under the v2.3 identify-and-characterise bar; flag for human review. Listed sectors (pulp & paper, basic metals, petrochemicals) are only multi-sector interview settings, so level_3b=false."
+  },
+  "stage2": null,
+  "stage3": null
+}

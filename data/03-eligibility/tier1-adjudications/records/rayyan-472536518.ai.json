@@ -1,0 +1,69 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536518",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Austria, Italy, Poland and UK",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "other-named"
+        ],
+        "sector_of_activity": "manufacturing industry sectors",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": null,
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": true,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [],
+        "model_parameters_reported": [],
+        "normalisation_variables": [],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "almost 3,000 industrial energy-efficiency projects implemented by different companies",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "tool/software design"
+      },
+      "key": "rayyan-472536518",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

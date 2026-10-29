@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535733",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:18:51Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "For example, the EnPI for an NGL and condensate plant could be ‘MWthermal consumed / MWthermal of products’ and so the factor itself would be limited rather than looking at the final energy consumed by the plant.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives.",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "Many Operating Companies (OPCOs) in the Middle-East petroleum industry are adopting the ISO 50001 standard for Energy Management.",
+        "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives."
+      ],
+      "page": [
+        1,
+        19
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.92
+    },
+    "notes": "Conceptual petroleum-industry guidance with no explicit empirical application; therefore not Level 3B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives.",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives.",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "sector_of_activity": {
+      "value": "petroleum industry",
+      "evidence_quote": "Many Operating Companies (OPCOs) in the Middle-East petroleum industry are adopting the ISO 50001 standard for Energy Management.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives.",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 is a standard for Energy Management System developed by the International Standards Organization in line with the other widely adopted standards for quality (ISO 9001) and Health and Safety (ISO 14001).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "For example, the EnPI for an NGL and condensate plant could be ‘MWthermal consumed / MWthermal of products’ and so the factor itself would be limited rather than looking at the final energy consumed by the plant.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "pinch analysis"
+      ],
+      "evidence_quote": "For example, a pinch analysis carried out during FEED stage could be updated and / or new heat exchange elements could be added to highlight opportunities for heat recovery in the process.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    }
+  },
+  "stage3": null
+}

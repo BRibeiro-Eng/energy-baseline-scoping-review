@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535695",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:45:57.594075+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "energy management systems",
+        "full potential of industrial heat treatments"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Project overview of the Fraunhofer HTL 'EnerTHERM' ceramic heat-treatment research programme: develops in-situ measuring devices (TOM family), a kinetic-field technique predicting sintering shrinkage, and furnace-investigation methods, and demonstrates energy/throughput optimization of alumina sintering. Energy management (ISO 50001) is cited only as motivation; no EnPI/EnB measurement model is presented or characterised (energy consumption is directly measured with current clamps, not modelled or normalised into an indicator/baseline).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "four different TOM devices are designed",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Fraunhofer HTL 'EnerTHERM' project overview (ceramic heat treatment). Builds TOM measuring devices + kinetic-field sintering-shrinkage model + furnace methods; demos alumina-sintering energy/throughput optimization (energy vs holding temperature, measured by current clamps). ISO 50001 cited only as motivation; no EnPI/EnB model characterised. paper_type tool/software-design vs other is borderline. Application is batch/ceramics (not a continuous-process sector), so 3B false regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

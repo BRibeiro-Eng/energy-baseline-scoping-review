@@ -1,0 +1,134 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535572",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:01:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In order to find the EBL, correlation analysis was performed between monthly electricity consumption and monthly battery production from 2011 to 2014",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study was carried out at a Colombian battery factory",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "battery factory in Colombia",
+        "the formation process is performed in special facilities called battery charging units (BCU), which perform the process in batches"
+      ],
+      "page": [
+        1,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "notes": "Battery manufacturing is outside the closed Level 3B sector list; formation is explicitly batch-mode."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study was carried out at a Colombian battery factory",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "battery factory in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "battery factory",
+      "evidence_quote": "battery factory in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "the formation process is performed in special facilities called battery charging units (BCU), which perform the process in batches",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "implementation of the energy planning process described in the ISO 50001 standard at a Colombian battery factory",
+        "In line with what is established by the ISO 50004 \n(ISO, 2014) standard"
+      ],
+      "page": [
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "The lineal correlation found for EBL has a \ncoefficient of determination R2 = 0.7519",
+        "Electricity consumption kWh\nEPIn\nNumber of batteries produced\n=",
+        "The points below the EPIn \ncontrol curve have satisfactory energy performance, \nand the points above have deficient performance."
+      ],
+      "page": [
+        5,
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535725",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T12:45:35.536852+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Data was collected for: Power consumption by different \nareas in the plant (material preparation, production and \nutilities) (kWh/Day), total power consumption of the \nplant (kWh/Day), total steam consumption of the plant \n(MT/Day) and total production (TF /Day). \n \nUsing these data the consumption ratio for power \nin different areas was calculated, overall steam \nconsumption ratio was also calculated.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In the current study an energy management system was \nimplemented in a local textile plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Textile industry in Egypt is energy intensive and is one of the top energy consumers in the country.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Eligible on a Tier-1 EnPI only (steam consumption ratio T/TF; power shares by area, normalised by production); no fitted EnB/regression -> moderate confidence. Sector is textile fiber production, framed as 'textile industry' -> not on the closed continuous-process list, so level_3b=false. Stage-2 type_of_organisation='continuous process' coded by 24/7 power+steam operating mode, flagged low-confidence. p7 'waste management' is an in-paper typo, not a wrong-PDF signal."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In the current study an energy management system was \nimplemented in a local textile plant.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Alexandria Governorate, Egypt",
+      "evidence_quote": "textile plant located at Alexandria Governorate, Egypt.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "textile industry",
+      "evidence_quote": "Textile industry in Egypt is energy intensive and is one of the top energy consumers in the country.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The main energy sources \nused in the plant were power and steam.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "According to ISO 50001:2011 the energy management system was \nbuilt on the ISO quality management system’s philosophy of Plan-Do-Check-Act (PDCA) continual improvement",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "According to process engineering design steam \nconsumption ratio \nwas 9.8 T/TF.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

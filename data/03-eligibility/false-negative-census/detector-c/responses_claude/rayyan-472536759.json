@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536759",
+  "listed_sector_signals": [
+    {
+      "signal": "Prior-literature citation of stochastic frontier / productivity work on the paper industry (pulp & paper), referenced in the review but not applied here",
+      "quote": "Chung\nand colleagues (1997) studying the paper in-\ndustry",
+      "page": 3,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference-list citation to a frontier study of Swedish pulp and paper mills",
+      "quote": "An ap-\nplication to Swedish pulp and paper mills.",
+      "page": 14,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Literature-review mention of prior frontier work on the electric power industry (continuous power generation), not applied in this paper",
+      "quote": "and Corio and Boyd\n(1996) examining the electric power industry",
+      "page": 3,
+      "sector": "power generation / cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A statistical (stochastic frontier) method for measuring the energy-efficiency gap, empirically demonstrated on breweries and motor vehicle assembly plants—neither a continuous-flow Corpus B sector—with pulp & paper and electric power only cited in the literature review."
+}

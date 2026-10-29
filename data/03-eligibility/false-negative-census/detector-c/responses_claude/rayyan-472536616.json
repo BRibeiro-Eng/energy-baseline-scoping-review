@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472536616",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Case study is a water treatment plant with continuously metered raw-water/distribution flow and daily plant energy consumption — a 24/7 continuous-flow water utility context outside the eight registered sectors",
+      "quote": "Mahasawat water treatment plant located in Nontaburi province, Thailand is chosen for \ninvestigation the baseline. The energy consumption data of the plant equipment and facilities is measured from local \nrecordable power meters and complied into a daily report.",
+      "page": 2,
+      "sector": "water treatment / water utility"
+    },
+    {
+      "signal": "Flow-based process variables (raw water flow, distribution and transmission flow) drive plant energy consumption modeling, indicating continuous throughput process",
+      "quote": "For MLP approach, we use DRF (Daily raw water flow) as the independent variable to \npredict DPEC and DDTF as shown in Fig.1.",
+      "page": 2,
+      "sector": "water treatment / water utility"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper builds and validates an energy baseline model (MLP vs. linear regression) using multi-year daily energy and flow data from a municipal water treatment plant in Thailand, none of which falls in the eight registered Corpus-B continuous-process sectors."
+}

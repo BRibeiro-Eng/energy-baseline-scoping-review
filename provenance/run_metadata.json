@@ -1,0 +1,474 @@
+{
+  "_comment": "Run provenance for the AI-assisted Level 3 extraction pipeline. Written at §18 action 4. Required by PROTOCOL.md §14 (reproducibility). Append a new entry to 'extraction_batches' for each stage/batch run.",
+  "protocol_document_version": "2.2.1 (SCHEMA FROZEN)",
+  "osf_doi": "10.17605/OSF.IO/TDW6C",
+  "model": {
+    "string_pinned": "claude-opus-4-8",
+    "dated_snapshot_string": null,
+    "_dated_snapshot_note": "The session was given only the family model id 'claude-opus-4-8'; no dated snapshot suffix (e.g. '-YYYYMMDD') was exposed to the session at run time. Recorded as-is.",
+    "deviation_note": "PROTOCOL.md v2.0 and README target Claude Opus 4.7. This run uses Opus 4.8, the latest model available to the executing session at execution time (June 2026). Confirmed by the reviewer (B. Ribeiro) on 2026-06-18. Deviation to be declared in the thesis methodological annex.",
+    "sampling": "provider-managed (consumer subscription surfaces; Opus 4.8 API exposes no temperature/top_p/top_k — removed parameters)",
+    "sampling_seed_available": false,
+    "_sampling_note": "No sampling parameters are exposed or configurable on the execution surfaces (Claude Code under Claude Max; Codex CLI under ChatGPT Plus). Run-to-run stability is measured by the C-2 determinism canary (n=30). Historical entries below that mention temperature 0 record earlier intentions and are retained as provenance.",
+    "execution_surfaces": {
+      "claude": {
+        "surface": "Claude Code (Claude Max subscription)",
+        "app_version": null,
+        "model_label": "Claude Opus 4.8",
+        "_note": "app_version recorded at run start via claude --version"
+      },
+      "gpt": {
+        "surface": "Codex CLI (ChatGPT Plus subscription)",
+        "app_version": null,
+        "model_label": null,
+        "_note": "recorded at run start via codex --version; model label as displayed"
+      }
+    }
+  },
+  "run_start_timestamp": "2026-06-18T10:04:15+0100",
+  "working_directory": "/Users/bernardoribeiro/Desktop/Screening/level3_extraction",
+  "prompts_version_control": {
+    "repo": "prompts/ (dedicated git repository, isolated from any ancestor repo)",
+    "current_git_tag": "v2.2.1-frozen",
+    "current_git_commit_hash": "aeb55349",
+    "_commit_hash_note": "Corrected 2026-07-10: previously recorded as aeb55343 (transcription error, last char); actual short hash of the v2.2.1-frozen commit is aeb55349 (full: aeb55349271de7641c71d00f375c15b75c6def56).",
+    "version_history": [
+      {
+        "tag": "v2.0-initial",
+        "commit": "c066065",
+        "date": "2026-06-18"
+      },
+      {
+        "tag": "v2.1-schema-rework",
+        "commit": "0542a8b",
+        "date": "2026-06-18",
+        "note": "3 critical + 9 major fixes after form pilot §13.1 (n=5)"
+      },
+      {
+        "tag": "v2.2-refined",
+        "commit": "67775b3",
+        "date": "2026-06-18",
+        "note": "12 targeted fixes after v2.1 re-pilot (n=7)"
+      },
+      {
+        "tag": "v2.2.1-frozen",
+        "commit": "aeb5534",
+        "date": "2026-06-18",
+        "note": "Normalization expansion (6→8 rules) + review/synthesis decision tree after v2.2 re-pilot (n=7). SCHEMA FROZEN."
+      }
+    ],
+    "prompt_files": [
+      "stage1_system.md",
+      "stage2_system.md",
+      "stage3_system.md"
+    ]
+  },
+  "random_seeds": {
+    "form_pilot_sampling": 42,
+    "ai_validation_sampling": 43,
+    "audit_sample_drawing": 44
+  },
+  "role_declaration": "Tool of the single reviewer (B. Ribeiro), not a co-reviewer. Inter-model agreement is routing only, never a reliability metric. The reviewer is the sole adjudicator of record (not an infallible ground truth). Quality evidence comes from blind-first adjudication of membership-critical Tier-1 divergences, blind-first Corpus-B Level-B extraction per the size branch, exhaustive censuses (FN candidate union, concordant-3B, borderline), an SRS blind audit with exact per-field CIs (e_v/n_v), and declared residual risks. See PROTOCOL.md sec 0.3, sec 2 and VALIDATION_PROTOCOL_C.md (C-2.3).",
+  "language_of_artefacts": "English",
+  "amendments": [
+    {
+      "date": "2026-06-18",
+      "id": "withdrawn-marker-removal",
+      "change": "Removed 'WITHDRAWN' from the §8.6 retraction-marker list; kept RETRACTED, 'Retraction Notice', 'This article has been retracted'.",
+      "rationale": "In this corpus 'withdrawn' matched 'EN 16001 was withdrawn' (the standard superseded by ISO 50001), producing 2 false-positive retractions (rayyan-472535635, -472535636). Only rayyan-472535391 is a genuine retraction (caught by RETRACTED).",
+      "affects": [
+        "PROTOCOL.md §5.1",
+        "PROTOCOL.md §8.6",
+        "stage0_prepare.py RETRACTION_MARKERS"
+      ],
+      "reviewer_confirmed": true,
+      "code_git_tag": "v2.0-withdrawn-fix"
+    },
+    {
+      "date": "2026-06-18",
+      "id": "schema-v2.1-rework",
+      "change": "Major schema rework after form pilot §13.1 (n=5) surfaced 3 critical + 9 major + 5 minor + 2 cosmetic schema issues. Decision: major_rework_then_repeat_pilot (verifier disagreed in 4/5 papers; 1 confirmed hallucination invisible to value-only schema).",
+      "fixes": [
+        "C1: Level 3B scope expanded beyond original 5 sectors to all continuous-process industries with non-stationary energy-production dynamics; §12.3 cross-check biconditional → one-way implication.",
+        "C2: Level A scoping enforcement — methodological_eligibility=false ⇒ all Level A fields null; enpi_enb_model_types gains 'not applicable'.",
+        "C3: Evidence envelope {value, evidence_quote, page, confidence} made MANDATORY with programmatic substring grounding check (Stage 4 §12.2).",
+        "M1: normative_context decomposed into ems_standard / mv_protocol / regulatory_driver.",
+        "M2: enpi_enb_model_types enum expanded; composite index tightened.",
+        "M3: B13 split into model_parameters_reported (B13a) and performance_metrics_reported (B13b).",
+        "M4: complementary_methodologies (A11b) added.",
+        "M5: identifies_limitations → identifies_model_limitations; disambiguated from implementation_barriers.",
+        "M6: paper_type (A1b) and multi_site (A1c) added; 'mixed' sharpened.",
+        "M7: scale_of_application expanded; scope_description (B4b) added.",
+        "M8: §5.2 eligibility sharpened with (a) AND (b) sub-criteria.",
+        "M9: post-extraction JSON-Schema validation enforced.",
+        "5 minor + 2 cosmetic also applied."
+      ],
+      "reviewer_confirmed": true,
+      "prompt_git_tag": "v2.1-schema-rework"
+    },
+    {
+      "date": "2026-06-18",
+      "id": "schema-v2.2-refinement",
+      "change": "Targeted refinement after v2.1 re-pilot (n=7) surfaced 5 residual major + 5 minor + 1 cosmetic schema issues + 1 tooling bug. Decision: further_rework_then_repeat (refinement, not major rework — 17 SB disagreements in v2.1 → expected to reduce after fixes).",
+      "fixes": [
+        "TOOLING: stage0_prepare.py now persists pdf.pages in bundles (v2.1 omitted this, forcing every Stage 1/2/3 agent to re-extract, producing inconsistent text and 5 grounding failures).",
+        "A11: added 'simple intensity ratio' (single-denominator unfitted KPI).",
+        "A11 composite index TIGHTENED: decision-support scoring (MCDM/AHP/TOPSIS) is not a composite index.",
+        "A11b: added 'multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)'.",
+        "A1b: added 'tool/software design'.",
+        "A1c: added 'not applicable' for review/synthesis papers.",
+        "A7: explicit — case-study site geography only, not author affiliation or HQ.",
+        "A10c: explicitly excludes voluntary certifications (SEP, ENERGY STAR); scoping rule causally-applies-to-dataset.",
+        "B3: 'statistical' parenthetical broadened to any inferential test of fit/significance.",
+        "B12: strict enum (no free-form annotation suffixes).",
+        "B5 vs B14: default rule for dual-nature statements (constrains model construction → B5; else B14).",
+        "Evidence quote for value='none': null OR literal absence quote, never descriptive of excluded methodology.",
+        "Page-numbering convention explicit: integer index into pdf.pages array.",
+        "C3 normalization policy explicit (6 rules)."
+      ],
+      "reviewer_confirmed": true,
+      "prompt_git_tag": "v2.2-refined"
+    },
+    {
+      "date": "2026-06-18",
+      "id": "schema-v2.2.1-freeze",
+      "change": "v2.2 re-pilot (n=7) brought schema-bound disagreements from 17 (v2.1) to 6 (v2.2) — 65% reduction — with 0 hallucinations. All 19 grounding failures were encoding/glyph artefacts (10 line-break hyphenation + 7 Greek-beta-as-fi ligature + 1 control char + 1 page-locality), NOT extraction errors. Tooling-only patch applied via C: normalization expansion (6→8 rules) + review/synthesis decision tree (routes borderline cases to mandatory human review instead of forcing AI commit). SCHEMA FROZEN at v2.2.1.",
+      "fixes": [
+        "§6.3 normalization expanded: added control-char strip (U+0000-U+001F except \\n\\t), line-break hyphenation join (regex '-\\s*\\n\\s*' → ''), Greek-beta-as-fi ligature mapping (ϐ U+03D0 → fi), ¶ U+00B6 and ¹ U+00B9 as apostrophe equivalents.",
+        "§6.3 non-contiguous evidence: page becomes parallel list of integers aligned to evidence_quote substrings.",
+        "§6.3 JSON encoding lock: evidence_quote is plain string OR array of strings OR null (never JSON-string-of-stringified-JSON); page aligned.",
+        "§5.2 decision tree for review/synthesis: step 1 own-fitted-model (b1) → step 2 ≥3 documented apps with per-case detail (b2) → step 3 borderline_review_synthesis_eligibility=true (mandatory human review)."
+      ],
+      "freeze_justification": "Schema is empirically stable. Schema-bound disagreements: 6 total across 7 papers, 5 papers at ≤1 SB; the sole outlier (rayyan-472535533 review/synthesis M&V paper) is now routed to mandatory human review by the v2.2.1 decision tree. All 19 v2.2 grounding failures were encoding-class issues addressable by normalization rule expansion (additive, non-breaking) — not schema redesign. Further iteration would refine encoding rules at diminishing returns; we proceed to §13.2 with v2.2.1 and extend normalization if new patterns emerge in the n=30 validation pilot.",
+      "reviewer_confirmed": true,
+      "prompt_git_tag": "v2.2.1-frozen"
+    },
+    {
+      "date": "2026-06-22",
+      "id": "hybrid-validation-design-13.2",
+      "change": "§13.2 reliability validation changed from 'reviewer extracts all 30 blind' to a HYBRID design: 10 blind (clean AI-vs-human kappa/PABAK) + 20 verification (reviewer corrects AI output; field-level correction rate). The blind-verification agreement gap is reported as a measured anchoring-bias estimate. Exclusion set also widened from the 5 form-pilot papers to all 7 prior-pilot papers (5 form-pilot + 2 v2.1/v2.2 re-pilot fresh) to avoid overfitting + contamination.",
+      "rationale": "Reviewer declined ~10-12 h of full blind extraction. The reviewer first proposed having AI agents do the charting, which would make the validation AI-vs-AI (circular, high by construction at temperature 0, shares model biases, cannot detect them, and violates the §0.3/§2 role declaration that forbids any AI-vs-AI agreement check). The hybrid design keeps a genuine human anchor (10 blind) while minimising reviewer effort, and quantifies the verification subset's anchoring bias rather than leaving it as an unmeasured caveat. n=10 clean kappa has wide CIs; the claim rests on the combination of blind kappa + verification correction rate + programmatic grounding check.",
+      "affects": [
+        "PROTOCOL.md §13.2 (rewritten, +§13.2.0)",
+        "PROTOCOL.md §12.5 thesis-annex wording",
+        "output/make_validation_split.py",
+        "output/pilot_30/VALIDATION_SPLIT.json",
+        "output/extraction_tool/"
+      ],
+      "tooling": "make_ai_validation_pilot.py (n=30 draw, seed 43, excl. 7), make_validation_split.py (10/20 split, seed 43 second shuffle), extraction_tool/ (local Flask form: PDF + schema-driven inputs, writes value-only JSON).",
+      "statistics": {
+        "clean_reliability": "Cohen's kappa + PABAK on 10 blind (AI vs blind human).",
+        "verification_metric": "field-level correction rate on 20.",
+        "anchoring_bias_estimate": "agreement_20 - kappa_10 (subsets exchangeable, same stratified parent)."
+      },
+      "reviewer_confirmed": true,
+      "decision_path": "reviewer chose 'hibrido 10 + 20' for validation; 'decidir producao depois da validacao' for the full-run architecture"
+    },
+    {
+      "date": "2026-06-23",
+      "id": "qc-reframe-audit-raise",
+      "change": "§13.2 pilot reframed explicitly as quality-control/feasibility (not certification); the quantitative Level A reliability claim moved to the audit sample, whose fraction is raised 10% -> 20%. Level B reliability explicitly rests on integral human review, not kappa.",
+      "rationale": "Monte Carlo power analysis (output/power_analysis/) shows n=10-30 cannot certify a per-variable kappa: at n=10 a true kappa=0.6 yields a 95% interval [0.00, 1.00]; CI half-width 0.15 needs n~150 (balanced) to 300-500 (rare classes); rare-class variables give undefined kappa in 11-49% of n=10 samples. The thesis-central variables (level_3b, Level B continuous-process fields) are the rarest, hence worst-powered. Raising the audit to 20% buys more precision than enlarging the pilot. Reviewer chose 'power analysis first' + 'reframe QC + lean on audit' (declined 2nd reviewer and larger blind n).",
+      "affects": [
+        "PROTOCOL.md §12.5 (audit 10->20%, why-audit-not-pilot)",
+        "PROTOCOL.md §13.2 (QC framing)",
+        "PROTOCOL.md §12.5 thesis-annex wording",
+        "PROTOCOL.md routing/overview audit mentions",
+        "output/power_analysis/power_analysis_kappa.py",
+        "output/power_analysis/POWER_ANALYSIS.md"
+      ],
+      "effort_tradeoff": "20% of a ~200-300 provisional-accept pool is ~40-60 blind manual papers (vs the pilot's 10). This is the cost of locating the reliability claim in the audit; reviewer accepted it.",
+      "reviewer_confirmed": true,
+      "decision_path": "reviewer chose 'power analysis primeiro' + 'reenquadrar QC + apoiar no audit'"
+    },
+    {
+      "date": "2026-06-25",
+      "id": "validation-redesign-C",
+      "change": "Validation methodology redesigned from the §13.2 hybrid (10 blind + 20 verification) pilot + random-20% audit to 'Validation Protocol C', specified authoritatively in VALIDATION_PROTOCOL_C.md. C = two-model extraction (Claude Opus 4.8 + GPT/Codex; optional current Gemini as non-binding Tier-1 arbiter) over the whole available corpus -> blind-first adjudication of ALL Tier-1 (methodological_eligibility/level_3b/paper_type/borderline) disagreements -> stratified blind audit of the concordant set (oversample continuous-process/rare classes; exhaustive concordant-3B) + adversarial false-negative hunt for Corpus B -> capture-recapture (audit x FN-hunt as two detectors, Chapman estimator) -> integral human review of all Level-3B Level-B fields. Headline metric = estimated residual charting error per variable (Wilson CI / Gwet AC1), NOT Cohen's kappa. Inter-model agreement is routing only, never a reliability metric. Schema unchanged (FROZEN v2.2.1).",
+      "rationale": "Three converging inputs: (1) the power analysis killed per-variable kappa certification at sustainable n; (2) the cross-model probe (output/pilot_30/ai_blind_test/, Codex vs Claude on the 10 blind keys) showed inter-model disagreement concentrates on the consequential borderline/Corpus-B calls, making it an efficient router for human effort, while confirming agreement != correctness; (3) a multi-round red-team (REDTEAM_ROUND1.md = 3 Claude lenses; plus external GPT/Gemini reviews supplied by the reviewer) converged on: reframe as QC/error-estimation not kappa; stratified not random audit; blind-first adjudication to kill anchoring at the root; N=2 not 3; capture-recapture to bound the consensus blind spot; integral Level-B human review. The hybrid 10+20 design is superseded; its anchoring concern is now eliminated by blind-first adjudication rather than measured after the fact.",
+      "affects": [
+        "VALIDATION_PROTOCOL_C.md (new authoritative spec)",
+        "PROTOCOL.md (header, change log, §0.2/§0.3/§0.6/§2/§12.5/§12.6/§13.2/§13.3)",
+        "output/pilot_30/* (n=30 design superseded, kept as record)",
+        "output/pilot_30/VALIDATION_SPLIT.json (obsolete)",
+        "output/pilot_30/INSTRUCTIONS_REVIEWER.md (rewritten for C)",
+        "README.md",
+        "EXTRACTION_PROTOCOL.md (top-level v1.1, marked obsolete)"
+      ],
+      "fixed_parameters": {
+        "audit_wilson_half_width": "<=0.05",
+        "third_model_arbiter": "current Gemini, non-binding, Tier-1 irresolvable only",
+        "contamination_probe": "included (~10 corrupted-PDF cases)",
+        "min_audit_cell_count": ">=5"
+      },
+      "proof_of_concept": "output/pilot_30/ai_blind_test/ (cross-model Codex vs Claude; see CROSS_MODEL_COMPARISON.md)",
+      "requires": "Dated OSF amendment filed BEFORE the production run (text in VALIDATION_PROTOCOL_C.md §9).",
+      "reviewer_confirmed": true,
+      "decision_path": "reviewer approved Option C (hybrid blind-first) + capture-recapture after reviewing the 3-lens red-team and external GPT/Gemini reviews"
+    },
+    {
+      "date": "2026-07-03",
+      "id": "validation-protocol-C2",
+      "change": "Protocol C revised C-1.0 -> C-2.0 (VALIDATION_PROTOCOL_C.md) after a Round-2 verified defect review + 3-designer redesign panel (REVIEW_ROUND2_C2.md). Seven surgical changes: (1) capture-recapture DELETED -> exhaustible FN candidate-union census (model flags + deterministic lexicon + counter-anchored recall pass) with lexicon-expansion closure rule; (2) stratified audit + 3 coexisting sizing rules -> SRS n=40 (seed 44) from the concordant Level-A frame, per-field exact Clopper-Pearson 95% CIs, rare consequential cells (concordant-3B, lexicon hits, borderline) censused exhaustively and excluded from the frame; (3) Tier-2 INVERTED: blind-first human extraction of all Corpus-B Level-B fields (form withholds AI pre-fill until commit; models revealed after as discrepancy checkers); (4) composite residual estimator R-hat + Gwet AC1 + 'residual~0 on adjudicated units' DELETED -> metrics reported per field/per instrument, never pooled; test-retest reviewer self-consistency check ADDED (~20-30 decisions, >=2 weeks); (5) pre-registered acceptance/escalation thresholds + effort-overrun cut order (C-2 sec 6), filed verbatim in the OSF amendment; (6) Gemini third-model arbiter DELETED; contamination probe REPLACED by the corpus-wide grounding check (sec 12.2 module); determinism canary kept (20-30 papers); (7) B-first execution order registered (FN census + Corpus-B roster locked first, blind Level-B extraction second, adjudication + audit after).",
+      "rationale": "Round-2 review confirmed 6 defects in C-1.0: (1) pooled-Wilson estimator invalid under the deliberately oversampled stratified audit (audit_sampler.py implemented fraction+min-cell; the Wilson half-width fixed parameter was implemented nowhere; residual_report.py pooled naively); (2) capture-recapture detectors had mismatched error universes (keyword hunt catches only Corpus-B FNs; audit catches all classes) and n12=0 was the likely outcome, making Chapman's N-hat decorative; (3) the analytically central tier (Corpus-B Level-B) had anchored AI-pre-fill verification while less important tiers got blind-first; (4) three coexisting audit-sizing rules with no binding rule; (5) human residual error hard-coded to zero with no instrument measuring the single reviewer; (6) no pre-specified thresholds/actions. A 3-designer blind panel independently rebuilt C's operational skeleton and diverged only at the defects; the judge's verdict was 'patch C, do not redesign' (switching costs + reviewer approval + built modules).",
+      "affects": [
+        "VALIDATION_PROTOCOL_C.md (C-2.0)",
+        "REVIEW_ROUND2_C2.md (new, provenance)",
+        "OSF_AMENDMENT_DRAFT.md (rewritten for C-2 incl. thresholds + cut order)",
+        "PROTOCOL.md (header, change log, sec 0.2/0.3/0.6/2/12.5/12.6/13.2/13.3)",
+        "output/audit_sampler.py (rewritten: SRS + census split)",
+        "output/residual_report.py (rewritten: per-field exact CIs + threshold flags, no composite)",
+        "output/fn_hunt.py (extended: candidate union + closure loop)",
+        "output/capture_recapture.py (marked SUPERSEDED, kept as record)",
+        "README.md"
+      ],
+      "fixed_parameters": {
+        "srs_audit_n": 40,
+        "srs_overrun_floor": 30,
+        "audit_ci": "exact Clopper-Pearson 95%, per field, never pooled",
+        "third_model_arbiter": "NONE (deleted)",
+        "fabrication_defence": "corpus-wide grounding check (replaces contamination probe)",
+        "censuses": "concordant-3B exhaustive; FN candidate union (3 detectors + closure); concordant borderline exhaustive",
+        "level_a_field_trigger": ">=3/40 errors -> scripted corpus-wide recheck of that field",
+        "fn_trigger": "any confirmed FN -> lexicon expansion + detector re-run; >=3 total -> supervisor review",
+        "test_retest": ">1 flip in ~20-30 -> re-adjudicate all borderline-tagged",
+        "canary": "flip >2% declared; >5% re-reconcile flipped fields",
+        "cut_order": "(1) SRS 40->30, (2) Tier-3 scripted precedence + spot-check, (3) paper_type restricted to reported figures; censuses and blind-first work never cut",
+        "seeds": "42 form pilot, 44 SRS draw (unchanged)"
+      },
+      "requires": "Dated OSF amendment describing C-2 (OSF_AMENDMENT_DRAFT.md) filed BEFORE the production run; corpus freeze after the manual-download pass.",
+      "reviewer_confirmed": false,
+      "reviewer_confirmed_note": "PENDING reviewer sign-off of C-2.0 (requested 2026-07-03).",
+      "decision_path": "reviewer asked for an independent analysis of C-1.0, then a from-scratch redesign comparison, then approved applying the C-2 delta ('aplica o C2 a todos os documentos necessarios', 2026-07-03)"
+    },
+    {
+      "date": "2026-07-10",
+      "id": "validation-protocol-C2.1-audit-corrections",
+      "change": "C-2.0 -> C-2.1 after an independent full-directory audit + methodological review, verified claim-by-claim against the repo before adoption (REVIEW_ROUND2_C2.md Round-3 addendum). Protocol: 'Corpus-B membership closed' language corrected (census closes the candidate UNION; residual declared); Tier-2 pre-registered size-branch rule (|B| <=25 / <=60 / >60) replacing the 4-15-paper assumption (traced to a denominator misread of PROTOCOL 13.2 in REDTEAM_ROUND1 A4; probe observed 1-2/10; sec 15 once estimated 25-30%; true prevalence UNKNOWN); FN census re-based on measured lexicon volume (214/445 papers) with tiered triage; NEW upstream L1/L2 exclusion audit (lexicon over the 326 T/A-excluded + ~50 random); sec 4a per-field denominators e_v/n_v + pre-specified error definitions + one-sided vs two-sided CP bounds stated + finite-frame note; sec 6a reframed as cost-based escalation rules (not acceptance tests; power stated); test-retest and canary fixed at n=30 with flip definitions; Appendix A re-based (~84-100h small-B, ~99-130h mid-B). OSF draft: PRISMA-ScR items corrected to 9+10 (was 11); coverage 137/596=23.0% with measured retrieval bias (Included 85.0% vs Maybe 65.4%; DOI 91.6% vs 30.3%); [DECISION PENDING] block added (claims scope, B_registered/B_expanded/B_refinery, eligibility threshold, L1/L2 deviation). PROTOCOL.md sec 7/9/15/17/18 purged of pre-C-2 text presented as live; counts updated (459 PDFs, 137 missing). Code: reconcile.py false-concordance fixes (parentheticals, ''-collapse, True==1) + regression tests; grounding.py rewritten to the full 8-rule v2.2.1 contract incl. non-contiguous evidence + failure-pattern logging; stage0_prepare.py UnboundLocalError + partial-summary-clobber fixes; extraction_tool load-race guard + atomic writes + backups + _done guard; prompts-hash typo fixed (aeb55343->aeb55349). 123 tests green.",
+      "still_open": [
+        "stage4_consolidate.py + dual-model Stage 1-3 runners",
+        "extraction_tool blind-first withhold/commit/reveal mode",
+        "second-model (GPT/Codex) exact pin",
+        "output/.git commit+tag of C-2 state; remotes; .gitignore deposit policy",
+        "dependency pinning (pyproject/lockfile)",
+        "16 unscanned PDFs + 14 stale Stage-0 bundles + full Stage-0 rerun",
+        "top-level Screening/ security exposure (Telegram creds, .chrome_bon, CDP 9222)",
+        "registered-protocol decisions: claims scope, Corpus-B sets, eligibility threshold, search-strategy gaps, SQ4 empirical protocol"
+      ],
+      "reviewer_confirmed": false,
+      "reviewer_confirmed_note": "PENDING reviewer sign-off of C-2.1 (requested 2026-07-10); supersedes the C-2.0 sign-off request.",
+      "decision_path": "reviewer supplied an external audit + methodological assessment; session verified its claims against the repo (8 agents, all load-bearing claims confirmed) and applied the corrections that were artefact-level; registered-protocol-level decisions deferred to reviewer + supervisor"
+    },
+    {
+      "date": "2026-07-10",
+      "id": "reviewer-decisions-v2.3-and-corpus-freeze",
+      "change": "Reviewer decisions on the Round-3 open items, applied as protocol v2.3 (schema UNCHANGED, FROZEN v2.2.1): (1) claims scope = mapping of reported evidence (adequacy assessment descoped; qualitative adequacy discussion confined to the thesis refinery chapter); (2) SQ1-4 restated at review scope in the OSF amendment; SQ4 = transferability conditions reported for refinery contexts; empirical Sines validation = separate thesis protocol; (3) sec 5.3 circularity fix: Corpus-B membership by production mode against a CLOSED sector list (registered 5 + continuous chemicals + industrial gases + glass); non-stationarity clause DELETED from the definition (mechanisms are extracted outcomes); nested reporting sets B_registered/B_expanded/B_refinery; unlisted continuous-flow sectors route to human decision; (4) sec 5.2 eligibility RESTORED to the registered threshold (presents/proposes/evaluates/critiques with sufficient detail to identify and characterise); the v2.1-v2.2.1 tightening reverted; validation = extracted variable, never a gate; prompts committed+tagged v2.3-eligibility-registered (commit 5e63189); mini re-pilot on the 7 pilot papers recommended before production; (5) no second human available: L1/L2 selection mitigation = C-2.1 sec 3-Step-4b upstream exclusion audit + declared limitation. CORPUS FROZEN by reviewer decision: 459 retrieved, 137 non-retrieved deemed non-recoverable; freeze artefacts (preflight completion, full Stage-0 rerun, non_retrieved_records.json, missingness table) generated this session.",
+      "still_open_decisions": [
+        "second-model exact pin (at run start)",
+        "supervisor: deadline vs hours",
+        "reviewer sign-off of C-2.1"
+      ],
+      "decision_9_closed": "2026-07-10: search strategy = staged option B (reviewer-approved). Registered snowballing executed + reported per PRISMA-S; pre-registered trigger (>10% of snowball-included records, or >=5, not retrievable by the registered Scopus/WoS strategy -> supplementary Compendex run of both strings, delta screened; otherwise declare with snowballing yield as recall evidence). Declared limitations: doctoral theses (doctype filters), String-B calibration terms absent (SEC, energy intensity indicator, energy KPI, M&V), grey literature via snowballing only. Thesis text corrections: ~6%/4.4% figures = calibration yield only, never structural-gap evidence; 1996 = NEMVP (IPMVP first international edition 1997). PROTOCOL.md sec 16 + OSF_AMENDMENT_DRAFT.md updated. Snowballing runs post-eligibility -> does not block production.",
+      "decision_6_closed": "2026-07-10: Tier-2 branch CONFIRMED — thresholds 25/60; branch >60 = deep synthesis restricted to sector-priority head of roster, remainder descriptive, supervisor confirms scope; priority order = refining -> petrochemicals -> remaining sectors, recency tiebreaker. Nested-sets proposal (B_registered/B_expanded/B_refinery) REJECTED by reviewer: ONE analytical corpus, sector-granular reporting makes subset views derivable; expansion beyond the registered 5 sectors declared prospectively in the amendment. Closed-list production-mode membership criterion RETAINED (circularity fix stands).",
+      "reviewer_confirmed": true,
+      "decision_path": "reviewer answered the 12-item decision list in chat (2026-07-10): 1 concordo; 2 adaptar SQs ao alcance da review; 3 Corpus B = processos continuos + mapeamento sectorial via SQ1/Corpus A; 4 criterio largo; 5 sem segundo humano; 8 corpus fechado, restantes nao recuperaveis; 10/11 delegado; 6/9 a discutir; 12 depois"
+    },
+    {
+      "date": "2026-07-13",
+      "id": "validation-protocol-C2.2-external-review",
+      "change": "C-2.1 -> C-2.2 after an external methodological review (Codex), verified claim-by-claim before adoption. Applied: execution surfaces corrected to consumer subscriptions (Claude Code/Claude Max + Codex CLI/ChatGPT Plus — no API, no sampling parameters, no dated snapshots, no request IDs; surface provenance recorded instead: app versions, model labels, run dates); two-stage corpus freeze (2026-07-10 = initial database-retrieval freeze; final review-corpus freeze only after snowballing/supplementation closure); audit frame corrected to cell-level semantics (SRS over ALL eligible reconciled papers; census/divergence exclusions per cell; audit_sampler.py rewritten); e_v/n_v denominators + absolute e_v >= 3 trigger with n_v reported; blind-first claims branch-qualified (sec 3-Step-5); 'acceptance' wording removed (control rules only); upstream audit fixed at n=50 seed 44 with take-all-if-small rule; test-retest and canary fixed at n=30 with borderline-shortfall fallback and exact flip denominators; canary scope corrected (measures run-to-run instability only, not version changes); PROTOCOL.md sec 16 supplementation rule formalised (S/M symbols, S=0 uninformative, cause-routed remedies M_string/M_eng/M_thesis/M_grey, iterate-to-closure; 'adequate recall' phrasing banned); corpus definition = pre-specified main sector list + exploratory-or-documented-decision rule for unlisted continuous-flow sectors; PRISMA-ScR items 9/10 = reporting locus (the deviation is from JBI dual-reviewer guidance, not from the items); PRISMA-trAIce = supplementary transparency checklist; MISSINGNESS sector-signal scan = observable candidates only, not an upper bound; lexicon census volume re-based to 220/459; coverage taxonomy added (sec 4c) incl. an explicit provisional-accept class.",
+      "blocking_open_decisions": [
+        "D1 branch-B head size",
+        "D2 Claude runtime config",
+        "D3 supervisor: hours/deadline + |B|>60 contingency",
+        "D4 reviewer sign-off C-2.2 + amendment date/submission"
+      ],
+      "reviewer_confirmed": true,
+      "reviewer_confirmed_note": "SIGN-OFF GIVEN 2026-07-13 (reviewer, in chat: 'D1 opcao a, D2 opcao a, D3 nao e um problema agora, D4 preenchemos sem data, avanca'). This confirmation covers the C-2.2 document and closes the C-2.0/C-2.1 sign-off chain (those entries' false flags are historical states of superseded drafts). Production remains gated on the DATED OSF amendment submission."
+    },
+    {
+      "date": "2026-07-13",
+      "id": "C2.2-decisions-closed",
+      "change": "Reviewer closed the sec 13 open decisions in chat: D1 = option (a), branch-B blind-first head fixed at K=25 papers (total blind-first in the 25<|B|<=60 branch = 25 + 15 sub-sample = 40 papers, ~33h); D2 = option (a), Claude-side runtime = adaptive thinking + effort high, recorded here and held fixed for the whole run (canary re-runs under the same setting); D3 = supervisor endorsements DEFERRED by reviewer ('nao e um problema agora') — the |B|>60 pause-and-file-dated-amendment-note rule stands regardless; D4 = C-2.2 sign-off GIVEN, OSF amendment text finalised with the date intentionally blank until submission. Propagated to VALIDATION_PROTOCOL_C.md (sec 3-Step-5, sec 12, sec 13 rewritten as decision record) and OSF_AMENDMENT_DRAFT.md.",
+      "claude_runtime_config": {
+        "thinking": "adaptive",
+        "effort": "high",
+        "held_fixed": true
+      },
+      "reviewer_confirmed": true,
+      "decision_path": "reviewer chat message 2026-07-13"
+    },
+    {
+      "date": "2026-07-13",
+      "id": "validation-protocol-C2.3-order-fix",
+      "change": "Second external review verified claim-by-claim and applied as C-2.3 (documentary only): (1) EXECUTION ORDER CORRECTED - membership-critical Tier-1 adjudication (methodological_eligibility, level_3b) now PRECEDES the Corpus-B roster lock; FN census runs in parallel on the concordant-excluded set; roster renamed initial-wave/provisional until sec 16 snowballing/supplementation closure (C-2.2 wrongly closed membership before adjudicating its determining fields); (2) Tier-2 branch edge case: sub-sample n_sub = min(15, |B|-25); remainder <=15 reviewed blind-first integrally (branch degenerates to integral for |B| <= 40); |B|>60 = pause -> dated amendment note -> proceed (made explicit in the OSF draft); (3) overclaims removed: 'validated design' -> pre-registered; 'sole source of adjudicated truth' -> sole adjudicator of record; Tier-1 row now names the provisionally-accepted concordant eligible-non-3B class; FN-invisible-paper risk probability -> Unknown (not estimable); (4) volumes re-based to 220/459 and ~220-280 everywhere (census hours ~20-27h); (5) upstream sample reports x/n_u; canary drawn from the END-OF-RUN proceeding corpus (not frozen at 448); (6) OSF draft: R/M set notation (R = retrievable subset, M = S minus R), clean trigger disjunction S>0 AND (|M|/|S|>0.10 OR |M|>=5) without 'whichever is smaller', 'procedure to be used' (prospective), 'retrieval differed by Rayyan decision and DOI status' (observable), JBI wording corrected (selection: two independent reviewers recommended; charting: piloting by two + transparent alternatives permitted); (7) role_declaration updated (was still pointing at C-2.0). Propagated to VALIDATION_PROTOCOL_C.md, OSF_AMENDMENT_DRAFT.md, PROTOCOL.md (changelog + sec 0.6 + sec 18).",
+      "reviewer_confirmed": false,
+      "reviewer_confirmed_note": "PENDING - C-2.3 requires a fresh explicit reviewer sign-off before dating/submitting the OSF amendment (external-review instruction, accepted).",
+      "decision_path": "reviewer pasted the external C-2.3 review with instruction to verify and apply (2026-07-13)"
+    },
+    {
+      "date": "2026-08-24",
+      "id": "surface-segment-rotation-chatgpt",
+      "change": "execution_surfaces.<executor> in the pack run_metadata.json gains an additive surface_segments history. The ChatGPT twin is rotated to segment 2: app_version 26.715.72359 -> 26.818.41509 (model_label gpt-5.6-sol unchanged). Segment 1 is closed at batch-0052 / 2026-08-21T10:23:33+01:00 and retains its recorded version verbatim; the scalar app_version/model_label now describe the OPEN segment, which is what pack_verifier reads and what the next batch runs under.",
+      "rationale": "C-2.3 §3-Step-1 requires the application version as displayed by the surface, per run. The Codex/ChatGPT consumer application updated between run segments — a vendor-scheduled event, not a protocol choice. run_initializer.initialize_run is one-time by design and correctly refused the change: an orchestrator session must never be able to rewrite its own provenance. Overwriting the scalar in place was the wrong fix — it would have erased the fact that 440 standing extractions were produced under 26.715.72359 and made the record falsely claim a single-version run.",
+      "affects": [
+        "production/chatgpt/run_metadata.json (execution_surfaces.chatgpt)",
+        "output/provenance_rotation.py (new operator-only controller, 13 tests)",
+        "VALIDATION_PROTOCOL_C.md §3-Step-6 determinism canary interpretation",
+        "VALIDATION_PROTOCOL_C.md §10 reproducibility & provenance"
+      ],
+      "segments": {
+        "chatgpt": [
+          {
+            "segment": 1,
+            "app_version": "26.715.72359",
+            "model_label": "gpt-5.6-sol",
+            "batches": "batch-0001..batch-0052",
+            "opened_at": "2026-07-23T11:04:56+01:00",
+            "closed_at": "2026-08-21T10:23:33+01:00",
+            "extractions_finalized": 449,
+            "extractions_standing": 440,
+            "voided": "9 quarantined (1 wrong-PDF 2026-08-20, 8 stale-bundle 2026-08-24)"
+          },
+          {
+            "segment": 2,
+            "app_version": "26.818.41509",
+            "model_label": "gpt-5.6-sol",
+            "batches": "batch-0053..",
+            "opened_at": "2026-08-24",
+            "closed_at": null,
+            "scope": "the 8 stale-bundle re-extractions, and anything after"
+          }
+        ],
+        "claude": "not rotated — no drift reported; still app 2.1.179 / Opus 4.8 / adaptive thinking, effort high (D2)"
+      },
+      "consequence_registered_not_new": "§3-Step-6 already legislates this case: a canary rerun whose application version or displayed model label differs from the original run is retained and reported but marked CONFIGURATION-NON-COMPARABLE, not presented as a fixed-configuration canary. The end-of-run ChatGPT canary therefore lands in segment 2 while 440 of 448 standing ChatGPT extractions were produced in segment 1, so the ChatGPT side of the canary is configuration-non-comparable for those papers. No new policy is created here; the registered rule is invoked. The Claude side is unaffected unless it also drifts.",
+      "why_not_a_new_run_id": "The run is one continuous charting effort over one frozen corpus with one frozen prompt set; only the vendor's application build changed. Splitting run_id would fragment the batch history and the per-paper timestamps that §3-Step-1 requires to stay contiguous.",
+      "reviewer_confirmed": true,
+      "authorized_by": "Bernardo Ribeiro",
+      "audit_record": "output/provenance_rotation_20260824/"
+    }
+  ],
+  "audit_sample_fraction": null,
+  "audit_sample_fraction_note": "SUPERSEDED by C-2.0 (amendment validation-protocol-C2, 2026-07-03) and corrected to the C-2.2 cell-level frame (amendment validation-protocol-C2.2-external-review, 2026-07-13): SRS n=40 papers, seed 44, over ALL eligible reconciled papers; census/divergence exclusions per cell; per-field e_v/n_v with exact CP CIs. The former 0.20 stratified fraction and Wilson half-width target are historical (see amendments qc-reframe-audit-raise and validation-redesign-C).",
+  "data_limitations": [
+    {
+      "id": "source_string_null",
+      "scope": "A12 source_string for all 599 Level-3 records",
+      "note": "The Rayyan export does not preserve source-string provenance (STRING-A normative vs STRING-B methodological). source_string is null for every record. SQ1 A/B-split distribution not available from automatic extraction; reconstructable post hoc via Scopus/WoS re-runs (manual, outside this pipeline). SQ1 distribution by year/country/sector/org-type/normative-context is unaffected."
+    }
+  ],
+  "form_pilot_13_1": {
+    "pool": "Stage-0-eligible (proceeds_to_stage1 == true)",
+    "pool_size": 429,
+    "seed": 42,
+    "stratification": "3 Included + 2 Maybe",
+    "selected_keys": [
+      "rayyan-472535376",
+      "rayyan-472535533",
+      "rayyan-472536358",
+      "rayyan-472535592",
+      "rayyan-472535623"
+    ],
+    "v2_0_extraction_completed": true,
+    "v2_1_re_pilot_completed": true,
+    "v2_2_re_pilot_completed": true,
+    "v2_2_fresh_papers_added": [
+      "rayyan-472536623",
+      "rayyan-472535494"
+    ],
+    "schema_outcome": "FROZEN at v2.2.1",
+    "provenance_files": [
+      "output/pilot_form/SELECTED_KEYS.json",
+      "output/pilot_form/SELECTED_KEYS_v2.1_fresh.json",
+      "output/pilot_form/_workflow_raw_output.json (v2.0 raw extraction)",
+      "output/pilot_form/EXTRACTION_REPORT.md (v2.0 synthesis)"
+    ]
+  },
+  "schema_freeze": {
+    "version": "v2.2.1",
+    "git_tag": "v2.2.1-frozen",
+    "git_commit": "aeb5534",
+    "decision_path": "v2.0 pilot (n=5) → major rework → v2.1 → re-pilot (n=7) → refinement → v2.2 → re-pilot (n=7) → normalization-only patch → v2.2.1 frozen",
+    "next_step": "DONE — §13.2 setup complete. See validation_pilot_13_2."
+  },
+  "validation_pilot_13_2": {
+    "SUPERSEDED_BY": "VALIDATION_PROTOCOL_C.md (amendment validation-redesign-C, 2026-06-25). The n=30 hybrid below is historical record; the 10 blind templates were never charted. The cross-model probe in pilot_30/ai_blind_test/ became Protocol C's proof-of-concept.",
+    "design": "HYBRID (amendment hybrid-validation-design-13.2) -- SUPERSEDED by Protocol C",
+    "sample_n": 30,
+    "sample_seed": 43,
+    "sample_stratification": "15 Included + 15 Maybe",
+    "pool_after_exclusion": 422,
+    "excluded_keys": [
+      "rayyan-472535376",
+      "rayyan-472535533",
+      "rayyan-472536358",
+      "rayyan-472535592",
+      "rayyan-472535623",
+      "rayyan-472536623",
+      "rayyan-472535494"
+    ],
+    "split": {
+      "seed": 43,
+      "blind": {
+        "n": 10,
+        "stratification": "5 Included + 5 Maybe",
+        "dir": "output/pilot_30/manual/blind/"
+      },
+      "verification": {
+        "n": 20,
+        "stratification": "10 Included + 10 Maybe",
+        "dir": "output/pilot_30/manual/verification/"
+      }
+    },
+    "provenance_files": [
+      "output/pilot_30/SELECTED_KEYS.json",
+      "output/pilot_30/VALIDATION_SPLIT.json",
+      "output/pilot_30/INSTRUCTIONS_REVIEWER.md",
+      "output/make_ai_validation_pilot.py",
+      "output/make_validation_split.py",
+      "output/extraction_tool/"
+    ],
+    "status": "SUPERSEDED by Validation Protocol C (2026-06-25); not executed. See VALIDATION_PROTOCOL_C.md.",
+    "next_step_after_blind": "Reviewer signals 10 blind done → AI pipeline (Stage 1-3) runs on all 30 → kappa/PABAK on 10 blind → prefill 20 verification → reviewer corrects → correction rate + anchoring-bias estimate → consolidated report."
+  },
+  "extraction_batches": [],
+  "corpus_recovery": [
+    {
+      "date": "2026-07-08",
+      "event": "manual-recovery-batch-novos-0708",
+      "operator": "B. Ribeiro (tooling: novos/match_novos.py -> apply_moves.py)",
+      "reviewer_confirmed": false,
+      "added_to_canonical": 14,
+      "canonical_pdf_count_after": 459,
+      "brand_new_keys": [
+        "rayyan-472535346",
+        "rayyan-472535349",
+        "rayyan-472535468",
+        "rayyan-472535617",
+        "rayyan-472536384",
+        "rayyan-472536398",
+        "rayyan-472536428"
+      ],
+      "wrong_pdf_replacements": [
+        "rayyan-472535360",
+        "rayyan-472535447",
+        "rayyan-472535555",
+        "rayyan-472536454",
+        "rayyan-472536458",
+        "rayyan-472536459",
+        "rayyan-472536529"
+      ],
+      "wrong_pdf_still_unresolved": [
+        "rayyan-472535800",
+        "rayyan-472535801"
+      ],
+      "eliminated_english_only": [
+        "42663-Texto del artículo-86675-1-10-20240905.pdf (Universidad del Zulia, Spanish) -> novos/_eliminated/"
+      ],
+      "provenance_check": "all 14 title/DOI-aligned vs articles.csv (rapidfuzz token_set_ratio=100; AIP key rayyan-472535349 DOI-exact 10.1063/5.0305865)",
+      "tooling_fix": "apply_moves.py made canonical-only; previously dual-wrote to legacy top-level pdfs/ and collision-checked there, which would have falsely skipped all 7 wrong-PDF replacements",
+      "downstream_updates": "missing_papers.json trimmed to backlog-only; redownload_queue.json 7/9 marked resolved; manual_downloads.html regenerated"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "Detector (c) counter-anchored recall pass response",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "key",
+  "listed_sector_signals",
+  "other_continuous_flow_signals",
+  "application_strength",
+  "conservative_classification",
+  "one_line"
+ ],
+ "properties": {
+  "key": {
+   "type": "string",
+   "pattern": "^rayyan-[0-9]+$"
+  },
+  "listed_sector_signals": {
+   "type": "array",
+   "items": {
+    "$ref": "#/definitions/signal"
+   }
+  },
+  "other_continuous_flow_signals": {
+   "type": "array",
+   "items": {
+    "$ref": "#/definitions/signal"
+   }
+  },
+  "application_strength": {
+   "enum": [
+    "applied",
+    "validated",
+    "demonstrated",
+    "mentioned_only",
+    "none"
+   ]
+  },
+  "conservative_classification": {
+   "type": "boolean"
+  },
+  "one_line": {
+   "type": "string",
+   "minLength": 10,
+   "maxLength": 400
+  }
+ },
+ "definitions": {
+  "signal": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "signal",
+    "quote",
+    "page",
+    "sector"
+   ],
+   "properties": {
+    "signal": {
+     "type": "string",
+     "minLength": 3
+    },
+    "quote": {
+     "type": "string",
+     "minLength": 10
+    },
+    "page": {
+     "type": "integer",
+     "minimum": 1
+    },
+    "sector": {
+     "type": "string",
+     "minLength": 2
+    }
+   }
+  }
+ }
+}

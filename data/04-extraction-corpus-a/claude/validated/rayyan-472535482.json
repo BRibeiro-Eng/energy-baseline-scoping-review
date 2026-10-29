@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535482",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:48:55Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article contributes to answering which management tools promote the realization of",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Empirical study of whether certified energy/environmental management systems (ISO 50001/14001) increase energy-efficiency-measure implementation in large Austrian firms. Its regressions/ANOVA model EEM implementation rate as a function of management style and perceived risk; energy normalisation (baseline/standard year, production volume, heating-degree-days, savings/total-consumption ratio) is an incidental methodological control. No EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (variables/functional form/construction), so EnPI/EnB content is incidental only.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The dataset is cross-sectional in manufacturing, services and construction industries",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Uses baseline/HDD/production normalisation and intensity ratios, but object is management-system effect on EEM uptake, not an EnPI/EnB model. paper_type 'other': large-N econometric firm study."
+  },
+  "stage2": null,
+  "stage3": null
+}

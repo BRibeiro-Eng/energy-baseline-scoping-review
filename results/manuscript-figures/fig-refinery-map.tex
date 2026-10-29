@@ -1,0 +1,25 @@
+% Figure: evidence map of the 13 refinery and petrochemical publications (Table A4). Thesis palette (P3).
+% Codes: E exact boundary; D declared regime; Q qualitative domain; R reported out-of-sample result;
+% ? not established in the extracted record; n.a. not applicable as originally coded.
+\begin{tikzpicture}[x=2.25cm,y=-0.52cm,
+  cpos/.style={fill=corDestaque,draw=white,line width=1.2pt},
+  cunk/.style={fill=corFundo,draw=white,line width=1.2pt},
+  cna/.style={fill=white,draw=corCinzaC,line width=.5pt,pattern=crosshatch,pattern color=corCinzaC},
+  lbl/.style={font=\scriptsize\bfseries},
+  hdr/.style={font=\scriptsize,align=center,text=corTinta,anchor=south}]
+  \foreach \h [count=\j from 0] in {{Boundary\\correspondence},{Re-estimation\\regime},{Validity\\domain},{Out-of-sample\\result}}
+    \node[hdr] at (\j+0.5,-0.15) {\h};
+  \foreach \name/\codes [count=\i from 0] in {
+    {Velázquez et al. (2013)}/{U,U,U,R}, {Yao et al. (2016)}/{U,D,Q,U}, {Moghadasi et al. (2025)}/{U,U,U,R},
+    {Beisheim et al. (2019)}/{E,D,Q,U}, {Hamedi and Mokhtar (2019)}/{U,U,U,R}, {Beisheim et al. (2020)}/{E,D,U,U},
+    {Valencia-Ochoa et al. (2017)}/{U,U,U,U}, {Morales et al. (2018)}/{U,U,U,U},
+    {Almanza and Leon-De-Los-Santos (2025)}/{E,U,U,R}, {Ikeyama et al. (2017)}/{U,U,U,U},
+    {Hashim et al. (2019)}/{U,U,U,N}, {Maggiore et al. (2020)}/{U,U,U,N}, {Hashim et al. (2022)}/{U,U,U,N}} {
+    \node[anchor=east,font=\scriptsize,text=corTinta] at (-0.08,\i+0.5) {\name};
+    \foreach \c [count=\j from 0] in \codes {
+      \if\c U \path[cunk] (\j,\i) rectangle ++(1,1); \node[lbl,text=corCinza] at (\j+0.5,\i+0.5) {?};
+      \else\if\c N \path[cna] (\j+0.04,\i+0.08) rectangle ++(0.92,0.84); \node[lbl,text=corCinza,fill=white,inner sep=1pt] at (\j+0.5,\i+0.5) {n.a.};
+      \else \path[cpos] (\j,\i) rectangle ++(1,1); \node[lbl,text=white] at (\j+0.5,\i+0.5) {\c};
+      \fi\fi }
+  }
+\end{tikzpicture}

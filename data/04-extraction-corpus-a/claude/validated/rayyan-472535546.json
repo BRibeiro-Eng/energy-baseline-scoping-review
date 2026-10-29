@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535546",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T02:39:12+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the objective of this research is to identify the challenges found by organizations during the implementation of ISO 50001:2011, according to the literature",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Systematic literature review whose synthesis is of implementation challenges/barriers to ISO 50001, not of EnPI/EnB measurement models. The review characterises no model (no variables, functional form, or construction/estimation approach for any indicator or baseline). EnPI/EnB content appears only incidentally: 'Difficulty in determining the energy baseline and energy performance indicators' is listed as one of eleven challenges. Per the v2.3 review/synthesis decision tree step 1 (no model characterised for the objects central to the synthesis) and the incidental-mention rule, this is ineligible.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "To carry out a systematic literature review to provide a synthesis of the",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Review of ISO 50001 implementation challenges (206 documents -> 17 articles -> 11 challenges). 'Difficulty in determining the energy baseline and energy performance indicators' is the 2nd-most-cited challenge (6/17), but no EnPI/EnB model is identified or characterised; EnPI/EnB is incidental. Ineligible -> stage2/stage3 null."
+  },
+  "stage2": null,
+  "stage3": null
+}

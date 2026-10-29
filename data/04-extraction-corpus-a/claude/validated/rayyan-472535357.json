@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535357",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "four energy performance indicators were proposed for the company, based on ISO 50001 and relevant literature: energy consumption per unit of production",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study was conducted in a small plastic injection company, where the model was tested and refined",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a small plastic injection company",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Eligible: proposes energy performance indicators (energy consumption per unit of production = kWh/unit, plus cost, total energy, CO2) with equations, based on ISO 50001. Level 3B false: application is a single plastic injection moulding SME (discrete manufacture of plastic caps), not in the closed continuous-process list. Promethee-ROC is a complementary MCDM method, not the EnPI model."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This research was conducted in a plastic injection company in Curitiba, Paraná, which was named Company T",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Curitiba, Paraná, Brazil",
+      "evidence_quote": "conducted in a plastic injection company in Curitiba, Paraná",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "plastic injection",
+      "evidence_quote": "a plastic injection company in Curitiba, Paraná",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Company T is a manufacturer of plastic caps for packaging",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "implementing an energy management system based on ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio"],
+      "evidence_quote": "CEP = Energy consumption in the period/production in the period",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"],
+      "evidence_quote": "the Promethee-ROC multicriteria decision-making support method was applied to rank the recommendations",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

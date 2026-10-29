@@ -1,0 +1,273 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535524",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:31:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this contribution, an aggregation method is proposed to exploit the analysis of the factors on lower hierarchical layers for the evaluation of the performance of an aggregated domain. Thereby, the resulting aggregated indicator and the corresponding baseline consider all the identified factors from the lower layers",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The concept is applied exemplarily to an integrated chemical production site and the contributions of each plant to the deviation of the energy performance of the site are analyzed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The setup of this example is a part of the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A part of the Cologne site, denoted as a production complex, is chosen to illustrate the application of the methods.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Cologne",
+      "evidence_quote": "The setup of this example is a part of the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "petrochemical production site",
+      "evidence_quote": "The setup of this example is a part of the petrochemical production site of INEOS in Cologne",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The total energy demand of a continuous chemical process is mainly driven by the process utilization.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "One explicit requirement of the standards ISO 50006:2014 [54] and ISO 50001:2018 is the identification and quantification of these factors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "composite index"
+      ],
+      "evidence_quote": "If generic indicators are available on lower hierarchical layers, they can be aggregated on the next hierarchical layer instead of computing separate indicators on each layer.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "internal and external production rate of each plant",
+        "import and export situation for products",
+        "utilization",
+        "ambient temperature"
+      ],
+      "evidence_quote": "This new energy baseline considers the internal and external production rate of each plant, the import and export situation for products as well as the performance model of each plant with respect to the utilization and the ambient temperature.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Known plant-level BDP models are used as EnBs and aggregated to the site level; reference specific energy consumptions are set at mean plant utilization and mean temperature of the evaluated year.",
+      "evidence_quote": "The BDP models for each production plant are known and used as the energy baselines (EnBs). The reference specific energy consumptions of the plants are defined as the best-demonstrated practice at the mean utilization of each plant and the mean temperature of the evaluated year.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "A part of the Cologne site, denoted as a production complex, is chosen to illustrate the application of the methods.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scope_description": {
+      "value": "a production complex within the petrochemical production site of INEOS in Cologne, limited to three interconnected plants",
+      "evidence_quote": "A part of the Cologne site, denoted as a production complex, is chosen to illustrate the application of the methods. The number of plants in this case study is limited to three",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "In this contribution, a new method is proposed to use the local energy performance indicators and energy baselines from the process level for the energy performance evaluation on the site or company level by aggregation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In this contribution, a new method is proposed to use the local energy performance indicators and energy baselines from the process level for the energy performance evaluation on the site or company level by aggregation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "To comply with ISO 50001:2018, a method is needed that considers all factors which have a significant influence on the energy performance but is able to aggregate the figures from process or plant level correctly to the site level.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "The methods are used at the INEOS site in Cologne with over 20 interacting processing plants to monitor and report the site energy performance.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "In the example, monthly values of the energy consumption and of the efficiency of the plants and the complex are computed.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [
+        "NH3 steam EnB coefficients: 2, 0.5, 0.5 GJ/t",
+        "NH3 electricity EnB coefficients: 2, 0.4 GJ/t",
+        "NH3 natural-gas EnB coefficients: 20, 4, 0.2 GJ/t",
+        "AN steam EnB coefficients: 2, 1 GJ/t",
+        "AN electricity EnB coefficients: 3, 1 GJ/t",
+        "AN natural-gas EnB: 0",
+        "POX steam EnB coefficients: 15, 2, 1 GJ/t",
+        "POX electricity EnB coefficients: 4, 0.8 GJ/t",
+        "POX natural-gas EnB: 0"
+      ],
+      "evidence_quote": [
+        "EnB models for the plants with respect to steam (S), electricity (EP) and natural gas (NG) for production rates",
+        "EnB\n15GJ\nt\n2GJ\nt\n30\n30\n1GJ\nt\n24 C\n24 C\nS\nAmb\nPOX,"
+      ],
+      "page": [
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "implementation_barriers": {
+      "value": [
+        "high effort to prepare the data for site-wide management systems",
+        "limited availability of resources"
+      ],
+      "evidence_quote": [
+        "These interconnections and the complexity of the site make performance figures on site level hard to interpret, causing a high effort to prepare the data for site-wide management systems.",
+        "This makes step-wise improvements of the baseline models for each plant possible in case of a limited availability of resources."
+      ],
+      "page": [
+        7,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.91
+    }
+  }
+}

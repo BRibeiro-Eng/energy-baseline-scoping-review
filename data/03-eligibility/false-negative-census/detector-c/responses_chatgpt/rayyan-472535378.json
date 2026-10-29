@@ -1,0 +1,88 @@
+{
+  "key": "rayyan-472535378",
+  "listed_sector_signals": [
+    {
+      "signal": "Solar-powered hydrogen production through water electrolysis.",
+      "quote": "Solar–hydrogen systems\nutilize PV technology to produce electricity from sunlight, which powers an electrolyzer\nthat splits water into hydrogen and oxygen through electrolysis.",
+      "page": 4,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "Industrial-scale solar–hydrogen installations appear in the literature review.",
+      "quote": "Lately, extensive research (Table 3) has been performed to examine the possibilities\nof solar–hydrogen systems in different applications, from small residential systems to big\nindustrial installations.",
+      "page": 6,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "Ammonia is mentioned as a hydrogen storage and transportation carrier; ammonia production is not established.",
+      "quote": "Large-scale storage and transportation methods have been reviewed, including\ncompressed and liquid hydrogen, pipeline blending, and ammonia-based carriers.",
+      "page": 7,
+      "sector": "continuous chemical production (sulfuric acid, ammonia, methanol, fertilizers, chlor-alkali)"
+    },
+    {
+      "signal": "A cited PEM electrolyzer model simulates hydrogen flow and is supported by experimental data.",
+      "quote": "the model accurately simulates key parameters like current, voltage, and\nhydrogen flow through a Data Acquisition System (DAQ). Experimental data confirm the\nDR model’s efficacy, making it a valuable asset in modeling PEMEL performance under\nvarying conditions and advancing efficient hydrogen storage applications [79].",
+      "page": 8,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "Hydrogen production technologies include solid oxide electrolysis and electrified steam methane reforming in the literature review.",
+      "quote": "The review identifies solid\noxide electrolysis cells (SOECs) as a leading technology, along with promising alternatives\nlike anion exchange membranes (AEMs) and electrified steam methane reforming (ESMR).",
+      "page": 8,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "The methodology describes sensor data from a solar–hydrogen system, including hydrogen storage levels.",
+      "quote": "The dataset consists of time-series information gathered from\ndifferent sensors integrated into the solar–hydrogen system. The data encompass\nkey metrics such as energy production and consumption, hydrogen storage levels,\nand environmental factors.",
+      "page": 15,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "Hydrogel polymer synthesis appears only in a cited reference; production mode is unspecified.",
+      "quote": "Fundamental\nConcepts of Hydrogels: Synthesis, Properties, and Their Applications. Polymers 2020, 12, 2702.",
+      "page": 31,
+      "sector": "petrochemicals (organic chemistry, polymers, olefins)"
+    },
+    {
+      "signal": "Energy performance indicators and energy management in kraft pulp mills appear in a cited reference.",
+      "quote": "Decarbonization of Industry: Implementation of Energy Performance\nIndicators for Successful Energy Management Practices in Kraft Pulp Mills.",
+      "page": 32,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Hydrogen storage is described as enabling continuous electricity supply.",
+      "quote": "Hydrogen storage provides grid\nindependence, ensuring continuous\nenergy supply without relying on\nexternal sources.",
+      "page": 6,
+      "sector": "Electricity supply and energy storage"
+    },
+    {
+      "signal": "Power plants and pipelines are mentioned as potential monitoring contexts.",
+      "quote": "Helps monitor large energy infrastructure\n(e.g., pipelines, power plants) using\nhigh-accuracy object detection and\ntracking systems.",
+      "page": 11,
+      "sector": "Power generation and energy pipelines"
+    },
+    {
+      "signal": "Geothermal and solar thermal systems are mentioned as potential fault-monitoring applications.",
+      "quote": "InceptionV3 can be used to monitor\nthermal systems (like geothermal or solar\nthermal) for performance analysis and\nfault detection.",
+      "page": 11,
+      "sector": "Geothermal and solar thermal energy"
+    },
+    {
+      "signal": "Reverse-osmosis desalination appears in a cited hybrid energy-management study.",
+      "quote": "Data-driven optimal energy management for a\nwind-solar-diesel-battery-reverse osmosis hybrid energy system using a deep reinforcement learning approach.",
+      "page": 29,
+      "sector": "Desalination (reverse osmosis)"
+    },
+    {
+      "signal": "A cited study combines MED-MVC freshwater production with photovoltaics, electrolysis and fuel cells.",
+      "quote": "Performance evaluation of standalone new solar energy system of hybrid\nPV/electrolyzer/fuel cell/MED-MVC with hydrogen production and storage for power and freshwater building demand.",
+      "page": 31,
+      "sector": "Desalination (MED-MVC)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper tests solar-panel image classifiers and proposes ISO 50001 energy management for university solar–hydrogen systems, using Kangwon National University as its organizational example."
+}

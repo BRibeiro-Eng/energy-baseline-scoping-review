@@ -1,0 +1,85 @@
+{
+  "attempt": 1,
+  "errors": [
+    "stage1.paper_type: evidence is not grounded"
+  ],
+  "grounding": {
+    "checked": 8,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "failure_context": {
+          "normalized_quote": "from the set of over 100 central offices analyzed along a period of three years, four of them have been picked up to exemplary show how the results got through the ri-cvtlc-icr method agree with the real behavior of the electricity consumptions.",
+          "quote": "From the set of over 100 central offices ana-\nlyzed along a period of three years, four of them have \nbeen picked up to exemplary show how the results \ngot through the RI-CVTLC-ICR method agree with \nthe real behavior of the electricity consumptions.",
+          "score": 82.85714285714285,
+          "snippet": "lyzed along a period of three years, four of them have (10) scp = ∑ i (check = ok)i nchecks ∙100 been picked up to exemplary show how the results got through the ri-cvtlc-icr method agree with the rea",
+          "snippet_page": 8
+        },
+        "field": "stage1.paper_type",
+        "grounded": false,
+        "locator": null,
+        "page_unverified": false,
+        "score": 82.85714285714285
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.multi_site",
+        "grounded": true,
+        "locator": 8,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.type_of_organisation",
+        "grounded": true,
+        "locator": 2,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.ems_standard",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": true,
+        "locator": 8,
+        "page_unverified": false,
+        "score": 100.0
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535385",
+  "valid": false,
+  "warnings": []
+}

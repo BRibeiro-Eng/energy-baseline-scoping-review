@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472536725",
+ "tier": "B",
+ "ts": "2026-09-10T17:09:50",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 183.1,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "analise de performance sem metodologia"
+}

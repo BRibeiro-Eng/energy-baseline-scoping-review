@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472535624",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to energy/environmental indicators for the steel industry cited in the literature review table (steel is a listed primary-metals continuous sector), but only as a bibliographic mention, not applied in this paper",
+      "quote": "Energy and Environmental indicators for the steel industry.",
+      "page": 5,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Reference in bibliography to a steel-industry indicators study (Sweden), mentioned only",
+      "quote": "Morfeldt, J., Silveira, S., Hirsch, T., Lindqvist, S., Nordqvist, A., Pettersson, J.,\nPettersson, M., 2015. Improving energy and climate indicators for the steel\nindustry: the case of Sweden. J. Clean. Prod. 107, 581e592.",
+      "page": 16,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The case-study manufacturing plant includes an on-site cogeneration system (palm-oil-fuelled motor) that supplies the plant's electricity, treated as a cost/responsibility center in the methodology application",
+      "quote": "The plant is in addition provided with a\ncogeneration system (a motor fueled with palm oil) that is able to\nsatisfy all its electricity needs",
+      "page": 11,
+      "sector": "cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and validates an Energy Performance Indicators methodology, applied to an Italian consumer-goods manufacturing plant with four discrete production departments, an on-site palm-oil cogeneration unit, and technical utilities—discrete manufacturing, not continuous-flow process industry."
+}

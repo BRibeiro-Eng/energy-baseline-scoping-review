@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536467",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:24:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "it is necessary to identify the relevant Energy Performance Indicators",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Four Brick Factories (BF)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "with emphasis on the brick manufacturing industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Four brick factories, one owner (multi-case). Brick/building materials not on closed 3B list; cement/lime/steel only cited as EPIA replicability targets. Org typed continuous per paper's 'linear FIFO' process framing."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": [
+        "Four Brick Factories (BF)",
+        "the same company"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "four brick factories in Romania",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "brick manufacturing",
+      "evidence_quote": "with emphasis on the brick manufacturing industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "process type (linear, first in - first out)",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001:2018",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol (IPMVP)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "EU-ETS"
+      ],
+      "evidence_quote": "fourth phase of the EU-ETS mechanism",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "Energy Intensity (EI) was selected as a global EnPI",
+        "determining the electricity and natural gas baselines"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

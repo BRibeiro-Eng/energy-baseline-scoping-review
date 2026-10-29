@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535493",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:57:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article describes the application of the ISO \n50001 standard in energy management of companies.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ineligibility_reason": "Presents a qualitative eight-stage 'mechanism' for implementing and operating an ISO 50001 energy management system in enterprises; it does not present, propose, evaluate, or critique any EnPI/EnB measurement model. No measured/normalised quantity, independent variables, functional form, or construction/estimation approach is identified or characterised. This is a management-implementation framework without EnPI/EnB measurement-model content (v2.3 ineligible).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "the author \nhas developed a mechanism that consists of the main stages of \nimplementation and further operation of the energy management \nsystem",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Conceptual/managerial ISO 50001 EnMS implementation framework (8 organisational stages); no EnPI/EnB measurement model identified or characterised, so ineligible per v2.3 threshold. Context is Russian enterprises generally, not a continuous-process sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

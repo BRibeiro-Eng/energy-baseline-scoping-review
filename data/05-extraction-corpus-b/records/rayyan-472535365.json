@@ -1,0 +1,638 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535365",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 19,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "gas refinery",
+        "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Iran",
+        "evidence_quote": "The proposed data-driven energy manage­\nment approach was implemented in an industrial-scale ethane decarboniza­\ntion unit in South Pars Gas Complex in Iran.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "unit",
+        "evidence_quote": "The proposed data-driven energy manage­\nment approach was implemented in an industrial-scale ethane decarboniza­\ntion unit in South Pars Gas Complex in Iran.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Industrial-scale ethane decarbonization unit (EDU) that removes CO2 from sour ethane gas using diethanolamine (DEA) solvent; a steam reboiler provides the thermal energy for amine regeneration.",
+        "evidence_quote": "In the EDU, diethanolamine (DEA) solvent removes CO2 from the sour ethane gas.",
+        "page": 9,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery — model empirically applied there",
+        "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+        "page": 10,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the Gradient Boosting Machines (GBM) algorithm / GBM prediction model (energy baseline)",
+          "baseline_period_start": {
+            "value": "January 2020",
+            "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+            "page": 10,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "January 2021",
+            "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+            "page": 10,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Gradient Boosting Machines (GBM) regression model developed on 2020 baseline-period data",
+            "evidence_quote": "Also, the energy consumption predictive model, as an energy baseline, was developed by the \nGradient Boosting Machines (GBM) algorithm as the most suitable regression method for such \nprocesses (Moghadasi, Ozgoli, and Farhani 2021b).",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "n_estimators = 500",
+            "learning_rate = 0.01",
+            "max_depth = 20"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "A high- \naccuracy model with 99% R-squared is developed by applying the Gradient \nBoosting Machines algorithm to predict the unit's energy consumption as an \nenergy baseline.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kg.hr−1",
+              "evidence_quote": "16\nQS\nSteam flow\nkg.hr−1\nmanipulated",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "tree ensemble"
+              ],
+              "evidence_quote": "Also, the energy consumption predictive model, as an energy baseline, was developed by the \nGradient Boosting Machines (GBM) algorithm as the most suitable regression method for such \nprocesses (Moghadasi, Ozgoli, and Farhani 2021b).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "gradient training",
+              "evidence_quote": "Also, the energy consumption predictive model, as an energy baseline, was developed by the \nGradient Boosting Machines (GBM) algorithm as the most suitable regression method for such \nprocesses (Moghadasi, Ozgoli, and Farhani 2021b).",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "other",
+              "evidence_quote": "At first, a multicollinearity study was accomplished in the feature selection procedure to avoid target \nleakage by choosing independent features.",
+              "page": 10,
+              "support_class": "requires inference",
+              "other_verbatim": "multicollinearity analysis to drop correlated features plus random forest feature-importance ranking of the remaining variables"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "Table 4 indicates eight modeling variables that affect energy consumption, so the appropriate type \nof energy performance indicator for EDU is a statistical model.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "Scikit-learn Python library",
+              "evidence_quote": "For this, the Scikit-learn Python library was utilized to \nimplement the models in this work (Pedregosa et al. 2011).",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "QFG Feed gas flow",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "3\nQFG\nFeed gas flow\nkg.hr−1\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "QSG Sweet gas flow",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "6\nQSG\nSweet gas flow\nkg.hr−1\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "TS Steam temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "1\nTS\nSteam temperature\n°C\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "PS Steam pressure",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "2\nPS\nSteam pressure\nbar\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "QLATA Lean amine flow to absorber",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "10\nQLATA\nLean amine flow to absorber\nkg.hr−1\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "TFG Feed gas temperature",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "4\nTFG\nFeed gas temperature\n°C\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "TLATA Lean amine temperature to absorber",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "11\nTLATA\nLean amine temperature to absorber\n°C\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "∆PA Pressure differential on absorber",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "12\n∆PA\nPressure differential on absorber\nbar\ninput",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "PFG (feed gas pressure)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "PSG (sweet gas pressure)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "TSG (sweet gas temperature)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "CCO2 (concentration of CO2 in the sweet gas)",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "type_other_verbatim": "product gas CO2 concentration (quality specification)",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "QLAAR (lean amine flow after regenerator)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "QRABH (rich amine, before heat exchanger)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            },
+            {
+              "verbatim": "TRABR (rich amine, before regenerator)",
+              "type": "operating mode",
+              "role": "excluded",
+              "evidence_quote": "As a result, seven variables \ncontaining PFG, PSG, TSG, CCO2, QLAAR, QRABH, and TRABR were removed from modeling features.",
+              "page": 10,
+              "support_class": "direct statement",
+              "page_as_recorded": 11,
+              "locator_corrected": true
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "sub-hourly",
+              "evidence_quote": "The raw \ndataset contains around 9.4 million data sampled every 10 min throughout 2020 as a baseline \nperiod.",
+              "page": 10,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "sub-hourly",
+              "evidence_quote": "The dataset consists of 52,560 \nrecords of unit states sampled throughout 2020 as a baseline period.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 52560,
+              "evidence_quote": "The dataset consists of 52,560 \nrecords of unit states sampled throughout 2020 as a baseline period.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "As an example of these variables time series data, the feed (sour) gas flow rate trend is \nillustrated in Figure 4.",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "process historian tag",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+              "page": 10,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update baseline",
+                "rolling",
+                "recalibrate"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate",
+                "retrain"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "operating range",
+                "applicable when",
+                "extrapolation"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "training set",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+                "page": 12,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (validation set)",
+                  "value": 0.99,
+                  "unit": null,
+                  "period_or_context": "holdout validation set (20%)",
+                  "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+                  "page": 12,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "RMSE (validation set)",
+                  "value": "108.8",
+                  "unit": "kg.hr−1",
+                  "period_or_context": "holdout validation set (20%)",
+                  "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+                  "page": 12,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "RMAE (validation set)",
+                  "value": "0.14",
+                  "unit": "%",
+                  "period_or_context": "holdout validation set (20%)",
+                  "evidence_quote": "the GBM \nalgorithm performed as a robust and high-accuracy model with R2\n(validation set) = 0.99, RSME (validation \nset) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14% at predicting the steam flow rate of the EDU.",
+                  "page": 12,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "Finally, to assess the accuracy of prediction \nmodeling, the entire sample points were randomly partitioned into two parts, training and validation \ndata, with ratios of 80% and 20%.",
+                "page": 6,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Based upon the offline study on the holdout \nvalidation set, utilizing this data-driven approach in the EDU can result in a minimum of \n10.31% save in energy usage, equal to 63,119 metric tons decrease in consuming steam, \nreducing 3,787,140 Nm3 of natural gas usage, and decreasing 7,027 tons of CO2 emissions in \none year.",
+                "page": 16,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "energy (steam) saving potential",
+                  "value": "10.31",
+                  "unit": "%",
+                  "period_or_context": "annual, offline holdout study",
+                  "evidence_quote": "Based upon the offline study on the holdout \nvalidation set, utilizing this data-driven approach in the EDU can result in a minimum of \n10.31% save in energy usage, equal to 63,119 metric tons decrease in consuming steam, \nreducing 3,787,140 Nm3 of natural gas usage, and decreasing 7,027 tons of CO2 emissions in \none year.",
+                  "page": 16,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "steam consumption saving",
+                  "value": "63,119",
+                  "unit": "ton.year−1",
+                  "period_or_context": "annual, four EDUs / entire plant",
+                  "evidence_quote": "Based upon the offline study on the holdout \nvalidation set, utilizing this data-driven approach in the EDU can result in a minimum of \n10.31% save in energy usage, equal to 63,119 metric tons decrease in consuming steam, \nreducing 3,787,140 Nm3 of natural gas usage, and decreasing 7,027 tons of CO2 emissions in \none year.",
+                  "page": 16,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "natural gas saving",
+                  "value": "3,787,140",
+                  "unit": "Nm3.year−1",
+                  "period_or_context": "annual",
+                  "evidence_quote": "Based upon the offline study on the holdout \nvalidation set, utilizing this data-driven approach in the EDU can result in a minimum of \n10.31% save in energy usage, equal to 63,119 metric tons decrease in consuming steam, \nreducing 3,787,140 Nm3 of natural gas usage, and decreasing 7,027 tons of CO2 emissions in \none year.",
+                  "page": 16,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "CO2 emissions reduction",
+                  "value": "7,027",
+                  "unit": "ton.year−1",
+                  "period_or_context": "annual",
+                  "evidence_quote": "Based upon the offline study on the holdout \nvalidation set, utilizing this data-driven approach in the EDU can result in a minimum of \n10.31% save in energy usage, equal to 63,119 metric tons decrease in consuming steam, \nreducing 3,787,140 Nm3 of natural gas usage, and decreasing 7,027 tons of CO2 emissions in \none year.",
+                  "page": 16,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "annual cost-saving potential",
+                  "value": "388,631",
+                  "unit": "USD.year−1",
+                  "period_or_context": "annual",
+                  "evidence_quote": "7\nAnnual cost-saving potential\n388,631\nUSD.year−1",
+                  "page": 16,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C12_method_data_requirements": [
+            "Large historical dataset from the Distributed Control System (DCS), sampled every 10 min",
+            "Process insight/knowledge to identify relevant variables prior to feature selection"
+          ],
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petroleum refining",
+        "evidence_quote": "The present study considered data collected between January 2020 and January 2021 from a gas \nrefinery's Distributed Control System (DCS) plant at Iran's South Pars Gas Complex.",
+        "page": 10,
+        "support_class": "requires inference",
+        "absence_basis": null
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "Therefore, all data recorded during startup, \noverhaul, etc., as well as noise points, were removed from the dataset.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data",
+      "cause_other_verbatim": "outliers, out-of-range data and startup/overhaul periods in the raw DCS dataset"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "At first, a multicollinearity study was accomplished in the feature selection procedure to avoid target \nleakage by choosing independent features.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "Then, the outliers and out-of-range values were filtered out from the dataset using univariate and \nmultivariate approaches for the remaining components.",
+      "page": 10,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "segmented baseline",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "In the clustering part, the whole sample points were divided into the nominal working conditions \nclusters utilizing the k-means algorithm since the existing data contains similar status subgroups of the \nEDU's operation.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "apply other ML and optimization algorithms to quantify energy-saving potential instead of comparing average with lowest energy usage",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "As future work, other ML and optimization algorithms can be applied to quantify the energy \nsaving potential instead of comparing the average energy consumption with the lowest \nenergy usage of the operational modes of the unit.",
+      "page": 17,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "Energy performance analysis is conducted using the \nfollowing relations:",
+      "page": 5,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "available on request",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "github",
+        "repository",
+        "script"
+      ]
+    }
+  },
+  "reviewer_notes": "Single application (industrial ethane decarbonization unit, South Pars Gas Complex, Iran) and one energy performance model (GBM regression predicting steam flow rate as an energy baseline). The k-means clustering identifies operating states for ECO quantification but is not itself an energy performance model, so it is recorded only as a segmentation adaptation. Sector registered as petroleum refining by inference — the paper self-describes as a 'gas refinery' within the oil-and-gas refining context; reviewer may prefer 'continuous chemical production' given it is a gas-treating (amine absorption) unit. Reported R2=0.99, RMSE=108.8 kg.hr−1 and RMAE=0.14% are all on the 20% holdout validation set (out-of-sample); no in-sample fit metric is separately reported. Variable selection combined a multicollinearity study (dropped 7 variables) with random forest feature-importance ranking, hence coded 'other'. Coefficients coded not applicable because GBM is a tree ensemble; hyperparameters (n_estimators=500, learning_rate=0.01, max_depth=20) are reported instead.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "assumption",
+        "drift",
+        "non-stationary",
+        "outlier",
+        "multicollinearity",
+        "data quality"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "clustering",
+        "segment",
+        "outlier removal",
+        "future work",
+        "re-estimation"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "scope",
+        "only",
+        "cannot"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "cost",
+        "organisation",
+        "maintenance"
+      ]
+    }
+  },
+  "attempt": 1
+}

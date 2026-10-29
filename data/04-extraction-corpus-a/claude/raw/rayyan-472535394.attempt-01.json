@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535394",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In this study, the concept and development process of the international standard for energy management assessment is discussed.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": "Paper documents the development of ISO TS 50011, a qualitative maturity/progress assessment standard for energy management systems (checklist scoring across organisation structure, operation, and target achievement). It presents no EnPI/EnB measurement model; energy intensity appears only as Japanese regulatory background.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "the score of each structure out of 100 points and the final score is the sum of each score in the structure",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline: p.2 notes energy intensity (energy per product/selling unit) and its denominator sensitivity, a possible EnPI critique, but this is incidental regulatory background. Core deliverable is a maturity/progress assessment method (ISO TS 50011), not an EnPI/EnB model. Ruled ineligible per the maturity-assessment-without-model-content clause."
+  },
+  "stage2": null,
+  "stage3": null
+}

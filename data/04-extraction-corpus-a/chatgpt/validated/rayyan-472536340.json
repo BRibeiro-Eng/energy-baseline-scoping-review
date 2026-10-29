@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536340",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T09:39:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "eKPIs are calculated per functional unit, with functional units representing measurable references such as product output, specific recipes, operational procedures, or provided services. One of the most widely used indicators for assessing plant performance is Specific Energy Consumption (SEC) (ISO50006:2023 (2023)), which quantifies the energy consumed per functional unit.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This work presents an Energy Management System (EnMS) Plug-\n&-Monitor architecture that enables rapid EnMS deployment and immediate insights into\nMP performance and energy consumption. An Asset Administration Shell ensures energy\ntransparency through Energy Key Performance Indicators (eKPIs), aggregated across modules.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Future work will focus on implementing the proposed\nEnMS architecture within PEAs and MPs at the Process-\nto-Order Lab, precisely for the Modular Reactors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Architecture is proposed for modular process plants; empirical implementation is explicitly future work."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Future work will focus on implementing the proposed\nEnMS architecture within PEAs and MPs at the Process-\nto-Order Lab, precisely for the Modular Reactors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Future work will focus on implementing the proposed\nEnMS architecture within PEAs and MPs at the Process-\nto-Order Lab, precisely for the Modular Reactors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "chemical and process industries",
+      "evidence_quote": "the\nchemical and process industries are facing evolving de-\nmands",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "Future work will focus on implementing the proposed\nEnMS architecture within PEAs and MPs at the Process-\nto-Order Lab, precisely for the Modular Reactors.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "The ISO\n50001 standard (ISO50001:2018 (2018)) defines the re-\nquirements for establishing, implementing, maintaining,\nand enhancing an EnMS",
+        "ISO 50006 outlines\nthe steps required to develop EnBs."
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "One of the most widely used indicators\nfor assessing plant performance is Specific Energy Con-\nsumption (SEC) (ISO50006:2023 (2023)), which quantifies\nthe energy consumed per functional unit.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536712",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:39:45.572476+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This research addresses the need for integration concepts, holistic monitoring and analysis methodologies, life-cycle oriented decision support and scenario based control strategies through the seamless integration of ubiquitous sensing infrastructures, simulation tools, BIM tools, service oriented architectures and data warehouse technologies.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Presents an integrated IT system architecture (wireless sensing, eeBIM, ETL, data warehouse/OLAP, monitoring GUIs, intelligent control) for building energy monitoring and optimisation, but does not identify or characterise an EnPI/EnB measurement model -- no normalisation variables, functional form, or baseline construction/estimation approach is given (building performance is only 'simulated using the energy simulation tool EIS'). Tool/software-design paper without EnPI/EnB model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The developed system architecture covers the implementation of a modular platform as depicted in Figure 1, that integrates multiple dimensions of building information such as performance data",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Identity confirmed via ISBN 978-0-415-62128-1 (identity_override; printed title differs from Rayyan title). Context is a residential HDA building in Istanbul -> buildings are out of scope for 3B. Borderline: monitoring compares actual vs intended (simulated) performance, but no EnPI/EnB model is characterised."
+  },
+  "stage2": null,
+  "stage3": null
+}

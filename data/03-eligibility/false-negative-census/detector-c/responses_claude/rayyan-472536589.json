@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536589",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to energy-intensity indicators in the chemical industry (BPT benchmarking) — cited comparator, not the study context",
+      "quote": "Energy intensity indicators in the chemical industry are calculated with regard to the Best Practice Technology (BPT) available; e.g. total energy consumption versus BPT.",
+      "page": 5,
+      "sector": "continuous chemical production / petrochemicals"
+    },
+    {
+      "signal": "Reference to a chemical plant energy-efficiency (EE) index method by Song et al. — cited method only",
+      "quote": "Song et al. (2014) describe the energy efficiency (EE) index of a chemical plant as the ratio of\ntarget (Best Practice) energy consumption over actual energy consumption.",
+      "page": 6,
+      "sector": "continuous chemical production / petrochemicals"
+    },
+    {
+      "signal": "Cited reference to a performance-based energy-efficiency indicator for glass manufacturing plants (Boyd 2009) — bibliographic mention only",
+      "quote": "Boyd, G., Development of a performance-based industrial energy efficiency indicator for glass \nmanufacturing plants, 2009, Technical Report.",
+      "page": 18,
+      "sector": "glass (continuous melting, float lines)"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and applies energy KPIs (EnPC, CUSUM, normalised data) in a discrete, batch-based Medical Devices production facility, tracking production steps and value streams; chemical-industry and glass-plant references appear only as cited comparators."
+}

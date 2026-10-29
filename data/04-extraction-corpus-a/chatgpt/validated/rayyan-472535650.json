@@ -1,0 +1,309 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535650",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:59:50Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Three variables were taken from real data, gas consumption, level of production, and time; so, that to obtain energy performance indicators such as base line and goal line, consumption ratio with respect to the levels of production, base 100 efficiency indicators, and accumulated tendency of consumption or CUSUM.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the application of a case study to the process of hot dip galvanizing of metal sheets, in a company of the metal-mechanic sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The plant has more than 30 years with a hot dip galvanizing line with a capacity of 70,000 tons/year",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "Continuous steel galvanizing line in the paper's Colombian metalworking-sector framing."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The company where the present work was carried out is a company from the Colombian metalworking sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "a company of the metal-mechanic sector whose process and products serve the industrial sector in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "metalworking sector",
+      "evidence_quote": "The company where the present work was carried out is a company from the Colombian metalworking sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The plant has more than 30 years with a hot dip galvanizing line with a capacity of 70,000 tons/year",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "a procedure for planning in the framework of ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "the baseline was initially obtained with a linear correlation of R2 = 0.1824",
+        "the real consumption index (IC) is built with energy consumption (Eactual) and production (p)",
+        "Another key indicator is the graph of cumulative trend"
+      ],
+      "page": [
+        4,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production"
+      ],
+      "evidence_quote": "allowing the analytical interaction between production and energy consumption",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "2015",
+      "evidence_quote": "Finally, the 2015 baseline was obtained",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_end": {
+      "value": "2015",
+      "evidence_quote": "Finally, the 2015 baseline was obtained",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_construction_method": {
+      "value": "Energy and production observations were filtered for atypical data, then a linear energy-production baseline was fitted. The target line used production and energy-consumption observations below that baseline.",
+      "evidence_quote": "the baseline was initially obtained with a linear correlation of R2 = 0.1824, requiring data filtering in order to achieve an acceptable correlation for the analysis of energy performance indicators, without losing functionality between production and energy, obtaining the baseline and target line shown in figure 4b, where the target line was constructed from the production data and energy consumption below the baseline.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "the baseline was initially obtained with a linear correlation of R2 = 0.1824",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "analysis of energy performance indicators for the hot dip galvanizing line",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "hot dip galvanizing line",
+      "evidence_quote": "The plant has more than 30 years with a hot dip galvanizing line with a capacity of 70,000 tons/year",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the baseline was initially obtained with a linear correlation of R2 = 0.1824, requiring data filtering in order to achieve an acceptable correlation",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the baseline was initially obtained with a linear correlation of R2 = 0.1824, requiring data filtering in order to achieve an acceptable correlation",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "requiring data filtering in order to achieve an acceptable correlation for the analysis of energy performance indicators",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "where the target line was constructed from the production data and energy consumption below the baseline",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "where the target line was constructed from the production data and energy consumption below the baseline",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": "where the target line was constructed from the production data and energy consumption below the baseline",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Application case: INDUSTRIAL LAMINATE PLANT",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": [
+        "Considering the trend for the year 2015",
+        "Energy Consumption(kWh/day)"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "model_parameters_reported": {
+      "value": [
+        "baseline slope: 0,0253",
+        "baseline intercept: 23727,1045",
+        "target-line slope: 0,0233",
+        "target-line intercept: 22972,6767"
+      ],
+      "evidence_quote": [
+        "y = 0,0253x + 23727,1045",
+        "y = 0,0233x + 22972,6767"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.1824",
+          "unit": null,
+          "period_or_context": "initial unfiltered baseline",
+          "evidence_quote": "linear correlation of R2 = 0.1824",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,5042",
+          "unit": null,
+          "period_or_context": "baseline",
+          "evidence_quote": "R² = 0,5042",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,7794",
+          "unit": null,
+          "period_or_context": "target line",
+          "evidence_quote": "R² = 0,7794",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "linear correlation of R2 = 0.1824",
+        "R² = 0,5042",
+        "R² = 0,7794"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

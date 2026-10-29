@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536628",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T15:04:54+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "multiple linear regression model is DE, with Visitors, Age, AWT and HDD17 as independent variables",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "176 datasets from 43 swimming facilities",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "A building category that has received little attention in the literature is sports facilities, among which ice rinks and swimming facilities consume exceptionally high amounts of energy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Empirical EnPI/EnB study: multiple linear regression over 176 datasets from 43 Norwegian swimming facilities. level_3b=false: swimming facilities are buildings, not a closed-list continuous-process sector; the recurring 'process plants' phrasing (pp.3,11) is an analogy to justify an output-based EPI (kWh/visitor), NOT a sector claim -- a false-positive trap. paper_type borderline: coded multi-case (43 facilities) but reads as a cross-sectional statistical benchmarking study."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "176 datasets from 43 swimming facilities",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Norway",
+      "evidence_quote": "43 Norwegian swimming facilities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "swimming facilities",
+      "evidence_quote": "among which ice rinks and swimming facilities consume exceptionally high amounts of energy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "a swimming facility as a system comprising the building envelope and its installations",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "multiple linear regression model is DE, with Visitors, Age, AWT and HDD17 as independent variables",
+        "normalising DE with respect to the number of visitors (kWh/visitors) as a reliable"
+      ],
+      "page": [
+        7,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

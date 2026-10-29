@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535583",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:57:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper gives a chronological overview of the development of energy management standards and explains the standard implementation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Chronological overview of the development of energy management standards (history of national standards and the ISO 50001 family; worldwide and Croatia certification statistics). EnPI/EnB appear only incidentally at the generic ISO 50006 concept level (EnPI as kWh/unit relative to an energy baseline, in a figure reproduced from a cited source). No specific EnPI/EnB measurement model is presented, proposed, evaluated, or characterised: no normalisation variables, functional form, or construction/estimation approach is identifiable.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The paper gives a chronological overview of the development of energy management standards and explains the standard implementation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Standards-development overview; EnPI/EnB mentioned only as generic ISO 50006 concepts (kWh/unit vs baseline, from a cited source). No model characterised -> ineligible; level_3b not applicable."
+  },
+  "stage2": null,
+  "stage3": null
+}

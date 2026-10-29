@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535452",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:42:14Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "For the Eq. (2) is needed information about the energy consumption of the building and the different\nend-uses, that, it is necessary to carry out an electric load survey to be able to carry out the IDE\ncorresponding to energy by end-use, considering the ISO 50001, the energy performance indicators\nare given by,\nIDE(Euse) = Energyfinaluse[kWh]\nEnergytotal[kWh] ,\n(2)",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This article shows the behavior of two buildings of the National University -\nBogotá, the Uriel Gutiérrez building and the Roberto Franco Station, to propose an indicator of final\nenergy use.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The university belongs to the services sector, which is why it cannot implement traditional\nindustry indicators such as energy consumption per unit produced.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Two university-building cases; the proposed final-use share ratio is classified as an other EnPI model."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "This article shows the behavior of two buildings of the National University -\nBogotá, the Uriel Gutiérrez building and the Roberto Franco Station, to propose an indicator of final\nenergy use.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Bogotá, Villavicencio – Meta",
+      "evidence_quote": [
+        "This article shows the behavior of two buildings of the National University -\nBogotá, the Uriel Gutiérrez building and the Roberto Franco Station",
+        "The station is located in Villavicencio – Meta"
+      ],
+      "page": [
+        1,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "services sector",
+      "evidence_quote": "The university belongs to the services sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Two buildings of different types of consumption will be analyzed and with their parameters, the\nindicators of energy use will be considered, one is the Uriel Gutierrez Building (offices) and the other is the\nRoberto Franco Station (mixed use).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "article uses the guidelines implemented in the ISO 50001 standard.",
+        "adapted from GTC ISO 50006"
+      ],
+      "page": [
+        1,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "IDE(Euse) = Energyfinaluse[kWh]\nEnergytotal[kWh] ,\n(2)",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

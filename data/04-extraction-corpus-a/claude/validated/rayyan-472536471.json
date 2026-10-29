@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536471",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T22:20:11+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "based on linear regression model to construct a baseline with an equation of y = 0.0149x + 208.97",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study was performed in PVC flooring mat manufacturing industry, located in Bukit Keteri, Arau, Perlis, Malaysia",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This project was done at PVC flooring mat manufacturing factory located in Bukit Keteri, Arau, Perlis,",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.83
+    },
+    "notes": "Single applied case: energy audit + SEC and linear-regression CO2-intensity baseline; PVC flooring mat manufacturing factory, Malaysia. Not in closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This project was done at PVC flooring mat manufacturing factory located in Bukit Keteri, Arau, Perlis,",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Bukit Keteri, Arau, Perlis, Malaysia",
+      "evidence_quote": "located in Bukit Keteri, Arau, Perlis, Malaysia",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "PVC flooring mat manufacturing industry",
+      "evidence_quote": "PVC flooring mat manufacturing industry",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The capacity productions are 45000 rolls or 1500 tonnes per month",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "SEC mean"],
+      "evidence_quote": [
+        "based on linear regression model to construct a baseline with an equation of y = 0.0149x + 208.97",
+        "Specific energy consumption (SEC) and baseline graph were constructed"
+      ],
+      "page": [5, 4],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

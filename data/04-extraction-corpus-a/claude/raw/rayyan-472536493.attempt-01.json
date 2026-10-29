@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536493",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:44:53.146759+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Energy performance indicators (EnPI) were determined as a result of statistical analyses performed through past energy consumption data and other variables",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the energy performance indicators (EnPI), of the terminal building of Dalaman International Airport, Turkey, were determined",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this study, EnPI and EvPIs were determined for Dalaman airport's terminal building",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Single applied case: regression-based EnPI/EvPI models for Dalaman Airport terminal building (Turkey). Airport/building context - not in closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the energy performance indicators (EnPI), of the terminal building of Dalaman International Airport, Turkey, were determined",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Dalaman, Turkey",
+      "evidence_quote": "terminal building of Dalaman International Airport, Turkey",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "airport terminal building",
+      "evidence_quote": "the airport terminal building",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "More than 70% of the energy consumption at airports is used to meet the needs of the terminal building",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 Energy Management System (EnMS) constitutes the basis of energy management",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression"
+      ],
+      "evidence_quote": "only one independent variable are called univariate regression analyses, analyses performed using more than one variable are called multivariate regression analyses",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

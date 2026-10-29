@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536589",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T08:58:24.871584+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Regression analysis yields an R-squared value of 0.93, indicating that 93% of the variation in electricity consumption can be accounted for by the variation in production activity",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility that annually consumes approximately 20 Giga-Watt hours (GWh) of electricity and 15 GWh of natural gas",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Single applied case; EnPC linear-regression EnB model applied in one medical-devices facility. level_3b=false: medical devices is discrete manufacturing, off the closed continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The Sx Value Stream (VS) is the largest of the value streams in the Manufacturing Facility",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "medical devices",
+      "evidence_quote": "The energy analysis was completed in a Medical Devices Manufacturing Facility",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "OMS tracks the completion of each process step for batches of products through a bar-code scanning network",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 (ISO, 2011) defines Energy Performance Indicators (EnPIs) as quantitative values or metrics that measure energy performance",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Regression analysis yields an R-squared value of 0.93",
+        "Figure 2 shows the Specific Energy Consumption for the available data, i.e. the kWhs per Production Step",
+        "using a Cumulative Sum Control Chart (CUSUM)"
+      ],
+      "page": [
+        12,
+        10,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

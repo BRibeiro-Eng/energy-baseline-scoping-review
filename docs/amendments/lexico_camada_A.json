@@ -1,0 +1,27 @@
+{
+  "_doc": "Layer A lexicon (Amendment 3 to OSF TDW6C, section 4.1). Matching: lower-cased page text, words hyphenated across line breaks joined, white space collapsed; each pattern is a Python regular expression wrapped in \\b...\\b, case-insensitive. Fixed before execution; any later addition is reported separately.",
+  "version": "1.0 (2026-10-14)",
+  "families": [
+    {"id": "T", "priority": "core", "name": "Temporal and out-of-sample evaluation", "field": "C8 out-of-sample validation",
+     "relevant_if": "a model is evaluated on observations not used to fit it; record whether those observations belong to a period after the fitting period (time-blocked test)",
+     "terms": ["out[\\s-]?of[\\s-]?sample", "hold[\\s-]?out", "test(?:ing)? (?:set|data|period|sample)", "validation (?:set|data|period|sample)", "cross[\\s-]?validat\\w*", "k[\\s-]?fold", "leave[\\s-]one[\\s-]out", "training (?:set|data|period|sample)", "calibration period", "reporting period", "walk[\\s-]?forward", "rolling[\\s-]origin", "back[\\s-]?test\\w*", "unseen data", "predicted (?:versus|vs\\.?) (?:actual|measured|observed)", "forecast\\w*"]},
+    {"id": "F", "priority": "core", "name": "Fouling and equipment degradation", "field": "C9 mechanisms (cause)",
+     "relevant_if": "fouling, deposits or equipment degradation is named as a cause of change in the energy relation, of model error or of a model limitation",
+     "terms": ["foul(?:ing|ed)?", "deposit(?:s|ion)?", "slagging", "soot", "scale formation", "scaling", "cleaning", "degradation", "deterioration", "ag(?:e)?ing", "wear"]},
+    {"id": "K", "priority": "core", "name": "Catalyst activity and run length", "field": "C9 mechanisms (cause)",
+     "relevant_if": "catalyst activity, deactivation, regeneration or run length is named as a cause of change in the energy relation, of model error or of a model limitation",
+     "terms": ["catalysts?", "catalytic", "deactivat\\w*", "regenerat\\w*", "end[\\s-]of[\\s-]run", "start[\\s-]of[\\s-]run", "run length"]},
+    {"id": "C", "priority": "core", "name": "Code and data availability", "field": "C13 reproducibility",
+     "relevant_if": "code or data used for the model is stated to be available (repository, supplementary files, on request)",
+     "terms": ["github", "gitlab", "zenodo", "figshare", "source code", "code availability", "code (?:is|are) available", "data availability", "data (?:is|are) (?:openly |publicly |freely )?available", "available (?:up)?on (?:reasonable )?request", "supplementary (?:materials?|data|information|files?)", "supporting information", "repository", "open[\\s-]source"]},
+    {"id": "Q", "priority": "core", "name": "Feed and product characteristics", "field": "C3 variables",
+     "relevant_if": "feed or product characteristics (quality, composition, grade, slate, mix) are used or discussed as an explanatory or normalising variable",
+     "terms": ["feed(?:stock)? (?:quality|composition|type|properties)", "feedstocks?", "crude (?:oil )?(?:quality|type|slate|blend|mix|assay)", "api gravity", "raw (?:material|meal) (?:quality|composition|properties)", "raw meal", "ore grade", "moisture content", "scrap (?:ratio|share|rate)", "product (?:mix|slate|grade|portfolio)", "grade changes?"]},
+    {"id": "R", "priority": "second", "name": "Re-estimation and updating", "field": "C6 re-estimation",
+     "relevant_if": "a rule or practice for re-estimating or updating the model or baseline is stated",
+     "terms": ["re[\\s-]?estimat\\w*", "re[\\s-]?calibrat\\w*", "baseline (?:update|updating|revision|adjustment)s?", "updat(?:e|ed|ing) (?:the )?baseline", "re[\\s-]?baselin\\w*", "re[\\s-]?train\\w*", "re[\\s-]?fit\\w*", "(?:rolling|moving|sliding) window", "adaptive", "online learning", "recursive"]},
+    {"id": "V", "priority": "second", "name": "Validity domain", "field": "C7 validity envelope",
+     "relevant_if": "a domain of validity for using the model is stated (operating range, envelope, bounds of applicability)",
+     "terms": ["validity", "valid (?:range|domain|region)", "range of (?:validity|application|applicability)", "operating (?:range|envelope|window|region)", "applicable range", "extrapolat\\w*", "(?:within|outside) the (?:range|domain)", "interpolat\\w*"]}
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535443",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:05:26Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The multivariable linear regression method (Y = Electricity Consumption (kWh), X1 = DG\nand X2 = RDO) has been made use of to develop EnB and EnPI and report the R-squared\nvalue as well as p-values. In this case, the EnB is obtained as Y = aX1 + bX2 + c.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The present investigation deals with the study of the Energy Planning stage according\nto the ISO 50001:2018 Standard at the Hotel Punta la Cueva in Cienfuegos, Cuba, with the\nobjective of deﬁning the base and goal energy lines, as well as the energy performance\nindicator for the installation.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "As companies in the service sector, hotels do not manufacture products; their basic\npurpose is accommodation, space rental, and meal service.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "at the Hotel Punta la Cueva in Cienfuegos, Cuba",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Cienfuegos, Cuba",
+      "evidence_quote": "at the Hotel Punta la Cueva in Cienfuegos, Cuba",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "hotel facilities",
+      "evidence_quote": "the main energy indicators used\nin the hotel sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "As companies in the service sector, hotels do not manufacture products; their basic\npurpose is accommodation, space rental, and meal service.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "implementation of an energy management system based on the ISO 50001:2018 standard",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Once the base period or line of best ﬁt has been identiﬁed through a linear regression\nanalysis, this can be considered as an energy baseline",
+        "The multivariable linear regression method (Y = Electricity Consumption (kWh), X1 = DG\nand X2 = RDO) has been made use of to develop EnB and EnPI",
+        "EntPI =\nEt\nDG ∗RDO\n(3)"
+      ],
+      "page": [
+        10,
+        12,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

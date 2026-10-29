@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535778",
+ "tier": "A",
+ "ts": "2026-09-11T11:39:03",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petrochemical"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 60091.2,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sobre um certificado"
+}

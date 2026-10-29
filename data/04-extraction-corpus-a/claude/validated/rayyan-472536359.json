@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536359",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:32:45Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The primary aim of this paper is to group the EU member states into clusters based on six key energy performance indicators: primary energy consumption, energy productivity, renewable energy in transport, renewable energy in electricity, and renewable energy in heating and cooling.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Energy performance indicators appear only as externally defined national Eurostat macro-indicators used as inputs to a two-step cluster analysis (TSCA) and PROMETHEE MCDM ranking of EU member states. The paper presents no EnPI/EnB measurement model to identify or characterise, and has no organisational dimension (national energy-policy comparison).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This paper employs two-step cluster analysis using IBM SPSS 26.0 to classify EU member states based on six key energy indicators.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Macro/national energy-policy clustering study (EU-27, Eurostat indicators) via two-step cluster analysis + PROMETHEE MCDM. EnPIs are inputs, not a constructed or characterised EnPI/EnB model; no organisational dimension. Ineligible under v2.3 (incidental EnPI mention; government-policy focus)."
+  },
+  "stage2": null,
+  "stage3": null
+}

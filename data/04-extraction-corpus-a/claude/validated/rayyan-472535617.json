@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535617",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:38:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The requirements for such a platform are presented in this paper, along with an overview of the system concept.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Presents the QuiXel software platform concept and functional requirements for IT support of environmental/energy management in SMEs. No specific EnPI/EnB measurement model is presented or characterised: the KPI capability is a generic, user-configurable formula editor over meter variables, and reference-period comparison is a generic software feature. Tool/software design without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The aim of the QuiXel project is to develop an integrated data and information platform for evolving and collaborative EnvM and EM in small and medium-sized enterprises",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "KPIs referenced only as a generic platform capability (user-defined via a formula editor over meter variables); no specific normalisation model, baseline, or variable set is identified. ISO 50001/14001 cited as compliance framing for the software, not as a measurement model."
+  },
+  "stage2": null,
+  "stage3": null
+}

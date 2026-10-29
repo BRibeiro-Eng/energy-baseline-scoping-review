@@ -1,0 +1,1016 @@
+{
+  "execution_surfaces": {
+    "chatgpt": {
+      "_provenance_note": "app_version/model_label describe the CURRENT segment only. This run spans multiple surface segments; surface_segments is the authoritative per-segment record. Rotated by output/provenance_rotation.py (operator action) -- never by run_initializer.py, which is one-time by design.",
+      "app_version": "26.818.41509",
+      "model_label": "gpt-5.6-sol",
+      "surface": "Codex/ChatGPT application (consumer subscription)",
+      "surface_segments": [
+        {
+          "app_version": "26.715.72359",
+          "closed_at": "2026-08-21T10:23:33+01:00",
+          "closed_because": "Codex/ChatGPT application updated between run segments (26.715.72359 -> 26.818.41509); model label unchanged. Observed at the start of the 2026-08-24 stale-bundle re-extraction.",
+          "closure_observed_at": "2026-08-24T13:38:19+01:00",
+          "first_batch": "batch-0001",
+          "last_batch": "batch-0052",
+          "model_label": "gpt-5.6-sol",
+          "note": "reconstructed at first rotation; this pack was initialized before surface_segments existed",
+          "opened_at": "2026-07-23T11:04:56+01:00",
+          "segment": 1
+        },
+        {
+          "app_version": "26.818.41509",
+          "authorized_by": "Bernardo Ribeiro",
+          "batches_in_segment": 2,
+          "closed_at": null,
+          "first_batch": "batch-0053",
+          "last_batch": "batch-0054",
+          "model_label": "gpt-5.6-sol",
+          "opened_at": "2026-08-24T13:38:19+01:00",
+          "opened_because": "Codex/ChatGPT application updated between run segments (26.715.72359 -> 26.818.41509); model label unchanged. Observed at the start of the 2026-08-24 stale-bundle re-extraction.",
+          "segment": 2
+        }
+      ]
+    },
+    "claude": {
+      "app_version": null,
+      "effort": "high",
+      "model_label": null,
+      "surface": "Claude Code application (consumer subscription)",
+      "thinking": "adaptive"
+    }
+  },
+  "osf": {
+    "amendment_filed_date": "2026-07-23",
+    "amendment_url": "https://osf.io/wh62r/files/osfstorage/6a61e15518c36790cda322f4",
+    "registration_doi": "10.17605/OSF.IO/TDW6C"
+  },
+  "reviewer_gate": {
+    "c23_signoff_date": "2026-07-23",
+    "signed_by": "Bernardo Ribeiro"
+  },
+  "run": {
+    "batches": [
+      {
+        "batch_id": "batch-0001",
+        "completed": [
+          "rayyan-472535341",
+          "rayyan-472535346",
+          "rayyan-472535347",
+          "rayyan-472535348",
+          "rayyan-472535349"
+        ],
+        "completed_at": "2026-07-23T11:46:35+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0002",
+        "completed": [
+          "rayyan-472535351",
+          "rayyan-472535352",
+          "rayyan-472535353",
+          "rayyan-472535354",
+          "rayyan-472535356"
+        ],
+        "completed_at": "2026-07-23T11:58:24+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0003",
+        "completed": [
+          "rayyan-472535357",
+          "rayyan-472535359",
+          "rayyan-472535360",
+          "rayyan-472535361",
+          "rayyan-472535362"
+        ],
+        "completed_at": "2026-07-23T12:09:43+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0004",
+        "completed": [
+          "rayyan-472535363",
+          "rayyan-472535365",
+          "rayyan-472535367",
+          "rayyan-472535370",
+          "rayyan-472535371"
+        ],
+        "completed_at": "2026-07-23T12:22:22+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0005",
+        "completed": [
+          "rayyan-472535373",
+          "rayyan-472535376",
+          "rayyan-472535377",
+          "rayyan-472535378",
+          "rayyan-472535379",
+          "rayyan-472535380",
+          "rayyan-472535382",
+          "rayyan-472535385",
+          "rayyan-472535386",
+          "rayyan-472535388"
+        ],
+        "completed_at": "2026-07-23T13:54:00+01:00",
+        "failed": [],
+        "green": false,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0006",
+        "completed": [
+          "rayyan-472535390",
+          "rayyan-472535393",
+          "rayyan-472535394",
+          "rayyan-472535401",
+          "rayyan-472535404"
+        ],
+        "completed_at": "2026-07-23T14:17:17+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0007",
+        "completed": [
+          "rayyan-472535405",
+          "rayyan-472535412",
+          "rayyan-472535415",
+          "rayyan-472535416",
+          "rayyan-472535418"
+        ],
+        "completed_at": "2026-07-23T14:31:42+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0008",
+        "completed": [
+          "rayyan-472535419",
+          "rayyan-472535420",
+          "rayyan-472535423",
+          "rayyan-472535427",
+          "rayyan-472535432",
+          "rayyan-472535433",
+          "rayyan-472535434",
+          "rayyan-472535440",
+          "rayyan-472535442",
+          "rayyan-472535443"
+        ],
+        "completed_at": "2026-07-23T15:06:23+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0009",
+        "completed": [
+          "rayyan-472535445",
+          "rayyan-472535447",
+          "rayyan-472535450",
+          "rayyan-472535451",
+          "rayyan-472535452",
+          "rayyan-472535453",
+          "rayyan-472535455",
+          "rayyan-472535457",
+          "rayyan-472535458",
+          "rayyan-472535459"
+        ],
+        "completed_at": "2026-07-23T15:47:33+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0010",
+        "completed": [
+          "rayyan-472535461",
+          "rayyan-472535468",
+          "rayyan-472535472",
+          "rayyan-472535477",
+          "rayyan-472535479",
+          "rayyan-472535480",
+          "rayyan-472535481",
+          "rayyan-472535482",
+          "rayyan-472535487",
+          "rayyan-472535488"
+        ],
+        "completed_at": "2026-07-23T19:42:21+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0011",
+        "completed": [
+          "rayyan-472535489",
+          "rayyan-472535491",
+          "rayyan-472535493",
+          "rayyan-472535494",
+          "rayyan-472535497",
+          "rayyan-472535498",
+          "rayyan-472535500",
+          "rayyan-472535506",
+          "rayyan-472535508",
+          "rayyan-472535509"
+        ],
+        "completed_at": "2026-07-24T15:05:10+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0012",
+        "completed": [
+          "rayyan-472535510",
+          "rayyan-472535511",
+          "rayyan-472535512",
+          "rayyan-472535513",
+          "rayyan-472535514",
+          "rayyan-472535516",
+          "rayyan-472535517",
+          "rayyan-472535519",
+          "rayyan-472535520",
+          "rayyan-472535522"
+        ],
+        "completed_at": "2026-07-24T15:25:36+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0013",
+        "completed": [
+          "rayyan-472535523",
+          "rayyan-472535524",
+          "rayyan-472535525",
+          "rayyan-472535526",
+          "rayyan-472535527",
+          "rayyan-472535528",
+          "rayyan-472535529",
+          "rayyan-472535531",
+          "rayyan-472535532",
+          "rayyan-472535533"
+        ],
+        "completed_at": "2026-07-24T15:41:18+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0014",
+        "completed": [
+          "rayyan-472535535",
+          "rayyan-472535537",
+          "rayyan-472535539",
+          "rayyan-472535540",
+          "rayyan-472535541",
+          "rayyan-472535542",
+          "rayyan-472535544",
+          "rayyan-472535545",
+          "rayyan-472535546",
+          "rayyan-472535547"
+        ],
+        "completed_at": "2026-07-24T16:04:24+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0015",
+        "completed": [
+          "rayyan-472535548",
+          "rayyan-472535549",
+          "rayyan-472535550",
+          "rayyan-472535551",
+          "rayyan-472535552",
+          "rayyan-472535553",
+          "rayyan-472535555",
+          "rayyan-472535556",
+          "rayyan-472535557",
+          "rayyan-472535561"
+        ],
+        "completed_at": "2026-07-24T16:45:58+01:00",
+        "failed": [],
+        "green": false,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0016",
+        "completed": [
+          "rayyan-472535562",
+          "rayyan-472535563",
+          "rayyan-472535565",
+          "rayyan-472535566",
+          "rayyan-472535568"
+        ],
+        "completed_at": "2026-07-24T16:52:00+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0017",
+        "completed": [
+          "rayyan-472535572",
+          "rayyan-472535577",
+          "rayyan-472535579",
+          "rayyan-472535581",
+          "rayyan-472535582"
+        ],
+        "completed_at": "2026-07-24T17:06:24+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0018",
+        "completed": [
+          "rayyan-472535583",
+          "rayyan-472535584",
+          "rayyan-472535585",
+          "rayyan-472535586",
+          "rayyan-472535588",
+          "rayyan-472535591",
+          "rayyan-472535592",
+          "rayyan-472535595",
+          "rayyan-472535603",
+          "rayyan-472535608"
+        ],
+        "completed_at": "2026-07-24T17:18:08+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0019",
+        "completed": [
+          "rayyan-472535610",
+          "rayyan-472535616",
+          "rayyan-472535617",
+          "rayyan-472535618",
+          "rayyan-472535621",
+          "rayyan-472535622",
+          "rayyan-472535623",
+          "rayyan-472535624",
+          "rayyan-472535625",
+          "rayyan-472535626"
+        ],
+        "completed_at": "2026-07-28T11:29:15+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0020",
+        "completed": [
+          "rayyan-472535627",
+          "rayyan-472535628",
+          "rayyan-472535630",
+          "rayyan-472535632",
+          "rayyan-472535633",
+          "rayyan-472535634",
+          "rayyan-472535635",
+          "rayyan-472535636",
+          "rayyan-472535638",
+          "rayyan-472535639"
+        ],
+        "completed_at": "2026-07-28T11:45:10+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0021",
+        "completed": [
+          "rayyan-472535640",
+          "rayyan-472535644",
+          "rayyan-472535648",
+          "rayyan-472535649",
+          "rayyan-472535650",
+          "rayyan-472535651",
+          "rayyan-472535653",
+          "rayyan-472535654",
+          "rayyan-472535657",
+          "rayyan-472535658"
+        ],
+        "completed_at": "2026-07-28T12:30:09+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0022",
+        "completed": [
+          "rayyan-472535659",
+          "rayyan-472535660",
+          "rayyan-472535661",
+          "rayyan-472535662",
+          "rayyan-472535663",
+          "rayyan-472535665",
+          "rayyan-472535666",
+          "rayyan-472535667",
+          "rayyan-472535668",
+          "rayyan-472535674"
+        ],
+        "completed_at": "2026-07-28T13:17:16+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0023",
+        "completed": [
+          "rayyan-472535676",
+          "rayyan-472535678",
+          "rayyan-472535679",
+          "rayyan-472535680",
+          "rayyan-472535684",
+          "rayyan-472535687",
+          "rayyan-472535688",
+          "rayyan-472535690",
+          "rayyan-472535691",
+          "rayyan-472535693"
+        ],
+        "completed_at": "2026-07-28T13:36:37+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0024",
+        "completed": [
+          "rayyan-472535694",
+          "rayyan-472535695",
+          "rayyan-472535696",
+          "rayyan-472535699",
+          "rayyan-472535700",
+          "rayyan-472535703",
+          "rayyan-472535704",
+          "rayyan-472535710",
+          "rayyan-472535711",
+          "rayyan-472535714"
+        ],
+        "completed_at": "2026-07-28T14:04:40+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0025",
+        "completed": [
+          "rayyan-472535715",
+          "rayyan-472535718",
+          "rayyan-472535719",
+          "rayyan-472535720",
+          "rayyan-472535721",
+          "rayyan-472535722",
+          "rayyan-472535723",
+          "rayyan-472535724",
+          "rayyan-472535725",
+          "rayyan-472535733"
+        ],
+        "completed_at": "2026-07-28T14:19:52+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0026",
+        "completed": [
+          "rayyan-472535734",
+          "rayyan-472535737",
+          "rayyan-472535739",
+          "rayyan-472535744",
+          "rayyan-472535748",
+          "rayyan-472535749",
+          "rayyan-472535750",
+          "rayyan-472535751",
+          "rayyan-472535752",
+          "rayyan-472535753"
+        ],
+        "completed_at": "2026-07-28T14:35:40+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0027",
+        "completed": [
+          "rayyan-472535758",
+          "rayyan-472535759",
+          "rayyan-472535762",
+          "rayyan-472535767",
+          "rayyan-472535771",
+          "rayyan-472535773",
+          "rayyan-472535775",
+          "rayyan-472535776",
+          "rayyan-472535778",
+          "rayyan-472535779"
+        ],
+        "completed_at": "2026-07-28T14:52:24+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0028",
+        "completed": [
+          "rayyan-472535780",
+          "rayyan-472535782",
+          "rayyan-472535784",
+          "rayyan-472535787",
+          "rayyan-472535789",
+          "rayyan-472535792",
+          "rayyan-472535793",
+          "rayyan-472535794",
+          "rayyan-472535796",
+          "rayyan-472535797"
+        ],
+        "completed_at": "2026-07-29T13:25:59+01:00",
+        "failed": [],
+        "green": false,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0029",
+        "completed": [
+          "rayyan-472535799",
+          "rayyan-472535855",
+          "rayyan-472535909",
+          "rayyan-472535978",
+          "rayyan-472535993"
+        ],
+        "completed_at": "2026-07-30T16:21:27+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0030",
+        "completed": [
+          "rayyan-472535995",
+          "rayyan-472536000",
+          "rayyan-472536003",
+          "rayyan-472536004",
+          "rayyan-472536009"
+        ],
+        "completed_at": "2026-07-30T17:13:10+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0031",
+        "completed": [
+          "rayyan-472536032",
+          "rayyan-472536035",
+          "rayyan-472536049",
+          "rayyan-472536054",
+          "rayyan-472536061",
+          "rayyan-472536062",
+          "rayyan-472536063",
+          "rayyan-472536071",
+          "rayyan-472536078",
+          "rayyan-472536102"
+        ],
+        "completed_at": "2026-07-30T17:28:49+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0032",
+        "completed": [
+          "rayyan-472536156",
+          "rayyan-472536168",
+          "rayyan-472536226",
+          "rayyan-472536333",
+          "rayyan-472536334",
+          "rayyan-472536339",
+          "rayyan-472536340",
+          "rayyan-472536341",
+          "rayyan-472536345",
+          "rayyan-472536349"
+        ],
+        "completed_at": "2026-07-31T10:45:18+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0033",
+        "completed": [
+          "rayyan-472536351",
+          "rayyan-472536352",
+          "rayyan-472536353",
+          "rayyan-472536354",
+          "rayyan-472536356",
+          "rayyan-472536358",
+          "rayyan-472536359",
+          "rayyan-472536360",
+          "rayyan-472536362",
+          "rayyan-472536363"
+        ],
+        "completed_at": "2026-07-31T14:44:31+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0034",
+        "completed": [
+          "rayyan-472536366",
+          "rayyan-472536367",
+          "rayyan-472536369",
+          "rayyan-472536370",
+          "rayyan-472536372",
+          "rayyan-472536373",
+          "rayyan-472536376",
+          "rayyan-472536377",
+          "rayyan-472536379",
+          "rayyan-472536380"
+        ],
+        "completed_at": "2026-08-06T20:47:48+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0035",
+        "completed": [
+          "rayyan-472536384",
+          "rayyan-472536387",
+          "rayyan-472536388",
+          "rayyan-472536389",
+          "rayyan-472536390",
+          "rayyan-472536394",
+          "rayyan-472536398",
+          "rayyan-472536400",
+          "rayyan-472536404",
+          "rayyan-472536407"
+        ],
+        "completed_at": "2026-08-08T12:10:12+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0036",
+        "completed": [
+          "rayyan-472536408",
+          "rayyan-472536410",
+          "rayyan-472536411",
+          "rayyan-472536416",
+          "rayyan-472536419",
+          "rayyan-472536424",
+          "rayyan-472536425",
+          "rayyan-472536426",
+          "rayyan-472536428",
+          "rayyan-472536433"
+        ],
+        "completed_at": "2026-08-08T12:33:46+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0037",
+        "completed": [
+          "rayyan-472536439",
+          "rayyan-472536440",
+          "rayyan-472536443",
+          "rayyan-472536444",
+          "rayyan-472536446",
+          "rayyan-472536448",
+          "rayyan-472536450",
+          "rayyan-472536452",
+          "rayyan-472536454",
+          "rayyan-472536455"
+        ],
+        "completed_at": "2026-08-08T12:52:12+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0038",
+        "completed": [
+          "rayyan-472536457",
+          "rayyan-472536458",
+          "rayyan-472536459",
+          "rayyan-472536460",
+          "rayyan-472536464",
+          "rayyan-472536465",
+          "rayyan-472536466",
+          "rayyan-472536467",
+          "rayyan-472536468",
+          "rayyan-472536470"
+        ],
+        "completed_at": "2026-08-08T13:11:59+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0039",
+        "completed": [
+          "rayyan-472536471",
+          "rayyan-472536474",
+          "rayyan-472536475",
+          "rayyan-472536477",
+          "rayyan-472536479",
+          "rayyan-472536481",
+          "rayyan-472536482",
+          "rayyan-472536483",
+          "rayyan-472536485",
+          "rayyan-472536486"
+        ],
+        "completed_at": "2026-08-08T13:36:16+01:00",
+        "failed": [],
+        "green": false,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0040",
+        "completed": [
+          "rayyan-472536487",
+          "rayyan-472536490",
+          "rayyan-472536493",
+          "rayyan-472536494",
+          "rayyan-472536496"
+        ],
+        "completed_at": "2026-08-08T13:44:55+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0041",
+        "completed": [
+          "rayyan-472536501",
+          "rayyan-472536502",
+          "rayyan-472536506",
+          "rayyan-472536507",
+          "rayyan-472536508"
+        ],
+        "completed_at": "2026-08-08T14:10:17+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0042",
+        "completed": [
+          "rayyan-472536509",
+          "rayyan-472536511",
+          "rayyan-472536512",
+          "rayyan-472536516",
+          "rayyan-472536518",
+          "rayyan-472536521",
+          "rayyan-472536522",
+          "rayyan-472536525",
+          "rayyan-472536529",
+          "rayyan-472536532"
+        ],
+        "completed_at": "2026-08-09T02:40:10+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0043",
+        "completed": [
+          "rayyan-472536534",
+          "rayyan-472536535",
+          "rayyan-472536537",
+          "rayyan-472536539",
+          "rayyan-472536540",
+          "rayyan-472536541",
+          "rayyan-472536542",
+          "rayyan-472536545",
+          "rayyan-472536548",
+          "rayyan-472536549"
+        ],
+        "completed_at": "2026-08-09T03:01:42+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0044",
+        "completed": [
+          "rayyan-472536551",
+          "rayyan-472536562",
+          "rayyan-472536563",
+          "rayyan-472536564",
+          "rayyan-472536568",
+          "rayyan-472536569",
+          "rayyan-472536571",
+          "rayyan-472536579",
+          "rayyan-472536580",
+          "rayyan-472536582"
+        ],
+        "completed_at": "2026-08-09T12:23:48+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0045",
+        "completed": [
+          "rayyan-472536583",
+          "rayyan-472536587",
+          "rayyan-472536588",
+          "rayyan-472536589",
+          "rayyan-472536596",
+          "rayyan-472536601",
+          "rayyan-472536603",
+          "rayyan-472536606",
+          "rayyan-472536608",
+          "rayyan-472536612"
+        ],
+        "completed_at": "2026-08-09T13:03:24+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0046",
+        "completed": [
+          "rayyan-472536613",
+          "rayyan-472536615",
+          "rayyan-472536616",
+          "rayyan-472536623",
+          "rayyan-472536624",
+          "rayyan-472536628",
+          "rayyan-472536631",
+          "rayyan-472536633",
+          "rayyan-472536638",
+          "rayyan-472536642"
+        ],
+        "completed_at": "2026-08-09T15:15:26+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0047",
+        "completed": [
+          "rayyan-472536644",
+          "rayyan-472536649",
+          "rayyan-472536650",
+          "rayyan-472536651",
+          "rayyan-472536656",
+          "rayyan-472536657",
+          "rayyan-472536661",
+          "rayyan-472536665",
+          "rayyan-472536666",
+          "rayyan-472536671"
+        ],
+        "completed_at": "2026-08-09T16:43:30+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0048",
+        "completed": [
+          "rayyan-472536674",
+          "rayyan-472536675",
+          "rayyan-472536677",
+          "rayyan-472536678",
+          "rayyan-472536680",
+          "rayyan-472536681",
+          "rayyan-472536687",
+          "rayyan-472536690",
+          "rayyan-472536693",
+          "rayyan-472536694"
+        ],
+        "completed_at": "2026-08-09T22:11:02+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0049",
+        "completed": [
+          "rayyan-472536695",
+          "rayyan-472536698",
+          "rayyan-472536701",
+          "rayyan-472536704",
+          "rayyan-472536707",
+          "rayyan-472536709",
+          "rayyan-472536712",
+          "rayyan-472536713",
+          "rayyan-472536714",
+          "rayyan-472536717"
+        ],
+        "completed_at": "2026-08-09T22:51:32+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0050",
+        "completed": [
+          "rayyan-472536720",
+          "rayyan-472536725",
+          "rayyan-472536726",
+          "rayyan-472536728",
+          "rayyan-472536729",
+          "rayyan-472536732",
+          "rayyan-472536737",
+          "rayyan-472536741",
+          "rayyan-472536742",
+          "rayyan-472536744"
+        ],
+        "completed_at": "2026-08-09T23:25:22+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0051",
+        "completed": [
+          "rayyan-472536747",
+          "rayyan-472536752",
+          "rayyan-472536755",
+          "rayyan-472536756",
+          "rayyan-472536757",
+          "rayyan-472536759",
+          "rayyan-472536772",
+          "rayyan-472536807"
+        ],
+        "completed_at": "2026-08-09T23:35:06+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0052",
+        "completed": [
+          "rayyan-472536712"
+        ],
+        "completed_at": "2026-08-21T10:23:33+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0053",
+        "completed": [
+          "rayyan-472535370",
+          "rayyan-472535657",
+          "rayyan-472535678",
+          "rayyan-472535710",
+          "rayyan-472535725"
+        ],
+        "completed_at": "2026-08-24T13:49:55+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      },
+      {
+        "batch_id": "batch-0054",
+        "completed": [
+          "rayyan-472535762",
+          "rayyan-472536390",
+          "rayyan-472536496"
+        ],
+        "completed_at": "2026-08-24T14:57:08+01:00",
+        "failed": [],
+        "green": true,
+        "status": "completed"
+      }
+    ],
+    "executor": "chatgpt",
+    "run_id": "chatgpt-019f8e6e-2113-7043-ab60-fb68523498d1",
+    "started_at": "2026-07-23T11:04:56+01:00",
+    "working_directory": "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction/production/chatgpt"
+  },
+  "schema_version": "2.2.1",
+  "source": {
+    "code_commit": "0f3769e8c61872cd7b4823fc5e86371841067439",
+    "code_dirty": false,
+    "documentation_commit": "c7b2e7b4aee1a06f9d6f6f84d868cb6f499a813a",
+    "documentation_dirty": false,
+    "pack_manifest_sha256": "04a1871963349ce4936e5cb6fd85899b62bf0d64c3dc0b4c4cdd7121949da833",
+    "prompt_commit": "8be83b8ceacabd3ec8dfbd1726318a5299cc4815",
+    "prompt_dirty": false,
+    "prompt_tag": "v2.3.1-operational"
+  },
+  "template_version": "1.0",
+  "validation_protocol": "C-2.3"
+}

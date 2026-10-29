@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535995",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T11:31:26Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The scope of this paper is to identify the main internal and external factors that have an impact on the successful implementation of an energy management system in ports.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "The paper applies a SWOT/PESTLE strategic-planning framework to identify internal and external factors affecting implementation of a port energy management system; energy baseline and energy performance indicators are mentioned only incidentally as generic ISO 50001 requirements, with no EnPI/EnB measurement model presented or characterised (no normalisation variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The method of collecting primary data for this study is through the use of structured interviews conducted with two leading North-European port authorities",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Application sector is maritime ports (outside the closed continuous-process list). ISO 50001 is used only as a guiding framework for the interview instrument; 'energy baseline' appears once as a conceptual SWOT factor, not a constructed model. paper_type multi-case (two port authorities) vs 'other' is a borderline call."
+  },
+  "stage2": null,
+  "stage3": null
+}

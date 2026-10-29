@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535488",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:47:38Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The objectives of this research were to develop the criteria and indicators used as the guidelines for school administrators in energy management and conservation, and to assess their energy performances",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ineligibility_reason": "Presents a qualitative energy-management framework (9 criteria and 25 indicators scored 1-5 with maturity interpretation levels) for schools; no EnPI/EnB measurement model is identified or characterised. Energy performance is assessed through management-quality scoring by auditors and raw year-over-year electricity (kWh) comparison, with no normalisation variables, functional form, or baseline-model construction/estimation approach. This is a framework/maturity assessment without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The Development of Criteria and Indicators for Energy Management of Educational Institutions with the Energy Management System",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "'Indicators' are energy-management practice indicators, not EnPI/EnB models; energy performance shown only as raw kWh year-over-year change. Framework piloted in 3 schools (multi-case)."
+  },
+  "stage2": null,
+  "stage3": null
+}

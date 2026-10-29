@@ -1,0 +1,277 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535625",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:26:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "the annual reducing rate of energy consumption on average is 9.1% through survey of 27 companies' cases in which energy reduction rate or reduction cost have been disclosed",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "When the energy efficiency of energy intensive industries such as chemical, oil refinery and petrochemicals, iron and steel, paper and pulp and etc. is improved",
+        "For example, Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "notes": "Synthesis of standards and prior cases; the refinery example explicitly characterises a fitted dynamic-targeting model."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "through survey of 27 companies' cases in which energy reduction rate or reduction cost have been disclosed",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Saudi Arabia",
+      "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "chemical, oil refinery and petrochemicals, iron and steel, paper and pulp",
+      "evidence_quote": "energy intensive industries such as chemical, oil refinery and petrochemicals, iron and steel, paper and pulp",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "energy intensive industries such as chemical, oil refinery and petrochemicals, iron and steel, paper and pulp",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "In addition to the standards of ISO 50001 and ISO 50006, using standards for determining energy savings such as ISO 17741 and ISO 50047 can also be possible to manage objectives for the return on investment (ROI).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "other-named"
+      ],
+      "evidence_quote": "This standard is developed based on International Performance Measurement and Verification Protocol (IPMVP) which is a method for M&V and is used widely in overseas. The M&V of IPMVP intends only energy savings, so, ISO 50015 which intends wider range called \"energy performance\" (including energy efficiency, energy consumption and etc.) is different from IPMVP.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "If specific energy consumption is identified as EnPI, decreasing production volume might make to cancel out the effect of energy efficiency activities, because the denominator of the specific energy consumption is the production volume.",
+        "And this tool has a function called as Dynamic targeting. Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "operating modes",
+        "equipment availability",
+        "crude oil",
+        "production changes"
+      ],
+      "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_construction_method": {
+      "value": "Dynamic targeting creates calculation models fitted to operating modes, equipment availability, crude oil changes, and production changes, then manages detailed targets.",
+      "evidence_quote": "And this tool has a function called as Dynamic targeting. Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "For example, Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scope_description": {
+      "value": "Adaqaiq plant of Saudi Aramco",
+      "evidence_quote": "Adaqaiq plant of Saudi Aramco",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "If specific energy consumption is identified as EnPI, decreasing production volume might make to cancel out the effect of energy efficiency activities, because the denominator of the specific energy consumption is the production volume.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "when a production volume is decreased, energy consumption which does not contribute to the production volume (called as baseload) has effects on the specific energy consumption. If the baseload is larger, this effect of reducing production volume is larger, too.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "And this tool has a function called as Dynamic targeting. Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them and manages finely with setting the detail targets.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "And this tool has a function called as Dynamic targeting.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "This method is same as the method of ISO 50001.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "For example, Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "23 %",
+          "unit": "%",
+          "period_or_context": "energy intensity compared with 2011",
+          "evidence_quote": "Saudi Aramco has announced that its energy intensity is improved 23 % compared with it in 2011",
+          "page": 5,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Saudi Aramco has announced that its energy intensity is improved 23 % compared with it in 2011",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "implementation_barriers": {
+      "value": [
+        "certifying additionally ISO 50001 is a heavy burden"
+      ],
+      "evidence_quote": "So many companies think that certifying additionally ISO 50001 is a heavy burden.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536755",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:28:34Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper describes the basic concept of benchmarking and the statistical approach employed with the automobile industry in developing performance-based energy indicators, the evolution of the analysis, the final results, and ongoing efforts by the EPA to improve the energy efficiency of this industry and others.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Data were provided by five companies who volunteered to participate in the study. These companies were the American affiliates of GM, Ford, Honda, Toyota, and Subaru.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Only plants located in the United States producing passenger cars, sport utility vehicles, light-duty trucks, and vans were used in the study. Assembly plants were defined to include body weld, paint, and assembly.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Automobile assembly is discrete manufacturing and outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Data were provided by five companies who volunteered to participate in the study.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "United States",
+      "evidence_quote": "Only plants located in the United States producing passenger cars, sport utility vehicles, light-duty trucks, and vans were used in the study.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "automobile manufacturing industry",
+      "evidence_quote": "This paper reports on work with the automobile manufacturing industry to provide a plant-level indicator of energy efficiency.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Assembly plants were defined to include body weld, paint, and assembly.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "The type of vehicle produced, i.e., passenger cars, light-duty trucks, sport utility vehicles, and vans, would also be included in the model. Capacity utilization of the plant was included to account for the fixed and variable components of plant operation. Finally, the heating and cooling loads of the plants would differ depending on their local climate/weather, so heating and cooling degree day (HDD and CDD, respectively) data were used in the model as well.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

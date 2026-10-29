@@ -1,0 +1,22 @@
+{
+ "pdf": {
+  "pages": [
+   {
+    "page": 1,
+    "text": "Energy performance modelling of a crude distillation unit at a European refinery.\nWe develop two baseline models for the specific energy consumption of the CDU.\nThe plant is a single facility operated continuously throughout the study period."
+   },
+   {
+    "page": 2,
+    "text": "The dependent variable is the specific energy consumption of the unit, expressed as GJ per tonne of crude throughput. Fuel gas and electricity are both included in the boundary. Model A is a multiple linear regression estimated by ordinary least squares, with predictors selected by stepwise regression. Model B is a feed-forward artificial neural network trained by gradient descent on the same data set. Daily values from the process historian were aggregated to monthly averages for modelling."
+   },
+   {
+    "page": 3,
+    "text": "Crude throughput is the dominant predictor in both models, and the heavy naphtha fraction of the feed is retained as a product mix term. Fuel gas consumption is taken from a dedicated meter on the furnace header, which matches the modelled boundary exactly. The coefficient of determination of Model A is 0.91 on the estimation sample. Model B reaches a mean absolute percentage error of 3.2% on a held-out split."
+   },
+   {
+    "page": 4,
+    "text": "The regression coefficients drift over the four years of record, because fouling of the preheat train progressively raises the furnace duty at constant throughput. We therefore re-estimate the baseline on a rolling twelve-month window. The neural network is similarly sensitive to feedstock variability, which changes the relationship between throughput and energy demand. A limitation of this study is that only one unit was instrumented at the required resolution, and plant staff noted that extending the metering to the whole site would require capital approval."
+   }
+  ]
+ }
+}

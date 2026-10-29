@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535621",
+ "tier": "B",
+ "ts": "2026-09-10T16:56:18",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 33.0,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem modelos"
+}

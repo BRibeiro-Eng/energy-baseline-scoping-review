@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535699",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:58:25Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "We describe the development of a WBPS model of the Terminal 1 of FCO airport.",
+        "The calibration method used is performed by analysing and varying a set of input values iteratively to meet calibration criteria."
+      ],
+      "page": [
+        1,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport (Latitude 41.8° North, Longitude 12.23° East).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport (Latitude 41.8° North, Longitude 12.23° East).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied whole-building simulation case in an airport terminal; not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport (Latitude 41.8° North, Longitude 12.23° East).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Rome",
+      "evidence_quote": "The building modelled is Terminal 1 at Fiumicino Rome Airport (Latitude 41.8° North, Longitude 12.23° East).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "airport terminals",
+      "evidence_quote": "Large open space building types such as airport terminals pose some difficulties to be reflected as building models.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "This building was first opened in 1961 and it is an open space concourse terminal of approximately 35,000 m2 of floor area.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Application of Building Simulation to support ISO 50001 Energy Management: Case study of Fiumicino Airport.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "Regarding the period of calibration, a full 8760 hour data set is needed for an accurate calibration as defined by ASHRAE guideline 14 (ASHRAE 2002).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "These differences between design parameters and actual parameters demonstrate that calibrating detailed white box WBPS models can be an arduous experience.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

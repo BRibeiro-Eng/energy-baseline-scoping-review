@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535626",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:46:06.570740Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The EEM framework is a managerial tool that assesses the maturity of an energy-intensive SME",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Maturity assessment framework (EEM) for energy-intensive SMEs: proposes a qualitative organizational maturity model (7 EE dimensions, 5 maturity levels, 19-item survey scored by weighted average), not an EnPI/EnB measurement model. Specific energy consumption values (0.045 toe/t; furnace 1.76 GJ/t) are reported only incidentally as case-company characteristics and are never proposed, constructed, normalised, or evaluated as a model. Falls under the v2.3 carve-out for maturity assessments without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This study attempts to plug these gaps by proposing an energy efficiency maturity (EEM)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EEM maturity framework (proposal + steel re-rolling mill case study, India). SEC reported incidentally (mill 0.045 toe/t; furnace 1.76 GJ/t, 25% efficiency); no EnPI/EnB model constructed or evaluated. Ineligible per maturity-assessment carve-out; not a review/synthesis, so borderline flag not set."
+  },
+  "stage2": null,
+  "stage3": null
+}

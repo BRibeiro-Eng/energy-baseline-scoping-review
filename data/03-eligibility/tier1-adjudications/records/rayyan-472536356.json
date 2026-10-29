@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.level_3b"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": false,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472536356",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Ntamo, D. and Papadopoulos, I. and Omar, C. and Soulatiantork, P. and Zandi, M.",
+    "rayyan_decision": "Included",
+    "source": "Processes",
+    "title": "A Sustainability-Oriented Digital Twin of the Diamond Pilot Plant",
+    "year": 2025
+  },
+  "reviewer_evidence": {
+    "eligibility.level_3b": {
+      "mode": "quoted",
+      "quote": "in the DiPP (Diamond Pilot Plant) Consigma-25 pilot plant, a dedicated research facility.",
+      "page": 3,
+      "rule": "§5.3 clausula de setor continuo NAO-LISTADO: fabrico farmaceutico continuo nao esta na lista das oito. false + unlisted_continuous, sem auto-classificar farmaceutica em 'continuous chemical production'."
+    }
+  },
+  "reviewer_notes": "Continuous-flow sector not on the §5.3 main list: Farmaceutica de fabrico continuo (granulacao por parafuso duplo), a escala piloto. Reported as an exploratory case outside the main Corpus B; no dated corpus decision adds this sector.",
+  "saved_at": "2026-09-01T14:34:36"
+}

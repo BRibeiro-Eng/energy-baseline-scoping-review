@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535433",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "what are the main key performance indicators used to measure DT performance",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Systematic literature review of Key Performance Indicators for digital transformation (generic and specific business, financial, marketing and health-industry KPIs). It presents, proposes, evaluates or critiques no EnPI/EnB energy performance measurement model. Energy management / ISO 50001 appears only in a stray page-1 keyword line that mismatches the body; incidental mention.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "conduct a systematic literature review",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Page-1 keyword line ('Energy Management; Industry 4.0; Energy Monitoring; ISO 50001; Smart Grid; Smart Meter') mismatches the entire body, which concerns digital-transformation KPIs. Likely a proceedings template artifact; treated as incidental, not borderline."
+  },
+  "stage2": null,
+  "stage3": null
+}

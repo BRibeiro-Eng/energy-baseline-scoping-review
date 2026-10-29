@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536360",
+  "listed_sector_signals": [
+    {
+      "signal": "Cited reference to continuous naphtha catalytic reforming (petroleum refining continuous process), appearing only in the reference list",
+      "quote": "Yusuf, A. Z., Y. M. John, B. O. Aderemi, R. Patel, and I. M. M. Mujtaba. 2019. “Simulation and Sensitivity Analysis of \nNaphtha Catalytic Reforming Reactions.”",
+      "page": 17,
+      "sector": "petroleum refining"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Continuous wet granulation pharmaceutical tablet production line described as a continuous 25 kg/h process (discrete pharma product, not Corpus B)",
+      "quote": "a continuous wet granulation production line that operates at a nominal throughput of 25 kg/h",
+      "page": 3,
+      "sector": "pharmaceutical continuous manufacturing"
+    },
+    {
+      "signal": "Dryer treated as a continuous system with steady-state energy balance",
+      "quote": "The energy performance of the FBD was evaluated using a steady-state energy balance framework, treating \nthe dryer as a continuous system.",
+      "page": 10,
+      "sector": "pharmaceutical continuous manufacturing"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies digital twin and CUSUM energy-management methods to optimise a semi-continuous fluidised bed dryer within a continuous pharmaceutical tablet manufacturing pilot line, a context outside the eight registered Corpus B sectors."
+}

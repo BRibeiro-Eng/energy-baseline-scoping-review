@@ -1,0 +1,1565 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535585",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage_c_extraction",
+  "surface": "claude",
+  "completed_at": "2026-09-14",
+  "n_pages_read": 34,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Cement plant",
+        "evidence_quote": "This study reports on \nan electrical energy management system for improving cement plant productivity at minimal \ncost.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "South Africa",
+        "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+        "page": 17,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+        "page": 17,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "One South African cement plant with a coal-consuming kiln, coal mill, raw mill and two finishing mills; total production capacity almost 1 million tonnes of cement per annum. The study focuses on the electrical portion of energy.",
+        "evidence_quote": "The case study plant has one coal consuming kiln which is used to produce clinker. The kiln \nhas a coal mill, which consumes electrical energy. Furthermore, the plant has a raw mill, and \ntwo finishing mills, used for producing cement.",
+        "page": 17,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+        "page": 17,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Total energy per cement produced (Equation 3)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "benchmark period",
+              "historical"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "“Total energy per cement produced” is a critical indicator, as calculated from Equation 3.",
+              "page": 14,
+              "support_class": "direct statement",
+              "page_as_recorded": 15,
+              "locator_corrected": true
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Total electrical energy per cement produced (kWh/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "The \nenergy consumption of the entire plant is used and compared to the total tonnes cement \nproduced.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "Total electrical energy per cement produced (kWh/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Total energy per cement produced (kWh/t)",
+              "page": 14,
+              "support_class": "direct statement",
+              "page_as_recorded": 15,
+              "locator_corrected": true
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "total tonnes cement produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "The \nenergy consumption of the entire plant is used and compared to the total tonnes cement \nproduced.",
+              "page": 15,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Total electrical energy per cement produced (kWh/t)\n65.23\n50.90\n22%",
+                "page": 25,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction in total electrical energy per cement produced",
+                  "value": "22",
+                  "unit": "%",
+                  "period_or_context": "Jan-15 to Feb-16",
+                  "evidence_quote": "Total electrical energy per cement produced (kWh/t)\n65.23\n50.90\n22%",
+                  "page": 25,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Cement manufacturing (Equation 5)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The final indicator is “Cement manufacturing” (Equation 5), which is calculated by isolating \nthe energy consumption of the finishing mill(s) on the plant per tonne cement produced.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Cement manufacturing – electrical energy (kWh/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "The final indicator is “Cement manufacturing” (Equation 5), which is calculated by isolating \nthe energy consumption of the finishing mill(s) on the plant per tonne cement produced.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "Cement manufacturing – electrical energy (kWh/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Equation 5: Cement manufacturing (kWh/t)",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "tonne cement produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the energy consumption of the finishing mill(s) on the plant per tonne cement produced.",
+              "page": 15,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Cement manufacturing – electrical energy (kWh/t)\n46.36\n37.46\n19%",
+                "page": 25,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction in cement manufacturing electrical energy intensity",
+                  "value": "19",
+                  "unit": "%",
+                  "period_or_context": "Jan-15 to Feb-16",
+                  "evidence_quote": "Cement manufacturing – electrical energy (kWh/t)\n46.36\n37.46\n19%",
+                  "page": 25,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Energy cost per cement produced (Equation 4)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy cost",
+              "evidence_quote": "along with the “Energy \ncost per cement produced”, as calculated by using Equation 4.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Electrical energy cost per cement produced (ZAR/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Electrical energy cost per cement produced (ZAR/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "ZAR/t",
+              "evidence_quote": "Electrical energy cost per cement produced (ZAR/t)",
+              "page": 25,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Equation 4: Energy cost per cement produced (ZAR/t)",
+              "page": 14,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "cement produced",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "along with the “Energy \ncost per cement produced”, as calculated by using Equation 4.",
+              "page": 15,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "From Table 3, the electrical energy cost \nper tonne reduced by 25% (8.61 ZAR/tonne).",
+                "page": 25,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction in electrical energy cost per cement produced",
+                  "value": "25",
+                  "unit": "%",
+                  "period_or_context": "Jan-15 to Feb-16 (8.61 ZAR/tonne)",
+                  "evidence_quote": "From Table 3, the electrical energy cost \nper tonne reduced by 25% (8.61 ZAR/tonne).",
+                  "page": 25,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Specific sectional energy intensity (Equation 6)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "The “Specific sectional energy intensity” (Equation 6) is also a critical sectional \nEnPI.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Energy intensity (kWh/t)",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Equation 6: Specific sectional energy intensity (kWh/t)",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "Equation 6: Specific sectional energy intensity (kWh/t)",
+              "page": 15,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Equation 6: Specific sectional energy intensity (kWh/t)",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "specific tonnes produced by section",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Equation 6: Specific sectional energy intensity (kWh/t)",
+              "page": 15,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The most savings originated from an improvement in the intensity (47%).",
+                "page": 24,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "improvement in intensity (Finishing Mill 2)",
+                  "value": "47",
+                  "unit": "%",
+                  "period_or_context": "Jan-2015 to Feb-2016, Finishing Mill 2",
+                  "evidence_quote": "The most savings originated from an improvement in the intensity (47%).",
+                  "page": 24,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "Specific sectional energy cost intensity (Equation 7)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy cost",
+              "evidence_quote": "The “Specific sectional energy cost intensity” serves as an indication of the cost of \nconsuming one unit of energy.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Energy cost intensity (c/kWh)",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "The “Specific sectional energy cost intensity” serves as an indication of the cost of \nconsuming one unit of energy.",
+              "page": 15,
+              "support_class": "direct statement",
+              "other_verbatim": "per unit of energy consumed (kWh)"
+            },
+            "unit_verbatim": {
+              "value": "ZAR/kWh",
+              "evidence_quote": "Equation 7: Specific sectional energy cost intensity (ZAR/t)",
+              "page": 15,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Equation 7: Specific sectional energy cost intensity (ZAR/t)",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "sectional energy consumption",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "The “Specific sectional energy cost intensity” serves as an indication of the cost of \nconsuming one unit of energy.",
+              "page": 15,
+              "support_class": "direct statement",
+              "type_other_verbatim": "energy consumed"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The greatest improvement was seen in the intensity cost saving, \nwhich reduced by 72% from January 2015 to February 2016.",
+                "page": 23,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "reduction in intensity cost saving missed (Finishing Mill 1)",
+                  "value": "72",
+                  "unit": "%",
+                  "period_or_context": "January 2015 to February 2016, Finishing Mill 1",
+                  "evidence_quote": "The greatest improvement was seen in the intensity cost saving, \nwhich reduced by 72% from January 2015 to February 2016.",
+                  "page": 23,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "Specific sectional production cost (Equation 8)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text"
+          },
+          "baseline_construction_method": {
+            "value": "Benchmarking based on three months' historical performance and benchmarked values from literature",
+            "evidence_quote": "the initial benchmarking will be done based on three months’ historical performance, \nand benchmarked values from literature.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy cost",
+              "evidence_quote": "The “Specific sectional production cost” is calculated from Equation 8, and indicates the cost \nefficiency of the section compared to its specific production output.",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Production cost (ZAR/t)",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "The “Specific sectional production cost” is calculated from Equation 8, and indicates the cost \nefficiency of the section compared to its specific production output.",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "ZAR/t",
+              "evidence_quote": "Equation 8: Specific sectional production cost (ZAR/t)",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Equation 8: Specific sectional production cost (ZAR/t)",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "specific tonnes produced by section",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "the cost \nefficiency of the section compared to its specific production output.",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "hourly",
+              "evidence_quote": "is typically measured by a plant continuously in tonnes production \nper hour",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 14,
+              "evidence_quote": "The \nreports were generated on a weekly and monthly basis for a total period of 14-months",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "Performance monitoring of the plant was conducted by \nmeans of capturing the data from the developed reports over the 14-month period.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "The system captures production and electricity data from different sources for all the \nsections on the plant.",
+              "page": 12,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "rolling window",
+              "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+              "page": 13,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "adjusting targets according to previous \nperformance and benchmarking.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Fig. 9 presents the production cost for Finishing Mill 2, indicating that the increased over the \nevaluation period. This is seen in the decline of the trend lines in the graph, indicating the \nreduced production cost.",
+                "page": 22,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "production cost trend (Finishing Mill 2)",
+                  "value": "reduced over the evaluation period",
+                  "unit": null,
+                  "period_or_context": "evaluation period, Finishing Mill 2 (qualitative, from graph)",
+                  "evidence_quote": "This is seen in the decline of the trend lines in the graph, indicating the \nreduced production cost.",
+                  "page": 22,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "This study reports on \nan electrical energy management system for improving cement plant productivity at minimal \ncost.",
+        "page": 2,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The “Clinker \nproduction” and “Total energy per clinker produced” EnPIs were not evaluated as part of this \nstudy, as the plant does not continuously produce clinker.",
+      "page": 25,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "insufficient data length for the model"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "The measurement \nof this risk could be improved by installing more refined meters on different components of \nthe equipment.",
+      "page": 23,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "segmented baseline",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "tariff structures during the summer and winter months, the trend lines were generated \nseparately for the two cases in the graphs.",
+      "page": 22,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "The measurement \nof this risk could be improved by installing more refined meters on different components of \nthe equipment.",
+      "page": 23,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "rolling window",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "Developing an effective budgeting system (step 7) ensures that the targets and budgets are \nadapted according to performance, resulting in continuous improvement and a target that is \nrealistic, but still aims to reach the optimal performance.",
+      "page": 13,
+      "support_class": "requires inference",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "To adapt this strategy the critical meters required to continuously \nmonitor coal consumption have to be installed.",
+      "page": 27,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "An important shortcoming of this research is thus the lack of focus \non all energy sources.",
+      "page": 27,
+      "searched_terms": [
+        "shortcoming",
+        "limitation",
+        "future work"
+      ]
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "The next shortcoming is the implementation of the system on more case study plants.",
+      "page": 27
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Time-shifting savings strategies difficult to sustain by plant personnel",
+      "evidence_quote": "however they have been found to be difficult to sustain \nby plant personnel [31].",
+      "page": 6
+    },
+    {
+      "barrier": "Expanding the system to coal energy management requires capital costs and a feasible business case",
+      "evidence_quote": "These changes will require capital costs and will thus need to have a feasible business case.",
+      "page": 27
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "Equation 4: Energy cost per cement produced (ZAR/t)",
+      "page": 14,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    }
+  },
+  "reviewer_notes": "The paper applies an ISO 50001 based reporting system built on intensity-ratio EnPIs (Equations 1-8). Each distinct EnPI is treated as a separate intensity-ratio model. Two of the defined EnPIs (Clinker production, Total energy per clinker produced) were explicitly not evaluated because the plant does not continuously produce clinker; this is captured as mechanism K1 rather than as separate models. Baseline construction for all EnPIs is the benchmarking on three months' historical performance plus literature values (page 13). No statistical fit or out-of-sample validation applies to intensity ratios; the reported results are energy/cost reductions between the first (Jan-15) and last (Feb-16) implementation months.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "shortcoming",
+        "measurement",
+        "not evaluated",
+        "drift",
+        "baseline"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "segmented",
+        "seasonal",
+        "meter",
+        "benchmark update",
+        "rolling"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "shortcoming",
+        "limitation",
+        "future work",
+        "case study"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "capital",
+        "personnel",
+        "sustain",
+        "barrier",
+        "cost"
+      ]
+    }
+  },
+  "attempt": 9
+}

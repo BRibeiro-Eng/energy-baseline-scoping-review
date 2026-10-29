@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535710",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-24T12:41:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "VSNavigator is mainly a decision support system, with superior performance to any commercial SCADA.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ineligibility_reason": "Presents the VERYSchool project and the VSNavigator decision-support software (Enerit ISO 50001 suite) for school buildings. EnPI/EnB measurement models are mentioned only incidentally (eeMeasure, IPMVP-customised, IES Building/Climate Energy Index) and none is identified or characterised (no variables, functional form, or construction/estimation approach), so it is a tool/software paper without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The VSNavigator is a High-Level Management tool, usable as web-tool with a friendly and intuitive user interface.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "School-buildings sector -> not on the closed continuous-process list, level_3b=false. Reports pilot savings % and named validation tools but no characterised EnPI/EnB model, hence ineligible under the v2.3 tool/software rule. Not a review/synthesis, so borderline flag unset."
+  },
+  "stage2": null,
+  "stage3": null
+}

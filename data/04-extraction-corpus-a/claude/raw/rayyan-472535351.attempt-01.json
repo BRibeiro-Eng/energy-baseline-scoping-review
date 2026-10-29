@@ -1,0 +1,264 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535351",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Rate of energy consumption: It is the ratio between the energy consumed by the plant in kJ and the energy generated in terms of kWh of equivalent energy.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The Tula refinery case study is a relevant example of how to use this approach",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "the cogeneration plant of an oil refinery",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Single applied case study of the Tula (Pemex) oil-refinery cogeneration plant. Primary model is a Thermoflex thermodynamic (physical) simulation producing energy performance indicators (electric/CHP efficiency, energy-consumption rate) and an integrated energy-environmental baseline; validated against real natural-gas consumption."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the scope of the refinery's EnMS refers to this plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Tula, Mexico",
+      "evidence_quote": "the Tula refinery which is part of the Tula-Vito-Apaxco industrial corridor, 90 km north of the metropolitan area of Mexico City",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "oil refinery",
+      "evidence_quote": "An oil refinery is a facility where several fossil fuels are produced",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "cogeneration in an oil refinery",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "an Energy Management System (EnMS) based on the ISO 50001 standard",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": ["physical model"],
+      "evidence_quote": "The modeling of the cogeneration plant involves a system of non-linear thermodynamic equations and continuous entities",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": ["thermal energy plus the electrical energy generated"],
+      "evidence_quote": "dividing the total emissions by the thermal energy plus the electrical energy generated",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "Baseline = current technological state of the cogeneration plant, represented via a Thermoflex thermodynamic simulation (a system of non-linear thermodynamic equations) reproducing the actual plant configuration; model output (natural-gas consumption) is validated against real plant values.",
+      "evidence_quote": "The model is used to represent three scenarios of the cogeneration plant: the current technological state, which will be referred to as the Baseline in accordance with the terminology of the standards",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "validation_types": {
+      "value": ["empirical", "statistical"],
+      "evidence_quote": [
+        "Natural gas consumption is the measure chosen to validate the simulation model, comparing the values returned by the model with real values observed in the plant",
+        "the correlation coefficient between real and simulated data is 0.6408"
+      ],
+      "page": [7, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "Currently, the refinery's cogeneration plant does not provide the total energy requirement of the refinery",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scope_description": {
+      "value": "The cogeneration plant of the Tula oil refinery (seven natural-gas boilers and five turbogenerators) supplying heat and electricity to the refining processes; it consumes about 55% of the refinery's total energy and is the scope of the refinery's EnMS.",
+      "evidence_quote": "the plant consumes around 55% of the total energy used; therefore, the scope of the refinery's EnMS refers to this plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "Energy and Environmental Cross Indicators that, together with conventional indicators, provide rich analysis. This should lead to establishing Cross Baselines",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "adaptation_types": {
+      "value": ["other"],
+      "evidence_quote": "Harmonizing these divergent aspects, a combined Energy and Environmental Review is proposed",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "a specific synergy between ISO 50001 and ISO 14001 is proposed",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "the output data used to validate the model is the natural gas consumed by the set of seven boilers",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "simulation",
+      "evidence_quote": "a thermodynamic simulation model is programmed according to the proposed synergistic approach, to represent the performance of the current state of the cogeneration plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "model_parameters_reported": {
+      "value": [
+        "CO2 emission factor 6.715E-02 t/GJ",
+        "CO emission factor 2.010E-06 t/GJ",
+        "SO2 emission factor 3.990E-05 t/GJ",
+        "NO emission factor 7.335E-05 t/GJ"
+      ],
+      "evidence_quote": ["6.715E-02", "2.010E-06", "3.990E-05", "7.335E-05"],
+      "page": [11, 11, 11, 11],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "0.6408",
+          "unit": null,
+          "period_or_context": "Pearson correlation coefficient between real and simulated natural-gas consumption",
+          "evidence_quote": "the correlation coefficient between real and simulated data is 0.6408",
+          "page": 7,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "7.8%",
+          "unit": "%",
+          "period_or_context": "median percentage difference between real and simulated natural-gas consumption per boiler (range 6.8%-14.2%)",
+          "evidence_quote": "The median of these differences is 7.8%",
+          "page": 7,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.000%",
+          "unit": "%",
+          "period_or_context": "energy and mass balance closure error across the three simulated scenarios",
+          "evidence_quote": "The error for both the energy and mass balance of the three scenarios is 0.000%",
+          "page": 9,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  }
+}

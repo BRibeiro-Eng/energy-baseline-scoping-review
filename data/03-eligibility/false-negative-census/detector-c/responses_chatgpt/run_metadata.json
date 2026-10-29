@@ -1,0 +1,65 @@
+{
+  "run_id": "detector_chatgpt_20260909",
+  "started_or_resumed_at": "2026-09-10T10:52:37.124052+00:00",
+  "status": "incomplete",
+  "queue_count": 394,
+  "batch_size": 20,
+  "workers": 1,
+  "surface": "ChatGPT account via Codex CLI",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "codex_version": "codex-cli 0.153.4",
+  "full_stage0_text_per_call": true,
+  "one_paper_per_call": true,
+  "other_surface": "Managed separately by parent task; this directory contains only ChatGPT results",
+  "canonical_root": "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction",
+  "input_validation_manifest": "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction/work/detector_chatgpt_20260909/validated_inputs.json",
+  "prompt_sha256": "1fdc22d007009c05e6d86f7dbd401237271696488c6e862cc86ca9cbf5d16281",
+  "schema_sha256": "0878fcce18c68e14887245c10fbd0ce896ca9af75b9ad6cbcf66269404cd7253",
+  "epistemic_separation": "No model output, reviewer decision, or reveal artifact provided to detector calls",
+  "progress_log": "/Users/bernardoribeiro/LocalResearch/Screening/level3_extraction/work/detector_chatgpt_20260909/progress.jsonl",
+  "finished_or_paused_at": "2026-09-10T11:23:44.402153+00:00",
+  "valid_response_count": 30,
+  "failures": [
+    {
+      "key": "rayyan-472535404",
+      "error": "rayyan-472535404: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535412",
+      "error": "rayyan-472535412: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535415",
+      "error": "rayyan-472535415: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535416",
+      "error": "rayyan-472535416: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535418",
+      "error": "rayyan-472535418: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535419",
+      "error": "rayyan-472535419: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535420",
+      "error": "rayyan-472535420: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535423",
+      "error": "rayyan-472535423: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535427",
+      "error": "rayyan-472535427: no valid response; see attempt metadata"
+    },
+    {
+      "key": "rayyan-472535432",
+      "error": "rayyan-472535432: no valid response; see attempt metadata"
+    }
+  ]
+}

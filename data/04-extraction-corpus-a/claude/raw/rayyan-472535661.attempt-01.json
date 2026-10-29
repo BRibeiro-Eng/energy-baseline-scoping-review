@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535661",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T11:17:06Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "to propose an approach for the evaluation of resource utilization capability in EnMS",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.73
+    },
+    "ineligibility_reason": "Mentions energy performance indicators only incidentally as ISO 50001 EnMS activities; the paper proposes a resource-utilization evaluation approach (importance/efficiency indicators via questionnaire, K-means clustering, priority ranking), not an EnPI or EnB energy-performance measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the proposed approach is applied to a case study of an oil refinery",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Oil refinery case study (continuous-process sector), but no EnPI/EnB model: only resource importance/efficiency indicators (II/EI, K-means, PI). Relevant to FN-census screening."
+  },
+  "stage2": null,
+  "stage3": null
+}

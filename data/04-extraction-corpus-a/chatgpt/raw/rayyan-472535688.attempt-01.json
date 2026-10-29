@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535688",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:33:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This article therefore investigates the different project types that can be identified using existing data sources. The parameters required for project identification are specified and ranges for these parameters, which point to project potential, is given.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Therefore, in order to test the project identification, these parameters were calculated from the SCADA data as part of an EnMS implementation on Mine B.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Automated energy efficiency project identification in the gold mining industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Gold mining is outside the closed Level 3B sector list; the empirical case is Mine B."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Therefore, in order to test the project identification, these parameters were calculated from the SCADA data as part of an EnMS implementation on Mine B.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "Table I below shows the water usage figures for some South African gold mines per ton of ore mined.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "gold mining industry",
+      "evidence_quote": "Automated energy efficiency project identification in the gold mining industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The mining process comprises three shifts, the drilling shift from 07:00 to 13:00, the blasting shift from 13:00 to 21 :00 and the sweeping and cleaning shift from 21 :00 to 07:00 [7].",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "As a result, a compressed air project can be identified by implementing an ISO 50001 compliant EnMS that connects to the SCADA system of the mine.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Using this equation allows the system to calculate the power consumption during present operation and then determine the power reduction associated with a pressure",
+        "The identification of this project is based on the superfluous pumping of feedback water to the refrigeration machine from the cold storage dam. This project can thus be identified by measuring only the feedback flow and the total evaporator flow. Once these flows are measured a ratio between the two can be determined."
+      ],
+      "page": [
+        4,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

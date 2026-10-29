@@ -1,0 +1,865 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536379",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "attempt": 1,
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "iron and steel industry / steel manufacturing industry",
+        "evidence_quote": "The iron and steel industry is responsible for 7% of\nthe total emissions and 11% of carbon emissions at a global level.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "2 mills in Italy, 1 mill in the US",
+        "evidence_quote": "The participating mills, whose staff\nwe heartfelt thank for their time and sharing of data, are 2 in\nItaly and 1 in the US.",
+        "page": 6,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "This study has been carried out by involving three steel\nmills.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "ML (regression) modelling of energy performance indicators for high energy consumption steel processes, with fitted regression models for compressor energy efficiency EnPIs across three steel mills",
+        "evidence_quote": "The study’s approach is methodological, where we started with energy\naudits carried out in three steel mills to pinpoint how machine\nlearning (ML) techniques can be effectively used in search of\nrelevant energy efficiency (EE) benchmarks.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "This study has been carried out by involving three steel\nmills.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "kWh/Nm3 (EnPI1)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "period",
+              "date",
+              "year",
+              "start"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "period",
+              "date",
+              "year",
+              "end"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Regression model trained on one-year data using MATLAB regression learner",
+            "evidence_quote": "The real time value are trained by using the\nregression learner and results are shown in Fig. 4.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "the energy efficiency of the compressors refers to\nefficient compression and it is measured by kWh/Nm3.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Air compression system uses 4 −6% of the\nelectricity consumed in whole steel mill.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "the energy efficiency of the compressors refers to\nefficient compression and it is measured by kWh/Nm3.",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": "volume of compressed air (Nm3)"
+            },
+            "unit_verbatim": {
+              "value": "kWh/Nm3",
+              "evidence_quote": "the energy efficiency of the compressors refers to\nefficient compression and it is measured by kWh/Nm3.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other machine learning"
+              ],
+              "evidence_quote": "The real time value are trained by using the\nregression learner and results are shown in Fig. 4.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": "regression learner (MATLAB toolbox); candidate families evaluated include MLR, Random Forest, GBM and Neural Networks"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fitting",
+                "training"
+              ]
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "feature selection",
+                "variable selection",
+                "stepwise",
+                "importance"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 12,
+              "evidence_quote": "will be considered as the predicted value to look for\nwhen 12 variables are the input as shown in Fig. 2.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB regression learner",
+              "evidence_quote": "using an application available in\nMATLAB i.e., regression learner.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Load utilization factor hours/year",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "Input: Load utilization factor hours/year",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Volume of the gas flow in Nm3/year",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Input: Volume of the gas flow in Nm3/year",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Idle working hours of compressors",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Input: Idle working hours of compressors",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Average electric power absorbed when idle in kW",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Input: Average electric power absorbed when idle in kW",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Average electric power absorbed under load in kW",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Input: Average electric power absorbed under load in kW",
+              "page": 3,
+              "support_class": "direct statement",
+              "type_other_verbatim": "electric power absorbed under load"
+            },
+            {
+              "verbatim": "Relative pressure in MPa",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "Input: Relative pressure in MPa",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "temperature, the humidity, the dirtiness of air, the state of the pipelines, the configuration of the network",
+              "type": "ambient conditions",
+              "role": "excluded",
+              "evidence_quote": "nevertheless there are other parameters (such as the\ntemperature, the humidity, the dirtiness of air, the state of\nthe pipelines, the configuration of the network, ...and many\nother conditions related to the manufacturing process) which\nheavily affect the energy and volume computation.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The study’s approach is methodological, where we started with energy\naudits carried out in three steel mills to pinpoint how machine\nlearning (ML) techniques can be effectively used in search of\nrelevant energy efficiency (EE) benchmarks.",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Once period T of investigation is chosen, in this case one\nyear, the participating factors for EnPIs are chosen as shown in\nFig. 2:",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "Once period T of investigation is chosen, in this case one\nyear, the participating factors for EnPIs are chosen as shown in\nFig. 2:",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 20,
+              "evidence_quote": "For proposed case study total number of participating\ncompressors are 20.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "we started with energy\naudits carried out in three steel mills",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Air compression system uses 4 −6% of the\nelectricity consumed in whole steel mill.",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibration",
+                "rolling",
+                "baseline update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate",
+                "retrain"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicability",
+                "bounds",
+                "envelope"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The training result shows a relative root mean square error\n(rRMSE), R-Squared value, MSE, and MAE.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R-Squared",
+                  "value": 0.55,
+                  "evidence_quote": "R-Squared\n0.55\n0.71",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "rRMSE",
+                  "value": 34.93,
+                  "evidence_quote": "rRMSE\n34.93\n27.5",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MSE",
+                  "value": 2376.0,
+                  "evidence_quote": "MSE\n2376.0\n1.9515",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAE",
+                  "value": 24.216,
+                  "evidence_quote": "MAE\n24.216\n0.70339",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "test set",
+                  "hold-out",
+                  "validation",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "The process involves reading input and output data, splitting it\ninto training and test sets, and then iterating through model\nselection, parameter tuning, cross-validation, and training.",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy saving",
+                  "savings %",
+                  "reduction",
+                  "kWh saved"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Wh/Nm3/ton (EnPI2)",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline",
+              "period",
+              "date",
+              "year"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Regression model trained via MATLAB regression learner using compressor area/process information",
+            "evidence_quote": "To measure this EnPI, the areas of\ncompressors installed are identified, for instance 3 compressors\nwere installed in steel making, 5 in hot rolling and 2 in forging.",
+            "page": 5,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked\nfor better predictive results.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Air compression system uses 4 −6% of the\nelectricity consumed in whole steel mill.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked\nfor better predictive results.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": "volume of compressed air per tonne of steel (Nm3/ton)"
+            },
+            "unit_verbatim": {
+              "value": "Wh/Nm3/ton",
+              "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked\nfor better predictive results.",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other machine learning"
+              ],
+              "evidence_quote": "The real time value are trained by using the\nregression learner and results are shown in Fig. 4.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": "regression learner (MATLAB toolbox)"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "training"
+              ]
+            },
+            "variable_selection": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "feature selection",
+                "variable selection",
+                "stepwise"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 12,
+              "evidence_quote": "when 12 variables are the input as shown in Fig. 2.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": "MATLAB regression learner",
+              "evidence_quote": "using an application available in\nMATLAB i.e., regression learner.",
+              "page": 1,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "areas of compressors installed ... 3 compressors were installed in steel making, 5 in hot rolling and 2 in forging",
+              "type": "other",
+              "role": "segmentation",
+              "evidence_quote": "To measure this EnPI, the areas of\ncompressors installed are identified, for instance 3 compressors\nwere installed in steel making, 5 in hot rolling and 2 in forging.",
+              "page": 5,
+              "support_class": "direct statement",
+              "type_other_verbatim": "process area where compressor is installed"
+            },
+            {
+              "verbatim": "Volume of the gas flow in Nm3/year",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Input: Volume of the gas flow in Nm3/year",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "Load utilization factor hours/year",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "Input: Load utilization factor hours/year",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "we started with energy\naudits carried out in three steel mills",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Once period T of investigation is chosen, in this case one\nyear, the participating factors for EnPIs are chosen as shown in\nFig. 2:",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "Once period T of investigation is chosen, in this case one\nyear, the participating factors for EnPIs are chosen as shown in\nFig. 2:",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 20,
+              "evidence_quote": "For proposed case study total number of participating\ncompressors are 20.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "we started with energy\naudits carried out in three steel mills",
+              "page": 1,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Air compression system uses 4 −6% of the\nelectricity consumed in whole steel mill.",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "rolling",
+                "recalibration"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "retrain",
+                "re-estimate"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicability",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The training result shows a relative root mean square error\n(rRMSE), R-Squared value, MSE, and MAE.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R-Squared",
+                  "value": 0.71,
+                  "evidence_quote": "R-Squared\n0.55\n0.71",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "rRMSE",
+                  "value": 27.5,
+                  "evidence_quote": "rRMSE\n34.93\n27.5",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MSE",
+                  "value": 1.9515,
+                  "evidence_quote": "MSE\n2376.0\n1.9515",
+                  "page": 5,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAE",
+                  "value": 0.70339,
+                  "evidence_quote": "MAE\n24.216\n0.70339",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "test set",
+                  "hold-out",
+                  "validation",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "The process involves reading input and output data, splitting it\ninto training and test sets, and then iterating through model\nselection, parameter tuning, cross-validation, and training.",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "energy saving",
+                  "savings %",
+                  "reduction"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": false,
+            "basis": null
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "steel and primary metals",
+        "evidence_quote": "This study has been carried out by involving three steel\nmills.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "nevertheless there are other parameters (such as the\ntemperature, the humidity, the dirtiness of air, the state of\nthe pipelines, the configuration of the network, ...and many\nother conditions related to the manufacturing process) which\nheavily affect the energy and volume computation.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "ambient conditions",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "more improvements are expected\nby a better fine-tuning: for instance, selecting more location-\nspecific data, with higher temporal granularity (a week, a\nmonth, every change in the batch process, ...) and a more\ndedicated data gathering on the production itself (sub-process\nlevel) are likely to guarantee the setup and use of a robust and\nrigorous procedure, with higher and higher converging results.",
+      "page": 6,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "coarse temporal/spatial data granularity limits the model's predictive robustness and accuracy"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "evaluated",
+      "addresses_mechanism": "K2",
+      "normative_framing": "implicit",
+      "evidence_quote": "A new EnPI, using pretty much\nthe same input parameters, but including information on the\nprocess, can thus be the answer.",
+      "page": 5,
+      "support_class": "direct statement",
+      "refers_to": "M2"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "selecting more location-\nspecific data, with higher temporal granularity (a week, a\nmonth, every change in the batch process, ...) and a more\ndedicated data gathering on the production itself (sub-process\nlevel)",
+      "page": 6,
+      "support_class": "requires inference",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "The case study considers\ndata from three steel mills providing a preliminary perspective\non energy consumption patterns.",
+      "page": 6
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Gaps in the type and collection of data needed at each energy-intensive process must be addressed for the implementation of Industry 4.0",
+      "evidence_quote": "identifying gaps\ne.g., the type and importance of the data to be collected at\neach energy intensive process, that need to be addressed for the\nimplementation of Industry 4.0",
+      "page": 1
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "equation",
+        "formula",
+        "model form"
+      ]
+    },
+    "coefficients_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "coefficient",
+        "parameter",
+        "weights"
+      ]
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "repository",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "github",
+        "script",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "Only two energy performance models were actually fitted: the compressor EnPI regression models (EnPI1 kWh/Nm3 = M1 and EnPI2 Wh/Nm3/ton = M2), reported in Fig. 4, Fig. 5 and Table I. The extensive DATA SET listings for EAF, VAR/ESR, AOD and air compression are proposed parameter/monitoring frameworks, not fitted models, so they were not coded as models. Model family is ambiguous: the framework section lists MLR, Random Forest, GBM and Neural Networks as candidates, but the reported case-study results are only attributed to the MATLAB 'regression learner', so 'other machine learning' with the tool named was used. Metric placement is ambiguous: the workflow (Fig. 3) describes a train/test split and cross-validation, but the text labels the reported numbers 'training result', so metrics were placed in in_sample_fit and out_of_sample status set to not reported with the described held-out design recorded. Data are pooled/averaged across the three mills (2 Italy, 1 US), treated here as one multi-site application.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "drift",
+        "assumption",
+        "affect",
+        "granularity",
+        "not measured",
+        "unmodelled"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "new EnPI",
+        "alternative metric",
+        "normalisation",
+        "improvement",
+        "fine-tuning"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "preliminary",
+        "limited",
+        "three mills",
+        "sample",
+        "future work"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "gap",
+        "implementation",
+        "Industry 4.0",
+        "data collection"
+      ]
+    }
+  }
+}

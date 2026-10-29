@@ -1,0 +1,122 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536464",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:04:57Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper proposes a Bayesian linear regression methodology for hourly baseline energy consumption predictions in commercial buildings.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The presented approach was tested on an open dataset containing electricity meter readings at an hourly frequency for 1578 non-residential buildings.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In this article, a Bayesian methodology to model electricity baseline use in tertiary buildings was presented.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Empirical applications are tertiary/non-residential buildings, which are outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The presented approach was tested on an open dataset containing electricity meter readings at an hourly frequency for 1578 non-residential buildings.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "North America and Europe",
+      "evidence_quote": "the buildings belong to 19 different sites across North America and Europe",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "tertiary buildings",
+      "evidence_quote": "In this article, a Bayesian methodology to model electricity baseline use in tertiary buildings was presented.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "In this article, a Bayesian methodology to model electricity baseline use in tertiary buildings was presented.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "In M&V, there are two main guidelines that are globally recognized: the International Performance Measurement and Verification Protocol (IPMVP), and the ASHRAE Guideline 14 [14].",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "The main aim of the Bayesian inference methodology proposed in this article is to characterize the energy consumption dynamics of individual buildings by means of a linear regression model that uses time and weather features as predictors.",
+        "To detect the profile patterns, a spectral clustering methodology is implemented [37].",
+        "This model structure is based on the concept of linear change-point models, first introduced in the literature with the PRISM method [38]."
+      ],
+      "page": [
+        5,
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

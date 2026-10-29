@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472535393",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Gypsum calcination in kiln/oven 5 described explicitly as a continuous ('online') thermal process, a continuous-flow signal in non-metallic mineral processing",
+      "quote": "The main function of oven 5 is the thermal transformation using a gaseous fuel; here, the calcination of natural gypsum is carried out, which is considered important as it is an online process.",
+      "page": 10,
+      "sector": "non-metallic mineral processing (gypsum calcination kiln)"
+    },
+    {
+      "signal": "Plant runs three shifts covering a full 24-hour cycle, indicating round-the-clock operation of the mineral-processing facility",
+      "quote": "The three shifts correspond to the following time slot; Shift 1:\nFrom 6:00 a.m. to 1:00 p.m.; Shift 2: From 2:00 p.m. to 9:00 p.m.;\nand Shift 3: From 10:00 p.m. to 11:00 p.m. of the same day and\n12:00 a.m. to 5:00 a.m. of the following day.",
+      "page": 3,
+      "sector": "non-metallic mineral processing (24h shift operation)"
+    },
+    {
+      "signal": "Continuous feeding logic on the mill described (feeder cycles on/off by classifier pressure; feeding must be constant), and oven left on continuously overnight",
+      "quote": "the feeding must be constant and guarantee maximum use",
+      "page": 11,
+      "sector": "non-metallic mineral processing (gypsum grinding mill)"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "The paper applies an ISO 50002 energy audit to a Colombian SME in the non-metallic mineral sector (gypsum grinding and calcination for plaster, stucco and mortars), which is not one of the registered Corpus B sectors, though it involves a continuously operated calcination kiln."
+}

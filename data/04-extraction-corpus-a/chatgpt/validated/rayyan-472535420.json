@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535420",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:58:03Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The SEP M&V Protocol requires use of linear regression models that meet specified statistical validity requirements to calculate energy savings attributable to energy efficiency actions.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This paper analyzes verified energy performance data from 83 manufacturing facilities that implemented ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This study is exclusively focused on manufacturing facilities",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "Mixed manufacturing dataset; no explicit closed-list continuous-process sector is identified in the extracted text."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In total, 83 manufacturing facilities were identified to have either previously certified to SEP 50001 or were actively certified at the time of study.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "North America",
+      "evidence_quote": "Fig. 2. Location of SEP 50001 Facilities Included in this Study Across North America",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "This study is exclusively focused on manufacturing facilities",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "Fig. 3. SEP 50001 Facilities Included in this Study by NAICS Code",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.76
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This paper analyzes verified energy performance data from 83 manufacturing facilities that implemented ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "Energy performance improvement is determined through use of the 50001 Superior Energy Performance Measurement & Verification (SEP M&V) Protocol",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression"
+      ],
+      "evidence_quote": "The SEP M&V Protocol requires use of linear regression models that meet specified statistical validity requirements to calculate energy savings attributable to energy efficiency actions.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

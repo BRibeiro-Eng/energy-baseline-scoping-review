@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536596",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T09:02:55.016126+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a monthly rolling analysis of the Electricity_UnitCost should be established as an Energy Performance Indicator (EnPI)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The use-case was a precision-engineering facility based in Ireland (Manufacturing_SME1).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "They primarily process parts in steel, aluminium and plastic for applications in the medical devices industry.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "EnPIs defined with functional forms (Electricity_UnitCost eq.1; value-added/auxiliary energy eq.2-3; SEC; per-part energy cost). Single-site precision-engineering (discrete machining of parts for medical devices) SME in Ireland -> discrete manufacturing, not a closed-list continuous-process sector, so level_3b=false. paper_type single applied case vs methodological is the main borderline call."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The use-case was a precision-engineering facility based in Ireland (Manufacturing_SME1).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "Limerick, Ireland",
+      "evidence_quote": "precision engineering SME based in Limerick, Ireland",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "precision engineering",
+      "evidence_quote": "precision engineering SME based in Limerick, Ireland",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "They primarily process parts in steel, aluminium and plastic for applications in the medical devices industry.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the central implementation part of the ISO 50001 Energy Management certification is derived from the PDCA cycle",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Specific energy consumption (SEC)",
+        "specific EnPIs which identify the embedded energy cost per production part"
+      ],
+      "page": [
+        4,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

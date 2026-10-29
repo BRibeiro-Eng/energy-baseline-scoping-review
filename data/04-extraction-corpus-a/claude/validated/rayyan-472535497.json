@@ -1,0 +1,49 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535497",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:59:12.480223+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "This paper investigates the extent to which energy management is practiced in the context of modular production and whether there is a need for research.",
+        "we propose to define a uniform energy data information model which can be included into the MTP."
+      ],
+      "page": [
+        1,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Presents a concept and requirements for integrating energy management into modular production via an energy data information model extending the Module Type Package (MTP); it discusses monitoring energy consumption and cites ISO 50001 as motivation but does not present, propose, evaluate, or characterise any EnPI/EnB measurement model (no indicator or baseline definition, no normalisation variables, functional form, or construction/estimation approach). Framework/tool concept without EnPI/EnB measurement-model content; evaluation is only planned.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": [
+        "The focus of our concept is on the extension of the MTP by energy management functionalities.",
+        "To evaluate the future engineering and operation approach a prototypical software and hardware implementation is planned."
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Concept/position paper: argues a need for research and proposes an energy data information model to extend the Module Type Package (MTP) for energy monitoring and load management; only a prototype is planned, no empirical case. paper_type is borderline between 'tool/software design' and 'other'; chose tool/software design as the proposed artefact is an information model plus a planned software/hardware system. No EnPI/EnB model -> ineligible; stage2/stage3 null."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472536502",
+ "tier": "A",
+ "ts": "2026-09-11T12:09:27",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "cement"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 154.3,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem metodolgia"
+}

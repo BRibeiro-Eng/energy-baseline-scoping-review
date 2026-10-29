@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "export_screened": 925,
+    "screening_excluded": 326,
+    "candidate_reports": 599,
+    "late_duplicates": 3,
+    "reports_sought": 596,
+    "reports_not_retrieved": 137,
+    "reports_assessed": 459,
+    "deterministic_excluded": 11,
+    "language_excluded": 10,
+    "retracted_excluded": 1,
+    "methodological_assessed": 448,
+    "methodological_excluded": 117,
+    "fulltext_excluded": 128,
+    "included_publications": 331,
+    "corpus_b_recorded": 42,
+    "b_outside_a": 2
+  },
+  "pending": {
+    "scopus_identified": null,
+    "wos_identified": null,
+    "early_duplicates": null,
+    "snowball_records_identified": null,
+    "snowball_reports_sought": null,
+    "snowball_reports_not_retrieved": null,
+    "snowball_reports_included": null,
+    "snowballing_closed": null,
+    "note": "Null significa por documentar, nunca zero. Os 925 são o export de triagem, não o total bruto das bases."
+  },
+  "membership_conflicts": [
+    "rayyan-472535628",
+    "rayyan-472535750"
+  ],
+  "status": "draft",
+  "source_documents": [
+    "data/articles.csv",
+    "data/MISSINGNESS.md",
+    "data/excluded_records.json",
+    "data/excluded_duplicates.json",
+    "CORPUS_CLOSURE_2026-09-12.md"
+  ],
+  "notes": [
+    "331 publicações, não 331 estudos independentes",
+    "599-3=596; 596-137=459; 459-11=448; 448-331=117",
+    "331/42 não formam conjuntos aninhados nos ficheiros: dois conflitos",
+    "Fecho do censo de falsos negativos não substitui o log de snowballing"
+  ]
+}

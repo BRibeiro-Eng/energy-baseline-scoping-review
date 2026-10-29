@@ -1,0 +1,113 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536367",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:34:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This model aimed to establish the correlation between energy consumption and independent variables through regression analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The proposed case study in this work involved a plastic injection plant based in Morocco, dedicated to the production and marketing of electrical components.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "plastic injection plant based in Morocco, dedicated to the production and marketing of electrical components",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Case: plastic injection molding plant (Casablanca, Morocco), electrical-component production = discrete manufacturing; not in closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The site occupies an area of 15,000 square meters and has a workforce of over 700.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Casablanca, Morocco",
+      "evidence_quote": "a plastic injection factory in Casablanca, Morocco, which has been chosen as the experimental site for the proposed methodology",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "plastic injection molding plant",
+      "evidence_quote": "a new energy-efficient reference model has been established for a plastic injection molding plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "dedicated to the production and marketing of electrical components",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "ASHRAE 14"
+      ],
+      "evidence_quote": "ASHARE and IPMVP protocols are highlighted",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "ML"
+      ],
+      "evidence_quote": "the proposed model applies three distinct enhanced modeling methodologies, including regression modeling, artificial neural network (ANN) and adaptive neuro-fuzzy inference system (ANFIS)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

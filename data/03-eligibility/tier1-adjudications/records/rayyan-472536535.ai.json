@@ -1,0 +1,46 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536535",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Valderice (Italy)",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "administrative offices building",
+        "type_of_organisation": "buildings"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472536535",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

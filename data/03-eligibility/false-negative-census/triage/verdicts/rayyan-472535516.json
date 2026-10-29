@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535516",
+ "tier": "A",
+ "ts": "2026-09-11T12:06:31",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "cement"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 20.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sobre modelos de decisao"
+}

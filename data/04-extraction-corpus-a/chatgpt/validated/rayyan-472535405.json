@@ -1,0 +1,261 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535405",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T13:26:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The novelty of this work is the detailed categorization of the steel manufacturing process, identification of 17 EnPI, as compared with the literature, and finally, we proposed a model for the decarbonization of the steel industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "We applied the methodology to a case study of two steel mills.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "We applied the methodology to a case study of two steel mills.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study is carried out with the participation of two steel mills, whose audit is carried out by an energy consulting company.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "steel industry",
+      "evidence_quote": "The work aims to help the energy-intensive industry like the steel industry in decarbonization.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "it represents the application of energy management in an energy-intensive sector, like the steel production process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the first step towards the decarbonization and implementation of ISO 50001 and ISO 14064",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "consumption (kWh/t), thermal energy consumption (Sm3/t), and total energy consumption (GJ/t) for ACC, FOR, LAM, and TT, GJ/t for RIF.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "tons of steel",
+        "Nm3"
+      ],
+      "evidence_quote": "Other EnPIs identified are specific consumption of compressors (kWh/Nm3) and emissions per ton of steel for ACC and LAM.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Equipment energy consumption is aggregated to process totals, converted to TJ for comparison, and expressed as process- and mill-level intensity indicators per unit of production.",
+      "evidence_quote": [
+        "By calculating the energy consumption of each equipment the total energy of the process is calculated. The energy consumption is then converted to Tera joul (TJ) by using the emission factors of that region for the sake of comparison.",
+        "consumption (kWh/t), thermal energy consumption (Sm3/t), and total energy consumption (GJ/t) for ACC, FOR, LAM, and TT, GJ/t for RIF."
+      ],
+      "page": [
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "The computed EnpIs are then compared with the literature available. Table II provides the identified EnPIs for two mills and a comparison with the literature.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "It has been done on process and mill level.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "scope_description": {
+      "value": "EnPIs at process and mill level for two steel mills",
+      "evidence_quote": [
+        "The study is carried out with the participation of two steel mills",
+        "It has been done on process and mill level."
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "EnPIs can as effectively be identified and calculated as much detailed data is provided by the mills.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "EnPIs can as effectively be identified and calculated as much detailed data is provided by the mills.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The benchmarking can become more accurate if more sites participate in this activity from the different regions of the world.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "This model i.e. Fig. 5 can be matured with the continuous monitoring and update of data from different case studies. Further, a potential tool is foreseen in the use of machine learning techniques which can better assess the various EnPIs, by using all the possible data that can link the complex production with its consumption.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "This model i.e. Fig. 5 can be matured with the continuous monitoring and update of data from different case studies. Further, a potential tool is foreseen in the use of machine learning techniques which can better assess the various EnPIs, by using all the possible data that can link the complex production with its consumption.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "To conclude, the developed method is a practical tool for the implementation of the first step of the ISO 50001. This model i.e. Fig. 5 can be matured with the continuous monitoring and update of data from different case studies.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "We applied the methodology to a case study of two steel mills.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "The study is carried out with the participation of two steel mills, whose audit is carried out by an energy consulting company.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "continuous communication between the industry and energy manager"
+      ],
+      "evidence_quote": "It requires continuous communication between the industry and energy manager for effective implementation.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  }
+}

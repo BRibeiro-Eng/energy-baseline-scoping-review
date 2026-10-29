@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536334",
+  "listed_sector_signals": [
+    {
+      "signal": "Cement industry cited only in the reference list (a decision-support tool for energy efficiency measures), not the paper's own application context",
+      "quote": "Mokhtar, A.; Nasooti, M. A Decision Support Tool for Cement Industry to Select Energy Efficiency Measures. Energy Strategy Rev.",
+      "page": 15,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Pulp & paper industry appears only as a cited reference on energy KPIs, not applied in this study",
+      "quote": "Andersson, E.; Thollander, P. Key Performance Indicators for Energy Management in the Swedish Pulp and Paper Industry.",
+      "page": 15,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Discussion contrasting existing energy-management guides that presume continuous production with the studied batch process; continuous production only referenced as a contrasting concept, not applied",
+      "quote": "there are guides for energy management [9–11], but they\nassume continuous production, which is not the case for all companies.",
+      "page": 2,
+      "sector": "generic continuous production (referenced as contrast, not applied)"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper develops and pilots a PDCA/KPI energy-efficiency assessment methodology (M2KPIEn) in an abrasives-manufacturing company explicitly described as a batch, non-continuous discrete production process, not a continuous-flow industry."
+}

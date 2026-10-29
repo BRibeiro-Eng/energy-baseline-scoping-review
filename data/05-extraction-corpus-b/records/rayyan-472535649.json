@@ -1,0 +1,1064 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535649",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-extract",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "petrochemical plant producing fertilizers",
+        "evidence_quote": "obtain energy performance indicators for a petrochemical plant located in Colombia",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Colombia",
+        "evidence_quote": "reduce the energy consumption of a fertilizer company in Colombia",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "The agronomic complex produces a wide variety of fertilizers with different components and different blending processes",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A single fertilizer production complex (humid and dry zones) with an attached gas-turbine power generation system, producing NPK fertilizers (15-15-15, 13-26-6, 17-6-18-2)",
+        "evidence_quote": "The fertilizer production complex is divided in humid and dry zone.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "obtain energy performance indicators for a petrochemical plant located in Colombia",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Reference 15-15-15 (E = 10,654 P + 14859)",
+          "baseline_period_start": {
+            "value": "2015",
+            "evidence_quote": "the operational data for 2015",
+            "page": 1,
+            "support_class": "requires inference"
+          },
+          "baseline_period_end": {
+            "value": "2015",
+            "evidence_quote": "the operational data for 2015",
+            "page": 1,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Linear regression of historical energy consumption against production",
+            "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "E = 10,654 P + 14859",
+            "R² = 0,49618"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "E = 10,654 P + 14859",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the main source of energy is natural gas",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = 10,654 P + 14859",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/day",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "regression method",
+                "fitting"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "stepwise",
+                "selection",
+                "variable"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "E = 10,654 P + 14859",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Excel",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Production (TM)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Production (TM)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the operational data for 2015",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "number of data",
+                "observations",
+                "points"
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "historical information of energy consumption and productivity",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "invoice",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimate",
+                "update",
+                "recalculate baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicable range",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "R² = 0,49618",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": "0,49618",
+                  "unit": null,
+                  "period_or_context": "Reference 15-15-15 base line",
+                  "evidence_quote": "R² = 0,49618",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "test set",
+                  "cross-validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test",
+                  "hold-out"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "identify energy saving potentials of 16.1% through good operational practices without technological changes, besides 25.6% for production planning",
+                "page": 1,
+                "support_class": "requires inference"
+              },
+              "metrics": [
+                {
+                  "metric": "Energy saving potential (good operational practices)",
+                  "value": 16.1,
+                  "unit": "%",
+                  "period_or_context": "good operational practices without technological changes",
+                  "evidence_quote": "identify energy saving potentials of 16.1% through good operational practices without technological changes, besides 25.6% for production planning",
+                  "page": 1,
+                  "support_class": "requires inference"
+                },
+                {
+                  "metric": "Energy saving potential (production planning)",
+                  "value": 25.6,
+                  "unit": "%",
+                  "period_or_context": "production planning",
+                  "evidence_quote": "identify energy saving potentials of 16.1% through good operational practices without technological changes, besides 25.6% for production planning",
+                  "page": 1,
+                  "support_class": "requires inference"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Reference 13-26-6 (E = 12,093 P + 10781)",
+          "baseline_construction_method": {
+            "value": "Linear regression of historical energy consumption against production",
+            "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "E = 12,093 P + 10781",
+            "R² = 0,82515"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "E = 12,093 P + 10781",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the main source of energy is natural gas",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = 12,093 P + 10781",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/day",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "E = 12,093 P + 10781",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Production (TM)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Production (TM)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the operational data for 2015",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "historical information of energy consumption and productivity",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "R² = 0,82515",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": "0,82515",
+                  "unit": null,
+                  "period_or_context": "Reference 13-26-6 base line",
+                  "evidence_quote": "R² = 0,82515",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "Reference 17-6-18-2 (E = 17,31 P + 14049)",
+          "baseline_construction_method": {
+            "value": "Linear regression of historical energy consumption against production",
+            "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "E = 17,31 P + 14049",
+            "R² = 0,64084"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "E = 17,31 P + 14049",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the main source of energy is natural gas",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "E = 17,31 P + 14049",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/day",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Obtained from the linear regression of historical data of energy consumption and production.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "E = 17,31 P + 14049",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Production (TM)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Production (TM)",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the operational data for 2015",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "historical information of energy consumption and productivity",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "R² = 0,64084",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": "0,64084",
+                  "unit": null,
+                  "period_or_context": "Reference 17-6-18-2 base line",
+                  "evidence_quote": "R² = 0,64084",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "Efficiency Index Base 100 (Index of base 100 efficiency)",
+          "baseline_construction_method": {
+            "value": "Ratio of theoretical to actual consumption expressed as an index on base 100",
+            "evidence_quote": "The index of efficiency base 100 relates the actual and theoretical consumption",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "The index of efficiency base 100 relates the actual and theoretical consumption",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "natural gas"
+              ],
+              "evidence_quote": "the main source of energy is natural gas",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "unit_verbatim": {
+              "value": "%",
+              "evidence_quote": "to express two intervals of results B100 < 100% and B100 ≥ 100%",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "composite index"
+              ],
+              "evidence_quote": "The index of efficiency base 100 relates the actual and theoretical consumption",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "field meaningless here",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "independent variable"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "Energy (kWh/day)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "Efficiency Index Base 100",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 12,
+              "evidence_quote": "the operational data for 2015",
+              "page": 1,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "historical information of energy consumption and productivity",
+              "page": 2,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "obtain energy performance indicators for a petrochemical plant located in Colombia",
+        "page": 2,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the application of limits of control for data of consumption of gas and production so that to exclude data considered atypical",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "In order to calculate an equivalent production, it is necessary to determine a value for the energy consumption as the sum of every level of production times its corresponding energy intensity for every different product, as in Eq(2).",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M4",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "several peaks of high efficiency with a random behavior are evidences, by what it indicates that these peaks located in the area of efficiency energy not are result of improvements in the energy management system of the company.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "implicit",
+      "evidence_quote": "these data considered as outliers will not be considered for the productive plant energy analysis",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "normalisation to a reference product",
+      "status": "implemented",
+      "addresses_mechanism": "K2",
+      "normative_framing": "implicit",
+      "evidence_quote": "The energy relationship of the products αj, corresponds to the number of units of product base that can be elaborated with the energy used to produce a unit of product (j).",
+      "page": 3,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "Software for tracking, measurement, and analysis of the energy performance",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "it is necessary to develop a Software for tracking, measurement, and analysis of the energy performance for each significant use of energy installed and set in operation",
+      "page": 5,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "Effective implementation of the Energy Management System requires high-level senior management commitment and allocation of resources",
+      "evidence_quote": "The first stage is the strategic decision where is necessary a high level commitment of the senior management of the company in order to assign the resources available for the Energy Management System",
+      "page": 3,
+      "searched_terms": [
+        "barrier",
+        "commitment",
+        "investment",
+        "training",
+        "resources"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "This method is based on the calculation of an energy base line with the linear form as in Eq(1).",
+      "page": 3,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "E = 10,654 P + 14859",
+      "page": 4,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "dataset",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository",
+        "github"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper fits three linear-regression energy base lines (E = mP + b), one per fertilizer reference (15-15-15, 13-26-6, 17-6-18-2), each with its own coefficients and R²; these are recorded as three models (M1–M3). The Efficiency Index Base 100 is recorded as a fourth model (M4, composite index). The consumption index (kWh/TM, theoretical vs actual) and CUSUM are mentioned but not detailed enough to model separately. The dependent variable is 'Energy (kWh/day)'; the paper repeatedly frames the managed energy as natural gas, so energy_vector is coded 'natural gas' by inference despite the kWh/day unit (there is a possible unit/vector ambiguity). The plant-level energy saving potentials (16.1% good operational practices, 25.6% production planning) derive from the combined baseline/goal-line analysis; they are attributed to M1 (the 15-15-15 base product) with support_class 'requires inference' rather than duplicated across all models. Baseline period taken as 2015 from the abstract; control charts span dic-14 to dic-15.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "drift",
+        "outlier",
+        "atypical",
+        "assumption",
+        "random",
+        "not meaningful"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "equivalent production",
+        "outlier",
+        "normalisation",
+        "software",
+        "monitoring"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "sample",
+        "data access",
+        "scope"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "commitment",
+        "investment",
+        "barrier",
+        "resources",
+        "training"
+      ]
+    }
+  },
+  "attempt": 1
+}

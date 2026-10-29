@@ -1,0 +1,18 @@
+{
+ "key": "rayyan-472535734",
+ "tier": "A",
+ "ts": "2026-09-10T18:47:52",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petrochemical",
+  "petroleum",
+  "refining"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 24.0,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem modelo concreto"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "rayyan-472536384",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Mention of hospital co-generation (CHP) systems using diesel engines and gas turbines as a driver of high energy consumption",
+      "quote": "Factors like air conditioning, hot water\nsupply, and operation of co-generation systems comprised of\ndiesel engines and gas turbines contribute to high consumption\nprofiles [2].",
+      "page": 1,
+      "sector": "cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies regression / feature-selection machine learning to predict electricity consumption in hospitals (commercial healthcare buildings), explicitly a non-industrial, non-continuous context; cogeneration is mentioned only as a hospital energy factor."
+}

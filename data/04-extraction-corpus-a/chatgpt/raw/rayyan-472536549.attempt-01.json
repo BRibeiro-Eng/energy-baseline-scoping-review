@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536549",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T02:00:27Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "According to the international standard ISO 50006–2014 [14], an EPI (Energy Performance Indicator) is a value or measure that quantiﬁes energy efﬁciency, energy use and energy use performance in facilities, systems, processes and equipment. Organizations use EPIs as a measure of their energy performance. To decide on which indicator is relevant, a statistical analysis is necessary to highlight the best correlated indicator in each context.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This non-exhaustive state of the art try to present very recent reﬂections on problem of the rational use of energy in several hospitals over the world (See Table 2):",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This paper is about energy performance of Moroccan hospitals",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Review-based hospital-building benchmark and EnPI approach; no continuous-process-industry application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "This non-exhaustive state of the art try to present very recent reﬂections on problem of the rational use of energy in several hospitals over the world (See Table 2):",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "Given the lack of detailed data for Morocco, Tunisia is considered as a neighboring and comparable country according to the conclusions in the previous paragraph.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "hospital buildings",
+      "evidence_quote": "Energy performance of hospital buildings in Tunisia and Europe",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The energy consumption of hospital buildings is among the highest, compared to commercial and residential buildings.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "International standard : ISO 50001:2018 Energy management systems — Requirements with guidance for use",
+        "International standard ISO 50006:2014 Energy management systems — Measuring energy performance using energy baselines (EnB) and energy performance indicators (EnPI) — General principles and guidance"
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Collect energy data of all government hospital buildings and a regression analysis was performed based on the feedback to predict the annual energy consumption. Multiple indicators from data, which are assumed to be ones that have major inﬂuences, were selected for the study of their sensitivity to annual energy consumption.",
+        "The most widely used relevant indicator in the health sector is the annual energy consumption per bed (kWh/bed/year)."
+      ],
+      "page": [
+        4,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

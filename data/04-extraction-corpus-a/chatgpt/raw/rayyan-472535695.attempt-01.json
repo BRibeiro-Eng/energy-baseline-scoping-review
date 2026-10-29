@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535695",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:56:29Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The well-known kinetic field technique [8] has been further improved to accurately predict sintering shrinkage for arbitrary time-temperature-cycles once a basic set of experimental data has been measured.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": "The paper discusses heat-treatment optimisation and material/process simulations, but does not identify or characterise an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "Recently a new large project, EnerTHERM, was started at HTL [6] extending the scope of previous research.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "ISO 50001 is contextual only; the described models predict material and process behaviour, not energy performance."
+  },
+  "stage2": null,
+  "stage3": null
+}

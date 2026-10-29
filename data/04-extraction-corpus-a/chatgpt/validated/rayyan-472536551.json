@@ -1,0 +1,295 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536551",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:15:04Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper presents a novel methodology that track and measures the overall energy performance in oil and gas companies based on the leading energy performance indicator (EnPI). Although such tool does not directly measure an actual and reflect an as-is operational data of the companies’ energy performance, it tracks the achievements in the key work processes or the implementation status of an Energy Management Systems (EnMS).",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The above methodology of tracking the leading EnPI has been successfully implemented at one of the oil and gas companies referred to as Company X.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "The above methodology of tracking the leading EnPI has been successfully implemented at one of the oil and gas companies referred to as Company X.",
+        "This is a downstream division that consists of six refinery and condensate splitters facilities"
+      ],
+      "page": [
+        10,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "notes": "Country not reported; Company X spans multiple divisions and facilities, including refinery facilities."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Two surveys were completed on more than 30 facilities from an anonymous national oil and gas company.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "oil and gas",
+      "evidence_quote": "oil and gas companies",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "This is a downstream division that consists of six refinery and condensate splitters facilities",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "relevant ISO standards (ISO 50001, 2018; ISO 50006, 2014)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The customised EnPI shall be based on an allocated weight for each of the major EnMS stages as per Deming quality cycle of PDCA where a certain weight to reflect the current needs of each concerned divisions have been given.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Plan",
+        "Do",
+        "Check",
+        "Act"
+      ],
+      "evidence_quote": "The customised leading EnPI shall be based on an allocated weight for each of the major EnMS elements as per Deming quality cycle of Plan-Do-Check-Act (PDCA)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Facilities complete customised self-assessment questionnaires. The indicator weights the Plan, Do, Check and Act stages equally at the early EnMS implementation stage and measures status against the compliance-level target.",
+      "evidence_quote": [
+        "each of the concerned facility shall conduct a comprehensive self-assessment based on customised questionnaires to gauge the progress of its EnMS implementation against appropriate targets as defined by the corporate entity.",
+        "since this is an early stage of EnMS implementation at Company-X, therefore all PDCA will be given equal weight.",
+        "EnMS progress measures are based on the second out of five levels of leading energy performance indicator matrix as per Table 8."
+      ],
+      "page": [
+        11,
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scale_of_application": {
+      "value": "organisation",
+      "evidence_quote": "The Company X’s monitoring program involves six divisions, which are referred to A, B, C, D, E and F.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "Company X across six divisions, each comprising five or more facilities, including gas treatment, production, refinery and condensate-splitter facilities.",
+      "evidence_quote": [
+        "The Company X’s monitoring program involves six divisions, which are referred to A, B, C, D, E and F.",
+        "Each division is made up of five or more facilities that apply to EnMS."
+      ],
+      "page": [
+        10,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": [
+        "Although such tool does not directly measure an actual and reflect an as-is operational data of the companies’ energy performance",
+        "dedicated computer programming models can be developed if applicable to minimise the subjectivity of the outcome"
+      ],
+      "page": [
+        1,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "Although such tool does not directly measure an actual and reflect an as-is operational data of the companies’ energy performance",
+        "minimise the subjectivity of the outcome"
+      ],
+      "page": [
+        1,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "dedicated computer programming models can be developed if applicable to minimise the subjectivity of the outcome and for document control purposes.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "Certain weights have been given to reflect on the current needs of each concerned company.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Allocation for PDCA may be different; for example, during early stage of EnMS implementation, the Plan stage shall have the highest weight. As the program progresses, the Do and Check shall be given the highest weight. Once the program is matured, the Act stage shall obtain the highest weight",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "the most appropriate approach is to evaluate the EnMS implementation progress against certain targets such as the minimum requirement defined by relevant ISO standards (ISO 50001, 2018; ISO 50006, 2014)",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "The above methodology of tracking the leading EnPI has been successfully implemented at one of the oil and gas companies referred to as Company X.",
+        "This is a downstream division that consists of six refinery and condensate splitters facilities"
+      ],
+      "page": [
+        10,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "each of the concerned facility shall conduct a comprehensive self-assessment based on customised questionnaires to gauge the progress of its EnMS implementation against appropriate targets as defined by the corporate entity.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Plan weight: 25%",
+        "Do weight: 25%",
+        "Check weight: 25%",
+        "Act weight: 25%"
+      ],
+      "evidence_quote": "PDCA with equal weight (25%) is allocated to each of the EnMS elements.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "political and cultural challenges in implementing a company-wide monitoring program"
+      ],
+      "evidence_quote": "the actual implementation of a company-wide monitoring program is usually fraught with challenges, many of which are often political and cultural rather than technical",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  }
+}

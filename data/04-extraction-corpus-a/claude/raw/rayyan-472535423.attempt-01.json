@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535423",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-06T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This indicator can be elaborated for the period of available information based on a simple linear regression",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This article presents the application of these tools in thermal power generation systems in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "thermal power generation systems in Colombia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Thermal power generation is continuous-flow but not in the closed v2.3 continuous-process sector list; level_3b set false per closed-list rule; flag for human review."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Thermoelectric power plants were selected as the object of study in this analysis",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "power generation sector in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "thermal power generation",
+      "evidence_quote": "application of these tools in thermal power generation systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "This study analyzes thermoelectric plants due to the Greenhouse Gas (GHG) emissions they generate by burning fossil fuels",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": "neither the ISO 50001 nor ISO 50006 standard mentions how to calculate the baseline",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "change-point or SPC"],
+      "evidence_quote": ["based on a simple linear regression", "cumulative energy performance (CUSUM)"],
+      "page": [4, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

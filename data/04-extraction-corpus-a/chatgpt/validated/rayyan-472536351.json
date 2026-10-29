@@ -1,0 +1,130 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536351",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T13:28:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "After obtaining and processing the data, specific consumption indicators were calculated for each mining complex (i) in each year (j), using the equations highlighted in (1), (2), (3), and (4).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "During the data collection, information was obtained on 91 mining complexes that had a production of more than 1000 tons in at least one of the years within the research period.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "this study aimed to analyze the energy performance of the Brazilian iron ore mining sector from 2011 to 2020.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Mining is outside the closed Level 3B sector list; no explicit continuous-flow processing application is stated."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": [
+        "To ensure consistency of information, mines operated by the same company and those that shared mining/beneficiation data for any reason were aggregated into a single mining complex.",
+        "During the data collection, information was obtained on 91 mining complexes that had a production of more than 1000 tons in at least one of the years within the research period."
+      ],
+      "page": [
+        2,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Brazil",
+      "evidence_quote": "These complexes were distributed across 10 Brazilian states, with 83% of them located in the states of Minas Gerais, Mato Grosso do Sul, and Pará, as shown in Fig. 2.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "iron ore mining sector",
+      "evidence_quote": "this study aimed to analyze the energy performance of the Brazilian iron ore mining sector from 2011 to 2020.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "It should be emphasized that all iron ore mining in Brazil is conducted through open-pit methods.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "The Annual Mining Reports (AMR), on the other hand, is a legal requirement established by Article 47, Clause XVI of Decree Law No. 227 of February 28, 1967 (Mining Code) and its corresponding Clause XVII, Article 34 of Decree No. 9406 of June 12, 2018 (Mining Code Regulation).",
+        "To obtain information, this study mainly used the data contained in the AMR submitted by the regulated sector to the National Mining Agency (ANM)."
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "in which Ce ij (diesel), diesel consumption per ton of moved ROM (liters/tROM) for each mining complex (i) in each year (j); dc, amount of diesel fuel consumed, in liters; and ROM, run-of-mine production.",
+        "Figure 6 shows the values of the weighted indicators Ce (diesel) and Ce (mining) and the quantity of ROM for each of the years studied."
+      ],
+      "page": [
+        3,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

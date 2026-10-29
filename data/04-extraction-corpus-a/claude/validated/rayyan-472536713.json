@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536713",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:42:14+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "the audit first established an energy baseline to better understand DC Water's use of energy and production of greenhouse gas (GHG) emissions across all its facilities",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Practitioner energy-audit case study of a water/wastewater utility (DC Water, Blue Plains Advanced Wastewater Treatment Plant). It reports an energy-consumption baseline/benchmarking and a portfolio of savings measures plus organisational culture change, but does not present, propose, evaluate, or critique an identifiable/characterised EnPI or EnB measurement model: no normalisation variables, functional form, or construction/estimation approach is given. The 'energy baseline' is a consumption-breakdown inventory by service area, and the referenced 'process model' and dashboard KPIs are uncharacterised. Fails the v2.3 identify-and-characterise threshold.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The energy audit and savings plan conducted for DC Water at their Blue Plains Advanced Wastewater Treatment Plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Energy-audit case study (DC Water / Blue Plains AWTP). 'Energy baseline' = consumption inventory by service area; no normalised EnPI/EnB model. Strict v2.3: ineligible; flag for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

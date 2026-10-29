@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536638",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:11:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Then the company commenced a process of monitoring the daily fuel consumption of the rigs irrespective of the operations. This process was continued for an entire year and then the average fuel consumption per rig type per day was compiled.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "National Drilling Company not only managed to establish this elusive baseline despite the various challenges posed by the fluctuation consumption patterns imposed by the operational variances; it managed to demonstrate energy savings in a clearly quantifiable manner",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "As a drilling contractor when NDC opted to put in place an Energy Management system it became imperative to establish a baseline of energy consumption so that improvement of energy practices could be measured against this baseline.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to a drilling contractor; drilling is outside the closed continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Because the company owned assets stretching across Onshore and Offshore, real estate and transport vehicles, the assets were first grouped into various types.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Arabian Gulf",
+      "evidence_quote": "The weather in the Arabian Gulf is extremely hot in summer and relatively cooler in winter.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "sector_of_activity": {
+      "value": "drilling contractor",
+      "evidence_quote": "As a drilling contractor when NDC opted to put in place an Energy Management system it became imperative to establish a baseline of energy consumption so that improvement of energy practices could be measured against this baseline.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "This was the first time that a baseline energy audit for a drilling contractor had been prepared and it has paved the way for other drilling contractors to benefit from the effort.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the company received the coveted ISO 50001 certification",
+        "A baseline energy audit in accordance with EN 16247 was carried out for the following company assets."
+      ],
+      "page": [
+        10,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "This process was continued for an entire year and then the average fuel consumption per rig type per day was compiled. This gave the company the overall consumption per rig per year.",
+        "Performed utility analysis and regression analysis"
+      ],
+      "page": [
+        10,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

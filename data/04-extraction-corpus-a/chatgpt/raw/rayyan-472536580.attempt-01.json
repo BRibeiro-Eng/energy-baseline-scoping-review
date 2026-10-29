@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536580",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:21:24Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In this paper a semantic web based Linked Open\nData architecture is developed to update the sensed data into an LCI database.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Tool/data architecture for real-time LCI energy measurements; no EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "So\nhere we present the development of an energy measurement device, its ability to push\nsensed data into the cloud and the overall architecture of the semantic annotation\nsystem that enriches the data from monitoring device for consumption by an LCA\nsystem.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EnBoX is a current-sensing device and cloud-linked LCI data architecture, not an energy baseline model despite its expanded name."
+  },
+  "stage2": null,
+  "stage3": null
+}

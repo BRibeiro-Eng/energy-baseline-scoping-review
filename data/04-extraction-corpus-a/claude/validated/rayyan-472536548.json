@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536548",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:45:23+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The main goal of this research is to support the implementation of multifamily residential building energy retrofits. This goal is supported by facilitating the energy assessment of this building type with the help of EnPIs.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "Exclusive focus on multifamily residential buildings with no industrial component; out of scope under the registered eligibility threshold (residential buildings without industrial component). EnPIs are for building performance assessment, not an industrial/organisational EnMS.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The research methodology consists of a comprehensive literature review which has identified 35 EnPIs for assessing performance of existing residential buildings, followed by a ranking questionnaire survey of experts in the built-environment to arrive at a priority listing of indicators based on mean rank.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Derives and prioritises 35 EnPIs for multifamily residential building retrofits via literature review + expert ranking survey (Kendall's W, Kruskal-Wallis). Residential-only, no industrial component. paper_type is a judgement call (methodological/theoretical vs framework)."
+  },
+  "stage2": null,
+  "stage3": null
+}

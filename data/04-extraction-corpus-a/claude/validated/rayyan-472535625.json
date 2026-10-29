@@ -1,0 +1,335 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535625",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:51:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "If specific energy consumption is identified as EnPI, decreasing production volume might make to cancel out the effect of energy efficiency activities, because the denominator of the specific energy consumption is the production volume",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "the trends of energy price and the measures against global warming and trends of ISO 50001 and related standards were reported and typical standards from them were explained",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "energy intensive industries such as chemical, oil refinery and petrochemicals",
+        "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "notes": "Standardization overview (JEITA). Eligibility from SEC EnPI critique + ISO 50006 EnPI/EnB characterization. Level 3B rests on cited Saudi Aramco Abqaiq oil-refinery case, not authors' own study."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "country_region": {
+      "value": "Saudi Arabia",
+      "evidence_quote": "Saudi Arabian official Oil Company",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "sector_of_activity": {
+      "value": "oil refinery",
+      "evidence_quote": "chemical, oil refinery and petrochemicals",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Saudi Arabian official Oil Company and one of the oil majors",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50001 Energy management systems",
+        "ISO 50006 Energy management systems",
+        "ISO 50015 Energy management systems"
+      ],
+      "page": [
+        2,
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "International Performance Measurement and Verification Protocol (IPMVP)",
+        "ISO 17741 General technical rules for measurement, calculation and verification of energy savings of projects"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "other"
+      ],
+      "evidence_quote": [
+        "one indicator as specific energy consumption",
+        "this function creates calculation models which are fitted to them"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production volume",
+        "operating modes",
+        "equipment availability",
+        "crude oil and production changes"
+      ],
+      "evidence_quote": [
+        "the denominator of the specific energy consumption is the production volume",
+        "the operating modes, equipment availability, crude oil and production changes"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "Not explicitly detailed; a commercial 'dynamic targeting' tool creates calculation models fitted to operating modes, equipment availability, crude oil and production changes.",
+      "evidence_quote": "Focusing on the energy specification changing by the operating modes, equipment availability, crude oil and production changes, this function creates calculation models which are fitted to them",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Adaqaiq plant of Saudi Aramco",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "scope_description": {
+      "value": "Abqaiq plant of Saudi Aramco (oil company) using an advanced energy-management tool with an EnPI dashboard and 'dynamic targeting'.",
+      "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "decreasing production volume might make to cancel out the effect of energy efficiency activities, because the denominator of the specific energy consumption is the production volume",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "energy consumption which does not contribute to the production volume (called as baseload) has effects on the specific energy consumption",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "JEITA has been suggesting the indicators which can be shown result of efforts, not the indicator described above",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "Adaqaiq plant of Saudi Aramco, which is the Saudi Arabian official Oil Company and one of the oil majors is utilizing the most advanced tool all over the world",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "23",
+          "unit": "%",
+          "period_or_context": "Saudi Aramco energy intensity vs 2011",
+          "evidence_quote": "its energy intensity is improved 23 % compared with it in 2011",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "ten millions dollars",
+          "unit": "USD",
+          "period_or_context": "Saudi Aramco Abqaiq energy cost reduction",
+          "evidence_quote": "ten millions dollars of energy cost are reduced",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "9",
+          "unit": "%",
+          "period_or_context": "SEP Program (USA) average annual energy reduction",
+          "evidence_quote": "9% (about 60 million yen) of energy consumption are reduced annually on average",
+          "page": 3,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "9.1",
+          "unit": "%",
+          "period_or_context": "JEITA survey of 27 companies",
+          "evidence_quote": "the annual reducing rate of energy consumption on average is 9.1%",
+          "page": 3,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "implementation_barriers": {
+      "value": [
+        "Companies regard additional ISO 50001 certification as a heavy burden",
+        "Belief that only complying with the Energy Saving Act is enough",
+        "Energy saving already addressed under ISO 14001, so ISO 50001 seen as redundant",
+        "Management reviews and internal audits insufficient for continuous improvement"
+      ],
+      "evidence_quote": [
+        "certifying additionally ISO 50001 is a heavy burden",
+        "Only complying with the energy saving act is enough",
+        "many companies have already been dealing with energy saving actions as one of the activities of ISO 14001",
+        "management reviews and internal audits are not enough to improve energy efficiency continuously"
+      ],
+      "page": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535724",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T22:02:23.408468+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article will examine the prominent features of an ISO management system, discuss the anticipated changes and present the expected effects of the revisions on implementing organizations.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Descriptive overview of the ISO 50001 energy management standard and its Annex SL high-level-structure revisions. Energy performance measurement is referenced only generically as the management system's monitoring/measuring 'check' function; no EnPI or EnB measurement model is presented, proposed, evaluated, or characterised (no normalisation variables, functional form, or construction/estimation approach). Framework/standard content without EnPI/EnB measurement-model content is ineligible under the v2.3 threshold.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "The ISO 50001 Energy Management Standard: What is it and how is it changing?",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "2014 explainer article on ISO 50001 and the harmonised Annex SL high-level structure (PDCA, leadership, risk, performance evaluation). Mentions DOE Superior Energy Performance certification. No EnPI/EnB model and no industrial sector application; ineligible, so Stage 2/3 null and level_3b not applicable."
+  },
+  "stage2": null,
+  "stage3": null
+}

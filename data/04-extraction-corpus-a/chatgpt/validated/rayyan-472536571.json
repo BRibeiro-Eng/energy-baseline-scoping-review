@@ -1,0 +1,115 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536571",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T12:19:21+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The objective of this study was to develop a framework for investigating alternative EnPIs and then selecting the right one for the industrial sector using the combined Delphi and AHP.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The objective of this study was to develop a framework for investigating alternative EnPIs and then selecting the right one for the industrial sector using the combined Delphi and AHP.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The objective of this study was to develop a framework for investigating alternative EnPIs and then selecting the right one for the industrial sector using the combined Delphi and AHP.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "General industrial-sector selection framework; no empirical application in a named continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "To apply the Delphi survey, 15 experts were invited from certification bodies, consulting organizations, and industries.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "The objective of this study was to develop a framework for investigating alternative EnPIs and then selecting the right one for the industrial sector using the combined Delphi and AHP.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "industrial sector",
+      "evidence_quote": "The objective of this study was to develop a framework for investigating alternative EnPIs and then selecting the right one for the industrial sector using the combined Delphi and AHP.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "Industrial companies have various processes and environments for making profits with their businesses.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "International Organization for Standardization (ISO) 50001 is a voluntary, internationally developed standard for EnMSs that offers a flexible framework for organizations to integrate energy efficiency into their management practices. ISO 50004 and ISO 50006 recommend several energy performance indicators (EnPIs) for implementing EnMS sustainably [6-8].",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": "According to ISO standards and IEA research reports, four types of indicators exist: energy consumption, a simple ratio (i.e., kWh per ton), a statistical model (i.e., linear and nonlinear regression), and a simulation model for measuring the improvement of energy efficiency and energy performance that can be applied via each boundary.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "The Delphi method and the Analytic Hierarch Process were adopted to integrate relevant expert knowledge in a systematic manner.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

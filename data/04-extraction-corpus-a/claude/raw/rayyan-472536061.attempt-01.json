@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536061",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T12:37:20+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the key performance indicators for quantitatively assessing the recorded parameters quality as well as the energy and exergy flows and exergy destruction of the engine components",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The developed methodology was implemented for three case studies, corresponding to three different vessel types, in specific for a very large crude carrier (VLCC), a container ship and a bulk carrier",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "different data collection practices employed in the shipping industry for acquiring data on-board ships",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Sector = maritime shipping (ship propulsion engines); not on closed continuous-process list -> level_3b=false. Eligible: proposes EnPI/EnB methodology (KPIs, design/reference baseline, energy/exergy physical model, propeller-curve regression) on 3 vessel cases. paper_type borderline (multi-case vs methodological). type_of_organisation 'services' is a weak fit for maritime transport (low conf). IMO/EU-MRV cited as context only -> regulatory_driver=none."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "three case studies, corresponding to three different vessel types, in specific for a very large crude carrier (VLCC), a container ship and a bulk carrier",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "shipping industry",
+      "evidence_quote": "employed in the shipping industry for acquiring data on-board ships",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "these vessels operators have implemented slow steaming",
+      "page": 24,
+      "non_contiguous_evidence": false,
+      "confidence": 0.35
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the ISO 50001 was introduced in 2011 as one of the most prominent energy assessment methodologies",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "linear regression"
+      ],
+      "evidence_quote": [
+        "should be equal to the sum of thermal energy flows in the engine components, the radiation heat flow and the engine power output",
+        "eq. (2) is transformed to a first order polynomial (linear function) by considering the natural logarithms of the two terms of eq. (2)"
+      ],
+      "page": [
+        18,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "exergy analysis"
+      ],
+      "evidence_quote": "The scope of this stage is to calculate the exergy flows and the engine components exergy destruction",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

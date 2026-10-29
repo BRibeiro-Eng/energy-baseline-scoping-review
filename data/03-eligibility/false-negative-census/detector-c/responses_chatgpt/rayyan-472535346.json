@@ -1,0 +1,94 @@
+{
+  "key": "rayyan-472535346",
+  "listed_sector_signals": [
+    {
+      "signal": "A cited study addresses wastewater treatment, energy generation and carbon capture in steel production.",
+      "quote": "Optimization and exergoeconomic analyses \nof water-energy-carbon nexus in steel production: Integrating solar-biogas energy, \nwastewater treatment, and carbon capture.",
+      "page": 15,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "The literature review mentions hydrogen production from wastewater through reverse electrodialysis.",
+      "quote": "hydrogen production from wastewater using distillation-integrated \nreverse electrodialysis.",
+      "page": 2,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "A cited wastewater polygeneration study assesses green hydrogen and ammonia production.",
+      "quote": "techno-economic feasibility of polygeneration, including green \nhydrogen and ammonia production.",
+      "page": 2,
+      "sector": "continuous chemical production (sulfuric acid, ammonia, methanol, fertilizers, chlor-alkali)"
+    },
+    {
+      "signal": "A cited study uses electrolytic hydrogen for biogas upgrading.",
+      "quote": "techno-economic potential of biogas upgrading by combining CO2 with \nelectrolytic hydrogen from wastewater.",
+      "page": 2,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "A cited study concerns hydrogen production from municipal wastewater through gasification.",
+      "quote": "Effect of gasification input parameters and KOH catalyst action on functional \nproperties of hydrogen production from municipal wastewater.",
+      "page": 15,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "Digested sludge is used as fertilizer; this is a by-product-use signal.",
+      "quote": "digested sludge is used as fertilizer.",
+      "page": 5,
+      "sector": "continuous chemical production (sulfuric acid, ammonia, methanol, fertilizers, chlor-alkali)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The Molina de Segura case treats substantial daily flows of domestic and industrial wastewater.",
+      "quote": "292,000 population equivalents (PE) and treats around 25,000 cubic \nmeters of wastewater (both domestic and industrial) per day (m3/d).",
+      "page": 6,
+      "sector": "wastewater treatment"
+    },
+    {
+      "signal": "Biogas generation estimates are validated against operational data from a case-study wastewater treatment plant.",
+      "quote": "Fig. 5(b) shows the validation of biogas energy generation estimated \nby WENT against real data from Molina de Segura.",
+      "page": 8,
+      "sector": "anaerobic digestion and biogas production"
+    },
+    {
+      "signal": "The Molina de Segura facility uses biogas cogeneration heat for its anaerobic digester.",
+      "quote": "Heat generated from biogas (using \nCHP) is utilised at the facility for anaerobic digester heating.",
+      "page": 5,
+      "sector": "cogeneration"
+    },
+    {
+      "signal": "Effluent hydropower is explicitly described as providing continuous energy generation.",
+      "quote": "WWTPs like Molina de Segura, given hydropower’s continuous energy \ngeneration and high efficiency (70–90 %) [60].",
+      "page": 7,
+      "sector": "hydropower from wastewater effluent"
+    },
+    {
+      "signal": "Heat pumps recovering thermal energy from treated wastewater are discussed.",
+      "quote": "heat pumps can recover thermal \nenergy from treated water [13]",
+      "page": 2,
+      "sector": "wastewater heat recovery"
+    },
+    {
+      "signal": "North Coast sludge is transported off-site for thermal energy recovery.",
+      "quote": "then transported to Belfast for thermal energy recovery using waste heat \nrecovery boilers [62].",
+      "page": 7,
+      "sector": "sludge waste-to-energy"
+    },
+    {
+      "signal": "A cited study optimizes an Organic Rankine Cycle at a wastewater treatment plant.",
+      "quote": "Alrbai et al., [31] optimized an Organic Rankine Cycle system for \nenergy generation at Jordan’s Samra WWTP",
+      "page": 2,
+      "sector": "Organic Rankine Cycle power generation"
+    },
+    {
+      "signal": "The literature review describes district heating using wastewater and other low-temperature heat sources.",
+      "quote": "In Germany, a district heating analysis in Fellbach evaluated \nmultiple low-temperature heat sources like rivers, lakes, oceans, \nwastewater, air, and geothermal sources, to support municipal energy \nplanning [20].",
+      "page": 2,
+      "sector": "district heating"
+    }
+  ],
+  "application_strength": "validated",
+  "conservative_classification": false,
+  "one_line": "WENT assesses three wastewater treatment plants in Spain, Italy and Northern Ireland, with validation against measured electricity consumption and biogas generation at Molina de Segura."
+}

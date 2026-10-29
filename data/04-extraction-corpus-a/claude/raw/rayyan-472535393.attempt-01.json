@@ -1,0 +1,126 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535393",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the linear regression model predicts the behavior of consumption with production",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "a case study applied to an SME in the non-metallic mineral sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "non-metallic mineral sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Eligible via linear-regression energy baselines, CUSUM and specific-consumption indicators. Gypsum/non-metallic-mineral SME not on v2.3 closed continuous-process list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the application is carried out in situ in an SME in the Non-Metallic Minerals sector",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "more than 50 years of experience in the Colombian market",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "non-metallic mineral sector",
+      "evidence_quote": "non-metallic mineral sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "The three shifts correspond to the following time slot",
+        "which is considered important as it is an online process"
+      ],
+      "page": [
+        3,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002"
+      ],
+      "evidence_quote": "addressed ISO 50002 and its contribution to energy management based on the ISO 50001:2019 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "SEC mean",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "the linear regression model predicts the behavior of consumption with production",
+        "The three indicators evaluated were: specific consumption, Energy Efficiency, and Trend or Cumulative Sums-CUSUM"
+      ],
+      "page": [
+        13,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  },
+  "stage3": null
+}

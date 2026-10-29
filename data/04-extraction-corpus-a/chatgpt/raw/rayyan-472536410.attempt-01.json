@@ -1,0 +1,294 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536410",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:23:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this research, I use specific energy consumption (SEC) as the energy performance indicator (EnPI) for computing energy benchmarks for the main sub-sectors in the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The sector survey was carried out with a target of 136 pulp and paper enterprises among 308 pulp and paper enterprises in the whole industry.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Industry-wide benchmark across independent factories; not a single-organisation multi-site case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The sector survey was carried out with a target of 136 pulp and paper enterprises among 308 pulp and paper enterprises in the whole industry.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Vietnam",
+      "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "pulp and paper industry",
+      "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "Average SECs at each quartile were computed according to the average SECs of the products of factories lying within the corresponding quartiles (total energy consumption divided by total production in such a quartile).",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Equivalent production by electricity consumption",
+        "Equivalent production by thermal energy consumption"
+      ],
+      "evidence_quote": "P(e): Equivalent production by electricity consumption (ton), - P(t): Equivalent production by thermal energy consumption (ton).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "2014",
+      "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of each factory in the year 2014 is presented in Table 5.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_period_end": {
+      "value": "2014",
+      "evidence_quote": "The energy consumption represented as specific energy consumption (final SEC) of each factory in the year 2014 is presented in Table 5.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "baseline_construction_method": {
+      "value": "Factories were grouped by product family and production scale. SEC was calculated as total input energy divided by equivalent production, and the average SEC of each scale group was used as that group's benchmark.",
+      "evidence_quote": [
+        "SEC of product/process is calculated as the rate of total input energy (electricity and thermal) and the corresponding equivalent total production output.",
+        "In general, the average SEC of each scale group was used as the benchmark SEC value for this group."
+      ],
+      "page": [
+        5,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The energy benchmark focused on the production area of facilities. The benchmarking area is the area of production (production line, utility and waste facilities).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scope_description": {
+      "value": "the area of production (production line, utility and waste facilities)",
+      "evidence_quote": "The benchmarking area is the area of production (production line, utility and waste facilities).",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "However, this study has some limitations that can be improved. In this research, I cannot get data from all factories in the industries and the number of audit factories can be increased to enhance the quality of results.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In this research, I cannot get data from all factories in the industries and the number of audit factories can be increased to enhance the quality of results.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "the number of audit factories can be increased to enhance the quality of results.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "Taking into account all of these factors, it was finalized to carry out benchmarking per range of production scale for each sub-sector (i.e. packaging, tissue, writing and printing sub-sector).",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "adaptation_types": {
+      "value": [
+        "segmented baseline"
+      ],
+      "evidence_quote": "Taking into account all of these factors, it was finalized to carry out benchmarking per range of production scale for each sub-sector (i.e. packaging, tissue, writing and printing sub-sector).",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "In this research, I established an energy benchmark for the pulp and paper industry of Vietnam.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "Energy surveys and energy audits have been used to calculate energy benchmarks.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "1.31",
+        "1.48",
+        "1.33",
+        "1.11"
+      ],
+      "evidence_quote": [
+        "The conversion factor 1.31 and 1.48 for different types of packaging products (testliner, standard medium, coasting testliner, chipboard, and coreboard) are obtained by audit results in RCEE_NIRAS and ENERTEAM [7].",
+        "The factors 1.33 and 1.11 are obtained from audits and calculated as in RCEE_NIRAS and ENERTEAM [7]."
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "13.6%",
+          "unit": "%",
+          "period_or_context": "Scenario 1, packaging sub-sector",
+          "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+          "page": 17,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "17.6%",
+          "unit": "%",
+          "period_or_context": "Scenario 1, tissue paper sub-sector",
+          "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+          "page": 17,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "14.4%",
+          "unit": "%",
+          "period_or_context": "Scenario 1, printing and writing paper",
+          "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+          "page": 17,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Scenario 1 will lead to 13.6% of energy savings for the packaging sub-sector, 17.6% for the tissue paper sub-sector, and 14.4% for printing and writing paper.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "less modern machinery with inadequate maintenance in small factories"
+      ],
+      "evidence_quote": "It is noted that small factories have less modern machinery with inadequate maintenance.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  }
+}

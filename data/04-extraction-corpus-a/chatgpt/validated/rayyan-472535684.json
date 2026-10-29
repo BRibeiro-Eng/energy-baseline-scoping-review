@@ -1,0 +1,121 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535684",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:30:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In the particular case of the ceramic industry in Cucuta and its metropolitan area using energy indicators is very low (see Figure 1), limited only to a few companies, which typically handle the following indicators. • Kg of coal / kg of finished product. • kW of energy / kg of finished product.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This document presents the energy assessment of the beehive kilns in forty-four (44) companies, and the energy features of the average beehive kiln are described based on 205 analyzed kilns.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In the particular case of the ceramic industry in Cucuta and its metropolitan area using energy indicators is very low",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Ceramic industry is explicit but is not in the closed Level 3B sector list; the paper also describes intermittent kilns."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Two techniques were used to collect data from different companies",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Cucuta and metropolitan area",
+      "evidence_quote": "Population. Diagnosis considers as population study, the ceramic sector companies from Cucuta and metropolitan area registered in chamber of commerce respectively, that is a total of 49 companies.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "ceramic sector",
+      "evidence_quote": "Population. Diagnosis considers as population study, the ceramic sector companies from Cucuta and metropolitan area registered in chamber of commerce respectively, that is a total of 49 companies.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "high inefficiency, intermittent kilns feature in the development of ceramic process.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Energy culture. Knowledge management and implementation of the ISO 50001 standard.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "For the calculation of some variables necessary to determine the energy efficiency of equipment and facilities, mass and energy balances along with mathematical operations to determine other values of interest were used.",
+        "Kg of coal / kg of finished product. • kW of energy / kg of finished product.",
+        "The average values will be established from the data calculated for the samples obtained in the energy diagnosis. These are presented for each of the industry categories (micro, small, medium and large)."
+      ],
+      "page": [
+        2,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

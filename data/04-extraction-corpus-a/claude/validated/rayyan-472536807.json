@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536807",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T14:35:17Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the ratio of total industrial energy consumption to total industrial outputis often referred to as the aggregate energyintensity. This aggregate energy intensity is a widely usedenergy performance indicator for industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "We use the method described in Choi et al. (1995) to study changes in the aggregate energy intensity of industry in China, South Korea, and Taiwan",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "eight industrial sectors (food, textiles, paper, chemical, building materials, metallurgical, mechanical, and other industry)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Borderline eligibility: aggregate industrial energy-intensity (E/Y) index-decomposition (Divisia-Tornqvist), explicitly named an energy performance indicator; meets v2.3 EnPI-characterisation bar but is macro/multi-sector, not an organisational EnB. level_3b=false: unit is whole national industry across 8/9/17 sectors, not a single closed-list continuous-process case."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "China, South Korea, and Taiwan",
+      "evidence_quote": "the aggregate energy intensity of industry in China, South Korea, and Taiwan",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "industry",
+      "evidence_quote": "In industrial energy analysis, the ratio of total industrial energy consumption to total industrial outputis often referred to as the aggregate energyintensity",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "17 industrial sectors (food, textiles, leather, wood and furniture, paper and printing, chemical materials, chemical products, petroleum and coal products, rubber products, plastic products, non-metallic mineral products, basic",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "the ratio of total industrial energy consumption to total industrial outputis often referred to as the aggregate energyintensity",
+        "Following the Divisia index decomposition procedure described in Choi et al."
+      ],
+      "page": [
+        1,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

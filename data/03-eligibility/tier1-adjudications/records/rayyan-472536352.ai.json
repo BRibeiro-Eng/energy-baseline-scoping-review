@@ -1,0 +1,48 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536352",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "not applicable",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "process integration",
+          "other"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "building integration",
+        "type_of_organisation": "buildings"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536352",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

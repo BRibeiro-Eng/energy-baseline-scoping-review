@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535379",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The study analyzes the Pearson Correlation Coefficient among the implementation benefits of ISO 50001, SDG scores, and the factors of the Network Readiness Index (NRI)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Macro-level correlational study of ISO 50001 adoption outcomes versus SDG scores and Network Readiness Index pillars across seven countries. Presents no EnPI/EnB measurement model: the reported energy savings, cost savings and CO2 reductions are aggregate award-case outcomes used as Pearson-correlation variables, not a characterised energy performance indicator or baseline (no normalisation variables, no functional form, no baseline construction). ISO 50001 is treated only as a management-standard adoption context.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "this study examines the pivotal role of the energy management system, ISO 50001, in fostering technological innovation and sustainable development initiatives in seven selected developing and developed countries",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Country-level Pearson correlation among ISO 50001 energy-management outcomes (energy/cost savings, CO2 reduction), SDG scores and NRI pillars for 7 countries. No EnPI/EnB model, baseline, or normalisation variables. Ineligible under the v2.3 threshold; Stage 2/3 skipped."
+  },
+  "stage2": null,
+  "stage3": null
+}

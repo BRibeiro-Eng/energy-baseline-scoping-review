@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535380",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "we propose a two-stage MCDM approach for EEP prioritization by combining a fuzzy analytic hierarchy process (FAHP) to evaluate criteria weights with qualitative data and four methods",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Presents a two-stage MCDM decision-support framework (FAHP for criteria weighting; VIKOR/TOPSIS/WASPAS/PROMETHEE for ranking) to prioritise energy-efficiency projects. No EnPI/EnB measurement model is presented, proposed, evaluated, or critiqued (no baseline, regression, SEC, or energy-consumption normalisation). Per v2.3, MCDM/AHP/TOPSIS/Fuzzy project-ranking scores are decision-support, not EnPI/EnB models; ISO 50001/EnMS is cited only as context.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The proposed framework is applied to a real-life case study of an Egyptian petrochemical complex in a developing country.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Two-stage MCDM (FAHP weights + VIKOR/TOPSIS/WASPAS/PROMETHEE) ranks 12 EEPs at an Egyptian petrochemical complex; FAHP criteria weights also compared across Egypt/Ireland/Qatar. Ineligible: decision-support ranking, not an EnPI/EnB model. Context is petrochemical (would be Corpus-B if eligible), but level_3b forced false because ineligible."
+  },
+  "stage2": null,
+  "stage3": null
+}

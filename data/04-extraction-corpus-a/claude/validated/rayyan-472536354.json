@@ -1,0 +1,126 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536354",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:17:27Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the unproductive energy factor (UPEF) is considered according to Eq. (1). It is defined as the ratio of the energy demand in unproductive times",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This paper presents an expert system that quantifies energy efficiency potentials based on the detection of machining cycles",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a representative production chain for the metalworking industry in the ETA research factory at the Technical University of Darmstadt",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Eligible: defines EnPIs UPEF/PESP (Eq.1-2) plus energy-per-part. paper_type borderline tool/software design vs single applied case. Metalworking discrete-manufacturing case, not a continuous-process industry, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the approach is evaluated on a representative production chain for the metalworking industry in the ETA research factory",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Darmstadt, Germany",
+      "evidence_quote": [
+        "the ETA research factory at the Technical University of Darmstadt",
+        "64287 Darmstadt, Germany"
+      ],
+      "page": [
+        5,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "metalworking industry",
+      "evidence_quote": "a representative production chain for the metalworking industry",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The production chain manufactures parts for axial piston pumps",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "other"
+      ],
+      "evidence_quote": [
+        "Average energy demand per part in kWh",
+        "the unproductive energy factor (UPEF)",
+        "the potential energy savings during the productive state (PESP)"
+      ],
+      "page": [
+        6,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

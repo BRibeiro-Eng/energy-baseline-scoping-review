@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472536613",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Case-study plant equipped with an on-site cogeneration system (palm-oil-fueled motor) producing electricity 24/7",
+      "quote": "The plant object of the \npresent study is provided with a cogeneration system (a \nmotor fueled with palm oil) and is connected to the \nelectricity grid",
+      "page": 5,
+      "sector": "cogeneration / on-site power generation"
+    },
+    {
+      "signal": "Cogeneration system responsible for energy produced, with continuous production affected by functioning hours and maintenance",
+      "quote": "The third one is responsible for the availability \nand efficiency of the cogeneration system, therefore is \nconnected to the amount of energy produced",
+      "page": 5,
+      "sector": "cogeneration"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "Methodology for decomposing energy-budget variance applied to an energy-intensive Italian consumer-goods manufacturing plant that has an on-site palm-oil cogeneration system; the manufacturing itself is not a listed continuous-flow sector, but the on-site cogeneration is a recorded continuous-power signal."
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535491",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:58:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "a methodology for rating assessment of the processing of emissions with global pollutants is proposed",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Proposes a low-carbon / greenhouse-gas emissions rating methodology (numerical indicators R and the complex indicator, plus an EER energy-penalty coefficient for CO2/H2O removal), not an EnPI or EnB energy-performance measurement model. What is measured and normalised is emissions (greenhouse gases via GWP100, toxic compounds via MPC), not energy use, consumption or efficiency. ISO 50001 appears as normative framing and the rating is presented as complementary to ISO 50001 energy-efficiency indicators, not as such an indicator itself.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "design equations and properties of the proposed method",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Model rates emissions/low-carbon performance (GHG + toxic compounds), not energy performance; energy enters only via EER (energy cost of CO2/H2O removal). ISO 50001 is normative framing only. Paper is a proposed method, not tested at scale."
+  },
+  "stage2": null,
+  "stage3": null
+}

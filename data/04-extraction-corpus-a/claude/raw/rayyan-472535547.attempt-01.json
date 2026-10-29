@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535547",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:39:35Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper suggests a method of assessment of a DMS based on an indicator called Level of Coverage (LOC).",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "ineligibility_reason": "Presents a distributed-monitoring-system coverage indicator (Level of Coverage, LOC) and a 6-criteria maturity-style EMIS assessment (basic/medium/high). LOC quantifies the fraction of yearly energy metered by the monitoring system, not energy performance; no EnPI/EnB measurement model is identified or characterised. EnPIs are mentioned only as a downstream objective enabled by the monitoring system.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "The method uses 3 levels: 1 or basic, 2 or medium, 3 or high.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "LOC is a monitoring-coverage indicator, not an energy-performance (EnPI/EnB) model; EnPIs mentioned only as downstream goal. Ineligible as framework/tool without EnPI/EnB model content."
+  },
+  "stage2": null,
+  "stage3": null
+}

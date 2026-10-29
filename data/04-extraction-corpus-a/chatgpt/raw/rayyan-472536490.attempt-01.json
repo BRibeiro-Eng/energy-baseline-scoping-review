@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536490",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:40:26Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In line with standard EN ISO 50006, facility’s energy performance indicator can be expressed as absolute value of energy consumption (e.g. in GJ, kWh), specific energy consumption (SEC) (e.g. in kWh/unit) etc. It is common to express SEC as a ratio of consumed thermal and/or electric energy per one tonne of product [9] or per tonne of raw material (white flour in the analysed case) [16]. In order to ensure the energy performance indicators benchmarking, in this analysis it is chosen to use specific energy consumption expressed as total energy consumption per tonne of flour (SEC 1) and per tonne of product (SEC 2).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Analysed facility is classified as medium size bakery, with annual production of baking goods of approximately 4500 t/a.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Analysed facility is classified as medium size bakery, with annual production of baking goods of approximately 4500 t/a.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Bakery/food processing is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Analysed facility is classified as medium size bakery, with annual production of baking goods of approximately 4500 t/a.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "B&H",
+      "evidence_quote": "In order to present energy saving potential and related energy costs savings in industry sector in B&H, detail energy audit in food processing factory is performed.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "medium size bakery",
+      "evidence_quote": "Analysed facility is classified as medium size bakery, with annual production of baking goods of approximately 4500 t/a.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Production comprises of two sectors: production of bread and rolls and production of semi-finished and finished products. Baking process is based on usage of industrial oven with total of 16 burners with natural gas and fuel oil as a fuel.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "In line with standard EN ISO 50006, facility’s energy performance indicator can be expressed as absolute value of energy consumption (e.g. in GJ, kWh), specific energy consumption (SEC) (e.g. in kWh/unit) etc.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "In order to ensure the energy performance indicators benchmarking, in this analysis it is chosen to use specific energy consumption expressed as total energy consumption per tonne of flour (SEC 1) and per tonne of product (SEC 2).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    }
+  },
+  "stage3": null
+}

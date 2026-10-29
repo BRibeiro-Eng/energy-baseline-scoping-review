@@ -1,0 +1,141 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536377",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T14:14:16.098389+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The EnPIs were normalized with respect to five relevant variables (historical values), namely, mean outdoor temperature, relative humidity, cloud cover, lighting, and wind velocity",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The proposed methodology was executed using the Py (Python) programming language and the Jupyter Notebook code builder",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "an industrial platform in the automotive industry",
+        "milling production sector"
+      ],
+      "page": [
+        24,
+        24
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "notes": "paper_type BORDERLINE: tool/software design vs multi-case study (AEMS software embeds EnPI models + empirical multi-case validation). Apps = automotive plant, office buildings, milling (Romania) + US office-building ML test; no continuous-process sector -> level_3b=false; org=mixed. Regulatory refs (EU-ETS/EED/RO decree) are context, not dataset driver -> none."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The proposed AEMS has been implemented and tested by several types of end users, both in the tertiary sector (i.e., office buildings) and in the industrial sector",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Sibiu County, Bucharest, and Brasov County, Romania (case-study deployment sites); ML forecast module additionally tested on a DOE office building in Benton County, Washington State, USA",
+      "evidence_quote": [
+        "in Sibiu County, Romania",
+        "In Bucharest, Romania",
+        "In Bras,ov County, Romania"
+      ],
+      "page": [
+        24,
+        24,
+        24
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "tertiary sector (i.e., office buildings) and in the industrial sector (i.e., industrial production NACE codes)",
+      "evidence_quote": "both in the tertiary sector (i.e., office buildings) and in the industrial sector (i.e., industrial production NACE codes)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "both in the tertiary sector (i.e., office buildings) and in the industrial sector",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the International Organization for Standardization designed the ISO:50001 group of standards",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "as specified by the IPMVP (International Performance Measurement and Verification Protocol)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "ML",
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "Simple Linear Regression",
+        "Multiple linear regression (8) results in a substantial MSE",
+        "a complex machine learning framework was created by using LSTM (long short-term memory) and recurrent neural networks (RNN)",
+        "Specific electricity use",
+        "The EnPI normalisation approach utilised Lagrange interpolation"
+      ],
+      "page": [
+        14,
+        14,
+        14,
+        12,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472536737",
+ "tier": "A",
+ "ts": "2026-09-11T11:42:29",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "pulp and paper"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 19.5,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "estudo empirico sem metodologia"
+}

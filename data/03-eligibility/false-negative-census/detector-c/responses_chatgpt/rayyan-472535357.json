@@ -1,0 +1,46 @@
+{
+  "key": "rayyan-472535357",
+  "listed_sector_signals": [
+    {
+      "signal": "Chemical industry appears in the literature review; continuous production is unspecified.",
+      "quote": "chemical industry, food and beverage, textile industry,",
+      "page": 2,
+      "sector": "continuous chemical production"
+    },
+    {
+      "signal": "Reviewed energy audits concern cast iron foundries; continuous primary-metal production is not established.",
+      "quote": "audits in cast iron foundries in Italy",
+      "page": 3,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "An evaluated recommendation concerns inert-gas distribution; industrial-gas production is not established.",
+      "quote": "2.4236 Eliminate leaks in inert gas and compressed air lines/valves",
+      "page": 15,
+      "sector": "industrial gases (air separation, hydrogen, nitrogen)"
+    },
+    {
+      "signal": "A cited study concerns energy auditing in glass works; the present paper does not apply its model there.",
+      "quote": "energy conservation potential for glass works.",
+      "page": 20,
+      "sector": "glass (continuous melting, float lines)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "On-site compressed-air generation is included in the audited equipment; continuous operation is unspecified.",
+      "quote": "compressed air generation at 15.33%",
+      "page": 13,
+      "sector": "compressed-air utilities"
+    },
+    {
+      "signal": "A cited study concerns wastewater treatment plants; treatment mode is unspecified.",
+      "quote": "energy efficiency indicator in wastewater treatment plants.",
+      "page": 20,
+      "sector": "wastewater treatment"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The audit and PROMETHEE-ROC model is applied and evaluated at a small plastic-cap injection-molding company in Curitiba, Brazil."
+}

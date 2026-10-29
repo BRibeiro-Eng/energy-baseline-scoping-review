@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535626",
+ "tier": "A",
+ "ts": "2026-09-10T18:47:28",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "steelmaking",
+  "paper mill",
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 159.5,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "framework de maturidade"
+}

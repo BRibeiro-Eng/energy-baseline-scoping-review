@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535676",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T12:02:42Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Logistic activities long adopted energy efficiency and ship energy efficiency management plan in its activities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Practitioner conference paper describing Total Abu Al Bukhoosh (TABK) marine and aviation logistics energy-efficiency initiatives and ISO 50001 certification. Energy performance is addressed through operational practices (slow steaming, virtual arrival, anchoring of dynamically positioned vessels) and through regulatory indices (EEDI/SEEMP) and KPI monitoring cited only as context. No EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (no identifiable variables, functional form, or construction/estimation approach) — incidental mention only.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "We have been striving for efficiency and excellence in our overall marine operations activities",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "TABK marine logistics energy-efficiency practitioner paper; EEDI/KPIs cited as regulatory/monitoring context only, no EnPI/EnB model characterised. EEDI mention flagged for human review."
+  },
+  "stage2": null,
+  "stage3": null
+}

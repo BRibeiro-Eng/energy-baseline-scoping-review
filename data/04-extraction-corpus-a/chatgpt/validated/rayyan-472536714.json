@@ -1,0 +1,259 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536714",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:49:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper describes the approach used for developing the EPI.  It compares the results for 10 industries, in terms of the types of variables that are included and the range of performance, measured by the inter-quartile range.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "It compares the results for 10 industries, in terms of the types of variables that are included and the range of performance, measured by the inter-quartile range.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "We have conducted new analysis of two of these three sectors, auto and cement, and released updated EPI tools",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Multi-sector study including closed-list continuous sectors and discrete sectors; Level 3B rests on the empirical cement application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In other cases we were limited by the number of companies that were participants in the Energy Star forum for that sector.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": "US",
+      "evidence_quote": "by only considering plants located in the US",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "manufacturing plant energy benchmarking, or Energy Performance Indicators (EPI), for a variety of industries",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "industries ranging from “light” manufacturing such as auto assembly and food processing to “heavy”, energy intensive sectors like cement, glass, and paper",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "multivariate regression is used to create a benchmark within that sub-group",
+        "the more general version of the stochastic frontier model"
+      ],
+      "page": [
+        13,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "product mix",
+        "input choice",
+        "capacity",
+        "utilization",
+        "weather"
+      ],
+      "evidence_quote": "Industry specific factors of product mix, input choice, capacity, utilization, and weather all play various roles on in inter-plant differences within the cohorts, depending on the industry in question.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "baseline_construction_method": {
+      "value": "The approach first defines cohorts of similar plants within an industry, then uses multivariate regression inside each cohort to normalise industry-specific differences; the inter-plant benchmark can also adjust plant baselines when those conditions change.",
+      "evidence_quote": "First, a selection of “similar” plants within an industry is made.  For example, auto assembly plants were separated from engine and transmission plants.  Similarly, electric arc steel mills are separated from integrated producers in the steel industry, and pulp mills are separated from integrated paper mills.  Within these industry cohorts there may be additional variables that differentiate plants in terms of energy use, so multivariate regression is used to create a benchmark within that sub-group.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Conventional statistical tests can determine which factors to include in the model.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "A whole plant can be compared to itself over time by “base-lining.”",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "statistical analysis of actual plant level data to control for differences between plants that are not related to efficiency",
+      "evidence_quote": "statistical analysis of actual plant level data to control for differences between plants that are not related to efficiency",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Statistical benchmarks, like baselines, are tied to the time period from which they are derived.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Statistical benchmarks, like baselines, are tied to the time period from which they are derived.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Baselines and benchmarks need to be periodically updated to provide meaningful comparisons.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "Similarly, electric arc steel mills are separated from integrated producers in the steel industry, and pulp mills are separated from integrated paper mills.  Within these industry cohorts there may be additional variables that differentiate plants in terms of energy use, so multivariate regression is used to create a benchmark within that sub-group.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Similarly, electric arc steel mills are separated from integrated producers in the steel industry, and pulp mills are separated from integrated paper mills.  Within these industry cohorts there may be additional variables that differentiate plants in terms of energy use, so multivariate regression is used to create a benchmark within that sub-group.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "This is a hypothetical plant located in Durham NC that is 50% bulk chemical, 20% finish fill, and 20% R&D with the remaining as support activities.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": "The EPI is based on data from a specific year or set of years.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of information about achievable energy performance"
+      ],
+      "evidence_quote": "This lack of information of what is achievable is a barrier to greater energy efficiency.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  }
+}

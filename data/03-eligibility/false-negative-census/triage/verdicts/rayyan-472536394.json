@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472536394",
+ "tier": "A",
+ "ts": "2026-09-11T11:39:22",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "ammonia"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 19.4,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem modelo"
+}

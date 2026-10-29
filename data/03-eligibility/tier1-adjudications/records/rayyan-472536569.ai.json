@@ -1,0 +1,47 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "tool/software design"
+      },
+      "key": "rayyan-472536569",
+      "level_a": {},
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "tool/software design"
+      },
+      "key": "rayyan-472536569",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "not applicable",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "IPMVP",
+          "ASHRAE 14"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "home appliances",
+        "type_of_organisation": "buildings"
+      },
+      "level_b": {}
+    }
+  }
+}

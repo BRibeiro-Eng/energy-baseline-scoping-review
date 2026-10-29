@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535353",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T10:53:16Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Among EnPI users, the most common metrics include the following:\n•\nProduct-based (kWh per unit produced)—12 firms;\n•\nSales-based (kWh per PLN revenue)—seven firms;\n•\nFacility area-based (kWh per m2)—five firms;\n•\nFacility volume-based (kWh per m3)—two firms.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Using structured interviews with\n40 manufacturing firms, it examines the adoption of energy monitoring, submetering,\nEnergy Performance Indicators (EnPIs), audits, and energy efficiency investments.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This study provides a detailed evaluation of energy management practices within the\nautomotive manufacturing sector in the Silesian Voivodeship.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "The study characterises several unfitted intensity-ratio EnPIs across firms; automotive manufacturing is outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The survey focused on production facilities located in the Silesian Voivodeship, with\nparticular emphasis on companies operating in the automotive sector. A total of 40 compa-\nnies participated in the study.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Silesian Voivodeship of Poland",
+      "evidence_quote": "This study seeks to explore the diffusion of Energy Management Systems (EMSs)\nand related practices among industrial firms in the Silesian Voivodeship of Poland, with\na specific focus on the automotive sector.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "automotive manufacturing sector",
+      "evidence_quote": "This study provides a detailed evaluation of energy management practices within the\nautomotive manufacturing sector in the Silesian Voivodeship.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "These\nactivities reflect a wide spectrum of operations within the automotive value chain, including\nthe following:\n•\nProduction lines for welding systems;\n•\nGalvanic zinc coating services;\n•\nManufacturing of special-purpose vehicles (e.g., tanks, armored vehicles);\n•\nProduction of screws, nuts, and other fasteners for automotive applications;\n•\nManufacturing of sealing components and converting processes tailored to the auto-\nmotive market.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The\nresearch addresses the problem of persistent energy waste and the difficulties many firms\nface in integrating ISO 50001-aligned energy management into daily operations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "Among EnPI users, the most common metrics include the following:\n•\nProduct-based (kWh per unit produced)—12 firms;\n•\nSales-based (kWh per PLN revenue)—seven firms;\n•\nFacility area-based (kWh per m2)—five firms;\n•\nFacility volume-based (kWh per m3)—two firms.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

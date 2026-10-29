@@ -1,0 +1,15 @@
+{
+  "key": "rayyan-472535472",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Passing mention of oil pipelines as the original use-case that MQTT was developed for; this is protocol history, not an application context of the paper",
+      "quote": "The MQTT communication protocol was originally \ndeveloped for the satellite-based connection of oil pipelines.",
+      "page": 3,
+      "sector": "oil/gas pipelines"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper develops a conceptual universal energy information model (UEIM) for standardizing energy management data semantics over OPC UA/MQTT in generic industrial automation (using discrete-manufacturing examples such as industrial robots and motor protection breakers), with no application to any continuous-flow production sector."
+}

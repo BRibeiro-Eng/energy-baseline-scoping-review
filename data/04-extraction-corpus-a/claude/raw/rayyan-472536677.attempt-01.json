@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536677",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:28:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "provide a strategic review of the \nrespondent’s energy management systems with regard to the levels of \nmaturity of their EnMS",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Strategic/maturity review and survey of EnMS across 6 companies (pharmaceuticals, medical devices, electronics, semiconductor, dairy) plus the TEMPO energy-tracking tool; EnPIs appear only incidentally (needs/gaps) and no EnPI/EnB measurement model is characterised (no relevant variables, functional form, or construction/estimation approach identifiable).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "6 Companies, 40+ Employees across production, finance, facilites \nand management.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: a 'Refined Energy Model' (direct 57%/indirect 43%, extended from Seow & Rahimifard 2011) and Energy Intensity Indicators are named but not built as an EnPI/EnB model. Called ineligible; flag for human review. Sparse slide-deck proceedings."
+  },
+  "stage2": null,
+  "stage3": null
+}

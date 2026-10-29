@@ -1,0 +1,150 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536649",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:31:45Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "Specific Energy Consumption (SEC) is defined as follows:",
+        "Energy per Working Hour (EWH) is defined as follows:"
+      ],
+      "page": [
+        6,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "In order to verify generality and effectiveness of the methodology proposed, this latter is applied to two industrial cases, different for level of awareness in energy management and measurement issues.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "The test case A consists in the production of carbon fibre components for avionic industry.",
+        "The test case B consists in the production of small plastic components through injection moulding."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "notes": "Both applications are discrete manufacturing: autoclave-cured carbon-fibre components and injection-moulded plastic components."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": [
+        "The main utilities referred to the whole plant can be summarized as follows:",
+        "The main utilities referred to the plant section involved in the analysis can be summarized as follows:"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "production of carbon fibre components for avionic industry; production of small plastic components through injection moulding",
+      "evidence_quote": [
+        "The test case A consists in the production of carbon fibre components for avionic industry.",
+        "The test case B consists in the production of small plastic components through injection moulding."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": [
+        "The main part of production process from an energetic point of view consists of certified thermal curing in autoclave.",
+        "The test case B consists in the production of small plastic components through injection moulding."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The International standard ISO 50001:2011 [1] provides a framework of requirements for organizations",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "physical model"
+      ],
+      "evidence_quote": [
+        "where E is the total energy consumption [kWh] and P is the number of pieces produced.",
+        "where Em is the energy consumption of moulding plant section [kWh] and hi are the machines working hours.",
+        "In order to reduce the EnPI uncertainty, a consumption model considering the energy-intensive utilities based on the electric size of the utilities themselves has been set up."
+      ],
+      "page": [
+        6,
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

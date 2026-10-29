@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535363",
+  "listed_sector_signals": [
+    {
+      "signal": "Oxygen production is mentioned in the discussion of pure-oxygen aeration; no oxygen-production facility is studied.",
+      "quote": "Although oxygen production has an associated energy cost, the increased efficiency\nresulting from pure oxygen transfer can reduce the electrical energy consumption of com-\npressors, especially in well-designed systems.",
+      "page": 15,
+      "sector": "industrial gases"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "The audited wastewater treatment line explicitly maintains constant flow through subsequent treatment stages.",
+      "quote": "The flow is then directed by\ngravity to the intermediate lift station, where five submersible pump groups are employed\nto ensure a constant flow rate during the subsequent treatment stages.",
+      "page": 6,
+      "sector": "wastewater treatment"
+    },
+    {
+      "signal": "Anaerobic biogas production is discussed as an alternative energy source but considered unsuitable for this plant.",
+      "quote": "The production of biogas, resulting from microbial activity under anaerobic conditions,\ntypically represents an alternative energy source. However, in this case, the type of biolog-\nical treatment of activated sludge with prolonged aeration produces sludge with a high\nlevel of digestion and consequently with a reduced biogas production potential, making\nit unsuitable for use.",
+      "page": 16,
+      "sector": "biogas production"
+    },
+    {
+      "signal": "A cross-flow minihydropower plant using the wastewater discharge flow is proposed for further study.",
+      "quote": "As an alternative energy source, the auditors proposed studying\nthe potential use of the available gravitational energy at the WWTP discharge point into\nthe watercourse, based on a geometric head of 14 m, an average flow rate of 0.3716 m3/s,\nand an estimated useful power output of 36 kW, by constructing a minihydropower plant\n(cross-flow type) for self-consumption [25].",
+      "page": 16,
+      "sector": "hydropower"
+    }
+  ],
+  "application_strength": "applied",
+  "conservative_classification": false,
+  "one_line": "The paper evaluates an ISO 50001/PDCA energy audit of a municipal wastewater treatment plant in northern Portugal, covering pumping, aeration, and sludge handling."
+}

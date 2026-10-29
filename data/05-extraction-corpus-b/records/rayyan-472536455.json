@@ -1,0 +1,2461 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536455",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 28,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "cement industry (NACE 23.51)",
+        "evidence_quote": "An additional focus on the cement industry (NACE 23.51) is presented in this section,",
+        "page": 14,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Italy",
+        "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+        "page": 14,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle (one site was dismissed because of non-continuous produc-\ntion), were subjected to the developed statistical method,",
+        "page": 14,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Sectoral energy performance of the Italian cement industry, focused on sites carrying out the complete grey-cement production cycle",
+        "evidence_quote": "30 energy audits related to sites where the complete grey-cement production cycle is\ncarried out (in one of these sites, white cement was also produced;",
+        "page": 14,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery or petrochemical named but not an empirical application here",
+        "evidence_quote": "there are sectors with high reliability and quality of EnPI\nmodel (e.g., cement, reﬁneries, foundries, ceramics).",
+        "page": 11,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "real electric EnPI (Table 1, Electric/Cement)",
+          "baseline_construction_method": {
+            "value": "Mean of site specific electric energy consumption per tonne of cement, with standard deviation",
+            "evidence_quote": "a single EnPI (EnPIr) referring to the entire\ngroup and the whole production range was calculated, or as many EnPIs as the number\nof partitions the NACE group has been split into. The standard deviation for EnPIr is\nalso calculated:",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC is the numerical ratio that identiﬁes energy consumption in a given process (it is\nmeasured as energy/unit of product), and it is frequently used in literature as EnPI",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Electric consumption was compared with the actual cement produced on site, expressed in tons.",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Electric consumption was compared with the actual cement produced on site, expressed in tons.",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "kWh/t",
+              "evidence_quote": "119 ± 10\nkWh/t\n15\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "a single EnPI (EnPIr) referring to the entire\ngroup and the whole production range was calculated,",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "cement produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Electric consumption was compared with the actual cement produced on site, expressed in tons.",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "a “virtual” electric\nconsumption related to the complete production cycle of all cement actually produced on\nthe site was calculated.",
+              "page": 16,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalculate",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "145,000\n521,000\n119 ± 10\nkWh/t\n15\nHIGH\n521,001\n1,015,000\n108 ± 13\n14\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Production range 145,000–1,015,000 t of cement (split into two ranges)",
+              "evidence_quote": "145,000\n521,000\n119 ± 10\nkWh/t\n15\nHIGH\n521,001\n1,015,000\n108 ± 13\n14\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "119 ± 10\nkWh/t\n15\nHIGH",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI (mean ± standard deviation), range 1",
+                  "value": "119 ± 10",
+                  "unit": "kWh/t",
+                  "period_or_context": "production range 145,000–521,000 t; reliability HIGH; N=15",
+                  "evidence_quote": "119 ± 10\nkWh/t\n15\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "EnPI (mean ± standard deviation), range 2",
+                  "value": "108 ± 13",
+                  "unit": "kWh/t",
+                  "period_or_context": "production range 521,001–1,015,000 t; reliability HIGH; N=14",
+                  "evidence_quote": "521,001\n1,015,000\n108 ± 13\n14\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "hold-out",
+                  "cross-validation",
+                  "test set",
+                  "validation"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "real thermal EnPI (Table 1, Thermal/Clinker)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC is the numerical ratio that identiﬁes energy consumption in a given process (it is\nmeasured as energy/unit of product), and it is frequently used in literature as EnPI",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Thermal consumption refers to clinker quantity produced on site (in tons) and to\na “virtual” cement production",
+              "page": 16,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy (from petcoke, MSW, ELT and other fuels)"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Thermal consumption refers to clinker quantity produced on site (in tons) and to\na “virtual” cement production",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/t",
+              "evidence_quote": "3585 ± 264\nMJ/t\n16\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "a single EnPI (EnPIr) referring to the entire\ngroup and the whole production range was calculated,",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "clinker quantity produced on site (in tons)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Thermal consumption refers to clinker quantity produced on site (in tons) and to\na “virtual” cement production",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "2757 ± 295\nMJ/t\n29\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "a “virtual” thermal consumption was considered relating to the production of all the clinker\nnecessary for cement actually produced on site.",
+              "page": 17,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "142,000\n509,000\n3585 ± 264\nMJ/t\n16\nHIGH\n509,001\n1,097,000\n3468 ± 230\n13\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Clinker production range 142,000–1,097,000 t",
+              "evidence_quote": "142,000\n509,000\n3585 ± 264\nMJ/t\n16\nHIGH\n509,001\n1,097,000\n3468 ± 230\n13\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "3585 ± 264\nMJ/t\n16\nHIGH",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI (mean ± standard deviation), clinker range 1",
+                  "value": "3585 ± 264",
+                  "unit": "MJ/t",
+                  "period_or_context": "clinker range 142,000–509,000 t; reliability HIGH; N=16",
+                  "evidence_quote": "3585 ± 264\nMJ/t\n16\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "EnPI (mean ± standard deviation), clinker range 2",
+                  "value": "3468 ± 230",
+                  "unit": "MJ/t",
+                  "period_or_context": "clinker range 509,001–1,097,000 t; reliability HIGH; N=13",
+                  "evidence_quote": "509,001\n1,097,000\n3468 ± 230\n13\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "real global EnPI (Table 1, Global/Cement)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC is the numerical ratio that identiﬁes energy consumption in a given process (it is\nmeasured as energy/unit of product), and it is frequently used in literature as EnPI",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Global consumption refers to the amount of cement produced on site, expressed in\ntons.",
+              "page": 16,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Global consumption refers to the amount of cement produced on site, expressed in\ntons.",
+              "page": 16,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/t",
+              "evidence_quote": "3097 ± 220\nMJ/t\n18\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "a single EnPI (EnPIr) referring to the entire\ngroup and the whole production range was calculated,",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of cement produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Global consumption refers to the amount of cement produced on site, expressed in\ntons.",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "an elaboration of global consumption was made in order to calculate, for\neach site, a “virtual” global consumption related to the complete production cycle of all\ncement actually produced on the site.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "144,803\n566,000\n3097 ± 220\nMJ/t\n18\nHIGH\n566,001\n1,015,000\n3320 ± 384\n11\nHIGH",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Cement production range 144,803–1,015,000 t",
+              "evidence_quote": "144,803\n566,000\n3097 ± 220\nMJ/t\n18\nHIGH\n566,001\n1,015,000\n3320 ± 384\n11\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "3097 ± 220\nMJ/t\n18\nHIGH",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI (mean ± standard deviation), range 1",
+                  "value": "3097 ± 220",
+                  "unit": "MJ/t",
+                  "period_or_context": "cement range 144,803–566,000 t; reliability HIGH; N=18",
+                  "evidence_quote": "3097 ± 220\nMJ/t\n18\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "EnPI (mean ± standard deviation), range 2",
+                  "value": "3320 ± 384",
+                  "unit": "MJ/t",
+                  "period_or_context": "cement range 566,001–1,015,000 t; reliability HIGH; N=11",
+                  "evidence_quote": "566,001\n1,015,000\n3320 ± 384\n11\nHIGH",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "linear regression of site electric consumption (Table 2, Electric/Cement)",
+          "baseline_construction_method": {
+            "value": "Two-variable linear regression of electric energy consumption on cement production",
+            "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "intercept b = 5.062 × 10^6",
+            "slope a = 101.9"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where y represents the ﬁnal energy consumption [MJ] as the sum of a constant term, b\n[MJ], not dependent on the quantity of production, x,",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh",
+              "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression is represented by the equation (see Figure 3)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fitting"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "cement produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Electric consumption was compared with the actual cement produced on site, expressed in tons.",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t\n0.917\n0.958\n<0.0001\n29\n>99%",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "a “virtual” electric\nconsumption related to the complete production cycle of all cement actually produced on\nthe site was calculated.",
+              "page": 16,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "145,000\n521,000\n119 ± 10\nkWh/t\n15\nHIGH\n521,001\n1,015,000\n108 ± 13\n14\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Cement production range 145,000–1,015,000 t",
+              "evidence_quote": "145,000\n521,000\n119 ± 10\nkWh/t\n15\nHIGH\n521,001\n1,015,000\n108 ± 13\n14\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t\n0.917\n0.958\n<0.0001\n29\n>99%",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.917,
+                  "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t\n0.917\n0.958\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.958,
+                  "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t\n0.917\n0.958\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "<0.0001",
+                  "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t\n0.917\n0.958\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "linear regression of site thermal consumption (Table 2, Thermal/Clinker)",
+          "model_parameters_reported": [
+            "intercept b = 3.913 × 10^7",
+            "slope a = 3.448"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where y represents the ﬁnal energy consumption [MJ] as the sum of a constant term, b\n[MJ], not dependent on the quantity of production, x,",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t",
+              "page": 17,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MJ",
+              "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression is represented by the equation (see Figure 3)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "clinker quantity produced on site (in tons)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Thermal consumption refers to clinker quantity produced on site (in tons) and to\na “virtual” cement production",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "a “virtual” thermal consumption was considered relating to the production of all the clinker\nnecessary for cement actually produced on site.",
+              "page": 17,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "142,000\n509,000\n3585 ± 264\nMJ/t\n16\nHIGH\n509,001\n1,097,000\n3468 ± 230\n13\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Clinker production range 142,000–1,097,000 t",
+              "evidence_quote": "142,000\n509,000\n3585 ± 264\nMJ/t\n16\nHIGH\n509,001\n1,097,000\n3468 ± 230\n13\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.969,
+                  "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.984,
+                  "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "<0.0001",
+                  "evidence_quote": "Eth [MJ] = 3.913 × 107 + 3.448 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "linear regression of site global energy consumption (Table 2, Global/Cement)",
+          "model_parameters_reported": [
+            "intercept b = 7.05 × 10^7",
+            "slope a = 3.039"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where y represents the ﬁnal energy consumption [MJ] as the sum of a constant term, b\n[MJ], not dependent on the quantity of production, x,",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MJ",
+              "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t",
+              "page": 17,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression is represented by the equation (see Figure 3)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of cement produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Global consumption refers to the amount of cement produced on site, expressed in\ntons.",
+              "page": 16,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Consumption data, gathered from 29 out of 30 energy audits related to the complete\ngrey-cement production cycle",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t\n0.933\n0.966\n<0.0001\n29\n>99%",
+              "page": 17,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "an elaboration of global consumption was made in order to calculate, for\neach site, a “virtual” global consumption related to the complete production cycle of all\ncement actually produced on the site.",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "144,803\n566,000\n3097 ± 220\nMJ/t\n18\nHIGH\n566,001\n1,015,000\n3320 ± 384\n11\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Cement production range 144,803–1,015,000 t",
+              "evidence_quote": "144,803\n566,000\n3097 ± 220\nMJ/t\n18\nHIGH\n566,001\n1,015,000\n3320 ± 384\n11\nHIGH",
+              "page": 17,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t\n0.933\n0.966\n<0.0001\n29\n>99%",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.933,
+                  "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t\n0.933\n0.966\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.966,
+                  "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t\n0.933\n0.966\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "p-value",
+                  "value": "<0.0001",
+                  "evidence_quote": "Eg [MJ] = 7.05 × 107 + 3.039 × t\n0.933\n0.966\n<0.0001\n29\n>99%",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M7",
+          "label_verbatim": "linear regression of electric consumption of raw material grinding (Table 4)",
+          "model_parameters_reported": [
+            "intercept = 3,395,804",
+            "slope = 16.24"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Electric consumption of raw materials in the grinding phase was compared to the\namount of ﬂour actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Electric consumption of raw materials in the grinding phase was compared to the\namount of ﬂour actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t",
+              "page": 20,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression models for electric and thermal consumptions for the main phases of\nthe grey-cement production cycle are shown,",
+              "page": 19,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Electric consumption of raw materials in the grinding phase was compared to the\namount of ﬂour actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of ﬂour actually produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Electric consumption of raw materials in the grinding phase was compared to the\namount of ﬂour actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t\n0.730\n0.854\n<0.0001\n26\n>99%",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 26,
+              "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t\n0.730\n0.854\n<0.0001\n26\n>99%",
+              "page": 20,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Electric consumption of raw materials in the grinding phase was compared to the\namount of ﬂour actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "219,000\n740,000\n23.51 ± 5.71\nkWh/t\n15\nMEDIUM\n740,001\n1,733,000\n19.09 ± 4.70\n11\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Flour production range 219,000–1,733,000 t",
+              "evidence_quote": "219,000\n740,000\n23.51 ± 5.71\nkWh/t\n15\nMEDIUM\n740,001\n1,733,000\n19.09 ± 4.70\n11\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t\n0.730\n0.854\n<0.0001\n26\n>99%",
+                "page": 20,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.73,
+                  "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t\n0.730\n0.854\n<0.0001\n26\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.854,
+                  "evidence_quote": "EE [kWh] = 3,395,804 + 16.24 × t\n0.730\n0.854\n<0.0001\n26\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M8",
+          "label_verbatim": "linear regression of electric consumption of clinker cooking phase (Table 4)",
+          "model_parameters_reported": [
+            "intercept = 1,685,681",
+            "slope = 27.19"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Electric consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Electric consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t",
+              "page": 20,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression models for electric and thermal consumptions for the main phases of\nthe grey-cement production cycle are shown,",
+              "page": 19,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Electric consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of clinker actually produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Electric consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t\n0.804\n0.897\n<0.0001\n29\n>99%",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t\n0.804\n0.897\n<0.0001\n29\n>99%",
+              "page": 20,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Electric consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "141,558\n597,000\n31.84 ± 5.44\nkWh/t\n21\nHIGH\n597,001\n1,097,000\n28.36 ± 5.99\n8\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Clinker production range 141,558–1,097,000 t",
+              "evidence_quote": "141,558\n597,000\n31.84 ± 5.44\nkWh/t\n21\nHIGH\n597,001\n1,097,000\n28.36 ± 5.99\n8\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t\n0.804\n0.897\n<0.0001\n29\n>99%",
+                "page": 20,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.804,
+                  "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t\n0.804\n0.897\n<0.0001\n29\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.897,
+                  "evidence_quote": "EE [kWh] = 1,685,681 + 27.19 × t\n0.804\n0.897\n<0.0001\n29\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M9",
+          "label_verbatim": "linear regression of electric consumption of clinker grinding phase (Table 4)",
+          "model_parameters_reported": [
+            "intercept = 946,440",
+            "slope = 38.98"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Electric consumption of clinker in the grinding phase was compared to the amount of\ncement actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Electric consumption of clinker in the grinding phase was compared to the amount of\ncement actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t",
+              "page": 20,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression models for electric and thermal consumptions for the main phases of\nthe grey-cement production cycle are shown,",
+              "page": 19,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Electric consumption of clinker in the grinding phase was compared to the amount of\ncement actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of cement actually produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Electric consumption of clinker in the grinding phase was compared to the amount of\ncement actually produced on site, expressed in tons. In this case, the sites where only\nthe clinker grinding process is carried out were also considered in the sample.",
+              "page": 18,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t\n0.951\n0.975\n<0.0001\n42\n>99%",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 42,
+              "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t\n0.951\n0.975\n<0.0001\n42\n>99%",
+              "page": 20,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Electric consumption of clinker in the grinding phase was compared to the amount of\ncement actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "55,000\n1,015,000\n41.51 ± 8.74\nkWh/t\n42\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Cement production range 55,000–1,015,000 t",
+              "evidence_quote": "55,000\n1,015,000\n41.51 ± 8.74\nkWh/t\n42\nMEDIUM",
+              "page": 19,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t\n0.951\n0.975\n<0.0001\n42\n>99%",
+                "page": 20,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.951,
+                  "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t\n0.951\n0.975\n<0.0001\n42\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.975,
+                  "evidence_quote": "EE [kWh] = 946,440 + 38.98 × t\n0.951\n0.975\n<0.0001\n42\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M10",
+          "label_verbatim": "linear regression of thermal consumption of clinker cooking phase (Table 4)",
+          "model_parameters_reported": [
+            "intercept = 2.749·10^7",
+            "slope = 3447"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Thermal consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t",
+              "page": 20,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t",
+              "page": 20,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Linear regression models for electric and thermal consumptions for the main phases of\nthe grey-cement production cycle are shown,",
+              "page": 19,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "we use linear regression involving two variables: energy consumption (global, electrical,\nthermal, or natural gas as a function of the EnPI) and production (in its speciﬁc P.U.).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "Thermal consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "amount of clinker actually produced on site, expressed in tons",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Thermal consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In the cement sector, 47 energy audits were collected by ENEA in December 2019, in\ncompliance with Article 8 of Italian Legislative Decree 102/2014:",
+              "page": 14,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+              "page": 20,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 29,
+              "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+              "page": 20,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Thermal consumption of clinker in the cooking phase was compared to the amount of\nclinker actually produced on site, expressed in tons.",
+              "page": 18,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "141,558\n1,097,000\n3505 ± 247\nMJ/t\n29\nHIGH",
+              "page": 19,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "Clinker production range 141,558–1,097,000 t",
+              "evidence_quote": "141,558\n1,097,000\n3505 ± 247\nMJ/t\n29\nHIGH",
+              "page": 19,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                "page": 20,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (coefficient of determination)",
+                  "value": 0.969,
+                  "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R (Pearson correlation coefficient)",
+                  "value": 0.984,
+                  "evidence_quote": "Eth [MJ] = 2.749·107 + 3447 × t\n0.969\n0.984\n<0.0001\n29\n>99%",
+                  "page": 20,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M11",
+          "label_verbatim": "real thermal EnPI of clinker cooking phase by number of cyclones (Table 5)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "Table 5 shows actual thermal EnPI and its standard deviation for the entire production\nrange in the two cases of four or ﬁve cyclones.",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Thermal\nClinker\nt\n4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH",
+              "page": 22,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Thermal\nClinker\nt\n4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            "unit_verbatim": {
+              "value": "MJ/t",
+              "evidence_quote": "3609 ± 291\nMJ/t\n11\nHIGH",
+              "page": 22,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "Table 5 shows actual thermal EnPI and its standard deviation for the entire production\nrange in the two cases of four or ﬁve cyclones.",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "number of cyclones of the furnace",
+              "type": "equipment configuration",
+              "role": "segmentation",
+              "evidence_quote": "the impact of the number of cyclones on the\npre-heating phase before clinker production was evaluated.",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "clinker (t)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Thermal\nClinker\nt\n4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH",
+              "page": 22,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "In only 23 out of the 29 sites\nwhere the complete grey-cement production process is carried out, the number of cyclones\nof the furnace is provided.",
+              "page": 22,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "In only 23 out of the 29 sites\nwhere the complete grey-cement production process is carried out, the number of cyclones\nof the furnace is provided.",
+              "page": 22,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 23,
+              "evidence_quote": "In only 23 out of the 29 sites\nwhere the complete grey-cement production process is carried out, the number of cyclones\nof the furnace is provided.",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "It is important to underline that this methodology was applied using real data moni-\ntored by companies and collected in audits carried out by certiﬁed experts.",
+              "page": 24,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Table 5 shows actual thermal EnPI and its standard deviation for the entire production\nrange in the two cases of four or ﬁve cyclones.",
+              "page": 22,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "thermal energy"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated with numeric bounds",
+              "evidence_quote": "4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH\n5\n207,000\n1,097,000\n3431 ± 214\n12\nHIGH",
+              "page": 22,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "Clinker production range 142,000–860,000 t (4 cyclones); 207,000–1,097,000 t (5 cyclones)",
+              "evidence_quote": "4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH\n5\n207,000\n1,097,000\n3431 ± 214\n12\nHIGH",
+              "page": 22,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH\n5\n207,000\n1,097,000\n3431 ± 214\n12\nHIGH",
+                "page": 22,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "EnPI (mean ± standard deviation), 4 cyclones",
+                  "value": "3609 ± 291",
+                  "unit": "MJ/t",
+                  "period_or_context": "clinker range 142,000–860,000 t; reliability HIGH; N=11",
+                  "evidence_quote": "4\n142,000\n860,000\n3609 ± 291\nMJ/t\n11\nHIGH",
+                  "page": 22,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "EnPI (mean ± standard deviation), 5 cyclones",
+                  "value": "3431 ± 214",
+                  "unit": "MJ/t",
+                  "period_or_context": "clinker range 207,000–1,097,000 t; reliability HIGH; N=12",
+                  "evidence_quote": "5\n207,000\n1,097,000\n3431 ± 214\n12\nHIGH",
+                  "page": 22,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "cement, lime, clinker",
+        "evidence_quote": "An additional focus on the cement industry (NACE 23.51) is presented in this section,",
+        "page": 14,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "since EnPIs depend on several parameters, such as plant size, operating\nparameters, energy carriers used, production process, age of machines and equipment,\nlocation and environmental conditions, and business conditions, their determination at the\nNACE level can have some issue.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "cross-site comparability",
+      "cause_other_verbatim": "plant size, operating parameters, energy carriers used, age of machines, location, and business conditions"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "In some companies, energy consumption may not have a clear link with production,\nor some companies do not have a physical production (e.g., service companies);",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "Variables analysed with these models must not directly include economic variables\n(such as added value, turnover, etc.), which often have no direct relationship with the\nphysical production processes in manufacturing [26].",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "statistical misspecification",
+      "cause_other_verbatim": "economic variables (added value, turnover) with no direct relationship to physical production"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "despite several production processes being not linear",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "statistical misspecification",
+      "cause_other_verbatim": "non-linear production processes fitted with linear models"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "The correlation coefﬁcient can be very\nsensitive to “outliers” and may indicate association when, in fact, none exists.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "statistical misspecification",
+      "cause_other_verbatim": "outliers / anomalous items"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "A low value\ncertainly indicates an insigniﬁcant relationship between consumption and production\n(often due to the presence of economic factors).",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "non-stationarity of the relationship",
+      "cause_other_verbatim": "presence of economic factors"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "A1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "one site was dismissed because of non-continuous produc-\ntion",
+      "page": 14,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "sites that are clearly far from the mean trend of the energy consumption vs. production\nratio (outliers).",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "segmented baseline",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "The normalization work that was pre-emptively accomplished in order to\ncorrect or dismiss nonhomogeneous elements: a partition of NACE group 23.51 depending\non the characteristic processes of the sites.",
+      "page": 14,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "normalisation to a reference product",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "a “virtual” electric\nconsumption related to the complete production cycle of all cement actually produced on\nthe site was calculated.",
+      "page": 16,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "additional normalisation variable",
+      "status": "evaluated",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "the\nimpact of the number of cyclones on the\npre-heating phase before clinker production was evaluated.",
+      "page": 22,
+      "support_class": "direct statement",
+      "refers_to": "M11"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "use of the EnPI model as basis for more advanced models (SFA, IDA, DEA)",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "This model can be used as the basis for more advanced models,\nsuch as stochastic frontier analysis (SFA) [31], index decomposition analysis (IDA) [50],\nor data envelopment analysis (DEA) [51] for calculation of energy-efﬁciency impact or\ndeviation from benchmark.",
+      "page": 11,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": true,
+      "evidence_quote": "a numeric threshold of sites was set, conventionally equal to 5, below which\nthe modelling was not carried out because the sample would not be statistically representa-\ntive.",
+      "page": 8
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "The information for second-level EnPIs is\nscarce, but the obtained electrical EnPI\nvalues for raw-material preparation, solid-fuel preparation, ﬁnish grinding, and clinker\ncooking are slightly higher than the best available technologies (BAT) [54] and lower than\nthe values for the U.S. as of 1999 [55].",
+      "page": 22
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "However, a high heterogeneity of the available data has been\nobserved, as in the methodology used in the analysis and in the obtained results.",
+      "page": 3
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Profitable energy-efficiency interventions are not implemented due to several barriers of different categories",
+      "evidence_quote": "proﬁtable energy-efﬁciency interventions are not implemented\ndue to several barriers pertaining to different categories [3] and involving enterprises of\nvarious sizes in different sectors [4].",
+      "page": 1
+    },
+    {
+      "barrier": "The normalization/analysis phase is time-consuming and requires highly specialized personnel",
+      "evidence_quote": "This ﬁrst normalization phase is a very time-consuming process since it requires a\none-by-one audit analysis by highly specialized personnel.",
+      "page": 8
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "y = a · x + b",
+      "page": 9,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "EE [kWh] = 5.062 × 106 + 101.9 × t",
+      "page": 17,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": "Data Availability Statement: Not applicable.",
+      "page": 25,
+      "support_class": "absence checked",
+      "absence_basis": "explicitly stated absent"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "software repository",
+        "GitHub"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper presents a sectoral methodology applied to the Italian cement industry (NACE 23.51, complete grey-cement production cycle, 29 sites). For each energy vector it reports both a mean SEC (real EnPI ± SD, reliability class) and a linear regression of absolute energy consumption on production, from which a hyperbolic EnPIm is derived; these are recorded as separate models (M1-M3 mean SEC; M4-M6 first-level regressions; M7-M10 second-level phase regressions; M11 thermal EnPI segmented by number of cyclones). The regression 'metrics' are recorded as in-sample fit. Section 4.4 (Table 6) validates the first-level EnPIs by comparison with external published benchmarks (BREF, IEA, UNIDO etc.); this is an external benchmark comparison rather than a held-out/statistical out-of-sample validation, so out_of_sample_validation is coded not reported for all models — reviewer may wish to reconsider. Estimation method (OLS) is never explicitly stated, hence not reported. Energy-savings results are described qualitatively for the EE audit database in general but not tied to specific models, so energy_result is not applicable per model.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "outlier",
+        "non-linear",
+        "heteroscedastic",
+        "limitation",
+        "economic factors",
+        "not comparable",
+        "assumption"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "normalization",
+        "partition",
+        "cyclones",
+        "virtual consumption",
+        "segment",
+        "stochastic frontier"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "scarce",
+        "heterogeneity",
+        "threshold",
+        "time-consuming",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "gap",
+        "not implemented",
+        "personnel",
+        "training"
+      ]
+    }
+  },
+  "attempt": 2
+}

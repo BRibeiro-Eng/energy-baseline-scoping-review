@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535527",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T17:02:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "it was important to develop a method of comprehensively assessing each of these standards, ISO 50001, ISO 14001 and the SEBPs in relation to the LEED and BREEAM rating systems",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Presents a maturity-model-based evaluation matrix mapping ISO 50001/ISO 14001/SEBP clauses onto LEED and BREEAM green-building rating credits; no EnPI or EnB measurement model is identified or characterised (framework/maturity assessment without EnPI/EnB measurement-model content).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": [
+        "The evaluation matrix was formed by assessing each standard in isolation",
+        "bases the evaluation on the levels of maturity defined by the SEAI"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Standards-vs-rating-system mapping study; demonstrative case study is a Cork medical-device (discrete) manufacturing site, not a continuous-process context."
+  },
+  "stage2": null,
+  "stage3": null
+}

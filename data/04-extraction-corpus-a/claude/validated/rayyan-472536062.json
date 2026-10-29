@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536062",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T16:55:23+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "add the sustainability dimension in order to integrate the corresponding formal management systems and establish the comprehensive Total Site Resource Efficiency System (TSRES)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Proposes the Total Site Resource Efficiency System (TSRES), a framework integrating sustainability dimensions and formal management systems (ISO 9000/14000/50001/26000, EMAS) at plant/community level. ISO 50001, energy efficiency, Pinch Analysis and MINLP appear only at framework level; the paper presents no EnPI/EnB measurement model and characterises no indicator definition, normalisation variables, functional form, or baseline construction.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "integrated into a unique management system which is included into the novel Total Site Resource Efficiency System",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline paper_type: primarily a framework/system proposal (TSRES) with a thin illustrative single case (industrial laundry in a coalmine), so 'single applied case' is a defensible alternative. ISO 50001 cited only as a management system to integrate, not as a basis for an energy-performance model."
+  },
+  "stage2": null,
+  "stage3": null
+}

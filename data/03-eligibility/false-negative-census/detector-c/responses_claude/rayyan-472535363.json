@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472535363",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Continuous-flow wastewater treatment plant operating 24/7 with influent conveyed by gravity/pumping through sequential treatment stages (screening, aeration, clarification, sludge treatment)",
+      "quote": "the raw influent to be treated in the WWTP is directed by gravity to the input chamber. The total elevation of the influent is achieved using Archimedes\nscrews, which operate at variable speeds in two stages.",
+      "page": 5,
+      "sector": "wastewater treatment (water utility)"
+    },
+    {
+      "signal": "Energy balance segmented by continuous treatment stages, describing the plant's process dynamics as a production system",
+      "quote": "For an accurate\nassessment of the facility’s energy performance, it is important to understand the ob-\njectives and dynamics of the production system",
+      "page": 4,
+      "sector": "wastewater treatment (water utility)"
+    },
+    {
+      "signal": "Continuous aeration/biological treatment as the most energy-intensive process stage",
+      "quote": "Aeration in the biological treatment stage\nrepresents the most energy-intensive process, accounting for between 40% and 75%",
+      "page": 9,
+      "sector": "wastewater treatment (water utility)"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper empirically demonstrates an ISO 50001/PDCA energy audit at a municipal wastewater treatment plant in northern Portugal; wastewater treatment is a continuous-flow water utility, not one of the eight registered Corpus B industrial sectors."
+}

@@ -1,0 +1,302 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535489",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T13:59:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy baseline is performed by obtaining a linear regression model from the data on electrical energy consumption and production.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper aims to present a procedure that allows identifying savings opportunities in a steel manufacturing company.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The company under study belongs to the steel industry and is in Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The company has 13 areas, nine production areas, and four production support areas.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "The company under study belongs to the steel industry and is in Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "steel industry",
+      "evidence_quote": "The company under study belongs to the steel industry and is in Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The company under study belongs to the steel industry and is in Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "The study presented demonstrates the possibility provided by the ISO 50001, 50004, and 50006 standards",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The energy baseline is performed by obtaining a linear regression model from the data on electrical energy consumption and production.",
+        "EnPI\nEC\nP\n="
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production in terms of processed steel in t"
+      ],
+      "evidence_quote": "where EC is the electrical energy consumption in MWh and P the production in terms of processed steel in t.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "January 2018",
+      "evidence_quote": "January‑2018",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "December 2019",
+      "evidence_quote": "December‑2019",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "A linear regression of electrical energy consumption against production formed the baseline; the goal line was a second linear regression through points below the baseline. For the highest-consuming area, non-representative data were filtered with the Hampel method.",
+      "evidence_quote": [
+        "The energy baseline is performed by obtaining a linear regression model from the data on electrical energy consumption and production.",
+        "This line is obtained with a linear regression model with the points that are below the baseline.",
+        "In this case, to reach the correlation index of 0.6, non-\nrepresentative data were filtered using the “Hampel” method"
+      ],
+      "page": [
+        2,
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "The determination index R2 is evaluated, and it is greater than 0.6 it can be concluded that there is a significant dependence between the production and consumption of electrical energy",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "energy performance indicators that allow the control of energy consumption and efficiency of the company in general and of the area with the highest electricity consumption.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "scope_description": {
+      "value": "the company in general and the area with the highest electricity consumption",
+      "evidence_quote": "energy performance indicators that allow the control of energy consumption and efficiency of the company in general and of the area with the highest electricity consumption.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "The company under study belongs to the steel industry and is in Colombia.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "In this step, the monthly data of processed steel and total electricity consumption of the company and by areas were collected in 2 years (2018 and 2019).",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "company baseline slope A = 0.0454",
+        "company baseline intercept B = 123.71",
+        "company goal-line slope A = 0.0421",
+        "company goal-line intercept B = 117.62",
+        "Mckay baseline slope A = 0.0457",
+        "Mckay baseline intercept B = 21.426",
+        "Mckay goal-line slope A = 0.0591",
+        "Mckay goal-line intercept B = 6.2605"
+      ],
+      "evidence_quote": [
+        "Baseline\n0.0454\n123.71\n1556\n3133\n6\nGoal‑line\n0.0421\n117.62",
+        "Baseline\n0.0457\n21.426\n168\n1095\n13\nGoal‑line\n0.0591\n6.2605"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": ">0.6",
+          "unit": null,
+          "period_or_context": "company baseline correlation index",
+          "evidence_quote": "the correlation index obtained was higher than 0.6",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "6",
+          "unit": "%",
+          "period_or_context": "company",
+          "evidence_quote": "the company’s energy-saving potential is 6%.",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "13",
+          "unit": "%",
+          "period_or_context": "Mckay area",
+          "evidence_quote": "there is a potential for energy savings that can reach up to 13%",
+          "page": 5,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    }
+  }
+}

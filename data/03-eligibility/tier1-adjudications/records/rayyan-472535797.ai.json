@@ -1,0 +1,97 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535797",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "South Africa, Botswana and Zimbabwe",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "cement and lime",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": null,
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "plant-level energy-management skills and awareness"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "clinker produced",
+          "cement sold"
+        ],
+        "normative_framing_of_adaptations": "ISO 50001/50006 explicit",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "All operations in the group, beginning with two pilot sites: De Hoek Cement Factory and Lime Acres Lime Factory.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535797",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "South Africa",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio",
+          "SEC mean"
+        ],
+        "multi_site": true,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "cement industry",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

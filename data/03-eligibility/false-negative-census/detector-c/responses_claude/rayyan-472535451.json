@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472535451",
+  "listed_sector_signals": [
+    {
+      "signal": "Iron and steel named among energy-intensive industries (as prior-context example, not the study's application site)",
+      "quote": "even for industries with high energy intensity (e.g., foundries,\nfood, and iron and steel) [7–9]",
+      "page": 1,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Pulp and paper industry referenced via a cited Swedish barriers study, not applied here",
+      "quote": "identiﬁed\n“high complexity of production processes” as the main knowledge-related barrier and “slim\norganization” as the main organizational barrier by studying the pulp and paper industry\nin Sweden [12]",
+      "page": 2,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Ammonia industrial refrigeration systems mentioned as an earlier VINPLT pilot topic (refrigeration, not ammonia production)",
+      "quote": "Better Plants piloted\nVirtual In-Plant Trainings (VINPLTs) on wastewater treatment and ammonia industrial\nrefrigeration systems from 27 October to 19 November 2020",
+      "page": 3,
+      "sector": "industrial refrigeration / wastewater treatment"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper reports findings from a US DOE Better Plants virtual in-plant training and polling survey about implementing ISO 50001-based energy management systems across general US manufacturing companies, with continuous-process sectors (iron/steel, pulp & paper, ammonia refrigeration) appearing only as cited examples, not as the study's application context."
+}

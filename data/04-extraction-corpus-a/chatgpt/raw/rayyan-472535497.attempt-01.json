@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535497",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:01:13Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In summary, this paper presents a concept for energy management in modular production and requirements which have to be fulfilled in order to implement energy management in modular automation systems in the future. Furthermore, the steps for developing and integrating an energy data information model into the MTP are described.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Presents an energy-data information model/framework, not an identifiable EnPI/EnB measurement or baseline model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This paper addresses the need for research on energy management in upcoming modular production.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Conceptual MTP energy-data architecture; no identifiable EnPI/EnB measurement or baseline model."
+  },
+  "stage2": null,
+  "stage3": null
+}

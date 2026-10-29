@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535778",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T15:14:03+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Superior Energy Performancecm (SEP) is a forthcoming voluntary \ncertification program",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Describes the SEP voluntary certification program/framework and its measurement-and-verification protocol at a programmatic level. It references \"normalized energy performance indicators\" but identifies and characterises no EnPI/EnB model: no normalisation variables, functional form, or construction/estimation approach are given (the model methodology resides in the external, non-reproduced SEP M&V Protocol for Industry). Maps to the v2.3 ineligible clause: framework/maturity assessment without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "will use the SEP Industrial Facility Best Practice Scorecard to assess \nthe maturity of their facility",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Judgment call: paper is topically about energy-performance M&V but presents SEP as a certification framework (incl. a maturity scorecard) without characterising any EnPI/EnB model, so ineligible under the v2.3 bar. paper_type 'other' (program/policy overview) is a defensible alternative to 'maturity model or framework'."
+  },
+  "stage2": null,
+  "stage3": null
+}

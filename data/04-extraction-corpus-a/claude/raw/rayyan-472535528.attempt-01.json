@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535528",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:15:23.411883Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The paper has presented the list of tasks for realization the system, tasks of the energy resources management system, stages of the system implementation and practical example of the system using.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": "Core contribution is a city energy management / monitoring information system (CEMS) for municipal buildings, with policy/certification analysis and one school pilot. Reports standard building energy indices (specific energy consumption kWh/m3, efficiency classes) from external Ukrainian normative methods but characterises no EnPI/EnB model of its own (no variables, functional form, or construction approach given).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The implementation of the CEMS is based on the widespread use of information technologies and the support of a nationwide approach to digital transformation in the country.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline vs eligible: reports specific energy consumption (kWh/m3) and cites ISO 50001 but develops no EnPI/EnB model of its own; core contribution is a monitoring system + policy analysis."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,279 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536486",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T22:45:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "a number of different \nEnPIs were determined",
+        "P is the yearly \nfinal product manufactured by the company"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The case study consisted in\na\nbuilding material \nmanufacturing industry end-user and a metal processing \nindustry end-user.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The cement industry end-user implemented 40% of its \nEPIA plan by the end of 2020, thus lowering its specific \nelectricity use by approximatively 5% to a value of 0.128 \nMWh/ton.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Two 24/7 continuous-process end-users studied: a cement (closed-list) and an aluminium (primary metals) plant. level_3b=true on the cement empirical case (specific electricity use MWh/ton applied). paper_type=multi-case (2 end-users). type_of_organisation coded 'mixed' (2 distinct sectors) though both are continuous-process - borderline. Heavy financial/policy (Green Certificate state-aid) framing, but EnPIs are characterised (MWh/ton; t.o.e./thousand EUR)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study consisted in\na\nbuilding material \nmanufacturing industry end-user and a metal processing \nindustry end-user.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "the Romanian State-Aid (SA) Green \nCertificate exemption scheme for two large industrial end-users",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "building material manufacturing (cement) industry end-user and metal processing (aluminium) industry end-user",
+      "evidence_quote": "The case study consisted in\na\nbuilding material \nmanufacturing industry end-user and a metal processing \nindustry end-user.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "The case study consisted in\na\nbuilding material \nmanufacturing industry end-user and a metal processing \nindustry end-user.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": [
+        "the Energy \nPerformance Indicator's (EnPI) baseline (as defined by [6])",
+        "ISO 50001:2018 - Energy \nManagement Systems"
+      ],
+      "page": [1, 5],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "regulatory_driver": {
+      "value": ["other-named"],
+      "evidence_quote": "Romania \nadopted \nan \nincentivizing \nmechanism [5] in 2014, which grants a green certificate cost \nexemption for eligible end-users who implement relevant \nEPIAs over a four-year period",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio"],
+      "evidence_quote": [
+        "the specific electricity use",
+        "the Energy Intensity (EI) \nglobal EnPI was used"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "yearly final product manufactured (P) - production tonnage",
+        "annual production value (PV)"
+      ],
+      "evidence_quote": [
+        "P is the yearly \nfinal product manufactured by the company",
+        "the annual production value"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "2017",
+      "evidence_quote": "the 2017-2018 period, prior to the implementation of \nthe SA mechanism",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "baseline_period_end": {
+      "value": "2018",
+      "evidence_quote": "the 2017-2018 period, prior to the implementation of \nthe SA mechanism",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "baseline_construction_method": {
+      "value": "EnPI baselines for the 2017-2018 reference period were established by computing yearly specific electricity use (annual electricity use divided by annual product manufactured, MWh/ton) and a global energy intensity (annual equivalent energy use divided by annual production value); simple unfitted intensity ratios, no regression.",
+      "evidence_quote": [
+        "In order to assess the energy performance of each company \nprior to the latest period of SA reporting, a number of different \nEnPIs were determined.",
+        "Based on the  productivity achieved by the users on a yearly \nbasis, the specific electricity use"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "validation_types": {
+      "value": ["none reported"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "the overall electricity use was evaluated for each \ncompany",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "scope_description": {
+      "value": "Overall energy performance of two large, 24/7-operating industrial end-users - an aluminium (metal processing) plant and a cement (building material manufacturing) plant - evaluated company-wide via EnPIs.",
+      "evidence_quote": [
+        "Both industrial end-users have a 24 hours per day, 7 days \nper week working schedule",
+        "The case study consisted in\na\nbuilding material \nmanufacturing industry end-user and a metal processing \nindustry end-user."
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "the companies must \nannually submit a Supervisory Energy Audit",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "1.52",
+          "unit": "%",
+          "period_or_context": "aluminium end-user - estimated reduction in annual electricity use by the end of the EPIA program (planned)",
+          "evidence_quote": "The planned EPIAs were estimated to lead to a 1.52% \nreduction in the annual electricity use by the end of the \nprogram",
+          "page": 3,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "5.9",
+          "unit": "%",
+          "period_or_context": "cement end-user - planned annual energy saving (20,346 MWh/year) as share of yearly electricity use",
+          "evidence_quote": "an annual energy saving of 20,346 MWh/year, which amounts to 5.9% of \nthe yearly electricity use",
+          "page": 3,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "5",
+          "unit": "%",
+          "period_or_context": "aluminium end-user - actual reduction in specific electricity end-use after implementing 31.75% of EPIAs by end 2020",
+          "evidence_quote": "the aluminium industry end-user managed to lower its \nspecific electricity end-use by roughly 5%",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "implementation_barriers": {
+      "value": [
+        "Without the state-aid (SA) mechanism, the companies could not financially support implementation of the EPIA plan under present market conditions"
+      ],
+      "evidence_quote": "Without the SA mechanism, the companies could not \nfinancially support the EPIA plan implementation in the present \nmarket conditions",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  }
+}

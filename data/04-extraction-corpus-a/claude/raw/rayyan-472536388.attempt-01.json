@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536388",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T14:11:14.518548+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "EnPIs such as the hydraulic efﬁciency for pumps (∆pQ/Pel\nwith p: Pressure, Q: Volumetric ﬂow, Pel: Electrical energy [21]) or the heat dissipated per electrical energy for dry\ncooling towers (Pth/Pel with: Pth: Thermal energy)",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "this paper presents requirements and a concept for a modular system model",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The system model concept is demonstrated using an industrial cooling\nsystem comprising individual assets such as a cooling tower, a chiller and pumps.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Borderline eligibility: conceptual framework paper (modular system model + data-exchange format) for EnPI calculation that embeds/characterises engineering EnPI models (pump hydraulic efficiency dpQ/Pel; cooling-tower Pth/Pel) with variables + functional form -> eligible (v2.3). Application is a factory cooling/utility supply system in manufacturing, not a continuous-process sector -> level_3b false. type_of_organisation 'not specified' per methodological rule (discrete mfg a defensible alt)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "sector_of_activity": {
+      "value": "manufacturing industry",
+      "evidence_quote": "Companies in the manufacturing industry are facing the challenges",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "The standard ISO 50006 [4] deﬁnes EnPIs as energy related key performance indicators",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model"
+      ],
+      "evidence_quote": "EnPIs such as the hydraulic efﬁciency for pumps (∆pQ/Pel\nwith p: Pressure, Q: Volumetric ﬂow, Pel: Electrical energy [21]) or the heat dissipated per electrical energy for dry\ncooling towers (Pth/Pel with: Pth: Thermal energy)",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

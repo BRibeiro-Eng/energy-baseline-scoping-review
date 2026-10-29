@@ -1,0 +1,936 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536606",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "C-2.3",
+  "surface": "claude",
+  "completed_at": "2026-09-15",
+  "n_pages_read": 22,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Manufacturing — 24 industry-specific ENERGY STAR case studies (cement, corn refining, dairy, food, baking, glass, iron & steel, metal casting, motor vehicles, pharmaceuticals, printing, pulp & paper, ready-mix concrete)",
+        "evidence_quote": "ENERGY STAR focuses on filling critical knowledge gaps regard-\ning industrial energy efficiency by providing tools, in\nthe form of the 24 industry-specific case studies that are\ndescribed in this paper",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "United States",
+        "evidence_quote": "The case studies are based on non-public, plant-level\ndata from the US Census Bureau",
+        "page": 10,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "statistical analysis of confidential data from a variety\nof sources and then making it available in an accessible\nmanner",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A meta-analysis / overview of the ENERGY STAR Energy Performance Indicator (ES-EPI) approach: plant-level statistical energy-performance benchmarks estimated for 24 US manufacturing sectors and subsectors, controlling for product mix, process inputs, size/capacity and climate.",
+        "evidence_quote": "This paper is a meta-analysis of the approach that\nhas been used in this research and the general findings\nregarding the estimated distribution of performance\nwithin and across industries.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Case studies have been conducted for 14 broad indus-\ntries, 2 dozen sectors, and many more detailed product\ntypes.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "Log normal OLS (log-linear regression), Eq. (4)/(5)",
+          "baseline_period_start": {
+            "value": "2002",
+            "evidence_quote": "The earliest year of data for a study is 2002.",
+            "page": 13,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2012",
+            "evidence_quote": "That of the year 2007 is the most re-\ncently available data from Economic Census.",
+            "page": 13,
+            "support_class": "requires inference"
+          },
+          "baseline_construction_method": {
+            "value": "Reduced-form log-linear regression of plant total source energy on production activities and plant characteristics; relative energy efficiency is measured as the regression residual.",
+            "evidence_quote": "The underlying approach of these case studies is a\nregression model of the general form",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "returns to scale elasticities (short run and long run)",
+            "75th-to-50th percentile performance range"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "where E is the measure of total source energy (total Btu\nof fuels and electricity use converted to Btu based on\naverage US thermal plant efficiency including line\nlosses)",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "these case studies use total source energy,\ndefined as the net Btu total of the fuels (Btu) and\nelectricity (Kwh)",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "An alternative approach is the log-log functional\nform, where E and Y are in natural logarithms.",
+              "page": 11,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "total source energy (Btu)",
+              "evidence_quote": "For the numerator, these case studies use total source energy",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "there are only two case studies that\nuse the linear approach; all others use log linear.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "the\nestimates are equivalent to ordinary least squares\n(OLS) regression.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "significance test",
+              "evidence_quote": "Statistical test for significance were used to\ninclude or exclude the specific variables in the case\nstudy models.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "product mix (level and mix of products produced)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "the energy use of the plant will depend on\nthe level and mix of products produced.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "production or a vector of production-related activities (Y)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Y is either production or a vector of\nproduction-related activities",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "process inputs (materials, labor, or production hours as proxy for activity)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "inputs such as mate-\nrials, labor, or production hours may be good proxy\nmeasures of overall production activity",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "size / capacity and utilization",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "In order to include size (and\nutilization) as a normalizing factor a meaningful mea-\nsure of size or capacity is needed.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "heating and cooling degree days (HDD and CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "to include heating and\ncooling degree days (HDD and CDD) into the analysis\nto determine how much of these location-driven differ-\nences in Bweather^ impact energy use.",
+              "page": 7,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "Data from the\nManufacturing Energy Consumption Survey (MECS)\nand the Census of Manufacturing (CM) form is the\nstarting point of all the case studies",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "invoice or utility bill",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "the energy\ncontent of the fuels is imputed using cost data and state-\nlevel energy prices.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            {
+              "energy_vector": "total energy",
+              "data_origin": "site meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "For industries with suf-\nficiently large MECS samples, the more detailed energy\ninformation is used directly.",
+              "page": 13,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "three previously completed case studies, auto\nassembly, cement, and corn refining (see (Boyd 2005a,\nb, Boyd 2006, Boyd 2008) for detailed descriptions of\nthe earlier models), began to be updated.",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "Comparing the\nold benchmark with the new benchmark reveals infor-\nmation about how these three, very different industries\nhave changed over time.",
+              "page": 15,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "availability of a new benchmark / reference year of data",
+              "evidence_quote": "As is seen above, the analysis is typically done for a\nparticular year.",
+              "page": 15,
+              "support_class": "requires inference"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "represents a 13 % change in total\nsource energy",
+                "page": 17,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "overall energy efficiency improvement (cement)",
+                  "value": "13 %",
+                  "unit": "% change in total source energy",
+                  "period_or_context": "US cement industry, 2008 vs 1997 benchmark update, 96 plants",
+                  "evidence_quote": "Our estimate\nof the overall energy efficiency improvement in the 96\nplants in our database represents a 13 % change in total\nsource energy",
+                  "page": 17,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "cumulative energy saved by ENERGY STAR certified plants",
+                  "value": "544 trillion Btus",
+                  "unit": "Btu",
+                  "period_or_context": "program-wide, 2015 EPA estimate",
+                  "evidence_quote": "plants earning the ENERGY STAR have saved an esti-\nmated 544 trillion Btus",
+                  "page": 20,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text"
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "stochastic frontier (SF) regression, Eq. (6)",
+          "baseline_construction_method": {
+            "value": "Log-linear stochastic frontier regression with a composed error term (u−v), estimated by maximum likelihood, used for sectors whose efficiency distribution is skewed.",
+            "evidence_quote": "The SF approach\nassumes that the error term is composed of two parts",
+            "page": 12,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "It is then possible to estimate the parameters of Eq. (2),\nalong with the distribution parameters of u and v using\nmaximum likelihood methods.",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "these case studies use total source energy,\ndefined as the net Btu total of the fuels (Btu) and\nelectricity (Kwh)",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "An alternative approach is the log-log functional\nform, where E and Y are in natural logarithms.",
+              "page": 11,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "stochastic frontier"
+              ],
+              "evidence_quote": "All the case studies consider the possibility that efficiency is\nskewed and test whether a stochastic frontier (SF) ener-\ngy model is appropriate",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "MLE",
+              "evidence_quote": "It is then possible to estimate the parameters of Eq. (2),\nalong with the distribution parameters of u and v using\nmaximum likelihood methods.",
+              "page": 12,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "significance test",
+              "evidence_quote": "Statistical test for significance were used to\ninclude or exclude the specific variables in the case\nstudy models.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "product mix",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "the energy use of the plant will depend on\nthe level and mix of products produced.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "production activities (Y)",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Y is either production or a vector of\nproduction-related activities",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "size / capacity",
+              "type": "capacity utilisation",
+              "role": "predictor",
+              "evidence_quote": "In order to include size (and\nutilization) as a normalizing factor a meaningful mea-\nsure of size or capacity is needed.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "Data from the\nManufacturing Energy Consumption Survey (MECS)\nand the Census of Manufacturing (CM) form is the\nstarting point of all the case studies",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "invoice or utility bill",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "the energy\ncontent of the fuels is imputed using cost data and state-\nlevel energy prices.",
+              "page": 13,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "event-triggered, trigger stated",
+              "evidence_quote": "three previously completed case studies, auto\nassembly, cement, and corn refining (see (Boyd 2005a,\nb, Boyd 2006, Boyd 2008) for detailed descriptions of\nthe earlier models), began to be updated.",
+              "page": 15,
+              "support_class": "requires inference"
+            },
+            "update_status": {
+              "value": "executed",
+              "evidence_quote": "Comparing the\nold benchmark with the new benchmark reveals infor-\nmation about how these three, very different industries\nhave changed over time.",
+              "page": 15,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "this represents\nabout a 4.3 % reduction in overall energy use by this\nindustry.",
+                "page": 17,
+                "support_class": "direct statement",
+                "page_as_recorded": 18,
+                "locator_corrected": true
+              },
+              "metrics": [
+                {
+                  "metric": "overall energy use reduction (corn refining)",
+                  "value": "4.3 %",
+                  "unit": "% reduction in overall energy use",
+                  "period_or_context": "US wet corn refining, 2009 vs 1997 benchmark update",
+                  "evidence_quote": "this represents\nabout a 4.3 % reduction in overall energy use by this\nindustry.",
+                  "page": 17,
+                  "support_class": "direct statement",
+                  "page_as_recorded": 18,
+                  "locator_corrected": true
+                },
+                {
+                  "metric": "CO2 reduction (auto assembly)",
+                  "value": "11.6 % or 1462 million lbs of CO2",
+                  "unit": "% / million lbs CO2",
+                  "period_or_context": "US auto assembly, 2005 vs 2000 benchmark update",
+                  "evidence_quote": "a\nreduction of 11.6 % or 1462 million lbs of CO2, attrib-\nutable to changes in observed industry energy efficiency\npractices.",
+                  "page": 17,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text"
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "linear (intensity form) regression, Eq. (3) E/y = f(X,β)+ε",
+          "baseline_construction_method": {
+            "value": "Regression in intensity form (energy per unit production regressed on plant characteristics), imposing homogeneity of degree one in a single production variable; used in two case studies.",
+            "evidence_quote": "or rearranging to an intensity form\nE=y ¼ f X; β\nð\nÞ þ ∈\nð3Þ",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "or rearranging to an intensity form\nE=y ¼ f X; β\nð\nÞ þ ∈\nð3Þ",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "these case studies use total source energy",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "For physical production\nto be meaningful, it needs to be at a high level of\nindustry specificity.",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": "single physical production variable y (industry-specific units, e.g., tons, gallons, pounds)"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "When the function f(.) is linear in X, then this represents the\nlinear functional form.",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "OLS",
+              "evidence_quote": "the\nestimates are equivalent to ordinary least squares\n(OLS) regression.",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "variable_selection": {
+              "value": "significance test",
+              "evidence_quote": "Statistical test for significance were used to\ninclude or exclude the specific variables in the case\nstudy models.",
+              "page": 13,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "plant characteristics X (additively independent activities)",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "This approach may be appropri-\nate if the activities represented by X are additively\nindependent",
+              "page": 11,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "single production variable y",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "one imposing the\nrelationship be homogeneous of degree one in a single\nproduction variable, y.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Since the ap-\nproach used here is annual, seasonal variation does not\nenter into the analysis",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "survey",
+              "evidence_quote": "Data from the\nManufacturing Energy Consumption Survey (MECS)\nand the Census of Manufacturing (CM) form is the\nstarting point of all the case studies",
+              "page": 10,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "invoice or utility bill",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "the energy\ncontent of the fuels is imputed using cost data and state-\nlevel energy prices.",
+              "page": 13,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text"
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "Case studies have been conducted for 14 broad indus-\ntries, 2 dozen sectors, and many more detailed product\ntypes.",
+        "page": 1,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "These are admittedly strong assumptions.",
+      "page": 11,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "For cement\nplants, the hardness and moisture content of the\nlimestone is hypothesized to influence energy use,\nbut no consistent data is available for this, leaving\nit the subject of future analysis if data can be\ncollected.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "feedstock quality or composition change",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "when the HVAC\ncomponent of energy use is small relative to total\nplant consumption, the statistical approach may not\nbe able to measure the effect accurately enough to\nmeet tests for reliability.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "the study for pulp mills measures the efficien-\ncy of net purchased energy and pulp mills provide a\nlarge amount of internally generated power from black\nliquor and CHP.",
+      "page": 15,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "cross-site comparability",
+      "cause_other_verbatim": "large internally generated power from black liquor and CHP, so only net purchased energy is measured"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "recognizing that the variance of\nsimple energy intensity would overstate the range of\nefficiency.",
+      "page": 19,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "some data is dropped due to missing\nvariables from incomplete reporting or other data quality\nscreens such as for extreme outliers.",
+      "page": 13,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "there are many\nchallenges with creating efficiency measures based on\nprice indexes, cost, and other value measurements.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K8",
+      "refers_to": "M1",
+      "claim_status": "general",
+      "evidence_quote": "the energy use of the plant will depend on\nthe level and mix of products produced.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "multi-product allocation"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "segmented baseline",
+      "status": "implemented",
+      "addresses_mechanism": "K8",
+      "normative_framing": "absent",
+      "evidence_quote": "One approach to controlling for product mix is to\nsegment the industry into cohorts based on product\ncategories.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K5",
+      "normative_framing": "implicit",
+      "evidence_quote": "these\nstudies use a multivariate approach to normalization\nwhere multiple effects are simultaneously considered",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "stochastic frontier model to represent skewed efficiency distribution",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "All the case studies consider the possibility that efficiency is\nskewed and test whether a stochastic frontier (SF) ener-\ngy model is appropriate",
+      "page": 12,
+      "support_class": "direct statement",
+      "refers_to": "M2"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "weighted estimation",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Two of the log normal models exhibit\nheteroscedastic distributions with variance declining\nwith respect to production volumes.",
+      "page": 13,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "periodic re-benchmarking / update of the baseline (benchmark) year",
+      "status": "implemented",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "The process of benchmarking and rebenchmarking a\nsector provides further insights into the improvement\npotential of the industry over time.",
+      "page": 21,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": true,
+      "evidence_quote": "Five\nstudies include measure of plant size (and indirectly\nutilization), but the small number is due primarily to\ndata limitations, i.e., available plant level capacity infor-\nmation.",
+      "page": 13,
+      "non_contiguous_evidence": false
+    },
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "As of this draft, the 2012 EC was not yet available in the RDC\nnetwork",
+      "page": 13
+    },
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The case study\ndoes not have the details\nneeded to identify the exact sources of this shift",
+      "page": 17
+    },
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "The case\nstudy update was not able to point to specific techno-\nlogical or operational changes that resulted in this shift",
+      "page": 18
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "inadequate or unrepresentative data available for benchmarking",
+      "evidence_quote": "One of the greatest barriers to any benchmarking\nexercise is inadequate or unrepresentative data.",
+      "page": 20
+    },
+    {
+      "barrier": "industry skepticism that a whole-plant benchmark could be developed",
+      "evidence_quote": "Initially, there was industry skepticism that a whole-\nplant benchmark could be developed using statistical\ncase studies.",
+      "page": 20
+    },
+    {
+      "barrier": "industry concerns over confidentiality of potentially sensitive plant data",
+      "evidence_quote": "ameliorating industry concerns regarding\npotentially sensitive information.",
+      "page": 10
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "The underlying approach of these case studies is a\nregression model of the general form\nE ¼ f Y; X; β\nð\nÞ þ ∈\nð1Þ",
+      "page": 11,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "The elasticity is comput-\ned as the sum of the coefficient estimates of the log\nactivity variables",
+      "page": 15,
+      "support_class": "requires inference"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": "The plant-level versions of the data are con-\nfidential and protected by Title 13 and 26 of the US\nCode.",
+      "page": 10,
+      "support_class": "absence checked",
+      "absence_basis": "explicitly stated absent"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    }
+  },
+  "reviewer_notes": "This is a meta-analysis of the ENERGY STAR ES-EPI program covering 24 industry case studies. It has been extracted as a single multi-site application (multiple registered sectors: cement, pulp & paper, iron & steel, glass, plus non-registered sectors such as dairy, food, auto assembly, pharmaceuticals, printing) with three models representing the distinct functional forms/estimation approaches the paper describes (M1 log-linear OLS, M2 stochastic frontier, M3 linear intensity form). Tables 1, 2 and 4 give per-sector instantiations: the C3 normalization variables actually included, model type, benchmark year, plant counts (14 to 775), returns-to-scale elasticities, and the 75th-to-50th percentile ranges (from -4.5 % to -43.7 %), which differ by sector and are not reproduced model-by-model here. Energy-result metrics attach only to the three sectors that received documented benchmark updates (cement -> M1; corn refining and auto assembly -> M2). No refinery or petrochemical case is present; 'corn refining' is agricultural wet milling, not petroleum refining.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text"
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text"
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text"
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text"
+    }
+  },
+  "attempt": 48
+}

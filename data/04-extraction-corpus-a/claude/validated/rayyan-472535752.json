@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535752",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T14:55:03.397962+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This article presents a six-sigma based energy management planning procedure, focusing on five major steps: define, measure, analyze, improve, and control.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ineligibility_reason": "Presents a six-sigma (DMAIC) energy management planning framework/procedure (energy team, energy audits, generic saving-opportunity identification, DOE-tool savings estimation, payback calculation, monitoring). No EnPI/EnB measurement model is identified or characterised: no normalisation variables, no functional form, no construction/estimation approach for an energy performance indicator or baseline.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This article focuses on the use of the six-sigma approach in energy management planning.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Context 'oil equipment and service industries' = discrete Louisiana IAC manufacturers, not refining; level_3b false regardless. paper_type: framework vs methodological/theoretical is a borderline call."
+  },
+  "stage2": null,
+  "stage3": null
+}

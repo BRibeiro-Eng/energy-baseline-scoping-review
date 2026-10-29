@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535506",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T16:04:02Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "It also introduces machine learning applications for energy consumption based on databases using some prediction models",
+        "It proposes an architecture of smart energy consumption system from field metering, communication, SCADA monitoring, storing in database, to predicting and forecasting"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Proposes a smart energy management system architecture (smart meters, SCADA, database, ML) and gives a comparative review of energy-consumption prediction/forecasting models for the mining industry. ISO 50001 and energy KPIs are invoked only at the management-system level; no EnPI/EnB performance-measurement model is identified or characterised (no normalisation variables, functional form, or construction/estimation approach). EnPI/EnB content is incidental, and the paper is a framework/architecture proposal without measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "It proposes an architecture of smart energy consumption system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline: reviews ~30 consumption-prediction studies by algorithm only; proposed regression/NN is an architecture component, not a characterised EnPI/EnB model. Mining is out of Corpus-B scope."
+  },
+  "stage2": null,
+  "stage3": null
+}

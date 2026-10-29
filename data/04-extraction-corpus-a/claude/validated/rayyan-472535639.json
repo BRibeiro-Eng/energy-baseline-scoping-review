@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535639",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:15:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "an energy monitoring solution is developed which gathers the electricity data of all sectors at one station",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Tool/software design paper: it designs and develops an energy monitoring solution (B&R hardware plus Automation Studio software) that logs, displays and trends 17 raw electrical parameters (voltages, currents, active/reactive/apparent power, power factor, power consumption) and writes CSV reports. No EnPI/EnB measurement model is presented or characterised: no normalisation against relevant variables, no baseline construction, no functional form. ISO-50001 is cited only as motivating context.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This paper provides a energy monitoring solution for the energy consumptions and all the energy related parameters",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Monitors/logs raw electrical parameters and builds online/historical trends and CSV reports; no EnPI or EnB model is constructed. ISO-50001 referenced as context only (PDCA/baseline mentioned generically, not built). Application is building offices and generic industry, not a listed continuous-process sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

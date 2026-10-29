@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535506",
+  "listed_sector_signals": [
+    {
+      "signal": "Cited reference to an ISO 50001 reporting system applied on a cement plant (cement = listed continuous sector), appearing only in the bibliography, not the paper's own application",
+      "quote": "Pelser WA, Vosloo JC, Mathews MJ, Results and prospects of applying \nan ISO 50001 based reporting system on a cement plant, Journal of \nCleaner Production (2018), doi: 10.1016/j.jclepro.2018.07.071.",
+      "page": 4,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Generic mention of the 'chemical industry' as a context where the same induction-motor loads are used; not specified as continuous or batch and not the paper's demonstrated context",
+      "quote": "these data is computed and gathered by a smart meter",
+      "page": 3,
+      "sector": "continuous chemical production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Reference to Siemens energy-management components dedicated to 'general process production' / process industry; cited as background, not applied here",
+      "quote": "scheme developed by Siemens and dedicated for general \nprocess pro-duction [43] without introducing machine \nlearning and optimization algorithm",
+      "page": 3,
+      "sector": "process industry (unspecified)"
+    },
+    {
+      "signal": "Bibliographic mention of Siemens process-industry energy optimization",
+      "quote": "Energy \nManagement and Energy Optimization in the \nProcess Industry Sie-mens",
+      "page": 5,
+      "sector": "process industry (unspecified)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A conceptual/review paper proposing a smart energy management, metering and machine-learning prediction architecture for the mining industry (draglines, excavators, stackers, reclaimers, crushers, vibrating screens), with only passing references to cement, chemical and 'process' industries."
+}

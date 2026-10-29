@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536726",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:16:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "The US hardwood products industry was surveyed in 2010 to learn about the impact of rising energy prices on the industry’s business and to learn about actions taken to reduce energy consumption and improve energy efficiency.",
+        "few companies reported establishing a usage baseline (9.0% overall) or developing performance indicators (5.1%)."
+      ],
+      "page": [
+        12,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": "Survey of energy-management practices; EnPI/EnB concepts are incidental and no measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "In the Fall of 2010, a survey was conducted among US hardwood industries in the 35 Eastern states of the US.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "Cross-sectional industry survey; baselines and performance indicators are reported only as adoption practices, without model detail."
+  },
+  "stage2": null,
+  "stage3": null
+}

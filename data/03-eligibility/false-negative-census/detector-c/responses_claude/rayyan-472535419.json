@@ -1,0 +1,46 @@
+{
+  "key": "rayyan-472535419",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference title mentioning energy efficiency in the pulp and paper industry (bibliography only, not the paper's application context)",
+      "quote": "Analysis of energy efﬁciency and carbon dioxide reduction in the Chinese pulp and\npaper industry.",
+      "page": 19,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference title on energy efficiency indicators in a paper mill (bibliography only)",
+      "quote": "Benchmarking Analysis of Energy Efﬁciency Indicators in Paper Mill.",
+      "page": 19,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Reference citing an oil and gas processing center case study (bibliography only)",
+      "quote": "Energy efﬁciency\nto increase production and quality of products in industrial processes: Case study oil and gas processing center.",
+      "page": 19,
+      "sector": "petroleum refining / oil & gas processing"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Paper characterizes mining production processes and equipment operation as continuous (context is mobile mining equipment, not continuous-flow processing)",
+      "quote": "Due to the continuity of the production processes themselves and, consequently, the\ncontinuous operation of the equipment, for the initial assessment of the compliance of the\nactual indicators with the calculated ones",
+      "page": 5,
+      "sector": "mining (continuous equipment operation)"
+    },
+    {
+      "signal": "Reference to energy consumption prediction at a mineral concentration factory (bibliography only)",
+      "quote": "Short-term prediction of energy consumption at\nconcentration factory.",
+      "page": 19,
+      "sector": "mineral processing / concentration plant"
+    },
+    {
+      "signal": "Reference on heat and power generation from small-scale liquefied natural gas (bibliography only)",
+      "quote": "Economic assessment of heat and power generation from small-scale liqueﬁed\nnatural gas in Russia.",
+      "page": 20,
+      "sector": "LNG"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and analyzes (on data from 11 Russian mining enterprises) an automated, ISO 50001 / Industry 4.0 energy-efficiency management system for mining operations (excavators, dump trucks, locomotives), with any continuous-flow/Corpus-B sectors appearing only in the reference list."
+}

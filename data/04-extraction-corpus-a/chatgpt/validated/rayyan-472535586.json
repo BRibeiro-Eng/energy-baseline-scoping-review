@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535586",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:10:45Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "For every subset of consumption numbers of finished production steps, the total energy consumption is determined. In case of the ENIT data items, one just needs to subtract the accumulated energy consumption value of the first measurement from the value of the last measurement.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "On the basis of the above described technical considerations and the use of the abas ERP system as starting point, at Pforzheim University with support from the abas Software company, we developed a prototype of an ERP system with integrated energy management functionalities.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the blank of a metal bottle opener with a plastic grip can be manufactured on a milling machine, a laser cutting machine, and a stamping machine.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Tool/software design, eligible because the prototype embeds an explicit meter-to-order calculation; the application is discrete manufacturing."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The prototype serves as a central component of a comprehensive demonstrator environment, which was built to illustrate the use cases UC2 and UC5.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "The prototype serves as a central component of a comprehensive demonstrator environment",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "manufacturing companies",
+      "evidence_quote": "we also asked experts of different departments of manufacturing companies about their perspective on ERP-based energy management.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "the blank of a metal bottle opener with a plastic grip can be manufactured on a milling machine, a laser cutting machine, and a stamping machine.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The requirements to adopt, implement, maintain, and improve corporate energy management systems are specified in the international Norm DIN EN ISO 50001:2011",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The multi-level grouping step is followed by a multi-level calculation step that yields the consumption numbers and CO2 equivalents for production steps and production orders.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

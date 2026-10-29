@@ -1,0 +1,95 @@
+{
+  "attempt": 1,
+  "errors": [],
+  "grounding": {
+    "checked": 8,
+    "results": [
+      {
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": [
+          4,
+          4
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 4,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 4,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 6,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.multi_site",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.type_of_organisation",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.ems_standard",
+        "grounded": true,
+        "locator": 6,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535638",
+  "valid": true,
+  "warnings": []
+}

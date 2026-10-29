@@ -1,0 +1,246 @@
+{
+  "attempt": 1,
+  "errors": [
+    "stage3.scale_of_application: evidence is not grounded",
+    "stage3.normative_framing_of_adaptations: evidence is not grounded"
+  ],
+  "grounding": {
+    "checked": 20,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.multi_site",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.country_region",
+        "grounded": true,
+        "locator": 6,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.type_of_organisation",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.ems_standard",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": true,
+        "locator": [
+          4,
+          5
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 4,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 5,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "field": "stage3.normalisation_variables",
+        "grounded": true,
+        "locator": [
+          4,
+          5
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 4,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 5,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "failure_context": {
+          "normalized_quote": "ppc has decided to implement energy management systems across all operations in the group, using the iso 50001 energy management system as a guide.",
+          "quote": "PPC has decided to implement energy management systems across all operations in the group, using the ISO 50001 energy management system as a guide.",
+          "score": 70.74829931972789,
+          "snippet": "actors for eskom power and wbcsd emission factors for c02e emissions from diesel combustion operations in the group, using the iso 50001 energy management system as a guide. with the assistance of the",
+          "snippet_page": 4
+        },
+        "field": "stage3.scale_of_application",
+        "grounded": false,
+        "locator": null,
+        "page_unverified": false,
+        "score": 70.74829931972789
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.scope_description",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.identifies_model_limitations",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.specific_limitations",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.proposes_treatment_mechanism",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.proposes_adaptations",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.adaptation_types",
+        "grounded": true,
+        "locator": 4,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage3.normative_framing_of_adaptations",
+        "grounded": false,
+        "locator": [
+          null,
+          4
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 70.74829931972789,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "failure_context": {
+              "normalized_quote": "ppc has decided to implement energy management systems across all operations in the group, using the iso 50001 energy management system as a guide.",
+              "quote": "PPC has decided to implement energy management systems across all operations in the group, using the ISO 50001 energy management system as a guide.",
+              "score": 70.74829931972789,
+              "snippet": "actors for eskom power and wbcsd emission factors for c02e emissions from diesel combustion operations in the group, using the iso 50001 energy management system as a guide. with the assistance of the",
+              "snippet_page": 4
+            },
+            "grounded": false,
+            "locator": null,
+            "page_unverified": false,
+            "score": 70.74829931972789
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 4,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.empirical_refinery_application",
+        "grounded": true,
+        "locator": 1,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.implementation_barriers",
+        "grounded": true,
+        "locator": 5,
+        "page_unverified": false,
+        "score": 100.0
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535797",
+  "valid": false,
+  "warnings": []
+}

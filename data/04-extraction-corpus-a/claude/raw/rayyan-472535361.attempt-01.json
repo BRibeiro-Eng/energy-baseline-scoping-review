@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535361",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "to establish a robust energy baseline, a comprehensive statistical regression",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A Case Study of the Saudi Standards, Metrology and",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "these are exclusively government buildings",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "MDPI tags this 'Review' but it is a single-organisation (SASO) multi-site case study. Eligible: EnB baseline via linear regression of electricity on CDD (R2=0.929), plus EUI/per-capita KPIs and TRNSYS simulation. Level 3B false: government office buildings."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "across three SASO sites",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Riyadh, Jeddah, and Dammam, Saudi Arabia",
+      "evidence_quote": "Riyadh, Jeddah, and Dammam",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "government buildings",
+      "evidence_quote": "these are exclusively government buildings",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "these are exclusively government buildings",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "an ISO 50001-compliant energy",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": "ISO 50001 certification is optional",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "simple intensity ratio", "physical model"],
+      "evidence_quote": ["y = 1306.6x + 470,226", "energy use index (EUI) (kWh/m2/y)", "Developed an energy simulation model using TRNSYS 18 software, comparing"],
+      "page": [9, 16, 11],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

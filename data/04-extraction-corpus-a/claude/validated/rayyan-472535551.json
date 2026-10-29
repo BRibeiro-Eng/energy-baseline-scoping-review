@@ -1,0 +1,43 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535551",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:41:29Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "Critical Success Factors from the application of ISO 50001 at PT. AIC will be evaluated",
+        "importance weights (AHP Method) and performance values (Performance Rating) for each subfactor"
+      ],
+      "page": [
+        2,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper evaluates critical success factors for ISO 50001 implementation using AHP, Importance-Performance Analysis, and the Delphi method; EnPI appears only incidentally as one critical-success sub-factor, with no EnPI/EnB measurement model identified or characterised (no variables, functional form, or estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Case study: PT. APAC INTI CORPORA, Bawen, Semarang Indonesia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "CSF/MCDM assessment (AHP, IPA, Delphi) at one textile plant; coded single applied case though framework-like. Textile = discrete manufacturing, not continuous process."
+  },
+  "stage2": null,
+  "stage3": null
+}

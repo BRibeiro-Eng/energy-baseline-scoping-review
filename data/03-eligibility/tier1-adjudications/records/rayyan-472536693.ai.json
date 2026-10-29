@@ -1,0 +1,78 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536693",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Finland",
+        "ems_standard": [
+          "ISO 50001",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "pulp and paper, basic metals and petrochemicals industries",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Monthly and annual specific energy consumption is calculated for electricity, fuels and primary heat at production-department level and reported at company, site and department levels; the indicators are not corrected for explanatory factors.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": true,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "information overload",
+          "information delivery",
+          "lack of personnel resources"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "t"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "organisation",
+        "scope_description": "Six multi-national companies representing the pulp and paper, basic metals and petrochemicals industries; indicators reported at company, site and department levels.",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536693",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

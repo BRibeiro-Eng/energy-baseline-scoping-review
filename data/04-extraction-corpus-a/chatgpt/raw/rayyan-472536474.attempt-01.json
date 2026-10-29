@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536474",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:22:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "A novel performance indicator, namely annual grid independence ratio (GIRann) is also developed and proposed for the first time to assess annual energy performance of the PBAS to the current knowledge of the authors.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Four different European cities were selected",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The studied PBAS was designed for the thermal management of a single room (single project room), located on the fourth floor of the Ege University Mechanical Engineering Department building (38.45 ◦N, 27.22 ◦E and 25 m height), as shown in Fig. 1.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "One experimental university-room installation underpins multiple simulated climate and operational cases; coded multi-case and multi_site=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The studied PBAS was designed for the thermal management of a single room (single project room), located on the fourth floor of the Ege University Mechanical Engineering Department building (38.45 ◦N, 27.22 ◦E and 25 m height), as shown in Fig. 1.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Berlin (Cfb), Seville (Csa), Porto (Csb), Stockholm (Dfb)",
+      "evidence_quote": [
+        "Berlin (Cfb)",
+        "Seville (Csa)",
+        "Porto (Csb)",
+        "Stockholm (Dfb)"
+      ],
+      "page": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "university building",
+      "evidence_quote": "The studied PBAS was designed for the thermal management of a single room (single project room), located on the fourth floor of the Ege University Mechanical Engineering Department building (38.45 ◦N, 27.22 ◦E and 25 m height), as shown in Fig. 1.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The studied PBAS was designed for the thermal management of a single room (single project room), located on the fourth floor of the Ege University Mechanical Engineering Department building (38.45 ◦N, 27.22 ◦E and 25 m height), as shown in Fig. 1.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "This model employed a four-parameter (single-diode) equivalent circuit approach (Chaibi, Allouhi, Malvoni, Salhi, & Saadani, 2019).",
+        "A novel performance indicator, namely annual grid independence ratio (GIRann) is also developed and proposed for the first time to assess annual energy performance of the PBAS to the current knowledge of the authors."
+      ],
+      "page": [
+        7,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

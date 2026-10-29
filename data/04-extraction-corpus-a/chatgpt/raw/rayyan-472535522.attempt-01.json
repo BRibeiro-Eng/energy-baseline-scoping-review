@@ -1,0 +1,293 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535522",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:23:05Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4). E = Eo + m × P",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "country_region": {
+      "value": "Colombian Caribbean",
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "paper manufacturing",
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4). E = Eo + m × P",
+        "Therefore, the energy performance indicator studied was the consumption index (IC) to show the energy consumption (E) variation as a function of production (P), as shown in Equation (5)"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "equipment or plant production"
+      ],
+      "evidence_quote": "where E is the energy consumption, P is the equipment or plant production, Eo is the energy demanded by the plant not associated with the production.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "January 2018",
+      "evidence_quote": "The initial phase is the collection of data on production and energy consumption data between January and October 2018.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "October 2018",
+      "evidence_quote": "The initial phase is the collection of data on production and energy consumption data between January and October 2018.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Production and energy-consumption observations from January-October 2018 were filtered to remove atypical production days. A minimum sample size was determined, then a linear baseline E = Eo + m × P was fitted.",
+      "evidence_quote": [
+        "These data were subjected to a filtration process, in which the days in which the plant was not in typical production were discarded.",
+        "For this, a minimum number of data was determined from the samples and was calculated using Equation (1).",
+        "Having the minimum number of data, the baseline model was calculated, as shown the Equation (4). E = Eo + m × P"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "the correlation coefficient of the proposed baseline: for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586; for coal (Figure 8b) with 0.6539, which is a consequence of the low variation of the coal rate supplied to the steam boiler; for the gas consumption (Figure 8c), which reached a coefficient of 0.8169.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Through energy characterization, indicators such as energy baseline and consumption indicators were calculated for the plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "scope_description": {
+      "value": "dry paper production plant",
+      "evidence_quote": "This paper presents the application of an energy characterization method based on the ISO 50001 standard in a dry paper production plant.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "In the baselines by energy, a very high adjustment was achieved in the model for gas and electricity. However, in the case of coal, this value was very low. This can be explained by the fact that there is no measurement of the steam that enters the machine.",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "However, in the case of coal, this value was very low. This can be explained by the fact that there is no measurement of the steam that enters the machine.",
+      "page": 18,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "The main contribution of this document is to present the integration of an energy management indicator based on ISO 50001 and an environmental impact assessment using an LCA for a dry paper production plant.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The main contribution of this document is to present the integration of an energy management indicator based on ISO 50001 and an environmental impact assessment using an LCA for a dry paper production plant.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "The main contribution of this document is to present the integration of an energy management indicator based on ISO 50001 and an environmental impact assessment using an LCA for a dry paper production plant.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "The LCA was applied to a paper manufacturing process for a plant in the Colombian Caribbean.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The relationship between energy consumption and monthly production is analyzed with historical data on the production and consumption of electrical energy present in the production plant. Using this information, a graph was made, showing the variation in consumption and production over time.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "0.7586",
+          "unit": null,
+          "period_or_context": "electricity-consumption baseline correlation coefficient",
+          "evidence_quote": "for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.6539",
+          "unit": null,
+          "period_or_context": "coal-consumption baseline correlation coefficient",
+          "evidence_quote": "for coal (Figure 8b) with 0.6539",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "0.8169",
+          "unit": null,
+          "period_or_context": "gas-consumption baseline correlation coefficient",
+          "evidence_quote": "for the gas consumption (Figure 8c), which reached a coefficient of 0.8169",
+          "page": 11,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "the correlation coefficient of the proposed baseline: for electricity consumption (Figure 8a) with a correlation coefficient of 0.7586; for coal (Figure 8b) with 0.6539, which is a consequence of the low variation of the coal rate supplied to the steam boiler; for the gas consumption (Figure 8c), which reached a coefficient of 0.8169.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "detailed engineering study, assembly, and commissioning",
+        "nationalization of the inputs to be used",
+        "maintenance activities to keep the equipment in optimal operation"
+      ],
+      "evidence_quote": "For the selection of the most suitable alternative, a detailed engineering study, assembly, and commissioning must be taken into account. Additionally, the nationalization of the inputs to be used and the maintenance activities to keep the equipment in optimal operation are of vital importance.",
+      "page": 16,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+ "key": "rayyan-472536063",
+ "tier": "A",
+ "ts": "2026-09-10T18:43:13",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "continuous process",
+  "pulp and paper",
+  "petrochemical",
+  "cement",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 13.2,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem metodologia"
+}

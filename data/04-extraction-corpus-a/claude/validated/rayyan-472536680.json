@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536680",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:28:18+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The main focus of the work in this paper is the automatic detection of duty cycles in adsorption chillers by using the X-Means algorithm",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Data-mining/clustering (X-Means) method for duty-cycle and system-state detection (fault detection & diagnosis) in HVAC adsorption chillers. 'Energy performance indicators' are mentioned only incidentally as motivation; no EnPI/EnB measurement or baseline model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "we use the data collected from the meters associated to the chiller",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: buildings/HVAC data-mining (X-Means) FDD demonstration on one adsorption chiller; EnPI mention incidental. paper_type arguably methodological/theoretical (method demo) but uses a real empirical dataset, so coded single applied case. level_3b=false (buildings, not a closed-list continuous-process sector)."
+  },
+  "stage2": null,
+  "stage3": null
+}

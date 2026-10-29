@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536726",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:41:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The objective of this research was to investigate the impact of rising energy prices on the US hardwood products industry and learn about the actions the industry is taking to face this challenge.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Industry-economics survey of US hardwood (solid-wood/lumber) manufacturers' responses to rising energy prices. Energy-use baselines and energy performance indicators appear only as binary survey adoption categories (e.g., % of respondents 'establishing energy use baseline' / 'establishing performance indicators'); no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). Mentions are incidental per v2.3 threshold.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "In the Fall of 2010, a survey was conducted among US hardwood industries",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Survey (188 respondents); paper_type=other. EnPI/EnB terms are survey items, not a characterised model. Hardwood = wood products, not on closed continuous-process list."
+  },
+  "stage2": null,
+  "stage3": null
+}

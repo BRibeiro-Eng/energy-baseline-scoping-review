@@ -1,0 +1,287 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535748",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T21:30:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a two-factor model which accounts for RFE use in relation to the volume of production and ambient",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "automated formulation and continual updating of dynamic norms that are calculated on the basis of",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "a furnace at the Siempelkamp steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "notes": "paper_type borderline (methodological/theoretical vs tool/software design). level_3b=true on metallurgical/steelmaking framing (Siempelkamp furnace); examples illustrative. Level-B interpretive."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "steelmaking plant in Germany",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "sector_of_activity": {
+      "value": "metallurgical plants",
+      "evidence_quote": "energy efficiency at metallurgical plants",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "energy efficiency at metallurgical plants",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "with the standard ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "physical model",
+        "ML"
+      ],
+      "evidence_quote": [
+        "norms solely on the basis of a one-factor statistical model",
+        "a two-factor model which accounts for RFE use in relation to the volume of production and ambient",
+        "various physical models of equipment",
+        "and neural-network models"
+      ],
+      "page": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "volume of production",
+        "ambient temperature",
+        "parameters of the raw material and its quality",
+        "process parameters (furnace temperature, diameter of pipes)",
+        "external factors (climatic factors, regime constraints, production plan, maintenance and repair plan)"
+      ],
+      "evidence_quote": [
+        "a two-factor model which accounts for RFE use in relation to the volume of production and ambient",
+        "parameters of the raw material and its quality (fractional composition, impurity content, etc.)",
+        "process parameters (furnace temperature, the diameter of pipes that are being made, etc.)",
+        "external factors (climatic factors, regime constraints, the production plan, and the maintenance and repair plan)"
+      ],
+      "page": [
+        4,
+        5,
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "Dynamic norms (baselines) are formulated and continually updated automatically from multi-factorial statistical models, physical models, and neural-network models built on influencing factors (e.g., production volume and ambient temperature); several models are built per energy-efficiency index and the one with the smallest error on the test sample is selected.",
+      "evidence_quote": "Several models can be built for each energy-efficiency index and the model with the smallest error for the test",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "control the energy efficiency of the factory as a whole",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "scope_description": {
+      "value": "Plant-wide energy-efficiency management at a metallurgical plant; dynamic norms illustrated for a pipe mill's unit electric-power consumption, a steelmaking-plant furnace, and a compressor station.",
+      "evidence_quote": "examining energy use on a pipe mill at a metallurgical plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "automated formulation and continual updating of dynamic norms",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "adaptation_types": {
+      "value": [
+        "dynamic time window",
+        "hybrid physical model"
+      ],
+      "evidence_quote": [
+        "continual updating of dynamic norms",
+        "physical models, and neural-network models"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.4
+    },
+    "normative_framing_of_adaptations": {
+      "value": "implicit",
+      "evidence_quote": "consistent with the requirements of the standard ISO 50001",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "a shortage of time and staff",
+        "the energy manager must manually analyze a raft of tables and graphs"
+      ],
+      "evidence_quote": [
+        "due to a shortage of time and staff",
+        "the energy manager still has to analyze a raft of tables and graphs"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    }
+  }
+}

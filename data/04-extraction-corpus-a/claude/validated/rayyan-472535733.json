@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535733",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T22:06:34.144964+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "EnPIs should take into account the actual production levels in the plant and other factors such as ambient temperature, humidity, product quality, feed quality",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.68
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This work provides a general picture of how OPCOs could interact with EPCs as part of their energy management objectives",
+      "page": 19,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.62
+    },
+    "notes": "Eligibility rests on a proposed intensity-ratio EnPI with named RVs; rest is a qualitative ISO 50001 EPC-OPCO guide. Petroleum topical but EnPI illustrative, not applied -> level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Middle-East",
+      "evidence_quote": "Many Operating Companies (OPCOs) in the Middle-East petroleum industry are adopting the ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "petroleum industry",
+      "evidence_quote": "Many Operating Companies (OPCOs) in the Middle-East petroleum industry are adopting the ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "For US refineries, it was stated that the energy consumption in the plants could be reduced by 10-20%",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 is a standard for Energy Management System",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "the EnPI for an NGL and condensate plant could be 'MWthermal consumed / MWthermal of products'",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "pinch analysis"
+      ],
+      "evidence_quote": "total site pinch analysis to further improve process integration in the design",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    }
+  },
+  "stage3": null
+}

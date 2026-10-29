@@ -1,0 +1,349 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535680",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T16:25:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This method establishes the energy baseline models which can meet the demand of the different kinds of production processes and gives the general solving method of each kind of model according to the production data",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "this method is used on cracked gas compressor unit of ethylene plant in some petrochemical enterprise",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "the cracked gas compression units of the ethylene plant in some petrochemical companies are regarded as the energy management object",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Method-development paper with one empirical single-site case (ethylene cracked-gas compressor unit); typed single applied case. Case-site country not stated in text (author affiliation not used)."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "this method is used on cracked gas compressor unit of ethylene plant in some petrochemical enterprise",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "petrochemical enterprise",
+      "evidence_quote": "some petrochemical enterprise",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the cracked gas compression units of the ethylene plant in some petrochemical companies",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "According to the requirements and structure of ISO 50001 energy management system",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "Each EnPI is expressed as linear form of impact factors",
+        "each nonlinear function of each impact factor is approximated by B-spline difference function"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "The compressor speed",
+        "K-13001 inlet pressure",
+        "K-13001 outlet temperature",
+        "K-13004 outlet pressure",
+        "K-13004 outlet flow",
+        "K-13005 outlet temperature",
+        "K-13005 outlet pressure",
+        "Turbine inlet pressure",
+        "Turbine inlet temperature",
+        "C-1365 tower top temperature",
+        "C-1365 tower top pressure",
+        "K-1300 three return one",
+        "K-1300 four return four",
+        "K-1300 five return five"
+      ],
+      "evidence_quote": [
+        "The compressor speed",
+        "K-13001 inlet pressure",
+        "K-13001 outlet temperature",
+        "K-13004 outlet pressure",
+        "K-13004 outlet flow",
+        "K-13005 outlet temperature",
+        "K-13005 outlet pressure",
+        "Turbine inlet pressure",
+        "Turbine inlet temperature",
+        "C-1365 tower top temperature",
+        "C-1365 tower top pressure",
+        "K-1300 three return one",
+        "K-1300 four return four",
+        "K-1300 five return five"
+      ],
+      "page": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline model was defined as a linear model relating the EnPI to 15 impact factors; the model parameters were solved by the linear (least-squares) solution method from the measured production data, and the fit was checked with the adjusted decision coefficient (R2 = 0.904).",
+      "evidence_quote": [
+        "the energy baseline model is defined as a linear model",
+        "The model parameters are solved according to the linear model solution method"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "the comparison result between the actual measured value and estimated values of EnPI after implementing APC",
+        "The adjusted decision coefficient is used as the evaluation criteria to check the obtained model"
+      ],
+      "page": [
+        9,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "cracked gas compressor unit of ethylene plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "scope_description": {
+      "value": "The cracked gas compression units of the ethylene plant in some petrochemical companies are regarded as the energy management object.",
+      "evidence_quote": "the cracked gas compression units of the ethylene plant in some petrochemical companies are regarded as the energy management object",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the energy baseline model is no longer suitable for estimating the current state of EnPI; the model needs to be rebuilt according to the current data",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "specific_limitations": {
+      "value": [
+        "non-stationarity"
+      ],
+      "evidence_quote": "the energy baseline model is no longer suitable for estimating the current state of EnPI; the model needs to be rebuilt according to the current data",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "the energy baseline needs to be readjusted based on the energy data after the Do phase",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "the application of this method in the cracked gas compression unit of certain petrochemical enterprise makes the object that energy performance is decreased by 5% come true",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": [
+        "Data (per minute)",
+        "The measured data is obtained in two hours after implementation of APC"
+      ],
+      "page": [
+        9,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "model_parameters_reported": {
+      "value": [
+        "0.5244",
+        "0.0003",
+        "0.0310",
+        "-0.0222",
+        "0.0045",
+        "-0.2359",
+        "0.0016",
+        "-0.0218",
+        "-0.0191",
+        "0.1481",
+        "-0.0001",
+        "0.0289",
+        "-0.7438",
+        "0.1478",
+        "-0.1323",
+        "0.0545"
+      ],
+      "evidence_quote": "0.5244 0.0003 0.0310 -0.0222 0.0045 -0.2359 0.0016 -0.0218 -0.0191 0.1481 -0.0001 0.0289 -0.7438 0.1478 -0.1323 0.0545",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "adjusted R²",
+          "value": "0.904",
+          "unit": null,
+          "period_or_context": "adjusted decision coefficient for the linear energy baseline model of the cracked gas compressor unit",
+          "evidence_quote": "0.904, which is close to 1",
+          "page": 8,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "8.86%",
+          "unit": null,
+          "period_or_context": "average EnPI reduced amplitude ratio after APC implementation (target 5%)",
+          "evidence_quote": "8.86%",
+          "page": 9,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  }
+}

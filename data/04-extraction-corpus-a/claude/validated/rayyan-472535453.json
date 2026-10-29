@@ -1,0 +1,104 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535453",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:33:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the amount of energy used to process 1 kilogram of grapes (EnPI-1 = kWh/kg), 2) the amount of energy to produce 1 liter of wine (EnPI-2 = kWh/lts)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "the entire PLAN stage of ISO 50001 was carried out, based on information from the 2017-2019 period from a wine-producing company located in",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "In the particular case of an oenological company (wine producer)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Eligible on the broad v2.3 threshold: three EnPIs (kWh/kg, kWh/lts, kWh/box) are defined and computed (Table 1), i.e. simple intensity ratios. level_3b=false: wine/oenological (batch agro-industrial) is not on the closed continuous-process list. paper_type single-case: EnPIs are one company's 2017-2019 data; a separate 16-company Likert survey covers transdisciplinary/circular-economy knowledge only."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the 2017-2019 period from a wine-producing company",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Guadalupe Valley, Mexico",
+      "evidence_quote": "located in the Guadalupe Valley, Mexico",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "viticulture and enology sector",
+      "evidence_quote": "viticulture and enology sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "fermentation tanks of different volumes are used: 8,000, 10,000, or 15,000 liters",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "energy management system based on ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": ["simple intensity ratio", "linear regression"],
+      "evidence_quote": [
+        "the amount of energy used to process 1 kilogram of grapes (EnPI-1 = kWh/kg)",
+        "linear regression and correlation techniques were used, among others"
+      ],
+      "page": [4, 6],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

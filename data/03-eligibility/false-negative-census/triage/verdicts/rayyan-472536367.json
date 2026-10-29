@@ -1,0 +1,15 @@
+{
+ "key": "rayyan-472536367",
+ "tier": "B",
+ "ts": "2026-09-10T12:22:23",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum",
+  "refining",
+  "steel"
+ ],
+ "verdict": "not_fn",
+ "reason": "«refining» é refinar pesos da rede; «petroleum» uma tabela do IEO; «steel» bibliografia — o caso é um edifício industrial"
+}

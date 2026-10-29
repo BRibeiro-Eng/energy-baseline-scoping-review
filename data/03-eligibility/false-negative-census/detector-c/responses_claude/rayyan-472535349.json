@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535349",
+  "listed_sector_signals": [
+    {
+      "signal": "Names oil and gas and chemical among energy-intensive industries where energy management is desirable (mention only, no application)",
+      "quote": "especially desirable in energy-intensive industries such as oil and gas, chemical, electrical engineering, and food \nproduction, and etc [17-23].",
+      "page": 3,
+      "sector": "petroleum refining / petrochemicals (continuous chemical production)"
+    },
+    {
+      "signal": "Lists chemical industry among manufacturing enterprises targeted for EnMS (mention only)",
+      "quote": "all manufacturing enterprises (food, electrical engineering, chemical industry, light and textile \nindustries)",
+      "page": 5,
+      "sector": "petrochemicals / continuous chemical production"
+    },
+    {
+      "signal": "Cited reference on management system implementation in calcium soda (soda ash) production, a continuous chemical process",
+      "quote": "Implementation of an integrated management system in calcium \nsoda production. E3S Web of Conferences, 434, 02029, (2023).",
+      "page": 8,
+      "sector": "continuous chemical production (soda ash)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Mentions hydroelectric power plants adopting ISO 50001 (power generation, not a discrete process but not in the eight sectors)",
+      "quote": "Chirchik Hydroelectric cascade unitary enterprises and a number of \nhydroelectric power plants from \"Uzbekgidroenergo\" joint-stock company have managed to introduce this system",
+      "page": 5,
+      "sector": "hydroelectric power generation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "A systematic literature review/policy analysis arguing for adopting ISO 50001 energy management systems across manufacturing enterprises in Uzbekistan, with only passing mentions of oil/gas, chemical, and soda-ash sectors and no empirical application to any continuous-flow process."
+}

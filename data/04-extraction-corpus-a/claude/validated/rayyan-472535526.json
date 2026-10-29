@@ -1,0 +1,108 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535526",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T17:04:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This study proposes a simplified model of energy performance indicators (EnPIs), effective for ISO 50001 energy management at organisational level.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A business building is selected as a case study in this research.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The case study involves a business building located near Bangkok, Thailand",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Case study is a commercial/business building in Bangkok, Thailand under ISO 50001; buildings are outside the closed continuous-process sector list, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study involves a business building located near Bangkok, Thailand, with a usable area of approximately 34,850 m2, open for 14 hours a day.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "country_region": {
+      "value": "Bangkok, Thailand",
+      "evidence_quote": "a business building located near Bangkok, Thailand",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "business building",
+      "evidence_quote": "considering the relevant factors or variables for a business building in Thailand",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The case study involves a business building located near Bangkok, Thailand",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": [
+        "ISO 50001 has been widely applied in organisations",
+        "ISO 50006 Energy management systems"
+      ],
+      "page": [2, 9],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "enpi_enb_model_types": {
+      "value": ["multiple regression", "linear regression", "simple intensity ratio"],
+      "evidence_quote": [
+        "This study uses the multiple linear regression model to create the energy baseline equation to evaluate the energy performance of buildings",
+        "applying the simple linear regression model",
+        "specific energy consumption (SEC) kWh/m2"
+      ],
+      "page": [4, 5, 8],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    }
+  },
+  "stage3": null
+}

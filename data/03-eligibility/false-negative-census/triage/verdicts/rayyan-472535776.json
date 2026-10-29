@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535776",
+ "tier": "B",
+ "ts": "2026-09-10T16:59:19",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "continuous process"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 31.8,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "generico iso 50001"
+}

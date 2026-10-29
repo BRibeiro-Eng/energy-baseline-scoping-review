@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472536360",
+ "tier": "B",
+ "ts": "2026-09-11T12:11:56",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "continuous process",
+  "steady-state"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 20.5,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "nao continuo"
+}

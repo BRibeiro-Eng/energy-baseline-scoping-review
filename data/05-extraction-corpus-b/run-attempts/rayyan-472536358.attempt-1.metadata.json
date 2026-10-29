@@ -1,0 +1,52 @@
+{
+  "key": "rayyan-472536358",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-13T12:31:18",
+  "finished_at": "2026-09-13T12:40:52",
+  "returncode": 0,
+  "input_sha256": "9f535c97a17d7c4526da0875fd36b6bb0a84d7af1c1490b1dbae06d66ca5f41a",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472536358.attempt-1.raw.json",
+  "attempt": 1,
+  "session_id": "bd8c2be5-7ca6-4a41-9e1f-068d04ac72ba",
+  "models_returned": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-8[1m]"
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 16619,
+    "cache_read_input_tokens": 20331,
+    "output_tokens": 51800,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 16619,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 51800,
+        "cache_read_input_tokens": 20331,
+        "cache_creation_input_tokens": 16619,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 16619
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "total_cost_usd": 1.4843335000000002,
+  "duration_ms": 573641,
+  "is_error": false,
+  "status": "error",
+  "error": "grounding applications[0].models[2].C3_variables[2]: quote not found on physical page 13: 'Finally, a detailed analysis of the distribution of share of ϐinal products (oxygen, nitrogen and argon) and its state (gas or liquid) is required to better und'"
+}

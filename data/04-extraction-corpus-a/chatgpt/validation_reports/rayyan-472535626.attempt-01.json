@@ -1,0 +1,28 @@
+{
+  "attempt": 1,
+  "errors": [],
+  "grounding": {
+    "checked": 2,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 12,
+        "page_unverified": false,
+        "score": 95.93908629441624
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 33,
+        "page_unverified": false,
+        "score": 96.3302752293578
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535626",
+  "valid": true,
+  "warnings": []
+}

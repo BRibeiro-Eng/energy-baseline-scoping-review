@@ -1,0 +1,849 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535480",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "kraft-pulp-enpi",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 10,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "kraft pulp mills",
+        "evidence_quote": "One major outcome of this paper\nis a unique model specifically tailored for kraft pulp mills.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Sweden",
+        "evidence_quote": "building on real-life experiences from a Swedish group of companies.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "Three kraft pulp mills constitute the stud-\nied cases. All mills belonged to the same group of companies.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Multiple case study of three kraft pulp mills in a Swedish group of companies, with EnPIs validated at one 'reference mill' and compared to a second mill (Mill 2).",
+        "evidence_quote": "The study was carried out as a multiple case study, as de-\nscribed by Yin (2014). Three kraft pulp mills constitute the stud-\nied cases.",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "One major outcome of this paper\nis a unique model specifically tailored for kraft pulp mills.",
+        "page": 1,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "SEC for both electricity and heat ... for the entire mill",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "years",
+              "months",
+              "start"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "reporting period"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "baseline of normal operation based on historical best practice, defined individually for each mill",
+            "evidence_quote": "establishing a baseline of normal operation based\non historical best practice, and effective communication within\nthe organization (Cosgrove et al., 2018).",
+            "page": 2,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "a commonly applied EnPI is specific energy use1 (SEC) ex-\npressed as e.g. kWh/ADt or GJ/ADt",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "The indicators are often divided\ninto electricity use and heat use.",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "a commonly applied EnPI is specific energy use1 (SEC) ex-\npressed as e.g. kWh/ADt or GJ/ADt",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "kWh/ADt or GJ/ADt",
+              "evidence_quote": "a commonly applied EnPI is specific energy use1 (SEC) ex-\npressed as e.g. kWh/ADt or GJ/ADt",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "a commonly applied EnPI is specific energy use1 (SEC) ex-\npressed as e.g. kWh/ADt or GJ/ADt",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool",
+                "Excel",
+                "MATLAB"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "the production of pulp",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Only the energy end-use for the production of pulp is\nconsidered for these indicators, i.e., other by-products such as tall\noil, methanol, district heat production, and electricity production\nare omitted.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "hourly",
+                "daily",
+                "frequency",
+                "data collection"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "annual",
+                "time step"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "years",
+                "period"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "historical",
+                "time series",
+                "audit"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Only the energy end-use for the production of pulp is\nconsidered for these indicators, i.e., other by-products such as tall\noil, methanol, district heat production, and electricity production\nare omitted.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "allocated by rule",
+              "evidence_quote": "Only the energy end-use for the production of pulp is\nconsidered for these indicators, i.e., other by-products such as tall\noil, methanol, district heat production, and electricity production\nare omitted.",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "adjust",
+                "interval"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "and\n(5) maintaining and adjusting EnPIs and energy baselines.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "trigger",
+                "event"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "EnPIs for systems and flow level mainly serve\nto identify deviations from what is defined as a mill's normal\nstate of operation, i.e. the range of accepted values for the EnPIs\nmonitored.",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "the range of accepted values for the EnPIs monitored (the mill's 'normal state of operation'), defined individually for each mill and connected to a certain grade of pulp produced",
+              "evidence_quote": "Since the normal state of a\nmill will be unique, as it depends on factors such as technology\nused, chemicals used, type of end-product, raw material, etc., ‘‘the\nnormal state’’ has to be defined individually for each mill.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "reduction",
+                  "%",
+                  "energy result"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "predictor",
+              "variable",
+              "influencing factor",
+              "denominator"
+            ]
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "the steam demand per amount of black liquor dry solids",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "years"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "baseline period",
+              "reporting period"
+            ]
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "In the above case, the steam demand per amount of black\nliquor dry solids is considered the descriptive indicator, and the",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "the steam demand per amount of black\nliquor dry solids is considered the descriptive indicator",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "the steam demand per amount of black\nliquor dry solids is considered the descriptive indicator",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "black liquor dry solids (kg DS)"
+            },
+            "unit_verbatim": {
+              "value": "kg steam/kg DS",
+              "evidence_quote": "kg steam/kg DS for six-stage evaporatora\n0.55",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "the steam demand per amount of black\nliquor dry solids is considered the descriptive indicator",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "dry content of the weak black liquor",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "As seen in Table 3, increasing the dry content of the weak black\nliquor from 15% to 25% for a six-stage evaporator reduces the\nsteam demand by 0.52 kg steam per kg dry solids.",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "dry content of weak black liquor (explanatory indicator)"
+            },
+            {
+              "verbatim": "numbers of evaporation stages",
+              "type": "equipment configuration",
+              "role": "predictor",
+              "evidence_quote": "investing in a new evaporation stage while not improving the\npulp washing and having a dry content of weak black liquor of\n15% only reduces the steam demand by 0.17 kg steam per kg dry\nsolids.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "frequency",
+                "hourly",
+                "daily"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time step",
+                "monthly"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "period"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points"
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "calculated",
+                "measured",
+                "theoretical"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "allocated by estimate",
+              "evidence_quote": "The calculated steam demand in an evaporator train assumes an\nefficiency of 85%.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "adjust"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "adjust"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "trigger"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "Normal operation refers to the most likely\npoint of operation. Best operation refers to an optimal state of operation that\nis considered long enough to be steady-state.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "bounds_verbatim": {
+              "value": "dry content of weak black liquor ranging from 15% (normal) to 25% (theoretical); normal vs. best point of operation",
+              "evidence_quote": "Dry content of weak black liquor\n25%\n15%",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "increasing the dry content of the weak black\nliquor from 15% to 25% for a six-stage evaporator reduces the\nsteam demand by 0.52 kg steam per kg dry solids.",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "steam demand reduction (raising weak black liquor dry content 15%->25%, six-stage evaporator)",
+                  "value": "0.52",
+                  "unit": "kg steam per kg dry solids",
+                  "period_or_context": "six-stage evaporator, dry content increase 15% to 25%",
+                  "evidence_quote": "increasing the dry content of the weak black\nliquor from 15% to 25% for a six-stage evaporator reduces the\nsteam demand by 0.52 kg steam per kg dry solids.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "steam demand reduction (adding a new evaporation stage, dry content 15%)",
+                  "value": "0.17",
+                  "unit": "kg steam per kg dry solids",
+                  "period_or_context": "new evaporation stage without improving pulp washing, dry content 15%",
+                  "evidence_quote": "investing in a new evaporation stage while not improving the\npulp washing and having a dry content of weak black liquor of\n15% only reduces the steam demand by 0.17 kg steam per kg dry\nsolids.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "explanatory indicator",
+              "variable",
+              "dry content"
+            ]
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "pulp & paper",
+        "evidence_quote": "no model for in-house\ndevelopment of EnPIs specifically for the pulp and paper industry\nexists in the literature to date",
+        "page": 2,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "As the perfor-\nmance of production processes varies with changing conditions,\nsuch as the feedstock quality, the influence of these conditions on\nthe developed EnPIs has to be accounted for in the analysis of the\nenergy performance",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "feedstock quality or composition change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Since the normal state of a\nmill will be unique, as it depends on factors such as technology\nused, chemicals used, type of end-product, raw material, etc., ‘‘the\nnormal state’’ has to be defined individually for each mill.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "This means that the mill defines multiple normal states of\noperation for every type of pulp quality produced, raw material\nused, etc.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "paper-level argument",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "it was found that the amount of residual\nalkali in the black liquor had increased from 5 g/L to 9 g/L. This\nresulted in the larger demand of lime in the lime kiln.",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "M2",
+      "claim_status": "applied to the case",
+      "evidence_quote": "the\nexplanatory indicator is not tied to the process of which\nthe descriptive indicators are analyzed.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "segmented baseline",
+      "status": "proposed",
+      "addresses_mechanism": "K3",
+      "normative_framing": "implicit",
+      "evidence_quote": "This means that the mill defines multiple normal states of\noperation for every type of pulp quality produced, raw material\nused, etc.",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": "K5",
+      "normative_framing": "implicit",
+      "evidence_quote": "At the reference mill a num-\nber of explanatory indicators that affect the descriptive indicators\nof the chemical recovery system (i.e., the EnPIs with purple back-\nground color in Fig. 2) have been defined (Fig. 4).",
+      "page": 5,
+      "support_class": "direct statement",
+      "refers_to": "M2"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Preferably, it should be on an hourly basis, as changes\nin production are sometimes short (i.e. daily energy data will\nsometimes not be sufficient).",
+      "page": 7,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "Even though\nSweden is the context of the case study in this paper, the findings\nshould be relevant to kraft mills across the EU as well as globally.",
+      "page": 8,
+      "searched_terms": [
+        "limitation",
+        "Sweden",
+        "generalize",
+        "context"
+      ]
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "ISO 50001 energy management risks competing with personnel's main assignments",
+      "evidence_quote": "but it risks\ncompeting with personnel’s main assignments (Păunescu and\nBlid, 2016).",
+      "page": 2
+    },
+    {
+      "barrier": "knowledge-related barriers eminent in the pulp and paper industry",
+      "evidence_quote": "knowledge-\nrelated barriers that have been shown to be eminent in the pulp\nand paper industry (Lawrence et al., 2019).",
+      "page": 7
+    },
+    {
+      "barrier": "training as an energy management practice underprioritized in pulp and paper mills",
+      "evidence_quote": "Training as an energy management practice has been previously\nseen to be underprioritized in pulp and paper mills (Stenqvist\net al., 2011).",
+      "page": 7
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "akg steam/kg evaporated: (1/6)/0.85 ≈0.2.",
+      "page": 6,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "github"
+      ]
+    }
+  },
+  "reviewer_notes": "This is primarily a methodological/framework paper proposing a model for developing EnPIs in kraft pulp mills; it does not fit statistical energy models. Studied cases are three kraft pulp mills of one Swedish company group, treated here as a single multi-site application (A1) with a 'reference mill' and 'Mill 2' as the empirical contexts. Two energy performance indicators were treated as models: mill-level SEC (M1, an intensity ratio) and the evaporation steam-demand-per-kg-dry-solids indicator (M2, with numeric results in Table 3). Numeric steam-demand reductions in Table 3 are stated by the authors to be calculated/theoretical (85% evaporator efficiency assumed). Future-work statements (e.g. 'Further research is suggested ... in the form of case studies') were not recorded as limitations per instrument rules.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "influencing factor",
+        "deviation",
+        "normal state",
+        "varies",
+        "unique",
+        "not tied"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "explanatory indicator",
+        "normal state",
+        "baseline",
+        "hourly",
+        "segment"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "context",
+        "Sweden",
+        "generalize",
+        "case study"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "competing",
+        "knowledge",
+        "data access"
+      ]
+    }
+  },
+  "attempt": 1
+}

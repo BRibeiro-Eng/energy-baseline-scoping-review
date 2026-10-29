@@ -1,0 +1,346 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536379",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T14:14:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "To analyze and predict the EE of compressors i.e. the energy consumed by the air compressors facility of the case study (3 steel mills) to deliver 1Nm3 for each t of produced steel will be considered as the predicted value to look for when 12 variables are the input",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This study has been carried out by involving three steel mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "the energy consumed by the air compressors facility of the case study (3 steel mills)",
+        "The real time value are trained by using the regression learner and results are shown"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "notes": "Empirical EnPI (compressor kWh/Nm3 and Wh/Nm3/ton) fitted via ML regression on pooled data from 3 steel mills; level_3b=true (real train/test results, Table I). paper_type borderline: self-described 'methodological' yet demonstrates one pooled application across 3 mills (multi-case vs methodological/theoretical). multi_site: 3 distinct participating mills (2 IT, 1 US), not a single organisation."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "involving three steel mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Italy, United States",
+      "evidence_quote": "are 2 in Italy and 1 in the US",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "steel industry",
+      "evidence_quote": "advancing the application of ML within the steel industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the succession of processes that converts the raw material into different products of steel like bars, coils, ingots etc",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "multiple linear regression (MLR) assumes a linear relationship between inputs",
+        "Random Forest combines multiple decision trees to improve accuracy and handle non-linear relationships"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Load utilization factor hours/year",
+        "Volume of the gas flow in Nm3/year",
+        "Idle working hours of compressors",
+        "Average electric power absorbed when idle in kW",
+        "Average electric power absorbed under load in kW",
+        "Relative pressure in MPa"
+      ],
+      "evidence_quote": "Input: Load utilization factor hours/year\nInput: Volume of the gas flow in Nm3/year\nInput: Idle working hours of compressors\nInput: Average electric power absorbed when idle in kW\nInput: Average electric power absorbed under load in kW\nInput: Relative pressure in MPa",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "The compressor EnPI (kWh/Nm3, and an alternative Wh/Nm3/ton) is predicted with a MATLAB regression learner over a one-year investigation period using data from 20 compressors; input and output data are split into training and test sets with iterative model selection, parameter tuning and cross-validation.",
+      "evidence_quote": "The process involves reading input and output data, splitting it into training and test sets, and then iterating through model selection, parameter tuning, cross-validation, and training",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "splitting it into training and test sets",
+        "The training result shows a relative root mean square error (rRMSE), R-Squared value, MSE, and MAE"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "One of the auxiliary services, considered here in detail for setting up EnPI, is air",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "scope_description": {
+      "value": "the energy consumed by the air compressors facility of the case study (3 steel mills) to deliver 1Nm3 for each t of produced steel",
+      "evidence_quote": "the energy consumed by the air compressors facility of the case study (3 steel mills) to deliver 1Nm3 for each t of produced steel",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "This first attempt can of course be improved, but a better granularity should be used",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "a better granularity should be used",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked for better predictive results",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked for better predictive results",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "A new alternative metric (Wh/Nm3/ton) is thus checked for better predictive results",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "we started with energy audits carried out in three steel mills",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "other-named",
+          "value": "34.93",
+          "unit": "rRMSE (dimensionless)",
+          "period_or_context": "EnPI1 kWh/Nm3 compressor regression model",
+          "evidence_quote": "rRMSE\n34.93\n27.5",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "27.5",
+          "unit": "rRMSE (dimensionless)",
+          "period_or_context": "EnPI2 Wh/Nm3/ton compressor regression model",
+          "evidence_quote": "rRMSE\n34.93\n27.5",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.55",
+          "unit": null,
+          "period_or_context": "EnPI1 kWh/Nm3",
+          "evidence_quote": "R-Squared\n0.55\n0.71",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.71",
+          "unit": null,
+          "period_or_context": "EnPI2 Wh/Nm3/ton",
+          "evidence_quote": "R-Squared\n0.55\n0.71",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "2376.0",
+          "unit": "MSE",
+          "period_or_context": "EnPI1 kWh/Nm3",
+          "evidence_quote": "MSE\n2376.0\n1.9515",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "1.9515",
+          "unit": "MSE",
+          "period_or_context": "EnPI2 Wh/Nm3/ton",
+          "evidence_quote": "MSE\n2376.0\n1.9515",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "MAE",
+          "value": "24.216",
+          "unit": null,
+          "period_or_context": "EnPI1 kWh/Nm3",
+          "evidence_quote": "MAE\n24.216\n0.70339",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "MAE",
+          "value": "0.70339",
+          "unit": null,
+          "period_or_context": "EnPI2 Wh/Nm3/ton",
+          "evidence_quote": "MAE\n24.216\n0.70339",
+          "page": 5,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Gaps in the type and importance of the data to be collected at each energy-intensive process, needing to be addressed to implement Industry 4.0"
+      ],
+      "evidence_quote": "the type and importance of the data to be collected at each energy intensive process, that need to be addressed for the implementation of Industry 4.0",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  }
+}

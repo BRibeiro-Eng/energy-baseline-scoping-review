@@ -1,0 +1,46 @@
+{
+  "key": "rayyan-472535630",
+  "listed_sector_signals": [
+    {
+      "signal": "General listing of industrial sub-sectors that includes refining as an energy-consuming manufacturing branch (no application, background statistics only)",
+      "quote": "the in-\ndustrial sector is primarily comprised of manufacturing (food, paper, chemicals, reﬁning, iron and steel, nonferrous metals, metallic minerals\nand others)",
+      "page": 1,
+      "sector": "petroleum refining"
+    },
+    {
+      "signal": "Same background list naming iron and steel among manufacturing sectors",
+      "quote": "the in-\ndustrial sector is primarily comprised of manufacturing (food, paper, chemicals, reﬁning, iron and steel, nonferrous metals, metallic minerals\nand others)",
+      "page": 1,
+      "sector": "steel / primary metals"
+    },
+    {
+      "signal": "Same background list naming paper among manufacturing sectors",
+      "quote": "the in-\ndustrial sector is primarily comprised of manufacturing (food, paper, chemicals, reﬁning, iron and steel, nonferrous metals, metallic minerals\nand others)",
+      "page": 1,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Background list naming chemicals among manufacturing sectors",
+      "quote": "the in-\ndustrial sector is primarily comprised of manufacturing (food, paper, chemicals, reﬁning, iron and steel, nonferrous metals, metallic minerals\nand others)",
+      "page": 1,
+      "sector": "petrochemicals / continuous chemical production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Reference cites methods for quantifying energy losses in chemical process industries (cited work, not applied here)",
+      "quote": "Methods of quantifying energy losses during energy assessment in\nchemical process industries.",
+      "page": 15,
+      "sector": "chemical process industries"
+    },
+    {
+      "signal": "Reference to an energy assessment of a distillation & bottling company (cited work, not applied here)",
+      "quote": "a case study of food processing industries and distilla-\ntion & bottling company",
+      "page": 15,
+      "sector": "distillation"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops an ISO 50001-oriented energy assessment/reporting methodology and demonstrates it at a general manufacturing facility whose significant energy user was a natural-gas Heat Treat department (discrete manufacturing), with continuous-flow sectors named only in background lists and references."
+}

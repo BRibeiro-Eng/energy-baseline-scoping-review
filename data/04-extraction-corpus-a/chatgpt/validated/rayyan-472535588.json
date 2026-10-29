@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535588",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T17:13:20+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy baseline is essentially a reference point for the overall energy consumption of the organisation, which can be taken from a representative calendar year or a typical 12-month period. The energy consumption reference year could, under certain circumstances, coincide with the base reference year for GHG emissions, per the terms of the ISO 14064 standard. Next, the energy power indicators are defined; these reflect overall as well as detailed energy efficiency, compared with the energy baseline, on a monthly basis.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This section makes an attempt to formulate a framework that integrates energy and environmental management systems, as applied to the facilities sector.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "According to this broad view, which we adopt in this study, facilities can fit into industrial, commercial or service settings.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Conceptual facilities-sector framework; no empirical case or explicit continuous-process application."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This section makes an attempt to formulate a framework that integrates energy and environmental management systems, as applied to the facilities sector.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "This section makes an attempt to formulate a framework that integrates energy and environmental management systems, as applied to the facilities sector.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "sector_of_activity": {
+      "value": "facilities sector",
+      "evidence_quote": "This section makes an attempt to formulate a framework that integrates energy and environmental management systems, as applied to the facilities sector.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "According to this broad view, which we adopt in this study, facilities can fit into industrial, commercial or service settings.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": "the ISO 50001 standard is used as a design basis for the framework, complemented by elements from ISO 14001 and ISO 14064",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The energy baseline is essentially a reference point for the overall energy consumption of the organisation, which can be taken from a representative calendar year or a typical 12-month period. The energy consumption reference year could, under certain circumstances, coincide with the base reference year for GHG emissions, per the terms of the ISO 14064 standard. Next, the energy power indicators are defined; these reflect overall as well as detailed energy efficiency, compared with the energy baseline, on a monthly basis.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

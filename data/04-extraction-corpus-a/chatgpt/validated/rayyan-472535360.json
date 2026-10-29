@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535360",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:05:39Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Furthermore, a qualitative hypothesis test is carried out on the individual technologies. The EEP of the 11 cross-sectional technologies is compared with every other technology on the basis of the evaluated frequencies. If the EEP of businesses with EnMS is lower than that of businesses with EMS, the hypothesis can be confirmed. The hypothesis is rejected if the potential is equal to or greater than 1.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.83
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "In total, data from 386 enterprises are used, which are categorized as SMEs (small enterprises) and non-SMEs (large enterprises)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This research evaluates EEP at the cross-cutting technology level, taking into account both big and small businesses from the manufacturing and nonmanufacturing sectors.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "EEP is an implementation-frequency indicator across generic manufacturing and nonmanufacturing enterprises; no closed-list continuous-process sector is identified."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "In total, data from 386 enterprises are used, which are categorized as SMEs (small enterprises) and non-SMEs (large enterprises)",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "This was the case for the companies surveyed (all based in Germany).",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing and nonmanufacturing sectors",
+      "evidence_quote": "This research evaluates EEP at the cross-cutting technology level, taking into account both big and small businesses from the manufacturing and nonmanufacturing sectors.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "This research evaluates EEP at the cross-cutting technology level, taking into account both big and small businesses from the manufacturing and nonmanufacturing sectors.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The analysis focuses on EnMS in accordance with ISO 50001 and EMS in accordance with ISO 14001.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The EEP of the 11 cross-sectional technologies is compared with every other technology on the basis of the evaluated frequencies. If the EEP of businesses with EnMS is lower than that of businesses with EMS, the hypothesis can be confirmed. The hypothesis is rejected if the potential is equal to or greater than 1.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

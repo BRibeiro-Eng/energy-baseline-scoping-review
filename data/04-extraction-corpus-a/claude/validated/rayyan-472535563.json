@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535563",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:17:58Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents the development of a conceptual map regarding energy management applied to industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "The paper develops a conceptual map/framework for the organisational structure and stakeholder relationships of an EnMS under ISO 50001. EnPI/EnB are referenced only incidentally within the generic energy-review description; no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach), so it fails the v2.3 eligibility threshold and matches the framework-without-EnPI/EnB-model-content exclusion.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "ISO 50001-based conceptual map for energy management in energy-intensive industries",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Names EII sectors (cement, iron and steel, pulp and paper, petrochemical, glass) only as generic examples; no EnPI/EnB model characterised. Conceptual-map/framework; EnPI mentioned incidentally."
+  },
+  "stage2": null,
+  "stage3": null
+}

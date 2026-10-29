@@ -1,0 +1,22 @@
+{
+  "key": "rayyan-472536377",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference cited in the bibliography to energy management of papermaking (pulp & paper) processes; no application in the paper itself",
+      "quote": "Cost-saving opportunities in the energy management of papermaking processes. Chem. Eng.",
+      "page": 34,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Generic mention of thermal power stations / combustion installations >20 MWt as fossil-fuel users burdened by EU-ETS costs; context only, not the application site",
+      "quote": "users\nwho own and operate combustion installations (thermal power stations, technological\nprocesses using fossil fuels, etc.) with installed thermal capacities of more than 20 MWt",
+      "page": 3,
+      "sector": "thermal power generation / cogeneration"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and validates a machine-learning-based advanced energy-management system, empirically tested on an automotive industrial platform, office buildings, and a milling production sector in Romania—none of which are continuous-flow Corpus-B production."
+}

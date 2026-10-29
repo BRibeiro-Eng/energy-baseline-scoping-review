@@ -1,0 +1,46 @@
+{
+  "key": "rayyan-472536752",
+  "listed_sector_signals": [
+    {
+      "signal": "ET Directive activity list mentions steel production as covered installation (mentioned only, not applied)",
+      "quote": "as well as a range of other activities\nsuch as steel and cement production, paper, ceramics and glass\nmanufacturing.",
+      "page": 3,
+      "sector": "steel and other primary-metals continuous production"
+    },
+    {
+      "signal": "Same list mentions cement production",
+      "quote": "such as steel and cement production, paper, ceramics and glass\nmanufacturing.",
+      "page": 3,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Same list mentions paper manufacturing",
+      "quote": "such as steel and cement production, paper, ceramics and glass\nmanufacturing.",
+      "page": 3,
+      "sector": "pulp & paper"
+    },
+    {
+      "signal": "Same list mentions glass manufacturing",
+      "quote": "such as steel and cement production, paper, ceramics and glass\nmanufacturing.",
+      "page": 3,
+      "sector": "glass (continuous melting, float lines)"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "On-site combined heat and power (cogeneration) plant at the university",
+      "quote": "CHP is a particularly relevant to the energy\nrequirements of some services sub-sectors and UCC have a\nCHP plant on site since 1998.",
+      "page": 3,
+      "sector": "cogeneration/CHP"
+    },
+    {
+      "signal": "2 MWe CHP unit commissioned on campus",
+      "quote": "the commissioning of a 2 MWe CHP unit in October 2000",
+      "page": 5,
+      "sector": "cogeneration/CHP"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "Case study on profiling energy consumption and informing energy policy at University College Cork (education/services sub-sector), with continuous-industry sectors (steel, cement, paper, glass) mentioned only as ET Directive examples and an on-site CHP/cogeneration plant referenced."
+}

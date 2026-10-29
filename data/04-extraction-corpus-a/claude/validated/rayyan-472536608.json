@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536608",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T10:38:32.229268+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "an unoccupied single family house",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Exclusive focus is a residential single-family test house (unoccupied twin house O5, Holzkirchen); no industrial or organisational component. The paper identifies a grey-box building thermal (RC) network model for building-physics characterisation via a sequential Monte Carlo method, not an EnPI/EnB energy-performance measurement model in the ISO 50001/50006 sense. Registered 'residential buildings without industrial component' exclusion applies.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "This paper provides a method based on sequential Monte Carlo for estimating states and parameters",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible: registered 'residential buildings without industrial component' exclusion (unoccupied single-family test house, no industrial/organisational dimension). Object is grey-box thermal RC parameter identification via sequential Monte Carlo, not an ISO 50006 EnPI/EnB model. paper_type methodological/theoretical (method development) though demonstrated on one real house -- borderline vs 'single applied case'; flag for human check."
+  },
+  "stage2": null,
+  "stage3": null
+}

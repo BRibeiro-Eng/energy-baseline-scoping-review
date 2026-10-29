@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535759",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T14:58:20.829295+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "proposes an approach that defines the use of calibrated whole building performance simulation (WPBS) as a supporting tool for improved building operation",
+        "a black box model based on multiple linear regression analysis will be used to detect possible deviations at a system level from a base pattern using a trained model"
+      ],
+      "page": [
+        2,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.62
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The building analyzed is the Satellite A at Milano Malpensa Airport in north Italy",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Within the building sector, airports can be considered as small cities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Borderline eligibility: CASCADE ICT/framework paper; eligible via proposed calibrated building simulation + multiple-regression FDD model vs ISO 50001 baseline. paper_type also arguable."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The building analyzed is the Satellite A at Milano Malpensa Airport in north Italy",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Milano Malpensa, Italy",
+      "evidence_quote": "Malpensa Airport in north Italy",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "airports",
+      "evidence_quote": "airports are massive energy consumers and emissions producers",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Within the building sector, airports can be considered as small cities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "energy management system (EnMS) based on ISO 50001 requirements",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "A detailed whole building performance simulation requires the input of geometry, construction, internal loads, weather parameters and HVAC systems",
+        "a black box model based on multiple linear regression analysis"
+      ],
+      "page": [
+        4,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,103 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536054",
+      "level_a": {
+        "complementary_methodologies": [
+          "ML ensemble",
+          "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+        ],
+        "country_region": "China, Europe",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "ML",
+          "physical model",
+          "other"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing and process industries",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Dynamic worst- and optimal-performance baselines for energy-efficiency indicators are calculated by sequential quadratic programming subject to an ANN model.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": true,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "lack of awareness, knowledge and experience",
+          "industrial priorities rarely prioritise energy efficiency"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "production load"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "facility",
+        "scope_description": "manufacturing and process industries",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "empirical",
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": true,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "review/synthesis"
+      },
+      "key": "rayyan-472536054",
+      "level_a": {
+        "complementary_methodologies": [
+          "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+        ],
+        "country_region": "not applicable",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "ML",
+          "multiple regression",
+          "simple intensity ratio",
+          "SEC mean"
+        ],
+        "multi_site": "not applicable",
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing and process industries",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

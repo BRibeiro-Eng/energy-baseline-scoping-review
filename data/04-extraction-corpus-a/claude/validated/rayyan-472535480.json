@@ -1,0 +1,269 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535480",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T13:05:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The aim of this paper is to present a model for the development and implementation of EnPIs for in-house energy management in a kraft pulp mill",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The study was carried out as a multiple case study, as described by Yin (2014). Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Practice-based multiple case study of three kraft pulp mills (one company group) presenting a tailored EnPI development model; validation is qualitative/experiential at the reference mill."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases. All mills belonged to the same group of companies.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "country_region": {
+      "value": "Sweden",
+      "evidence_quote": "Sweden is the context of the case study in this paper",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "pulp and paper industry",
+      "evidence_quote": "energy-intensive industries such as the pulp and paper industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Three kraft pulp mills constitute the studied cases.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006"],
+      "evidence_quote": "according to ISO 50001 and ISO 50006",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": ["SEC mean", "simple intensity ratio"],
+      "evidence_quote": [
+        "SEC for both electricity and heat is monitored for the entire mill",
+        "electricity production\n[kWh/ADt]"
+      ],
+      "page": [3, 4],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "amount of pulp produced (ADt)",
+        "dry content of the weak black liquor",
+        "sulfidity",
+        "residual alkali"
+      ],
+      "evidence_quote": [
+        "tons of evaporated water per ton of pulp\nproduced",
+        "dry content of the weak black\nliquor",
+        "a sulfidity of over 35% is maintained",
+        "the amount of residual\nalkali in the black liquor had increased from 5 g/L to 9 g/L"
+      ],
+      "page": [4, 4, 6, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "baseline_construction_method": {
+      "value": "The energy baseline is defined as the mill's 'normal state of operation' (the range of accepted EnPI values), established from historical best practice and defined individually for each mill; multiple normal states are defined for each pulp grade and raw material.",
+      "evidence_quote": [
+        "establishing a baseline of normal operation based\non historical best practice",
+        "the mill defines multiple normal states\nof operation for every type of pulp quality produced, raw material\nused, etc."
+      ],
+      "page": [2, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "validation_types": {
+      "value": ["empirical"],
+      "evidence_quote": "Validations of the suggested EnPIs are provided, based\non experiences and lessons learned at one of the company group\nmills",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "the most\naggregated level is the entire mill",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "scope_description": {
+      "value": "A model for developing and implementing EnPIs across three system-boundary levels of a kraft pulp mill: the entire mill (level 1), systems and flows (level 2), and individual production processes (level 3), covering both descriptive and explanatory indicators.",
+      "evidence_quote": "The suggested categorization of processes consists of three\nsystem boundary levels, as shown in Table 1, where the most\naggregated level is the entire mill",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": [
+        "the influence of these conditions on\nthe developed EnPIs has to be accounted for in the analysis of the\nenergy performance",
+        "the methodology is implemented and further val-\nidated"
+      ],
+      "page": [2, 8],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "specific_limitations": {
+      "value": ["non-stationarity", "feedstock variability"],
+      "evidence_quote": [
+        "As the perfor-\nmance of production processes varies with changing conditions",
+        "such as the feedstock quality"
+      ],
+      "page": [2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": [
+        "the mill defines multiple normal states\nof operation for every type of pulp quality produced",
+        "the change\nin explanatory indicators helps the analyzing personnel"
+      ],
+      "page": [7, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": [
+        "a unique model specifically tailored for kraft pulp\nmills",
+        "the mill defines multiple normal states\nof operation for every type of pulp quality produced"
+      ],
+      "page": [1, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "adaptation_types": {
+      "value": ["segmented baseline", "other"],
+      "evidence_quote": [
+        "the mill defines multiple normal states\nof operation for every type of pulp quality produced, raw material\nused, etc.",
+        "the definition of\nrelevant variables is obtained by defining explanatory indicators"
+      ],
+      "page": [7, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "in line with the boundary levels for defining EnPIs in ISO 50006",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": "based on\nexperiences and lessons learned at one of the company group\nmills",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of necessary data or indicators at a sufficiently detailed level for effective decision support",
+        "Knowledge-related barriers eminent in the pulp and paper industry",
+        "Training underprioritized in pulp and paper mills",
+        "ISO 50001 risks competing with personnel's main assignments"
+      ],
+      "evidence_quote": [
+        "do not possess the necessary data or indicators\non a sufficiently detailed level for effective decision support",
+        "barriers that have been shown to be eminent in the pulp\nand paper industry",
+        "Training as an energy management practice has been previously\nseen to be underprioritized in pulp and paper mills",
+        "it risks\ncompeting with personnel’s main assignments"
+      ],
+      "page": [2, 7, 7, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    }
+  }
+}

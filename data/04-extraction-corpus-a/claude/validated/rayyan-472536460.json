@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536460",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T16:12:14Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this new framework, methodology, and sensitivity analysis can be used for commercial hybrid building",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Presents a sensitivity-analysis framework/methodology (sensitivity auditing + Scaled Morris Method) built on a Python-EnergyPlus-Abaqus multi-physics simulation platform for commercial building energy-structure design. No EnPI/EnB energy-performance measurement or baseline model is identified or characterised, and there is no ISO 50001/50006 energy-management context; the reported 'performance indicators' are simulation outputs (yearly/peak cooling/heating load) used for design-factor sensitivity ranking.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "A new systematic methodology of sensitivity analysis considering sensitivity auditing and a scaled Morris Method is proposed within the context of hybrid building energy-structure performance",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Commercial-building (curtain-wall & precast-concrete-panel, 50-story) energy-structure sensitivity study via >2000 EnergyPlus/Abaqus simulations over 4 climate zones. Not an EnPI/EnB measurement model; eligibility (false) is a Tier-1 judgment call (~0.8). paper_type methodological/theoretical vs tool/software design is a secondary judgment call."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,310 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535649",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:59:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This method is based on the calculation of an energy base line with the linear form as in Eq(1).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "As a case study for a petrochemical company located in Colombia dedicated to the production and commercialization of fertilizers",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This paper aims the application or equivalent production in order to obtain energy performance indicators for a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Single Colombian petrochemical fertilizer plant; equivalent-production baselines use historical energy and production data."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "petrochemical plant",
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "a petrochemical plant located in Colombia",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Based on the standard ISO 50001 and the operational data for 2015",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "composite index",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Obtained from the linear regression of historical data of energy consumption and production.",
+        "With this information, a production according to energy equivalencies αj is set, besides the levels of production for product j as shown in Eq(5).",
+        "the consumption trend accumulated (CUSUM) were calculated"
+      ],
+      "page": [
+        3,
+        3,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "amount of units produced for every different product"
+      ],
+      "evidence_quote": "The variable “Pj” represents the amount of units produced for every different product considering the model of production",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "baseline_construction_method": {
+      "value": "Linear regression of historical energy-consumption and production data was used to construct product-specific baselines. Control limits were applied first to exclude atypical gas-consumption and production observations.",
+      "evidence_quote": [
+        "Obtained from the linear regression of historical data of energy consumption and production.",
+        "Prior to the analysis of indicators of performance is makes necessary the application of limits of control for data of consumption of gas and production so that to exclude data considered atypical for the set of data of shows in the characterization."
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "it is obtained three different base lines, as shown in Figure 1, for each fertilizer, with a correlation coefficient of 0,49618, 0,82515 and 0,64084",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The equivalent production method allowed to estimate the energy performance indicators of the plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "fertilizer plant",
+      "evidence_quote": "applied to the energetic and productive characterization of the fertilizer plant",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "several peaks of high efficiency with a random behavior are evidences, by what it indicates that these peaks located in the area of efficiency energy not are result of improvements in the energy management system of the company.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "several peaks of high efficiency with a random behavior are evidences, by what it indicates that these peaks located in the area of efficiency energy not are result of improvements in the energy management system of the company.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "In order to calculate an equivalent production, it is necessary to determine a value for the energy consumption as the sum of every level of production times its corresponding energy intensity for every different product",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "In order to calculate an equivalent production, it is necessary to determine a value for the energy consumption as the sum of every level of production times its corresponding energy intensity for every different product",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "Based on the standard ISO 50001 and the operational data for 2015, some energy performance indicators such as the baseline and goal line of consumption, the actual consumption rate compared to the theoretical consumption index, the efficiency Index Base 100 and finally the consumption trend accumulated (CUSUM) were calculated",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "This work presents results of an energy diagnosis through the evaluation of energy indicators based on historical information of energy consumption and productivity",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "their daily production represented in the historical data supplied for 2015.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "model_parameters_reported": {
+      "value": [
+        "E = 10,654 P + 14859",
+        "E = 12,093 P + 10781",
+        "E = 17,31 P + 14049"
+      ],
+      "evidence_quote": [
+        "E = 10,654 P + 14859",
+        "E = 12,093 P + 10781",
+        "E = 17,31 P + 14049"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0,49618",
+          "unit": null,
+          "period_or_context": "Reference 15-15-15 baseline",
+          "evidence_quote": "R² = 0,49618",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,82515",
+          "unit": null,
+          "period_or_context": "Reference 13-26-6 baseline",
+          "evidence_quote": "R² = 0,82515",
+          "page": 4,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0,64084",
+          "unit": null,
+          "period_or_context": "Reference 17-6-18-2 baseline",
+          "evidence_quote": "R² = 0,64084",
+          "page": 4,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "R² = 0,49618",
+        "R² = 0,82515",
+        "R² = 0,64084"
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  }
+}

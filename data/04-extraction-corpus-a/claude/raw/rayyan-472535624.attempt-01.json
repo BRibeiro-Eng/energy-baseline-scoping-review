@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535624",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:49:34Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a novel methodology to manage Energy Performance by developing, analyzing and maintaining Energy Performance Indicators in manufacturing plants is presented",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The presented methodology has been applied to the case study of an Italian manufacturing company",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The company object of the study produces consumer goods",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Methodology paper: proposes an EnPI/EnB system (regression baselines validated with R2/p_value + CuSum/percent-variation control charts), aligned to ISO 50001/50006; validated on one Italian consumer-goods manufacturing plant (four departments, discrete). paper_type borderline single-applied-case vs methodological/theoretical: a real empirical case is present, so coded single applied case. Case sector is not continuous-process, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The plant that has been analyzed in the present study is made up of four different departments",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Italy",
+      "evidence_quote": "the case study of an Italian manufacturing company",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "sector_of_activity": {
+      "value": "consumer goods",
+      "evidence_quote": "produces consumer goods",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": [
+        "produces consumer goods",
+        "they produce very different types of products"
+      ],
+      "page": [
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50001:2011 and ISO 50006:2014 requirements",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "International Performance Measurement and Verification Protocol",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "regression and correlation analysis, which aim at putting into relation the energy consumption of a system with all possible energy drivers",
+        "Production volumes of the whole plant and external temperature",
+        "It is the CuSum or Cumulative Sums chart"
+      ],
+      "page": [
+        9,
+        12,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

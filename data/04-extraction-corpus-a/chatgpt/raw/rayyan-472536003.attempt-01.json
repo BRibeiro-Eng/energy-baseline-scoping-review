@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536003",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:08:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The factors used were directly proportional to the sizes of the heat-transfer routes. For holes bigger than 100 cm2, there was used 30% of the energy demand of the air conditioner in that area; for moderate holes having sizes between 25 and 100 cm2, there was used 15% of the energy demand of the air conditioner in that area; and for holes smaller than 25 cm2, there was used 5% of the energy demand of the air conditioner in that area.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A case study approach was employed to examine how energy audits might potentially increase energy eﬃciency opportunities in the participating building.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "a small public building located in northwestern Mexico.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied audit constructs an estimated energy-wastage and efficiency baseline for one public building; the sector is outside the closed Level 3B list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The entire study was conducted from January to October 2018 in a small public building located in northwestern Mexico.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "northwestern Mexico",
+      "evidence_quote": "The entire study was conducted from January to October 2018 in a small public building located in northwestern Mexico.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "public building",
+      "evidence_quote": "The entire study was conducted from January to October 2018 in a small public building located in northwestern Mexico.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The entire study was conducted from January to October 2018 in a small public building located in northwestern Mexico.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The International Organization for Standardization (ISO) 50,001 standard is one of the most popular frameworks among the various guidelines that are available for establishing EnMSs.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Therefore, the State of Sonora entered into a strategic alliance with the Sustainable Graduate Program at the University of Sonora through the Ecology and Sustainable Development Commission of Sonora (CEDES by its acronym in Spanish) to develop a joint program for increasing the energy eﬃciency of the public buildings of the Sonoran Government. The CEDES program was aligned with the objectives of the LGCC and with the National Climate Change Strategy: Vision 10-20-40 (ENCC by its acronym in Spanish), a valuable planning instrument that deﬁnes Mexico’s long-term vision, and guides Mexican decision-makers with respect to climate change.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "the heat transfer through the main materials along the outer perimeter was calculated using the following equation (see Table 1 for the explanation of the factors): Heat Transferred = Surface Area (Exterior temperature - Interior temperature)/R-Value",
+        "It was estimated the total energy wastage during the audited period to be 1414 kW. Approximately 0.92 kW/m2."
+      ],
+      "page": [
+        5,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535541",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T02:28:48+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "To present the model, the route and the key planning tools for implementing a CMS with R/O",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Paper presents a comprehensive management system framework (CMS QHSE3+) and an ISO 50001:2018 implementation route. EnPI/EnB appear only as normative descriptions of the standard and as reported energy-saving outcomes (e.g., per-capita energy consumption reductions); no EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach). The single explicit indicator formula (Eq. 1, %DismVul) is a risk/vulnerability metric, not an energy-performance model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Conceptual model of the comprehensive management systems (CMS) QHSE3+",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline call: energy KPIs (per-capita consumption; energy vs bed-days) reported as outcomes within a management-system framework, not characterised as an EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472535584",
+  "listed_sector_signals": [
+    {
+      "signal": "Battery manufacturing includes an in-plant lead refining/smelting step producing pure lead and lead alloys from scrap and ores — a primary-metals processing operation (though embedded in a discrete battery plant, not described as continuous 24/7 production)",
+      "quote": "Battery manufacturing starts with refining scrap lead and lead ores (coming from LAB recycling facilities and lead mines), to produce pure lead and lead alloys. The refined lead is casted into ingots to be used",
+      "page": 9,
+      "sector": "steel and other primary-metals continuous production (lead refining/smelting)"
+    },
+    {
+      "signal": "Natural gas used for heat in refining of lead scrap within the plant — metals refining energy use",
+      "quote": "The remaining 31% of the energy originates from the natural gas used to generate heat e.g. the refining of the lead scrap.",
+      "page": 15,
+      "sector": "steel and other primary-metals continuous production (lead refining)"
+    },
+    {
+      "signal": "Melting of pure lead to produce lead oxide powder — lead metals processing",
+      "quote": "Pure lead is melted and used to produce lead oxide powder (PbO) for the paste",
+      "page": 10,
+      "sector": "steel and other primary-metals continuous production (lead melting)"
+    }
+  ],
+  "other_continuous_flow_signals": [],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies an ISO 50001-based energy management methodology to reduce electricity consumption in a lead-acid battery manufacturing (discrete assembly) plant in Colombia; in-plant lead refining/melting is mentioned as an upstream metals-processing step but is not the study's focus."
+}

@@ -1,0 +1,3660 @@
+[
+ {
+  "id": "MEC-102",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral (introdução) sobre modelos surrogate: não extrapolam fora dos dados de ajuste, o que corresponde a envelope de validade.",
+  "evidencia": "Such models only represent the data that has been used to parameterize them, so extrapolation usually is not possible"
+ },
+ {
+  "id": "MEC-103",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A frase refere-se ao modelo BDP deste caso (Fig. 9) e aos seus limites; é afirmada, não testada com dados fora dos limites.",
+  "evidencia": "outside the limits the results have to be handled with care due to the lacking extrapolation capabilities of the BDP model"
+ },
+ {
+  "id": "MEC-104",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A precisão do modelo depende da exatidão e reprodutibilidade dos dados, o que declara consequência para o modelo; porém 'density' remete mais para quantidade de dados e a frase é a mesma de K1.",
+  "evidencia": "their accuracy depends on the density, accuracy and reproducibility of the available data"
+ },
+ {
+  "id": "MEC-105",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Citação está na p. 11 (adjacente). Dados anteriores a modificações do processo deixam de servir para identificar o BDP atual, i.e. o modelo caduca; causa nomeada.",
+  "evidencia": "Data prior to modifications may not be suitable for the model identification of the current BDP"
+ },
+ {
+  "id": "MEC-106",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Citação na p. 11 (adjacente). O artigo diz explicitamente que é preciso um período significativo de dados para identificar um modelo fiável — consequência declarada.",
+  "evidencia": "a significant time period is necessary to collect sufficient process data to identify a reliable and accurate BDP model"
+ },
+ {
+  "id": "MEC-107",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "'Stationary' aqui significa regime estacionário (sem transientes), não mudança da relação do processo ao longo do tempo; o efeito declarado é o KPI ser enganador durante transientes. Alternativa possível: 'indicator not meaningful as defined'.",
+  "evidencia": "The values of the energy KPI during large transients will possibly be misleading and ... a stationarity analysis should be performed"
+ },
+ {
+  "id": "MEC-108",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Citação na p. 8 (adjacente). Afirmação geral de que a regressão linear é insuficiente perante comportamento não linear — má especificação.",
+  "evidencia": "the use of linear regression models is insufficient since the performance curves of the process data clearly indicate nonlinear behavior"
+ },
+ {
+  "id": "ADP-065",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Recomendação justificada citando ISO 50006; foi aplicada no caso, pois o modelo M1 (Eq. 29) inclui a temperatura ambiente além da carga.",
+  "evidencia": "The ambient temperature should be initially included in every analysis in order to be in accordance with normative standards (c.f. ISO 50006:2017"
+ },
+ {
+  "id": "ADP-066",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Filtragem de outliers por limites do envelope operacional faz parte do pré-tratamento aplicado ao caso (p. 27 remete para a secção 2.2); sem referência à norma.",
+  "evidencia": "Outlier removal is performed by filtering data by specifying upper and lower bounds which define the typical operational envelope"
+ },
+ {
+  "id": "ADP-067",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Uso explícito de mínimos quadrados ponderados (WLS) em vez de OLS no ajuste; sem ligação explícita a um mecanismo nem à norma.",
+  "evidencia": "the different weights of the clusters are considered using a Weighted Least Square (WLS) formulation"
+ },
+ {
+  "id": "ADP-068",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Proposta ('can be applied') justificada com ISO 50001:2018; o mesmo parágrafo liga ajuste do BDP a modificação do processo, mas a ligação a K4 (p. 11) é por conteúdo, não por remissão explícita.",
+  "evidencia": "the proposed method can be applied to redefine the energy baseline of a process after retrofitting (c.f. ISO 50001:2018)"
+ },
+ {
+  "id": "ADP-069",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "ALAMO com funções base simples é usado explicitamente para superar as limitações da regressão linear (K7); implementado no caso.",
+  "evidencia": "In order to overcome the shortcomings of linear regression models, ALAMO selects a combination of simple basis functions"
+ },
+ {
+  "id": "MOD-108",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O caso só diz que os dados medidos são recolhidos com intervalo horário; a origem em historiador vem da secção de método (PIMS 'typically'), por inferência. Alternativa estrita: 'not reported'.",
+  "evidencia": "the measurement data of the load and the total 5 bar steam consumption of the plant ... is collected"
+ },
+ {
+  "id": "MOD-109",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A medição é o consumo total de vapor de 5 bar da fábrica, que coincide com a fronteira do EnPI de vapor modelado; não há alocação.",
+  "evidencia": "the total 5 bar steam consumption of the plant"
+ },
+ {
+  "id": "MOD-110",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Citação na p. 11; a própria frase fala na escolha do intervalo de identificação, e o gatilho (modificação/retrofit) só fica claro com a p. 25 ('redefine the energy baseline ... after retrofitting').",
+  "evidencia": "The occurrence of significant process modifications has to be taken into account when choosing the time interval for the determination of the BDP"
+ },
+ {
+  "id": "MOD-111",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os limites de validade são definidos pelo convex hull das entradas, mas sem valores numéricos no texto (dados confidenciais).",
+  "evidencia": "This method was used to calculate the validity bounds of the model. The model is trustworthy only for the operating points inside of the hull"
+ },
+ {
+  "id": "MOD-112",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mesma situação de MOD-108: origem em historiador inferida da secção de método (PIMS), não afirmada no caso. Alternativa estrita: 'not reported'.",
+  "evidencia": "the measurement data of the load and the total 5 bar steam consumption of the plant ... is collected"
+ },
+ {
+  "id": "MOD-113",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Medição do consumo total de vapor de 5 bar da fábrica coincide com a fronteira do modelo.",
+  "evidencia": "the total 5 bar steam consumption of the plant"
+ },
+ {
+  "id": "MOD-114",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Igual a MOD-110: gatilho por modificação do processo apoiado sobretudo pela p. 25; a frase citada trata da escolha do intervalo de dados.",
+  "evidencia": "The occurrence of significant process modifications has to be taken into account when choosing the time interval for the determination of the BDP"
+ },
+ {
+  "id": "MOD-115",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os limites (mín./máx. dos centros de percentil) aplicam-se ao modelo após backward elimination e são descritos na figura em unidades escaladas, sem valores numéricos.",
+  "evidencia": "The left and right bound in the figure indicate the minimum and maximum value of the percentile centers used in the model identification"
+ },
+ {
+  "id": "MOD-116",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mesma situação de MOD-108: origem em historiador inferida, não afirmada no caso. Alternativa estrita: 'not reported'.",
+  "evidencia": "the measurement data of the load and the total 5 bar steam consumption of the plant ... is collected"
+ },
+ {
+  "id": "MOD-117",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Medição do consumo total de vapor de 5 bar da fábrica coincide com a fronteira do modelo.",
+  "evidencia": "the total 5 bar steam consumption of the plant"
+ },
+ {
+  "id": "MOD-118",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Igual a MOD-110: gatilho por modificação do processo apoiado sobretudo pela p. 25.",
+  "evidencia": "The occurrence of significant process modifications has to be taken into account when choosing the time interval for the determination of the BDP"
+ },
+ {
+  "id": "MOD-119",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase de validade descreve a Fig. 9 (modelos antes/depois da backward elimination, M1/M2); para o modelo só com carga (Eq. 34, Fig. 10) não há declaração própria de limites. Se o revisor aceitar extensão ao M3, manter 'stated qualitatively'.",
+  "evidencia": "Fig. 9 shows the fitted models before and after backward elimination ... Within these bounds the model is applicable"
+ },
+ {
+  "id": "MOD-120",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "no"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Por confidencialidade só são mostrados dados processados, em figuras e em unidades adimensionais; não há dados tabelados utilizáveis, pelo que 'no' é mais fiel que 'partial'.",
+  "evidencia": "Due to the confidentiality of the data, only the processed data are presented throughout this section"
+ },
+ {
+  "id": "MEC-010",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Afirmação tirada da literatura (Beisheim) com causa nomeada (qualidade da matéria-prima); lê-se melhor como necessidade de variáveis relevantes do que como mudança da relação ao longo do tempo, pelo que o efeito é discutível.",
+  "evidencia": "performance of production processes varies with changing conditions, such as the feedstock quality"
+ },
+ {
+  "id": "MEC-011",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O estado normal (baseline) é único por fábrica e tem de ser definido individualmente, o que sustenta falta de comparabilidade entre locais; o claim oscila entre geral e aplicado ao modelo do estudo.",
+  "evidencia": "Since the normal state of a mill will be unique ... 'the normal state' has to be defined individually for each mill"
+ },
+ {
+  "id": "MEC-012",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline tem de estar ligada a cada grau de pasta produzido, levando a múltiplos estados normais; causa nomeada (grau de pasta), afirmada sobre o modelo proposto.",
+  "evidencia": "the baseline periods – should be connected to a certain setup of producing a certain grade of pulp"
+ },
+ {
+  "id": "MEC-013",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: exemplo de desvio de desempenho detetado e resolvido com indicadores explicativos",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Descreve um desvio real de desempenho (aumento de álcali residual e de consumo de cal) detetado pelos indicadores e corrigido, não uma limitação do modelo; a causa 'operating mode or campaign change' também não é nomeada.",
+  "evidencia": "it was found that the amount of residual alkali in the black liquor had increased from 5 g/L to 9 g/L"
+ },
+ {
+  "id": "MEC-014",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O indicador descritivo da evaporação depende de uma variável de outro processo (lavagem), pelo que isolado não explica o desempenho; é plausível mas o artigo apresenta-o mais como princípio de desenho do que como limitação.",
+  "evidencia": "the explanatory indicator is not tied to the process of which the descriptive indicators are analyzed"
+ },
+ {
+  "id": "ADP-008",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Múltiplos estados normais (baselines) por grau de pasta = baseline segmentada, recomendada no modelo proposto e ligada na mesma frase a K3; vocabulário de baseline sem citar a norma para isto.",
+  "evidencia": "This means that the mill defines multiple normal states of operation for every type of pulp quality produced, raw material used, etc."
+ },
+ {
+  "id": "ADP-009",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "ISO 50001/50006 explicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Indicadores explicativos definidos na fábrica de referência e ligados a K5 no mesmo parágrafo; na p. 7 o artigo justifica-os citando a ISO 50006 (variáveis relevantes), logo o enquadramento é explícito. O rótulo 'additional normalisation variable' é aproximado (servem para explicar desvios, não normalizar).",
+  "evidencia": "as also stated in ISO 50006, the definition of relevant variables is obtained by defining explanatory indicators (step 3b)"
+ },
+ {
+  "id": "ADP-010",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Recomendação de dados horários é proposta e plausível como 'improved metering'; a frase usa vocabulário da norma ('data collection for EnPIs', baseline) sem a citar, o que corresponde a 'implicit'.",
+  "evidencia": "The frequency of data collection for EnPIs, which also applies to this step, has to be decided based on what is practically possible"
+ },
+ {
+  "id": "MOD-007",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase define o 'normal state' como gama de valores aceites do EnPI (banda de tolerância), não como domínio de validade do modelo. Um apoio qualitativo possível é a p. 7 (baseline ligada a um grau de pasta); caso contrário seria 'not stated'.",
+  "evidencia": "the range of accepted values for the EnPIs monitored"
+ },
+ {
+  "id": "MOD-008",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação só define 'normal' e 'best operation' (legenda da Fig. 3); a Tabela 3 compara cenários de teor seco (15% vs 25%), não limites de validade do indicador.",
+  "evidencia": "Normal operation refers to the most likely point of operation. Best operation refers to an optimal state of operation"
+ },
+ {
+  "id": "MEC-127",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Conclusão baseada na comparação EPI vs. intensidade bruta com os dados do estudo: energia por tonelada é inadequada como medida de eficiência.",
+  "evidencia": "energy per ton of steel is an inadequate measure of energy efficiency and that plant specific factors have a large impact on energy use"
+ },
+ {
+  "id": "MEC-128",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Lacunas nos dados de oxigénio do próprio conjunto de dados, com consequência declarada para o modelo (imputação; média setorial não representativa).",
+  "evidencia": "for some plants, oxygen was hard to track or record and there were many gaps in the data ... imputations were made"
+ },
+ {
+  "id": "MEC-129",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Dados de sucata difíceis de seguir e em falta, com imputação e sobrestimação inicial declaradas — consequência para a construção do modelo.",
+  "evidencia": "sometimes difficult to track in internal production statistics ... An initial industry average was used that tended to overestimate scrap usage"
+ },
+ {
+  "id": "MEC-130",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase está na revisão do modelo de regressão padrão e enuncia um pressuposto da regressão em geral (desvios aleatórios), o que o codebook classifica como 'general'.",
+  "evidencia": "the concept of the analysis ... can be easily described in terms of the standard linear regression model, which is reviewed in this section"
+ },
+ {
+  "id": "MEC-131",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "baseload or non-productive energy",
+   "cause": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação interpreta as elasticidades (<1): com menos produção a razão energia/produto sobe — efeito de consumo fixo, não mudança da relação; causa nomeada é a quebra de produção na recessão ('other'). Se K5 visar o dummy de 2009 (p. 11), a não-estacionariedade seria defensável.",
+  "evidencia": "a 10% decrease in production, given a fixed capacity, would decrease energy by only 8.3% ... energy output ratios will rise"
+ },
+ {
+  "id": "ADP-081",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Imputação implementada com rácios específicos por fábrica, explicitamente motivada pelas lacunas nos dados de oxigénio (K2).",
+  "evidencia": "since oxygen use is ubiquitous ... imputations were made to estimate oxygen usage for plants with missing observations"
+ },
+ {
+  "id": "ADP-082",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Dummy de 2009 incluído para captar o impacto da recessão; a ligação a K5 é sustentada por 'in addition to the capacity effects, is discussed above', mas é indireta.",
+  "evidencia": "the 2009 dummy variable was included ... to account for the extreme impact on energy use in the recession"
+ },
+ {
+  "id": "ADP-083",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Normalização multivariada implementada para fatores que não cabem no denominador da intensidade (liga a K1). O enquadramento pode ser 'implicit' ou 'explicit' (p. 3-4 diz que a abordagem é semelhante à orientação da ISO 50001 sobre EnPI).",
+  "evidencia": "factors that do not fit neatly under the denominator of an energy intensity ratio ... the ENERGY STAR EPI uses a multivariate approach to normalization"
+ },
+ {
+  "id": "MEC-008",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A granularidade de produção fornecida pelas fábricas (5 vs 3 etapas) condiciona os EnPI calculáveis; não é claro se a quantidade não é medida ou apenas não foi fornecida, o que seria limitação do estudo (acesso a dados).",
+  "evidencia": "one steel mill provided the production of kilo tons of steel at five different stages, and the other steel mill provided at three stages"
+ },
+ {
+  "id": "MEC-009",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: sem consequência declarada para o modelo; dificuldade de acesso a informação (limitação do estudo)",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Frase vaga sobre precisão do sistema de monitorização, sem declarar consequência para construir ou usar o modelo; o 'major challenge' refere-se a obter informação, i.e. limitação do estudo.",
+  "evidencia": "a major challenge was the accurate information about the monitoring system and efficiencies of the plants/processes"
+ },
+ {
+  "id": "ADP-006",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Proposta futura de machine learning ('foreseen'), classificação 'other' e 'proposed' corretas; a frase usa 'EnPIs' sem citar a norma para esta adaptação, o que o codebook define como 'implicit'.",
+  "evidencia": "a potential tool is foreseen in the use of machine learning techniques which can better assess the various EnPIs"
+ },
+ {
+  "id": "ADP-007",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "outro: refinamento futuro do quadro metodológico com mais casos, não é adaptação do modelo energético",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "'This model i.e. Fig. 5' é o quadro metodológico de desenvolvimento de EnPI, a amadurecer com dados de outros casos de estudo; não é re-estimação online de um modelo de desempenho energético.",
+  "evidencia": "based on the study ... a model for the development of EnPIs is suggested in Fig. 5"
+ },
+ {
+  "id": "MEC-015",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Nas conclusões, o baixo ajuste da baseline do carvão é atribuído explicitamente à ausência de medição do vapor que entra na máquina, com base nos resultados do estudo.",
+  "evidencia": "in the case of coal, this value was very low ... there is no measurement of the steam that enters the machine"
+ },
+ {
+  "id": "MEC-016",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: achado de desempenho sem consequência declarada para o modelo",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "Resultado quantitativo do consumo não associado à produção (20%/65%) apresentado como achado de eficiência; o artigo não declara consequência para construir ou confiar no modelo. Se o protocolo tratar baseload elevado como mecanismo por si, manter.",
+  "evidencia": "the consumption not associated with production for gas and coal is 20%, as opposed to 65% for electrical energy"
+ },
+ {
+  "id": "MEC-017",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase não descreve mudança da relação ao longo do tempo, mas desacoplamento entre consumo de carvão e produção (possível operação fora do ótimo); a p. 11 atribui a baixa correlação à pouca variação do caudal de carvão. Nenhum valor alternativo é claramente sustentado (talvez baseload ou misspecification).",
+  "evidencia": "these variations of consumption are not associated with production but are possibly outside the optimal parameters"
+ },
+ {
+  "id": "MEC-018",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Queimadores e caldeiras a carga constante independentemente da produção sustenta consumo não produtivo (Tabela 2 mostra carvão e gás constantes). Mas a causa nomeada é uma prática operacional fixa, não mudança de modo ou campanha.",
+  "evidencia": "the burners and boilers are always operating at the same load regardless of the level of production"
+ },
+ {
+  "id": "MEC-058",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A linha-alvo mantém o declive da baseline assumindo que não há mudanças tecnológicas; sustenta que alterações ao equipamento ou processo mudariam a relação, embora seja um pressuposto e não uma limitação discutida.",
+  "evidencia": "it is assumed, at this time, that there are no technological changes to the equipment, areas, or processes"
+ },
+ {
+  "id": "MEC-059",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase é a definição do indicador de consumo base (termo constante + Enap/P), o que o codebook classifica como 'general'. Também é duvidoso que seja mecanismo, pois é apresentado como solução para comparar a qualquer nível de produção.",
+  "evidencia": "the Base or characteristic Consumption Indicator (IC) for reference can be defined as (5)"
+ },
+ {
+  "id": "ADP-037",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "proposed",
+   "adaptation": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A modificação das linhas-alvo é uma fase recomendada ('should be used') de um sistema de monitorização, sem evidência de ter sido feita no caso. Também não é re-estimação online, mas atualização periódica manual da linha-alvo.",
+  "evidencia": "For the implementation of the monitoring system, the mentioned methodological tools should be used for developing phases such as"
+ },
+ {
+  "id": "MEC-086",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Efeito e causa estão suportados, mas a frase é uma cautela genérica sobre EnPIs ao nível NACE (propriedade dos indicadores em princípio), não uma afirmação sobre o modelo deste estudo.",
+  "evidencia": "since EnPIs depend on several parameters, such as plant size, operating parameters ... their determination at the NACE level can have some issue."
+ },
+ {
+  "id": "MEC-087",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação genérica de que em algumas empresas o consumo não tem ligação clara com a produção, o que torna o EnPI por unidade produzida pouco significativo.",
+  "evidencia": "In some companies, energy consumption may not have a clear link with production, or some companies do not have a physical production"
+ },
+ {
+  "id": "MEC-088",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Efeito (variável inadequada no modelo) e claim general estão bem; porém 'variáveis económicas' não é uma causa física/operacional nomeada, pelo que a causa deve ser not stated.",
+  "evidencia": "Variables analysed with these models must not directly include economic variables (such as added value, turnover, etc.)"
+ },
+ {
+  "id": "MEC-089",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Cautela geral, citada da literatura, sobre modelos lineares aplicados a processos não lineares (misspecification, general). A não linearidade é o próprio mecanismo, não uma causa física/operacional da lista; causa deve ser not stated.",
+  "evidencia": "the use of linear models in energy-efficiency analysis is extensive ... (despite several production processes being not linear [27])"
+ },
+ {
+  "id": "MEC-090",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Propriedade estatística geral do coeficiente de correlação (sensível a outliers); 'outliers' não é causa física/operacional, logo causa not stated. O efeito misspecification é aceitável mas discutível.",
+  "evidencia": "The correlation coefficient can be very sensitive to “outliers” and may indicate association when, in fact, none exists."
+ },
+ {
+  "id": "MEC-091",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "statistical misspecification",
+   "cause": "not stated"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase é transversal (entre sítios) e diz que correlação baixa indica relação consumo-produção insignificante; não há mudança da relação no tempo, pelo que non-stationarity não se aplica. Fatores económicos não são causa física/operacional.",
+  "evidencia": "A low value certainly indicates an insignificant relationship between consumption and production (often due to the presence of economic factors)."
+ },
+ {
+  "id": "MEC-092",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: exclusão de um sítio na limpeza da amostra, sem consequência declarada para o modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "É uma decisão de seleção da amostra (um sítio excluído por produção não contínua) sem consequência declarada para construir/usar o modelo; produção não contínua não é dado descontínuo. Se mantido, o claim seria applied to the case, não empirically demonstrated.",
+  "evidencia": "Consumption data, gathered from 29 out of 30 energy audits ... (one site was dismissed because of non-continuous production)"
+ },
+ {
+  "id": "ADP-055",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Exclusão de outliers implementada no passo de limpeza está confirmada e não é ligada explicitamente a K5. O enquadramento é implicit: a secção usa vocabulário EnPI sem citar a norma para esta adaptação.",
+  "evidencia": "a definition of EnPI at the sectoral was carried out ... sites that are clearly far from the mean trend ... (outliers)."
+ },
+ {
+  "id": "ADP-056",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Partição do grupo NACE 23.51 por processos característicos, implementada, com EnPIs separados por segmento; segmented baseline é aceitável. Enquadramento implicit (vocabulário EnPI de primeiro/segundo nível, sem citar a norma).",
+  "evidencia": "the methodology was applied to the development of first- and second-level EnPIs. The normalization work ... a partition of NACE group 23.51"
+ },
+ {
+  "id": "ADP-057",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Consumo 'virtual' relativo ao ciclo completo do cimento produzido, implementado para corrigir compra/venda de clínquer; normalização a produto de referência é plausível (poderia ser other). Enquadramento implicit (EnPIs), não absent.",
+  "evidencia": "a “virtual” electric consumption related to the complete production cycle of all cement actually produced on the site was calculated."
+ },
+ {
+  "id": "ADP-058",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "segmented baseline",
+   "status": "implemented",
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O número de ciclones não entra como variável na regressão: são calculados EnPIs separados para 4 e 5 ciclones (Tabela 5), o que é segmentação. Não há comparação explícita com a alternativa sem segmentação, logo implemented; enquadramento implicit.",
+  "evidencia": "Table 5 shows actual thermal EnPI and its standard deviation for the entire production range in the two cases of four or five cyclones."
+ },
+ {
+  "id": "ADP-059",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "outro: extensão/uso futuro do modelo, não é adaptação a um mecanismo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Refere uma utilização futura do modelo como base para SFA, IDA ou DEA, não uma adaptação do modelo a um mecanismo ou limitação.",
+  "evidencia": "This model can be used as the basis for more advanced models, such as stochastic frontier analysis (SFA)"
+ },
+ {
+  "id": "MOD-092",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 1 atribui ao EnPI elétrico real (cimento) faixas de produção numéricas explícitas, 145,000–521,000 e 521,001–1,015,000 t.",
+  "evidencia": "Table 1. NACE 23.51: real electric, thermal, and global EnPIs. ... Electric Cement t 145,000 521,000 119 ± 10 kWh/t"
+ },
+ {
+  "id": "MOD-093",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 1 dá faixas de produção de clínquer explícitas (142,000–509,000; 509,001–1,097,000 t) para o EnPI térmico real.",
+  "evidencia": "Thermal Clinker t 142,000 509,000 3585 ± 264 MJ/t 16 HIGH 509,001 1,097,000 3468 ± 230"
+ },
+ {
+  "id": "MOD-094",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 1 dá faixas de produção de cimento explícitas (144,803–566,000; 566,001–1,015,000 t) para o EnPI global real.",
+  "evidencia": "Global Cement t 144,803 566,000 3097 ± 220 MJ/t 18 HIGH 566,001 1,015,000 3320 ± 384"
+ },
+ {
+  "id": "MOD-095",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação vem da Tabela 1 (EnPI real por faixa), não da regressão da Tabela 2, que não indica faixa de validade (só equação, R2, N=29). Os limites não são declarados para este modelo.",
+  "evidencia": "Table 2 shows statistical regression parameters: linear regression equation, coefficient of determination (R2), Pearson correlation coefficient (R), p-value, size of the population"
+ },
+ {
+  "id": "MOD-096",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação é da Tabela 1 (EnPI térmico real); para a regressão térmica (Tabela 2) o artigo não declara faixa de validade.",
+  "evidencia": "Eth [MJ] = 3.913 × 107 + 3.448 × t 0.969 0.984 <0.0001 29 >99%"
+ },
+ {
+  "id": "MOD-097",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação é da Tabela 1 (EnPI global real); a regressão global da Tabela 2 não tem faixa de validade declarada.",
+  "evidencia": "Eg [MJ] = 7.05 × 107 + 3.039 × t 0.933 0.966 <0.0001 29 >99%"
+ },
+ {
+  "id": "MOD-098",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação é da Tabela 3, que o texto diz conter EnPIs reais por fase; a regressão da Tabela 4 (moagem de cru) não declara faixa de validade.",
+  "evidencia": "Table 3 shows real electric and thermal EnPIs for the main phases of the grey-cement production cycle and their standard deviations."
+ },
+ {
+  "id": "MOD-099",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Faixas citadas pertencem aos EnPIs reais da Tabela 3; a regressão elétrica da cozedura de clínquer (Tabela 4) não declara limites.",
+  "evidencia": "EE [kWh] = 1,685,681 + 27.19 × t 0.804 0.897 <0.0001 29 >99%"
+ },
+ {
+  "id": "MOD-100",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Faixa citada é do EnPI real da moagem de clínquer (Tabela 3); a regressão da Tabela 4 não declara limites de validade.",
+  "evidencia": "EE [kWh] = 946,440 + 38.98 × t 0.951 0.975 <0.0001 42 >99%"
+ },
+ {
+  "id": "MOD-101",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Faixa citada é do EnPI térmico real (Tabela 3); a regressão térmica da cozedura (Tabela 4) não declara limites de validade.",
+  "evidencia": "Eth [MJ] = 2.749·107 + 3447 × t 0.969 0.984 <0.0001 29 >99%"
+ },
+ {
+  "id": "MOD-102",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 5 dá faixas de produção explícitas para o EnPI térmico real com 4 ciclones (142,000–860,000 t) e 5 ciclones (207,000–1,097,000 t).",
+  "evidencia": "Real thermal EnPI of the clinker cooking phase ... four or five cyclones. ... 4 142,000 860,000 3609 ± 291"
+ },
+ {
+  "id": "MEC-025",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A mudança de processo (redução do fator de clínquer) altera o desempenho elétrico e leva a rever a baseline de regressão simples; efeito e causa são aceitáveis. Mas a atribuição é hedged ('could be due') e não é demonstrada nos dados do modelo, logo applied to the case.",
+  "evidencia": "This could be due to that in 2019, there was a company program to reduce clinker factor in cement production by adding maximum additive material."
+ },
+ {
+  "id": "MEC-026",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: explicação de desempenho real",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase explica uma perda real de eficiência (intensidade sobe com menor capacidade do moinho) que a empresa quer corrigir; não é apresentada como limitação do modelo/indicador. A atribuição é também especulativa ('could be due').",
+  "evidencia": "A decrease in mill capacity with the same baseload causes the intensity of electrical energy consumption to increase. Efforts made to anticipate this"
+ },
+ {
+  "id": "MEC-027",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Tabela 2 lista, como problema geral dos EnPI do tipo rácio, não considerar a carga de base nem efeitos não lineares.",
+  "evidencia": "Ratio kWh per unit Misleading result Does not account for baseload and non-linear effects"
+ },
+ {
+  "id": "MEC-028",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Tabela 2 indica, em termos gerais, que o valor de energia medido (consumo anualizado) não mede eficiência energética.",
+  "evidencia": "Measured energy value Annualized consumption Misleading results Do not use variables Do not measure energy efficiency"
+ },
+ {
+  "id": "ADP-014",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Proposta futura de usar outras variáveis influentes (regressão múltipla) na nova baseline, ligada no mesmo ponto das conclusões à mudança de processo (K1); vocabulário de baseline sem citar a norma.",
+  "evidencia": "clinker index reduction program has an impact on electrical energy performance. Baseline determination by using single regression will be updated using other influential variables"
+ },
+ {
+  "id": "MOD-021",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MOD-022",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MOD-023",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MOD-024",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MOD-025",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MOD-026",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A baseline (térmica e elétrica, regressão simples) só é alterada perante mudanças significativas nos SEUs, com exemplos de gatilho: padrões de operação ou novo equipamento importante.",
+  "evidencia": "It will only be changed if there are significant changes to SEUs ... such as operating patterns or the addition of major equipment."
+ },
+ {
+  "id": "MEC-001",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "limitação do estudo (âmbito), não do modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "É um pressuposto de âmbito (a central de cogeração representa a refinaria) sem consequência declarada para o modelo; um estudo de âmbito maior resolveria-o sem mudar o modelo.",
+  "evidencia": "The main assumptions adopted for the simulation model have to do with the fact that the cogeneration plant is representative of the ... refinery"
+ },
+ {
+  "id": "MEC-002",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Na validação, o modelo devolve valores de gás natural inferiores aos reais em 6 de 7 caldeiras, um enviesamento demonstrado com dados; os autores consideram-no porém aceitável, e não o tratam como limitação.",
+  "evidencia": "Except for boiler CB5, the values returned by the model are lower than the real values. In any case, simulated and real values are close."
+ },
+ {
+  "id": "MEC-003",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "limitação do estudo (âmbito), não do modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Pressuposto de âmbito (gás natural como amostra de todos os combustíveis) sem consequência declarada para construir ou confiar no modelo.",
+  "evidencia": "natural gas is sampled from all fossil fuels used as energy sources since it is widely used and considered IEU by the refinery"
+ },
+ {
+  "id": "MEC-004",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os indicadores absolutos de emissões dão perceção distorcida porque a geração cresce mais do que o consumo de combustível; é afirmado sobre este caso. Poderia ser empirically demonstrated, dado assentar nos resultados das Figuras 8-9.",
+  "evidencia": "these conventional indicators are absolute and can give a distorted perception of overall performance, since energy generation increases in greater proportion"
+ },
+ {
+  "id": "ADP-001",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "implemented"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O indicador cruzado (emissões por unidade de energia) é calculado e comparado nos resultados (Fig. 9), logo não é apenas proposto; implemented, possivelmente evaluated face às emissões totais. Enquadramento explícito (sinergia ISO 50001/14001) e ligação a K4 explícita.",
+  "evidencia": "this work proposes to analyze the variation of emissions concerning energy generation, as a cross energy and environmental indicator ... presented in Figure 9."
+ },
+ {
+  "id": "MOD-001",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O modelo é de simulação (Thermoflex) e o consumo de gás natural das caldeiras é saída simulada; a origem dos valores reais usados na comparação não é indicada.",
+  "evidencia": "In the simulation model of the refinery’s cogeneration plant, the output data used to validate the model is the natural gas consumed"
+ },
+ {
+  "id": "MOD-002",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A comparação é feita caldeira a caldeira (sete caldeiras), com fronteira coincidente com a do modelo; o artigo não discute a fronteira explicitamente, pelo que not reported também seria defensável.",
+  "evidencia": "Figure 5 displays on the left a spider chart comparing the real and simulated t/h of natural gas consumption."
+ },
+ {
+  "id": "MOD-003",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Modelo de simulação comparado com consumos reais da planta (diferença mediana 7.8%, r=0.6408), dados não usados para ajuste; o artigo não diz se houve calibração com esses dados.",
+  "evidencia": "The median of these differences is 7.8% ... the correlation coefficient between real and simulated data is 0.6408"
+ },
+ {
+  "id": "MEC-045",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Existem dados atípicos de consumo e produção (4+1 e 5 outliers nas cartas de controlo), que obrigam a exclusão antes da análise dos indicadores. A citação descreve sobretudo a adaptação; a consequência para o modelo está implícita.",
+  "evidencia": "four (4) data of production are below the limit lower ... these data considered as outliers will not be considered"
+ },
+ {
+  "id": "MEC-046",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "Efeito multi-product allocation está suportado. Porém a frase é a definição do método de produção equivalente (Eq. 2), o que o codebook classifica como general; nenhuma mudança de mix é nomeada, pelo que a causa também é discutível.",
+  "evidencia": "In order to calculate an equivalent production, it is necessary to determine a value for the energy consumption as the sum"
+ },
+ {
+  "id": "MEC-047",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os picos aleatórios do índice base 100 na zona de eficiência não refletem melhorias reais, mostrado na Figura 3a. Não é explícito que o artigo o trate como limitação do indicador.",
+  "evidencia": "several peaks of high efficiency with a random behavior are evidences ... not are result of improvements in the energy management system"
+ },
+ {
+  "id": "ADP-027",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Exclusão de outliers por cartas de controlo (±3σ), implementada e ligada no mesmo parágrafo aos dados atípicos (K1); vocabulário de linha de base e indicadores sem citar a norma.",
+  "evidencia": "these data considered as outliers will not be considered for the productive plant energy analysis"
+ },
+ {
+  "id": "ADP-028",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Coeficientes αj convertem cada produto em unidades de produto base (produção equivalente), usados nos resultados (Fig. 2b, 3b); a ligação a K2 decorre do próprio método, sem frase explícita separada.",
+  "evidencia": "The energy relationship of the products αj, corresponds to the number of units of product base ... production according to energy equivalencies"
+ },
+ {
+  "id": "ADP-029",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Recomendação nas conclusões de desenvolver software de seguimento e medição do desempenho por uso significativo; é proposta e 'other' é aceitável, embora seja mais ferramenta de gestão do que adaptação do modelo.",
+  "evidencia": "it is necessary to develop a Software for tracking, measurement, and analysis of the energy performance for each significant use of energy"
+ },
+ {
+  "id": "MEC-084",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase é uma afirmação física geral sobre a relação dB-caudal (general), não específica do modelo deste estudo. O efeito non-stationarity é duvidoso, porque se trata de dependência de condições e não de mudança no tempo.",
+  "evidencia": "The relationship between the flow rate and dB data of air leakage is related to different parameters like operational pressure, temperature, environmental conditions"
+ },
+ {
+  "id": "MEC-085",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O diâmetro do furo não é mensurável nas auditorias (fracionário, irregular ou inacessível), impedindo o uso da Eq. 1; lacuna de observabilidade com causa física nomeada.",
+  "evidencia": "we cannot measure the diameter of the hole in audits because mostly the diameter of the hole is fractional, not smooth"
+ },
+ {
+  "id": "ADP-054",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "implemented"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os indicadores SES, SCAS e SLS são definidos e calculados no estudo (Eq. 5-7, Tabela 5), logo implemented e não proposed; adaptation other e enquadramento implicit estão corretos.",
+  "evidencia": "Table 5 Calculation of SES, SCAS and SLS parameters for a facility."
+ },
+ {
+  "id": "MOD-091",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Diz qualitativamente que as constantes dependem da pressão e do equipamento de medição; as pressões tabeladas (0.7-7 bar) são níveis discretos, não limites declarados. O artigo afirma ainda validade independente da geometria.",
+  "evidencia": "A, B, and C are correlation constants depending on operation pressure and measurement device, presented in Table 1."
+ },
+ {
+  "id": "MEC-039",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: motivação geral para monitorização, sem consequência declarada para a baseline",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase do resumo descreve a degradação do desempenho da caldeira como motivação para monitorizar indicadores; não declara consequência para a baseline ou para a confiança no modelo. Se for mantido, 'fouling' é só uma de quatro causas nomeadas (combustão, operação, manutenção).",
+  "evidencia": "efficiency and the evaporation ratio can decrease along time because of the poor combustion, heat transfer fouling, poor operation, and low maintenance rate"
+ },
+ {
+  "id": "MEC-040",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A atribuição dos picos à natureza aleatória do processo é afirmada sobre o índice Base 100 deste estudo, mas não é demonstrada com teste ou dados; logo 'applied to the case'. Efeito e causa 'other' são aceitáveis, mas é discutível se é mecanismo.",
+  "evidencia": "low efficiency peaks of 22 January, 17 February and 20 February are associated with the random nature of the process"
+ },
+ {
+  "id": "ADP-020",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Filtragem a 2 desvios-padrão para estabilizar a correlação da baseline é exclusão de outliers implementada; o artigo não liga a filtragem a K1/K2 nem cita a norma para ela.",
+  "evidencia": "filtering of data was carried out in order to establish a more stable correlation ... selecting as final criteria 2 standard deviation"
+ },
+ {
+  "id": "MOD-033",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-034",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-035",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-036",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-037",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-038",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-039",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-040",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-041",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-042",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-043",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-044",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-045",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-046",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-047",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-048",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-049",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os consumos de gás e a produção de vapor da caldeira foram medidos com sensores calibrados, o que aponta para contador dedicado; o artigo não diz explicitamente que o sensor é exclusivo da caldeira nem se os dados vêm de historiador.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-050",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só informa a origem (sensor calibrado); nada diz sobre a correspondência entre o ponto de medição e a fronteira do modelo. Origem e fronteira são independentes, pelo que 'exact' é inferido.",
+  "evidencia": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior, daily data measurements"
+ },
+ {
+  "id": "MOD-051",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os limites superior e inferior das cartas de controlo servem para detetar pontos atípicos, não para delimitar o domínio de validade do modelo; o artigo não enuncia envelope de validade.",
+  "evidencia": "upper and lower limits were determined in order to identify the presence of atypical points or abnormal operating conditions"
+ },
+ {
+  "id": "MEC-139",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Definição de heteroscedasticidade: propriedade de métodos em princípio, logo 'general', com efeito de má especificação estatística.",
+  "evidencia": "When the error variance is not constant, the error term is called heteroscedastic."
+ },
+ {
+  "id": "MEC-140",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A heteroscedasticidade foi observada nos resíduos deste modelo e mostrada na regressão dos resíduos ao quadrado (Fig.), logo demonstrada empiricamente. A causa 'other' (dimensão da fábrica) é a variável a que a variância se associa, não uma causa física nomeada; 'not stated' seria defensável.",
+  "evidencia": "range of performance, represented by the residuals from the above regression, was wider for small plants and narrower for large ones"
+ },
+ {
+  "id": "MEC-141",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "empirically demonstrated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase citada é condicional e genérica, mas o artigo mostra com os dados que a maior parte da redução da variância se deve à mudança do desempenho da indústria e que o benchmark se deslocou. Efeito e causa 'other' confirmam-se.",
+  "evidencia": "most of the reduced variation (0.0264−0.0155=0.0109) is due to changes in industry performance ... illustrates the shift in the benchmark"
+ },
+ {
+  "id": "MEC-142",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: limpeza de dados rotineira sem consequência declarada para o modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Nota de rodapé sobre a remoção de alguns pontos com valores em falta e um resultado errado; o artigo não declara consequência para construir ou usar o modelo, requisito para qualidade de dados ser mecanismo.",
+  "evidencia": "A small number of data points were dropped because of missing values and an erroneous plant result."
+ },
+ {
+  "id": "MEC-143",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O parágrafo justifica o rácio clínquer/cimento porque a produção de clínquer e a moagem de cimento não estão em proporção fixa, o que é problema de atribuição entre produtos. A frase citada nomeia transferências de clínquer entre fábricas, pelo que a causa poderia ser 'other' em vez de 'product mix'.",
+  "evidencia": "possible for plants to ship clinker for grinding elsewhere or grind cement from clinker produced at another plant"
+ },
+ {
+  "id": "MEC-144",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Cimentos especiais (ASTM 4, masonry) consomem mais energia e a relação de 1997 é assumida para o modelo novo, logo 'applied to the case' e causa 'product mix'. O efeito 'other' é aceitável, embora 'multi-product allocation' também seja defensável.",
+  "evidencia": "Specialty cements can take additional energy to produce ... we assume that this relationship still holds"
+ },
+ {
+  "id": "ADP-086",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A variância do erro é modelada em função do inverso da capacidade média para representar a heteroscedasticidade observada entre fábricas pequenas e grandes; implementada e ligada explicitamente a K2.",
+  "evidencia": "For purposes of representing the error variance for plants of different sizes, the squared residuals were regressed against the inverse of the average capacity"
+ },
+ {
+  "id": "ADP-087",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "evaluated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A reestimação do EPI com dados novos foi feita e comparada com o EPI original, incluindo o ajuste do modelo antigo aos dados novos (Tabela 3), o que corresponde a 'evaluated'. A ligação a K3 é explícita.",
+  "evidencia": "By updating the cement manufacturing EPI and comparing the two versions, we are able to quantify the improvement in the industry"
+ },
+ {
+  "id": "ADP-088",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O intercepto é ajustado com as quotas de ASTM 4 e masonry cement, ou seja, termos de normalização adicionais, implementados e ligados explicitamente aos cimentos especiais (K6).",
+  "evidencia": "These two additional terms account for the share of these specialty cements relative to total production."
+ },
+ {
+  "id": "ADP-089",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O modelo novo inclui o rácio clínquer/cimento para captar o efeito conjunto de clínquer e moagem, justificado no mesmo parágrafo pelas transferências de clínquer (K5).",
+  "evidencia": "The new model captures the joint effect of producing clinker and finish grinding cement."
+ },
+ {
+  "id": "MOD-127",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O artigo diz que a atualização foi feita porque a indústria melhorou ao longo do tempo (gatilho declarado); fala em atualizações 'periódicas/regulares' mas sem intervalo, pelo que 'periodic, interval stated' não se aplica.",
+  "evidencia": "With the passage of time and improvement in the industry, EPA thought it was time to update the data."
+ },
+ {
+  "id": "MOD-128",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O artigo diz que a atualização foi feita porque a indústria melhorou ao longo do tempo (gatilho declarado); fala em atualizações 'periódicas/regulares' mas sem intervalo, pelo que 'periodic, interval stated' não se aplica.",
+  "evidencia": "With the passage of time and improvement in the industry, EPA thought it was time to update the data."
+ },
+ {
+  "id": "MEC-005",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: limpeza de dados sem consequência declarada para o modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A remoção de dados de arranque, paragem e ruído é um passo de limpeza; o artigo não declara consequência para construir ou confiar na baseline, requisito para qualidade de dados ser mecanismo. Se for mantido, a demonstração empírica (Fig. 4, Tabela 3) está correta.",
+  "evidencia": "all data recorded during startup, overhaul, etc., as well as noise points, were removed from the dataset"
+ },
+ {
+  "id": "MEC-006",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O estudo de multicolinearidade para evitar fuga de informação é afirmado sobre a seleção de variáveis deste modelo; é mais uma precaução metodológica do que uma limitação declarada, e o efeito de má especificação é aceitável mas não explícito.",
+  "evidencia": "a multicollinearity study was accomplished in the feature selection procedure to avoid target leakage by choosing independent features"
+ },
+ {
+  "id": "ADP-002",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Filtragem univariada e multivariada (DBSCAN) de outliers, implementada, e ligada na frase seguinte à remoção de dados de arranque e paragem (K1). O artigo não cita a norma para este passo.",
+  "evidencia": "the outliers and out-of-range values were filtered out ... Therefore, all data recorded during startup, overhaul, etc."
+ },
+ {
+  "id": "ADP-003",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação está na página 7 (adjacente). A baseline é um único modelo GBM; os clusters k-means servem para definir a BDP por modo de operação e quantificar poupanças e metas, não para segmentar a baseline.",
+  "evidencia": "for each of these modes, the lowest thermal energy consumption was specified as the BDP ... to quantify the energy-saving opportunity"
+ },
+ {
+  "id": "ADP-004",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "trabalho futuro genérico, não é adaptação do modelo de desempenho a um mecanismo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "É trabalho futuro genérico sobre o método de quantificar poupanças; não é adaptação do modelo de desempenho energético a um mecanismo.",
+  "evidencia": "As future work, other ML and optimization algorithms can be applied to quantify the energy saving potential"
+ },
+ {
+  "id": "MOD-004",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os dados, incluindo o caudal de vapor (QS), foram recolhidos do DCS a cada 10 minutos durante um ano, o que corresponde a tag de historiador de processo.",
+  "evidencia": "data collected between January 2020 and January 2021 from a gas refinery's Distributed Control System (DCS)"
+ },
+ {
+  "id": "MOD-005",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase só indica a origem (DCS); não discute a correspondência entre o caudal de vapor medido e a fronteira do consumo da unidade. Origem e fronteira são independentes.",
+  "evidencia": "data collected between January 2020 and January 2021 from a gas refinery's Distributed Control System (DCS)"
+ },
+ {
+  "id": "MOD-006",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "As métricas são calculadas num conjunto de validação separado (partição aleatória 80/20), ou seja, validação fora da amostra reportada.",
+  "evidencia": "R2 (validation set) = 0.99, RSME (validation set) = 108.8 kg.hr−1 and RMAE (validation set) = 0.14%"
+ },
+ {
+  "id": "MEC-080",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A variação do consumo entre pastas e produtos exige normalização para produto equivalente, o que é atribuição multi-produto afirmada para este benchmark. A causa mistura matéria-prima (pastas) e produtos, pelo que 'feedstock' também seria defensável.",
+  "evidencia": "Energy consumption of papermaking processes may vary by different pulps and different products and requires normalization."
+ },
+ {
+  "id": "MEC-081",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A causa nomeada para o SEC mais baixo do grupo 1 é o processo mais simples, com menos etapas na preparação de pasta, e não uma mudança de gama de produto; a qualidade do produto é só referida como não comparada. O efeito de comparabilidade entre fábricas confirma-se.",
+  "evidencia": "the lower SEC of group 1 is explained as the simpler process with fewer stages in the stock preparation section"
+ },
+ {
+  "id": "MEC-082",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "feedstock quality or composition change",
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A causa nomeada é a variação diária da proporção de matérias-primas (pasta virgem, DIP, não-DIP), ou seja, composição da alimentação. A diferença de cerca de 10% é afirmada sem ser mostrada com os dados, logo 'applied to the case'.",
+  "evidencia": "the ratio of raw materials used in the production varies day by day. Therefore, the discrimination ... cannot be considered"
+ },
+ {
+  "id": "MEC-083",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "limitação do estudo (tamanho da amostra de fábricas), não limitação do modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Só o grupo 2 tem dados suficientes (4 fábricas) por falta de fábricas amostradas nos grupos 1 e 3; é limitação de amostra (número de unidades), não de extensão temporal dos dados nem do modelo.",
+  "evidencia": "only group 2 of this subsector with 04 sets of data could be used for benchmarking exercise"
+ },
+ {
+  "id": "ADP-052",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A normalização para pasta/produto equivalente está implementada (Eq. 1 e 4–9) e ligada explicitamente a K1. No entanto, o artigo trata o SEC como EnPI e fala em normalização, que é vocabulário da norma sem a citar, logo 'implicit'.",
+  "evidencia": "SEC is used as the energy performance indicator (EnPI) ... The variation due to different pulp properties could be normalized"
+ },
+ {
+  "id": "ADP-053",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O benchmarking é segmentado por subsetor e escala de produção e está implementado; 'Taking into account all of these factors' é vago, pelo que deixar 'addresses' vazio é prudente. O enquadramento pode ser 'implicit', já que o artigo chama EnPI ao SEC.",
+  "evidencia": "Taking into account all of these factors, it was finalized to carry out benchmarking per range of production scale for each sub-sector"
+ },
+ {
+  "id": "MEC-096",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O artigo afirma que o consumo muda com o tempo e que a baseline BEC/SEC deste estudo tem de ser ajustada: caducidade da baseline, sem causa nomeada e sem demonstração.",
+  "evidencia": "the amount of energy consumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly."
+ },
+ {
+  "id": "MEC-097",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A fábrica de vidro artesanal tem um padrão de consumo diferente e não é comparável, o que é problema de comparabilidade entre fábricas. O padrão é afirmado mas não mostrado em figura ou tabela, pelo que 'applied to the case' seria defensável; o tipo de produto (artesanal) aproxima-se de 'product mix'.",
+  "evidencia": "The other factory that produced handmade glass containers has an entirely different energy usage pattern from the other plants."
+ },
+ {
+  "id": "ADP-061",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A exclusão dos dados da fábrica atípica está implementada e ligada no mesmo parágrafo ao padrão de consumo diferente (K2).",
+  "evidencia": "The data from this factory excluded from the analysis."
+ },
+ {
+  "id": "ADP-062",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O ajuste da baseline é recomendação nas conclusões (proposed) e está ligado explicitamente a K1. Como o artigo usa 'baseline ... adjusted' e chama ENPI ao BEC/SEC sem citar a norma para este ajuste, o enquadramento é 'implicit'.",
+  "evidencia": "BEC and SEC are one ENPI ... BEC and SEC baseline should also be adjusted accordingly."
+ },
+ {
+  "id": "MEC-019",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Revisão de literatura sobre o SEC: fronteiras e pressupostos variáveis impedem comparar SECs entre estudos; comparabilidade entre locais, afirmação geral.",
+  "evidencia": "the definition of system boundaries and assumptions used for the evaluation often vary which hinders the comparison of SECs taken from different studies"
+ },
+ {
+  "id": "MEC-020",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral na revisão de literatura: em processos integrados não é possível alocar o consumo a produtos ou etapas.",
+  "evidencia": "for integrated processes as a clear allocation of the energy consumption to specific production steps or products is not possible"
+ },
+ {
+  "id": "MEC-021",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "other"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase diz que o modelo BDP não identifica os contributos para o OIP (desvio residual); não se trata de uma grandeza não medida, pelo que 'observability gap' é forçado. Também é discutível se é 'general' (propriedade do método, Fig. 2 de trabalho anterior) em vez de 'applied to the case'.",
+  "evidencia": "The contributors to this deviation are not identified by the model and thus are unknown unless additional process knowledge is incorporated"
+ },
+ {
+  "id": "MEC-022",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "indicator not meaningful as defined"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O resumo afirma que os indicadores e baselines têm de ser corrigidos por fatores externos; isto é necessidade de normalização (indicador bruto não significativo), não mudança da relação do processo. Causa: o artigo nomeia condições ambientais, mas também espetro de produtos e carga.",
+  "evidencia": "One essential requirement for the evaluation is the correction of these indicators and the corresponding baselines by the influences of external static or dynamic factors"
+ },
+ {
+  "id": "MEC-023",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "indicator not meaningful as defined"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Efeitos sazonais (utilização, temperatura ambiente) alteram o valor absoluto da intensidade energética, desacoplados das melhorias: o indicador bruto não reflete desempenho; a relação modelada (BDP em função de P e T) não muda. Demonstrado no caso ilustrativo, causa ambiente plausível.",
+  "evidencia": "seasonal effects ... can have a strong impact on the absolute value of the energy intensity ... decoupled from potential improvements of the processes"
+ },
+ {
+  "id": "MEC-024",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Na definição da EnPI (Sec. 3.2) afirma-se em princípio que o consumo de um produto num processo multiproduto só se determina com conhecimento adicional; alocação multiproduto, geral.",
+  "evidencia": "The energy consumption of a single product in a multi-product process can only be determined by incorporating additional process knowledge."
+ },
+ {
+  "id": "ADP-011",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Método de agregação hierárquica proposto e aplicado ao caso INEOS; justificado com ISO 50001:2018 no resumo e na Sec. 2; não há ligação explícita a um K específico.",
+  "evidencia": "an aggregation method is proposed ... The method facilitates the verification of the improvement of the energy performance as required by ISO 50001:2018"
+ },
+ {
+  "id": "ADP-012",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A separação em fatores influenciáveis/não influenciáveis assenta em baselines BDP função de carga e temperatura ambiente, citando ISO 50001; a ligação a K5 vem do mesmo parágrafo e da p.10. Tipo de adaptação discutível (poderia ser 'other': análise de contributos).",
+  "evidencia": "splitting the performance ... into contributions of influenceable and non-influenceable factors. Thereby the method fulfills the requirements of the ISO 50001:2018"
+ },
+ {
+  "id": "ADP-013",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "proposed"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase é uma afirmação de compatibilidade nas conclusões; o caso usa apenas modelos analíticos (lineares/quadráticos no Apêndice), sem RNA, pelo que 'implemented' não está demonstrado.",
+  "evidencia": "The concept is compatible with the usage of different types of baseline models, e.g. linear regression or artificial neural networks, in one system"
+ },
+ {
+  "id": "MOD-009",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação só diz que eletricidade e vapor são importados da rede; a origem dos dados não é reportada (valores modificados por confidencialidade).",
+  "evidencia": "The electric power and steam demands are covered by imports from the grid."
+ },
+ {
+  "id": "MOD-010",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Para a EnPI do complexo a eletricidade entra como fluxo externo importado da rede, na fronteira definida; 'exact' é plausível mas inferido de um exemplo ilustrativo.",
+  "evidencia": "The electric power and steam demands are covered by imports from the grid."
+ },
+ {
+  "id": "MOD-011",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação trata de fluxos internos de produtos e nada diz sobre a origem dos dados de vapor; o artigo não reporta a origem (dados modificados por confidencialidade).",
+  "evidencia": "These flows do not cross the system boundary and thus are not considered as products of the aggregated RMU."
+ },
+ {
+  "id": "MOD-012",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A citação refere-se a produtos internos excluídos, não à alocação do vapor; o vapor é importado da rede e há regra de moeda de recurso/dupla contagem (Eq. 6), pelo que 'exact' ou 'allocated by rule' ficam por decidir.",
+  "evidencia": "These flows do not cross the system boundary and thus are not considered as products of the aggregated RMU."
+ },
+ {
+  "id": "MOD-013",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Diz quando a baseline é refeita: após modificação de um processo, a baseline da planta é adaptada e a do nível superior atualiza por agregação; formulado como propriedade/recomendação.",
+  "evidencia": "In case of a modification of a process on the lowest hierarchical layer, only the corresponding energy baseline has to be adapted."
+ },
+ {
+  "id": "MOD-014",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Gatilho explícito (modificação do processo) para adaptar a baseline da planta; estado proposto.",
+  "evidencia": "In case of a modification of a process on the lowest hierarchical layer, only the corresponding energy baseline has to be adapted."
+ },
+ {
+  "id": "MOD-015",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O Apêndice define os modelos EnB para P > 0 com EnB(0)=0: é limite numérico e definição por troços, não afirmação qualitativa; o valor seria 'stated with numeric bounds' ou 'not stated'.",
+  "evidencia": "EnB models for the plants with respect to steam (S), electricity (EP) and natural gas (NG) for production rates P > 0 (EnB(P=0)=0)"
+ },
+ {
+  "id": "MOD-016",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Gatilho explícito (modificação do processo) para adaptar a baseline da planta AN; estado proposto.",
+  "evidencia": "In case of a modification of a process on the lowest hierarchical layer, only the corresponding energy baseline has to be adapted."
+ },
+ {
+  "id": "MOD-017",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mesmo caso do NH3: 'P > 0' é condição numérica/definição por troços, não validade qualitativa; seria 'stated with numeric bounds' ou 'not stated'.",
+  "evidencia": "EnB models for the plants ... for production rates P > 0 (EnB(P=0)=0)"
+ },
+ {
+  "id": "MOD-018",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Gatilho explícito (modificação do processo) para adaptar a baseline da planta POX; estado proposto.",
+  "evidencia": "In case of a modification of a process on the lowest hierarchical layer, only the corresponding energy baseline has to be adapted."
+ },
+ {
+  "id": "MOD-019",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mesmo caso: 'P > 0' é condição numérica/definição por troços, não validade qualitativa; seria 'stated with numeric bounds' ou 'not stated'.",
+  "evidencia": "EnB models for the plants ... for production rates P > 0 (EnB(P=0)=0)"
+ },
+ {
+  "id": "MOD-020",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O Apêndice tabela temperatura, produções e OIP e dá os modelos EnB usados, declarando os resultados repetíveis.",
+  "evidencia": "With the given data sets the results presented in this contribution are repeatable (see Tables A.1–A.3)."
+ },
+ {
+  "id": "MEC-073",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mostrado com os dados (Fig. 7): o modelo é pouco preciso para produções < 200 MNm3, uma zona fora da validade útil; também poderia ler-se como má especificação, que K2 já cobre.",
+  "evidencia": "the model cannot be considered very accurate for small productions (< 200 MNm3) despite all the sites analyzed are included inside the curves"
+ },
+ {
+  "id": "MEC-074",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A curva inferior do intervalo (±2σ) fica negativa para produções pequenas, um comportamento fisicamente impossível que indica má especificação; mostrado nos resultados.",
+  "evidencia": "However, the lower curve presents negative asymptotic behavior, in the very beginning."
+ },
+ {
+  "id": "MEC-075",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Com os dados, os locais só com produção líquida têm EnPIs superiores devido à recompressão; é a mistura/estado de produto a afetar a comparação entre locais, mas a consequência para a comparabilidade é inferida.",
+  "evidencia": "All the EnPIs for the sites only with liquid production are higher ... mainly due to the energy consumption of recompression steps"
+ },
+ {
+  "id": "MEC-076",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "Descrição da amostra: produção e composição de produtos muito heterogéneas entre locais. A consequência para o modelo não está na frase (a exclusão de 11 locais para homogeneidade, p.9, sugere-a) e 'heterogeneous reported' pode referir-se ao modo de reporte.",
+  "evidencia": "The production of gas is very variable in terms of total production ... and composition of products (that is heterogeneous reported on the energy audits)"
+ },
+ {
+  "id": "MEC-077",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "empirically demonstrated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A limitação da comparação 2018/2022 decorre de estatísticas mostradas com os dados (desvio-padrão 52% vs 38%, R2 0,873 vs 0,736, Tabela 3), pelo que é demonstrada empiricamente.",
+  "evidencia": "the statistics of 2018 present a higher standard deviation on the Real EnPI (52% vs. 38%), but regression model presents a higher correlation"
+ },
+ {
+  "id": "ADP-047",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Análise por intervalos de produção proposta para trabalho futuro; o parágrafo usa vocabulário EnPI (Real EnPI, EnPI Model) sem citar a norma, logo o enquadramento é implícito. A ligação a um K não é explícita.",
+  "evidencia": "Hence, additional analysis by production intervals should be carried out."
+ },
+ {
+  "id": "ADP-048",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Trabalho futuro sobre variáveis que afetam a eficiência (variável de normalização adicional, proposto); vocabulário de variáveis relevantes/EnPI sem citar a norma, logo implícito.",
+  "evidencia": "Further analysis will be focused on the analysis of different variables that affect energy efficiency of the industrial gases sector."
+ },
+ {
+  "id": "ADP-049",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": "",
+   "framing": "implicit"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase pede analisar a quota de produtos e o estado, sem ligar explicitamente a K3 (ligação inferida). O tipo 'reference product' também não é explícito (poderia ser variável adicional) e o parágrafo usa vocabulário EnPI.",
+  "evidencia": "a detailed analysis of the distribution of share of final products (oxygen, nitrogen and argon) and its state (gas or liquid) is required"
+ },
+ {
+  "id": "MOD-081",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "As EnPIs primárias foram recalculadas para os ciclos de auditoria de 2018 e 2022 (intervalo de 4 anos, Tabela 3); o regime é inferido da obrigação legal e da comparação entre ciclos.",
+  "evidencia": "evolution of EnPIs between the second and third cycles of mandatory energy audits according to EED"
+ },
+ {
+  "id": "MOD-082",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A EnPI elétrica real só é calculada para 2022 (Tabelas 1-2; a Tabela 3 só tem EnPI primária). A obrigação legal de auditorias não diz quando a baseline é refeita.",
+  "evidencia": "Table 3 presents the real EnPI and modeled EnPI values for the primary energy consumption"
+ },
+ {
+  "id": "MOD-083",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O modelo primário foi reestimado para 2018 e 2022 (Tabela 3), ciclos de auditoria de 4 anos; regime inferido e não declarado como regra de atualização.",
+  "evidencia": "Table 3 presents the real EnPI and modeled EnPI values for the primary energy consumption ... 2018 ... 2022"
+ },
+ {
+  "id": "MOD-084",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Limites numéricos de validade/precisão do modelo: pouco preciso abaixo de 200 MNm3 e baixa dispersão entre 200 e 1000 MNm3.",
+  "evidencia": "the model cannot be considered very accurate for small productions (< 200 MNm3) ... low dispersion for a large production range (200 to 1000 MNm3)"
+ },
+ {
+  "id": "MOD-085",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O modelo elétrico só é estimado para 2022; não há reestimação por ciclo nem regra de atualização declarada.",
+  "evidencia": "Table 3 presents the real EnPI and modeled EnPI values for the primary energy consumption"
+ },
+ {
+  "id": "MOD-086",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os mesmos limites numéricos aplicam-se explicitamente aos modelos primário e elétrico.",
+  "evidencia": "The model presents a low dispersion for a large production range (200 to 1000 MNm3) ... for Primary and Electrical EnPIs."
+ },
+ {
+  "id": "MEC-043",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral: com a redução da produção, a carga base (energia não produtiva) afeta o consumo específico; a causa nomeada é a redução do volume de produção.",
+  "evidencia": "when a production volume is decreased, energy consumption which does not contribute to the production volume (called as baseload) has effects"
+ },
+ {
+  "id": "MEC-044",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral: o SEC como EnPI pode anular o efeito das ações de eficiência quando a produção cai; o indicador não é significativo tal como definido.",
+  "evidencia": "If specific energy consumption is identified as EnPI, decreasing production volume might make to cancel out the effect of energy efficiency activities"
+ },
+ {
+  "id": "ADP-025",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O 'Dynamic targeting' cria modelos ajustados a modos de operação, crude e produção, o que sugere baseline segmentada ou variáveis adicionais; não se diz que os modelos são reestimados online. Enquadramento talvez explícito ('same as the method of ISO 50001').",
+  "evidencia": "this function creates calculation models which are fitted to them and manages finely with setting the detail targets"
+ },
+ {
+  "id": "ADP-026",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A JEITA sugere indicadores de 'resultado de esforços', baseados na ISO 50006, em vez do SEC descrito antes; a ligação explícita é ao problema do SEC no parágrafo anterior, que abrange K1 (carga base) e também K2.",
+  "evidencia": "JEITA has been suggesting the indicators which can be shown result of efforts, not the indicator described above ... based on ISO 50006"
+ },
+ {
+  "id": "MOD-058",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Descrição do exemplo da Saudi Aramco sem informação sobre a origem dos dados de energia.",
+  "evidencia": "This tool has a dashboard for displaying EnPIs values, energy costs, energy savings of equipment, and so on."
+ },
+ {
+  "id": "MOD-059",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Nenhuma informação sobre a fronteira de medição no exemplo descrito.",
+  "evidencia": "This tool has a dashboard for displaying EnPIs values, energy costs, energy savings of equipment, and so on."
+ },
+ {
+  "id": "MOD-060",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os modelos são 'ajustados' a modos de operação e alterações, mas o texto não diz quando nem como são refeitos; 'online or adaptive' é inferido do nome 'Dynamic targeting' (seria talvez 'not stated').",
+  "evidencia": "Focusing on the energy specification changing by the operating modes ... this function creates calculation models which are fitted to them"
+ },
+ {
+  "id": "MEC-100",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A falta de padronização (energia final vs primária, referências de baseline diferentes) dá resultados diferentes ao analisar registos de vários países; é comparabilidade dos KPIs no caso, embora fronteiriça com barreira de reporte.",
+  "evidencia": "different results when trying to analyse records received from different countries (e.g. savings reported either in final or primary energy, different references for baseline"
+ },
+ {
+  "id": "MEC-101",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Qualidade heterogénea das poupanças reportadas (medidas vs estimadas), com a consequência declarada de resultados pouco fiáveis; a categoria 'missing/erroneous' encaixa só parcialmente.",
+  "evidencia": "in others deemed savings are considered enough, so leading to unreliable results"
+ },
+ {
+  "id": "ADP-064",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other",
+   "framing": "implicit"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "Recomenda ter o consumo de baseline do processo por vetor para escalar (toe/t de produto), o que é normalização por unidade de produto e não conversão para um produto de referência. Usa vocabulário de baseline, logo enquadramento implícito.",
+  "evidencia": "it could be useful to have the process baseline consumption for each energy carrier to scale it to the desired technology (e.g. toe/ton of product)"
+ },
+ {
+  "id": "MOD-105",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação não fala da origem dos dados; nas páginas disponíveis a origem só se descreve como poupanças medidas ou estimadas conforme o país, sem categoria de medição reportada.",
+  "evidencia": "while in some countries savings will be measured and periodically reported ... in others deemed savings are considered enough"
+ },
+ {
+  "id": "MOD-106",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação trata de bases de reporte diferentes (energia final/primária, referências de baseline), não de um desfasamento entre a fronteira medida e a do modelo; seria provavelmente 'not reported'.",
+  "evidencia": "savings reported either in final or primary energy, different references for baseline, different ways of evaluating technical life"
+ },
+ {
+  "id": "MOD-107",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A base de dados usada nas análises está publicamente acessível e descarregável na plataforma EIEEP.",
+  "evidencia": "Through the platform, this is, at the present moment, the largest publicly available database of EE projects in Europe."
+ },
+ {
+  "id": "MEC-098",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Mostrado com os resultados (Figs. 4-6): muitas eficiências CCR ficam próximas de 1 e não discriminam a ordenação; os autores reconhecem a limitação do CCR.",
+  "evidencia": "many calculated values of CCR model are close to 1, so it is difficult to rank ... shortcomings of CCR model in ranking results"
+ },
+ {
+  "id": "MEC-099",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Afirmado sobre o modelo EPI deste estudo ao interpretar os resultados: não distingue energia fóssil de não fóssil. O extra 'distorting the ranking' não está no texto e poderia ler-se como demonstrado empiricamente.",
+  "evidencia": "primarily because energy input comprises fossil and nonfossil energy; however, the model cannot distinguish between the two energy sources"
+ },
+ {
+  "id": "ADP-063",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O SBM-DEA com pesos de preferência é outro tipo de modelo DEA, não estimação ponderada (o próprio extra diz 'other'); é proposto para investigação futura e liga explicitamente a K1 ('To solve the problem').",
+  "evidencia": "To solve the problem, the SBM-DEA model are proposed, which set different preference weights for input and output"
+ },
+ {
+  "id": "MOD-104",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 1 dá os valores de entrada/saída (CO2, SOx, combustíveis, água) de cada DMU usados nos modelos DEA.",
+  "evidencia": "Table 1 shows the input and output data for producing 1 ton of aluminum by each decision-making unit (DMU)."
+ },
+ {
+  "id": "MEC-029",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A SEC é dada como indicador não fiável por não refletir variáveis influentes, afirmação tirada da literatura (general). A causa 'not stated' é defensável, mas o texto enumera clima, mix de produção e matérias-primas, o que pode justificar outra codificação.",
+  "evidencia": "the simple SEC cannot be reliable indicator ... it does not reflect many of the influential variables related to climate, production mix"
+ },
+ {
+  "id": "MEC-030",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Segunda razão para a SEC não ser fiável: ignora a carga de base; afirmação geral com citação da literatura.",
+  "evidencia": "the second, it does not include the constant segment of energy consumption so called as base load (McLaughlin et al., 2016)"
+ },
+ {
+  "id": "MEC-031",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A frase começa na p.5: baselines simples incorrem em imprecisão e não-linearidade, o que é má especificação; afirmação geral citando EnerNoc. A parte sobre gestores é barreira, mas não anula o mecanismo.",
+  "evidencia": "development of simple baseline usually incurs some degrees of inaccuracy and non-linearity that might be misleading"
+ },
+ {
+  "id": "MEC-032",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O teste de homocedasticidade rejeita a hipótese nula nos dados do estudo, o que indica heteroscedasticidade (empiricamente demonstrado). Contudo, os autores não retiram consequência para o modelo e a hipótese nula testada não é explícita; exige inferência.",
+  "evidencia": "assumption of homoscedasticity of variance tested ... the results (h=1) indicate the rejection of null hypothesis at 5 per cent significance level"
+ },
+ {
+  "id": "MEC-033",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os autores afirmam sobre os seus modelos MLR e ANN que enfrentam drivers desconhecidos, ou seja, variáveis não incluídas/medidas; aplicado ao caso.",
+  "evidencia": "both MLR and MLP ANN models are challenged with unknown drivers"
+ },
+ {
+  "id": "MEC-034",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O texto diz que drivers como fugas, isolamento danificado e fouling não são todos mensuráveis (lacuna de observabilidade no caso). Porém o artigo apresenta-os como sobreconsumos que a EnB deteta, pelo que o estatuto de limitação do modelo é discutível.",
+  "evidencia": "Technically, these drivers are not all measurable and with high probability increase the energy consumption"
+ },
+ {
+  "id": "MEC-035",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Efeito (incerteza dos dados como fonte do erro de previsão) está sustentado, mas a atribuição é afirmada nas conclusões, não mostrada com os dados; logo é 'applied to the case'.",
+  "evidencia": "inherent uncertainty of the acquired data should not be overlooked. This was mainly the source of prediction error recorded for output 2 and 3"
+ },
+ {
+  "id": "MEC-036",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Dados de dias de manutenção/paragem longa eliminados por serem ruidosos e pouco fiáveis (qualidade de dados, com consequência declarada: reduzir erros). A causa manutenção/overhaul como 'operating mode or campaign change' é plausível mas não inequívoca.",
+  "evidencia": "noisy data ... under maintenance or long-term overhaul are eliminated to decrease the errors ... unreliable because the arrangement of running equipment were changing"
+ },
+ {
+  "id": "MEC-037",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Cautela metodológica tirada da literatura sobre o número de camadas escondidas (sub/sobre-parametrização aumenta o erro); general.",
+  "evidencia": "small number of hidden layers increase errors ... more than enough hidden layers may lead to irrelevant noise ... (Kermanshahi and Iwamiya, 2002)"
+ },
+ {
+  "id": "MEC-038",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase apenas declara um pressuposto de desempenho igual entre treino e teste; não afirma nem mostra que a relação do processo muda ao longo do tempo.",
+  "evidencia": "we assumed the same performance between the training and test data sets"
+ },
+ {
+  "id": "ADP-015",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Oito drivers selecionados como variáveis independentes e usados nos modelos (implementado, vocabulário EnPI sem citar a norma). O addresses vazio é conservador, embora a p.3 ligue a SEC sem drivers (K1) à combinação com drivers influentes.",
+  "evidencia": "8 factors were selected as independent variables (inputs), subsequently 3 dependent variables (outputs) are introduced"
+ },
+ {
+  "id": "ADP-016",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Exclusão dos dias de manutenção/overhaul, feita no estudo, na mesma frase que sustenta K8; sem enquadramento normativo.",
+  "evidencia": "The noisy data that belong to the days within which, the plant has been under maintenance or long-term overhaul are eliminated"
+ },
+ {
+  "id": "ADP-017",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "MLR e ANN são comparadas com erros relativos no estudo (evaluated); não é ligada explicitamente a um mecanismo. Citação no resumo (p.1) e repetida nas conclusões.",
+  "evidencia": "when the relative errors are taken into account, performance of ANN models appears fairly superior compared to the MLR model"
+ },
+ {
+  "id": "ADP-018",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "É uma recomendação (proposed) de repetir o ciclo PDCA para atualizar a baseline, que é revisão de gestão e não reestimação online algorítmica; 'other' é mais fiel.",
+  "evidencia": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to find the best performance and continuously upgrade the baseline"
+ },
+ {
+  "id": "ADP-019",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Trabalho futuro com redes recorrentes: proposed, other, sem enquadramento normativo nem ligação a mecanismo. Texto presente na p.14 e no resumo.",
+  "evidencia": "the model could also become completed applying more advanced ANNs such as recurrent neural networks"
+ },
+ {
+  "id": "MOD-027",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "R2/MAPE do MLR, Output 1, calculados no conjunto de teste (10%, 181 dias) separado do treino; OOS reportado.",
+  "evidencia": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets ... 181 data to validate the models performance"
+ },
+ {
+  "id": "MOD-028",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Métricas da ANN LM 1&1 (Output 1) são de teste hold-out, pelo que 'reported' está correto; mas a arquitetura foi escolhida comparando com esses mesmos dados, o que contamina a independência do teste.",
+  "evidencia": "MLP ANN model has been run several times ... compared with actual data to determine the appropriate number of hidden layers"
+ },
+ {
+  "id": "MOD-029",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "R2/MAPE do MLR, Output 2, no conjunto de teste de 181 dias separado do treino; OOS reportado.",
+  "evidencia": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets ... 181 data to validate the models performance"
+ },
+ {
+  "id": "MOD-030",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Métricas da ANN LM 1&1 (Output 2) são de teste hold-out, pelo que 'reported' está correto; mas a arquitetura foi escolhida comparando com esses mesmos dados, o que contamina a independência do teste.",
+  "evidencia": "MLP ANN model has been run several times ... compared with actual data to determine the appropriate number of hidden layers"
+ },
+ {
+  "id": "MOD-031",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "R2/MAPE do MLR, Output 3, no conjunto de teste de 181 dias separado do treino; OOS reportado.",
+  "evidencia": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets ... 181 data to validate the models performance"
+ },
+ {
+  "id": "MOD-032",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Métricas da ANN LM 1&1 (Output 3) são de teste hold-out, pelo que 'reported' está correto; mas a arquitetura foi escolhida comparando com esses mesmos dados, o que contamina a independência do teste.",
+  "evidencia": "MLP ANN model has been run several times ... compared with actual data to determine the appropriate number of hidden layers"
+ },
+ {
+  "id": "MEC-041",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "limitação de âmbito do estudo, não limitação do modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A exclusão das EnPIs de clínquer é uma decisão de âmbito do estudo; o artigo não declara consequência para construir ou confiar no modelo, nem fala de dados insuficientes.",
+  "evidencia": "were not evaluated as part of this study, as the plant does not continuously produce clinker"
+ },
+ {
+  "id": "MEC-042",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Medição do risco de auxiliares a funcionar sem motor poderia melhorar com contadores mais finos: lacuna de observabilidade afirmada sobre o caso, não mostrada com os dados. Discutível se é limitação do modelo (a grandeza é quantificada, só de forma grosseira).",
+  "evidencia": "The measurement of this risk could be improved by installing more refined meters on different components of the equipment."
+ },
+ {
+  "id": "ADP-021",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Linhas de tendência e metas separadas verão/inverno (segmented baseline, implementado) estão sustentadas; o parágrafo usa vocabulário EnPI sem citar a norma, pelo que o enquadramento é implicit, como em ADP-023.",
+  "evidencia": "The other three EnPIs in Table 1 were also monitored ... Due to the use of different tariff structures ... trend lines were generated separately"
+ },
+ {
+  "id": "ADP-022",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Recomendação de instalar contadores mais finos (proposed), ligada explicitamente na mesma frase à medição do risco que sustenta K2.",
+  "evidencia": "The measurement of this risk could be improved by installing more refined meters on different components of the equipment."
+ },
+ {
+  "id": "ADP-023",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Metas ajustadas segundo o desempenho, usando o desempenho dos últimos três meses (p.13-14), o que se aproxima de uma janela móvel. Mas trata-se de metas, não de uma baseline reestimada, e a frequência não é dita; exige inferência.",
+  "evidencia": "targets and budgets are adapted according to performance ... The performance of the past three months is an indicator of the ability of the plant"
+ },
+ {
+  "id": "ADP-024",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Recomendação de trabalho futuro para instalar contadores de carvão (proposed, improved metering); sem norma citada nem ligação explícita a K1/K2.",
+  "evidencia": "To adapt this strategy the critical meters required to continuously monitor coal consumption have to be installed."
+ },
+ {
+  "id": "MOD-052",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "'Rolling window' só por inferência: descreve ajuste de metas de equipamento com base nos últimos três meses, sem dizer quando. Não há evidência nas páginas de que se aplique a esta EnPI de planta (Tabela 3 compara só o primeiro e o último mês).",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MOD-053",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "'Rolling window' só por inferência: descreve ajuste de metas de equipamento com base nos últimos três meses, sem dizer quando. Não há evidência nas páginas de que se aplique a esta EnPI de planta (Tabela 3 compara só o primeiro e o último mês).",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MOD-054",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "'Rolling window' só por inferência: descreve ajuste de metas de equipamento com base nos últimos três meses, sem dizer quando. Não há evidência nas páginas de que se aplique a esta EnPI de planta (Tabela 3 compara só o primeiro e o último mês).",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MOD-055",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Metas setoriais adaptadas segundo o desempenho, com referência aos últimos três meses: janela móvel plausível. Mas o texto fala de metas e não de reestimação da baseline, e não indica periodicidade.",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MOD-056",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Metas setoriais adaptadas segundo o desempenho, com referência aos últimos três meses: janela móvel plausível. Mas o texto fala de metas e não de reestimação da baseline, e não indica periodicidade.",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MOD-057",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Metas setoriais adaptadas segundo o desempenho, com referência aos últimos três meses: janela móvel plausível. Mas o texto fala de metas e não de reestimação da baseline, e não indica periodicidade.",
+  "evidencia": "Targets will be adapted, considering whether it was reachable or not. The performance of the past three months is an indicator"
+ },
+ {
+  "id": "MEC-132",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "indicator not meaningful as defined"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O problema declarado é como corrigir o efeito da taxa de operação na SEC, ou seja, a SEC tal como definida não reflete a taxa de operação. O texto não diz que a relação do processo muda ao longo do tempo.",
+  "evidencia": "open methodological problems were pointed out, such as the issue of how to correct the effect of the operation rate on specific energy consumption"
+ },
+ {
+  "id": "MEC-133",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Entrevistado declara falta de instrumentação na instalação antiga: lacuna de observabilidade no caso (o custo é componente de barreira acessória).",
+  "evidencia": "The biggest challenge is the availability of instrumentation. We have an old facility where there is no extra instrumentation"
+ },
+ {
+  "id": "MEC-134",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Dividir a corrente de um transformador por vários equipamentos é um problema de alocação/fronteira de medição; 'other' é aceitável. Mas 'observability gap' (consumo por equipamento não medido) seria alternativa defensável.",
+  "evidencia": "If you have more than one piece of equipment connected to a transformer, then how do you divide the current?"
+ },
+ {
+  "id": "MEC-135",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Fatores explicativos por identificar e compreender condicionam a construção dos indicadores; 'other' é aceitável. A afirmação é genérica de entrevistado e a ligação ao modelo M1 é fraca.",
+  "evidencia": "Explanatory factors and understanding them continues to be a major issue that requires further work"
+ },
+ {
+  "id": "MEC-136",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Benchmarks externos das SEC das empresas estudadas sujeitos a problemas de comensurabilidade: comparabilidade entre sites, afirmado sobre o caso.",
+  "evidencia": "External benchmarks, although subject to commensurability issues, were available and used in certain industries."
+ },
+ {
+  "id": "MEC-137",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "barreira organizacional (compromisso das pessoas), não limitação do modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A perda de variância dos indicadores é invocada para explicar 'commitment issues' (princípio 'use it and lose it'), uma barreira organizacional e comportamental, não uma limitação do modelo.",
+  "evidencia": "'commitment issues' partially stems from the fact that indicators often lose their variance over time"
+ },
+ {
+  "id": "MEC-138",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "As SEC mensais/anuais das empresas não são corrigidas por fatores explicativos e a explicação das variações depende de raciocínio humano caso a caso; indicador pouco significativo tal como definido.",
+  "evidencia": "These indicators are typically not corrected in reporting with respect to any explanatory factors. Identifying and quantifying the reasons ... rely on human reasoning"
+ },
+ {
+  "id": "ADP-084",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Sugestão de entrevistados para modelação e simulação simples na operação (proposed, other, sem norma, sem ligação explícita a mecanismo).",
+  "evidencia": "There is some need for modelling and simple simulation models to be used for process operation"
+ },
+ {
+  "id": "ADP-085",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Desejo de desenvolver a tecnologia de medição (proposed, improved metering); não ligado explicitamente a K2 nem a norma.",
+  "evidencia": "the interviewees expressed a wish for the further development of measurement technology, general guidelines and public demonstration"
+ },
+ {
+  "id": "MEC-055",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Condição geral com citações: a equação linear só é EnB se a relação for adequada; é mais uma condição de validade do que uma limitação declarada, o que torna a codificação como mecanismo discutível.",
+  "evidencia": "Siempre y cuando la relación entre las variables analizadas sea adecuada se considera esta ecuación como la Línea de Base Energética [4], [7-8]"
+ },
+ {
+  "id": "MEC-056",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A linha meta mantém a pendiente por se supor que não houve mudança tecnológica, o que implica não-estacionariedade se houver modificação. A frase é metodológica com citações [4],[7] e pode ser 'general' em vez de 'applied to the case'.",
+  "evidencia": "se supone en el momento que no hay ningún cambio tecnológico sobre los equipos, áreas o procesos"
+ },
+ {
+  "id": "MEC-057",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "baseload or non-productive energy",
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "O IC base varia inversamente com a produção por causa do termo Enap/P (energia não associada à produção); o artigo não diz que o indicador perde significado. A propriedade é da equação genérica (5), logo general. Pode nem ser limitação.",
+  "evidencia": "conformado por un término constante (m) y otro que es función de la variable producción (Enap/P) ... función inversa de la variable producción"
+ },
+ {
+  "id": "ADP-035",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Árvore de indicadores base 100 que agrega áreas e equipamentos é desagregação hierárquica, não baseline segmentada por regimes; 'other'. Status proposed e framing implicit estão corretos.",
+  "evidencia": "el indicador de eficiencia base 100 de la empresa sea estructurado a partir de los indicadores ... de las áreas y equipos"
+ },
+ {
+  "id": "ADP-036",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Sete variáveis de controlo identificadas no caso (implementado, other) a partir das líneas base. É mais uma ação de melhoria operacional do que uma adaptação do modelo; sem ligação explícita a mecanismo.",
+  "evidencia": "se identificaron siete variables con el mayor impacto en el consumo de energía en los centros de costos críticos"
+ },
+ {
+  "id": "MEC-078",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "indicator not meaningful as defined",
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "O texto diz que temperatura, humidade, estado da tubagem e configuração da rede afetam muito o cálculo do kWh/Nm3, mas não diz que não são medidos. Descreve a métrica em geral, não o modelo do caso. A causa enumera vários fatores além dos ambientais.",
+  "evidencia": "other parameters (such as the temperature, the humidity, ... the state of the pipelines ...) which heavily affect the energy and volume computation"
+ },
+ {
+  "id": "MEC-079",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A granularidade grosseira dos dados é assumida como limite da previsão (p.5, 'a better granularity should be used'); 'other' é aceitável. A citação em si é sobretudo proposta de melhoria futura, o que enfraquece o estatuto de mecanismo.",
+  "evidencia": "This first attempt can of course be improved, but a better granularity should be used"
+ },
+ {
+  "id": "ADP-050",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Nova EnPI que normaliza também pela produção (Wh/Nm3/ton), comparada com a EnPI1 na Tabela I (evaluated), apresentada explicitamente como resposta à granularidade atual (K2).",
+  "evidencia": "with the current granularity how can we improve the prediction? A new EnPI ... including information on the process"
+ },
+ {
+  "id": "ADP-051",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Proposta de dados mais finos no espaço e no tempo e recolha ao nível do subprocesso (proposed); 'improved metering' é inferência razoável, mas parte é resolução/seleção de dados e não metrologia. Ligação a K2 na mesma frase.",
+  "evidencia": "selecting more location-specific data, with higher temporal granularity ... and a more dedicated data gathering on the production itself (sub-process level)"
+ },
+ {
+  "id": "MEC-007",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os sistemas de vapor e água do caso não têm instrumentos para a sua definição: lacuna de observabilidade afirmada sobre o caso.",
+  "evidencia": "Steam and water systems are the most complicated in the plant, as they lack the instruments needed for their proper definition."
+ },
+ {
+  "id": "ADP-005",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Outliers de paragens descartados no estudo (implemented, outlier exclusion, sem ligação a K1). O parágrafo está enquadrado na 'energy review' da ISO 50001, o que pode justificar framing implicit em vez de absent.",
+  "evidencia": "Variable outliers during shutdowns were discarded to take into account only regular operation."
+ },
+ {
+  "id": "MEC-060",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase sustenta que o SEC não é significativo por si só por depender da taxa de produção; porém a causa nomeada é o consumo base, pelo que 'baseload or non-productive energy' seria um efeito alternativo plausível. Claim general correto (lista de fatores tirada da literatura [7-13]).",
+  "evidencia": "specific energy consumption depends on the production rate when, for example, there is a base energy consumption"
+ },
+ {
+  "id": "MEC-061",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação explícita de que o SEC não tem significado em termos absolutos, derivada da formulação geral do método (eq. 8).",
+  "evidencia": "which shows that the specific energy consumption has no meaning in absolute terms, because it is inversely proportional to the variable consumption ratio k"
+ },
+ {
+  "id": "MEC-062",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Cautela sobre comparação entre instalações tirada da literatura na introdução; efeito e claim corretos.",
+  "evidencia": "a comparison between different installations using energy efficiency indicators can lead to misleading conclusions"
+ },
+ {
+  "id": "MEC-063",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase refere-se à falta de informação nos valores de SEC publicados na literatura (Fig. 11), não ao modelo deste estudo; é uma cautela tirada da literatura, logo general.",
+  "evidencia": "A literature analysis has revealed a lack of information on some important factors that can affect energy efficiency"
+ },
+ {
+  "id": "MEC-064",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "alta",
+  "duvida": true,
+  "razao": "Afirmação genérica sobre a dificuldade do benchmarking com SEC em qualquer processo industrial, não sobre o modelo do caso.",
+  "evidencia": "the benchmarking of energy use in an industrial process is not an easy task, because SEC is affected by many factors"
+ },
+ {
+  "id": "MEC-065",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Valor calculado com o modelo ajustado do caso (eq. 18) mostra o SEC a subir 13% sem mudança de eficiência marginal; é um cenário hipotético, pelo que 'empirically demonstrated' é defensável mas não inequívoco.",
+  "evidencia": "the SEC would rise to 1.66 MWh/t (+13%) ... only because of the greater influence of the base energy consumption at a lower pull rate"
+ },
+ {
+  "id": "MEC-066",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os dados diários do caso mostram relação não linear (eq. 31) que o modelo linear mensal esconde por agregação; má especificação demonstrada com dados do estudo.",
+  "evidencia": "This nonlinear energy characteristic seems to be in contrast with the linear relationship obtained using monthly data"
+ },
+ {
+  "id": "MEC-067",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A causa (prática de fusão sequencial) está nomeada e a variação é mostrada com dados do caso (Tabela 3, eq. 31); contudo a mudança é entre práticas operatórias e não necessariamente temporal, e o artigo trata-a com modelo não linear (possível 'statistical misspecification').",
+  "evidencia": "the marginal efficiency does change depending on the melting practice, such as in sequential melting"
+ },
+ {
+  "id": "MEC-068",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A exigência de que o modelo se refira ao período mais recente e estável implica caducidade da baseline; enunciado metodológico geral.",
+  "evidencia": "it is essential that the mathematical model should refer to the most recent and stable period (reference period or setup period)"
+ },
+ {
+  "id": "MEC-069",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral de que a eficiência térmica não é indicador adequado quando o output tem conteúdo energético desprezável.",
+  "evidencia": "thermal efficiency (2) is not a suitable indicator for processes in which the output has a negligible energy content"
+ },
+ {
+  "id": "MEC-070",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Efeito multi-produto e claim general sustentados; a causa 'product mix' está nomeada como diversidade de produtos, mas o texto não fala de mudança do mix.",
+  "evidencia": "a production site may make various types of products, each with its own energy intensity factor"
+ },
+ {
+  "id": "ADP-038",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": "K3"
+  },
+  "confianca": "alta",
+  "duvida": true,
+  "razao": "O parágrafo liga explicitamente a regressão multivariada ao problema da introdução de comparar instalações quando várias variáveis influenciam a eficiência, que é o K3.",
+  "evidencia": "another aspect outlined in the introduction, regarding the problem of comparing different installations ... when a range of variables influence"
+ },
+ {
+  "id": "ADP-039",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": "K9"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase anterior justifica explicitamente as ferramentas SPC (CUSUM) com a necessidade de o modelo referir o período recente e estável, ou seja K9. O CUSUM vem de trabalho anterior e não é aplicado aqui; 'change-point' seria rótulo alternativo a 'other'.",
+  "evidencia": "model should refer to the most recent and stable period ... should be complemented with other statistical process control tools ... tabular CUSUM"
+ },
+ {
+  "id": "ADP-040",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "absent"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Adaptação aplicada ao caso (SEC global 675 kWh/t com k = 0,91) e ligada ao K1; mas o artigo não usa vocabulário EnPI/EnB nem cita a norma para esta adaptação, pelo que o framing é absent.",
+  "evidencia": "it should be complemented with another indicator e for example, the variable consumption ratio k ... since, in general, SEC depends on the production rate"
+ },
+ {
+  "id": "ADP-041",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Recomendação (proposed) ligada à comparação entre sites afetada pelo nível de produção; a ligação a K3 é de substância, sem remissão explícita à frase da introdução.",
+  "evidencia": "The effect of production on efficiency should be removed when comparing different sites ... comparison of technologies should be performed at full capacity"
+ },
+ {
+  "id": "ADP-042",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Uso de dados diários implementado (eq. 31, Fig. 13) e ligado explicitamente à variação da eficiência marginal com a prática de fusão (K8).",
+  "evidencia": "the marginal efficiency does change depending on the melting practice ... This aspect can be addressed through an energy characterisation of the furnace, using daily data"
+ },
+ {
+  "id": "ADP-043",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other",
+   "framing": "absent"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Trata-se de alocar o consumo entre produtos segundo a ISO 14044, não de normalizar para um produto de referência; a norma citada não é ISO 50001/50006 e o artigo não usa vocabulário EnPI, logo framing absent.",
+  "evidencia": "allocation of the energy consumptions is stipulated among the products, for example in accordance with the steps outlined in LCA standard ISO 14044"
+ },
+ {
+  "id": "MEC-111",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Os pressupostos fortes (forma funcional adequada e características completas) correspondem a risco de má especificação da abordagem do estudo; porém a frase aplica-se a todos os modelos, não só ao M1.",
+  "evidencia": "conditional on the assumption that the function used ... is a reasonable approximation ... These are admittedly strong assumptions."
+ },
+ {
+  "id": "MEC-112",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Variável hipotetizada (dureza e humidade do calcário) não medida de forma consistente, logo lacuna de observabilidade no modelo de cimento. A causa 'feedstock quality' está nomeada, embora como diferença entre fábricas e não como mudança.",
+  "evidencia": "hardness and moisture content of the limestone is hypothesized to influence energy use, but no consistent data is available for this"
+ },
+ {
+  "id": "MEC-113",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase descreve falta de precisão para estimar o efeito HVAC quando é pequeno, o que é mais um problema de poder estatístico do que de má especificação; 'other' seria alternativa.",
+  "evidencia": "the statistical approach may not be able to measure the effect accurately enough to meet tests for reliability"
+ },
+ {
+  "id": "MEC-114",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "applied to the case"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A explicação para o outlier das pulp mills (energia comprada líquida, autoprodução) é conjetural ('may'), não demonstrada com dados; é afirmação aplicada ao caso. O efeito 'cross-site comparability' é discutível (poderia ser fronteira/indicador).",
+  "evidencia": "the study for pulp mills measures the efficiency of net purchased energy ... There may actually be a wide range of practices"
+ },
+ {
+  "id": "MEC-115",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A conclusão afirma que a intensidade simples sobrestima a gama de eficiência; efeito sustentado, mas a afirmação é quase geral e não demonstrada no artigo.",
+  "evidencia": "recognizing that the variance of simple energy intensity would overstate the range of efficiency"
+ },
+ {
+  "id": "MEC-116",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: qualidade de dados sem consequência declarada para o modelo (prática de limpeza/amostra)",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Descreve apenas exclusão de observações por dados em falta/outliers, sem declarar consequência para construir ou usar o modelo; o parágrafo diz até que as amostras são quase completas.",
+  "evidencia": "some data is dropped due to missing variables from incomplete reporting or other data quality screens such as for extreme outliers"
+ },
+ {
+  "id": "MEC-117",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Cautela geral, citando Freeman et al., sobre indicadores baseados em valor/preço; efeito e claim corretos.",
+  "evidencia": "there are many challenges with creating efficiency measures based on price indexes, cost, and other value measurements"
+ },
+ {
+  "id": "MEC-118",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmação geral de que o consumo depende do nível e mix de produtos, na secção sobre product mix; efeito multi-produto e causa nomeada.",
+  "evidencia": "the energy use of the plant will depend on the level and mix of products produced"
+ },
+ {
+  "id": "ADP-071",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Segmentação por coortes de produto é implementada (vidro plano e de embalagem com modelos separados na Tabela 2) e ligada ao product mix (K8); o rótulo 'segmented baseline' é aplicado a segmentação transversal e não temporal.",
+  "evidencia": "One approach to controlling for product mix is to segment the industry into cohorts based on product categories"
+ },
+ {
+  "id": "ADP-072",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Normalização multivariada implementada; a ligação a K5 é explícita apenas na conclusão (p. 19), e o framing implicit é sustentado pelo uso do termo EnPI sem citar a norma para esta adaptação.",
+  "evidencia": "these studies use a multivariate approach to normalization where multiple effects are simultaneously considered"
+ },
+ {
+  "id": "ADP-073",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "evaluated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O modelo de fronteira estocástica é comparado com OLS por teste de razão de verosimilhanças em cada setor, o que corresponde a 'evaluated' e não só 'implemented'.",
+  "evidencia": "Standard statistical tests (likelihood ratio) are used to decide if the frontier or ordinary least squares are appropriate"
+ },
+ {
+  "id": "ADP-074",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação só relata heteroscedasticidade; a implementação resulta da Tabela 2 ('heteroscedastic OLS') e das eq. 8-10 com variância função da produção, mapeada para 'weighted estimation' por inferência.",
+  "evidencia": "Two of the log normal models exhibit heteroscedastic distributions with variance declining with respect to production volumes"
+ },
+ {
+  "id": "ADP-075",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": ""
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A atualização do ano de benchmark é reportada (Tabela 3), mas o artigo não a liga ao K1 (pressupostos fortes do modelo); a ligação foi inferida.",
+  "evidencia": "The process of benchmarking and rebenchmarking a sector provides further insights into the improvement potential of the industry over time"
+ },
+ {
+  "id": "MOD-122",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O artigo reporta que três estudos começaram a ser atualizados em 2010, mas não diz quando nem porquê (nenhum gatilho ou intervalo declarado).",
+  "evidencia": "In the 2010, three previously completed case studies ... began to be updated"
+ },
+ {
+  "id": "MOD-123",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Tal como para M1, a atualização do benchmark (auto, corn refining) é relatada sem gatilho nem intervalo declarados.",
+  "evidencia": "In the 2010, three previously completed case studies ... began to be updated"
+ },
+ {
+  "id": "MEC-051",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Causa (desgaste) nomeada e o contexto liga a mudança à reanálise automática das normas; mas a frase afirma declínio dos índices, o que também se lê como 'non-stationarity of the relationship'.",
+  "evidencia": "existing equipment undergoes wear ... i.e., the energy-efficiency indices decline. The Energy Guide program automatically analyzes the norms"
+ },
+ {
+  "id": "MEC-052",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Causa (operação fora do regime de projeto por mudança do plano de produção) nomeada; efeito baseline drift defensível pelo contexto de normas dinâmicas, mas 'non-stationarity' seria alternativa.",
+  "evidencia": "operated outside of its design regimes due to a change in production plans, i.e., the energy-efficiency indices decline"
+ },
+ {
+  "id": "MEC-053",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A variabilidade do consumo específico leva o artigo a exigir uma norma de comparação, o que sustenta por inferência que o rácio simples não é significativo; a variação é mostrada na Fig. 2, pelo que o claim poderia ser 'empirically demonstrated'.",
+  "evidencia": "unit composition of electric power can vary quite broadly (Fig. 2). In order to analyze actual values ... it is necessary to establish a norm"
+ },
+ {
+  "id": "MEC-054",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Por inferência: o modelo de um só fator só é adequado para equipamento simples e há muito maior precisão com normas multifatoriais; afirmação geral.",
+  "evidencia": "one-factor statistical model – the volume of production – are adequate for simple equipment. More complex statistical models ... allowance for several influencing factors"
+ },
+ {
+  "id": "ADP-032",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Modelos multifatoriais (produção e temperatura ambiente) implementados no software e contrapostos ao modelo de um fator (K4); framing implicit razoável dado que a ISO 50001 só é citada em geral.",
+  "evidencia": "More complex statistical models are constructed with allowance for several influencing factors. As an example, Fig. 3 shows a two-factor model"
+ },
+ {
+  "id": "ADP-033",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Reestimação automática e recálculo das normas implementados; porém é periódica com período escolhido pelo utilizador (não claramente 'online'), e a ligação ao K1 vem do parágrafo da p. 4.",
+  "evidencia": "runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms"
+ },
+ {
+  "id": "ADP-034",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "adaptation": "other"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase refere redes neuronais ou modelos físicos como alternativas de menor erro, citando [4,5]; não descreve um modelo híbrido físico-estatístico.",
+  "evidencia": "including those which make use of the theory of artificial neural networks or various physical models of equipment"
+ },
+ {
+  "id": "MOD-066",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O M2 (Fig. 3) foi calculado noutro programa (Koptsev); a 'atualização contínua' do resumo refere-se à abordagem Energy Guide, não se sabendo o regime deste modelo.",
+  "evidencia": "Fig. 3 ... The norm was calculated in the program 'Normalizing Electric-Power Consumption at Factories'"
+ },
+ {
+  "id": "MOD-067",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O Energy Guide reestima e recalcula as normas automaticamente; contudo é descrito como periódico com período definido pelo utilizador, o que fica entre 'online or adaptive' e 'periodic'.",
+  "evidencia": "runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms"
+ },
+ {
+  "id": "MOD-068",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Mesmo fundamento que M3 (norma de gás do Energy Guide): recálculo automático mas periódico com intervalo não declarado.",
+  "evidencia": "runs models periodically based on a time period chosen by the user, chooses the best-performing model, and recalculates the existing norms"
+ },
+ {
+  "id": "MEC-093",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O EI monetário subiu por queda do preço do produto, mostrado com valores do caso; indicador não significativo, causa nomeada.",
+  "evidencia": "The EI of the company reached a value of 0.48 t.o.e. per thousand EUR because of the extreme drop in the price of the production"
+ },
+ {
+  "id": "MEC-094",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: barreira de política/financiamento (âmbito do auxílio de Estado)",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase critica o âmbito do mecanismo de auxílio de Estado (só eletricidade) e pede um novo esquema de apoio; não afirma limitação do EnPI de consumo específico de eletricidade.",
+  "evidencia": "the SA mechanism only applies for electricity use ... A novel State Aid Mechanism ... is needed"
+ },
+ {
+  "id": "MEC-095",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: descrição da variação sazonal sem consequência declarada para o modelo",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Descreve apenas a sazonalidade do consumo elétrico do cimento (procura da construção) na Fig. 1, sem consequência declarada para o EnPI anual; não há mudança da relação afirmada.",
+  "evidencia": "the cement industry end-user's electricity use is highly influenced by the demand of the construction industry, which is significantly lower in the cold seasons"
+ },
+ {
+  "id": "ADP-060",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Adaptação (EI com preço médio ponderado) comparada com o EI simples e ligada ao K1; o artigo define EI como 'global EnPI' e cita ISO 50001 para a baseline de EnPI, sem a invocar para esta adaptação, logo framing implicit.",
+  "evidencia": "If determined by using a weighted average price, the EI dropped by 4% to a weighted value of 0.38 t.o.e. per thousand EUR"
+ },
+ {
+  "id": "MOD-103",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "As Tabelas I e II dão os dados de base (consumo, produção, valor de produção 2017-2018) usados nos EnPIs, mas os dados de 2020 só aparecem como resultados; 'partial' é inferência razoável.",
+  "evidencia": "TABLE I. SPECIFIC ELECTRICITY USE WITH REGARD TO THE ACHIEVED PRODUCTION - BASELINE ... Aluminium 2017 3,029,382 365,816 8.281"
+ },
+ {
+  "id": "MOD-087",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O artigo não indica a origem dos dados do EnPI corporativo (medidor, historiador, fatura); fala apenas de dados submetidos e de solução online.",
+  "evidencia": "corporate EnPI is defined as the ratio between energy consumption and total production in ton (Mbtu/ton). The online corporate EnPI tracks"
+ },
+ {
+  "id": "MOD-088",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Nenhuma indicação de correspondência entre fronteira de medição e fronteira do indicador corporativo.",
+  "evidencia": "Oil companies utilize the solution to analyze the energy consumption of concerned operating facilities"
+ },
+ {
+  "id": "MOD-089",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Para o EnPI da unidade PTA só é dada a definição GJ/t; a origem dos dados não é reportada e as tendências são confidenciais.",
+  "evidencia": "energy consumed in gigajoule (GJ) over the final product in metric ton ... Due to confidentially, these tracking trends will not be revealed"
+ },
+ {
+  "id": "MOD-090",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A fronteira do EnPI PTA não é descrita.",
+  "evidencia": "lagging EnPI concept of energy consumed in gigajoule (GJ) over the final product in metric ton is used as a basis for EnPI calculation"
+ },
+ {
+  "id": "MEC-071",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Afirmado sobre a monitorização da PPC: o consumo dos motores principais reflete a produção e não a eficiência elétrica do moinho ou forno.",
+  "evidencia": "largely an indication of the process efficiency, in terms of the production ... not a good indication of the electrical efficiency"
+ },
+ {
+  "id": "ADP-044",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A resposta explícita ao K1 são KPIs por etapa e sistemas de monitorização a cobrir motores >1 MW e sistemas >500 kW (medição melhorada, frase adjacente); 'is implementing' indica implementação em curso e a ISO 50001 só é citada para o programa em geral.",
+  "evidencia": "the monitoring systems are being implemented PPC cover every motor larger than 1 MW and every system larger than 500 kW"
+ },
+ {
+  "id": "MEC-119",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação descreve dados de consumo estimados/faturas pouco fiáveis e o parágrafo declara a consequência para a análise. Fica a dúvida se é limitação do modelo ou apenas limitação de acesso a dados do estudo.",
+  "evidencia": "This inconsistency has led to a great difficulty in preparing complete and accurate analysis."
+ },
+ {
+  "id": "MEC-120",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A ausência de um padrão comum impede um benchmark fiável entre empresas, o que sustenta 'cross-site comparability'. É, contudo, mais uma lacuna metodológica do que um efeito sobre um modelo concreto.",
+  "evidencia": "it was not possible to use a common standard to develop a reliable benchmark methodology"
+ },
+ {
+  "id": "MEC-121",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "cross-site comparability",
+   "cause": "other",
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "O artigo não nomeia mudança de modo de operação; aponta diferenças de condições de trabalho entre empresas, o que é sobretudo comparabilidade entre sites. A cautela é atribuída à literatura (Longo et al. 2016), logo 'general'.",
+  "evidencia": "working conditions do not vary significantly between all the enterprises, hence restricting the applications of this approach (Longo et al. (2016))"
+ },
+ {
+  "id": "MEC-122",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O parágrafo liga a perda de significância à heterogeneidade entre empresas e ao pressuposto de retornos constantes à escala, o que sustenta má especificação. A atribuição é hipotética ('can be due').",
+  "evidencia": "This result can be due to the differences between the various firms analyzed; ... it is assumed constant return to scale."
+ },
+ {
+  "id": "MEC-123",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A perda de significância com dados medidos é mostrada na Tabela 1, logo 'empirically demonstrated'. O efeito como má especificação depende da explicação dada logo a seguir (heterogeneidade/CRS) e sobrepõe-se a K4.",
+  "evidencia": "for some sectors, the regression loses its significance. This result can be due to the differences between the various firms analyzed"
+ },
+ {
+  "id": "MEC-124",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "other"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O efeito 'indicator not meaningful as defined' está sustentado. A causa nomeada é a diferença de produtos/volumes entre setores, não uma mudança de mix ou grau de produto ao longo do tempo.",
+  "evidencia": "because of the great difference of the production volumes between the various sectors e.g. ... one ton of paper rather than one ton of metal"
+ },
+ {
+  "id": "MEC-125",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Dados estimados a partir de pressupostos da literatura e a consequência declarada ('falsify the analysis') sustentam o efeito de qualidade de dados aplicado ao caso.",
+  "evidencia": "might have estimated their data starting from some assumption coming from literature; that kind of data would falsify the analysis."
+ },
+ {
+  "id": "MEC-126",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A citação atravessa as páginas 4-5 (interrompida pela legenda da Fig. 3). A falta de instrumentos de medição nas empresas sustenta 'observability gap'.",
+  "evidencia": "not all companies are equipped with the necessary tools and there is not a unique procedure that can determine the power consumption"
+ },
+ {
+  "id": "ADP-076",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "absent"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Medição adicional proposta = 'improved metering', 'proposed' e a ligação a K8 pela frase 'corrective actions' são aceitáveis. O parágrafo não usa vocabulário ISO (EnPI/EnB/variáveis relevantes), logo o enquadramento é 'absent'.",
+  "evidencia": "Greater availability of data from measurements; could be defined a minimum measurement system in order to measure the amount of energy used"
+ },
+ {
+  "id": "ADP-077",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Benchmarks distintos por nível de pressão correspondem a baseline segmentada, proposta como recomendação, sem vocabulário ISO e sem ligação explícita a um mecanismo.",
+  "evidencia": "it would be useful to develop a statistical analysis system that considers the effect of pressure and develop different benchmarks based on the pressure level"
+ },
+ {
+  "id": "ADP-078",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": ""
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Recolher informação de pressão como variável adicional é proposto, mas o artigo não liga explicitamente esta recomendação ao pressuposto de condições de trabalho semelhantes (K3). A ligação foi inferida.",
+  "evidencia": "Some further information about the pressure of compressed air generated."
+ },
+ {
+  "id": "ADP-079",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": ""
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O clustering prévio é proposto e 'other' é adequado, mas o parágrafo não liga explicitamente esta adaptação à ausência de padrão comum (K2).",
+  "evidencia": "Data coming from firms could be used for a preliminary clustering and later perform the analysis cluster by cluster."
+ },
+ {
+  "id": "ADP-080",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Cartas de controlo e CUSUM são recomendadas ('can help'), com vocabulário de baseline no parágrafo e sem ligação a um mecanismo.",
+  "evidencia": "Each company can also develop a baseline ... The regression method using measured data can help firms ... thanks to control charts and CUSUM"
+ },
+ {
+  "id": "MOD-124",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O parágrafo delimita qualitativamente a validade do KPI: serve dentro de cada setor, mas não para comparar desempenhos gerais. Não há limites numéricos.",
+  "evidencia": "That kind of results can be used to begin a benchmark analysis within the single sectors but are not useful to consider the general performances."
+ },
+ {
+  "id": "MOD-125",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A condição de validade (condições de trabalho semelhantes entre empresas) está declarada qualitativamente e sem limites numéricos.",
+  "evidencia": "it is assumed that the working conditions do not vary significantly between all the enterprises, hence restricting the applications of this approach"
+ },
+ {
+  "id": "MOD-126",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O pressuposto de retornos constantes à escala funciona como condição qualitativa de validade da regressão. É, porém, mais um pressuposto do modelo do que um envelope de validade explícito.",
+  "evidencia": "it is assumed that it is possible to scale linearly inputs and outputs, i.e. it is assumed constant return to scale."
+ },
+ {
+  "id": "MEC-072",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: passo de pré-processamento, duplicado de ADP-046/C7",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase descreve um passo de limpeza dos dados simulados (exclusão fora do SOE), não uma limitação do modelo com consequência declarada. O conteúdo já está captado como adaptação (ADP-046) e como envelope C7.",
+  "evidencia": "After collecting the data, data sets were cleaned and validated by excluding abnormal values that were outside the Safe Operating Envelope (SOE)."
+ },
+ {
+  "id": "ADP-045",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase sobre o SEC não cita nenhuma norma. A ISO 50047 aparece noutro parágrafo para a conversão em energia primária, por isso o enquadramento é no máximo 'implicit'. Pode discutir-se se o SEC (o próprio M6) é uma adaptação.",
+  "evidencia": "Specific Energy Consumption (SEC) was used in this work to compare the energy performance of different plants with the same boundaries."
+ },
+ {
+  "id": "ADP-046",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "addresses": ""
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A exclusão de valores fora do SOE é 'outlier exclusion' implementada e sem enquadramento ISO. K1 é a mesma frase reescrita como mecanismo, logo a ligação é circular e não há mecanismo distinto ligado explicitamente.",
+  "evidencia": "data sets were cleaned and validated by excluding abnormal values that were outside the Safe Operating Envelope (SOE)."
+ },
+ {
+  "id": "MOD-069",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A Tabela 2 dá mínimos e máximos numéricos do SOE, que delimitam os dados de treino, e os dados fora do SOE foram excluídos. O artigo apresenta-os como gama de geração de dados, não explicitamente como validade do modelo.",
+  "evidencia": "The values were selected based on the safe operating envelope (SOE) ranges ... as shown in Table 2."
+ },
+ {
+  "id": "MOD-070",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os desvios da Tabela 5 comparam o ML com dados reais de quatro fábricas, não usados no treino (feito com dados simulados), além de haver um teste de 20%. Os valores coincidem (1.4 % / 0.8 % / 6.3 % / 7.3 %).",
+  "evidencia": "the engineering model was tested and evaluated using: the real data obtained from four actual ammonia plants, and the remaining 20 %"
+ },
+ {
+  "id": "MOD-071",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A Tabela 2 dá mínimos e máximos numéricos do SOE, que delimitam os dados de treino, e os dados fora do SOE foram excluídos. O artigo apresenta-os como gama de geração de dados, não explicitamente como validade do modelo.",
+  "evidencia": "The values were selected based on the safe operating envelope (SOE) ranges ... as shown in Table 2."
+ },
+ {
+  "id": "MOD-072",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os desvios da Tabela 5 comparam o ML com dados reais de quatro fábricas, não usados no treino (feito com dados simulados), além de haver um teste de 20%. Os valores coincidem (−0.6 % / −0.9 % / 0.4 % / −0.4 %).",
+  "evidencia": "the engineering model was tested and evaluated using: the real data obtained from four actual ammonia plants, and the remaining 20 %"
+ },
+ {
+  "id": "MOD-073",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A Tabela 2 dá mínimos e máximos numéricos do SOE, que delimitam os dados de treino, e os dados fora do SOE foram excluídos. O artigo apresenta-os como gama de geração de dados, não explicitamente como validade do modelo.",
+  "evidencia": "The values were selected based on the safe operating envelope (SOE) ranges ... as shown in Table 2."
+ },
+ {
+  "id": "MOD-074",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os desvios da Tabela 5 comparam o ML com dados reais de quatro fábricas, não usados no treino (feito com dados simulados), além de haver um teste de 20%. Os valores coincidem (2.3 % / 4.2 % / 3.2 % / 1.2 %).",
+  "evidencia": "the engineering model was tested and evaluated using: the real data obtained from four actual ammonia plants, and the remaining 20 %"
+ },
+ {
+  "id": "MOD-075",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A Tabela 2 dá mínimos e máximos numéricos do SOE, que delimitam os dados de treino, e os dados fora do SOE foram excluídos. O artigo apresenta-os como gama de geração de dados, não explicitamente como validade do modelo.",
+  "evidencia": "The values were selected based on the safe operating envelope (SOE) ranges ... as shown in Table 2."
+ },
+ {
+  "id": "MOD-076",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os desvios da Tabela 5 comparam o ML com dados reais de quatro fábricas, não usados no treino (feito com dados simulados), além de haver um teste de 20%. Os valores coincidem (0.6 % / 0.2 % / 1.5 % / 0.3 %).",
+  "evidencia": "the engineering model was tested and evaluated using: the real data obtained from four actual ammonia plants, and the remaining 20 %"
+ },
+ {
+  "id": "MOD-077",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A Tabela 2 dá mínimos e máximos numéricos do SOE, que delimitam os dados de treino, e os dados fora do SOE foram excluídos. O artigo apresenta-os como gama de geração de dados, não explicitamente como validade do modelo.",
+  "evidencia": "The values were selected based on the safe operating envelope (SOE) ranges ... as shown in Table 2."
+ },
+ {
+  "id": "MOD-078",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Os desvios da Tabela 5 comparam o ML com dados reais de quatro fábricas, não usados no treino (feito com dados simulados), além de haver um teste de 20%. Os valores coincidem (1.2 % / 4.7 % / 0.6 % / −3.4 %).",
+  "evidencia": "the engineering model was tested and evaluated using: the real data obtained from four actual ammonia plants, and the remaining 20 %"
+ },
+ {
+  "id": "MOD-079",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "yes"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "'Available on request' não indica disponibilidade parcial. Os conjuntos de dados completos usados no ML estão no Apêndice C (material suplementar), o que aponta para 'yes'.",
+  "evidencia": "full data sets are shown in Appendix C"
+ },
+ {
+  "id": "MOD-080",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "yes"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "O programa detalhado do ML (scikit-learn) é apresentado no Apêndice D e cobre todos os modelos, logo não se trata de algumas instâncias. Não foi possível verificar o conteúdo do apêndice.",
+  "evidencia": "detailed program is shown in Appendix D"
+ },
+ {
+  "id": "MEC-048",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "claim": "general"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "O efeito 'baseline drift or expiry' está sustentado. A regra dos 3σ faz parte da metodologia genérica (secção 2.3.3) e não é afirmada sobre o modelo do compressor, nem demonstrada com os seus dados.",
+  "evidencia": "If e_m < (e_B − 3σ), the energy baseline model is no longer suitable ... the model needs to be rebuilt"
+ },
+ {
+  "id": "MEC-049",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "cause": "not stated"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase justifica a forma linear por operação junto ao set point, o que é apenas uma condição implícita de validade. O artigo não nomeia nenhuma mudança de modo de operação como causa, e pode até nem ser um mecanismo declarado.",
+  "evidencia": "Since the cracked gas compression unit is working near the set point, it presents linear relationship between EnPI and impact factors"
+ },
+ {
+  "id": "MEC-050",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "É um critério genérico de verificação (R² ajustado abaixo do limiar indica má especificação e obriga a reselecionar a estrutura ou os fatores), por isso 'general'.",
+  "evidencia": "otherwise it is considered that the model fitting is poor; the model structure or impact factors need to be reselected."
+ },
+ {
+  "id": "ADP-030",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "framing": "implicit"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A reconstrução é proposta e ligada explicitamente a K1 na mesma frase. O parágrafo não cita a ISO 50001 para esta regra, apenas usa vocabulário EnPI/baseline/EnMS, logo o enquadramento é 'implicit'. A reconstrução é acionada por evento, e 'online' é uma aproximação.",
+  "evidencia": "the energy baseline model is no longer suitable for estimating the current state of EnPI; the model needs to be rebuilt"
+ },
+ {
+  "id": "ADP-031",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O modelo B-spline para relações fortemente não lineares é proposto no método mas não aplicado no caso (usou-se o modelo linear). Usa vocabulário EnPI e não tem ligação explícita a um mecanismo.",
+  "evidencia": "Therefore, general function forms are proposed to approximate various nonlinear relationships."
+ },
+ {
+  "id": "MOD-061",
+  "citacao_na_pagina": true,
+  "veredicto": "nao_sustenta",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A citação só identifica o vetor (vapor de ultra-alta pressão) e nada diz sobre a origem dos dados. Os dados medidos ao minuto da Tabela 2 sugerem tags de processo, mas a origem não é declarada.",
+  "evidencia": "Energy input for cracked gas compressor unit is ultrahigh pressure steam"
+ },
+ {
+  "id": "MOD-062",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O EnPI usa o caudal de entrada da turbina, mas o artigo não discute a correspondência de fronteira da medição, pelo que 'not reported' é defensável.",
+  "evidencia": "EnPI = turbine inlet flow / K-13005 outlet flow"
+ },
+ {
+  "id": "MOD-063",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "O gatilho da reconstrução está declarado (resíduo médio abaixo de e_B − 3σ) como parte do método proposto.",
+  "evidencia": "If e_m < (e_B − 3σ), the energy baseline model is no longer suitable ... needs to be rebuilt according to the current data."
+ },
+ {
+  "id": "MOD-064",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A operação junto ao set point é dada como condição qualitativa para a linearidade do modelo, sem limites numéricos. É uma justificação da forma do modelo mais do que um envelope explícito.",
+  "evidencia": "Since the cracked gas compression unit is working near the set point, it presents linear relationship between EnPI and impact factors"
+ },
+ {
+  "id": "MOD-065",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "A Tabela 2 mostra apenas alguns minutos dos dados medidos usados no modelo, o que corresponde a disponibilidade parcial.",
+  "evidencia": "Variables defined in detail and parts of the measured data are shown in Table 2."
+ },
+ {
+  "id": "MEC-145",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "effect": "indicator not meaningful as defined"
+  },
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A comparação com uma baseline constante é empírica, mas mostra que uma baseline não normalizada ignora as KIV, não que o modelo caduque e tenha de ser reestimado. 'Adjusting' significa ajustar às condições atuais.",
+  "evidencia": "a constant baseline does not account for the actual values of KIV, and highlighting the importance of adjusting the baseline to current operating conditions"
+ },
+ {
+  "id": "ADP-090",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "alta",
+  "duvida": false,
+  "razao": "Foram eliminados 120 outliers de dias de operação anómala antes do treino: exclusão de outliers implementada, sem vocabulário ISO e sem ligação a um mecanismo.",
+  "evidencia": "120 outliers corresponding to the days where the plant had unusual operation were filtered and deleted from the training sample."
+ },
+ {
+  "id": "ADP-091",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "status": "evaluated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O ajuste da baseline às variáveis de influência foi aplicado e comparado com uma baseline constante (2,03 vs 2,82 GWh), o que corresponde a 'evaluated'. A ligação a K1 é explícita na página 8.",
+  "evidencia": "If a constant baseline value ... is assumed, energy savings would be 2.03 GWh, 28% lower than our proposal"
+ },
+ {
+  "id": "MOD-129",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Variáveis medidas e recolhidas de hora a hora durante 18 meses, num contexto de 'historical data', apontam para tags de historiador. A palavra historian não aparece, e o consumo agregado da PU pode ser calculado.",
+  "evidencia": "45 potential influence variables are selected and collected in an hourly frequency from March 2008 to August 2009"
+ },
+ {
+  "id": "MOD-130",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação não diz nada sobre a correspondência entre a medição e a fronteira da PU, pelo que 'exact' não está sustentado.",
+  "evidencia": "Many variables are measured and collected in the PU. Some are direct measures of energy use, while others could affect it."
+ },
+ {
+  "id": "MOD-131",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "Tal como em MOD-129, a recolha horária de variáveis medidas na PU sugere tags de historiador, mas a fonte do vapor não é explicitada.",
+  "evidencia": "45 potential influence variables are selected and collected in an hourly frequency from March 2008 to August 2009"
+ },
+ {
+  "id": "MOD-132",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not reported"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A citação não sustenta uma fronteira exata para o vapor, e nas páginas disponíveis não há discussão de fronteira.",
+  "evidencia": "Many variables are measured and collected in the PU. Some are direct measures of energy use, while others could affect it."
+ },
+ {
+  "id": "MEC-109",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "baixa",
+  "duvida": true,
+  "razao": "A frase define o leading EnPI como indicador de implementação do EnMS e não de desempenho real. 'other' é defensável, mas é uma propriedade definicional ('general'?) que os autores não apresentam como limitação.",
+  "evidencia": "such tool does not directly measure an actual and reflect an as-is operational data of the companies’ energy performance"
+ },
+ {
+  "id": "MEC-110",
+  "citacao_na_pagina": true,
+  "veredicto": "retirar",
+  "retirar_motivo": "não é limitação do modelo: inferido de recomendação; subjetividade da autoavaliação é barreira organizacional",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "O mecanismo foi inferido de uma recomendação futura ('can be developed'). A subjetividade da autoavaliação é organizacional (pessoas/processo), ou seja, uma barreira e não uma limitação declarada do modelo.",
+  "evidencia": "dedicated computer programming models can be developed if applicable to minimise the subjectivity of the outcome and for document control purposes"
+ },
+ {
+  "id": "ADP-070",
+  "citacao_na_pagina": true,
+  "veredicto": "confirma",
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A recomendação é 'proposed', 'other' e sem vocabulário EnPI/EnB, e liga-se explicitamente à subjetividade na mesma frase. Se K2 for retirado (ver MEC-110), 'addresses' deve ficar vazio.",
+  "evidencia": "dedicated computer programming models can be developed if applicable to minimise the subjectivity of the outcome"
+ },
+ {
+  "id": "MOD-121",
+  "citacao_na_pagina": true,
+  "veredicto": "corrige",
+  "correcoes": {
+   "value": "not stated"
+  },
+  "confianca": "media",
+  "duvida": true,
+  "razao": "A frase descreve a mudança dos pesos PDCA com a maturidade do programa, não quando ou como a baseline é refeita. O regime de reestimação não está declarado.",
+  "evidencia": "as the program progress, the Do and Check will be given the highest weight. Once the program is matured, the Act stage"
+ }
+]

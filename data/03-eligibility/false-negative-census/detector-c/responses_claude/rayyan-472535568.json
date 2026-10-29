@@ -1,0 +1,40 @@
+{
+  "key": "rayyan-472535568",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to an energy-management case in a fertilizer company (fertilizer production is a listed continuous-chemical sector), cited only as a prior example, not the paper's application",
+      "quote": "a case in a fertilizer company allowed finding savings potentials of 16.1%, without new technologies and approximately",
+      "page": 2,
+      "sector": "continuous chemical production (fertilizers)"
+    },
+    {
+      "signal": "Citation in reference list about energy-efficient technologies in the German steel industry (steel/primary metals is a listed sector); appears only as a bibliographic title",
+      "quote": "Diffusion of energy efficient technologies \nin the German steel industry and their impact on energy consumption.",
+      "page": 8,
+      "sector": "steel / primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Main application context is a pyrotubular steam boiler serving an edible vegetable oils and fats refining/production plant (oil refining, not petroleum)",
+      "quote": "a particular case applied to a piro-tubular boiler with a capacity \nof 75,000 lb/h operating in a vegetable oils and fats production \nprocess",
+      "page": 2,
+      "sector": "edible vegetable oil/fats refining"
+    },
+    {
+      "signal": "Referenced boiler performance evaluation in an ethanol production plant (bioethanol production), cited as prior work",
+      "quote": "an evaluation of the boiler performance in \nan ethanol production plant was carried out using an exergy and \nirreversibility analysis",
+      "page": 2,
+      "sector": "ethanol/bioethanol production"
+    },
+    {
+      "signal": "Referenced example in metal-mechanical industry energy savings",
+      "quote": "An example of this can be found in the \nmetal-mechanical industry, where energy savings potentials \nclose to 20% were achieved without changing equipment",
+      "page": 2,
+      "sector": "metal-mechanical (discrete manufacturing)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper applies an ISO 50001 energy-management system and energy performance indicators to an industrial steam boiler in an edible vegetable oils and fats refining/packaging plant; Corpus-B sectors (fertilizers, steel, ethanol) appear only as cited examples/references."
+}

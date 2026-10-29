@@ -1,0 +1,276 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535582",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:04:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Another energetic indicator factor corresponds to the energy baseline, which is obtained from the linear regression of historical data on energy consumption and production; receiving the energy baseline, which has a direct form given by Equation 3.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For the case study, the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "obtain the energy saving results on a boiler from 125.000lb/h steam capacity",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "petrochemical plant",
+      "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 closes the gap between the systemic approach of audits and the general technical-operational approach",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Initially, for the calculation of the energy indicators, statistical data on energy consumption and production are taken into account, called mathematically as an index of real use (ICactual), Equation (1)",
+        "Another energetic indicator factor corresponds to the energy baseline, which is obtained from the linear regression of historical data on energy consumption and production",
+        "The control charts, based and target line are presented, allowing to determine the base 100 indicator."
+      ],
+      "page": [
+        4,
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "steam production"
+      ],
+      "evidence_quote": "the behavior of steam production and gas consumption as input variables were considered to apply the methodology",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_construction_method": {
+      "value": "The baseline was fitted by linear regression of historical energy-consumption and production data. The data were filtered using a final criterion of two standard deviations to obtain a more stable correlation.",
+      "evidence_quote": "When a graph of energy and production was obtained from the data provided, a baseline with an acceptable linear correlation was initially obtained, as the data did not show atypical behavior by than three standard deviations away from the mean. However, filtering of data was carried out in order to establish a more stable correlation; with the purpose of not losing functionality between production and energy when it comes to energy indicators analysis, selecting as final criteria 2 standard deviation.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973  and a target line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "For the case study, the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+      "evidence_quote": "For the case study, the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "Initially, the real and theoretical data of consumption and energy production of the boiler are studied, using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "daily data measurements",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "model_parameters_reported": {
+      "value": [
+        "0.0595",
+        "0.988",
+        "0.0586",
+        "1.3814"
+      ],
+      "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973  and a target line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.973",
+          "unit": null,
+          "period_or_context": "baseline",
+          "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973",
+          "page": 5,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "0.9933",
+          "unit": null,
+          "period_or_context": "target line",
+          "evidence_quote": "a target line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+          "page": 5,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973  and a target line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

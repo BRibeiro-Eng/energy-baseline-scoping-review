@@ -1,0 +1,17 @@
+{
+ "key": "rayyan-472536656",
+ "tier": "A",
+ "ts": "2026-09-10T18:54:38",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "pulp and paper",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 12.3,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "Inquérito de perceções"
+}

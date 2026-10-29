@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536737",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T09:29:45.615949+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper focuses on the interface between industry and its service providers in Finland to describe the current situation of barriers to energy efficiency improvement.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Qualitative interview study describing perceived barriers to energy efficiency improvement in the industry/service-provider interface. Energy performance measurement is mentioned only incidentally as a proposed remedy; no EnPI/EnB model is identified or characterised (no variables, functional form, or construction/estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "The study comprised six case companies representing the pulp and paper, basic metals and petrochemicals industries and a total of 32 personal interviews.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Interviewee sectors (pulp & paper, basic metals, petrochemicals) are an FN-lexicon hit, but the paper presents no EnPI/EnB model; ineligible, so level_3b is not applicable."
+  },
+  "stage2": null,
+  "stage3": null
+}

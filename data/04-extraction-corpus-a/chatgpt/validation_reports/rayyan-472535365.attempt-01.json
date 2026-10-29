@@ -1,0 +1,320 @@
+{
+  "attempt": 1,
+  "errors": [],
+  "grounding": {
+    "checked": 29,
+    "results": [
+      {
+        "beta_variant": "fi",
+        "field": "stage1.methodological_eligibility",
+        "grounded": true,
+        "locator": 2,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.paper_type",
+        "grounded": true,
+        "locator": 16,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage1.level_3b",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.multi_site",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.country_region",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.sector_of_activity",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.type_of_organisation",
+        "grounded": true,
+        "locator": 9,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage2.ems_standard",
+        "grounded": true,
+        "locator": [
+          2,
+          5
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 2,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 5,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage2.enpi_enb_model_types",
+        "grounded": true,
+        "locator": 6,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage3.normalisation_variables",
+        "grounded": true,
+        "locator": [
+          12,
+          12
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 12,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 12,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.baseline_period_start",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.baseline_period_end",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage3.baseline_construction_method",
+        "grounded": true,
+        "locator": [
+          6,
+          6
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 6,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 6,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.validation_types",
+        "grounded": true,
+        "locator": 12,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.scale_of_application",
+        "grounded": true,
+        "locator": 16,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.scope_description",
+        "grounded": true,
+        "locator": 16,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.identifies_model_limitations",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.specific_limitations",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.proposes_treatment_mechanism",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.proposes_adaptations",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.adaptation_types",
+        "grounded": true,
+        "locator": 7,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.normative_framing_of_adaptations",
+        "grounded": true,
+        "locator": 17,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.empirical_refinery_application",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.data_type",
+        "grounded": true,
+        "locator": 10,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "field": "stage3.performance_metrics_reported",
+        "grounded": true,
+        "locator": [
+          12,
+          16
+        ],
+        "non_contiguous": true,
+        "page_unverified": false,
+        "score": 100.0,
+        "substring_results": [
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 12,
+            "page_unverified": false,
+            "score": 100.0
+          },
+          {
+            "beta_variant": "fi",
+            "grounded": true,
+            "locator": 16,
+            "page_unverified": false,
+            "score": 100.0
+          }
+        ]
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.performance_metrics_reported.value[0]",
+        "grounded": true,
+        "locator": 12,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.performance_metrics_reported.value[1]",
+        "grounded": true,
+        "locator": 12,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.performance_metrics_reported.value[2]",
+        "grounded": true,
+        "locator": 12,
+        "page_unverified": false,
+        "score": 100.0
+      },
+      {
+        "beta_variant": "fi",
+        "field": "stage3.performance_metrics_reported.value[3]",
+        "grounded": true,
+        "locator": 16,
+        "page_unverified": false,
+        "score": 100.0
+      }
+    ]
+  },
+  "paper_key": "rayyan-472535365",
+  "valid": true,
+  "warnings": []
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536000",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T11:29:41.035227+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this paper examines the flexible OPC UA standard, particularly concerning its applicability to energy monitoring",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper examines the OPC UA communication/interoperability framework (IEC 62541) and builds a sensor-retrofit prototype for distributed energy monitoring. EnPIs and ISO 50001 are cited only incidentally, as the purpose for which data must be networked; no EnPI/EnB measurement model is presented or characterised (no normalisation variables, functional form, or construction/estimation approach). Falls under the v2.3 ineligibility clause for a tool/framework/software without EnPI/EnB measurement-model content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "As part of a prototypical case study, we carry out a retrofit on a classic energy meter and convert it into a CPS",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Repeated EnPI/ISO 50001 mentions are contextual (data to be networked to 'form EnPIs'), not a model. Rayyan 'Maybe'; eligibility is a judgment call worth human confirmation. No continuous-process sector named, so level_3b is not applicable under the ineligible-paper rule."
+  },
+  "stage2": null,
+  "stage3": null
+}

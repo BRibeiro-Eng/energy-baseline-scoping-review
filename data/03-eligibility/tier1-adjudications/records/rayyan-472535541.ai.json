@@ -1,0 +1,86 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535541",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": null,
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "simple intensity ratio"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "ISO 17743",
+          "other-named"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "Average reduction in per capita energy consumption between year 1 and year 3.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [
+          "pessimism",
+          "preliminary resistance to change",
+          "implementing energy efficiency is not cost-effective or has little financial benefits"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "per capita"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "Finally, Row 9 presents the average reduction valuations of the per capita energy consumptions between year 1 and year 3. The energy reductions were satisfactory and ranged from 16.30% to 42.60%.",
+            "metric": "% energy savings",
+            "non_contiguous_evidence": false,
+            "page": 25,
+            "period_or_context": "average reduction in per capita energy consumption between year 1 and year 3",
+            "unit": "%",
+            "value": "16.30% to 42.60%"
+          }
+        ],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "organisation",
+        "scope_description": "a family compensation fund, a clinic, a municipal hospital, a pharmaceutical laboratory, a port logistics operator, and a glass container production plant",
+        "specific_limitations": [],
+        "validation_types": [
+          "empirical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "maturity model or framework"
+      },
+      "key": "rayyan-472535541",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

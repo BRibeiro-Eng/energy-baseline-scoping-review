@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536419",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:25:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The first performance indicator is SECC, it represents the cost of specific energy consumption (DZD / l), the second performance indicator called SEC, which is the specific energy consumption (kWh / l), for the present case the liter of yogurt.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study focused on a client chosen from among the largest consumers of electrical energy of the National Electricity and Gas Company “Sonelgaz”, which has an industrial unit operating in the agro-food sector, more precisely the manufacture of yogurt, which is referred to as “customer A”.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "an industrial unit operating in the agro-food sector, more precisely the manufacture of yogurt",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Agro-food/yogurt manufacturing is not in the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study focused on a client chosen from among the largest consumers of electrical energy of the National Electricity and Gas Company “Sonelgaz”, which has an industrial unit operating in the agro-food sector, more precisely the manufacture of yogurt, which is referred to as “customer A”.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Algeria",
+      "evidence_quote": "This study proposes an electrical energy management approach in the agro-food sector in Algeria, more specifically yogurt manufacturing.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "agro-food sector",
+      "evidence_quote": "an industrial unit operating in the agro-food sector, more precisely the manufacture of yogurt",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The production of customer A is carried out on production lines where the products go through a succession of well-defined operations, among these operations, some are common for certain products.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.76
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The determination of SEC and SECC is based on electrical measurements and load curves recorded and monitored daily in different stages of the manufacturing process, and only the main inputs and outputs are considered: energy flows, the quantity of products manufactured, and rejects.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

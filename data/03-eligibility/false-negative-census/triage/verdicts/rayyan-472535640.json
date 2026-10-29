@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535640",
+ "tier": "B",
+ "ts": "2026-09-10T16:58:05",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petroleum"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 106.6,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "sem metodologia real"
+}

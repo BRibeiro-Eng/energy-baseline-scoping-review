@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-21">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="occurrences" type="long" />
+    </attributes>
+    <nodes>
+      <node id="AE" label="AE">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="AT" label="AT">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="BE" label="BE">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="BR" label="BR">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="CA" label="CA">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="CN" label="CN">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="CO" label="CO">
+        <attvalues>
+          <attvalue for="0" value="30" />
+        </attvalues>
+      </node>
+      <node id="CU" label="CU">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="DE" label="DE">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+      <node id="DK" label="DK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="EC" label="EC">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="EG" label="EG">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="ES" label="ES">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="FR" label="FR">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="GB" label="GB">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="GR" label="GR">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="ID" label="ID">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="IE" label="IE">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="IN" label="IN">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="IR" label="IR">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="IT" label="IT">
+        <attvalues>
+          <attvalue for="0" value="34" />
+        </attvalues>
+      </node>
+      <node id="JO" label="JO">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="JP" label="JP">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="KR" label="KR">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="LV" label="LV">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="MA" label="MA">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="MX" label="MX">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="MY" label="MY">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="PE" label="PE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="PK" label="PK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="PL" label="PL">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="PT" label="PT">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="RO" label="RO">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="RU" label="RU">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="SE" label="SE">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="TH" label="TH">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="TR" label="TR">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="TW" label="TW">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="UA" label="UA">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="US" label="US">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="VN" label="VN">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="ZA" label="ZA">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="AE" target="JO" id="0" weight="1" />
+      <edge source="AE" target="GB" id="1" weight="1" />
+      <edge source="BE" target="CO" id="2" weight="3" />
+      <edge source="BE" target="CU" id="3" weight="2" />
+      <edge source="CA" target="IT" id="4" weight="1" />
+      <edge source="CN" target="US" id="5" weight="1" />
+      <edge source="CN" target="ES" id="6" weight="1" />
+      <edge source="CN" target="IE" id="7" weight="1" />
+      <edge source="CN" target="GB" id="8" weight="1" />
+      <edge source="CN" target="DE" id="9" weight="1" />
+      <edge source="CO" target="CU" id="10" weight="3" />
+      <edge source="CO" target="ES" id="11" weight="6" />
+      <edge source="CO" target="PE" id="12" weight="1" />
+      <edge source="CO" target="MX" id="13" weight="1" />
+      <edge source="CU" target="PE" id="14" weight="1" />
+      <edge source="DE" target="GB" id="15" weight="1" />
+      <edge source="DE" target="IE" id="16" weight="1" />
+      <edge source="DE" target="US" id="17" weight="1" />
+      <edge source="EC" target="ES" id="18" weight="1" />
+      <edge source="ES" target="US" id="19" weight="1" />
+      <edge source="ES" target="IE" id="20" weight="1" />
+      <edge source="GB" target="TR" id="21" weight="1" />
+      <edge source="GB" target="ZA" id="22" weight="1" />
+      <edge source="GB" target="MY" id="23" weight="1" />
+      <edge source="GB" target="UA" id="24" weight="1" />
+      <edge source="GB" target="IE" id="25" weight="4" />
+      <edge source="GB" target="IT" id="26" weight="1" />
+      <edge source="ID" target="PK" id="27" weight="1" />
+      <edge source="ID" target="PL" id="28" weight="1" />
+      <edge source="IR" target="US" id="29" weight="1" />
+      <edge source="IT" target="RU" id="30" weight="1" />
+      <edge source="MX" target="PT" id="31" weight="1" />
+      <edge source="PK" target="PL" id="32" weight="1" />
+      <edge source="PL" target="RU" id="33" weight="1" />
+      <edge source="PT" target="TR" id="34" weight="1" />
+      <edge source="RO" target="VN" id="35" weight="1" />
+      <edge source="TR" target="ZA" id="36" weight="1" />
+      <edge source="TW" target="US" id="37" weight="1" />
+    </edges>
+  </graph>
+</gexf>

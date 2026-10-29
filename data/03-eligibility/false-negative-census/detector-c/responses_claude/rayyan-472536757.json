@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536757",
+  "listed_sector_signals": [
+    {
+      "signal": "Steel and cement named as examples of process industries (illustrative mention only, not the paper's application context)",
+      "quote": "is less likely to be the case for process industries, like steel or cement.",
+      "page": 5,
+      "sector": "steel and other primary-metals continuous production / cement, lime, clinker"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Wet corn milling / corn refining plants operate continuously 24/7 nearly year-round",
+      "quote": "Typical plants in the US process at least 100,000 bushels per \nday (bu/day, or 2,500 tonne/day) and operate continuously for nearly 365 days per year.",
+      "page": 6,
+      "sector": "corn refining / wet corn milling (food & agricultural processing)"
+    },
+    {
+      "signal": "Corn refining described as a sophisticated continuous process producing sweeteners, ethanol, starch as co-products",
+      "quote": "Wet corn milling (SIC 2046 or NAICS 311221), which is also referred to as corn \nrefining, is a relatively sophisticated process producing a variety of products for the paper, food, \nbeverage and other industries.",
+      "page": 6,
+      "sector": "corn refining / wet corn milling"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically applies stochastic frontier analysis to build an ENERGY STAR energy-performance benchmarking tool for the U.S. wet corn milling (corn refining) industry, a continuous food/agricultural processing sector not among the eight registered Corpus B sectors; steel and cement are only mentioned illustratively."
+}

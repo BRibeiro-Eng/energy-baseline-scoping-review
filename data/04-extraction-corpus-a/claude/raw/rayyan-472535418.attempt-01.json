@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535418",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This study analyzes interim survey results from 24 organizations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "Survey study of organizational perceptions of ISO 50001-based EnMS and decarbonization; no EnPI/EnB measurement model is presented, proposed, evaluated, or critiqued (energy performance referenced only incidentally).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "an online survey of participants in a cohort-based technical assistance program",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Empirical survey of 24 organizations in the DOE 50001 Ready cohort; descriptive statistics, inductive coding, and an N-1 chi-squared test on survey data. No EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

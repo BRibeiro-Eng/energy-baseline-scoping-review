@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536168",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-31T09:23:41Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Total Equipment Energy Consumption / Total Building Area [kWh/m2]",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "An intermediate application layer is developed to manage the dynamic calculation and integration of KPI values into a KG. It processes configuration files (JSON), queries RDF triples using SPARQL, retrieves time series via REST APIs, writes computed KPI values back into the KG. In addition, a web-based dashboard is designed to enable users to interactively explore KPI values, their relationships, and associated building components through an interactive KG.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The prototype is deployed and tested in a real-world smart building environment equipped with a high-resolution sensor network, generating operational data across various energy systems and zones.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Empirical application is in a smart building, outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The data used for this study come from the NEST (Next Evolution in Sustainability Building Technology) demonstrator at Empa. NEST is a modular research and innovation building in which new technologies, materials, and systems are tested under real-life conditions.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "smart building",
+      "evidence_quote": "The prototype is deployed and tested in a real-world smart building environment equipped with a high-resolution sensor network, generating operational data across various energy systems and zones.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The prototype is deployed and tested in a real-world smart building environment equipped with a high-resolution sensor network, generating operational data across various energy systems and zones.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50006:23 provides guidelines for the creation, use, and maintenance of EnPIs, which are quantitative metrics that help identify improvements in energy management.",
+        "In this proof-of-concept study, we apply the approach to calculate EnPIs following the guidelines of the ISO 50005:23"
+      ],
+      "page": [
+        2,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "Total Equipment Energy Consumption / Total Building Area [kWh/m2]",
+        "Peak Power Max. Equipment Energy Consumption [kWh]"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

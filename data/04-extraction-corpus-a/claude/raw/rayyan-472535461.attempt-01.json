@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535461",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:53:52Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "proposing a fast forest quantile regression algorithm to predict the energy demand response",
+        "The parameters selected are production, energy consumption and functioning hours."
+      ],
+      "page": [
+        1,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "This study represents a new hardware, software, and data processing infrastructure for open-pit mines",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "an experimental open-pit mine",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Borderline eligibility: FFQR models energy consumption vs production+functioning hours (EnB-type model embedded in a monitoring/software design); paper never uses EnPI/EnB/baseline terms. Application is an open-pit mine (mining/extractive) with continuous conveyor-based material handling: A9=continuous process chosen as the only definitionally-admissible enum bucket, but mining is unlisted in the closed 3B list, so level_3b=false and flagged for human decision."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "tested on the experimental open-pit mine of Benguerir",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "Benguerir",
+      "evidence_quote": "the experimental open-pit mine of Benguerir",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "sector_of_activity": {
+      "value": "mining industry",
+      "evidence_quote": "mining industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "bucket wheel reclaimers, stackers, draglines, jaw crushers, conveyors, screening and loading stations",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": "ISO 50001 [2], ISO 50006 [29]",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML"
+      ],
+      "evidence_quote": "the fast forest quantile regression can estimate the predictor variable effect based on the mean and conditional quantile",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

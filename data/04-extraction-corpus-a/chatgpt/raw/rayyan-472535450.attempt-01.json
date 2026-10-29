@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535450",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T14:39:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The tool uses regression analysis to establish a normalized baseline of energy consumption and to track the annual progress of intensity improvements, energy savings, and carbon dioxide emission reductions according to a variety of variables that include production, weather, fleet run time, and water main breaks",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Des Moines Water Works (DMWW) is an independently operated public utility providing drinking water to about 600,000 people through three treatment plants in the Des Moines, Iowa, metro area.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Des Moines Water Works (DMWW) is an independently operated public utility providing drinking water to about 600,000 people through three treatment plants in the Des Moines, Iowa, metro area.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Water treatment is the explicit application sector, which is not in the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "providing drinking water to about 600,000 people through three treatment plants in the Des Moines, Iowa, metro area.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Des Moines, Iowa, metro area",
+      "evidence_quote": "three treatment plants in the Des Moines, Iowa, metro area.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "drinking water",
+      "evidence_quote": "public utility providing drinking water to about 600,000 people",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "Des Moines Water Works (DMWW) is an independently operated public utility providing drinking water to about 600,000 people",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "In 2021, DMWW became the only US drinking water utility to have all of its water treatment plants certified to national and internationally recognized energy management standards. These certifications—International Organization for Standardization (ISO) 50001 and Superior Energy Performance (SEP) 50001—were received through a review and audit by an independent certification body.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "Once an organization receives ISO 50001 certification, it can receive SEP 50001 certification and then submit a scorecard to rank higher on the basis of measurement and verification of its energy performance.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The tool uses regression analysis to establish a normalized baseline of energy consumption and to track the annual progress of intensity improvements, energy savings, and carbon dioxide emission reductions according to a variety of variables that include production, weather, fleet run time, and water main breaks",
+        "The electricity EnPI is MMBtu per million gallons pumped."
+      ],
+      "page": [
+        7,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

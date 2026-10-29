@@ -1,0 +1,767 @@
+{
+ "module": "d7c",
+ "kind": "refmap",
+ "blind": true,
+ "title": "D7·C · Mapa de refinação/petroquímica (13)",
+ "registered": "Emenda 3 §4.3",
+ "frame": {
+  "reports": 13
+ },
+ "tasks": [
+  {
+   "id": "rayyan-472536695",
+   "key": "rayyan-472536695",
+   "title": "Development of an energy management system for a naphtha reforming plant: A data mining approach",
+   "year": "2013",
+   "journal": "Energy Conversion and Management",
+   "authors": "Velázquez, D. and González Falcón, R. and Pérez-Lombard, L. and Gallego Fernández, L. and Monedero, I. and Biscarri, F.",
+   "first_author": "Velázquez, D.",
+   "doi": "10.1016/j.enconman.2012.11.016",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535680",
+   "key": "rayyan-472535680",
+   "title": "An energy efficiency evaluation method based on energy baseline for chemical industry",
+   "year": "2016",
+   "journal": "Mathematical Problems in Engineering",
+   "authors": "Yao, D.-M. and Zhang, X. and Wang, K.-F. and Zou, T. and Wang, D. and Qian, X.-H.",
+   "first_author": "Yao, D.-M.",
+   "doi": "10.1155/2016/7087393",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535365",
+   "key": "rayyan-472535365",
+   "title": "Applying machine learning techniques to implement the technical requirements of energy management systems in accordance with ISO 50001:2018, an industrial case study",
+   "year": "2025",
+   "journal": "Energy Sources, Part A: Recovery, Utilization and Environmental Effects",
+   "authors": "Moghadasi, M. and Izadyar, N. and Moghadasi, A. and Ghadamian, H.",
+   "first_author": "Moghadasi, M.",
+   "doi": "10.1080/15567036.2021.2011989",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472536532",
+   "key": "rayyan-472536532",
+   "title": "Energy performance analysis of continuous processes using surrogate models",
+   "year": "2019",
+   "journal": "Energy",
+   "authors": "Beisheim, B. and Rahimi-Adli, K. and Krämer, S. and Engell, S.",
+   "first_author": "Beisheim, B.",
+   "doi": "10.1016/j.energy.2019.05.176",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535550",
+   "key": "rayyan-472535550",
+   "title": "Applying multivariate linear regression and multi-layer perceptron artificial neural network to design an energy consumption baseline in a low density polyethylene plant",
+   "year": "2019",
+   "journal": "International Journal of Energy Sector Management",
+   "authors": "Hamedi, B. and Mokhtar, A.",
+   "first_author": "Hamedi, B.",
+   "doi": "10.1108/IJESM-01-2018-0012",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535524",
+   "key": "rayyan-472535524",
+   "title": "Hierarchical aggregation of energy performance indicators in continuous production processes",
+   "year": "2020",
+   "journal": "Applied Energy",
+   "authors": "Beisheim, B. and Krämer, S. and Engell, S.",
+   "first_author": "Beisheim, B.",
+   "doi": "10.1016/j.apenergy.2020.114709",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535649",
+   "key": "rayyan-472535649",
+   "title": "Energy saving in industrial process based on the equivalent production method to calculate energy performance indicators",
+   "year": "2017",
+   "journal": "Chemical Engineering Transactions",
+   "authors": "Ochoa, G.E. and Cárdenas Escorcia, Y.D. and Ramos, E.S. and Morales, A. and Campos, J.C. and Bakalis, S. and Piazza, L. and Pierucci, S. and Klemes, J.J.",
+   "first_author": "Ochoa, G.E.",
+   "doi": "10.3303/CET1757119",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535582",
+   "key": "rayyan-472535582",
+   "title": "Identification of energy saving potential in steam boiler through an ISO 50001 standard",
+   "year": "2018",
+   "journal": "Journal of Physics: Conference Series",
+   "authors": "Morales, A. and Ochoa, G.E. and Cárdenas Escorcia, Y.D. and V.-Nino, E.D. and V.-Nino, E.D. and Cordero-Diaz, M.C. and Vera-Rivera, F.H.",
+   "first_author": "Morales, A.",
+   "doi": "10.1088/1742-6596/1126/1/012038",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535351",
+   "key": "rayyan-472535351",
+   "title": "Towards sustainable cogeneration in an oil refinery: A synergy between ISO 50001 and ISO 14001 management systems",
+   "year": "2025",
+   "journal": "International Journal of Renewable Energy Development",
+   "authors": "Almanza, F.D.C. and Leon-De-Los-Santos, G.",
+   "first_author": "Almanza, F.D.C.",
+   "doi": "10.61435/ijred.2025.61162",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472535625",
+   "key": "rayyan-472535625",
+   "title": "International standardizations related to energy management and its influences to industrial automation",
+   "year": "2017",
+   "journal": "2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan, SICE 2017",
+   "authors": "Ikeyama, T. and Inoue, K. and Matsui, T. and Takahashi, K. and Ogami, T. and Katada, Y. and Hayashi, H.",
+   "first_author": "Ikeyama, T.",
+   "doi": "10.23919/SICE.2017.8105687",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472536551",
+   "key": "rayyan-472536551",
+   "title": "Leading energy performance indicator: Tracking of energy management systems in oil and gas companies",
+   "year": "2019",
+   "journal": "ASM Science Journal",
+   "authors": "Hashim, K.M. and Hassim, M.H. and Ng, D.K.S. and Ten, J.Y.",
+   "first_author": "Hashim, K.M.",
+   "doi": "10.32802/asmscj.2019.312",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472536518",
+   "key": "rayyan-472536518",
+   "title": "‘Good practices’ to improve energy efficiency in the industrial sector",
+   "year": "2020",
+   "journal": "International Journal of Energy Production and Management",
+   "authors": "Maggiore, S. and Realini, A. and Zagano, C.",
+   "first_author": "Maggiore, S.",
+   "doi": "10.2495/EQ-V5-N3-259-271",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rayyan-472536425",
+   "key": "rayyan-472536425",
+   "title": "PROVEN APPROACHES TO ENHANCE IMPLEMENTATION OF ENERGY MANAGEMENT SYSTEMS AT A LEADING OIL COMPANY",
+   "year": "2022",
+   "journal": "Jurnal Teknologi",
+   "authors": "Hashim, K.M. and Hassim, M.H. and Ng, D.K.S.",
+   "first_author": "Hashim, K.M.",
+   "doi": "10.11113/jurnalteknologi.v84.14995",
+   "fields": [
+    {
+     "id": "c5",
+     "label": "Correspondência da fronteira dos dados de energia (C5)",
+     "options": [
+      "exact",
+      "allocated (by rule or estimate)",
+      "mismatch acknowledged",
+      "not reported"
+     ]
+    },
+    {
+     "id": "c6",
+     "label": "Regime de re-estimação (C6)",
+     "options": [
+      "declared and executed",
+      "declared, not executed",
+      "fixed or not stated"
+     ]
+    },
+    {
+     "id": "c7",
+     "label": "Domínio de validade (C7)",
+     "options": [
+      "numerical bounds",
+      "qualitative",
+      "not stated"
+     ]
+    },
+    {
+     "id": "oos",
+     "label": "Resultado fora da amostra (C8)",
+     "options": [
+      "reported",
+      "not reported",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "tb",
+     "label": "Teste em observações de um período posterior ao do ajuste",
+     "options": [
+      "yes",
+      "no",
+      "not applicable"
+     ]
+    }
+   ]
+  }
+ ],
+ "note": "Valores ocultados durante a leitura, após exposição prévia — não é blind-first."
+}

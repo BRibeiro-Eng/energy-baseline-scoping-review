@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535782",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-29T12:08:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "presents the challenges and benefits of an ISO 50001 imple-\nmentation in an industrial environment as well as the meth-\nodology and systematic approach, but also tools such as \nenergy controlling systems and measurement equipment \nwhich are helpful to achieve energetic transparency.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": "ISO 50001 implementation framework and tools are described, but no EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "the approach to energy management systems \naccording to the ISO 50001 standard has been presented. It \nis an instrument, and a set of systematic methods, to gain \ncontrol over an organization’s energy consumption and \nachieve a sustainable and significant reduction.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The paper mentions establishing a baseline and EnPIs only as ISO 50001 implementation steps; it provides no variables, functional form, or estimation approach."
+  },
+  "stage2": null,
+  "stage3": null
+}

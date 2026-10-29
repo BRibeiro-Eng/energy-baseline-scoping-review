@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535549",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:39:25Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The purpose of the analysis was to assess the effectiveness of its implementation, to identify the existence of gaps and to develop improvements capable of fulfilling the identified gaps",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "The paper analyses the ISO 50001:2011 energy management systems standard, identifies gaps relative to sustainable development, and proposes six standard-requirement changes validated through an expert-opinion online survey (146 experts). It does not present, propose, evaluate, or critique any EnPI/EnB measurement model; energy performance, energy intensity and ROI are mentioned only incidentally as concepts, with no model variables, functional form, or construction/estimation approach identifiable.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "a quantitative and descriptive research method was used",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Standard gap-analysis plus expert-opinion survey (146 experts) validating proposed ISO 50001:2011 improvements; no EnPI/EnB measurement model presented or characterised (ineligible)."
+  },
+  "stage2": null,
+  "stage3": null
+}

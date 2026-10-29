@@ -1,0 +1,127 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536525",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T18:21:41.875074+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "annual energy consumption per square meter of the built area of the hospital",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "build a methodology on how to understand energy \nuses and evaluate energy performance levels",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Hospitals or health care buildings are social facilities \ndesigned to provide care to patients",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Eligibility borderline: conceptual/preliminary paper on hospital EnPIs (kWh/m2/year, kWh/bed/year per ISO 50006), identifies indicators + normalisation variables (built area, beds, workers) but fits no own model. paper_type methodological/theoretical vs review/synthesis (Table II reviews 6 studies) is a human call. level_3b=false: sector is hospitals/health-care buildings, not in the closed continuous-process list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "build a \ngeneral methodology on how to collect and quantify actual \nelectrical energy consumption of hospital buildings",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.3
+    },
+    "country_region": {
+      "value": "Morocco",
+      "evidence_quote": "public health facilities in \nMorocco",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "hospitals",
+      "evidence_quote": "energy efficiency practices to Moroccan \nhospitals context",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Hospitals or health care buildings are social facilities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "ISO 50006-2014",
+        "50001:2018"
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "energy consumption indicator by bed",
+        "a regression analysis was performed",
+        "Multiple indicators from data"
+      ],
+      "page": [
+        2,
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.45
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

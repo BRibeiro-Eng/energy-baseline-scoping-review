@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536729",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:19:12Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "their 2006-2008 average electric use intensities (EUIs – annual electric consumption\ndivided by building ﬂoor area) were similar: 6.89 kWh/ft2/yr at FRHS and\n7.76 kWh/ft2/yr for FCHS.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Two schools within PSD, Fort Collins High School (FCHS) and Fossil Ridge High\nSchool (FRHS) were selected for analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Two schools within PSD, Fort Collins High School (FCHS) and Fossil Ridge High\nSchool (FRHS) were selected for analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Eligible EUI model applied to two institutional school buildings; not a continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "Two schools within PSD, Fort Collins High School (FCHS) and Fossil Ridge High\nSchool (FRHS) were selected for analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Northern Colorado, USA",
+      "evidence_quote": "In the Poudre School District of Northern Colorado, USA, Fort Collins High School (FCHS)\nand Fossil Ridge High School (FRHS) have similar square footages, mechanical systems, and\narchitectural capacities.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "Schools",
+      "evidence_quote": "Keywords Schools, Electricity, Energy consumption",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "buildings with multiple ﬂoor space usages, such as high schools, workspace-\nto-workspace EUI comparisons offer improved energy performance indicators.",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "their 2006-2008 average electric use intensities (EUIs – annual electric consumption\ndivided by building ﬂoor area) were similar: 6.89 kWh/ft2/yr at FRHS and\n7.76 kWh/ft2/yr for FCHS.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

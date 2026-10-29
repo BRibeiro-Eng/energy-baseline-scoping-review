@@ -1,0 +1,289 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536428",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:31:31Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The novel side of this study is: “Specific Compressed Air Saving (SCAS)\" and “Specific Leakage Saving (SLS)\" energy performance indicators for evaluating and monitoring energy efficiency and energy management processes.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "in 44 industrial facilities from different sectors were evaluated.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The relation between the saving amounts and the total production was calculated and given in Table 4 belonging to a steel production facility.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Multi-sector application; Level 3B is supported by the applied steel-production facility."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The energy audits were evaluated separately for each corporation and industrial sector.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "industrial facilities from different sectors",
+      "evidence_quote": "in 44 industrial facilities from different sectors were evaluated.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "in 44 industrial facilities from different sectors were evaluated.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "using the application of ISO 50001 as a strategy for continuous monitoring of energy efficiency, management, and reducing emissions is accepted as a road map.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "While SCAS of the facility was 0.0067 TOE/t, SLS value was calculated as 0.0035 TOE/t.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "amount of product annually"
+      ],
+      "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at the end of the audit, P is the amount of product annually (in kg, ton, l or piece).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "SCAS is constructed as total identified compressed-air-system energy savings from the audit divided by annual production; SLS divides savings from avoided air leaks by production.",
+      "evidence_quote": [
+        "Here ESA is the total amount of energy saved (TOE/year) calculated at the end of the audit, P is the amount of product annually (in kg, ton, l or piece).",
+        "Here, ESCAS denotes the total energy savings that can be achieved from CAS. ESCAS considers all of the identified and calculated energy saving methods from S1 to S8 in the audited facility.",
+        "Where ESL, CAS denotes energy savings by avoiding energy leaks in (TOE/year)."
+      ],
+      "page": [
+        4,
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": [
+        "A, B, and C are correlation constants depending on operation pressure",
+        "R2"
+      ],
+      "page": [
+        3,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "In this study, detailed energy audits were conducted in 44 facilities, and CAS of all companies were inspected.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "scope_description": {
+      "value": "Compressed Air Systems in 44 industrial facilities from different sectors",
+      "evidence_quote": [
+        "in 44 industrial facilities from different sectors were evaluated.",
+        "CAS of all companies were inspected."
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The data of this paper is based on 44 factory from 10 different sector. This work can be distributed on more and varied sectors to make a sectoral generalization.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The data of this paper is based on 44 factory from 10 different sector. This work can be distributed on more and varied sectors to make a sectoral generalization.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "This work can be distributed on more and varied sectors to make a sectoral generalization.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "Air leakages were measured by an ultrasonic air leakage detector during energy audits.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [
+        "At 0.7 bar: A = 2.84 × 10^-4, B = 1.198 × 10^-3, C = -6.53 × 10^-2",
+        "At 1.75 bar: A = 3.93 × 10^-4, B = -2.73 × 10^-3",
+        "At 3.5 bar: A = 5.83 × 10^-4, B = -1.726 × 10^-2, C = 3.01 × 10^-1",
+        "At 5 bar: A = 5.18 × 10^-4, B = -7.23 × 10^-3, C = 2.38 × 10^-1",
+        "At 7 bar: A = 5.86 × 10^-4, B = -1.081 × 10^-2, C = 3.15 × 10^-1"
+      ],
+      "evidence_quote": "A, B, and C are correlation constants depending on operation pressure",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.99",
+          "unit": null,
+          "period_or_context": "Pressure-dependent dB-to-flow-rate empirical correlations in Table 1",
+          "evidence_quote": "0.99",
+          "page": 3,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "R2",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "Employees ignored air leaks that they had already noticed.",
+        "Personnel lacked a solid understanding of energy saving by compressed-air systems."
+      ],
+      "evidence_quote": [
+        "the employee noticed and ignored it beforehand.",
+        "the personnel do not have a solid understanding of energy saving by CAS."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    }
+  }
+}

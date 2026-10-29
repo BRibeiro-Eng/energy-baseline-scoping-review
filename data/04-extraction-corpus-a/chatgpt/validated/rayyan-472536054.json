@@ -1,0 +1,279 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536054",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-30T16:22:47Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The technical content of all identified papers is thoroughly reviewed and their key features and objectives are highlighted.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This paper presents a literature review on methodologies reported in the scientific literature exploring the potential value of industrial data via the utilization of Machine Learning tools for energy efficiency related goals.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The majority of contributions address challenges in petrochemical industries, and namely in ethylene production.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Review spans mixed industrial sectors; Level 3B is true because most characterised applications are petrochemical/ethylene."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "A total of 42 published papers are found to present original contributions in this field, and addressing multiple energy efficiency challenges.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "China, Europe",
+      "evidence_quote": [
+        "China 29",
+        "Europe 7"
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing and process industries",
+      "evidence_quote": "This paper explores the utilization of ML tools in the manufacturing and process industries for EE goals",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "A collection of works in nine other industry types was also identified, though including a limited number of contributions.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The introduction of the ISO 50001 standard in 2011",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML",
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "This paper presents a literature review on methodologies reported in the scientific literature exploring the potential value of industrial data via the utilization of Machine Learning tools for energy efficiency related goals.",
+        "Model: Adaptive Network-based Fuzzy Inference System (ANFIS) and first-principles model for computation of expected power consumption for two distinct technologies given a set of operating requirements.",
+        "Model: Charnes–Cooper–Rhodes (CCR) DEA model to build EE model."
+      ],
+      "page": [
+        2,
+        14,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "ML ensemble",
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": [
+        "Model: Five parallel ELM neural networks, each using a different nonlinear function to transform process inputs. A weight from each network is determined using least squares, to map energy consumption to selected process inputs.",
+        "Model II: Calculation of global EE indicator, by assignment of weights to individual indicators using AHP or Correlation Coefficient (CC)."
+      ],
+      "page": [
+        12,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "production load"
+      ],
+      "evidence_quote": "One of the key focus is assessment of the impact of production load on EE and obtaining meaningful baselines for EE calculation.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Dynamic worst- and optimal-performance baselines for energy-efficiency indicators are calculated by sequential quadratic programming subject to an ANN model.",
+      "evidence_quote": "Baselines: Calculation of dynamic baselines (worst and optimal performance) for EE indicators using Sequential Quadratic Programming (SQP) and subject to developed ANN model.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": "Validation: Data split in training and test sets. R2 for accuracy checks.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "Method applied to ethylene plant, taking crude oil, fuel, steam, water and electricity and output is ethylene production.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "scope_description": {
+      "value": "manufacturing and process industries",
+      "evidence_quote": "This paper explores the utilization of ML tools in the manufacturing and process industries for EE goals",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Some processes may experience dynamic/delay effects, where others may include a huge number of measurements, and possibly subject to systematic bias, or data acquisition errors. Consistent data is key for model development and model accuracy.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Noise affects reliability of results and the confidence of decisions taken. Relates to data measurement and pre-processing.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "ML tools: Fuzzy logic, OLS, PCA, SVC. Other tools: MAF, QR decomposition.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "This tool is an adaptation from the standard FLNN architecture. It uses PCA as a middle step to reduce the potential large number of inputs to the neural network.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "This tool is an adaptation from the standard FLNN architecture. It uses PCA as a middle step to reduce the potential large number of inputs to the neural network.",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "Method applied to ethylene plant, taking crude oil, fuel, steam, water and electricity and output is ethylene production.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Daily data are fused into monthly and yearly data using Hierarchical Variable Variance Fusion (HVVF), yielding energy consumptions for the same technology.",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of awareness, knowledge and experience",
+        "industrial priorities rarely prioritise energy efficiency"
+      ],
+      "evidence_quote": [
+        "there is still a generalized lack of awareness, knowledge and experience in the industry on how to implement these concepts",
+        "Industrial priorities are usually set towards more immediate objectives, and EE is seldom one of the most important priorities set out by enterprises"
+      ],
+      "page": [
+        4,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    }
+  }
+}

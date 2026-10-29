@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535525",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:30:34Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The object of research is the relationship between 4 different standards but has the same space, namely environmental standards and sustainability to reveal the extent to which similarities, differences, operational limits and the potential for merging concepts make it easier for producers or businesses to implement them",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "The paper compares and proposes integration of management and building standards; it only mentions EnPIs generically and does not identify or characterise an EnPI/EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "To obtain more benefits in its application the author would like to propose the incorporation of the implementation of these 4 standards by simplifying them by looking for the linkages of the principles of the 4 standards so that it is easy to implement them.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Qualitative standards-integration framework; no specific EnPI/EnB variables, functional form, or construction/estimation approach."
+  },
+  "stage2": null,
+  "stage3": null
+}

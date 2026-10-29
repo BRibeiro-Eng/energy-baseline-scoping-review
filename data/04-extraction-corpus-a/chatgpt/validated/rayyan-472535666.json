@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535666",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:14:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this context, the main purpose of the present work is the development of a conceptual performance indicator matrix as a tool to assess sustainable energy use in municipal water services, to be used as a decision-making tool toward efficiency.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The proposed matrix was tested using the water supply and wastewater collection systems in the years 2013 and 2014 in the municipality of Loulé (Portugal), and assessed using meta-evaluation.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The proposed matrix was tested using the water supply and wastewater collection systems in the years 2013 and 2014 in the municipality of Loulé (Portugal), and assessed using meta-evaluation.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Applied to municipal water services, which are outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "The Municipal Council of Loulé is responsible for the distribution of tap water starting at six service reservoirs and for collecting and drainage of wastewater until the inlet of 11 WWTPs (Figure 2).",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Loulé, Algarve region, southern Portugal",
+      "evidence_quote": "The municipality of Loulé is located in the Algarve region, southern Portugal.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "sector_of_activity": {
+      "value": "water supply and wastewater collection systems",
+      "evidence_quote": "The proposed matrix was tested using the water supply and wastewater collection systems in the years 2013 and 2014 in the municipality of Loulé (Portugal), and assessed using meta-evaluation.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "The proposed matrix was tested using the water supply and wastewater collection systems in the years 2013 and 2014 in the municipality of Loulé (Portugal), and assessed using meta-evaluation.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "The indicators matrix allows: i) the evaluation and monitoring of energy consumption and CO2 emissions, and ii) the identification of organizational opportunities for improvements and continuous sustainable energy development, integrating ISO 50001 (energy management), ISO 9001 (quality management) and ISO 14001 (environmental management).",
+        "ISO, 2014. ISO 50006:2014. Energy management systems — Measuring energy performance using energy baselines (EnB) and energy performance indicators (EnPI) — General principles and guidance."
+      ],
+      "page": [
+        5,
+        25
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Evaluation throughout the following years will be required to assess the effectiveness and savings (energy, cost, CO2 emissions, and water) of implemented management options aimed at attaining the objectives of 42% reduction in CO2 emissions using 2008 as base year, set out in the National Action Plan for Energy Efficiency.",
+      "page": 20,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "Specific energy consumption (Total energy consumption per production quantity) (=D4)",
+        "This matrix constitutes a short-list of performance indicators (35), oriented toward efficient decision-making."
+      ],
+      "page": [
+        13,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

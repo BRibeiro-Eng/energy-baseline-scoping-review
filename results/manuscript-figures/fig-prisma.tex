@@ -1,0 +1,56 @@
+% PRISMA flow diagram, translated from the dissertation (Figure 3.2), counts unchanged.
+\begin{tikzpicture}[x=1cm,y=1cm,
+  elo/.style={ntcaixa,minimum width=6.15cm,minimum height=1.35cm,inner sep=0pt},
+  titulo/.style={anchor=west,align=left,text=corTinta,font=\fontsize{8.5}{10}\selectfont,inner sep=0pt,text width=4.85cm},
+  detalhe/.style={anchor=west,align=left,text=corCinza,font=\fontsize{7.2}{9}\selectfont,inner sep=0pt,text width=4.85cm},
+  numero/.style={circle,minimum size=5.1mm,inner sep=0pt,draw=corCinzaC,line width=.4pt,fill=white,text=corCinza,font=\fontsize{8}{9}\selectfont},
+  saida/.style={anchor=west,align=left,text=corTinta,font=\fontsize{8.5}{10.5}\selectfont,inner sep=0pt,text width=5.35cm},
+  motivo/.style={saida,text=corCinza,font=\fontsize{7.4}{9.5}\selectfont}]
+  \begin{scope}[on background layer]
+    \fill[corFundo,rounded corners=2pt] (.70,-9.03) rectangle (7.12,1.13);
+    \draw[corCinzaC,line width=.5pt,rounded corners=2pt] (7.48,-9.03) rectangle (13.95,1.13);
+  \end{scope}
+  \node[titulo,font=\scriptsize\bfseries,text width=5.6cm] at (.99,.79) {Selection path};
+  \node[titulo,font=\scriptsize\bfseries,text width=5.8cm] at (7.78,.79) {Removals and exclusions};
+  \draw[corCinzaC,line width=.35pt] (.99,.51) -- (6.82,.51);
+  \draw[corCinzaC,line width=.35pt] (7.78,.51) -- (13.65,.51);
+  \foreach \i/\y in {1/-.43,2/-2.08,3/-3.73,4/-5.38}
+    \node[elo] (n\i) at (3.91,\y) {};
+  \node[elo,draw=corDestaque,line width=.7pt,fill=corDestaque!6,minimum height=2.4cm] (n5) at (3.91,-7.62) {};
+  \foreach \i in {1,2,3,4}
+    \node[numero] at ([xshift=4.5mm]n\i.west) {\i};
+  \node[numero,draw=corDestaque,text=corDestaque] at ([xshift=4.5mm,yshift=6.9mm]n5.west) {5};
+  \node[titulo] at ([xshift=9mm,yshift=3.5mm]n1.west) {Records identified in databases};
+  \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-.2mm]n1.west) {$n=1478$};
+  \node[detalhe] at ([xshift=9mm,yshift=-4.3mm]n1.west) {Scopus: 954 \enspace · \enspace Web of Science: 524};
+  \node[titulo] at ([xshift=9mm,yshift=3mm]n2.west) {Records screened (title and abstract)};
+  \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-2.5mm]n2.west) {$n=925$};
+  \node[titulo] at ([xshift=9mm,yshift=3mm]n3.west) {Reports sought for retrieval};
+  \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-2.5mm]n3.west) {$n=599$};
+  \node[titulo] at ([xshift=9mm,yshift=3mm]n4.west) {Reports assessed for eligibility};
+  \node[titulo,font=\fontsize{9}{10}\selectfont] at ([xshift=9mm,yshift=-2.5mm]n4.west) {$n=459$};
+  \node[titulo,font=\fontsize{8.5}{10}\selectfont\bfseries] at ([xshift=9mm,yshift=7mm]n5.west) {Included --- Corpus A};
+  \node[titulo,text=corDestaque,font=\fontsize{10}{11}\selectfont] at ([xshift=9mm,yshift=2.4mm]n5.west) {$n=331$ publications};
+  \draw[corDestaque!25,line width=.35pt] ([xshift=9mm,yshift=-.8mm]n5.west) -- ([xshift=-3mm,yshift=-.8mm]n5.east);
+  \node[detalhe] at ([xshift=9mm,yshift=-4.4mm]n5.west) {Corpus B: 40, of which 39 charted};
+  \node[detalhe] at ([xshift=9mm,yshift=-8.6mm]n5.west) {Exploratory cases: 13, outside B};
+  \foreach \a/\b in {1/2,2/3,3/4,4/5}
+    \draw[ntseta] (n\a.south) -- (n\b.north);
+  \foreach \i in {1,2,3,4}
+    \draw[ntseta] (n\i.east) -- (7.80,0 |- n\i.center);
+  \node[saida] at (7.96,-.22) {Duplicates removed: $n=553$};
+  \node[motivo] at (7.96,-.65) {Before screening};
+  \node[saida] at (7.96,-1.86) {Records excluded: $n=326$};
+  \node[motivo] at (7.96,-2.29) {Out of scope at screening};
+  \node[saida] at (7.96,-3.50) {Reports not retrieved: $n=137$};
+  \node[motivo] at (7.96,-3.96) {Late duplicates detected: $n=3$};
+  \node[saida] at (7.96,-4.85) {Reports excluded: $n=128$};
+  \node[motivo] at (7.96,-5.30) {No model in sufficient detail: $n=117$};
+  \node[motivo] at (7.96,-5.71) {Ineligible language: $n=10$};
+  \node[motivo] at (7.96,-6.12) {Retracted: $n=1$};
+  \draw[corCinzaC,line width=.35pt] (7.96,-6.42) -- (13.60,-6.42);
+  \node[motivo,font=\fontsize{7.5}{10}\selectfont,text width=5.35cm] at (7.96,-7.03)
+    {Citation searching not performed;\\planned in the protocol (deviation D9).};
+  \node[motivo,font=\fontsize{7.5}{10}\selectfont,text width=5.35cm] at (7.96,-8.08)
+    {Corpus B is a subset of Corpus A.\\The 13 exploratory cases belong to A\\but are excluded from all B counts.};
+\end{tikzpicture}

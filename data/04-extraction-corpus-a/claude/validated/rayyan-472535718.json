@@ -1,0 +1,128 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535718",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-10T17:03:26.755249+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Figure 4 has two regressions of the CHW plant's monthly consumption versus cooling degree days (CDD). The baseline model includes the 24-month period just prior to the retrofit project.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This article recognizes Monroe County's sustainability initiatives, with an emphasis on a hugely successful energy retrofit project at Jackson Square in Key West.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "the application of industrial energy management techniques to the commercial sector",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "'Continuous' wording throughout, but context is county-government commercial buildings (Jackson Square HVAC/chilled-water plant), not a closed-list continuous-process industry; level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Jackson Square consists of four county buildings with a total area of just under 200,000 square feet.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "country_region": {
+      "value": "Key West, Florida",
+      "evidence_quote": "Jackson Square is located in the Old Town section of Key West.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "government facilities",
+      "evidence_quote": "government facilities in Key West",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "Jackson Square consists of four county buildings",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the international standard, ISO 50001 Energy Management Systems",
+        "ANSI/MSE 2000:2008 Management System for Energy which is an Energy Management System"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "SEP M&V"
+      ],
+      "evidence_quote": "SEP Measurement & Verification Protocol",
+      "page": 21,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Figure 4 has two regressions of the CHW plant's monthly consumption versus cooling degree days (CDD)",
+        "The model was refined to include another input which is number of days (NOD). This model has no constant, rather just a coefficient for NOD and another for CDD.",
+        "Another way to present these data is through the use of a control chart. Control charts are often used in industrial energy management to monitor the stability of a process."
+      ],
+      "page": [
+        11,
+        12,
+        16
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

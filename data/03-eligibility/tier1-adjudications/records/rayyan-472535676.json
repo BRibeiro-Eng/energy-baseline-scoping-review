@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "key": "rayyan-472535676",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Rodrigues, A. and Al Masaabi, K. and Jalal, T.",
+    "rayyan_decision": "Maybe",
+    "source": "Society of Petroleum Engineers - Abu Dhabi International Petroleum Exhibition and Conference 2016",
+    "title": "Energy effiency and technology are at the heart of sustainable marine operations",
+    "year": 2016
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "The EEDI requires a minimum energy efficiency level (CO2 emissions) per capacity mile",
+      "page": 3,
+      "rule": "§5.2: EEDI apresentado com mensurando (CO2 por milha de capacidade), variaveis e baseline associada; nao e mencao incidental. Sem exclusao topical (logistica maritima e aerea de petroleo e gas offshore)."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:37"
+}

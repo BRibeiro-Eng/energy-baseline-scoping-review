@@ -1,0 +1,251 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536742",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:22:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The EPI uses stochastic frontier regression to estimate the lowest observed plant energy use, given these factors. This statistical model also provides a distribution of energy efficiency across the industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "At that time, seven companies from three industries, automobile assembly, wet corn refining, and cement manufacturing received awards.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "At that time, seven companies from three industries, automobile assembly, wet corn refining, and cement manufacturing received awards.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Multi-sector application includes automobile assembly plus continuous wet corn refining and cement; Level 3B is based on explicit deployed EPI recognition in continuous sectors."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The data set used to create the model includes 35 plants for 3 years each (1998e 2000) provided by 5 companies, resulting in 105 plant-years",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "US",
+      "evidence_quote": "The auto assembly EPI benchmarks auto assembly plants in the US.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "sector_of_activity": {
+      "value": "automobile assembly, wet corn refining, and cement manufacturing",
+      "evidence_quote": "At that time, seven companies from three industries, automobile assembly, wet corn refining, and cement manufacturing received awards.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "At that time, seven companies from three industries, automobile assembly, wet corn refining, and cement manufacturing received awards.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "other"
+      ],
+      "evidence_quote": "The EPI is a statistical benchmarking tool that provides a \u2018\u2018birds-eye\u2019\u2019 view of sector-specific plant-level energy use via a functional relationship between the level of energy use and the level and type of various production activities, material input\u2019s quality, and external factors, e.g. climate and material quality. The EPI uses stochastic frontier regression to estimate the lowest observed plant energy use, given these factors.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "output and input mix",
+        "plant capacity and utilization",
+        "external factors like weather"
+      ],
+      "evidence_quote": "The types of activities that are included in the EPI are highly industry specific, but may include output and input mix, plant capacity and utilization, and external factors like weather, etc.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_start": {
+      "value": "1998",
+      "evidence_quote": "The data set used to create the model includes 35 plants for 3 years each (1998e 2000) provided by 5 companies, resulting in 105 plant-years",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_period_end": {
+      "value": "2000",
+      "evidence_quote": "The data set used to create the model includes 35 plants for 3 years each (1998e 2000) provided by 5 companies, resulting in 105 plant-years",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "baseline_construction_method": {
+      "value": "Stochastic frontier analysis was fitted to plant-level Census energy and economic-activity data to estimate best-observed energy use while accounting for industry-specific production and structural factors.",
+      "evidence_quote": "The SFA approach simultaneously quantifies the relationship between resource use and production activities while measuring inefficiency in that relationship. The analysis that was conducted to develop the EPI uses plant-level data to assess the impact of various activities on energy use.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "Since the statistical formulation allows us to estimate the standard error of the estimated parameters, the decision to include any of these variables can be driven by the data and model estimates. Conventional statistical tests can determine which factors to include in the normalization and provide confidence intervals for these effects.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The EPI is a statistical benchmarking tool that provides a \u2018\u2018birds-eye\u2019\u2019 view of sector-specific plant-level energy use",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "sector-specific plant-level energy use",
+      "evidence_quote": "The EPI is a statistical benchmarking tool that provides a \u2018\u2018birds-eye\u2019\u2019 view of sector-specific plant-level energy use",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "the EPI score is affected by the random component of vi, i.e. the score will reflect the random influences that are not accounted for by the function f(*).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "the EPI score is affected by the random component of vi, i.e. the score will reflect the random influences that are not accounted for by the function f(*).",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Since we recognize that there may still be errors in data collection/reporting, effects that are unaccounted for in the analysis, and that a linear equation is an approximation of the complex factors that determine manufacturing energy use we still wish to include the statistical noise, or \u2018\u2018random error\u2019\u2019 term, in the analysis, vi, but also add a second random component, ui, which follows a one-sided distribution, to reflect energy inefficiency.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "Some plants may produce a variety of products, making it challenging to construct a meaningful measure of energy efficiency. The approach used by ENERGY STAR solves that challenge and can normalize for these effects. A good example of this is the corn refining industry.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Some plants may produce a variety of products, making it challenging to construct a meaningful measure of energy efficiency. The approach used by ENERGY STAR solves that challenge and can normalize for these effects. A good example of this is the corn refining industry.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "The approach used by ENERGY STAR solves that challenge and can normalize for these effects.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Studies of pharmaceutical, glass, food processing, paper, and petrochemicals are now underway or being planned.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "The data set used to create the model includes 35 plants for 3 years each (1998e 2000) provided by 5 companies, resulting in 105 plant-years",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of full support from certain shops for the corporate energy program"
+      ],
+      "evidence_quote": "one group had refrained from fully supporting the corporate energy program prior to the use of the ENERGY STAR plant energy benchmark.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    }
+  }
+}

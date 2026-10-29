@@ -1,0 +1,67 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535750",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": null,
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "physical model"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing and distribution operations",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [],
+        "baseline_construction_method": "The current furnace heating processes and energy-use situation were modelled using a heat/mass balance.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "audit data",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": false,
+        "implementation_barriers": [],
+        "model_parameters_reported": [],
+        "normalisation_variables": [],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": false,
+        "proposes_treatment_mechanism": false,
+        "scale_of_application": "equipment",
+        "scope_description": "current heating processes of the furnaces",
+        "specific_limitations": [],
+        "validation_types": [
+          "none reported"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472535750",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535700",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:59:06Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This implementation requires the estimation of a mathematical model that expresses the flow rate from the control signal of the solenoid valve and the gas pressure and temperature measurements. Two types of models are studied: LPV (Linear Parameter Varying) model with pressure and temperature as scheduling variables and a non-parametric model based on Gaussian processes.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study focuses on installation of gas boiler with a power of 750kW, located on the Renardi`eres site of EDF R&D near Paris, France.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The objective of this project is to develop and test low-cost non-intrusive sensors to monitor and analyze the energy consumption of major flows used in the manufacturing sector (electricity, gas, compressed air).",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "Empirical boiler model at an EDF R&D site; the paper names only the broad manufacturing sector, not a closed-list continuous-process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study focuses on installation of gas boiler with a power of 750kW, located on the Renardi`eres site of EDF R&D near Paris, France.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "near Paris, France",
+      "evidence_quote": "located on the Renardi`eres site of EDF R&D near Paris, France",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "manufacturing sector",
+      "evidence_quote": "major flows used in the manufacturing sector (electricity, gas, compressed air)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "major flows used in the manufacturing sector (electricity, gas, compressed air)",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The best tools available nowadays are: the international ISO 50001 “Energy Management Systems” standard and the International Performance Measurement and Verification Protocol (IPMVP).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "IPMVP"
+      ],
+      "evidence_quote": "The best tools available nowadays are: the international ISO 50001 “Energy Management Systems” standard and the International Performance Measurement and Verification Protocol (IPMVP).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": "This implementation requires the estimation of a mathematical model that expresses the flow rate from the control signal of the solenoid valve and the gas pressure and temperature measurements. Two types of models are studied: LPV (Linear Parameter Varying) model with pressure and temperature as scheduling variables and a non-parametric model based on Gaussian processes.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

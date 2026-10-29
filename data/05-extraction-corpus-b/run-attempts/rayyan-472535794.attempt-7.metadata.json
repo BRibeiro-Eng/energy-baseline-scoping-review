@@ -1,0 +1,52 @@
+{
+  "key": "rayyan-472535794",
+  "surface": "Claude Code CLI",
+  "prompt_tag": "v2.3.0-C",
+  "started_at": "2026-09-14T17:15:16",
+  "finished_at": "2026-09-14T17:23:49",
+  "returncode": 0,
+  "input_sha256": "9c67627e59082a39ff44c08da7cb61b5d8beed1f2f3e58e332fc567a0175330d",
+  "schema_sha256": "d855254b73a8640b4e13255876a3021ae9da699e1bf04bb4db3d5b2444e883ff",
+  "raw_output": "production/stage_c/claude/work/rayyan-472535794.attempt-7.raw.json",
+  "attempt": 7,
+  "session_id": "4a00f129-a2c5-4f9b-9649-9983a721658e",
+  "models_returned": [
+    "claude-haiku-4-5-20251001",
+    "claude-opus-4-8[1m]"
+  ],
+  "usage": {
+    "input_tokens": 2,
+    "cache_creation_input_tokens": 35331,
+    "cache_read_input_tokens": 20331,
+    "output_tokens": 45521,
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 35331,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 45521,
+        "cache_read_input_tokens": 20331,
+        "cache_creation_input_tokens": 35331,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 35331
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "total_cost_usd": 1.5300585000000002,
+  "duration_ms": 512032,
+  "is_error": false,
+  "status": "error",
+  "error": "applications[0].models[0].C5_measurement[0]: value is 'not reported'/'not applicable' but carries a quote — never justify an absence with a quote: 'Fuel oil and natural gas are the predominant energy sources for\\nmelting [30].'"
+}

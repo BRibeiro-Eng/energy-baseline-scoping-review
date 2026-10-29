@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536720",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:40:13.054946+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents a review on the predictive maintenance approaches, methods and tools in manufacturing systems and proposes an integrated predictive maintenance platform.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": "Paper proposes a predictive-maintenance platform (data acquisition and analysis, knowledge management, and a sustainability maintenance dashboard) and reviews predictive-maintenance/prognostics methods. Energy and environmental performance indicators appear only incidentally, as dashboard-visualisation outputs and as maintenance-planning optimisation criteria (energy costs, energy efficiency). No EnPI/EnB energy-performance measurement or baseline model is identified or characterised: no measured/normalised energy quantity with variables, functional form, or construction/estimation approach. Ineligible per v2.3 (tool/software without EnPI/EnB measurement-model content; incidental EnPI mention).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "proposes an integrated predictive maintenance platform. This platform consists of three pillars, namely data acquisition and analysis, knowledge management, and a sustainability maintenance dashboard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "ARIMA/SDF models here target equipment degradation, RUL and fault detection, not energy performance. Sector is general manufacturing/production systems (not a closed continuous-process sector). Review is of maintenance methods, not EnPI/EnB models, so borderline_review flag not set."
+  },
+  "stage2": null,
+  "stage3": null
+}

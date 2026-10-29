@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535500",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T14:02:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents the requirements for en-\nergy management from the perspective of \nthe International Organisation for Standard-\nisation, European Union and the interna-\ntional and current European legal situation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "No identifiable EnPI/EnB measurement model; the paper discusses standards, directives, PDCA, and monitoring components.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "This paper is organised as follows: section \n2 reviews the legal framework for the en-\nforcement of energy efficiency; section 3 \nproposed an overview of examples how en-\nergymanagement is implemented, section 4 \nis on the result analysis while section 5 is on \nconclusion and future work.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The paper gives generic EnMS monitoring and PDCA examples but no characterised EnPI/EnB model."
+  },
+  "stage2": null,
+  "stage3": null
+}

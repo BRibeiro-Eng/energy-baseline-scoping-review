@@ -1,0 +1,19 @@
+{
+ "key": "rayyan-472535479",
+ "tier": "A",
+ "ts": "2026-09-10T17:11:20",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "petrochemical",
+  "ammonia",
+  "olefin",
+  "steel"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 26.6,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "review de aderencia a iso"
+}

@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536372",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:35:46.657115+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This study investigates the feasibility of implementing a solar-assisted adsorption chiller in an industrial building at the Oriental Weavers International factory",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Incidental EnPI/EnB mention. The paper is a techno-economic feasibility and optimization study of a solar-assisted adsorption chiller (TRNSYS simulation) replacing split-unit AC in an industrial building. Its 'energy performance indicators' are solar-fraction/thermal-power design metrics, and the energy 'baseline' is a pre-retrofit consumption estimate used for savings/CO2 comparison, not an EnPI/EnB measurement model normalising energy performance against relevant variables; no ISO 50001/50006 energy-management context is present.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The objective is to replace an inefficient split air conditioning system currently used",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility (conf ~0.6). Paper has an explicit 'Energy performance indicators' section (solar fraction) and 'establishes a baseline' of existing-AC consumption (EER-degradation model), which broadly read could look like EnPI/EnB content. Called ineligible: these are solar-cooling design/feasibility metrics, not an ISO 50006 EnPI/EnB measurement model. Recommend human blind-first adjudication. level_3b=false regardless (not continuous-process)."
+  },
+  "stage2": null,
+  "stage3": null
+}

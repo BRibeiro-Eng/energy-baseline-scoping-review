@@ -1,0 +1,289 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536695",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T21:37:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a regression model of EPI versus discriminant function is obtained. This model condenses the dependence of energy performance on KIV and will be used to obtain EPI baseline",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "we give details of the application of the DM approach to the planning and checking of the EMS of the naphtha reforming plant",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "Catalytic reforming of heavy naphtha is a key process in the production of gasoline",
+        "stored up or sent to other units of the refinery"
+      ],
+      "page": [
+        2,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "notes": "Single applied case: EnB baseline via DFA + regression (SCPU vs discriminant function F1, R2=0.9029) on a naphtha catalytic-reforming (platforming) unit within a petroleum refinery. level_3b grounded in body text (refining = closed list). Eq.(9) coefficients affected by benign equation-glyph corruption; quotes drawn from clean prose."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "this research focuses on the platforming unit (PU)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "refining",
+      "evidence_quote": "Refining is a high-consuming industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The RU consists of three adiabatic reactors (RX V5, RX V6 and RX V7) in series with intermediate heaters",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "comply with ISO 50001",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "a regression model of EPI versus discriminant function is obtained. This model condenses the dependence of energy performance on KIV",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "input stream to the PU (platforming load)",
+        "delta temperature in PP_V5 reactor",
+        "recycle gas density",
+        "input stream from Aromax unit to debutanizer",
+        "ambient temperature",
+        "delta temperature in PP_V7 reactor"
+      ],
+      "evidence_quote": "A total of six external influence variables are identified, being input stream to the PU and delta temperature in PP_V5 reactor the variables that most influence the EPI",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_start": {
+      "value": "March 2008",
+      "evidence_quote": "collected in an hourly frequency from March 2008 to August 2009",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "baseline_period_end": {
+      "value": "August 2009",
+      "evidence_quote": "collected in an hourly frequency from March 2008 to August 2009",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "baseline_construction_method": {
+      "value": "Data-mining (CRISP-DM) workflow: 45 potential influence variables collected hourly; specific-consumption EPIs (SCPU/SCRU/SCDU) categorised into five groups and the influence variables normalised; Discriminant Function Analysis selected 14 key influence variables and derived a discriminant function F1; a regression of EPI versus F1 was fitted (R2=0.9029 for SCPU) and used to obtain the EPI baseline, adjusted to actual external influence conditions.",
+      "evidence_quote": "In our case a Discriminant Function Analysis (DFA) technique is selected to extract key influence variables (KIVs) from PIV and model EPI against these variables",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "the validation set contains the remaining 9402 records. The first is used to train the model, while the second is used to test its final performance",
+        "strong correlation with F1 (R2 = 0.9029)"
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "this research focuses on the platforming unit (PU)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "scope_description": {
+      "value": "The platforming unit (PU) of a naphtha reforming plant, divided into the reaction unit (RU) where catalytic reforming is carried out and the distillation unit (DU).",
+      "evidence_quote": "The unit might be divided into the reaction unit (RU), where the catalytic reforming is carried out, and the distillation unit (DU)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": [
+        "the application of the DM approach to the planning and checking of the EMS of the naphtha reforming plant",
+        "The EMS was implemented in mid-September 2009"
+      ],
+      "page": [
+        7,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "collected in an hourly frequency from March 2008 to August 2009",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Discriminant function F1 weighting coefficients (Eq. 9): -0.388 (x8), -1.897 (x9), -0.057 (x42), +0.112 (x10), -0.701 (x43), -0.422 (x45), +0.19 (x29), +0.181 (x30), +1.131 (x16), +1.160 (x17), +0.967 (x18), -0.378 (x19), +0.486 (x25), +0.093 (x32)"
+      ],
+      "evidence_quote": "the discriminant function may be written as follows",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.9029",
+          "unit": null,
+          "period_or_context": "SCPU regression model correlation with discriminant function F1",
+          "evidence_quote": "strong correlation with F1 (R2 = 0.9029)",
+          "page": 7,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "4 to 7",
+          "unit": "%",
+          "period_or_context": "monthly achieved savings, post-EMS implementation period",
+          "evidence_quote": "achieved energy savings ranging from 4% to 7%",
+          "page": 8,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": "strong correlation with F1 (R2 = 0.9029)",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "implementation_barriers": {
+      "value": [
+        "Controllable-variable changes to capture energy savings must remain within safety limits set by the plant technical manager to avoid potential risk"
+      ],
+      "evidence_quote": "Plant technical manager sets safety limits for every controllable influence variable to avoid potential risk",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  }
+}

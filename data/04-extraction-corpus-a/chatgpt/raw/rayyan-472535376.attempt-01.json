@@ -1,0 +1,277 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535376",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:44:40Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "we choose the model with the simplest variables, which is the forward multiple regression model without constant, where sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption, and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "thus our case study is based on a sulfuric acid plant where a water energy audit was carried out to provide an energy review for the ISO 50001 Standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP) and utilities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "our case study is based on a sulfuric acid plant where a water energy audit was carried out",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "chemical complex for production of phosphoric acid and fertilizers",
+      "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP) and utilities",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002"
+      ],
+      "evidence_quote": [
+        "the present paper aims to improve the energy efficiency of the water-steam circuit of the sulfuric acid production process following the International Standard ISO 50001",
+        "ISO 50002:2014 Energy audits"
+      ],
+      "page": [
+        1,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "the forward and backward multiple regression approach is used to find the best regression model",
+        "Performance will be expressed in terms of energy production per tonne of sulfuric acid produced, and also in tonne of sulfur burned"
+      ],
+      "page": [
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "pinch analysis"
+      ],
+      "evidence_quote": "Pinch analysis techniques are used to design heat exchange networks for the integration of energy process",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "sulfuric acid production",
+        "12 bar and 5 bar extraction from the turbo-alternator unit"
+      ],
+      "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption, and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Forward and backward multiple stepwise regression were used for variable selection; the final model was the forward multiple regression model without a constant.",
+      "evidence_quote": [
+        "the forward and backward multiple regression approach is used to find the best regression model without examining all possible models",
+        "we choose the model with the simplest variables, which is the forward multiple regression model without constant"
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "The partial F-test statistic is used to determine whether variables are added or deleted",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "The company management team specified the scope of the energy audit as the water-steam circuit",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "the water-steam circuit of the sulfuric acid production process",
+      "evidence_quote": "the present paper aims to improve the energy efficiency of the water-steam circuit of the sulfuric acid production process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "Steam and water systems are the most complicated in the plant, as they lack the instruments needed for their proper definition",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Steam and water systems are the most complicated in the plant, as they lack the instruments needed for their proper definition",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "Steam and water systems are the most complicated in the plant, as they lack the instruments needed for their proper definition",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "an energy diagnosis has been realized in order to analyze the energy consumption of the site using a statistical analysis",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "model_parameters_reported": {
+      "value": [
+        "0.348986",
+        "0.000932678"
+      ],
+      "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption, and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [
+        "lack of understanding, training, recognition and rewards",
+        "difficulty to maintain and acess"
+      ],
+      "evidence_quote": [
+        "lack of understanding, training, recognition and rewards leads to unsatisfactory staff commitment",
+        "they have some limitations as the difficulty to maintain and acess"
+      ],
+      "page": [
+        7,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.97
+    }
+  }
+}

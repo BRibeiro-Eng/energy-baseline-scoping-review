@@ -1,0 +1,261 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536588",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:52:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In this paper, energy intensity will be defined as the energy input divided by the output of lime in metric tonnes, as described by Eq. (18).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": [
+        "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+        "Production\nContinuous\nContinuous\nContinuous"
+      ],
+      "page": [
+        4,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "notes": "The lime factories are explicitly reported as continuous production and therefore fall under continuous chemical production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "lime production industry",
+      "evidence_quote": "This study has presented the energy profiles, intensities, and efficiencies, as well as the pollutant emissions and technological gap, of two representative factories of the lime production industry in Colombia.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "two representative factories of the lime production industry in Colombia",
+        "Production\nContinuous\nContinuous\nContinuous"
+      ],
+      "page": [
+        8,
+        8
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": "Energy balances were made following the ISO-13579 standard",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "The fundamental energy balance equations under the condition of stationary state are:",
+        "energy intensity will be defined as the energy input divided by the output of lime in metric tonnes"
+      ],
+      "page": [
+        5,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "output of lime in metric tonnes"
+      ],
+      "evidence_quote": "energy intensity will be defined as the energy input divided by the output of lime in metric tonnes",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "baseline_construction_method": {
+      "value": "Energy intensity was constructed as energy input divided by output of lime in metric tonnes.",
+      "evidence_quote": "In this paper, energy intensity will be defined as the energy input divided by the output of lime in metric tonnes, as described by Eq. (18).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "The control volume used for the energy and mass balances during the energy audits was the limekiln, as calcination is the most energy demanding stage of the lime production process",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "the limekiln, as calcination is the most energy demanding stage of the lime production process",
+      "evidence_quote": "The control volume used for the energy and mass balances during the energy audits was the limekiln, as calcination is the most energy demanding stage of the lime production process",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "For this study, energy audits were performed at two lime factories in Colombia with a net production of 23,565 tonnes per year.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    }
+  }
+}

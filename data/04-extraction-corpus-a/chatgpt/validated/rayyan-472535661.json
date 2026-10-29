@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535661",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:08:54Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "Therefore, the objectives and main contributions of this paper are as follows: (a) to propose an\napproach for the evaluation of resource utilization capability in EnMS; (b) to identify the needed\nprocesses and resources for operation of an EnMS; (c) to classify resource utilization opportunities\nbased on importance and efficiency; and (d) to prioritize resources and the recommend strategic\ndecisions aimed at increasing resource utilization capability.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": "EnMS resource-utilisation assessment only; no energy-use EnPI or EnB measurement model is identified or characterised.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "In addition, an oil refinery is considered as a case study.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The refinery case is empirical, but the model evaluates EnMS resource utilisation rather than energy performance."
+  },
+  "stage2": null,
+  "stage3": null
+}

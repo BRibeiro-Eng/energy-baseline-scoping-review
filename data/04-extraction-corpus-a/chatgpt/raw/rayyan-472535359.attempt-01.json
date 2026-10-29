@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535359",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:04:55Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Specific Energy Consumption (kWh/MT), representing energy usage per unit of production, ranged from 143.13 kWh/MT to 173.38 kWh/MT, with an average of 159.22 kWh/MT.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Thirty percent of seafood companies under the production capacity of <25 MT/day responded to the structured questionnaire.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This study aims to evaluate the energy efficiency across seafood processing companies in Kerala",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Seafood processing is outside the closed Level 3B sector list; multiple independent companies were sampled."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Thirty percent of seafood companies under the production capacity of <25 MT/day responded to the structured questionnaire.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "country_region": {
+      "value": "Kerala",
+      "evidence_quote": "This study aims to evaluate the energy efficiency across seafood processing companies in Kerala",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "seafood processing industry",
+      "evidence_quote": "The findings reveal that the seafood processing industry faces significant energy challenges, with Specific Energy Consumption (SEC) averaging 159.2 kWh/MT",
+      "page": 13,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Thirty percent of seafood companies under the production capacity of <25 MT/day responded to the structured questionnaire.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "To formulate a strategy for implementing the global standard ISO 50001:2018 for energy management systems",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "Specific Energy Consumption (kWh/MT), representing energy usage per unit of production, ranged from 143.13 kWh/MT to 173.38 kWh/MT, with an average of 159.22 kWh/MT.",
+        "The ANOVA (Analysis of Variance) table (table 5) evaluates the overall significance of a regression model where the dependent variable is Energy Cost per Unit of Production, and the predictors are Total Production and Specific Energy Consumption."
+      ],
+      "page": [
+        4,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  },
+  "stage3": null
+}

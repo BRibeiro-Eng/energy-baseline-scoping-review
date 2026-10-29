@@ -1,0 +1,1598 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-21">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="occurrences" type="long" />
+    </attributes>
+    <nodes>
+      <node id="air conditioning" label="air conditioning">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="alternative energy" label="alternative energy">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="benchmarking" label="benchmarking">
+        <attvalues>
+          <attvalue for="0" value="66" />
+        </attvalues>
+      </node>
+      <node id="buildings" label="buildings">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="carbon" label="carbon">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="carbon dioxide" label="carbon dioxide">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="carbon footprint" label="carbon footprint">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="climate change" label="climate change">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="compressed air" label="compressed air">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="continuous improvements" label="continuous improvements">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="decision making" label="decision making">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="efficiency" label="efficiency">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="electric power utilization" label="electric power utilization">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="electricity-consumption" label="electricity-consumption">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="emission control" label="emission control">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="energy" label="energy">
+        <attvalues>
+          <attvalue for="0" value="57" />
+        </attvalues>
+      </node>
+      <node id="energy assessment" label="energy assessment">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="energy audit" label="energy audit">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="energy baseline" label="energy baseline">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="energy conservation" label="energy conservation">
+        <attvalues>
+          <attvalue for="0" value="46" />
+        </attvalues>
+      </node>
+      <node id="energy consumption" label="energy consumption">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="energy efficiency" label="energy efficiency">
+        <attvalues>
+          <attvalue for="0" value="228" />
+        </attvalues>
+      </node>
+      <node id="energy intensity" label="energy intensity">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="energy management" label="energy management">
+        <attvalues>
+          <attvalue for="0" value="136" />
+        </attvalues>
+      </node>
+      <node id="energy management system" label="energy management system">
+        <attvalues>
+          <attvalue for="0" value="103" />
+        </attvalues>
+      </node>
+      <node id="energy performance" label="energy performance">
+        <attvalues>
+          <attvalue for="0" value="55" />
+        </attvalues>
+      </node>
+      <node id="energy performance indicator" label="energy performance indicator">
+        <attvalues>
+          <attvalue for="0" value="101" />
+        </attvalues>
+      </node>
+      <node id="energy planning" label="energy planning">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="energy policy" label="energy policy">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="energy savings" label="energy savings">
+        <attvalues>
+          <attvalue for="0" value="23" />
+        </attvalues>
+      </node>
+      <node id="energy use" label="energy use">
+        <attvalues>
+          <attvalue for="0" value="25" />
+        </attvalues>
+      </node>
+      <node id="energy utilization" label="energy utilization">
+        <attvalues>
+          <attvalue for="0" value="120" />
+        </attvalues>
+      </node>
+      <node id="energy-consumption" label="energy-consumption">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="energy-savings" label="energy-savings">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="environmental impact" label="environmental impact">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="environmental management" label="environmental management">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="gas emissions" label="gas emissions">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="global warming" label="global warming">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="greenhouse gases" label="greenhouse gases">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="industrial emissions" label="industrial emissions">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="industrial sector" label="industrial sector">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="industry" label="industry">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="information management" label="information management">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="intelligent buildings" label="intelligent buildings">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="international standards" label="international standards">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="investments" label="investments">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="iso 50001" label="iso 50001">
+        <attvalues>
+          <attvalue for="0" value="60" />
+        </attvalues>
+      </node>
+      <node id="iso standards" label="iso standards">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="key performance indicators" label="key performance indicators">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="life cycle" label="life cycle">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="machine learning" label="machine learning">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="management" label="management">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="management systems" label="management systems">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="manufacture" label="manufacture">
+        <attvalues>
+          <attvalue for="0" value="33" />
+        </attvalues>
+      </node>
+      <node id="manufacturing" label="manufacturing">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="monitoring" label="monitoring">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="office buildings" label="office buildings">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="optimization" label="optimization">
+        <attvalues>
+          <attvalue for="0" value="14" />
+        </attvalues>
+      </node>
+      <node id="performance" label="performance">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="performance assessment" label="performance assessment">
+        <attvalues>
+          <attvalue for="0" value="18" />
+        </attvalues>
+      </node>
+      <node id="performance indicators" label="performance indicators">
+        <attvalues>
+          <attvalue for="0" value="11" />
+        </attvalues>
+      </node>
+      <node id="regression analysis" label="regression analysis">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="specific energy consumption" label="specific energy consumption">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="sustainability" label="sustainability">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="sustainable development" label="sustainable development">
+        <attvalues>
+          <attvalue for="0" value="26" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="air conditioning" target="benchmarking" id="0" weight="5" />
+      <edge source="air conditioning" target="energy efficiency" id="1" weight="7" />
+      <edge source="air conditioning" target="energy management" id="2" weight="8" />
+      <edge source="air conditioning" target="energy management system" id="3" weight="4" />
+      <edge source="air conditioning" target="energy performance indicator" id="4" weight="5" />
+      <edge source="air conditioning" target="energy use" id="5" weight="2" />
+      <edge source="air conditioning" target="energy utilization" id="6" weight="9" />
+      <edge source="air conditioning" target="intelligent buildings" id="7" weight="1" />
+      <edge source="air conditioning" target="investments" id="8" weight="4" />
+      <edge source="air conditioning" target="buildings" id="9" weight="2" />
+      <edge source="air conditioning" target="emission control" id="10" weight="1" />
+      <edge source="air conditioning" target="energy baseline" id="11" weight="1" />
+      <edge source="air conditioning" target="energy consumption" id="12" weight="3" />
+      <edge source="air conditioning" target="iso 50001" id="13" weight="1" />
+      <edge source="air conditioning" target="electricity-consumption" id="14" weight="1" />
+      <edge source="air conditioning" target="energy audit" id="15" weight="1" />
+      <edge source="air conditioning" target="energy conservation" id="16" weight="2" />
+      <edge source="air conditioning" target="environmental management" id="17" weight="1" />
+      <edge source="air conditioning" target="energy performance" id="18" weight="3" />
+      <edge source="air conditioning" target="performance assessment" id="19" weight="1" />
+      <edge source="air conditioning" target="performance indicators" id="20" weight="3" />
+      <edge source="air conditioning" target="specific energy consumption" id="21" weight="1" />
+      <edge source="air conditioning" target="alternative energy" id="22" weight="2" />
+      <edge source="air conditioning" target="energy" id="23" weight="1" />
+      <edge source="air conditioning" target="optimization" id="24" weight="1" />
+      <edge source="air conditioning" target="life cycle" id="25" weight="1" />
+      <edge source="air conditioning" target="office buildings" id="26" weight="1" />
+      <edge source="air conditioning" target="performance" id="27" weight="1" />
+      <edge source="air conditioning" target="carbon dioxide" id="28" weight="2" />
+      <edge source="air conditioning" target="carbon footprint" id="29" weight="1" />
+      <edge source="air conditioning" target="energy-consumption" id="30" weight="1" />
+      <edge source="air conditioning" target="global warming" id="31" weight="1" />
+      <edge source="air conditioning" target="electric power utilization" id="32" weight="1" />
+      <edge source="air conditioning" target="regression analysis" id="33" weight="1" />
+      <edge source="air conditioning" target="energy intensity" id="34" weight="1" />
+      <edge source="alternative energy" target="emission control" id="35" weight="1" />
+      <edge source="alternative energy" target="energy" id="36" weight="3" />
+      <edge source="alternative energy" target="energy assessment" id="37" weight="1" />
+      <edge source="alternative energy" target="energy conservation" id="38" weight="2" />
+      <edge source="alternative energy" target="energy consumption" id="39" weight="1" />
+      <edge source="alternative energy" target="environmental impact" id="40" weight="2" />
+      <edge source="alternative energy" target="energy management" id="41" weight="7" />
+      <edge source="alternative energy" target="iso 50001" id="42" weight="2" />
+      <edge source="alternative energy" target="manufacturing" id="43" weight="1" />
+      <edge source="alternative energy" target="sustainable development" id="44" weight="2" />
+      <edge source="alternative energy" target="monitoring" id="45" weight="1" />
+      <edge source="alternative energy" target="carbon" id="46" weight="1" />
+      <edge source="alternative energy" target="energy management system" id="47" weight="3" />
+      <edge source="alternative energy" target="energy utilization" id="48" weight="2" />
+      <edge source="alternative energy" target="energy-consumption" id="49" weight="1" />
+      <edge source="alternative energy" target="global warming" id="50" weight="2" />
+      <edge source="alternative energy" target="greenhouse gases" id="51" weight="1" />
+      <edge source="alternative energy" target="buildings" id="52" weight="1" />
+      <edge source="alternative energy" target="energy efficiency" id="53" weight="5" />
+      <edge source="alternative energy" target="energy planning" id="54" weight="1" />
+      <edge source="alternative energy" target="energy use" id="55" weight="1" />
+      <edge source="alternative energy" target="energy performance" id="56" weight="1" />
+      <edge source="alternative energy" target="optimization" id="57" weight="1" />
+      <edge source="alternative energy" target="carbon dioxide" id="58" weight="2" />
+      <edge source="alternative energy" target="energy performance indicator" id="59" weight="2" />
+      <edge source="alternative energy" target="benchmarking" id="60" weight="1" />
+      <edge source="alternative energy" target="key performance indicators" id="61" weight="1" />
+      <edge source="alternative energy" target="life cycle" id="62" weight="1" />
+      <edge source="alternative energy" target="performance assessment" id="63" weight="1" />
+      <edge source="alternative energy" target="carbon footprint" id="64" weight="1" />
+      <edge source="alternative energy" target="continuous improvements" id="65" weight="1" />
+      <edge source="alternative energy" target="energy audit" id="66" weight="1" />
+      <edge source="alternative energy" target="investments" id="67" weight="1" />
+      <edge source="alternative energy" target="management" id="68" weight="1" />
+      <edge source="benchmarking" target="carbon footprint" id="69" weight="2" />
+      <edge source="benchmarking" target="electric power utilization" id="70" weight="3" />
+      <edge source="benchmarking" target="electricity-consumption" id="71" weight="3" />
+      <edge source="benchmarking" target="energy conservation" id="72" weight="10" />
+      <edge source="benchmarking" target="energy management" id="73" weight="28" />
+      <edge source="benchmarking" target="energy use" id="74" weight="13" />
+      <edge source="benchmarking" target="key performance indicators" id="75" weight="6" />
+      <edge source="benchmarking" target="office buildings" id="76" weight="4" />
+      <edge source="benchmarking" target="energy efficiency" id="77" weight="58" />
+      <edge source="benchmarking" target="energy management system" id="78" weight="22" />
+      <edge source="benchmarking" target="energy performance indicator" id="79" weight="46" />
+      <edge source="benchmarking" target="energy utilization" id="80" weight="43" />
+      <edge source="benchmarking" target="intelligent buildings" id="81" weight="2" />
+      <edge source="benchmarking" target="investments" id="82" weight="7" />
+      <edge source="benchmarking" target="energy performance" id="83" weight="11" />
+      <edge source="benchmarking" target="gas emissions" id="84" weight="5" />
+      <edge source="benchmarking" target="greenhouse gases" id="85" weight="5" />
+      <edge source="benchmarking" target="manufacture" id="86" weight="13" />
+      <edge source="benchmarking" target="performance assessment" id="87" weight="9" />
+      <edge source="benchmarking" target="regression analysis" id="88" weight="4" />
+      <edge source="benchmarking" target="specific energy consumption" id="89" weight="6" />
+      <edge source="benchmarking" target="efficiency" id="90" weight="4" />
+      <edge source="benchmarking" target="energy" id="91" weight="13" />
+      <edge source="benchmarking" target="iso 50001" id="92" weight="4" />
+      <edge source="benchmarking" target="management" id="93" weight="2" />
+      <edge source="benchmarking" target="management systems" id="94" weight="1" />
+      <edge source="benchmarking" target="performance" id="95" weight="5" />
+      <edge source="benchmarking" target="climate change" id="96" weight="3" />
+      <edge source="benchmarking" target="decision making" id="97" weight="7" />
+      <edge source="benchmarking" target="energy baseline" id="98" weight="4" />
+      <edge source="benchmarking" target="energy policy" id="99" weight="3" />
+      <edge source="benchmarking" target="performance indicators" id="100" weight="9" />
+      <edge source="benchmarking" target="continuous improvements" id="101" weight="2" />
+      <edge source="benchmarking" target="environmental impact" id="102" weight="4" />
+      <edge source="benchmarking" target="industry" id="103" weight="6" />
+      <edge source="benchmarking" target="carbon dioxide" id="104" weight="7" />
+      <edge source="benchmarking" target="sustainable development" id="105" weight="9" />
+      <edge source="benchmarking" target="energy intensity" id="106" weight="2" />
+      <edge source="benchmarking" target="energy planning" id="107" weight="4" />
+      <edge source="benchmarking" target="life cycle" id="108" weight="3" />
+      <edge source="benchmarking" target="information management" id="109" weight="2" />
+      <edge source="benchmarking" target="monitoring" id="110" weight="3" />
+      <edge source="benchmarking" target="sustainability" id="111" weight="3" />
+      <edge source="benchmarking" target="energy audit" id="112" weight="10" />
+      <edge source="benchmarking" target="energy savings" id="113" weight="3" />
+      <edge source="benchmarking" target="energy-savings" id="114" weight="2" />
+      <edge source="benchmarking" target="machine learning" id="115" weight="2" />
+      <edge source="benchmarking" target="energy-consumption" id="116" weight="3" />
+      <edge source="benchmarking" target="compressed air" id="117" weight="4" />
+      <edge source="benchmarking" target="industrial emissions" id="118" weight="1" />
+      <edge source="benchmarking" target="global warming" id="119" weight="4" />
+      <edge source="benchmarking" target="energy assessment" id="120" weight="1" />
+      <edge source="benchmarking" target="energy consumption" id="121" weight="3" />
+      <edge source="benchmarking" target="manufacturing" id="122" weight="5" />
+      <edge source="benchmarking" target="carbon" id="123" weight="3" />
+      <edge source="benchmarking" target="industrial sector" id="124" weight="1" />
+      <edge source="benchmarking" target="buildings" id="125" weight="1" />
+      <edge source="buildings" target="energy" id="126" weight="3" />
+      <edge source="buildings" target="energy efficiency" id="127" weight="13" />
+      <edge source="buildings" target="energy management system" id="128" weight="6" />
+      <edge source="buildings" target="energy performance" id="129" weight="5" />
+      <edge source="buildings" target="energy use" id="130" weight="3" />
+      <edge source="buildings" target="iso 50001" id="131" weight="3" />
+      <edge source="buildings" target="management systems" id="132" weight="1" />
+      <edge source="buildings" target="sustainability" id="133" weight="1" />
+      <edge source="buildings" target="energy management" id="134" weight="6" />
+      <edge source="buildings" target="energy planning" id="135" weight="2" />
+      <edge source="buildings" target="emission control" id="136" weight="1" />
+      <edge source="buildings" target="energy baseline" id="137" weight="1" />
+      <edge source="buildings" target="energy consumption" id="138" weight="2" />
+      <edge source="buildings" target="energy performance indicator" id="139" weight="5" />
+      <edge source="buildings" target="energy utilization" id="140" weight="7" />
+      <edge source="buildings" target="investments" id="141" weight="2" />
+      <edge source="buildings" target="performance assessment" id="142" weight="3" />
+      <edge source="buildings" target="performance indicators" id="143" weight="1" />
+      <edge source="buildings" target="specific energy consumption" id="144" weight="1" />
+      <edge source="buildings" target="energy conservation" id="145" weight="4" />
+      <edge source="buildings" target="environmental impact" id="146" weight="2" />
+      <edge source="buildings" target="sustainable development" id="147" weight="1" />
+      <edge source="buildings" target="energy intensity" id="148" weight="1" />
+      <edge source="buildings" target="carbon footprint" id="149" weight="1" />
+      <edge source="buildings" target="climate change" id="150" weight="1" />
+      <edge source="buildings" target="greenhouse gases" id="151" weight="1" />
+      <edge source="buildings" target="efficiency" id="152" weight="1" />
+      <edge source="buildings" target="office buildings" id="153" weight="2" />
+      <edge source="buildings" target="carbon" id="154" weight="1" />
+      <edge source="buildings" target="carbon dioxide" id="155" weight="2" />
+      <edge source="buildings" target="life cycle" id="156" weight="1" />
+      <edge source="buildings" target="machine learning" id="157" weight="1" />
+      <edge source="buildings" target="monitoring" id="158" weight="3" />
+      <edge source="buildings" target="optimization" id="159" weight="2" />
+      <edge source="buildings" target="regression analysis" id="160" weight="1" />
+      <edge source="buildings" target="management" id="161" weight="1" />
+      <edge source="carbon" target="energy" id="162" weight="4" />
+      <edge source="carbon" target="energy assessment" id="163" weight="2" />
+      <edge source="carbon" target="energy use" id="164" weight="1" />
+      <edge source="carbon" target="energy utilization" id="165" weight="6" />
+      <edge source="carbon" target="energy-consumption" id="166" weight="3" />
+      <edge source="carbon" target="investments" id="167" weight="2" />
+      <edge source="carbon" target="energy conservation" id="168" weight="1" />
+      <edge source="carbon" target="energy management" id="169" weight="4" />
+      <edge source="carbon" target="energy management system" id="170" weight="3" />
+      <edge source="carbon" target="global warming" id="171" weight="1" />
+      <edge source="carbon" target="greenhouse gases" id="172" weight="2" />
+      <edge source="carbon" target="sustainable development" id="173" weight="4" />
+      <edge source="carbon" target="energy efficiency" id="174" weight="7" />
+      <edge source="carbon" target="emission control" id="175" weight="1" />
+      <edge source="carbon" target="environmental management" id="176" weight="1" />
+      <edge source="carbon" target="gas emissions" id="177" weight="1" />
+      <edge source="carbon" target="iso 50001" id="178" weight="2" />
+      <edge source="carbon" target="iso standards" id="179" weight="1" />
+      <edge source="carbon" target="life cycle" id="180" weight="2" />
+      <edge source="carbon" target="office buildings" id="181" weight="1" />
+      <edge source="carbon" target="carbon footprint" id="182" weight="2" />
+      <edge source="carbon" target="continuous improvements" id="183" weight="1" />
+      <edge source="carbon" target="management" id="184" weight="1" />
+      <edge source="carbon" target="decision making" id="185" weight="3" />
+      <edge source="carbon" target="manufacture" id="186" weight="2" />
+      <edge source="carbon" target="energy performance indicator" id="187" weight="3" />
+      <edge source="carbon" target="carbon dioxide" id="188" weight="1" />
+      <edge source="carbon" target="energy performance" id="189" weight="1" />
+      <edge source="carbon" target="industry" id="190" weight="1" />
+      <edge source="carbon" target="performance assessment" id="191" weight="1" />
+      <edge source="carbon" target="sustainability" id="192" weight="1" />
+      <edge source="carbon dioxide" target="energy efficiency" id="193" weight="15" />
+      <edge source="carbon dioxide" target="energy management" id="194" weight="10" />
+      <edge source="carbon dioxide" target="energy use" id="195" weight="4" />
+      <edge source="carbon dioxide" target="iso 50001" id="196" weight="2" />
+      <edge source="carbon dioxide" target="sustainability" id="197" weight="2" />
+      <edge source="carbon dioxide" target="energy" id="198" weight="5" />
+      <edge source="carbon dioxide" target="energy management system" id="199" weight="6" />
+      <edge source="carbon dioxide" target="energy performance" id="200" weight="4" />
+      <edge source="carbon dioxide" target="energy utilization" id="201" weight="10" />
+      <edge source="carbon dioxide" target="global warming" id="202" weight="5" />
+      <edge source="carbon dioxide" target="information management" id="203" weight="1" />
+      <edge source="carbon dioxide" target="international standards" id="204" weight="1" />
+      <edge source="carbon dioxide" target="machine learning" id="205" weight="1" />
+      <edge source="carbon dioxide" target="climate change" id="206" weight="1" />
+      <edge source="carbon dioxide" target="emission control" id="207" weight="2" />
+      <edge source="carbon dioxide" target="energy savings" id="208" weight="1" />
+      <edge source="carbon dioxide" target="energy-savings" id="209" weight="1" />
+      <edge source="carbon dioxide" target="industrial emissions" id="210" weight="3" />
+      <edge source="carbon dioxide" target="manufacturing" id="211" weight="3" />
+      <edge source="carbon dioxide" target="performance indicators" id="212" weight="3" />
+      <edge source="carbon dioxide" target="sustainable development" id="213" weight="2" />
+      <edge source="carbon dioxide" target="energy conservation" id="214" weight="3" />
+      <edge source="carbon dioxide" target="environmental management" id="215" weight="1" />
+      <edge source="carbon dioxide" target="energy audit" id="216" weight="2" />
+      <edge source="carbon dioxide" target="energy performance indicator" id="217" weight="6" />
+      <edge source="carbon dioxide" target="energy-consumption" id="218" weight="2" />
+      <edge source="carbon dioxide" target="compressed air" id="219" weight="1" />
+      <edge source="carbon dioxide" target="decision making" id="220" weight="1" />
+      <edge source="carbon dioxide" target="investments" id="221" weight="2" />
+      <edge source="carbon dioxide" target="manufacture" id="222" weight="3" />
+      <edge source="carbon dioxide" target="carbon footprint" id="223" weight="2" />
+      <edge source="carbon dioxide" target="energy planning" id="224" weight="2" />
+      <edge source="carbon dioxide" target="industry" id="225" weight="1" />
+      <edge source="carbon dioxide" target="performance assessment" id="226" weight="4" />
+      <edge source="carbon dioxide" target="environmental impact" id="227" weight="2" />
+      <edge source="carbon dioxide" target="key performance indicators" id="228" weight="1" />
+      <edge source="carbon dioxide" target="life cycle" id="229" weight="1" />
+      <edge source="carbon dioxide" target="intelligent buildings" id="230" weight="1" />
+      <edge source="carbon dioxide" target="management" id="231" weight="1" />
+      <edge source="carbon dioxide" target="monitoring" id="232" weight="1" />
+      <edge source="carbon dioxide" target="optimization" id="233" weight="1" />
+      <edge source="carbon footprint" target="electric power utilization" id="234" weight="1" />
+      <edge source="carbon footprint" target="electricity-consumption" id="235" weight="1" />
+      <edge source="carbon footprint" target="energy conservation" id="236" weight="1" />
+      <edge source="carbon footprint" target="energy management" id="237" weight="5" />
+      <edge source="carbon footprint" target="energy use" id="238" weight="1" />
+      <edge source="carbon footprint" target="key performance indicators" id="239" weight="1" />
+      <edge source="carbon footprint" target="office buildings" id="240" weight="1" />
+      <edge source="carbon footprint" target="energy efficiency" id="241" weight="8" />
+      <edge source="carbon footprint" target="energy management system" id="242" weight="2" />
+      <edge source="carbon footprint" target="energy performance" id="243" weight="1" />
+      <edge source="carbon footprint" target="energy performance indicator" id="244" weight="1" />
+      <edge source="carbon footprint" target="energy utilization" id="245" weight="4" />
+      <edge source="carbon footprint" target="environmental impact" id="246" weight="2" />
+      <edge source="carbon footprint" target="iso standards" id="247" weight="1" />
+      <edge source="carbon footprint" target="continuous improvements" id="248" weight="2" />
+      <edge source="carbon footprint" target="energy assessment" id="249" weight="1" />
+      <edge source="carbon footprint" target="iso 50001" id="250" weight="1" />
+      <edge source="carbon footprint" target="management" id="251" weight="2" />
+      <edge source="carbon footprint" target="decision making" id="252" weight="1" />
+      <edge source="carbon footprint" target="manufacture" id="253" weight="2" />
+      <edge source="carbon footprint" target="sustainable development" id="254" weight="1" />
+      <edge source="carbon footprint" target="compressed air" id="255" weight="1" />
+      <edge source="carbon footprint" target="machine learning" id="256" weight="1" />
+      <edge source="carbon footprint" target="manufacturing" id="257" weight="1" />
+      <edge source="carbon footprint" target="energy-consumption" id="258" weight="1" />
+      <edge source="carbon footprint" target="global warming" id="259" weight="1" />
+      <edge source="carbon footprint" target="performance indicators" id="260" weight="1" />
+      <edge source="carbon footprint" target="climate change" id="261" weight="1" />
+      <edge source="carbon footprint" target="greenhouse gases" id="262" weight="1" />
+      <edge source="carbon footprint" target="performance assessment" id="263" weight="1" />
+      <edge source="carbon footprint" target="emission control" id="264" weight="1" />
+      <edge source="carbon footprint" target="investments" id="265" weight="2" />
+      <edge source="carbon footprint" target="energy audit" id="266" weight="1" />
+      <edge source="climate change" target="energy conservation" id="267" weight="3" />
+      <edge source="climate change" target="energy consumption" id="268" weight="1" />
+      <edge source="climate change" target="energy efficiency" id="269" weight="11" />
+      <edge source="climate change" target="energy management" id="270" weight="5" />
+      <edge source="climate change" target="energy management system" id="271" weight="4" />
+      <edge source="climate change" target="environmental impact" id="272" weight="2" />
+      <edge source="climate change" target="life cycle" id="273" weight="1" />
+      <edge source="climate change" target="performance" id="274" weight="1" />
+      <edge source="climate change" target="emission control" id="275" weight="1" />
+      <edge source="climate change" target="energy performance" id="276" weight="3" />
+      <edge source="climate change" target="energy savings" id="277" weight="1" />
+      <edge source="climate change" target="energy-savings" id="278" weight="1" />
+      <edge source="climate change" target="industrial emissions" id="279" weight="1" />
+      <edge source="climate change" target="iso 50001" id="280" weight="3" />
+      <edge source="climate change" target="manufacturing" id="281" weight="2" />
+      <edge source="climate change" target="sustainability" id="282" weight="2" />
+      <edge source="climate change" target="decision making" id="283" weight="1" />
+      <edge source="climate change" target="energy baseline" id="284" weight="1" />
+      <edge source="climate change" target="energy performance indicator" id="285" weight="5" />
+      <edge source="climate change" target="energy utilization" id="286" weight="4" />
+      <edge source="climate change" target="investments" id="287" weight="1" />
+      <edge source="climate change" target="performance assessment" id="288" weight="2" />
+      <edge source="climate change" target="energy planning" id="289" weight="1" />
+      <edge source="climate change" target="global warming" id="290" weight="1" />
+      <edge source="climate change" target="greenhouse gases" id="291" weight="2" />
+      <edge source="climate change" target="international standards" id="292" weight="1" />
+      <edge source="climate change" target="optimization" id="293" weight="1" />
+      <edge source="climate change" target="continuous improvements" id="294" weight="1" />
+      <edge source="climate change" target="information management" id="295" weight="1" />
+      <edge source="climate change" target="management systems" id="296" weight="1" />
+      <edge source="climate change" target="efficiency" id="297" weight="2" />
+      <edge source="climate change" target="energy use" id="298" weight="1" />
+      <edge source="climate change" target="manufacture" id="299" weight="2" />
+      <edge source="compressed air" target="energy conservation" id="300" weight="3" />
+      <edge source="compressed air" target="energy efficiency" id="301" weight="9" />
+      <edge source="compressed air" target="energy management" id="302" weight="5" />
+      <edge source="compressed air" target="energy management system" id="303" weight="5" />
+      <edge source="compressed air" target="energy utilization" id="304" weight="4" />
+      <edge source="compressed air" target="energy policy" id="305" weight="1" />
+      <edge source="compressed air" target="energy savings" id="306" weight="1" />
+      <edge source="compressed air" target="management systems" id="307" weight="1" />
+      <edge source="compressed air" target="machine learning" id="308" weight="2" />
+      <edge source="compressed air" target="manufacturing" id="309" weight="2" />
+      <edge source="compressed air" target="energy performance indicator" id="310" weight="4" />
+      <edge source="compressed air" target="gas emissions" id="311" weight="1" />
+      <edge source="compressed air" target="greenhouse gases" id="312" weight="1" />
+      <edge source="compressed air" target="sustainable development" id="313" weight="1" />
+      <edge source="compressed air" target="decision making" id="314" weight="1" />
+      <edge source="compressed air" target="energy" id="315" weight="1" />
+      <edge source="compressed air" target="energy audit" id="316" weight="1" />
+      <edge source="compressed air" target="industrial emissions" id="317" weight="1" />
+      <edge source="compressed air" target="investments" id="318" weight="1" />
+      <edge source="compressed air" target="manufacture" id="319" weight="2" />
+      <edge source="compressed air" target="electric power utilization" id="320" weight="1" />
+      <edge source="compressed air" target="electricity-consumption" id="321" weight="1" />
+      <edge source="compressed air" target="energy planning" id="322" weight="1" />
+      <edge source="compressed air" target="monitoring" id="323" weight="1" />
+      <edge source="compressed air" target="iso 50001" id="324" weight="1" />
+      <edge source="continuous improvements" target="electric power utilization" id="325" weight="1" />
+      <edge source="continuous improvements" target="electricity-consumption" id="326" weight="1" />
+      <edge source="continuous improvements" target="energy efficiency" id="327" weight="9" />
+      <edge source="continuous improvements" target="energy utilization" id="328" weight="8" />
+      <edge source="continuous improvements" target="intelligent buildings" id="329" weight="1" />
+      <edge source="continuous improvements" target="iso 50001" id="330" weight="3" />
+      <edge source="continuous improvements" target="manufacture" id="331" weight="3" />
+      <edge source="continuous improvements" target="energy audit" id="332" weight="3" />
+      <edge source="continuous improvements" target="energy conservation" id="333" weight="4" />
+      <edge source="continuous improvements" target="energy management" id="334" weight="9" />
+      <edge source="continuous improvements" target="energy management system" id="335" weight="6" />
+      <edge source="continuous improvements" target="energy planning" id="336" weight="1" />
+      <edge source="continuous improvements" target="energy performance indicator" id="337" weight="2" />
+      <edge source="continuous improvements" target="energy assessment" id="338" weight="1" />
+      <edge source="continuous improvements" target="management" id="339" weight="2" />
+      <edge source="continuous improvements" target="energy performance" id="340" weight="2" />
+      <edge source="continuous improvements" target="information management" id="341" weight="1" />
+      <edge source="continuous improvements" target="management systems" id="342" weight="1" />
+      <edge source="continuous improvements" target="international standards" id="343" weight="1" />
+      <edge source="continuous improvements" target="industrial sector" id="344" weight="1" />
+      <edge source="continuous improvements" target="energy" id="345" weight="1" />
+      <edge source="continuous improvements" target="energy-consumption" id="346" weight="1" />
+      <edge source="continuous improvements" target="gas emissions" id="347" weight="1" />
+      <edge source="continuous improvements" target="greenhouse gases" id="348" weight="1" />
+      <edge source="continuous improvements" target="performance" id="349" weight="1" />
+      <edge source="continuous improvements" target="office buildings" id="350" weight="1" />
+      <edge source="continuous improvements" target="investments" id="351" weight="1" />
+      <edge source="decision making" target="energy" id="352" weight="3" />
+      <edge source="decision making" target="energy management" id="353" weight="8" />
+      <edge source="decision making" target="energy management system" id="354" weight="8" />
+      <edge source="decision making" target="energy efficiency" id="355" weight="14" />
+      <edge source="decision making" target="energy performance" id="356" weight="4" />
+      <edge source="decision making" target="energy utilization" id="357" weight="10" />
+      <edge source="decision making" target="monitoring" id="358" weight="2" />
+      <edge source="decision making" target="energy conservation" id="359" weight="1" />
+      <edge source="decision making" target="iso 50001" id="360" weight="1" />
+      <edge source="decision making" target="iso standards" id="361" weight="1" />
+      <edge source="decision making" target="energy intensity" id="362" weight="1" />
+      <edge source="decision making" target="information management" id="363" weight="4" />
+      <edge source="decision making" target="investments" id="364" weight="4" />
+      <edge source="decision making" target="energy baseline" id="365" weight="1" />
+      <edge source="decision making" target="energy performance indicator" id="366" weight="7" />
+      <edge source="decision making" target="performance assessment" id="367" weight="3" />
+      <edge source="decision making" target="manufacture" id="368" weight="4" />
+      <edge source="decision making" target="sustainable development" id="369" weight="4" />
+      <edge source="decision making" target="management systems" id="370" weight="1" />
+      <edge source="decision making" target="electric power utilization" id="371" weight="1" />
+      <edge source="decision making" target="electricity-consumption" id="372" weight="1" />
+      <edge source="decision making" target="energy planning" id="373" weight="1" />
+      <edge source="decision making" target="energy policy" id="374" weight="2" />
+      <edge source="decision making" target="energy audit" id="375" weight="1" />
+      <edge source="decision making" target="industrial emissions" id="376" weight="1" />
+      <edge source="decision making" target="manufacturing" id="377" weight="1" />
+      <edge source="decision making" target="life cycle" id="378" weight="1" />
+      <edge source="decision making" target="environmental management" id="379" weight="1" />
+      <edge source="decision making" target="industry" id="380" weight="1" />
+      <edge source="decision making" target="sustainability" id="381" weight="1" />
+      <edge source="efficiency" target="energy" id="382" weight="7" />
+      <edge source="efficiency" target="management" id="383" weight="3" />
+      <edge source="efficiency" target="management systems" id="384" weight="2" />
+      <edge source="efficiency" target="optimization" id="385" weight="2" />
+      <edge source="efficiency" target="energy management" id="386" weight="7" />
+      <edge source="efficiency" target="iso 50001" id="387" weight="7" />
+      <edge source="efficiency" target="energy efficiency" id="388" weight="8" />
+      <edge source="efficiency" target="energy management system" id="389" weight="4" />
+      <edge source="efficiency" target="energy performance indicator" id="390" weight="4" />
+      <edge source="efficiency" target="key performance indicators" id="391" weight="1" />
+      <edge source="efficiency" target="performance" id="392" weight="5" />
+      <edge source="efficiency" target="energy baseline" id="393" weight="3" />
+      <edge source="efficiency" target="energy conservation" id="394" weight="1" />
+      <edge source="efficiency" target="energy savings" id="395" weight="2" />
+      <edge source="efficiency" target="international standards" id="396" weight="1" />
+      <edge source="efficiency" target="iso standards" id="397" weight="1" />
+      <edge source="efficiency" target="energy intensity" id="398" weight="1" />
+      <edge source="efficiency" target="manufacturing" id="399" weight="3" />
+      <edge source="efficiency" target="sustainability" id="400" weight="2" />
+      <edge source="efficiency" target="energy-savings" id="401" weight="1" />
+      <edge source="efficiency" target="energy utilization" id="402" weight="3" />
+      <edge source="efficiency" target="investments" id="403" weight="2" />
+      <edge source="efficiency" target="office buildings" id="404" weight="1" />
+      <edge source="efficiency" target="manufacture" id="405" weight="2" />
+      <edge source="efficiency" target="energy use" id="406" weight="1" />
+      <edge source="efficiency" target="monitoring" id="407" weight="1" />
+      <edge source="electric power utilization" target="electricity-consumption" id="408" weight="8" />
+      <edge source="electric power utilization" target="energy conservation" id="409" weight="5" />
+      <edge source="electric power utilization" target="energy management" id="410" weight="6" />
+      <edge source="electric power utilization" target="energy use" id="411" weight="2" />
+      <edge source="electric power utilization" target="key performance indicators" id="412" weight="1" />
+      <edge source="electric power utilization" target="office buildings" id="413" weight="2" />
+      <edge source="electric power utilization" target="energy efficiency" id="414" weight="7" />
+      <edge source="electric power utilization" target="energy performance" id="415" weight="2" />
+      <edge source="electric power utilization" target="energy-consumption" id="416" weight="2" />
+      <edge source="electric power utilization" target="iso 50001" id="417" weight="3" />
+      <edge source="electric power utilization" target="energy" id="418" weight="3" />
+      <edge source="electric power utilization" target="energy management system" id="419" weight="3" />
+      <edge source="electric power utilization" target="greenhouse gases" id="420" weight="1" />
+      <edge source="electric power utilization" target="iso standards" id="421" weight="1" />
+      <edge source="electric power utilization" target="monitoring" id="422" weight="2" />
+      <edge source="electric power utilization" target="energy savings" id="423" weight="1" />
+      <edge source="electric power utilization" target="energy-savings" id="424" weight="1" />
+      <edge source="electric power utilization" target="information management" id="425" weight="2" />
+      <edge source="electric power utilization" target="machine learning" id="426" weight="1" />
+      <edge source="electric power utilization" target="energy utilization" id="427" weight="3" />
+      <edge source="electric power utilization" target="intelligent buildings" id="428" weight="1" />
+      <edge source="electric power utilization" target="manufacture" id="429" weight="2" />
+      <edge source="electric power utilization" target="energy planning" id="430" weight="2" />
+      <edge source="electric power utilization" target="energy policy" id="431" weight="1" />
+      <edge source="electric power utilization" target="sustainable development" id="432" weight="1" />
+      <edge source="electric power utilization" target="regression analysis" id="433" weight="1" />
+      <edge source="electric power utilization" target="energy performance indicator" id="434" weight="4" />
+      <edge source="electric power utilization" target="manufacturing" id="435" weight="1" />
+      <edge source="electric power utilization" target="energy baseline" id="436" weight="1" />
+      <edge source="electric power utilization" target="investments" id="437" weight="1" />
+      <edge source="electricity-consumption" target="energy conservation" id="438" weight="4" />
+      <edge source="electricity-consumption" target="energy management" id="439" weight="7" />
+      <edge source="electricity-consumption" target="energy use" id="440" weight="2" />
+      <edge source="electricity-consumption" target="key performance indicators" id="441" weight="1" />
+      <edge source="electricity-consumption" target="office buildings" id="442" weight="2" />
+      <edge source="electricity-consumption" target="energy efficiency" id="443" weight="7" />
+      <edge source="electricity-consumption" target="energy performance" id="444" weight="2" />
+      <edge source="electricity-consumption" target="energy-consumption" id="445" weight="1" />
+      <edge source="electricity-consumption" target="iso 50001" id="446" weight="2" />
+      <edge source="electricity-consumption" target="energy" id="447" weight="3" />
+      <edge source="electricity-consumption" target="energy savings" id="448" weight="1" />
+      <edge source="electricity-consumption" target="energy-savings" id="449" weight="1" />
+      <edge source="electricity-consumption" target="information management" id="450" weight="2" />
+      <edge source="electricity-consumption" target="machine learning" id="451" weight="1" />
+      <edge source="electricity-consumption" target="energy audit" id="452" weight="1" />
+      <edge source="electricity-consumption" target="energy management system" id="453" weight="3" />
+      <edge source="electricity-consumption" target="energy utilization" id="454" weight="3" />
+      <edge source="electricity-consumption" target="environmental management" id="455" weight="1" />
+      <edge source="electricity-consumption" target="investments" id="456" weight="2" />
+      <edge source="electricity-consumption" target="intelligent buildings" id="457" weight="1" />
+      <edge source="electricity-consumption" target="manufacture" id="458" weight="3" />
+      <edge source="electricity-consumption" target="energy planning" id="459" weight="2" />
+      <edge source="electricity-consumption" target="energy policy" id="460" weight="1" />
+      <edge source="electricity-consumption" target="monitoring" id="461" weight="1" />
+      <edge source="electricity-consumption" target="sustainable development" id="462" weight="1" />
+      <edge source="electricity-consumption" target="energy performance indicator" id="463" weight="3" />
+      <edge source="electricity-consumption" target="manufacturing" id="464" weight="1" />
+      <edge source="emission control" target="energy" id="465" weight="3" />
+      <edge source="emission control" target="energy assessment" id="466" weight="1" />
+      <edge source="emission control" target="energy conservation" id="467" weight="1" />
+      <edge source="emission control" target="energy consumption" id="468" weight="2" />
+      <edge source="emission control" target="environmental impact" id="469" weight="1" />
+      <edge source="emission control" target="energy efficiency" id="470" weight="7" />
+      <edge source="emission control" target="energy management" id="471" weight="4" />
+      <edge source="emission control" target="energy management system" id="472" weight="3" />
+      <edge source="emission control" target="energy performance" id="473" weight="1" />
+      <edge source="emission control" target="energy savings" id="474" weight="2" />
+      <edge source="emission control" target="energy-savings" id="475" weight="2" />
+      <edge source="emission control" target="industrial emissions" id="476" weight="1" />
+      <edge source="emission control" target="iso 50001" id="477" weight="3" />
+      <edge source="emission control" target="manufacturing" id="478" weight="1" />
+      <edge source="emission control" target="sustainability" id="479" weight="1" />
+      <edge source="emission control" target="energy baseline" id="480" weight="1" />
+      <edge source="emission control" target="energy performance indicator" id="481" weight="2" />
+      <edge source="emission control" target="energy utilization" id="482" weight="3" />
+      <edge source="emission control" target="investments" id="483" weight="2" />
+      <edge source="emission control" target="environmental management" id="484" weight="1" />
+      <edge source="emission control" target="gas emissions" id="485" weight="2" />
+      <edge source="emission control" target="greenhouse gases" id="486" weight="3" />
+      <edge source="emission control" target="iso standards" id="487" weight="1" />
+      <edge source="emission control" target="life cycle" id="488" weight="1" />
+      <edge source="emission control" target="office buildings" id="489" weight="1" />
+      <edge source="emission control" target="manufacture" id="490" weight="1" />
+      <edge source="energy" target="energy assessment" id="491" weight="5" />
+      <edge source="energy" target="energy use" id="492" weight="6" />
+      <edge source="energy" target="energy utilization" id="493" weight="23" />
+      <edge source="energy" target="energy-consumption" id="494" weight="10" />
+      <edge source="energy" target="investments" id="495" weight="7" />
+      <edge source="energy" target="energy efficiency" id="496" weight="37" />
+      <edge source="energy" target="energy management" id="497" weight="22" />
+      <edge source="energy" target="energy performance" id="498" weight="9" />
+      <edge source="energy" target="environmental management" id="499" weight="3" />
+      <edge source="energy" target="management systems" id="500" weight="7" />
+      <edge source="energy" target="sustainable development" id="501" weight="7" />
+      <edge source="energy" target="energy performance indicator" id="502" weight="14" />
+      <edge source="energy" target="energy policy" id="503" weight="2" />
+      <edge source="energy" target="energy savings" id="504" weight="8" />
+      <edge source="energy" target="energy-savings" id="505" weight="8" />
+      <edge source="energy" target="iso 50001" id="506" weight="7" />
+      <edge source="energy" target="energy management system" id="507" weight="17" />
+      <edge source="energy" target="information management" id="508" weight="4" />
+      <edge source="energy" target="machine learning" id="509" weight="6" />
+      <edge source="energy" target="energy conservation" id="510" weight="6" />
+      <edge source="energy" target="energy consumption" id="511" weight="5" />
+      <edge source="energy" target="environmental impact" id="512" weight="2" />
+      <edge source="energy" target="sustainability" id="513" weight="3" />
+      <edge source="energy" target="global warming" id="514" weight="3" />
+      <edge source="energy" target="international standards" id="515" weight="1" />
+      <edge source="energy" target="energy audit" id="516" weight="7" />
+      <edge source="energy" target="iso standards" id="517" weight="3" />
+      <edge source="energy" target="management" id="518" weight="3" />
+      <edge source="energy" target="optimization" id="519" weight="4" />
+      <edge source="energy" target="energy baseline" id="520" weight="2" />
+      <edge source="energy" target="greenhouse gases" id="521" weight="5" />
+      <edge source="energy" target="monitoring" id="522" weight="3" />
+      <edge source="energy" target="office buildings" id="523" weight="3" />
+      <edge source="energy" target="key performance indicators" id="524" weight="3" />
+      <edge source="energy" target="performance" id="525" weight="4" />
+      <edge source="energy" target="gas emissions" id="526" weight="3" />
+      <edge source="energy" target="life cycle" id="527" weight="1" />
+      <edge source="energy" target="performance indicators" id="528" weight="3" />
+      <edge source="energy" target="industrial sector" id="529" weight="3" />
+      <edge source="energy" target="regression analysis" id="530" weight="1" />
+      <edge source="energy" target="energy planning" id="531" weight="2" />
+      <edge source="energy" target="performance assessment" id="532" weight="4" />
+      <edge source="energy" target="industrial emissions" id="533" weight="2" />
+      <edge source="energy" target="industry" id="534" weight="2" />
+      <edge source="energy" target="energy intensity" id="535" weight="1" />
+      <edge source="energy" target="manufacture" id="536" weight="2" />
+      <edge source="energy assessment" target="energy use" id="537" weight="1" />
+      <edge source="energy assessment" target="energy utilization" id="538" weight="5" />
+      <edge source="energy assessment" target="energy-consumption" id="539" weight="2" />
+      <edge source="energy assessment" target="investments" id="540" weight="1" />
+      <edge source="energy assessment" target="energy conservation" id="541" weight="1" />
+      <edge source="energy assessment" target="energy consumption" id="542" weight="1" />
+      <edge source="energy assessment" target="environmental impact" id="543" weight="1" />
+      <edge source="energy assessment" target="energy efficiency" id="544" weight="6" />
+      <edge source="energy assessment" target="energy management" id="545" weight="5" />
+      <edge source="energy assessment" target="gas emissions" id="546" weight="1" />
+      <edge source="energy assessment" target="greenhouse gases" id="547" weight="1" />
+      <edge source="energy assessment" target="industrial emissions" id="548" weight="1" />
+      <edge source="energy assessment" target="industry" id="549" weight="1" />
+      <edge source="energy assessment" target="manufacture" id="550" weight="1" />
+      <edge source="energy assessment" target="sustainable development" id="551" weight="2" />
+      <edge source="energy assessment" target="iso 50001" id="552" weight="1" />
+      <edge source="energy assessment" target="management" id="553" weight="1" />
+      <edge source="energy assessment" target="energy management system" id="554" weight="2" />
+      <edge source="energy assessment" target="environmental management" id="555" weight="1" />
+      <edge source="energy assessment" target="energy performance" id="556" weight="1" />
+      <edge source="energy assessment" target="industrial sector" id="557" weight="1" />
+      <edge source="energy assessment" target="key performance indicators" id="558" weight="1" />
+      <edge source="energy assessment" target="regression analysis" id="559" weight="1" />
+      <edge source="energy assessment" target="energy performance indicator" id="560" weight="2" />
+      <edge source="energy assessment" target="performance assessment" id="561" weight="1" />
+      <edge source="energy assessment" target="sustainability" id="562" weight="1" />
+      <edge source="energy audit" target="energy efficiency" id="563" weight="17" />
+      <edge source="energy audit" target="energy use" id="564" weight="1" />
+      <edge source="energy audit" target="iso 50001" id="565" weight="2" />
+      <edge source="energy audit" target="sustainability" id="566" weight="1" />
+      <edge source="energy audit" target="iso standards" id="567" weight="1" />
+      <edge source="energy audit" target="energy conservation" id="568" weight="4" />
+      <edge source="energy audit" target="energy management" id="569" weight="7" />
+      <edge source="energy audit" target="energy management system" id="570" weight="3" />
+      <edge source="energy audit" target="energy utilization" id="571" weight="14" />
+      <edge source="energy audit" target="environmental management" id="572" weight="1" />
+      <edge source="energy audit" target="investments" id="573" weight="4" />
+      <edge source="energy audit" target="energy planning" id="574" weight="1" />
+      <edge source="energy audit" target="energy performance indicator" id="575" weight="9" />
+      <edge source="energy audit" target="energy-consumption" id="576" weight="3" />
+      <edge source="energy audit" target="industrial emissions" id="577" weight="2" />
+      <edge source="energy audit" target="energy savings" id="578" weight="4" />
+      <edge source="energy audit" target="energy-savings" id="579" weight="3" />
+      <edge source="energy audit" target="industry" id="580" weight="2" />
+      <edge source="energy audit" target="machine learning" id="581" weight="1" />
+      <edge source="energy audit" target="gas emissions" id="582" weight="2" />
+      <edge source="energy audit" target="greenhouse gases" id="583" weight="2" />
+      <edge source="energy audit" target="performance" id="584" weight="1" />
+      <edge source="energy audit" target="energy performance" id="585" weight="3" />
+      <edge source="energy audit" target="specific energy consumption" id="586" weight="3" />
+      <edge source="energy audit" target="sustainable development" id="587" weight="3" />
+      <edge source="energy audit" target="manufacture" id="588" weight="2" />
+      <edge source="energy audit" target="environmental impact" id="589" weight="1" />
+      <edge source="energy audit" target="energy consumption" id="590" weight="1" />
+      <edge source="energy audit" target="management" id="591" weight="2" />
+      <edge source="energy baseline" target="energy management system" id="592" weight="5" />
+      <edge source="energy baseline" target="energy performance" id="593" weight="2" />
+      <edge source="energy baseline" target="machine learning" id="594" weight="1" />
+      <edge source="energy baseline" target="management systems" id="595" weight="1" />
+      <edge source="energy baseline" target="energy efficiency" id="596" weight="7" />
+      <edge source="energy baseline" target="energy performance indicator" id="597" weight="7" />
+      <edge source="energy baseline" target="energy utilization" id="598" weight="2" />
+      <edge source="energy baseline" target="investments" id="599" weight="2" />
+      <edge source="energy baseline" target="performance assessment" id="600" weight="2" />
+      <edge source="energy baseline" target="energy consumption" id="601" weight="1" />
+      <edge source="energy baseline" target="energy management" id="602" weight="3" />
+      <edge source="energy baseline" target="iso 50001" id="603" weight="3" />
+      <edge source="energy baseline" target="energy conservation" id="604" weight="2" />
+      <edge source="energy baseline" target="energy savings" id="605" weight="2" />
+      <edge source="energy baseline" target="international standards" id="606" weight="1" />
+      <edge source="energy baseline" target="iso standards" id="607" weight="1" />
+      <edge source="energy baseline" target="performance" id="608" weight="1" />
+      <edge source="energy baseline" target="energy-savings" id="609" weight="1" />
+      <edge source="energy baseline" target="information management" id="610" weight="1" />
+      <edge source="energy baseline" target="key performance indicators" id="611" weight="1" />
+      <edge source="energy baseline" target="specific energy consumption" id="612" weight="1" />
+      <edge source="energy baseline" target="regression analysis" id="613" weight="1" />
+      <edge source="energy conservation" target="energy consumption" id="614" weight="4" />
+      <edge source="energy conservation" target="environmental impact" id="615" weight="6" />
+      <edge source="energy conservation" target="energy management" id="616" weight="26" />
+      <edge source="energy conservation" target="energy use" id="617" weight="3" />
+      <edge source="energy conservation" target="key performance indicators" id="618" weight="2" />
+      <edge source="energy conservation" target="office buildings" id="619" weight="4" />
+      <edge source="energy conservation" target="energy efficiency" id="620" weight="28" />
+      <edge source="energy conservation" target="energy management system" id="621" weight="21" />
+      <edge source="energy conservation" target="life cycle" id="622" weight="1" />
+      <edge source="energy conservation" target="performance" id="623" weight="2" />
+      <edge source="energy conservation" target="energy-consumption" id="624" weight="3" />
+      <edge source="energy conservation" target="greenhouse gases" id="625" weight="8" />
+      <edge source="energy conservation" target="iso 50001" id="626" weight="9" />
+      <edge source="energy conservation" target="iso standards" id="627" weight="5" />
+      <edge source="energy conservation" target="monitoring" id="628" weight="5" />
+      <edge source="energy conservation" target="energy utilization" id="629" weight="22" />
+      <edge source="energy conservation" target="global warming" id="630" weight="2" />
+      <edge source="energy conservation" target="sustainable development" id="631" weight="4" />
+      <edge source="energy conservation" target="energy savings" id="632" weight="6" />
+      <edge source="energy conservation" target="energy-savings" id="633" weight="1" />
+      <edge source="energy conservation" target="information management" id="634" weight="1" />
+      <edge source="energy conservation" target="machine learning" id="635" weight="1" />
+      <edge source="energy conservation" target="environmental management" id="636" weight="4" />
+      <edge source="energy conservation" target="investments" id="637" weight="1" />
+      <edge source="energy conservation" target="energy planning" id="638" weight="5" />
+      <edge source="energy conservation" target="gas emissions" id="639" weight="4" />
+      <edge source="energy conservation" target="energy performance indicator" id="640" weight="11" />
+      <edge source="energy conservation" target="international standards" id="641" weight="5" />
+      <edge source="energy conservation" target="optimization" id="642" weight="3" />
+      <edge source="energy conservation" target="industry" id="643" weight="1" />
+      <edge source="energy conservation" target="energy policy" id="644" weight="2" />
+      <edge source="energy conservation" target="management systems" id="645" weight="1" />
+      <edge source="energy conservation" target="manufacture" id="646" weight="7" />
+      <edge source="energy conservation" target="specific energy consumption" id="647" weight="1" />
+      <edge source="energy conservation" target="regression analysis" id="648" weight="3" />
+      <edge source="energy conservation" target="manufacturing" id="649" weight="2" />
+      <edge source="energy conservation" target="intelligent buildings" id="650" weight="2" />
+      <edge source="energy conservation" target="energy performance" id="651" weight="2" />
+      <edge source="energy conservation" target="performance assessment" id="652" weight="2" />
+      <edge source="energy conservation" target="performance indicators" id="653" weight="1" />
+      <edge source="energy conservation" target="management" id="654" weight="1" />
+      <edge source="energy consumption" target="environmental impact" id="655" weight="2" />
+      <edge source="energy consumption" target="energy efficiency" id="656" weight="12" />
+      <edge source="energy consumption" target="energy management" id="657" weight="6" />
+      <edge source="energy consumption" target="energy management system" id="658" weight="5" />
+      <edge source="energy consumption" target="life cycle" id="659" weight="1" />
+      <edge source="energy consumption" target="performance" id="660" weight="1" />
+      <edge source="energy consumption" target="energy performance indicator" id="661" weight="4" />
+      <edge source="energy consumption" target="energy utilization" id="662" weight="8" />
+      <edge source="energy consumption" target="investments" id="663" weight="2" />
+      <edge source="energy consumption" target="iso 50001" id="664" weight="2" />
+      <edge source="energy consumption" target="energy performance" id="665" weight="5" />
+      <edge source="energy consumption" target="performance assessment" id="666" weight="3" />
+      <edge source="energy consumption" target="performance indicators" id="667" weight="2" />
+      <edge source="energy consumption" target="specific energy consumption" id="668" weight="1" />
+      <edge source="energy consumption" target="environmental management" id="669" weight="1" />
+      <edge source="energy consumption" target="manufacture" id="670" weight="1" />
+      <edge source="energy consumption" target="optimization" id="671" weight="1" />
+      <edge source="energy consumption" target="sustainable development" id="672" weight="1" />
+      <edge source="energy consumption" target="energy-consumption" id="673" weight="4" />
+      <edge source="energy consumption" target="industrial sector" id="674" weight="1" />
+      <edge source="energy consumption" target="energy intensity" id="675" weight="2" />
+      <edge source="energy consumption" target="energy planning" id="676" weight="1" />
+      <edge source="energy consumption" target="energy use" id="677" weight="3" />
+      <edge source="energy consumption" target="energy savings" id="678" weight="2" />
+      <edge source="energy consumption" target="energy-savings" id="679" weight="2" />
+      <edge source="energy consumption" target="management" id="680" weight="1" />
+      <edge source="energy efficiency" target="iso 50001" id="681" weight="43" />
+      <edge source="energy efficiency" target="investments" id="682" weight="21" />
+      <edge source="energy efficiency" target="energy management" id="683" weight="104" />
+      <edge source="energy efficiency" target="energy performance" id="684" weight="46" />
+      <edge source="energy efficiency" target="environmental management" id="685" weight="8" />
+      <edge source="energy efficiency" target="management systems" id="686" weight="10" />
+      <edge source="energy efficiency" target="sustainable development" id="687" weight="22" />
+      <edge source="energy efficiency" target="energy performance indicator" id="688" weight="86" />
+      <edge source="energy efficiency" target="energy policy" id="689" weight="8" />
+      <edge source="energy efficiency" target="energy savings" id="690" weight="18" />
+      <edge source="energy efficiency" target="energy utilization" id="691" weight="102" />
+      <edge source="energy efficiency" target="energy-savings" id="692" weight="12" />
+      <edge source="energy efficiency" target="energy management system" id="693" weight="72" />
+      <edge source="energy efficiency" target="energy-consumption" id="694" weight="11" />
+      <edge source="energy efficiency" target="information management" id="695" weight="9" />
+      <edge source="energy efficiency" target="machine learning" id="696" weight="10" />
+      <edge source="energy efficiency" target="regression analysis" id="697" weight="10" />
+      <edge source="energy efficiency" target="energy use" id="698" weight="21" />
+      <edge source="energy efficiency" target="sustainability" id="699" weight="11" />
+      <edge source="energy efficiency" target="global warming" id="700" weight="7" />
+      <edge source="energy efficiency" target="international standards" id="701" weight="8" />
+      <edge source="energy efficiency" target="specific energy consumption" id="702" weight="9" />
+      <edge source="energy efficiency" target="iso standards" id="703" weight="6" />
+      <edge source="energy efficiency" target="environmental impact" id="704" weight="14" />
+      <edge source="energy efficiency" target="life cycle" id="705" weight="7" />
+      <edge source="energy efficiency" target="performance" id="706" weight="5" />
+      <edge source="energy efficiency" target="industrial emissions" id="707" weight="7" />
+      <edge source="energy efficiency" target="manufacturing" id="708" weight="11" />
+      <edge source="energy efficiency" target="intelligent buildings" id="709" weight="7" />
+      <edge source="energy efficiency" target="gas emissions" id="710" weight="11" />
+      <edge source="energy efficiency" target="greenhouse gases" id="711" weight="15" />
+      <edge source="energy efficiency" target="manufacture" id="712" weight="29" />
+      <edge source="energy efficiency" target="performance assessment" id="713" weight="17" />
+      <edge source="energy efficiency" target="key performance indicators" id="714" weight="7" />
+      <edge source="energy efficiency" target="management" id="715" weight="6" />
+      <edge source="energy efficiency" target="monitoring" id="716" weight="8" />
+      <edge source="energy efficiency" target="energy planning" id="717" weight="14" />
+      <edge source="energy efficiency" target="industrial sector" id="718" weight="8" />
+      <edge source="energy efficiency" target="energy intensity" id="719" weight="9" />
+      <edge source="energy efficiency" target="industry" id="720" weight="10" />
+      <edge source="energy efficiency" target="performance indicators" id="721" weight="9" />
+      <edge source="energy efficiency" target="optimization" id="722" weight="8" />
+      <edge source="energy efficiency" target="office buildings" id="723" weight="6" />
+      <edge source="energy intensity" target="energy performance" id="724" weight="1" />
+      <edge source="energy intensity" target="energy management system" id="725" weight="3" />
+      <edge source="energy intensity" target="energy utilization" id="726" weight="6" />
+      <edge source="energy intensity" target="information management" id="727" weight="1" />
+      <edge source="energy intensity" target="investments" id="728" weight="3" />
+      <edge source="energy intensity" target="energy management" id="729" weight="6" />
+      <edge source="energy intensity" target="energy use" id="730" weight="3" />
+      <edge source="energy intensity" target="energy performance indicator" id="731" weight="3" />
+      <edge source="energy intensity" target="manufacturing" id="732" weight="1" />
+      <edge source="energy intensity" target="performance" id="733" weight="1" />
+      <edge source="energy intensity" target="energy planning" id="734" weight="1" />
+      <edge source="energy intensity" target="specific energy consumption" id="735" weight="1" />
+      <edge source="energy intensity" target="performance assessment" id="736" weight="1" />
+      <edge source="energy intensity" target="regression analysis" id="737" weight="1" />
+      <edge source="energy management" target="energy performance" id="738" weight="25" />
+      <edge source="energy management" target="environmental management" id="739" weight="6" />
+      <edge source="energy management" target="management systems" id="740" weight="8" />
+      <edge source="energy management" target="sustainable development" id="741" weight="16" />
+      <edge source="energy management" target="energy performance indicator" id="742" weight="41" />
+      <edge source="energy management" target="energy policy" id="743" weight="6" />
+      <edge source="energy management" target="energy savings" id="744" weight="9" />
+      <edge source="energy management" target="energy utilization" id="745" weight="52" />
+      <edge source="energy management" target="energy-savings" id="746" weight="6" />
+      <edge source="energy management" target="investments" id="747" weight="12" />
+      <edge source="energy management" target="iso 50001" id="748" weight="36" />
+      <edge source="energy management" target="energy management system" id="749" weight="67" />
+      <edge source="energy management" target="energy-consumption" id="750" weight="7" />
+      <edge source="energy management" target="information management" id="751" weight="8" />
+      <edge source="energy management" target="machine learning" id="752" weight="6" />
+      <edge source="energy management" target="regression analysis" id="753" weight="5" />
+      <edge source="energy management" target="energy use" id="754" weight="12" />
+      <edge source="energy management" target="sustainability" id="755" weight="8" />
+      <edge source="energy management" target="global warming" id="756" weight="5" />
+      <edge source="energy management" target="international standards" id="757" weight="8" />
+      <edge source="energy management" target="key performance indicators" id="758" weight="6" />
+      <edge source="energy management" target="office buildings" id="759" weight="4" />
+      <edge source="energy management" target="environmental impact" id="760" weight="9" />
+      <edge source="energy management" target="life cycle" id="761" weight="1" />
+      <edge source="energy management" target="performance" id="762" weight="6" />
+      <edge source="energy management" target="manufacturing" id="763" weight="8" />
+      <edge source="energy management" target="industrial emissions" id="764" weight="3" />
+      <edge source="energy management" target="intelligent buildings" id="765" weight="4" />
+      <edge source="energy management" target="greenhouse gases" id="766" weight="11" />
+      <edge source="energy management" target="iso standards" id="767" weight="6" />
+      <edge source="energy management" target="monitoring" id="768" weight="8" />
+      <edge source="energy management" target="gas emissions" id="769" weight="7" />
+      <edge source="energy management" target="manufacture" id="770" weight="15" />
+      <edge source="energy management" target="performance assessment" id="771" weight="8" />
+      <edge source="energy management" target="specific energy consumption" id="772" weight="4" />
+      <edge source="energy management" target="management" id="773" weight="3" />
+      <edge source="energy management" target="energy planning" id="774" weight="12" />
+      <edge source="energy management" target="industrial sector" id="775" weight="5" />
+      <edge source="energy management" target="industry" id="776" weight="4" />
+      <edge source="energy management" target="optimization" id="777" weight="4" />
+      <edge source="energy management" target="performance indicators" id="778" weight="4" />
+      <edge source="energy management system" target="energy-consumption" id="779" weight="7" />
+      <edge source="energy management system" target="information management" id="780" weight="9" />
+      <edge source="energy management system" target="machine learning" id="781" weight="6" />
+      <edge source="energy management system" target="management systems" id="782" weight="9" />
+      <edge source="energy management system" target="sustainable development" id="783" weight="11" />
+      <edge source="energy management system" target="energy performance" id="784" weight="27" />
+      <edge source="energy management system" target="energy use" id="785" weight="8" />
+      <edge source="energy management system" target="iso 50001" id="786" weight="26" />
+      <edge source="energy management system" target="sustainability" id="787" weight="7" />
+      <edge source="energy management system" target="energy utilization" id="788" weight="43" />
+      <edge source="energy management system" target="global warming" id="789" weight="3" />
+      <edge source="energy management system" target="international standards" id="790" weight="7" />
+      <edge source="energy management system" target="environmental impact" id="791" weight="7" />
+      <edge source="energy management system" target="life cycle" id="792" weight="3" />
+      <edge source="energy management system" target="performance" id="793" weight="3" />
+      <edge source="energy management system" target="energy savings" id="794" weight="5" />
+      <edge source="energy management system" target="energy-savings" id="795" weight="3" />
+      <edge source="energy management system" target="industrial emissions" id="796" weight="2" />
+      <edge source="energy management system" target="manufacturing" id="797" weight="4" />
+      <edge source="energy management system" target="energy performance indicator" id="798" weight="26" />
+      <edge source="energy management system" target="intelligent buildings" id="799" weight="2" />
+      <edge source="energy management system" target="investments" id="800" weight="9" />
+      <edge source="energy management system" target="greenhouse gases" id="801" weight="9" />
+      <edge source="energy management system" target="iso standards" id="802" weight="6" />
+      <edge source="energy management system" target="monitoring" id="803" weight="7" />
+      <edge source="energy management system" target="energy policy" id="804" weight="6" />
+      <edge source="energy management system" target="key performance indicators" id="805" weight="5" />
+      <edge source="energy management system" target="management" id="806" weight="2" />
+      <edge source="energy management system" target="energy planning" id="807" weight="9" />
+      <edge source="energy management system" target="industrial sector" id="808" weight="4" />
+      <edge source="energy management system" target="environmental management" id="809" weight="7" />
+      <edge source="energy management system" target="performance indicators" id="810" weight="5" />
+      <edge source="energy management system" target="performance assessment" id="811" weight="6" />
+      <edge source="energy management system" target="specific energy consumption" id="812" weight="2" />
+      <edge source="energy management system" target="gas emissions" id="813" weight="5" />
+      <edge source="energy management system" target="office buildings" id="814" weight="4" />
+      <edge source="energy management system" target="manufacture" id="815" weight="6" />
+      <edge source="energy management system" target="industry" id="816" weight="2" />
+      <edge source="energy management system" target="optimization" id="817" weight="2" />
+      <edge source="energy management system" target="regression analysis" id="818" weight="2" />
+      <edge source="energy performance" target="environmental management" id="819" weight="2" />
+      <edge source="energy performance" target="management systems" id="820" weight="4" />
+      <edge source="energy performance" target="sustainable development" id="821" weight="4" />
+      <edge source="energy performance" target="energy use" id="822" weight="8" />
+      <edge source="energy performance" target="iso 50001" id="823" weight="7" />
+      <edge source="energy performance" target="sustainability" id="824" weight="2" />
+      <edge source="energy performance" target="energy utilization" id="825" weight="25" />
+      <edge source="energy performance" target="global warming" id="826" weight="1" />
+      <edge source="energy performance" target="information management" id="827" weight="4" />
+      <edge source="energy performance" target="international standards" id="828" weight="3" />
+      <edge source="energy performance" target="machine learning" id="829" weight="3" />
+      <edge source="energy performance" target="energy savings" id="830" weight="5" />
+      <edge source="energy performance" target="energy-savings" id="831" weight="4" />
+      <edge source="energy performance" target="industrial emissions" id="832" weight="2" />
+      <edge source="energy performance" target="manufacturing" id="833" weight="2" />
+      <edge source="energy performance" target="energy-consumption" id="834" weight="6" />
+      <edge source="energy performance" target="gas emissions" id="835" weight="3" />
+      <edge source="energy performance" target="greenhouse gases" id="836" weight="4" />
+      <edge source="energy performance" target="manufacture" id="837" weight="3" />
+      <edge source="energy performance" target="performance assessment" id="838" weight="5" />
+      <edge source="energy performance" target="regression analysis" id="839" weight="4" />
+      <edge source="energy performance" target="specific energy consumption" id="840" weight="4" />
+      <edge source="energy performance" target="monitoring" id="841" weight="3" />
+      <edge source="energy performance" target="energy performance indicator" id="842" weight="18" />
+      <edge source="energy performance" target="investments" id="843" weight="1" />
+      <edge source="energy performance" target="energy policy" id="844" weight="1" />
+      <edge source="energy performance" target="performance indicators" id="845" weight="3" />
+      <edge source="energy performance" target="environmental impact" id="846" weight="5" />
+      <edge source="energy performance" target="iso standards" id="847" weight="1" />
+      <edge source="energy performance" target="energy planning" id="848" weight="2" />
+      <edge source="energy performance" target="industrial sector" id="849" weight="5" />
+      <edge source="energy performance" target="key performance indicators" id="850" weight="3" />
+      <edge source="energy performance" target="optimization" id="851" weight="3" />
+      <edge source="energy performance" target="life cycle" id="852" weight="1" />
+      <edge source="energy performance" target="office buildings" id="853" weight="2" />
+      <edge source="energy performance" target="management" id="854" weight="3" />
+      <edge source="energy performance" target="industry" id="855" weight="1" />
+      <edge source="energy performance indicator" target="energy policy" id="856" weight="1" />
+      <edge source="energy performance indicator" target="energy savings" id="857" weight="7" />
+      <edge source="energy performance indicator" target="energy utilization" id="858" weight="46" />
+      <edge source="energy performance indicator" target="energy-savings" id="859" weight="4" />
+      <edge source="energy performance indicator" target="investments" id="860" weight="8" />
+      <edge source="energy performance indicator" target="iso 50001" id="861" weight="10" />
+      <edge source="energy performance indicator" target="energy use" id="862" weight="10" />
+      <edge source="energy performance indicator" target="intelligent buildings" id="863" weight="2" />
+      <edge source="energy performance indicator" target="key performance indicators" id="864" weight="5" />
+      <edge source="energy performance indicator" target="management" id="865" weight="2" />
+      <edge source="energy performance indicator" target="management systems" id="866" weight="2" />
+      <edge source="energy performance indicator" target="performance" id="867" weight="3" />
+      <edge source="energy performance indicator" target="performance assessment" id="868" weight="11" />
+      <edge source="energy performance indicator" target="environmental impact" id="869" weight="7" />
+      <edge source="energy performance indicator" target="iso standards" id="870" weight="2" />
+      <edge source="energy performance indicator" target="manufacture" id="871" weight="19" />
+      <edge source="energy performance indicator" target="international standards" id="872" weight="2" />
+      <edge source="energy performance indicator" target="greenhouse gases" id="873" weight="7" />
+      <edge source="energy performance indicator" target="industry" id="874" weight="7" />
+      <edge source="energy performance indicator" target="energy planning" id="875" weight="4" />
+      <edge source="energy performance indicator" target="monitoring" id="876" weight="3" />
+      <edge source="energy performance indicator" target="information management" id="877" weight="3" />
+      <edge source="energy performance indicator" target="manufacturing" id="878" weight="9" />
+      <edge source="energy performance indicator" target="machine learning" id="879" weight="3" />
+      <edge source="energy performance indicator" target="energy-consumption" id="880" weight="4" />
+      <edge source="energy performance indicator" target="industrial sector" id="881" weight="3" />
+      <edge source="energy performance indicator" target="industrial emissions" id="882" weight="3" />
+      <edge source="energy performance indicator" target="sustainability" id="883" weight="3" />
+      <edge source="energy performance indicator" target="performance indicators" id="884" weight="4" />
+      <edge source="energy performance indicator" target="specific energy consumption" id="885" weight="2" />
+      <edge source="energy performance indicator" target="sustainable development" id="886" weight="9" />
+      <edge source="energy performance indicator" target="gas emissions" id="887" weight="6" />
+      <edge source="energy performance indicator" target="global warming" id="888" weight="4" />
+      <edge source="energy performance indicator" target="regression analysis" id="889" weight="3" />
+      <edge source="energy performance indicator" target="life cycle" id="890" weight="3" />
+      <edge source="energy performance indicator" target="environmental management" id="891" weight="1" />
+      <edge source="energy performance indicator" target="office buildings" id="892" weight="2" />
+      <edge source="energy performance indicator" target="optimization" id="893" weight="1" />
+      <edge source="energy planning" target="industrial sector" id="894" weight="1" />
+      <edge source="energy planning" target="iso 50001" id="895" weight="8" />
+      <edge source="energy planning" target="energy policy" id="896" weight="3" />
+      <edge source="energy planning" target="energy utilization" id="897" weight="4" />
+      <edge source="energy planning" target="international standards" id="898" weight="3" />
+      <edge source="energy planning" target="iso standards" id="899" weight="1" />
+      <edge source="energy planning" target="sustainability" id="900" weight="1" />
+      <edge source="energy planning" target="energy savings" id="901" weight="1" />
+      <edge source="energy planning" target="environmental management" id="902" weight="1" />
+      <edge source="energy planning" target="sustainable development" id="903" weight="2" />
+      <edge source="energy planning" target="energy use" id="904" weight="3" />
+      <edge source="energy planning" target="manufacture" id="905" weight="2" />
+      <edge source="energy planning" target="manufacturing" id="906" weight="2" />
+      <edge source="energy planning" target="life cycle" id="907" weight="1" />
+      <edge source="energy planning" target="specific energy consumption" id="908" weight="1" />
+      <edge source="energy planning" target="information management" id="909" weight="1" />
+      <edge source="energy planning" target="monitoring" id="910" weight="2" />
+      <edge source="energy planning" target="global warming" id="911" weight="1" />
+      <edge source="energy planning" target="industry" id="912" weight="1" />
+      <edge source="energy planning" target="performance assessment" id="913" weight="2" />
+      <edge source="energy planning" target="performance indicators" id="914" weight="1" />
+      <edge source="energy planning" target="management" id="915" weight="1" />
+      <edge source="energy planning" target="optimization" id="916" weight="1" />
+      <edge source="energy policy" target="energy savings" id="917" weight="3" />
+      <edge source="energy policy" target="energy utilization" id="918" weight="6" />
+      <edge source="energy policy" target="energy-savings" id="919" weight="2" />
+      <edge source="energy policy" target="investments" id="920" weight="2" />
+      <edge source="energy policy" target="iso 50001" id="921" weight="2" />
+      <edge source="energy policy" target="international standards" id="922" weight="2" />
+      <edge source="energy policy" target="iso standards" id="923" weight="1" />
+      <edge source="energy policy" target="performance indicators" id="924" weight="1" />
+      <edge source="energy policy" target="gas emissions" id="925" weight="1" />
+      <edge source="energy policy" target="greenhouse gases" id="926" weight="1" />
+      <edge source="energy policy" target="management systems" id="927" weight="1" />
+      <edge source="energy policy" target="information management" id="928" weight="1" />
+      <edge source="energy policy" target="monitoring" id="929" weight="1" />
+      <edge source="energy policy" target="sustainable development" id="930" weight="1" />
+      <edge source="energy savings" target="energy utilization" id="931" weight="10" />
+      <edge source="energy savings" target="energy-savings" id="932" weight="15" />
+      <edge source="energy savings" target="investments" id="933" weight="3" />
+      <edge source="energy savings" target="iso 50001" id="934" weight="6" />
+      <edge source="energy savings" target="industrial emissions" id="935" weight="2" />
+      <edge source="energy savings" target="manufacturing" id="936" weight="1" />
+      <edge source="energy savings" target="sustainability" id="937" weight="1" />
+      <edge source="energy savings" target="information management" id="938" weight="1" />
+      <edge source="energy savings" target="machine learning" id="939" weight="1" />
+      <edge source="energy savings" target="office buildings" id="940" weight="1" />
+      <edge source="energy savings" target="international standards" id="941" weight="2" />
+      <edge source="energy savings" target="energy-consumption" id="942" weight="4" />
+      <edge source="energy savings" target="iso standards" id="943" weight="1" />
+      <edge source="energy savings" target="environmental management" id="944" weight="1" />
+      <edge source="energy savings" target="gas emissions" id="945" weight="1" />
+      <edge source="energy savings" target="greenhouse gases" id="946" weight="1" />
+      <edge source="energy savings" target="regression analysis" id="947" weight="1" />
+      <edge source="energy savings" target="environmental impact" id="948" weight="1" />
+      <edge source="energy savings" target="sustainable development" id="949" weight="1" />
+      <edge source="energy savings" target="management" id="950" weight="1" />
+      <edge source="energy savings" target="manufacture" id="951" weight="1" />
+      <edge source="energy use" target="energy utilization" id="952" weight="15" />
+      <edge source="energy use" target="energy-consumption" id="953" weight="2" />
+      <edge source="energy use" target="investments" id="954" weight="4" />
+      <edge source="energy use" target="iso 50001" id="955" weight="4" />
+      <edge source="energy use" target="sustainability" id="956" weight="4" />
+      <edge source="energy use" target="management systems" id="957" weight="1" />
+      <edge source="energy use" target="key performance indicators" id="958" weight="1" />
+      <edge source="energy use" target="office buildings" id="959" weight="3" />
+      <edge source="energy use" target="intelligent buildings" id="960" weight="1" />
+      <edge source="energy use" target="gas emissions" id="961" weight="1" />
+      <edge source="energy use" target="greenhouse gases" id="962" weight="1" />
+      <edge source="energy use" target="manufacture" id="963" weight="3" />
+      <edge source="energy use" target="performance assessment" id="964" weight="5" />
+      <edge source="energy use" target="regression analysis" id="965" weight="4" />
+      <edge source="energy use" target="specific energy consumption" id="966" weight="1" />
+      <edge source="energy use" target="international standards" id="967" weight="1" />
+      <edge source="energy use" target="manufacturing" id="968" weight="3" />
+      <edge source="energy use" target="performance" id="969" weight="1" />
+      <edge source="energy use" target="global warming" id="970" weight="2" />
+      <edge source="energy use" target="industry" id="971" weight="2" />
+      <edge source="energy use" target="performance indicators" id="972" weight="3" />
+      <edge source="energy use" target="environmental impact" id="973" weight="1" />
+      <edge source="energy use" target="industrial sector" id="974" weight="1" />
+      <edge source="energy use" target="management" id="975" weight="2" />
+      <edge source="energy use" target="monitoring" id="976" weight="1" />
+      <edge source="energy use" target="optimization" id="977" weight="1" />
+      <edge source="energy utilization" target="energy-consumption" id="978" weight="11" />
+      <edge source="energy utilization" target="investments" id="979" weight="16" />
+      <edge source="energy utilization" target="energy-savings" id="980" weight="7" />
+      <edge source="energy utilization" target="iso 50001" id="981" weight="10" />
+      <edge source="energy utilization" target="global warming" id="982" weight="6" />
+      <edge source="energy utilization" target="information management" id="983" weight="3" />
+      <edge source="energy utilization" target="international standards" id="984" weight="4" />
+      <edge source="energy utilization" target="machine learning" id="985" weight="4" />
+      <edge source="energy utilization" target="intelligent buildings" id="986" weight="4" />
+      <edge source="energy utilization" target="greenhouse gases" id="987" weight="14" />
+      <edge source="energy utilization" target="sustainable development" id="988" weight="11" />
+      <edge source="energy utilization" target="gas emissions" id="989" weight="10" />
+      <edge source="energy utilization" target="manufacture" id="990" weight="21" />
+      <edge source="energy utilization" target="performance assessment" id="991" weight="10" />
+      <edge source="energy utilization" target="regression analysis" id="992" weight="10" />
+      <edge source="energy utilization" target="specific energy consumption" id="993" weight="8" />
+      <edge source="energy utilization" target="monitoring" id="994" weight="2" />
+      <edge source="energy utilization" target="iso standards" id="995" weight="3" />
+      <edge source="energy utilization" target="sustainability" id="996" weight="2" />
+      <edge source="energy utilization" target="environmental management" id="997" weight="6" />
+      <edge source="energy utilization" target="performance indicators" id="998" weight="9" />
+      <edge source="energy utilization" target="environmental impact" id="999" weight="7" />
+      <edge source="energy utilization" target="industrial emissions" id="1000" weight="5" />
+      <edge source="energy utilization" target="industry" id="1001" weight="4" />
+      <edge source="energy utilization" target="management systems" id="1002" weight="3" />
+      <edge source="energy utilization" target="optimization" id="1003" weight="2" />
+      <edge source="energy utilization" target="industrial sector" id="1004" weight="4" />
+      <edge source="energy utilization" target="life cycle" id="1005" weight="5" />
+      <edge source="energy utilization" target="key performance indicators" id="1006" weight="3" />
+      <edge source="energy utilization" target="office buildings" id="1007" weight="6" />
+      <edge source="energy utilization" target="performance" id="1008" weight="1" />
+      <edge source="energy utilization" target="manufacturing" id="1009" weight="6" />
+      <edge source="energy utilization" target="management" id="1010" weight="3" />
+      <edge source="energy-consumption" target="investments" id="1011" weight="1" />
+      <edge source="energy-consumption" target="information management" id="1012" weight="1" />
+      <edge source="energy-consumption" target="machine learning" id="1013" weight="1" />
+      <edge source="energy-consumption" target="management systems" id="1014" weight="1" />
+      <edge source="energy-consumption" target="sustainable development" id="1015" weight="2" />
+      <edge source="energy-consumption" target="iso 50001" id="1016" weight="4" />
+      <edge source="energy-consumption" target="greenhouse gases" id="1017" weight="4" />
+      <edge source="energy-consumption" target="iso standards" id="1018" weight="1" />
+      <edge source="energy-consumption" target="monitoring" id="1019" weight="1" />
+      <edge source="energy-consumption" target="global warming" id="1020" weight="2" />
+      <edge source="energy-consumption" target="energy-savings" id="1021" weight="4" />
+      <edge source="energy-consumption" target="gas emissions" id="1022" weight="2" />
+      <edge source="energy-consumption" target="industrial emissions" id="1023" weight="2" />
+      <edge source="energy-consumption" target="regression analysis" id="1024" weight="1" />
+      <edge source="energy-consumption" target="industrial sector" id="1025" weight="1" />
+      <edge source="energy-consumption" target="performance" id="1026" weight="1" />
+      <edge source="energy-consumption" target="performance indicators" id="1027" weight="1" />
+      <edge source="energy-consumption" target="management" id="1028" weight="1" />
+      <edge source="energy-savings" target="investments" id="1029" weight="3" />
+      <edge source="energy-savings" target="iso 50001" id="1030" weight="4" />
+      <edge source="energy-savings" target="industrial emissions" id="1031" weight="2" />
+      <edge source="energy-savings" target="manufacturing" id="1032" weight="1" />
+      <edge source="energy-savings" target="sustainability" id="1033" weight="1" />
+      <edge source="energy-savings" target="information management" id="1034" weight="1" />
+      <edge source="energy-savings" target="machine learning" id="1035" weight="1" />
+      <edge source="energy-savings" target="office buildings" id="1036" weight="1" />
+      <edge source="energy-savings" target="international standards" id="1037" weight="1" />
+      <edge source="energy-savings" target="gas emissions" id="1038" weight="1" />
+      <edge source="energy-savings" target="greenhouse gases" id="1039" weight="1" />
+      <edge source="energy-savings" target="regression analysis" id="1040" weight="1" />
+      <edge source="energy-savings" target="environmental impact" id="1041" weight="1" />
+      <edge source="energy-savings" target="sustainable development" id="1042" weight="1" />
+      <edge source="energy-savings" target="management" id="1043" weight="1" />
+      <edge source="environmental impact" target="life cycle" id="1044" weight="2" />
+      <edge source="environmental impact" target="performance" id="1045" weight="1" />
+      <edge source="environmental impact" target="iso standards" id="1046" weight="1" />
+      <edge source="environmental impact" target="sustainable development" id="1047" weight="4" />
+      <edge source="environmental impact" target="industry" id="1048" weight="1" />
+      <edge source="environmental impact" target="machine learning" id="1049" weight="1" />
+      <edge source="environmental impact" target="greenhouse gases" id="1050" weight="4" />
+      <edge source="environmental impact" target="performance assessment" id="1051" weight="2" />
+      <edge source="environmental impact" target="gas emissions" id="1052" weight="2" />
+      <edge source="environmental impact" target="manufacture" id="1053" weight="2" />
+      <edge source="environmental impact" target="global warming" id="1054" weight="2" />
+      <edge source="environmental impact" target="regression analysis" id="1055" weight="1" />
+      <edge source="environmental impact" target="key performance indicators" id="1056" weight="2" />
+      <edge source="environmental impact" target="intelligent buildings" id="1057" weight="1" />
+      <edge source="environmental impact" target="industrial sector" id="1058" weight="1" />
+      <edge source="environmental impact" target="management" id="1059" weight="1" />
+      <edge source="environmental management" target="management systems" id="1060" weight="1" />
+      <edge source="environmental management" target="sustainable development" id="1061" weight="4" />
+      <edge source="environmental management" target="iso 50001" id="1062" weight="5" />
+      <edge source="environmental management" target="investments" id="1063" weight="1" />
+      <edge source="environmental management" target="gas emissions" id="1064" weight="1" />
+      <edge source="environmental management" target="greenhouse gases" id="1065" weight="1" />
+      <edge source="environmental management" target="iso standards" id="1066" weight="2" />
+      <edge source="environmental management" target="life cycle" id="1067" weight="1" />
+      <edge source="environmental management" target="office buildings" id="1068" weight="1" />
+      <edge source="environmental management" target="international standards" id="1069" weight="1" />
+      <edge source="environmental management" target="manufacture" id="1070" weight="1" />
+      <edge source="environmental management" target="optimization" id="1071" weight="1" />
+      <edge source="gas emissions" target="greenhouse gases" id="1072" weight="12" />
+      <edge source="gas emissions" target="manufacture" id="1073" weight="4" />
+      <edge source="gas emissions" target="performance assessment" id="1074" weight="1" />
+      <edge source="gas emissions" target="regression analysis" id="1075" weight="2" />
+      <edge source="gas emissions" target="specific energy consumption" id="1076" weight="1" />
+      <edge source="gas emissions" target="industrial emissions" id="1077" weight="4" />
+      <edge source="gas emissions" target="industry" id="1078" weight="1" />
+      <edge source="gas emissions" target="sustainable development" id="1079" weight="5" />
+      <edge source="gas emissions" target="iso 50001" id="1080" weight="3" />
+      <edge source="gas emissions" target="iso standards" id="1081" weight="1" />
+      <edge source="gas emissions" target="life cycle" id="1082" weight="1" />
+      <edge source="gas emissions" target="office buildings" id="1083" weight="1" />
+      <edge source="gas emissions" target="management systems" id="1084" weight="1" />
+      <edge source="gas emissions" target="performance" id="1085" weight="1" />
+      <edge source="gas emissions" target="machine learning" id="1086" weight="1" />
+      <edge source="gas emissions" target="industrial sector" id="1087" weight="1" />
+      <edge source="gas emissions" target="investments" id="1088" weight="1" />
+      <edge source="gas emissions" target="key performance indicators" id="1089" weight="1" />
+      <edge source="gas emissions" target="optimization" id="1090" weight="1" />
+      <edge source="global warming" target="information management" id="1091" weight="1" />
+      <edge source="global warming" target="international standards" id="1092" weight="2" />
+      <edge source="global warming" target="machine learning" id="1093" weight="1" />
+      <edge source="global warming" target="greenhouse gases" id="1094" weight="2" />
+      <edge source="global warming" target="sustainable development" id="1095" weight="1" />
+      <edge source="global warming" target="optimization" id="1096" weight="1" />
+      <edge source="global warming" target="performance indicators" id="1097" weight="2" />
+      <edge source="global warming" target="industry" id="1098" weight="1" />
+      <edge source="global warming" target="performance assessment" id="1099" weight="2" />
+      <edge source="global warming" target="regression analysis" id="1100" weight="1" />
+      <edge source="global warming" target="key performance indicators" id="1101" weight="1" />
+      <edge source="global warming" target="life cycle" id="1102" weight="1" />
+      <edge source="global warming" target="manufacturing" id="1103" weight="1" />
+      <edge source="greenhouse gases" target="iso 50001" id="1104" weight="4" />
+      <edge source="greenhouse gases" target="iso standards" id="1105" weight="2" />
+      <edge source="greenhouse gases" target="monitoring" id="1106" weight="1" />
+      <edge source="greenhouse gases" target="sustainable development" id="1107" weight="5" />
+      <edge source="greenhouse gases" target="manufacture" id="1108" weight="4" />
+      <edge source="greenhouse gases" target="performance assessment" id="1109" weight="2" />
+      <edge source="greenhouse gases" target="regression analysis" id="1110" weight="2" />
+      <edge source="greenhouse gases" target="specific energy consumption" id="1111" weight="1" />
+      <edge source="greenhouse gases" target="industrial emissions" id="1112" weight="3" />
+      <edge source="greenhouse gases" target="industry" id="1113" weight="1" />
+      <edge source="greenhouse gases" target="life cycle" id="1114" weight="1" />
+      <edge source="greenhouse gases" target="office buildings" id="1115" weight="1" />
+      <edge source="greenhouse gases" target="international standards" id="1116" weight="1" />
+      <edge source="greenhouse gases" target="optimization" id="1117" weight="2" />
+      <edge source="greenhouse gases" target="management systems" id="1118" weight="1" />
+      <edge source="greenhouse gases" target="performance" id="1119" weight="1" />
+      <edge source="greenhouse gases" target="machine learning" id="1120" weight="1" />
+      <edge source="greenhouse gases" target="key performance indicators" id="1121" weight="1" />
+      <edge source="industrial emissions" target="iso 50001" id="1122" weight="2" />
+      <edge source="industrial emissions" target="manufacturing" id="1123" weight="1" />
+      <edge source="industrial emissions" target="sustainability" id="1124" weight="1" />
+      <edge source="industrial emissions" target="industry" id="1125" weight="1" />
+      <edge source="industrial emissions" target="manufacture" id="1126" weight="3" />
+      <edge source="industrial emissions" target="sustainable development" id="1127" weight="3" />
+      <edge source="industrial emissions" target="regression analysis" id="1128" weight="1" />
+      <edge source="industrial emissions" target="investments" id="1129" weight="2" />
+      <edge source="industrial emissions" target="industrial sector" id="1130" weight="1" />
+      <edge source="industrial emissions" target="optimization" id="1131" weight="1" />
+      <edge source="industrial sector" target="iso 50001" id="1132" weight="1" />
+      <edge source="industrial sector" target="key performance indicators" id="1133" weight="1" />
+      <edge source="industrial sector" target="regression analysis" id="1134" weight="1" />
+      <edge source="industrial sector" target="investments" id="1135" weight="1" />
+      <edge source="industrial sector" target="sustainable development" id="1136" weight="1" />
+      <edge source="industrial sector" target="industry" id="1137" weight="1" />
+      <edge source="industrial sector" target="management" id="1138" weight="1" />
+      <edge source="industry" target="manufacture" id="1139" weight="1" />
+      <edge source="industry" target="sustainable development" id="1140" weight="2" />
+      <edge source="industry" target="key performance indicators" id="1141" weight="1" />
+      <edge source="industry" target="management" id="1142" weight="1" />
+      <edge source="industry" target="machine learning" id="1143" weight="2" />
+      <edge source="industry" target="performance assessment" id="1144" weight="2" />
+      <edge source="industry" target="performance indicators" id="1145" weight="2" />
+      <edge source="industry" target="specific energy consumption" id="1146" weight="1" />
+      <edge source="industry" target="investments" id="1147" weight="1" />
+      <edge source="industry" target="sustainability" id="1148" weight="1" />
+      <edge source="information management" target="machine learning" id="1149" weight="3" />
+      <edge source="information management" target="management systems" id="1150" weight="4" />
+      <edge source="information management" target="sustainable development" id="1151" weight="2" />
+      <edge source="information management" target="international standards" id="1152" weight="1" />
+      <edge source="information management" target="iso 50001" id="1153" weight="1" />
+      <edge source="information management" target="office buildings" id="1154" weight="1" />
+      <edge source="information management" target="investments" id="1155" weight="1" />
+      <edge source="information management" target="monitoring" id="1156" weight="1" />
+      <edge source="information management" target="key performance indicators" id="1157" weight="1" />
+      <edge source="information management" target="performance assessment" id="1158" weight="1" />
+      <edge source="intelligent buildings" target="investments" id="1159" weight="1" />
+      <edge source="intelligent buildings" target="machine learning" id="1160" weight="1" />
+      <edge source="intelligent buildings" target="iso 50001" id="1161" weight="1" />
+      <edge source="intelligent buildings" target="manufacture" id="1162" weight="1" />
+      <edge source="intelligent buildings" target="regression analysis" id="1163" weight="1" />
+      <edge source="international standards" target="machine learning" id="1164" weight="1" />
+      <edge source="international standards" target="investments" id="1165" weight="1" />
+      <edge source="international standards" target="monitoring" id="1166" weight="1" />
+      <edge source="international standards" target="iso standards" id="1167" weight="3" />
+      <edge source="international standards" target="iso 50001" id="1168" weight="5" />
+      <edge source="international standards" target="optimization" id="1169" weight="1" />
+      <edge source="international standards" target="sustainable development" id="1170" weight="1" />
+      <edge source="international standards" target="manufacture" id="1171" weight="2" />
+      <edge source="international standards" target="manufacturing" id="1172" weight="1" />
+      <edge source="investments" target="iso 50001" id="1173" weight="5" />
+      <edge source="investments" target="performance assessment" id="1174" weight="2" />
+      <edge source="investments" target="monitoring" id="1175" weight="2" />
+      <edge source="investments" target="optimization" id="1176" weight="1" />
+      <edge source="investments" target="manufacture" id="1177" weight="3" />
+      <edge source="investments" target="office buildings" id="1178" weight="1" />
+      <edge source="investments" target="sustainable development" id="1179" weight="2" />
+      <edge source="investments" target="sustainability" id="1180" weight="1" />
+      <edge source="investments" target="management" id="1181" weight="1" />
+      <edge source="iso 50001" target="regression analysis" id="1182" weight="2" />
+      <edge source="iso 50001" target="sustainability" id="1183" weight="6" />
+      <edge source="iso 50001" target="management systems" id="1184" weight="4" />
+      <edge source="iso 50001" target="specific energy consumption" id="1185" weight="1" />
+      <edge source="iso 50001" target="sustainable development" id="1186" weight="4" />
+      <edge source="iso 50001" target="iso standards" id="1187" weight="6" />
+      <edge source="iso 50001" target="manufacturing" id="1188" weight="3" />
+      <edge source="iso 50001" target="monitoring" id="1189" weight="3" />
+      <edge source="iso 50001" target="key performance indicators" id="1190" weight="1" />
+      <edge source="iso 50001" target="management" id="1191" weight="2" />
+      <edge source="iso 50001" target="performance" id="1192" weight="3" />
+      <edge source="iso 50001" target="manufacture" id="1193" weight="4" />
+      <edge source="iso 50001" target="life cycle" id="1194" weight="1" />
+      <edge source="iso 50001" target="office buildings" id="1195" weight="1" />
+      <edge source="iso 50001" target="optimization" id="1196" weight="1" />
+      <edge source="iso standards" target="monitoring" id="1197" weight="1" />
+      <edge source="iso standards" target="life cycle" id="1198" weight="1" />
+      <edge source="iso standards" target="office buildings" id="1199" weight="1" />
+      <edge source="key performance indicators" target="office buildings" id="1200" weight="1" />
+      <edge source="key performance indicators" target="management" id="1201" weight="2" />
+      <edge source="key performance indicators" target="management systems" id="1202" weight="2" />
+      <edge source="key performance indicators" target="performance" id="1203" weight="1" />
+      <edge source="key performance indicators" target="regression analysis" id="1204" weight="1" />
+      <edge source="key performance indicators" target="performance assessment" id="1205" weight="2" />
+      <edge source="key performance indicators" target="life cycle" id="1206" weight="1" />
+      <edge source="key performance indicators" target="manufacture" id="1207" weight="2" />
+      <edge source="life cycle" target="performance" id="1208" weight="1" />
+      <edge source="life cycle" target="office buildings" id="1209" weight="2" />
+      <edge source="life cycle" target="specific energy consumption" id="1210" weight="1" />
+      <edge source="life cycle" target="sustainable development" id="1211" weight="1" />
+      <edge source="life cycle" target="machine learning" id="1212" weight="1" />
+      <edge source="life cycle" target="performance assessment" id="1213" weight="1" />
+      <edge source="life cycle" target="manufacture" id="1214" weight="1" />
+      <edge source="machine learning" target="management systems" id="1215" weight="2" />
+      <edge source="machine learning" target="sustainable development" id="1216" weight="3" />
+      <edge source="machine learning" target="office buildings" id="1217" weight="1" />
+      <edge source="machine learning" target="manufacturing" id="1218" weight="1" />
+      <edge source="machine learning" target="sustainability" id="1219" weight="1" />
+      <edge source="management" target="management systems" id="1220" weight="2" />
+      <edge source="management" target="optimization" id="1221" weight="3" />
+      <edge source="management" target="performance" id="1222" weight="2" />
+      <edge source="management" target="monitoring" id="1223" weight="1" />
+      <edge source="management" target="performance assessment" id="1224" weight="1" />
+      <edge source="management systems" target="sustainable development" id="1225" weight="2" />
+      <edge source="management systems" target="sustainability" id="1226" weight="1" />
+      <edge source="management systems" target="optimization" id="1227" weight="1" />
+      <edge source="management systems" target="performance" id="1228" weight="1" />
+      <edge source="manufacture" target="performance assessment" id="1229" weight="4" />
+      <edge source="manufacture" target="regression analysis" id="1230" weight="1" />
+      <edge source="manufacture" target="specific energy consumption" id="1231" weight="1" />
+      <edge source="manufacture" target="sustainable development" id="1232" weight="4" />
+      <edge source="manufacture" target="optimization" id="1233" weight="1" />
+      <edge source="manufacture" target="manufacturing" id="1234" weight="8" />
+      <edge source="manufacturing" target="sustainable development" id="1235" weight="1" />
+      <edge source="manufacturing" target="sustainability" id="1236" weight="1" />
+      <edge source="manufacturing" target="performance" id="1237" weight="1" />
+      <edge source="manufacturing" target="performance assessment" id="1238" weight="3" />
+      <edge source="monitoring" target="optimization" id="1239" weight="3" />
+      <edge source="monitoring" target="sustainable development" id="1240" weight="1" />
+      <edge source="monitoring" target="performance assessment" id="1241" weight="1" />
+      <edge source="office buildings" target="regression analysis" id="1242" weight="3" />
+      <edge source="optimization" target="sustainable development" id="1243" weight="2" />
+      <edge source="optimization" target="performance" id="1244" weight="2" />
+      <edge source="optimization" target="performance assessment" id="1245" weight="2" />
+      <edge source="performance" target="sustainability" id="1246" weight="1" />
+      <edge source="performance assessment" target="regression analysis" id="1247" weight="2" />
+      <edge source="performance assessment" target="specific energy consumption" id="1248" weight="2" />
+      <edge source="performance assessment" target="performance indicators" id="1249" weight="3" />
+      <edge source="performance assessment" target="sustainability" id="1250" weight="2" />
+      <edge source="performance assessment" target="sustainable development" id="1251" weight="2" />
+      <edge source="performance indicators" target="sustainability" id="1252" weight="1" />
+      <edge source="performance indicators" target="specific energy consumption" id="1253" weight="2" />
+      <edge source="performance indicators" target="sustainable development" id="1254" weight="1" />
+      <edge source="regression analysis" target="specific energy consumption" id="1255" weight="1" />
+      <edge source="specific energy consumption" target="sustainable development" id="1256" weight="2" />
+      <edge source="sustainability" target="sustainable development" id="1257" weight="3" />
+    </edges>
+  </graph>
+</gexf>

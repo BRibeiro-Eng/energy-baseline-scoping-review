@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536615",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T14:04:05Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The energy consumption data of the ceramics sanitary production would be applied by multiple linear regression to analyze factors, which affect the energy consumption of these industries. The result is a linear equation consistency with energy consumption and major factors is electricity energy used in the production system and minor factors also influence but less than the major factors include thermal energy used in a production system, number of employees and quantity of product.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "This study will take place on 4 factories out of 10 factories as the database is complete, and is appropriate to be taken for the analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Analysis of Energy Utilization Index in Thailand Sanitary Ceramics Sector",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Sanitary ceramics is unlisted in the closed Level 3B sector list; classified false despite its industrial process context."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This study will take place on 4 factories out of 10 factories as the database is complete, and is appropriate to be taken for the analysis.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Thailand",
+      "evidence_quote": "this research aims to evaluate the energy utilization index of ceramic sanitary industries in Thailand from 2014 to 2015.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "ceramic sanitary industries",
+      "evidence_quote": "this research aims to evaluate the energy utilization index of ceramic sanitary industries in Thailand from 2014 to 2015.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "The manufacturing process of the sanitary ceramics can be driven by two main routes: (i) dry process (DP), in which the raw material is composed of clay mined in nature and ground dry, (ii) wet process (WP), wherein the ceramics mass consists of different raw materials milled with addition of water and subsequent removal of moisture by atomization.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "other-named"
+      ],
+      "evidence_quote": [
+        "Thailand’s policy measure on energy conservation in a controlled factory (designated factory) is constituted by the Ministerial Regulation issued under the Energy Conservation Promotion Act (ECP Act)",
+        "National designated factory database"
+      ],
+      "page": [
+        1,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "multiple regression"
+      ],
+      "evidence_quote": [
+        "The Energy Utilization Index (EUI) is determined by the total energy consumption of designated factory (both of electricity and thermal energy) and product output is quantity of the product",
+        "Multiple linear regression attempts to model the relationship between two or more explanatory variables and a response variable by fitting a linear equation to observed data."
+      ],
+      "page": [
+        3,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

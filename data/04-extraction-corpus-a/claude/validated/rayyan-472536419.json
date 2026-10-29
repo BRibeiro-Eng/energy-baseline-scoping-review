@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536419",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T19:48:43.266624+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The determination of SEC and SECC is based on electrical measurements and load curves recorded and monitored daily in different stages of the manufacturing process",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The study focused on a client chosen from among the largest consumers of electrical energy of the National Electricity and Gas Company",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This study proposes an electrical energy management approach in the agro-food sector in Algeria, more specifically yogurt manufacturing",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Agro-food/dairy yogurt plant; sector off the closed Corpus-B list so level_3b=false despite ~24h (3x8h) operation. EnPIs SEC/SECC (kWh/l, DZD/l) unfitted; A11 borderline SEC-mean vs simple intensity ratio."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "which has an industrial unit operating in the agro-food sector",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "country_region": {
+      "value": "Algeria",
+      "evidence_quote": "In Algeria, the agro-food sector has long been the prerogative of the state",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "sector_of_activity": {
+      "value": "agro-food sector",
+      "evidence_quote": "operating in the agro-food sector, more precisely the manufacture of yogurt",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "The energy balance of the manufacturing process in 3x8h",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean"
+      ],
+      "evidence_quote": "the specific energy consumption (kWh / l), for the present case the liter of yogurt",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535354",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "an anomaly detection algorithm and a forecasting model",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This case study introduces a proof-of-concept implemented in a German manufacturing company",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "German manufacturing company in the mechanical engineering sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Single-site AI/ML case study: LSTM forecasting (data-driven EnB) plus supervised-ML anomaly detection, ISO 50001-aligned. Mechanical-engineering SME with reduced weekend operation = discrete manufacturing, not a continuous-process sector, so Level 3B false. German Energy Efficiency Act cited only as legal context, not as case driver, so regulatory_driver coded none."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Automated data acquisition was realised through one main electricity meter",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "Germany",
+      "evidence_quote": "a German manufacturing company in the mechanical engineering sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "sector_of_activity": {
+      "value": "mechanical engineering",
+      "evidence_quote": "mechanical engineering sector",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "the company under investigation operates at reduced capacity during weekends",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "support compliance with the ISO 50001 standard",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["ML"],
+      "evidence_quote": "An LSTM is therefore being used in the following to enable the prediction of energy consumption data",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,1251 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536428",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0-C",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 7,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Food, Wood, Paper, Cement, Ceramic, Chemicals, Automotive, Iron-Steel, Production, Textile, Mine",
+        "evidence_quote": "The data of this paper is based on 44 factory from 10 different sector.",
+        "page": 6,
+        "support_class": "requires inference",
+        "other_verbatim": null
+      },
+      "country_region": {
+        "value": "Turkey",
+        "evidence_quote": "Turkey joined to the Kyoto Protocol and Paris Agreement and \npromised to reduce carbon emissions.",
+        "page": 2,
+        "support_class": "requires inference",
+        "other_verbatim": null
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+        "page": 4,
+        "support_class": "direct statement",
+        "other_verbatim": null
+      },
+      "scope_description": {
+        "value": "Energy audits of compressed air systems in 44 industrial facilities across 10 sectors, with a detailed demonstration of the proposed indicators on one steel production facility (9,650 t/year).",
+        "evidence_quote": "In this study, detailed energy audits were conducted in 44 facilities, \nand CAS of all companies were inspected.",
+        "page": 5,
+        "support_class": "direct statement",
+        "other_verbatim": null
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The data of this paper is based on 44 factory from 10 different sector.",
+        "page": 6,
+        "support_class": "requires inference",
+        "other_verbatim": null
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "SEC (Specific Energy Consumption), Equation (4)",
+          "model_parameters_reported": [],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC is the amount of energy required to produce one unit of \nproduct",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Here, C is the total energy consumption in (TOE/year), P is the amount \nof product in (kg, ton, l or piece).",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "Here, C is the total energy consumption in (TOE/year), P is the amount \nof product in (kg, ton, l or piece).",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": "amount of product in (kg, ton, l or piece)"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "described as the ratio of total energy consumption to total production.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the amount of product in (kg, ton, l or piece)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Here, C is the total energy consumption in (TOE/year), P is the amount \nof product in (kg, ton, l or piece).",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Here, C is the total energy consumption in (TOE/year), P is the amount \nof product in (kg, ton, l or piece).",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "SES (Specific Energy Saving), Equation (5)",
+          "model_parameters_reported": [],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "a new energy \nperformance indicator; Specific Energy Saving (SES) similar to SEC, is \ncalculated and highlighted in this study to fill this gap within the liter­\nature.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "Specific Energy Saving (SES) — total energy saved per unit product"
+            },
+            "energy_vector": {
+              "value": [
+                "total energy"
+              ],
+              "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at \nthe end of the audit, P is the amount of product annually (in kg, ton, l or \npiece).",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "Total amount \n558 \n9,650 \n0.0578 \n55.2",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "unit_verbatim": {
+              "value": "TOE/t",
+              "evidence_quote": "Total amount \n558 \n9,650 \n0.0578 \n55.2",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at \nthe end of the audit, P is the amount of product annually (in kg, ton, l or \npiece).",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P is the amount of product annually (in kg, ton, l or piece)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at \nthe end of the audit, P is the amount of product annually (in kg, ton, l or \npiece).",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at \nthe end of the audit, P is the amount of product annually (in kg, ton, l or \npiece).",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": 1,
+              "evidence_quote": "This factory produces 9,650 t/year steel and it has 558 TOE/year saving \npotential at the end of the audit.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "total energy",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Here ESA is the total amount of energy saved (TOE/year) calculated at \nthe end of the audit, P is the amount of product annually (in kg, ton, l or \npiece).",
+              "page": 4,
+              "support_class": "requires inference",
+              "absence_basis": null
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Total amount \n558 \n9,650 \n0.0578 \n55.2",
+                "page": 5,
+                "support_class": "direct statement",
+                "other_verbatim": null
+              },
+              "metrics": [
+                {
+                  "metric": "Specific Energy Saving (SES)",
+                  "value": "0.0578",
+                  "unit": "TOE/t",
+                  "period_or_context": "steel facility, total audit saving per product",
+                  "evidence_quote": "Total amount \n558 \n9,650 \n0.0578 \n55.2",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "SCAS (Specific Compressed Air Saving), Equation (6)",
+          "model_parameters_reported": [],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "Specific Compressed Air Saving \n(SCAS) is also defined to increase the awareness and to make the CAS \nenergy saving methods (S1–S8) comparable to each other.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "Specific Compressed Air Saving (SCAS) — CAS energy saved per unit product"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Here, ESCAS denotes the total energy savings that can be achieved from \nCAS.",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "While SCAS of the facility was 0.0067 TOE/t, \nSLS value was calculated as 0.0035 TOE/t.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "unit_verbatim": {
+              "value": "TOE/t",
+              "evidence_quote": "While SCAS of the facility was 0.0067 TOE/t, \nSLS value was calculated as 0.0035 TOE/t.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "Here, ESCAS denotes the total energy savings that can be achieved from \nCAS.",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "∑P (amount of product)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "SCAS =\n∑ESCAS\n∑P",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Where ESL, CAS denotes energy savings by avoiding energy leaks in \n(TOE/year).",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": 1,
+              "evidence_quote": "This factory produces 9,650 t/year steel and it has 558 TOE/year saving \npotential at the end of the audit.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Air leakages were measured by an ultrasonic air leakage detector during \nenergy audits.",
+              "page": 3,
+              "support_class": "requires inference",
+              "absence_basis": null
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "While SCAS of the facility was 0.0067 TOE/t, \nSLS value was calculated as 0.0035 TOE/t.",
+                "page": 5,
+                "support_class": "direct statement",
+                "other_verbatim": null
+              },
+              "metrics": [
+                {
+                  "metric": "Specific Compressed Air Saving (SCAS)",
+                  "value": "0.0067",
+                  "unit": "TOE/t",
+                  "period_or_context": "steel facility, CAS total savings (S1–S8) per ton steel",
+                  "evidence_quote": "While SCAS of the facility was 0.0067 TOE/t, \nSLS value was calculated as 0.0035 TOE/t.",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "SLS (Specific Leakage Saving), Equation (7)",
+          "model_parameters_reported": [],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "this \npaper introduces Specific Leakage Saving (SLS) for the first time in the \nliterature.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "Specific Leakage Saving (SLS) — energy saved by avoiding air leaks per unit product"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "Where ESL, CAS denotes energy savings by avoiding energy leaks in \n(TOE/year).",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "The SLS value is \ncalculated as 0.0035 TOE per ton of steel product in this factory.",
+              "page": 6,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "unit_verbatim": {
+              "value": "TOE/t",
+              "evidence_quote": "The SLS value is \ncalculated as 0.0035 TOE per ton of steel product in this factory.",
+              "page": 6,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "SLS = ESL, CAS\n∑P",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "n_independent_variables": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "∑P (amount of product)",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "SLS = ESL, CAS\n∑P",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Air leakages were measured by an ultrasonic air leakage detector during \nenergy audits.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "modelling_frequency": {
+              "value": "annual",
+              "evidence_quote": "Where ESL, CAS denotes energy savings by avoiding energy leaks in \n(TOE/year).",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": 44,
+              "evidence_quote": "The total amount of CO2 emissions from all air leaks detected in 44 \nfacilities have been calculated as approximately 4,477 t/year.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The findings of energy audits car­\nried out in 44 industrial facilities from different sectors were evaluated.",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "the power needed to compensate air \nleakages in CAS can be calculated with Equation (3), once flow rate of \nthe leakage is obtained",
+              "page": 3,
+              "support_class": "requires inference",
+              "absence_basis": null
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "The SLS value is \ncalculated as 0.0035 TOE per ton of steel product in this factory.",
+                "page": 6,
+                "support_class": "direct statement",
+                "other_verbatim": null
+              },
+              "metrics": [
+                {
+                  "metric": "Specific Leakage Saving (SLS)",
+                  "value": "0.0035",
+                  "unit": "TOE/t",
+                  "period_or_context": "steel facility, energy saved by fixing 65 air leaks per ton steel",
+                  "evidence_quote": "The SLS value is \ncalculated as 0.0035 TOE per ton of steel product in this factory.",
+                  "page": 6,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "CO2 emission reduction from repairing air leaks (steel facility)",
+                  "value": "175",
+                  "unit": "t CO2/year",
+                  "period_or_context": "steel facility",
+                  "evidence_quote": "If all air leaks in this \nfacility are repaired, CO2 emissions will be reduced by 175 t/year.",
+                  "page": 6,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Extra cost attributable to SLS (steel facility)",
+                  "value": "3.3",
+                  "unit": "USD/ton",
+                  "period_or_context": "steel facility",
+                  "evidence_quote": "The \ncompany is paying an extra 3.3 $/ton due to SLS.",
+                  "page": 6,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "Total air-leak energy saving across 44 facilities",
+                  "value": "853.9",
+                  "unit": "TOE/year",
+                  "period_or_context": "44 facilities",
+                  "evidence_quote": "The ratio of \nthe amount of savings due to air leaks (853.9 TOE/year) to the total \namount of savings (41,730 TOE/year) is 2.05%.",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "Equation (2), ˙mCA = AS2 + BS + C (dB-to-flow-rate correlation)",
+          "model_parameters_reported": [
+            "A, B, C correlation constants per operational pressure (Table 1)",
+            "R2 = 0.99 for each pressure level"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "This empirical equation provides a unique approach for conversion \nof air leakage from dB to flow rate (kg/s). This equation does not require \nthe leak diameter.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": "mass flow rate of air leakage (kg/s or l/s)"
+            },
+            "energy_vector": {
+              "value": [
+                "compressed air"
+              ],
+              "evidence_quote": "The dB values from the ultrasonic leak detection \ndevice are converted to air flow rate (l/s) by using Equation (2).",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "This empirical equation provides a unique approach for conversion \nof air leakage from dB to flow rate (kg/s). This equation does not require \nthe leak diameter.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "unit_verbatim": {
+              "value": "l/s (or kg/s)",
+              "evidence_quote": "The dB values from the ultrasonic leak detection \ndevice are converted to air flow rate (l/s) by using Equation (2).",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "˙mCA = AS2 + BS + C",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "In this equation, S (dB) is the measured sound in dB. A, B, and C are \ncorrelation constants depending on operation pressure and measure­\nment device, presented in Table 1.",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "In this equation, S (dB) is the measured sound in dB. A, B, and C are \ncorrelation constants depending on operation pressure and measure­\nment device, presented in Table 1.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "S (dB) is the measured sound in dB",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "In this equation, S (dB) is the measured sound in dB. A, B, and C are \ncorrelation constants depending on operation pressure and measure­\nment device, presented in Table 1.",
+              "page": 3,
+              "support_class": "direct statement",
+              "type_other_verbatim": "measured sound level (decibel, dB) from ultrasonic leak detector"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "Air leakages were measured by an ultrasonic air leakage detector during \nenergy audits.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": null
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "compressed air",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Air leakages were measured by an ultrasonic air leakage detector during \nenergy audits.",
+              "page": 3,
+              "support_class": "direct statement",
+              "absence_basis": null
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text"
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "A, B, and C are \ncorrelation constants depending on operation pressure and measure­\nment device, presented in Table 1.",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            },
+            "bounds_verbatim": {
+              "value": "correlation constants provided for operational pressures 0.7, 1.75, 3.5, 5 and 7 Bar",
+              "evidence_quote": "0.7 \n2.84 ×\n10−4 \n1.198 × 10−3 \n−6.53 ×\n10−2 \n0.99",
+              "page": 3,
+              "support_class": "requires inference",
+              "other_verbatim": null
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "0.7 \n2.84 ×\n10−4 \n1.198 × 10−3 \n−6.53 ×\n10−2 \n0.99",
+                "page": 3,
+                "support_class": "direct statement",
+                "other_verbatim": null
+              },
+              "metrics": [
+                {
+                  "metric": "R2 (dB-to-flow correlation)",
+                  "value": "0.99",
+                  "unit": null,
+                  "period_or_context": "each operational pressure level in Table 1",
+                  "evidence_quote": "0.7 \n2.84 ×\n10−4 \n1.198 × 10−3 \n−6.53 ×\n10−2 \n0.99",
+                  "page": 3,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "0.7 \n2.84 ×\n10−4 \n1.198 × 10−3 \n−6.53 ×\n10−2 \n0.99",
+                "page": 3,
+                "support_class": "requires inference",
+                "other_verbatim": null
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Requires only the measured sound level (dB) and operational pressure; does not require the leak diameter"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "Paper (1) \n522 \n16 \n3.2 \nCement (2) \n386 \n119 \n31.1",
+        "page": 4,
+        "support_class": "requires inference",
+        "other_verbatim": null
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M5",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The relationship between the flow rate and dB data of air leakage is \nrelated to different parameters like operational pressure, temperature, \nenvironmental conditions, hole/crack geometry, distance/angle be­\ntween the measurement device and the hole, nozzle geometry of the \nmeasurement device’s probe.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "non-stationarity of the relationship",
+      "cause_other_verbatim": "dependence on operational pressure, temperature, environmental conditions, hole/crack geometry, distance/angle and probe nozzle geometry",
+      "effect_other_verbatim": null
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "we cannot \nmeasure the diameter of the hole in audits because mostly the diameter \nof the hole is fractional, not smooth for measuring or located at a high \nlevel that it cannot be reached.",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "observability gap — quantity not measured",
+      "cause_other_verbatim": "hole diameter is fractional, unsmooth or physically inaccessible during audits",
+      "effect_other_verbatim": null
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "New specific-saving energy performance indicators normalised to production: SES, SCAS and SLS",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "New SES, SCAS, and SLS energy performance indicator parameters \nwere presented to the literature in this study.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "However, such a small number of data sets \nare not suitable for making a whole sectoral generalization. It is rec­\nommended to update Table 2 with some additional data to be obtained \nfrom future studies.",
+      "page": 4
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Lack of staff education and awareness, and neglected CAS maintenance",
+      "evidence_quote": "There may be many reasons for \nair leakages such as the lack of education levels of the staff, inadequate \nawareness level, neglecting CAS maintenances, gaps and cracks occur­\nring between installation and fitting elements as a result of expansion/ \ncontraction due to seasonal hot-cold differences.",
+      "page": 4
+    },
+    {
+      "barrier": "Employees ignore audible leaks believing compressed air is cheap",
+      "evidence_quote": "However, employees stated that they did not take the leakage into ac­\ncount because they thought the air was cheap.",
+      "page": 5
+    },
+    {
+      "barrier": "Engineers address CAS only reactively when the compressor fails",
+      "evidence_quote": "In some facilities, engineers act about the CAS only when there is a \nproblem with the compressor.",
+      "page": 5
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "˙mCA = AS2 + BS + C",
+      "page": 3,
+      "support_class": "direct statement",
+      "other_verbatim": null
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "0.7 \n2.84 ×\n10−4 \n1.198 × 10−3 \n−6.53 ×\n10−2 \n0.99",
+      "page": 3,
+      "support_class": "direct statement",
+      "other_verbatim": null
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text"
+    }
+  },
+  "reviewer_notes": "Paper studies 44 industrial facilities across 10 sectors (defined multi-site population) with a detailed numeric demonstration on one steel production facility; treated as a single multi-site application A1. Five models extracted: SEC (M1, reference intensity ratio, no numeric value computed), SES (M2), SCAS (M3) and SLS (M4) are new specific-saving intensity ratios demonstrated numerically on the steel facility; M5 is the empirical quadratic dB-to-air-flow-rate correlation (Equation 2), which is not an energy quantity itself but is the only fitted statistical model in the paper (R2=0.99, Table 1) and feeds the energy/CO2 calculations. Energy vectors for CAS savings (M3/M4) marked electricity by inference (compressor energy). Denominators for M2/M3/M4 marked production mass because the demonstration is reported in TOE per ton of steel, though the indicators are defined generically per amount of product.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "assumption",
+        "cannot measure",
+        "depends on",
+        "generalization",
+        "uncertainty",
+        "validity"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "new indicator",
+        "proposed",
+        "SCAS",
+        "SLS",
+        "SES",
+        "monitoring",
+        "future"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "data set",
+        "sample",
+        "generalization",
+        "recommended",
+        "limited",
+        "future studies"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "staff",
+        "awareness",
+        "education",
+        "maintenance",
+        "employees",
+        "engineers",
+        "training"
+      ]
+    }
+  },
+  "attempt": 1
+}

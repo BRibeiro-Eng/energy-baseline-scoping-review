@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536387",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T10:54:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "a set of 3 supplementary KPIs has been formulated, aiming at refining and accelerating the assessment of energy efficiency in the processes within the wine industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "Just to illustrate a calculation example for the above-defined coefficients, a winery in Northern Italy was selected as case-study.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "processes within the wine industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Winemaking is outside the closed Level 3B sector list; the paper proposes supplementary input/output-ratio KPIs alongside SEC."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "a winery in Northern Italy was selected as case-study.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Northern Italy",
+      "evidence_quote": "a winery in Northern Italy was selected as case-study.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "wine industry",
+      "evidence_quote": "processes within the wine industry.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "wine production, i.e. chemical-physical process to transform grapes into wine, involving stages of crushing, fermentation, clarification, stabilization, and maturation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.74
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "Amongst the coefficients that relate non-homogeneous quantities in the winemaking sector, there is also the “energy used to produce a unit of product” (SEC, expressed in kWh·hL-1 of unpacked wine or kWh per 0.75-L-bottle).",
+        "Of all the possible coefficients, 3 in particular are proposed (namely: the “winery outsourcing index”, the “overpressure wine share index”, the “wine packaging index”)."
+      ],
+      "page": [
+        3,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

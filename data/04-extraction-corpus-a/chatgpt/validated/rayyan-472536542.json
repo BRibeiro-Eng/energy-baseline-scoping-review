@@ -1,0 +1,135 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536542",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:57:07Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Based on the calculation of EBB, an energy performance indicator (EnPI) of battery formation is proposed (i.e., the ratio between EBB and battery production). Based on the EnPI, which is calculated for each formation process in the database, an energy baseline (EnB) is developed for each formation circuit.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "Lead-acid battery manufacturing consists of three steps (Dahodwalla and Herat 2000; Rantik 1999): grid manufacturing, battery assembly, and battery formation.",
+        "Battery formation takes place in formation circuits, which include two subcircuits: an AC/DC rectifier and a batch of N batteries connected in series (Fig. 1)."
+      ],
+      "page": [
+        2,
+        3
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "notes": "Lead-acid battery production is discrete manufacturing with assembly and batch formation, not a closed-list continuous process industry."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Barranquilla, Colombia",
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "battery plant",
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "Lead-acid battery manufacturing consists of three steps (Dahodwalla and Herat 2000; Rantik 1999): grid manufacturing, battery assembly, and battery formation.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "ISO 50004 and 50006 (ISO 2012; 2014) offer guidance for the implementation, maintenance, and improvement of EM systems, based on the use of Energy Baselines (EnB) and Energy Performance Indicators (EnPI) as a measure of the energetic performance.",
+        "In this study, the procedure defined in the ISO 50001 standard (ISO 2011) is used as a starting point in the EM methodology developed for the battery formation process"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "Figure 5 shows the correlation between the monthly electricity consumption and the monthly equivalent batteries produced of the formation section (with data from 2012 to 2015). From the correlation is obtained the monthly EnB of the formation section is obtained. The high correlation (R2 = 0.97) obtained for the EnB proves the usefulness of the EnPI.",
+        "Based on the calculation of EBB, an energy performance indicator (EnPI) of battery formation is proposed (i.e., the ratio between EBB and battery production).",
+        "Similarly, for the rapid detection of malpractices and issues associated with the operational staff, control graphics are developed to assess the trends of the EnPI of the operational staff (see Fig. 7)."
+      ],
+      "page": [
+        10,
+        4,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    }
+  },
+  "stage3": null
+}

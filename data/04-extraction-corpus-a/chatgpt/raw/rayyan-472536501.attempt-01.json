@@ -1,0 +1,248 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536501",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T13:07:23Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "In total, 16 technological combinations are considered, and three models are established for different sets of efficiency indicators: energy performance indicator, energy performance indicator with undesirable output, and total performance indicator.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "this paper aims to propose an analytical framework combining an enhanced DEA method with the LCA to evaluate a group of energy-saving technological routes for the complete supply chain for the aluminum industry in China.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "In the complete supply chain of aluminum industry, different stages are associated with high energy consumption and carbon emission, including power generation, anode consumption during electrolysis, and aluminum ingot remelting by aluminum processing plants.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "notes": "Industry-level hypothetical route analysis; LCA accompanies DEA but has no A11b enum; no site, temporal baseline, or ISO context is reported."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "16 technological routes comprising different power generation technologies, electrolytic anodes and raw material supply modes were evaluated and analyzed.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "country_region": {
+      "value": "China",
+      "evidence_quote": "for the complete supply chain for the aluminum industry in China.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "sector_of_activity": {
+      "value": "aluminum industry",
+      "evidence_quote": "for the complete supply chain for the aluminum industry in China.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the process is divided into three stages: power generation technology, electrolytic anode, and aluminum supply pattern",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "The DEA is a non-parametric method for measuring comprehensive efficiency, which directly uses sample data (i.e., input and output data of the DMU) to establish the corresponding optimization model.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "product price"
+      ],
+      "evidence_quote": "In the EPI model, the input and output are energy and product price, respectively.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "The EPI is constructed with DEA using energy as input and product price as the desirable output; efficiency is measured relative to the optimal decision-making unit.",
+      "evidence_quote": "This paper establishes three DEA models for efficiency assessment under different sets of input and output indicators. Only energy input and desirable output are considered in the energy performance indicator (EPI) model.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "validation_types": {
+      "value": [
+        "none reported"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "This paper addresses the issue of evaluating energy-saving technological combinations in three stages of the complete supply chain (i.e., electricity generation, electrolytic anodes, and aluminum supply modes).",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.66
+    },
+    "scope_description": {
+      "value": "technological combinations in three stages of the complete supply chain (i.e., electricity generation, electrolytic anodes, and aluminum supply modes)",
+      "evidence_quote": "This paper addresses the issue of evaluating energy-saving technological combinations in three stages of the complete supply chain (i.e., electricity generation, electrolytic anodes, and aluminum supply modes).",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "However, Figs. 4e6 show that many calculated values of CCR model are close to 1, so it is difficult to rank by radar charts intuitively.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "However, Figs. 4e6 show that many calculated values of CCR model are close to 1, so it is difficult to rank by radar charts intuitively.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "To solve the problem, the SBM-DEA model are proposed, which set different preference weights for input and output, and the sorting results are more distinct",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "To solve the problem, the SBM-DEA model are proposed, which set different preference weights for input and output, and the sorting results are more distinct",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "To solve the problem, the SBM-DEA model are proposed, which set different preference weights for input and output, and the sorting results are more distinct",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "This SBM-DEA method is included in the next research plan.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Scenario-based DEA assessment of energy-saving technological combinations in aluminum industry",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": "The data in Table 1 are calculated using the reference data primarily from the Greeting software,1 and data on the IA is obtained from (Keniry, 2001).",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "implementation_barriers": {
+      "value": [
+        "high cost of energy-saving technologies"
+      ],
+      "evidence_quote": "energy-saving technologies with high cost could be supported by subsidy, and the cost is reduced.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.89
+    }
+  }
+}

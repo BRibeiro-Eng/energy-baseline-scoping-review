@@ -1,0 +1,120 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535584",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-24T16:10:21Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The ratio of the electricity consumption to the equivalent battery production at different levels, is the most appropriate performance indicator:",
+      "page": 12,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A battery plant in Colombia is selected for this study.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "more work is required to develop practical applications and better benchmarking for discrete manufacturing industries (i.e. manufacturing of products assembled from different components)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Applied to lead-acid battery manufacturing, explicitly framed as discrete manufacturing; outside the closed Level 3B sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "A battery plant in Colombia is selected for this study.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "country_region": {
+      "value": "Colombia",
+      "evidence_quote": "A battery plant in Colombia is selected for this study.",
+      "page": 15,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "lead-acid battery (LAB) manufacturing",
+      "evidence_quote": "Electricity stands as the main energy used for lead-acid battery (LAB) manufacturing.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "more work is required to develop practical applications and better benchmarking for discrete manufacturing industries (i.e. manufacturing of products assembled from different components)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "The ISO 50001, 50004 and 50006 standards (ISO, 2011; ISO, 2012; ISO, 2014) offer guidance for the implementation, maintenance and improvement of an EMS (Cabello et al., 2016), based on the use of Energy Baselines (EnB) and Energy Performance Indicators (EnPI).",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Consequently, EnPIs use different tools (ISO 50006, 2014), including linear or nonlinear regression relations of the energy consumption and the relevant production variables.",
+        "The ratio of the electricity consumption to the equivalent battery production at different levels, is the most appropriate performance indicator:"
+      ],
+      "page": [
+        8,
+        12
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

@@ -1,0 +1,130 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535650",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "linear regression",
+          "simple intensity ratio",
+          "change-point or SPC"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "metalworking sector",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "Energy and production observations were filtered for atypical data, then a linear energy-production baseline was fitted. The target line used production and energy-consumption observations below that baseline.",
+        "baseline_period_end": "2015",
+        "baseline_period_start": "2015",
+        "data_type": "continuous time series",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [],
+        "model_parameters_reported": [
+          "baseline slope: 0,0253",
+          "baseline intercept: 23727,1045",
+          "target-line slope: 0,0233",
+          "target-line intercept: 22972,6767"
+        ],
+        "normalisation_variables": [
+          "production"
+        ],
+        "normative_framing_of_adaptations": "implicit",
+        "performance_metrics_reported": [
+          {
+            "evidence_quote": "linear correlation of R2 = 0.1824",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "initial unfiltered baseline",
+            "unit": null,
+            "value": "0.1824"
+          },
+          {
+            "evidence_quote": "R² = 0,5042",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "baseline",
+            "unit": null,
+            "value": "0,5042"
+          },
+          {
+            "evidence_quote": "R² = 0,7794",
+            "metric": "R²",
+            "non_contiguous_evidence": false,
+            "page": 4,
+            "period_or_context": "target line",
+            "unit": null,
+            "value": "0,7794"
+          }
+        ],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "unit",
+        "scope_description": "hot dip galvanizing line",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "single applied case"
+      },
+      "key": "rayyan-472535650",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Colombia",
+        "ems_standard": [
+          "ISO 50001"
+        ],
+        "enpi_enb_model_types": [
+          "linear regression",
+          "simple intensity ratio",
+          "change-point or SPC"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "metalworking sector",
+        "type_of_organisation": "continuous process"
+      },
+      "level_b": {}
+    }
+  }
+}

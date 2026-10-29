@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535639",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T10:44:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "To address this issue an energy monitoring solution is developed which gathers the electricity data of all sectors at one station. Also provides graphical user interface, generates online and historical trend to analyze the load and consumption information.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": "Tool/software monitoring solution without an EnPI or EnB measurement model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "Methodology is divided into configuration of hardware, logic development, visualization and additional features like file writing, alarm system configuration, user management etc.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "notes": "The paper's “proposed model” is a monitoring architecture; it does not characterise an EnPI/EnB indicator, normalisation model, or baseline model."
+  },
+  "stage2": null,
+  "stage3": null
+}

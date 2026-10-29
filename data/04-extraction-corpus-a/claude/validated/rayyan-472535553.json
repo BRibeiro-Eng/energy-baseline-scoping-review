@@ -1,0 +1,125 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535553",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:20:04.313449+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "scipy.interpolate.InterpolatedUnivariateSpline algorithm to determine the normalization function for both the main EPI - Diesel Consumption and the variable factors",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "For the case study the latest Energy Audit [5] that the industrial end-user reported towards A.N.R.E.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "seasonality of the ice-cream production",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Case study is a Romanian ice-cream (food) manufacturer; the modelled EPI is diesel fuel consumption of its refrigerated vehicle fleet, not a continuous-process sector, so level_3b=false."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the audited energy boundary",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Romania",
+      "evidence_quote": "has to submit to A.N.R.E. (Romanian Energy Regulatory Agency)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "ice-cream production",
+      "evidence_quote": "seasonality of the ice-cream production",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "seasonality of the ice-cream production",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "in accordance with ISO 50001 standard",
+        "ISO 50047:2016 Energy savings"
+      ],
+      "page": [
+        1,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "regulatory_driver": {
+      "value": [
+        "national audit decree"
+      ],
+      "evidence_quote": "every industrial end-user that records an equivalent energy consumption of over 1.000 t.o.e. (tons of oil equivalent) has to submit to A.N.R.E.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "other"
+      ],
+      "evidence_quote": [
+        "the linear regression method was used",
+        "scipy.interpolate.InterpolatedUnivariateSpline"
+      ],
+      "page": [
+        8,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

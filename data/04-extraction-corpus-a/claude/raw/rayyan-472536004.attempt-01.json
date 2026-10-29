@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536004",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T00:00:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "developed an index called ‘relevant use of energy’ (RUE) and applied it within an ISO 50001 EMS to three terminals in the Port of Valencia",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.45
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This study presented a literature review on EMSs",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "focusing on their application in harbour environments",
+      "page": 29,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Broad EMS literature review (PRISMA + meta-analysis + weighted-sum MCDM) with harbour/port emphasis. Engages ISO 50001, EnPIs and reviewed energy-intensity/baseline studies (e.g., RUE index) but does not itself characterise an EnPI/EnB model, so eligibility is flagged borderline for human review. level_3b=false: application context is harbours, not a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "sector_of_activity": {
+      "value": "harbour operations",
+      "evidence_quote": "an emphasis on harbour operations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "mixed",
+      "evidence_quote": "in many sectors, such as building, industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "other-named"],
+      "evidence_quote": ["the ISO 50001", "its predecessor EN 16001 (European standard)"],
+      "page": [3, 17],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["not applicable"],
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": ["multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"],
+      "evidence_quote": "a weighted sum model (WSM) [25], which is also known as multi-criteria analysis",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": null
+}

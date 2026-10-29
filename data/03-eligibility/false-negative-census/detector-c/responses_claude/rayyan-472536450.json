@@ -1,0 +1,21 @@
+{
+  "key": "rayyan-472536450",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Literature-review reference to constructing energy baseline models for chemical industry facilities (cited prior work, not applied here)",
+      "quote": "construct the energy baseline models of EnPIs of \nchemical industry facilities.",
+      "page": 3,
+      "sector": "chemical industry (citation only)"
+    },
+    {
+      "signal": "Literature-review reference to baseline energy consumption of a cogeneration/CHP plant and to energy-intensive industry (cited prior work)",
+      "quote": "determine the baseline energy consump-\ntion of cogeneration plant of a CHP plant: ther-\nmodynamic modeling and ANNs, and ANNs are \nconsidered promising for assessing baseline con-\nsumption in energy-intensive industry.",
+      "page": 3,
+      "sector": "cogeneration/CHP (citation only)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper develops and empirically demonstrates an energy-baseline determination methodology (GMDH modeling of gas consumption) on a boiler house of a district heating system; continuous-flow industrial sectors (chemical industry, CHP/cogeneration) appear only as literature-review citations."
+}

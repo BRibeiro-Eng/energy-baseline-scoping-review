@@ -1,0 +1,101 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": true,
+        "methodological_eligibility": true,
+        "paper_type": "multi-case study"
+      },
+      "key": "rayyan-472536714",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "US",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {
+        "adaptation_types": [
+          "other"
+        ],
+        "baseline_construction_method": "The approach first defines cohorts of similar plants within an industry, then uses multivariate regression inside each cohort to normalise industry-specific differences; the inter-plant benchmark can also adjust plant baselines when those conditions change.",
+        "baseline_period_end": "not reported",
+        "baseline_period_start": "not reported",
+        "data_type": "unspecified or not stated",
+        "empirical_refinery_application": false,
+        "identifies_model_limitations": true,
+        "implementation_barriers": [
+          "lack of information about achievable energy performance"
+        ],
+        "model_parameters_reported": [],
+        "normalisation_variables": [
+          "product mix",
+          "input choice",
+          "capacity",
+          "utilization",
+          "weather"
+        ],
+        "normative_framing_of_adaptations": "absent",
+        "performance_metrics_reported": [],
+        "proposes_adaptations": true,
+        "proposes_treatment_mechanism": true,
+        "scale_of_application": "facility",
+        "scope_description": "statistical analysis of actual plant level data to control for differences between plants that are not related to efficiency",
+        "specific_limitations": [
+          "other"
+        ],
+        "validation_types": [
+          "statistical"
+        ]
+      }
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "methodological/theoretical"
+      },
+      "key": "rayyan-472536714",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "US",
+        "ems_standard": [
+          "none"
+        ],
+        "enpi_enb_model_types": [
+          "multiple regression",
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "none"
+        ],
+        "sector_of_activity": "manufacturing",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    }
+  }
+}

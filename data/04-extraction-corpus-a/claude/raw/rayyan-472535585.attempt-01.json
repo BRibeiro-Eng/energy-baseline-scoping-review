@@ -1,0 +1,327 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535585",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T18:20:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "It is critical to identify specific energy performance indicators (EnPIs) to monitor different",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.66
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "notes": "Cement continuous-process case study. EnPI equations (Eq.1-8) are garbled in extracted text but named in clean prose; quotes grounded on clean spans. Plant's kiln/clinker ran intermittently."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The case study plant has one coal consuming kiln which is used to produce clinker.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "South Africa",
+      "evidence_quote": "The energy management system was implemented on a South African cement plant.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "cement manufacturing",
+      "evidence_quote": "Cement manufacturing is a highly energy-intensive process where the main energy sources",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Cement manufacturing is a highly energy-intensive process",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "We propose the use of an ISO 50001 based system",
+        "the European standard EN 16001, which has since been"
+      ],
+      "page": [
+        9,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Energy versus production intensities.",
+        "Energy intensity (kWh/t)"
+      ],
+      "page": [
+        11,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "tonnes of cement produced",
+        "tonnes of clinker produced",
+        "production rate"
+      ],
+      "evidence_quote": [
+        "Total electrical energy per cement produced (kWh/t)",
+        "Total energy per clinker produced",
+        "Production rate (t/h)"
+      ],
+      "page": [
+        26,
+        25,
+        20
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "baseline_construction_method": {
+      "value": "Targets/benchmarks were set by comparing expected performance from literature with the plant's historical equipment performance; the initial benchmarking used three months of historical performance plus benchmarked values from literature, and targets were adapted over time (budgeting) toward the benchmarked value for continuous improvement.",
+      "evidence_quote": [
+        "comparing the expected performance from literature with historical performance of",
+        "the initial benchmarking will be done based on three months' historical performance"
+      ],
+      "page": [
+        13,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "The validation of the developed methodology will thus be done by implementing the solution on a case study plant",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "provides feedback on the electrical energy performance of the entire plant",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "scope_description": {
+      "value": "Electrical energy management of an entire South African cement plant (one coal-fired kiln with coal mill, a raw mill, and two finishing mills), with the finishing mills as the largest electrical consumers.",
+      "evidence_quote": "The case study plant has one coal consuming kiln which is used to produce clinker.",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "The “Clinker production” and “Total energy per clinker produced” EnPIs were not evaluated as part of this study, as the plant does not continuously produce clinker.",
+      "page": 25,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "the plant does not continuously produce clinker",
+        "An important shortcoming of this research is thus the lack of focus"
+      ],
+      "page": [
+        25,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "To adapt this strategy the critical meters required to continuously",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "It is recommended to adapt the developed methodology when implementing it on cement",
+      "page": 27,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": [
+        "it will also be beneficial to modify the framework for",
+        "It is recommended to adapt the developed methodology when implementing it on cement"
+      ],
+      "page": [
+        27,
+        27
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "normative_framing_of_adaptations": {
+      "value": "ISO 50001/50006 explicit",
+      "evidence_quote": "adapting ISO 50001 to a step-by-step approach",
+      "page": 28,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "reports were generated on a weekly and monthly basis for a total period of 14-months",
+      "page": 17,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "% energy savings",
+          "value": "22%",
+          "unit": "%",
+          "period_or_context": "Total electrical energy per cement produced (kWh/t), Jan-15 (65.23) to Feb-16 (50.90)",
+          "evidence_quote": "Total electrical energy per cement produced (kWh/t) 65.23 50.90 22%",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "% energy savings",
+          "value": "19%",
+          "unit": "%",
+          "period_or_context": "Cement manufacturing – electrical energy (kWh/t), Jan-15 (46.36) to Feb-16 (37.46)",
+          "evidence_quote": "Cement manufacturing – electrical energy (kWh/t) 46.36 37.46 19%",
+          "page": 26,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "other-named",
+          "value": "25%",
+          "unit": "% (electrical energy cost per cement produced reduction)",
+          "period_or_context": "Electrical energy cost per cement produced (ZAR/t), 8.61 ZAR/tonne reduction, Jan-15 to Feb-16",
+          "evidence_quote": "reduced by 25% (8.61 ZAR/tonne)",
+          "page": 25,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Capital and technological constraints in developing economies are barriers to effective energy management",
+        "Use of older, less efficient equipment on the plants prohibits the use of technological solutions",
+        "Energy-cost-saving strategies (e.g., time-of-use load shifting) are difficult to sustain by plant personnel"
+      ],
+      "evidence_quote": [
+        "are barriers to effective energy management that must be",
+        "the use of older equipment on these plants",
+        "they have been found to be difficult to sustain"
+      ],
+      "page": [
+        8,
+        8,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.75
+    }
+  }
+}

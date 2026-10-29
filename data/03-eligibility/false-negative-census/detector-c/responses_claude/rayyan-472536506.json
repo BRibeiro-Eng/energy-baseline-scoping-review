@@ -1,0 +1,27 @@
+{
+  "key": "rayyan-472536506",
+  "listed_sector_signals": [],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Power consumption modelling applied to a municipal water intake facility (24/7 pumping/water supply process), described as a production process",
+      "quote": "The NN construction was made for the water intake of the \n\"Lutskvodokanal\" enterprise.",
+      "page": 3,
+      "sector": "municipal water supply / pumping"
+    },
+    {
+      "signal": "Reference to identifying cyclic changes in the production process of water supply, framing water supply as a continuous production facility",
+      "quote": "The procedure of \nidentification of cyclic changes in the production process of \nwater supply was applied for this purpose",
+      "page": 3,
+      "sector": "municipal water supply / pumping"
+    },
+    {
+      "signal": "Technological process of water supply with pumping stations of 1st and 2nd rise treated as a manufacturing/technological process",
+      "quote": "Power consumption in the water supply system \ndepends on a number of technological factors that characterize \nthe process of raising and supplying water, preparing raised \nwater, etc.",
+      "page": 1,
+      "sector": "municipal water supply / pumping"
+    }
+  ],
+  "application_strength": "none",
+  "conservative_classification": false,
+  "one_line": "The paper builds and validates a multilayer perceptron neural network on real 2018 data from the \"Lutskvodokanal\" municipal water intake to model and plan electric power consumption of water supply facilities; no registered Corpus B sector is involved."
+}

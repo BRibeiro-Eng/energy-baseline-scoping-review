@@ -1,0 +1,2220 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535550",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage_c",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "attempt": 1,
+  "n_pages_read": 16,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "Low density polyethylene (LDPE) petrochemical plant",
+        "evidence_quote": "The aim of this paper is to monitor energy consumption and characterize energy baseline for\na tubular LDPE plant located in Assaluyeh",
+        "page": 7,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Iran (Assaluyeh, south of Iran)",
+        "evidence_quote": "a tubular LDPE plant located in\nAssaluyeh – economical zone in south of Iran",
+        "page": 7,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "facility",
+        "evidence_quote": "Production line level is considered to be the system boundary in this research because it\nincludes the entire plant facilities, which can cover the plant’s energy inﬂuential drivers and\nalso is limited enough to prevent entire noise from other plants.",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "A tubular LDPE plant producing 300,000 tons/year of polymers (various grades) in Assaluyeh, Iran; system boundary at production line level covering the entire plant facilities",
+        "evidence_quote": "Current LDPE plant produces 300,000 tons/year of polymers including several production\ngrades such as light duty ﬁlm, heavy duty ﬁlm, shrink ﬁlm, and injection molding.",
+        "page": 8,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "In petrochemical\nplants, production deals with energy-intensive processes, and measuring energy performance for recognition\nand assessment of potentials for saving is critical.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "MLR model — Output 1 (Electrical Energy Consumption)",
+          "baseline_period_start": {
+            "value": "March 2011",
+            "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "August 2016",
+            "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+            "page": 8,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Multivariate linear regression fitted to daily data of 8 drivers; predicted outputs taken as the baseline",
+            "evidence_quote": "Based on MLR analysis, equation below are exploited and used to predict the outputs,\nand relevant coefﬁcients are demonstrated in Table V:",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "b1=-12",
+            "b2=0.66",
+            "b3=21.38",
+            "b4=16.2",
+            "b5=-0.000374",
+            "b6=0.46",
+            "b7=0.092",
+            "b8=0.42",
+            "b0=79.9"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh/day",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Multivariate linear regressions (MLR) analysis is one of the most conventional\nmethodologies applied to describe a relationship between independent and dependent\nvariables",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "maximum likelihood",
+                "estimation",
+                "mvregress"
+              ]
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (mvregress toolbox)",
+              "evidence_quote": "both trained\nmodels with MLR (mvregress toolbox in MATLAB® software) and MLP ANN are used.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "metering",
+                "measurement",
+                "invoice"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "re-fit",
+                "recalculate",
+                "periodic"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability",
+                "envelope",
+                "bounds",
+                "extrapolation"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample",
+                  "fit"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "MLR\nOutput 1\n(O1)\n0.9638\n2.108",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.9638,
+                  "unit": null,
+                  "period_or_context": "MLR, Output 1 electrical energy, test set",
+                  "evidence_quote": "MLR\nOutput 1\n(O1)\n0.9638\n2.108",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 2.108,
+                  "unit": "%",
+                  "period_or_context": "MLR, Output 1 electrical energy, test set",
+                  "evidence_quote": "MLR\nOutput 1\n(O1)\n0.9638\n2.108",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                "page": 13,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Cumulative energy saving (CUSUM)",
+                  "value": 12.3,
+                  "unit": "GWh",
+                  "period_or_context": "MLR Output 1, Mar 2016–Aug 2016 (181 days)",
+                  "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "MLP ANN model — Output 1 (Electrical Energy Consumption), LM, 1&1 hidden layers",
+          "baseline_construction_method": {
+            "value": "Multi-layer perceptron ANN trained by Levenberg–Marquardt with 1 and 1 hidden-layer neurons; predicted outputs taken as baseline",
+            "evidence_quote": "The optimum performance was obtained with the MLP ANN\nmodel based on LM learning algorithm with 1 and 1 for the ﬁrst and second hidden\nlayer, respectively.",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity"
+              ],
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh/day",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "artificial neural network"
+              ],
+              "evidence_quote": "Aris and Mohamad (2008) deﬁned Multi-Layer Perceptron (MLP) as multi-layer feed forward\nnetworks trained with back propagation learning algorithms",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "gradient training",
+              "evidence_quote": "The most popular learning algorithm over the decades has been Back-\nPropagation (BP) algorithm that generally has an iterative gradient descent (GD) procedure.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (traingdx and trainlm toolboxes)",
+              "evidence_quote": "The Gradient–\nDecent (traingdx toolbox in MATLAB® software) and Levenberg–Marquardt (trainlm\ntoolbox in MATLAB® software) were the learning algorithms to train the MLP neural\nnetwork separately",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o1\nElectrical energy consumption\n44-818\nMWh/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "metering",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "re-fit"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability",
+                "envelope",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "1\n1\n0.9860\n1.270",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.986,
+                  "unit": null,
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 1 electrical energy, test set (optimum)",
+                  "evidence_quote": "1\n1\n0.9860\n1.270",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 1.27,
+                  "unit": "%",
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 1 electrical energy, test set (optimum)",
+                  "evidence_quote": "1\n1\n0.9860\n1.270",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": "Considering the plant’s facility level and advisement\nof LDPE personnel, the MLR model is selected as a target",
+                "page": 13,
+                "support_class": "absence checked",
+                "absence_basis": "explicitly stated absent"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "MLR model — Output 2 (Steam Consumption)",
+          "baseline_construction_method": {
+            "value": "Multivariate linear regression fitted to daily data of 8 drivers; predicted outputs taken as baseline",
+            "evidence_quote": "Based on MLR analysis, equation below are exploited and used to predict the outputs,\nand relevant coefﬁcients are demonstrated in Table V:",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "b1=-1.28",
+            "b2=0.13",
+            "b3=41.33",
+            "b4=1.8",
+            "b5=-0.0012",
+            "b6=0.146",
+            "b7=0.086",
+            "b8=0.364",
+            "b0=328.5"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "ton/day",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Multivariate linear regressions (MLR) analysis is one of the most conventional\nmethodologies applied to describe a relationship between independent and dependent\nvariables",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (mvregress toolbox)",
+              "evidence_quote": "both trained\nmodels with MLR (mvregress toolbox in MATLAB® software) and MLP ANN are used.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "metering",
+                "measurement"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "envelope",
+                "bounds"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Output 2\n(O2)\n0.7303\n3.388",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.7303,
+                  "unit": null,
+                  "period_or_context": "MLR, Output 2 steam consumption, test set",
+                  "evidence_quote": "Output 2\n(O2)\n0.7303\n3.388",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 3.388,
+                  "unit": "%",
+                  "period_or_context": "MLR, Output 2 steam consumption, test set",
+                  "evidence_quote": "Output 2\n(O2)\n0.7303\n3.388",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                "page": 13,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Cumulative energy saving (CUSUM)",
+                  "value": 1288.6,
+                  "unit": "ton",
+                  "period_or_context": "MLR Output 2, Mar 2016–Aug 2016 (181 days)",
+                  "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "MLP ANN model — Output 2 (Steam Consumption), LM, 1&1 hidden layers",
+          "baseline_construction_method": {
+            "value": "Multi-layer perceptron ANN trained by Levenberg–Marquardt with 1 and 1 hidden-layer neurons",
+            "evidence_quote": "The optimum performance was obtained with the MLP ANN\nmodel based on LM learning algorithm with 1 and 1 for the ﬁrst and second hidden\nlayer, respectively.",
+            "page": 11,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "ton/day",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "artificial neural network"
+              ],
+              "evidence_quote": "Aris and Mohamad (2008) deﬁned Multi-Layer Perceptron (MLP) as multi-layer feed forward\nnetworks trained with back propagation learning algorithms",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "gradient training",
+              "evidence_quote": "The most popular learning algorithm over the decades has been Back-\nPropagation (BP) algorithm that generally has an iterative gradient descent (GD) procedure.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (traingdx and trainlm toolboxes)",
+              "evidence_quote": "The Gradient–\nDecent (traingdx toolbox in MATLAB® software) and Levenberg–Marquardt (trainlm\ntoolbox in MATLAB® software) were the learning algorithms to train the MLP neural\nnetwork separately",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o2\nSteam consumption\n70-571\nton/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "meter",
+                "metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "1\n1\n0.7606\n2.450",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.7606,
+                  "unit": null,
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 2 steam consumption, test set",
+                  "evidence_quote": "1\n1\n0.7606\n2.450",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 2.45,
+                  "unit": "%",
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 2 steam consumption, test set",
+                  "evidence_quote": "1\n1\n0.7606\n2.450",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": "Considering the plant’s facility level and advisement\nof LDPE personnel, the MLR model is selected as a target",
+                "page": 13,
+                "support_class": "absence checked",
+                "absence_basis": "explicitly stated absent"
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "MLR model — Output 3 (Cooling Water Consumption)",
+          "baseline_construction_method": {
+            "value": "Multivariate linear regression fitted to daily data of 8 drivers; predicted outputs taken as baseline",
+            "evidence_quote": "Based on MLR analysis, equation below are exploited and used to predict the outputs,\nand relevant coefﬁcients are demonstrated in Table V:",
+            "page": 11,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "b1=197.6",
+            "b2=19.35",
+            "b3=-628.6",
+            "b4=411.5",
+            "b5=-0.54",
+            "b6=2,176.5",
+            "b7=319.8",
+            "b8=25.93",
+            "b0=1,09,660"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement",
+              "other_verbatim": "Cooling water consumption"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement",
+              "other_verbatim": "cooling water"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "m3/day",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "Multivariate linear regressions (MLR) analysis is one of the most conventional\nmethodologies applied to describe a relationship between independent and dependent\nvariables",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (mvregress toolbox)",
+              "evidence_quote": "both trained\nmodels with MLR (mvregress toolbox in MATLAB® software) and MLP ANN are used.",
+              "page": 11,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "energy_vector_other_verbatim": "cooling water",
+              "searched_terms": [
+                "meter",
+                "metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Output 3\n(O3)\n0.6331\n9.237",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.6331,
+                  "unit": null,
+                  "period_or_context": "MLR, Output 3 cooling water consumption, test set",
+                  "evidence_quote": "Output 3\n(O3)\n0.6331\n9.237",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 9.237,
+                  "unit": "%",
+                  "period_or_context": "MLR, Output 3 cooling water consumption, test set",
+                  "evidence_quote": "Output 3\n(O3)\n0.6331\n9.237",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                "page": 13,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "Cumulative energy saving (CUSUM)",
+                  "value": -1.7,
+                  "unit": "million m3",
+                  "period_or_context": "MLR Output 3, Mar 2016–Aug 2016 (181 days)",
+                  "evidence_quote": "Cumulative energy saving (CUSUM)\n12.3\n1,288.6\n–1.7",
+                  "page": 13,
+                  "support_class": "direct statement"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "model_id": "M6",
+          "label_verbatim": "MLP ANN model — Output 3 (Cooling Water Consumption), LM, 1&1 hidden layers",
+          "baseline_construction_method": {
+            "value": "Multi-layer perceptron ANN trained by Levenberg–Marquardt with 1 and 1 hidden-layer neurons",
+            "evidence_quote": "The optimum performance was obtained with the MLP ANN\nmodel based on LM learning algorithm with 1 and 1 for the ﬁrst and second hidden\nlayer, respectively.",
+            "page": 11,
+            "support_class": "requires inference"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement",
+              "other_verbatim": "Cooling water consumption"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement",
+              "other_verbatim": "cooling water"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "m3/day",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "artificial neural network"
+              ],
+              "evidence_quote": "Aris and Mohamad (2008) deﬁned Multi-Layer Perceptron (MLP) as multi-layer feed forward\nnetworks trained with back propagation learning algorithms",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "gradient training",
+              "evidence_quote": "The most popular learning algorithm over the decades has been Back-\nPropagation (BP) algorithm that generally has an iterative gradient descent (GD) procedure.",
+              "page": 7,
+              "support_class": "direct statement"
+            },
+            "variable_selection": {
+              "value": "expert judgement",
+              "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 8,
+              "evidence_quote": "8 factors were selected as\nindependent variables (inputs), subsequently 3 dependent variables (outputs) are introduced",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "MATLAB-R2015b (traingdx and trainlm toolboxes)",
+              "evidence_quote": "The Gradient–\nDecent (traingdx toolbox in MATLAB® software) and Levenberg–Marquardt (trainlm\ntoolbox in MATLAB® software) were the learning algorithms to train the MLP neural\nnetwork separately",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MFI (Melt Flow Index, as a production grade index)",
+              "type": "product mix",
+              "role": "predictor",
+              "evidence_quote": "MFI (Melt Flow Index, as a\nproduction grade index)",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Polymer production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "i2\nPolymer production\n0-1124\nton/day",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s start-ups",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i3\nNumber of plant’s start-ups\n0-2",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Number of plant’s shut-downs",
+              "type": "operating mode",
+              "role": "predictor",
+              "evidence_quote": "i4\nNumber of plant’s shut-downs\n0-3",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Equipment lifetime",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "i5\nEquipment lifetime\n0-53302\nhours",
+              "page": 9,
+              "support_class": "direct statement",
+              "type_other_verbatim": "equipment lifetime / age (hours)"
+            },
+            {
+              "verbatim": "Cooling degree days (CDD)",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i6\nCooling degree days (CDD)\n0-22.8\n°C",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Humidity",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i7\nHumidity\n21-88\n%",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Wind speed",
+              "type": "ambient conditions",
+              "role": "predictor",
+              "evidence_quote": "i8\nWind speed\n0-22\nkm/hr",
+              "page": 9,
+              "support_class": "direct statement"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "o3\nCooling water consumption\n13,848-219,610\nm3/day",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 66,
+              "evidence_quote": "the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 2012,
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "The authors have access to relevant daily data extracted for the period of March 2011-\nAugust 2016 (Data set: 2,012 days).",
+              "page": 8,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "energy_vector_other_verbatim": "cooling water",
+              "searched_terms": [
+                "meter",
+                "metering"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+              "page": 13,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "training R2",
+                  "in-sample"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "1\n1\n0.6369\n11.389",
+                "page": 11,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.6369,
+                  "unit": null,
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 3 cooling water consumption, test set",
+                  "evidence_quote": "1\n1\n0.6369\n11.389",
+                  "page": 11,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "MAPE",
+                  "value": 11.389,
+                  "unit": "%",
+                  "period_or_context": "MLP ANN LM 1&1 hidden, Output 3 cooling water consumption, test set",
+                  "evidence_quote": "1\n1\n0.6369\n11.389",
+                  "page": 11,
+                  "support_class": "direct statement"
+                }
+              ],
+              "validation_design": {
+                "value": "held-out split",
+                "evidence_quote": "the dataset are divided to training (90 per cent) and testing (10 per cent) sets in\nagreement with previous similar studies",
+                "page": 9,
+                "support_class": "direct statement"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": "Considering the plant’s facility level and advisement\nof LDPE personnel, the MLR model is selected as a target",
+                "page": 13,
+                "support_class": "absence checked",
+                "absence_basis": "explicitly stated absent"
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "In petrochemical\nplants, production deals with energy-intensive processes, and measuring energy performance for recognition\nand assessment of potentials for saving is critical.",
+        "page": 1,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "First, it does not reﬂect many of the inﬂuential variables related to climate, production mix,\nproduct and raw material properties, operators",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "it does not include the constant\nsegment of energy consumption so called as base load",
+      "page": 3,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseload or non-productive energy"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "inaccuracy and non-linearity that might be misleading, while rigorous and reliable\napproaches are likely more complex and out of interest and agenda of most of the managers",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "assumption of homoscedasticity of variance tested (varset2 toolbox in\nMATLAB® software) and the results (h=1) indicate the rejection of null hypothesis at 5 per\ncent signiﬁcance level.",
+      "page": 11,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "both MLR and MLP ANN models are challenged with unknown drivers",
+      "page": 13,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Technically, these drivers are not all measurable and with high probability increase the energy consumption then monitoring them can\nassist preventing over consumption in the industrial units such as LDPE plants.",
+      "page": 12,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "paper-level argument",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "This was mainly the source of\nprediction error recorded for output 2 and 3.",
+      "page": 14,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K8",
+      "refers_to": "A1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "The noisy data that belong to the days within which, the plant has been under\nmaintenance or long-term overhaul are eliminated to decrease the errors (118 days).",
+      "page": 8,
+      "support_class": "direct statement",
+      "mechanism_cause": "operating mode or campaign change",
+      "mechanism_effect_on_model": "data quality — missing, erroneous or discontinuous data"
+    },
+    {
+      "mechanism_id": "K9",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "It should be noted that small number of hidden\nlayers increase errors and the correlation of the output and input cannot be analyzed, but\nmore than enough hidden layers may lead to irrelevant noise to the correlation of both and\nthe error grow accordingly",
+      "page": 7,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "statistical misspecification"
+    },
+    {
+      "mechanism_id": "K10",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Before using the generated models, it should be mentioned that we assumed the same\nperformance between the training and test data sets.",
+      "page": 11,
+      "support_class": "requires inference",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "additional normalisation variable",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "after brainstorm\nwith the LDPE engineers (EnPI Tool Instruction Guide, 2011), 8 factors were selected as\nindependent variables (inputs)",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": "K8",
+      "normative_framing": "absent",
+      "evidence_quote": "The noisy data that belong to the days within which, the plant has been under\nmaintenance or long-term overhaul are eliminated to decrease the errors (118 days).",
+      "page": 8,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D3",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "comparison of ANN against MLR as alternative baseline models",
+      "status": "evaluated",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "when the relative errors are taken into\naccount, performance of ANN models appears fairly superior compared to the MLR model.",
+      "page": 1,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D4",
+      "adaptation": "online re-estimation",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "the PCDA cycle (Plan-Do-Check-Act) should be repeated to ﬁnd the best\nperformance and continuously upgrade the baseline.",
+      "page": 13,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D5",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "more advanced ANNs such as recurrent neural networks",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "the model could also become completed applying more advanced ANNs\nsuch as recurrent neural networks.",
+      "page": 14,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "data access",
+      "also_constrains_model": false,
+      "evidence_quote": "It should be noted that because of conﬁdential policies of companies, previous researchers\ndid not publish their ﬁnding belong to industrial sector.",
+      "page": 13,
+      "searched_terms": [
+        "confidential",
+        "data access",
+        "limitation",
+        "not available"
+      ]
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "Personnel understanding and basic knowledge, required level of training, computing speed and existing hardware constrain the choice of operational model",
+      "evidence_quote": "to select the operational model, we consider a number of limitations such as\npersonnel understanding and their basic knowledge, required level of training, computing\nspeed, and existing hardware system.",
+      "page": 13,
+      "searched_terms": [
+        "training",
+        "personnel",
+        "hardware",
+        "barrier"
+      ]
+    },
+    {
+      "barrier": "Rigorous and reliable approaches are more complex and out of interest and agenda of most managers",
+      "evidence_quote": "rigorous and reliable\napproaches are likely more complex and out of interest and agenda of most of the managers",
+      "page": 6,
+      "searched_terms": [
+        "managers",
+        "complex",
+        "interest"
+      ]
+    },
+    {
+      "barrier": "Companies continue to use simple SEC due to its simplicity and requirements set by national standards and audits",
+      "evidence_quote": "companies have\noften used SEC (instead of EnB) as an indicator to monitor energy consumption mainly due its\nrelative simplicity and the requirements set by the national standards and audits.",
+      "page": 13,
+      "searched_terms": [
+        "SEC",
+        "standards",
+        "audits",
+        "simplicity"
+      ]
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "y ¼ b 0 þ b 1x1 þ b 2 x2 þ \u0004 \u0004 \u0004 þ b n xn þ «",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "Coefﬁcients of\nexploited MLR\nequation",
+      "page": 11,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository",
+        "dataset"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "GitHub",
+        "available"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper fits two model families (MLR and MLP ANN) to three distinct dependent variables (electrical energy, steam, cooling water consumption), yielding six models (M1–M6). ANN metrics recorded are the reported optimum configuration (LM learning algorithm, 1 and 1 hidden-layer neurons). Reported R2 and MAPE are treated as out-of-sample validation metrics because the paper computes them by comparing predicted outputs on the test set (181 days) with actual data; no separate in-sample fit is reported. Cooling water consumption (m3/day) is not strictly an energy vector; coded as 'other' since the paper treats it as a modelled energy-management output. The full dataset is 2,012 days; 118 noisy days were removed and the remainder split 1,713 train / 181 test. CUSUM energy-saving results (Table VI) were computed only for the selected MLR models, so energy_result is not reported for the ANN models. Estimation method for MLR is not explicitly stated beyond use of the MATLAB mvregress toolbox.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "uncertainty",
+        "error",
+        "drift",
+        "assumption",
+        "heteroscedasticity",
+        "non-linearity",
+        "unknown drivers"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "future work",
+        "proposed",
+        "CUSUM",
+        "outlier",
+        "recurrent",
+        "PDCA",
+        "upgrade"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "confidential",
+        "data access",
+        "scope",
+        "sample"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "managers",
+        "training",
+        "hardware",
+        "cost",
+        "standards",
+        "personnel"
+      ]
+    }
+  }
+}

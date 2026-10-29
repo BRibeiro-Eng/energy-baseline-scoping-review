@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535412",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "these indicators are weighted by using Spherical fuzzy CRITIC. Secondly, G7 countries are examined with fuzzy RATGOS technique.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "No EnPI or EnB measurement model is presented, proposed, evaluated or characterised. The study is a fuzzy multi-criteria decision-making method (Spherical fuzzy CRITIC weighting plus a new RATGOS ranking technique based on the geometric mean) applied to expert opinions in order to prioritise five qualitative energy-performance-management success factors (energy efficiency, quality of system, regulatory requirements, benchmarking with the market, evaluating energy demand) and to rank the G7 countries. There is no measured or normalised energy quantity, no independent variables, no functional form and no baseline construction for an energy model; ISO 50006 is cited only as the source used to select the MCDM criteria. Under this protocol MCDM/fuzzy ranking is a complementary methodology, not an EnPI/EnB model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The most significant methodological novelty of this study is proposing a new technique to the literature named RATGOS.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Fuzzy MCDM (Spherical fuzzy CRITIC + novel RATGOS) prioritising 5 qualitative management factors and ranking G7 countries from expert opinion; no EnPI/EnB measurement model characterised. ISO 50006 cited only to select criteria. Context = hospitals/buildings/service industries (not continuous process), so Level 3B false regardless. paper_type methodological/theoretical: new ranking technique, no empirical energy case (alt: multi-case, low confidence)."
+  },
+  "stage2": null,
+  "stage3": null
+}

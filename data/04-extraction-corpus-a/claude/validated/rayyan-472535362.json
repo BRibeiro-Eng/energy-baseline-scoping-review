@@ -1,0 +1,107 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535362",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "establishing a baseline of energy consumption in buildings, which can be established from a linear regression analysis",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "This study reviews the methods used to implement energy management systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "higher education buildings have their own characteristics",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Systematic review of EnMS in higher-education-institution buildings. Characterises EnB/EnPI models (linear-regression energy baselines, Building Energy Signature, white/black/grey-box measurement-and-forecasting models, control charts), so eligible. Institutional-buildings context, not a continuous-process industry, so level_3b=false. ISO 50006 appears only once in a reference-list title."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "136 articles were selected for analysis",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "higher education institutions",
+      "evidence_quote": "in higher education institutions (HEIs)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "the use of energy in buildings of higher education institutions",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": ["ISO 50001"],
+      "evidence_quote": "the ISO 50001 standard [7] provides guidelines for planning",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "multiple regression", "physical model", "ML", "change-point or SPC"],
+      "evidence_quote": [
+        "a linear regression is performed and the actual BES is obtained",
+        "significant variables that influence energy consumption on campus are considered",
+        "a physics-based method, commonly known as white box modeling",
+        "machine learning algorithms to evaluate and forecast the energy consumption of buildings",
+        "construction of a control chart with an appropriate upper boundary"
+      ],
+      "page": [17, 8, 15, 15, 19],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    }
+  },
+  "stage3": null
+}

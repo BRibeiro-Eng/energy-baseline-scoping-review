@@ -1,0 +1,111 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535651",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T11:00:05Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Regression analyses were first applied to the electricity use in the company, and it was found that the most prominent variables affecting electricity use were the cooling degree days and the Penicillin plant production; these variables can predict electricity consumption by 69.7%. Accordingly, energy performance indicators were specified and will be monitored in future analysis.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "A prominent pharmaceutical industrial company in Jordan was taken as a case study to illustrate the application of the LSS_EnMS in a real case utilizing real energy data.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "A prominent pharmaceutical industrial company in Jordan was taken as a case study to illustrate the application of the LSS_EnMS in a real case utilizing real energy data.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Pharmaceutical manufacturing is outside the closed Level 3B sector list; the paper does not explicitly state continuous production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The analysis incorporates two levels, system level and facility level",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "country_region": {
+      "value": "Jordan",
+      "evidence_quote": "A prominent pharmaceutical industrial company in Jordan was taken as a case study",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "pharmaceutical industrial company",
+      "evidence_quote": "A prominent pharmaceutical industrial company in Jordan was taken as a case study",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "A prominent pharmaceutical industrial company in Jordan was taken as a case study",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.78
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "The company initiated the implementation of the ISO 50001 EnMS in the beginning of 2015 and has conducted an energy review as part of fulfilling the requirements for ISO 50001.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "Regression analyses were first applied to the electricity use in the company, and it was found that the most prominent variables affecting electricity use were the cooling degree days and the Penicillin plant production; these variables can predict electricity consumption by 69.7%.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    }
+  },
+  "stage3": null
+}

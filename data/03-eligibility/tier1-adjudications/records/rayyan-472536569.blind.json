@@ -1,0 +1,55 @@
+{
+  "key": "rayyan-472536569",
+  "committed_at": "2026-09-01T14:45:59",
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": true,
+    "paper_type": null
+  },
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "reviewer_notes": "",
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "quoted",
+      "quote": "(i.e. four independent variables) are used in the baseline",
+      "page": 3,
+      "rule": "§5.2: EnB com as tres alineas — variaveis, forma funcional escrita duas vezes (Eq. 5 generica, Eq. 7 instanciada) e abordagem de estimacao descrita passo a passo com hiperparametros PSO tabelados. A exclusao topical so morde em foco exclusivamente residencial SEM conteudo de modelo."
+    }
+  },
+  "review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "_done": false
+}

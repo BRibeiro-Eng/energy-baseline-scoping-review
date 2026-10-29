@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535767",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-11T14:56:50Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "EnPIs are a quantitative index of energy performance as defined by the organization. The concept of an EnPI can be used to compare organizational performance at different points in time.",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ineligibility_reason": "Generic ISO 50001 EnMS implementation framework/plan for 'any organization'; EnPI/EnB treated only conceptually (ISO definitions; EnPIs 'derived' from ~one year of baseline data), with no specific EnPI/EnB measurement model identified or characterised (no model variables, functional form, or estimation/construction approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "Energy Management System (EnMS) function model describes the overall two way (expectation and deliverable) process flow from Energy Champion to employees. It is specially designed for any organization for its effective EnMS Plan implementation purpose.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "KOC-authored but an explicitly generic EnMS plan ('any organization'), not a refinery application; level_3b false on content, not affiliation. Eligibility and paper_type ('framework' vs 'other') are borderline."
+  },
+  "stage2": null,
+  "stage3": null
+}

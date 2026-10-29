@@ -1,0 +1,112 @@
+{
+  "_comment": "Level-3 records excluded at Stage 0 on deterministic eligibility grounds (NOT dedup — that is excluded_duplicates.json). Reviewer-confirmed 2026-06-24. For PRISMA flow + thesis methodological annex. Each: key, reason (language|retracted), detail, title, doi, the failing Stage-0 gate, and the protocol criterion.",
+  "version": "1.0",
+  "generated": "2026-06-24",
+  "reviewer_confirmed": true,
+  "counts": {
+    "language": 10,
+    "retracted": 1,
+    "total": 11
+  },
+  "entries": [
+    {
+      "key": "rayyan-472535454",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Methodology for energetic characterization of industrial processes based on bayesian regression models. Implementation case study",
+      "doi": "10.18273/revfue.v20n2-2022002",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535464",
+      "reason": "language",
+      "detail": "Polish",
+      "title": "Praxeological aspects of the application of the energy management system in chemical sector company",
+      "doi": "10.15199/62.2022.10.21",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535501",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Bases for the implementation of an energy management system in the ueb rum “luis arcos bergnes” of cienfuegos based on the NC-ISO 50001:2019",
+      "doi": "",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535504",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Electrical energy consumption diagnosis for planning a quality and technical standard ISO 50001: 2011",
+      "doi": "10.4067/S0718-07642021000100101",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535507",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Preliminary analysis of energy consumption in public buildings with IRAM-ISO 50001 approach. Case study: Faculty of Engineering Oberá",
+      "doi": "10.1109/ARGENCON49523.2020.9505404",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535570",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "An integral, risk and energy approach in management systems. Analysis of ISO 50001: 2018",
+      "doi": "10.18687/LACCEI2019.1.1.231",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535571",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Cleaner Production as a strategy to reduce energy and water consumption in a Poultry Slaughtering Plant",
+      "doi": "10.18687/LACCEI2019.1.1.140",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535697",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Service to manage the efficient driving of combustion vehicle fleets to support ISO 50001",
+      "doi": "10.1109/TLA.2015.7106375",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535781",
+      "reason": "language",
+      "detail": "Spanish",
+      "title": "Rational Use of Energy in state buildings, case study",
+      "doi": "10.1109/SIFAE.2012.6478907",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472536449",
+      "reason": "language",
+      "detail": "Turkish",
+      "title": "Energy management system for Istanbul urban electric transportation systems: Proposition and evaluation of performance tracking system for traction electric consumption",
+      "doi": "10.17341/gazimmfd.786144",
+      "stage0_gate": "language_eligible=false",
+      "criterion": "PROTOCOL §3 (English only)"
+    },
+    {
+      "key": "rayyan-472535391",
+      "reason": "retracted",
+      "detail": "genuine retraction (sole real one after WITHDRAWN/EN16001 false-positive removed)",
+      "title": "Energy-Efficient Manufacturing: Opportunities and Challenges",
+      "doi": "10.1051/e3sconf/202450501032",
+      "stage0_gate": "not_retracted=false",
+      "criterion": "PROTOCOL §5.1"
+    }
+  ]
+}

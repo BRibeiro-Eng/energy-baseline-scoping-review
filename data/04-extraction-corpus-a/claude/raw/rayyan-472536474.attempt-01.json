@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536474",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:20:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "energy and economic performances of a solar PV powered air conditioning unit (ACU) with a battery system (PBAS) based on numerical and experimental investigations",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Paper is a numerical/experimental performance and techno-economic study of a solar PV-battery-air conditioner system (PBAS) for a single building room. Its indicators (self-consumption, self-sufficiency, grid-independence and energy-conversion ratios) characterise a renewable generation-plus-storage system, not an EnPI/EnB energy-performance measurement model with a relevant-variable-normalised energy baseline. No ISO 50001/50006 or EnPI/EnB model content; building/HVAC context.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The studied PBAS was designed for the thermal management of a single room (single project room), located on the fourth floor of the Ege University Mechanical Engineering Department building",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline hook: paper uses the phrase 'energy performance indicators' and proposes a novel one (grid independence ratio), but these are PV-system energy-flow ratios (SCR/SSR/GIR/conversion), not ISO 50006 EnPI/EnB baselines. Flag for human eligibility check."
+  },
+  "stage2": null,
+  "stage3": null
+}

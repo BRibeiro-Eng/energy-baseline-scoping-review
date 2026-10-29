@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535494",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T15:58:22Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The article gives a methodology to assess the effectiveness of the QMS, which can be used in practice by enterprises that implement the ISO 50001 standard.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Presents a general quality-management-system (QMS) effectiveness-assessment methodology (a weighted-average composite index Q = sum(m_i * P_i) plus Harrington's desirability scale) for ISO 50001 implementation, but identifies and characterises no energy performance indicator (EnPI) or energy baseline (EnB) model. The indicators aggregated are generic product-quality/effectiveness measures, not an energy quantity; energy performance measurement is discussed only in general terms.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "The methodology to assess the effectiveness of the QMS consists of stages, which are presented in Figure 2.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Ineligible: the proposed method measures QMS/management-system effectiveness (weighted-average index + Harrington scale), not an EnPI/EnB energy-performance model, despite the ISO 50001 framing."
+  },
+  "stage2": null,
+  "stage3": null
+}

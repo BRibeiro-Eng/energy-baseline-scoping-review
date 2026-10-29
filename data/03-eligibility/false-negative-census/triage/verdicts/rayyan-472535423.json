@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535423",
+ "tier": "A",
+ "ts": "2026-09-11T11:53:35",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "cement"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 10.5,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "nao continuo"
+}

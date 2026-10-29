@@ -1,0 +1,3788 @@
+{
+ "module": "d10",
+ "kind": "audit",
+ "blind": true,
+ "title": "D10 · Auditoria Level-A (Corpus A)",
+ "registered": "C-2.3 §3 item 4, §4; VP §4a",
+ "frame": {
+  "frame": 331,
+  "n_sample": 40,
+  "auditable_cells": 274,
+  "by_field": {
+   "paper_type": 32,
+   "multi_site": 32,
+   "country_region": 18,
+   "sector_of_activity": 23,
+   "type_of_organisation": 24,
+   "ems_standard": 30,
+   "mv_protocol": 32,
+   "regulatory_driver": 32,
+   "enpi_enb_model_types": 23,
+   "complementary_methodologies": 28
+  }
+ },
+ "sample_order": [
+  "rayyan-472536424",
+  "rayyan-472536542",
+  "rayyan-472536583",
+  "rayyan-472535520",
+  "rayyan-472535591",
+  "rayyan-472536380",
+  "rayyan-472535663",
+  "rayyan-472535776",
+  "rayyan-472535373",
+  "rayyan-472536631",
+  "rayyan-472535353",
+  "rayyan-472535489",
+  "rayyan-472535561",
+  "rayyan-472536537",
+  "rayyan-472535799",
+  "rayyan-472536752",
+  "rayyan-472536379",
+  "rayyan-472536671",
+  "rayyan-472536416",
+  "rayyan-472536078",
+  "rayyan-472536360",
+  "rayyan-472535450",
+  "rayyan-472536340",
+  "rayyan-472535759",
+  "rayyan-472536714",
+  "rayyan-472535562",
+  "rayyan-472535513",
+  "rayyan-472536534",
+  "rayyan-472535445",
+  "rayyan-472536666",
+  "rayyan-472535482",
+  "rayyan-472535734",
+  "rayyan-472536035",
+  "rayyan-472535510",
+  "rayyan-472536741",
+  "rayyan-472535385",
+  "rayyan-472536349",
+  "rayyan-472536388",
+  "rayyan-472535487",
+  "rayyan-472536494"
+ ],
+ "tasks": [
+  {
+   "id": "rayyan-472536424",
+   "key": "rayyan-472536424",
+   "title": "Decomposition of a Cooling Plant for Energy Efficiency Optimization Using OptTopo",
+   "year": "2022",
+   "journal": "Energies",
+   "authors": "Thiele, G. and Johanni, T. and Sommer, D. and Krüger, J.",
+   "first_author": "Thiele, G.",
+   "doi": "10.3390/en15228387",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "sector_of_activity": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver",
+    "complementary_methodologies": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536542",
+   "key": "rayyan-472536542",
+   "title": "Energy management in the formation of light, starter, and ignition lead-acid batteries",
+   "year": "2019",
+   "journal": "Energy Efficiency",
+   "authors": "Cabello Eras, J. and Sagastume, A. and Sousa Santos, V. and Herrera, H.H. and Balbis-Morejon, M. and Silva-Ortega, J.I. and Noriega-Angarita, E.M. and Vandecasteele, C.",
+   "first_author": "Cabello Eras, J.",
+   "doi": "10.1007/s12053-018-9741-6",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "sector_of_activity": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536583",
+   "key": "rayyan-472536583",
+   "title": "A new energy performance indicator for energy management system of a wheat mill plant",
+   "year": "2018",
+   "journal": "International Journal of Energy Economics and Policy",
+   "authors": "Gómez Sarduy, J.R.G. and Felipe, P.R.V. and Torres, Y.D. and Plascencia, M.A.Á.-G. and Sousa Santos, V. and Haeseldonckx, D.",
+   "first_author": "Gómez Sarduy, J.R.G.",
+   "doi": null,
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {}
+  },
+  {
+   "id": "rayyan-472535520",
+   "key": "rayyan-472535520",
+   "title": "Implementation of ISO 50001:2001 framework in a textile unit of Pakistan",
+   "year": "2020",
+   "journal": "Pakistan Journal of Engineering and Applied Sciences",
+   "authors": "Aized, T. and Zubair, H.M. and Rehman, S.M.S. and Khan, A.A.",
+   "first_author": "Aized, T.",
+   "doi": null,
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {}
+  },
+  {
+   "id": "rayyan-472535591",
+   "key": "rayyan-472535591",
+   "title": "ISO 50001—Energy Planning and Monitoring Tools and Examples",
+   "year": "2018",
+   "journal": "Energy Engineering: Journal of the Association of Energy Engineering",
+   "authors": "Zsebik, A. and Novák, D.",
+   "first_author": "Zsebik, A.",
+   "doi": "10.1080/01998595.2018.12027901",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "sem extração",
+    "sector_of_activity": "divergência IA por resolver",
+    "ems_standard": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536380",
+   "key": "rayyan-472536380",
+   "title": "Evaluation and opportunities for energy savings in a company in the telecommunications sector using ISO 50 001",
+   "year": "2024",
+   "journal": "ETCM 2024 - 8th Ecuador Technical Chapters Meeting",
+   "authors": "Castillo Alvarez, Y.C. and Jiménez-Borges, R.J. and Monteagudo Yanes, J.P.M. and Valdivia, C.A.P. and Vidal, C.D.P. and Pérez, B.R. and Rivas-Lalaleo, D. and Maita, S.L.S.",
+   "first_author": "Castillo Alvarez, Y.C.",
+   "doi": "10.1109/ETCM63562.2024.10746204",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535663",
+   "key": "rayyan-472535663",
+   "title": "ISO 50001—From Implementation to Integration",
+   "year": "2016",
+   "journal": "Strategic Planning for Energy and the Environment",
+   "authors": "Cooper, A.",
+   "first_author": "Cooper, A.",
+   "doi": "10.1080/10485236.2016.11771076",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {}
+  },
+  {
+   "id": "rayyan-472535776",
+   "key": "rayyan-472535776",
+   "title": "Methodology for energy efficiency on process level",
+   "year": "2013",
+   "journal": "Procedia CIRP",
+   "authors": "Dörr, M. and Wahren, S. and Bauernhansl, T.",
+   "first_author": "Dörr, M.",
+   "doi": "10.1016/j.procir.2013.06.048",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "sector_of_activity": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535373",
+   "key": "rayyan-472535373",
+   "title": "Energy, Efficiency and Sustainability: Carbon Footprint Reduction in Industry through the Implementation of the ISO 50001 Standard",
+   "year": "2025",
+   "journal": "Chemical Engineering Transactions",
+   "authors": "Bernabé-Custodio, M.W. and Gonzales, G.R. and Egúsquiza Rodríguez, M.J. and Lopez Padilla, R. and Luján Ruiz, R.O. and Rodríguez Alegre, L.R.",
+   "first_author": "Bernabé-Custodio, M.W.",
+   "doi": "10.3303/CET25117113",
+   "fields": [
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "country_region": "sem extração",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536631",
+   "key": "rayyan-472536631",
+   "title": "Uncertainty reduction in measuring and verification of energy savings by statistical learning in manufacturing environments",
+   "year": "2016",
+   "journal": "International Journal on Interactive Design and Manufacturing",
+   "authors": "Oses Fernández, N. and Legarretaetxebarria, A. and Quartulli, M. and García, I. and Serrano, M.",
+   "first_author": "Oses Fernández, N.",
+   "doi": "10.1007/s12008-016-0302-y",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535353",
+   "key": "rayyan-472535353",
+   "title": "Energy Efficiency and Strategic EMS Practices in the Automotive Sector of Poland’s Silesian Voivodeship",
+   "year": "2025",
+   "journal": "Energies",
+   "authors": "Piekarski, M. and Grübel, K.",
+   "first_author": "Piekarski, M.",
+   "doi": "10.3390/en18174502",
+   "fields": [
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535489",
+   "key": "rayyan-472535489",
+   "title": "Identification of savings opportunities in a steel manufacturing industry",
+   "year": "2021",
+   "journal": "International Journal of Energy Economics and Policy",
+   "authors": "Abraham, V.A.A. and Causil, E.D.A. and Sousa Santos, V. and Angarita, E.N. and Gómez Sarduy, J.R.G.",
+   "first_author": "Abraham, V.A.A.",
+   "doi": "10.32479/ijeep.11142",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "type_of_organisation": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535561",
+   "key": "rayyan-472535561",
+   "title": "Energy efficiency in the food industry: A systematic literature review",
+   "year": "2019",
+   "journal": "Brazilian Archives of Biology and Technology",
+   "authors": "Pradella, A.M. and Rocha Loures, E. and Gouvea da Costa, S.E.G.D. and Pinheiro De Lima, E.P.",
+   "first_author": "Pradella, A.M.",
+   "doi": "10.1590/1678-4324-SMART-2019190002",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "divergência IA por resolver",
+    "type_of_organisation": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536537",
+   "key": "rayyan-472536537",
+   "title": "User Centered Neuro-Fuzzy Energy Management through Semantic-Based Optimization",
+   "year": "2019",
+   "journal": "IEEE Transactions on Cybernetics",
+   "authors": "Howell, S.K. and Wicaksono, H. and Yuce, B. and McGlinn, K. and Rezgui, Y.",
+   "first_author": "Howell, S.K.",
+   "doi": "10.1109/TCYB.2018.2839700",
+   "fields": [],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "multi_site": "uma única extração IA",
+    "country_region": "uma única extração IA",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472535799",
+   "key": "rayyan-472535799",
+   "title": "Measuring Progress with Normalized Energy Intensity",
+   "year": "2011",
+   "journal": "SAE International Journal of Materials and Manufacturing",
+   "authors": "Lammers, N. and Kissock, K. and Abels, B. and Sever, F.",
+   "first_author": "Lammers, N.",
+   "doi": "10.4271/2011-01-0320",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "sem extração"
+   }
+  },
+  {
+   "id": "rayyan-472536752",
+   "key": "rayyan-472536752",
+   "title": "Using indicators to profile energy consumption and to inform energy policy in a university-A case study in Ireland",
+   "year": "2007",
+   "journal": "Energy and Buildings",
+   "authors": "Ó Gallachóir, B.P. and Marcus M. Keane, M.M. and Morrissey, E. and O'Donnell, J.",
+   "first_author": "Ó Gallachóir, B.P.",
+   "doi": "10.1016/j.enbuild.2006.11.005",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "multi_site": "uma única extração IA",
+    "country_region": "uma única extração IA",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472536379",
+   "key": "rayyan-472536379",
+   "title": "Predictive Model for High Energy Consumption Processes in the Steel Manufacturing Industry Using Machine Learning Tools: Industry 4.0 Pathway",
+   "year": "2024",
+   "journal": "2024 IEEE International Conference on Artificial Intelligence and Green Energy, ICAIGE 2024",
+   "authors": "Khalid, R. and Ahmed, N. and Anglani, N.",
+   "first_author": "Khalid, R.",
+   "doi": "10.1109/ICAIGE62696.2024.10776708",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "multi_site": "divergência IA por resolver",
+    "country_region": "divergência IA por resolver",
+    "type_of_organisation": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536671",
+   "key": "rayyan-472536671",
+   "title": "Communicating a model-based energy performance indicator",
+   "year": "2014",
+   "journal": "Ergonomics in Design",
+   "authors": "Hilliard, A. and Jamieson, G.A. and Jorjani, D.",
+   "first_author": "Hilliard, A.",
+   "doi": "10.1177/1064804614550861",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "sem extração",
+    "sector_of_activity": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536416",
+   "key": "rayyan-472536416",
+   "title": "Development of a Holistic Framework for Identifying Energy Efficiency Potentials of Production Machines",
+   "year": "2023",
+   "journal": "Lecture Notes in Mechanical Engineering",
+   "authors": "Ioshchikhes, B. and Piendl, D. and Schmitz, H. and Heiland, J. and Weigold, M. and Kohl, H. and Seliger, G. and Dietrich, F.",
+   "first_author": "Ioshchikhes, B.",
+   "doi": "10.1007/978-3-031-28839-5_48",
+   "fields": [],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "multi_site": "uma única extração IA",
+    "country_region": "uma única extração IA",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472536078",
+   "key": "rayyan-472536078",
+   "title": "Energy baseline prediction for buildings: A review",
+   "year": "2022",
+   "journal": "RESULTS IN CONTROL AND OPTIMIZATION",
+   "authors": "Qaisar, I and Zhao, QC",
+   "first_author": "Qaisar, I",
+   "doi": "10.1016/j.rico.2022.100129     WE  - Emerging Sources Citation Index (ESCI)",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536360",
+   "key": "rayyan-472536360",
+   "title": "Optimising energy usage of a semi-continuous fluidised bed dryer using digital twin technology and energy management strategies",
+   "year": "2025",
+   "journal": "International Journal of Sustainable Engineering",
+   "authors": "Ntamo, D. and Kuliss, V. and Soulatiantork, P. and Omar, C. and Zandi, M.",
+   "first_author": "Ntamo, D.",
+   "doi": "10.1080/19397038.2025.2573275",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "divergência IA por resolver",
+    "complementary_methodologies": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535450",
+   "key": "rayyan-472535450",
+   "title": "Des Moines Water Works Leads the Way in Energy Management",
+   "year": "2022",
+   "journal": "Journal - American Water Works Association",
+   "authors": "Oscarson, D. and Corrigan, T.",
+   "first_author": "Oscarson, D.",
+   "doi": "10.1002/awwa.1958",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "divergência IA por resolver",
+    "sector_of_activity": "divergência IA por resolver",
+    "type_of_organisation": "divergência IA por resolver",
+    "ems_standard": "divergência IA por resolver",
+    "mv_protocol": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536340",
+   "key": "rayyan-472536340",
+   "title": "Energy Management System Plug-&-Monitor Architecture with an Asset Administration Shell",
+   "year": "2025",
+   "journal": "IFAC-PapersOnLine",
+   "authors": "Parbat, S. and Viedt, I. and Härtner, S. and Urbas, L. and Kocijan, J.",
+   "first_author": "Parbat, S.",
+   "doi": "10.1016/j.ifacol.2025.11.925",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535759",
+   "key": "rayyan-472535759",
+   "title": "Simulation to support iso 50001 energy management systems and fault detection and diagnosis: Case study of malpensa airport",
+   "year": "2013",
+   "journal": "Proceedings of BS 2013: 13th Conference of the International Building Performance Simulation Association",
+   "authors": "Blanes, L.M. and Costa, A. and Marcus M. Keane, M.M.",
+   "first_author": "Blanes, L.M.",
+   "doi": null,
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {}
+  },
+  {
+   "id": "rayyan-472536714",
+   "key": "rayyan-472536714",
+   "title": "A statistical approach to plant-level energy benchmarks and baselines: A manufacturing-plant energy performance indicator",
+   "year": "2012",
+   "journal": "Society of Petroleum Engineers - Carbon Management Technology Conference 2012",
+   "authors": "Boyd, G.A.",
+   "first_author": "Boyd, G.A.",
+   "doi": null,
+   "fields": [
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535562",
+   "key": "rayyan-472535562",
+   "title": "Application of the Proknow-C methodology in the search of literature on performance indicators for energy management in manufacturing and industry 4.0",
+   "year": "2019",
+   "journal": "Procedia Manufacturing",
+   "authors": "Vieira, E.L. and Gouvea da Costa, S.E.G.D. and Pinheiro De Lima, E.P. and Ferreira, C.C. and Dagli, C.H. and Suer, G.A.",
+   "first_author": "Vieira, E.L.",
+   "doi": "10.1016/j.promfg.2020.01.343",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "type_of_organisation": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver",
+    "complementary_methodologies": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535513",
+   "key": "rayyan-472535513",
+   "title": "Developing the Energy Management Model of the Enterprises of Continuous Production",
+   "year": "2020",
+   "journal": "Proceedings of the 25th IEEE International Conference on Problems of Automated Electric Drive. Theory and Practice, PAEP 2020",
+   "authors": "Zaiets, N. and Kondratenko, I. and Shtepa, V.",
+   "first_author": "Zaiets, N.",
+   "doi": "10.1109/PAEP49887.2020.9240813",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "multi_site": "uma única extração IA",
+    "country_region": "sem extração",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472536534",
+   "key": "rayyan-472536534",
+   "title": "Energy Efficiency Optimization using AutomationML modeling and an EnPI methodology",
+   "year": "2019",
+   "journal": "IEEE International Conference on Emerging Technologies and Factory Automation, ETFA",
+   "authors": "Thiele, G. and Khorsandi, N. and Krüger, J.",
+   "first_author": "Thiele, G.",
+   "doi": "10.1109/ETFA.2019.8869235",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "multi_site": "uma única extração IA",
+    "country_region": "sem extração",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472535445",
+   "key": "rayyan-472535445",
+   "title": "Developing a sustainable energy strategy for Midtjyllands Airport, Denmark",
+   "year": "2023",
+   "journal": "International Journal of Sustainable Transportation",
+   "authors": "Bujok, P. and Bjørn-Thygesen, F. and Xydis, G.",
+   "first_author": "Bujok, P.",
+   "doi": "10.1080/15568318.2022.2029632",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "type_of_organisation": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536666",
+   "key": "rayyan-472536666",
+   "title": "Energy performance indicators of wastewater treatment: A field study with 17 Portuguese plants",
+   "year": "2015",
+   "journal": "Water Science and Technology",
+   "authors": "Silva, C. and Rosa, M.J.",
+   "first_author": "Silva, C.",
+   "doi": "10.2166/wst.2015.189",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "type_of_organisation": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535482",
+   "key": "rayyan-472535482",
+   "title": "Overcoming the efficiency gap: energy management as a means for overcoming barriers to energy efficiency, empirical support in the case of Austrian large firms",
+   "year": "2021",
+   "journal": "Energy Efficiency",
+   "authors": "Schützenhofer, C.",
+   "first_author": "Schützenhofer, C.",
+   "doi": "10.1007/s12053-021-09954-z",
+   "fields": [],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "multi_site": "uma única extração IA",
+    "country_region": "uma única extração IA",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472535734",
+   "key": "rayyan-472535734",
+   "title": "ISO 50001-energy management systems accreditation, ADCO safeguards the environment with efficient energy utilization",
+   "year": "2014",
+   "journal": "Society of Petroleum Engineers - 30th Abu Dhabi International Petroleum Exhibition and Conference, ADIPEC 2014: Challenges and Opportunities for the Next 30 Years",
+   "authors": "Daoud, M. and Zamzam, M. and Helmy, A. and Rageh, A.",
+   "first_author": "Daoud, M.",
+   "doi": "10.2118/171886-ms",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472536035",
+   "key": "rayyan-472536035",
+   "title": "Towards Improved Energy and Resource Management in Manufacturing",
+   "year": "2018",
+   "journal": "ENERGIES",
+   "authors": "Khattak, SH and Oates, M and Greenough, R",
+   "first_author": "Khattak, SH",
+   "doi": "10.3390/en11041006     WE  - Science Citation Index Expanded (SCI-EXPANDED)",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "sem extração",
+    "sector_of_activity": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535510",
+   "key": "rayyan-472535510",
+   "title": "Energy performance measurement, monitoring and control for buildings of public organizations: Standardized practises compliant with the ISO 50001 and ISO 50006",
+   "year": "2020",
+   "journal": "Developments in the Built Environment",
+   "authors": "Fichera, A. and Volpe, R. and Cutore, E.",
+   "first_author": "Fichera, A.",
+   "doi": "10.1016/j.dibe.2020.100024",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "regulatory_driver": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536741",
+   "key": "rayyan-472536741",
+   "title": "A prototype for on-line monitoring and control of energy performance for renewable energy buildings",
+   "year": "2008",
+   "journal": "ICINCO 2008 - 5th International Conference on Informatics in Control, Automation and Robotics, Proceedings",
+   "authors": "Paris, B. and Eynard, J. and François, G. and Talbert, T. and Polit, M.",
+   "first_author": "Paris, B.",
+   "doi": null,
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "divergência IA por resolver",
+    "complementary_methodologies": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535385",
+   "key": "rayyan-472535385",
+   "title": "Development and experimental assessment of a multi-annual energy monitoring tool to support energy intelligence and management in telecommunication industry",
+   "year": "2024",
+   "journal": "Energy Efficiency",
+   "authors": "Sorrentino, M. and Franzese, N. and Trifirò, A.",
+   "first_author": "Sorrentino, M.",
+   "doi": "10.1007/s12053-024-10242-9",
+   "fields": [
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "country_region": "sem extração",
+    "type_of_organisation": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536349",
+   "key": "rayyan-472536349",
+   "title": "Towards sustainable ships: Advancing energy efficiency of HVAC systems onboard through digital twin",
+   "year": "2025",
+   "journal": "Energy",
+   "authors": "Barone, G. and Buonomano, A. and Del Papa, G. and Giuzio, G.F. and Palombo, A. and Russo, G.",
+   "first_author": "Barone, G.",
+   "doi": "10.1016/j.energy.2025.134435",
+   "fields": [
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "sector_of_activity",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "paper_type": "divergência IA por resolver",
+    "country_region": "divergência IA por resolver",
+    "complementary_methodologies": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472536388",
+   "key": "rayyan-472536388",
+   "title": "Concept for a modular system model for energy-efficiency monitoring of factory supply systems",
+   "year": "2024",
+   "journal": "AIP Conference Proceedings",
+   "authors": "Sigg, S. and Thiele, G. and Trapp, M. and Krüger, J. and Karjust, K. and Kubarsepp, J.",
+   "first_author": "Sigg, S.",
+   "doi": "10.1063/5.0192782",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "country_region",
+     "type": "text"
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "ems_standard",
+     "type": "multienum",
+     "options": [
+      "ISO 50001",
+      "ISO 50002",
+      "ISO 50006",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "sector_of_activity": "divergência IA por resolver",
+    "enpi_enb_model_types": "divergência IA por resolver"
+   }
+  },
+  {
+   "id": "rayyan-472535487",
+   "key": "rayyan-472535487",
+   "title": "An energy management maturity model for China: Linking ISO 50001:2018 and domestic practices",
+   "year": "2021",
+   "journal": "Journal of Cleaner Production",
+   "authors": "Jin, Y. and Long, Y. and Jin, S. and Yang, Q. and Chen, B. and Li, Y. and Xu, L.",
+   "first_author": "Jin, Y.",
+   "doi": "10.1016/j.jclepro.2020.125168",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "multi_site": "uma única extração IA",
+    "country_region": "uma única extração IA",
+    "sector_of_activity": "uma única extração IA",
+    "type_of_organisation": "uma única extração IA",
+    "ems_standard": "uma única extração IA",
+    "mv_protocol": "uma única extração IA",
+    "regulatory_driver": "uma única extração IA",
+    "enpi_enb_model_types": "uma única extração IA",
+    "complementary_methodologies": "uma única extração IA"
+   }
+  },
+  {
+   "id": "rayyan-472536494",
+   "key": "rayyan-472536494",
+   "title": "Energy management of compressed air systems. Assessing the production and use of compressed air in industry",
+   "year": "2020",
+   "journal": "Energy",
+   "authors": "Cabello Eras, J. and Sagastume, A. and Sousa Santos, V. and Cabello, M.J.",
+   "first_author": "Cabello Eras, J.",
+   "doi": "10.1016/j.energy.2020.118662",
+   "fields": [
+    {
+     "id": "paper_type",
+     "type": "enum",
+     "options": [
+      "single applied case",
+      "multi-case study",
+      "review/synthesis",
+      "maturity model or framework",
+      "methodological/theoretical",
+      "tool/software design",
+      "other"
+     ]
+    },
+    {
+     "id": "multi_site",
+     "type": "enum",
+     "options": [
+      true,
+      false,
+      "not applicable"
+     ]
+    },
+    {
+     "id": "type_of_organisation",
+     "type": "enum",
+     "options": [
+      "continuous process",
+      "discrete manufacturing",
+      "services",
+      "buildings",
+      "mixed",
+      "not specified"
+     ]
+    },
+    {
+     "id": "mv_protocol",
+     "type": "multienum",
+     "options": [
+      "IPMVP",
+      "ASHRAE 14",
+      "SEP M&V",
+      "BPA MT&R",
+      "ISO 17743",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "regulatory_driver",
+     "type": "multienum",
+     "options": [
+      "EU EED",
+      "national audit decree",
+      "EU-ETS",
+      "regional regulation",
+      "other-named",
+      "none"
+     ]
+    },
+    {
+     "id": "enpi_enb_model_types",
+     "type": "multienum",
+     "options": [
+      "linear regression",
+      "multiple regression",
+      "physical model",
+      "ML",
+      "simple intensity ratio",
+      "SEC mean",
+      "composite index",
+      "change-point or SPC",
+      "process integration",
+      "other",
+      "not applicable"
+     ]
+    },
+    {
+     "id": "complementary_methodologies",
+     "type": "multienum",
+     "options": [
+      "pinch analysis",
+      "exergy analysis",
+      "thermodynamic modelling",
+      "process flowsheet simulation",
+      "ML ensemble",
+      "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)",
+      "none"
+     ]
+    }
+   ],
+   "not_auditable": {
+    "country_region": "sem extração",
+    "sector_of_activity": "divergência IA por resolver",
+    "ems_standard": "divergência IA por resolver"
+   }
+  }
+ ]
+}

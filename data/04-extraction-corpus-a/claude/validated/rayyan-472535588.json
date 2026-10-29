@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535588",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T12:57:33+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "propose a practical framework that integrates energy and environmental management systems",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": "Proposes an integrated management-system framework (ISO 50001/14001/14064) to help facilities qualify for carbon funds. Energy baseline and energy performance indicators appear only as generic ISO 50001 process steps (reference-year baseline; monthly indicators compared with the baseline), with no specific EnPI/EnB measurement model identified or characterised (no functional form, defined variable set, or estimation approach).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "This section makes an attempt to formulate a framework that integrates energy and environmental management systems, as applied to the facilities sector.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Framework/management-systems paper; baseline and EnPIs mentioned only as generic ISO 50001 steps, not a characterised model. Application context is facilities in general, not a continuous-process sector."
+  },
+  "stage2": null,
+  "stage3": null
+}

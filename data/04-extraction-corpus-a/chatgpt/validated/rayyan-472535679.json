@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535679",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:28:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "Thus, on the stage of energy management system planning the author suggests the application of two techniques: the technique of energy-economic analysis of the activity of an enterprise, allowing to determine the internal problems of the enterprise connected with its energy efficiency, and Voice of the Customer technique, allowing to establish the energy efficiency characteristics that are not clear for the producer.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": [
+        "In the current research we offer the mechanism of formation of connection between the activity planning in energy management system and the strategic development of an enterprise.",
+        "The further development of the research will consist of practical approbation of QFD instruments in a number of largest enterprises of the Republic of Tatarstan, one of the leading regions of Russia."
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.86
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "taking one of the chemical enterprises of Kazan JSC \"KazanOrgSyntez\" as an example.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "notes": "A chemical-enterprise example is named, but continuous production mode is not explicit; practical approbation is future work."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "taking one of the chemical enterprises of Kazan JSC \"KazanOrgSyntez\" as an example.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "country_region": {
+      "value": "Kazan",
+      "evidence_quote": "taking one of the chemical enterprises of Kazan JSC \"KazanOrgSyntez\" as an example.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.83
+    },
+    "sector_of_activity": {
+      "value": "chemical enterprises",
+      "evidence_quote": "taking one of the chemical enterprises of Kazan JSC \"KazanOrgSyntez\" as an example.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "taking one of the chemical enterprises of Kazan JSC \"KazanOrgSyntez\" as an example.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "the requirements of ISO 50001:2011 “Energy management system — requirements with the application guide”",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "other"
+      ],
+      "evidence_quote": [
+        "specific consumption of separate kinds of energy resources against the volume of output",
+        "The House of Quality diagram can also help to check the validity of choice of energy efficiency indicators by defining their ability to reflect the degree of the achievement of aims and goals of the energy efficiency strategy."
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.82
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.87
+    }
+  },
+  "stage3": null
+}

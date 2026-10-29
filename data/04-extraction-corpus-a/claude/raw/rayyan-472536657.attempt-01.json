@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536657",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-19T14:25:32Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The study focuses on the practice and experience of experts in measuring the energy performance of domestic buildings in the UK.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": "Exclusive focus on domestic (residential) building energy performance measurement with no industrial component; a qualitative interview study of nine UK practitioners' practice that does not present, propose, evaluate, or characterise any EnPI/EnB measurement model (RdSAP named only incidentally).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "Nine experienced UK domestic practitioners from the Innovate UK domestic BPE panel were interviewed to investigate their perspectives of the methods and practical issues of",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Qualitative interview study (9 UK domestic BPE practitioners). Physical tests (co-heating, in situ U-value, air permeability, thermography) discussed but no EnPI/EnB normalisation model; RdSAP mentioned incidentally. Residential-only, no industrial component."
+  },
+  "stage2": null,
+  "stage3": null
+}

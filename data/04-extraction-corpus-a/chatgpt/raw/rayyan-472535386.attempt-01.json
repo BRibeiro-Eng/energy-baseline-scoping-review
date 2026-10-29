@@ -1,0 +1,279 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535386",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:50:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the energy baseline of the incinerator can be written in the form of the Eq. (10): E (GJ) = (2222.113 ∗FAcid Gas) + 462.464",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "this unit was prioritized for optimization and was considered as a case study in this work",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "since the incinerator is one of the refinery’s most hazardous units",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "the acid gas incineration unit was identified as a significant energy use",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "Iran",
+      "evidence_quote": "the base temperature based on the climate of Iran",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    },
+    "sector_of_activity": {
+      "value": "domestic gas processing plant",
+      "evidence_quote": "domestic gas processing plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the incinerator is one of the refinery’s most hazardous units",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "Based on the ISO 50001:2018 standard",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "linear regression"
+      ],
+      "evidence_quote": [
+        "the regression model in the form of Eq. (5) were used: E = a0 + a1X1 + a2X2 + a3X3",
+        "regression was performed based on Eq. (9)"
+      ],
+      "page": [
+        6,
+        9
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "process flowsheet simulation"
+      ],
+      "evidence_quote": "the effect of removing the damper on the performance of the process, such as its effects on the incinerator temperature and the residence time, was simulated by the ProMax3.2 simulation platform",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "acid gas flow rate"
+      ],
+      "evidence_quote": "the amount of acid gas flow rate as the only independent variable affecting the amount of energy consumption",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Monthly energy consumption was initially regressed against acid gas flow rate, heating degree days, and cooling degree days. Correlation and p-value screening reduced the final linear baseline to acid gas flow rate alone: E (GJ) = (2222.113 × FAcid Gas) + 462.464.",
+      "evidence_quote": "Therefore, to draw the energy equation in terms of the independent variable of acid gas flow rate and determine the constants of the equation, regression was performed based on Eq. (9)",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "According to Table 9, the value of R square is equal to 0.72, which is more than the specified criterion of 0.7 and acceptable",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scale_of_application": {
+      "value": "unit",
+      "evidence_quote": "the acid gas incineration unit was identified as a significant energy use",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "the acid gas incinerator unit of the domestic gas processing plant",
+      "evidence_quote": "the acid gas incinerator unit of the domestic gas processing plant",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "this hypothetical line, including three independent variables for energy consumption, is not suitable",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "this hypothetical line, including three independent variables for energy consumption, is not suitable",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "Therefore, it is possible to consider the amount of acid gas flow rate as the only independent variable affecting the amount of energy consumption and obtain the energy consumption equation based on it",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "empirical_refinery_application": {
+      "value": true,
+      "evidence_quote": "the damper was removed from the site. Following the implementation of the modification, based on energy management principles, the energy baseline (EnB) was used as a quantifiable reference for evaluating energy performance changes pre- and post-optimization",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "data related to the identified variables were collected in different months of the year",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "model_parameters_reported": {
+      "value": [
+        "a0 = 462.464",
+        "a1 = 2222.113"
+      ],
+      "evidence_quote": "Intercept a0 = 462.464 FAcid Gas, MMSCM a1 = 2222.113",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.720555",
+          "unit": null,
+          "period_or_context": "final single-variable energy baseline",
+          "evidence_quote": "R Square 0.720555 Observations 46",
+          "page": 9,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "p-value",
+          "value": "9.2E-14",
+          "unit": null,
+          "period_or_context": "acid gas flow rate coefficient in final baseline",
+          "evidence_quote": "FAcid Gas, MMSCM a1 = 2222.113 9.2E-14",
+          "page": 10,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "R Square 0.720555 Observations 46",
+        "FAcid Gas, MMSCM a1 = 2222.113 9.2E-14"
+      ],
+      "page": [
+        9,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 1.0
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.91
+    }
+  }
+}

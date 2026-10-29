@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": false,
+    "paper_type": null
+  },
+  "key": "rayyan-472535360",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "Knayer, T. and Kryvinska, N.",
+    "rayyan_decision": "Included",
+    "source": "Energy Reports",
+    "title": "The difference between energy management systems and environmental management systems on the implementation of cross-sectional technologies in enterprises",
+    "year": 2025
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "not_reported_after_full_text_review",
+      "quote": null,
+      "page": null,
+      "rule": "§5.2 'EnPI/EnB incidental — nenhum modelo identificado'. Os termos EnPI, energy performance indicator, baseline, normalizacao e regressao nao ocorrem no texto (verificado)."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T15:08:29"
+}

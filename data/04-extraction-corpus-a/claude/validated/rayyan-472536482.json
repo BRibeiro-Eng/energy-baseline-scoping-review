@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536482",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-17T21:43:50.884059+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "In this paper a preliminary energy analysis on the possibility to hybridise a solar cooling HVAC system has been presented.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Thermodynamic dynamic-simulation (MATLAB/Simulink) energy analysis of a hybrid solar-cooling HVAC system for building services; reports system-efficiency indicators (COP thermal/electrical, heat recovery fraction, thermal solar fraction). It does not present or characterise an EnPI/EnB energy-performance-measurement model: no energy baseline, no relevant-variable normalisation, no ISO 50001/50006 or M&V content. Borderline because it does define named energy performance indicators with functional forms.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "A MATLAB SIMULINK model has been built and dynamic simulations when outdoor environmental conditions change have been performed.",
+      "page": 26,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline: solar-cooling HVAC dynamic-simulation study; reports COP-type indicators but no ISO 50006 EnPI/EnB baseline, relevant-variable normalisation or M&V. Flag for human adjudication."
+  },
+  "stage2": null,
+  "stage3": null
+}

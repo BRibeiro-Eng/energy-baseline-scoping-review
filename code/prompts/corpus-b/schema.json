@@ -1,0 +1,1892 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stage_c/schema.json",
+  "title": "Stage C — Corpus-B targeted extraction, v2.3.0-C",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "C13_reproducibility",
+    "absence_declarations",
+    "adaptations",
+    "applications",
+    "completed_at",
+    "implementation_barriers",
+    "mechanisms",
+    "paper_key",
+    "prompt_tag",
+    "record_type",
+    "schema_version",
+    "study_limitations",
+    "surface"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "stage_c_extraction"
+    },
+    "paper_key": {
+      "type": "string",
+      "pattern": "^rayyan-[0-9]+$"
+    },
+    "schema_version": {
+      "const": "2.3.0-C"
+    },
+    "prompt_tag": {
+      "type": "string"
+    },
+    "surface": {
+      "enum": [
+        "claude",
+        "chatgpt"
+      ]
+    },
+    "completed_at": {
+      "type": "string"
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "n_pages_read": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "applications": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "application_id",
+          "models",
+          "refinery_or_petrochemical_case",
+          "scale_of_application",
+          "scope_description",
+          "sector_registered"
+        ],
+        "properties": {
+          "application_id": {
+            "type": "string",
+            "pattern": "^[A-Z]{1,2}[0-9]{1,2}$"
+          },
+          "sector_verbatim": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "country_region": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "scale_of_application": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "enum": [
+                      "equipment",
+                      "sub-system",
+                      "unit",
+                      "facility",
+                      "organisation",
+                      "multi-site"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "scope_description": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "refinery_or_petrochemical_case": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "enum": [
+                      "refinery — model empirically applied there",
+                      "petrochemical — model empirically applied there",
+                      "refinery or petrochemical named but not an empirical application here",
+                      "no",
+                      "not applicable"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "models": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "model_id",
+                "label_verbatim",
+                "C1_dependent_variable",
+                "C2_model_form",
+                "C3_variables",
+                "C4_data",
+                "C5_measurement",
+                "C6_re_estimation",
+                "C7_validity_envelope",
+                "C8_metrics"
+              ],
+              "properties": {
+                "model_id": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{1,2}[0-9]{1,2}$",
+                  "description": "unique across the WHOLE record, not just within this application: mechanisms refer to model ids globally"
+                },
+                "label_verbatim": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "how the paper refers to this model, e.g. 'MLR model', 'Eq. (4)', 'the ANN'"
+                },
+                "baseline_period_start": {
+                  "allOf": [
+                    {
+                      "$ref": "#/$defs/env"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                "baseline_period_end": {
+                  "allOf": [
+                    {
+                      "$ref": "#/$defs/env"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                "baseline_construction_method": {
+                  "allOf": [
+                    {
+                      "$ref": "#/$defs/env"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "value": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                "model_parameters_reported": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "C1_dependent_variable": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "quantity",
+                    "energy_vector",
+                    "denominator"
+                  ],
+                  "properties": {
+                    "quantity": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "absolute energy",
+                                "power or demand",
+                                "specific energy consumption",
+                                "energy cost",
+                                "CO2 or emissions",
+                                "energy efficiency ratio",
+                                "other",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "energy_vector": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "array",
+                              "items": {
+                                "enum": [
+                                  "total energy",
+                                  "electricity",
+                                  "natural gas",
+                                  "fuel oil",
+                                  "coal",
+                                  "steam",
+                                  "compressed air",
+                                  "multiple",
+                                  "other",
+                                  "not reported"
+                                ]
+                              },
+                              "minItems": 1
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "denominator": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "none (absolute)",
+                                "production mass",
+                                "production volume",
+                                "units produced",
+                                "floor area",
+                                "value added",
+                                "operating hours",
+                                "other",
+                                "not applicable",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "unit_verbatim": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "C2_model_form": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "model_family",
+                    "estimation_method",
+                    "variable_selection"
+                  ],
+                  "properties": {
+                    "model_family": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": "array",
+                              "items": {
+                                "enum": [
+                                  "intensity ratio",
+                                  "mean SEC",
+                                  "linear regression",
+                                  "nonlinear regression",
+                                  "artificial neural network",
+                                  "tree ensemble",
+                                  "support vector machine",
+                                  "other machine learning",
+                                  "energy balance",
+                                  "exergy analysis",
+                                  "hybrid physical-statistical",
+                                  "data envelopment analysis",
+                                  "stochastic frontier",
+                                  "composite index",
+                                  "control chart",
+                                  "other",
+                                  "none"
+                                ]
+                              },
+                              "minItems": 1
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "estimation_method": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "OLS",
+                                "WLS",
+                                "GLS",
+                                "MLE",
+                                "gradient training",
+                                "least squares on physical model",
+                                "linear programming",
+                                "other",
+                                "not reported",
+                                "not applicable"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "variable_selection": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "no selection",
+                                "expert judgement",
+                                "stepwise",
+                                "best subset",
+                                "regularisation",
+                                "significance test",
+                                "correlation screening",
+                                "other",
+                                "not reported",
+                                "not applicable"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "n_independent_variables": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "integer",
+                                "null"
+                              ],
+                              "minimum": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "software_verbatim": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "C3_variables": {
+                  "type": "array",
+                  "description": "One entry per variable the paper associates with this model. Empty array only for an unfitted absolute indicator with no denominator.",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "verbatim",
+                      "type",
+                      "role",
+                      "evidence_quote",
+                      "page",
+                      "support_class"
+                    ],
+                    "properties": {
+                      "verbatim": {
+                        "type": "string",
+                        "minLength": 1,
+                        "description": "the variable EXACTLY as the paper names it"
+                      },
+                      "type": {
+                        "enum": [
+                          "throughput",
+                          "product mix",
+                          "feed quality",
+                          "ambient conditions",
+                          "operating mode",
+                          "equipment configuration",
+                          "capacity utilisation",
+                          "calendar",
+                          "other"
+                        ]
+                      },
+                      "role": {
+                        "enum": [
+                          "predictor",
+                          "denominator",
+                          "segmentation",
+                          "reference condition",
+                          "excluded"
+                        ]
+                      },
+                      "evidence_quote": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "page": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "support_class": {
+                        "enum": [
+                          "direct statement",
+                          "requires inference",
+                          "absence checked"
+                        ]
+                      },
+                      "type_other_verbatim": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "searched_terms": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "maxItems": 12
+                      },
+                      "non_contiguous_evidence": {
+                        "type": "boolean",
+                        "default": false
+                      },
+                      "page_as_recorded": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 1,
+                        "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+                      },
+                      "locator_corrected": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+                      }
+                    }
+                  }
+                },
+                "C4_data": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "acquisition_frequency",
+                    "modelling_frequency"
+                  ],
+                  "properties": {
+                    "acquisition_frequency": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "sub-hourly",
+                                "hourly",
+                                "daily",
+                                "weekly",
+                                "monthly",
+                                "annual",
+                                "audit snapshot",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "modelling_frequency": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "sub-hourly",
+                                "hourly",
+                                "daily",
+                                "weekly",
+                                "monthly",
+                                "annual",
+                                "one per site",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "span_months": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "integer",
+                                "null"
+                              ],
+                              "minimum": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "n_observations": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "integer",
+                                "null"
+                              ],
+                              "minimum": 0
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "data_type": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "continuous time series",
+                                "audit data",
+                                "simulation",
+                                "survey",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "C5_measurement": {
+                  "type": "array",
+                  "description": "One entry per energy vector whose measurement the paper describes. data_origin and boundary_correspondence are INDEPENDENT: an invoice can match the boundary exactly, a historian tag can be a calculated value. At least one entry: a model of energy performance always has an energy quantity, and where it comes from is either stated or 'not reported'. An empty array would be indistinguishable from 'not searched'.",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "boundary_correspondence",
+                      "data_origin",
+                      "energy_vector",
+                      "evidence_quote",
+                      "page",
+                      "support_class"
+                    ],
+                    "properties": {
+                      "energy_vector": {
+                        "enum": [
+                          "total energy",
+                          "electricity",
+                          "natural gas",
+                          "fuel oil",
+                          "coal",
+                          "steam",
+                          "compressed air",
+                          "other"
+                        ]
+                      },
+                      "data_origin": {
+                        "enum": [
+                          "dedicated meter",
+                          "site meter",
+                          "invoice or utility bill",
+                          "process historian tag",
+                          "calculated from process data",
+                          "laboratory assay",
+                          "simulation",
+                          "not reported"
+                        ]
+                      },
+                      "boundary_correspondence": {
+                        "enum": [
+                          "exact",
+                          "allocated by rule",
+                          "allocated by estimate",
+                          "mismatch acknowledged",
+                          "not reported"
+                        ]
+                      },
+                      "evidence_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "minLength": 1
+                      },
+                      "page": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 1
+                      },
+                      "support_class": {
+                        "enum": [
+                          "direct statement",
+                          "requires inference",
+                          "absence checked"
+                        ]
+                      },
+                      "absence_basis": {
+                        "enum": [
+                          "searched full text",
+                          "section absent",
+                          "explicitly stated absent",
+                          "field meaningless here",
+                          null
+                        ],
+                        "description": "MANDATORY when value is 'not reported' or 'explicitly absent'. Never invent a quote to justify an absence."
+                      },
+                      "energy_vector_other_verbatim": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "searched_terms": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "maxItems": 12
+                      },
+                      "other_verbatim": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "description": "MANDATORY when value is 'other' (or a list containing 'other'): the paper's own wording. An 'other' with no verbatim is an uninterpretable record."
+                      },
+                      "non_contiguous_evidence": {
+                        "type": "boolean",
+                        "default": false
+                      },
+                      "page_as_recorded": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 1,
+                        "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+                      },
+                      "locator_corrected": {
+                        "type": "boolean",
+                        "default": false,
+                        "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+                      }
+                    }
+                  },
+                  "minItems": 1
+                },
+                "C6_re_estimation": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "regime",
+                    "update_status"
+                  ],
+                  "properties": {
+                    "regime": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "not stated",
+                                "explicitly none in period",
+                                "fixed, not mentioned",
+                                "periodic, interval stated",
+                                "event-triggered, trigger stated",
+                                "rolling window",
+                                "online or adaptive"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "update_status": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "proposed",
+                                "executed",
+                                "not applicable",
+                                "not reported"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "trigger_verbatim": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "C7_validity_envelope": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "statement"
+                  ],
+                  "properties": {
+                    "statement": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "enum": [
+                                "stated with numeric bounds",
+                                "stated qualitatively",
+                                "not stated"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "bounds_verbatim": {
+                      "allOf": [
+                        {
+                          "$ref": "#/$defs/env"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "value": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                "C8_metrics": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "in_sample_fit",
+                    "out_of_sample_validation",
+                    "energy_result"
+                  ],
+                  "properties": {
+                    "in_sample_fit": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "status",
+                        "metrics"
+                      ],
+                      "properties": {
+                        "status": {
+                          "allOf": [
+                            {
+                              "$ref": "#/$defs/env"
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "enum": [
+                                    "reported",
+                                    "not reported",
+                                    "not applicable"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "metrics": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/$defs/metric"
+                          }
+                        }
+                      }
+                    },
+                    "out_of_sample_validation": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "metrics",
+                        "status",
+                        "validation_design"
+                      ],
+                      "properties": {
+                        "status": {
+                          "allOf": [
+                            {
+                              "$ref": "#/$defs/env"
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "enum": [
+                                    "reported",
+                                    "not reported",
+                                    "not applicable"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "metrics": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/$defs/metric"
+                          }
+                        },
+                        "validation_design": {
+                          "allOf": [
+                            {
+                              "$ref": "#/$defs/env"
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "enum": [
+                                    "none",
+                                    "held-out split",
+                                    "k-fold cross-validation",
+                                    "temporal hold-out",
+                                    "later period",
+                                    "cross-site",
+                                    "in-sample residual analysis only (NOT out-of-sample)",
+                                    "not reported"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "energy_result": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "status",
+                        "metrics"
+                      ],
+                      "properties": {
+                        "status": {
+                          "allOf": [
+                            {
+                              "$ref": "#/$defs/env"
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "value": {
+                                  "enum": [
+                                    "reported",
+                                    "not reported",
+                                    "not applicable"
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "metrics": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/$defs/metric"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "C12_method_data_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "What data and metadata this method needs to be reproduced elsewhere. FACTUAL, from the paper. Never a transferability verdict."
+                },
+                "C3_variables_absence": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "additionalProperties": false,
+                  "properties": {
+                    "searched": {
+                      "type": "boolean"
+                    },
+                    "basis": {
+                      "enum": [
+                        "searched full text",
+                        "section absent",
+                        "explicitly stated absent",
+                        "field meaningless here",
+                        null
+                      ],
+                      "description": "MANDATORY when value is 'not reported' or 'explicitly absent'. Never invent a quote to justify an absence."
+                    },
+                    "searched_terms": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "maxItems": 12
+                    }
+                  },
+                  "description": "MANDATORY when C3_variables is empty. A model with no explanatory variable (a mean or a ratio) is a finding; an unsearched empty array is not."
+                }
+              }
+            }
+          },
+          "sector_registered": {
+            "allOf": [
+              {
+                "$ref": "#/$defs/env"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "enum": [
+                      "petroleum refining",
+                      "petrochemicals",
+                      "cement, lime, clinker",
+                      "pulp & paper",
+                      "steel and primary metals",
+                      "continuous chemical production",
+                      "industrial gases",
+                      "glass",
+                      "multiple of the above",
+                      "not one of the registered sectors"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mechanisms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_status",
+          "evidence_quote",
+          "mechanism_cause",
+          "mechanism_effect_on_model",
+          "mechanism_id",
+          "page",
+          "refers_to",
+          "support_class"
+        ],
+        "properties": {
+          "mechanism_id": {
+            "type": "string",
+            "pattern": "^[A-Z]{1,2}[0-9]{1,2}$"
+          },
+          "refers_to": {
+            "type": "string",
+            "description": "model_id (M1), application_id (A1), or 'paper-level argument'"
+          },
+          "claim_status": {
+            "enum": [
+              "general",
+              "applied to the case",
+              "empirically demonstrated"
+            ],
+            "description": "A textbook definition is 'general'. Only 'applied to the case' and 'empirically demonstrated' count toward the SQ2 headline figure."
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "support_class": {
+            "enum": [
+              "direct statement",
+              "requires inference",
+              "absence checked"
+            ]
+          },
+          "mechanism_cause": {
+            "enum": [
+              "fouling",
+              "catalyst deactivation",
+              "feedstock quality or composition change",
+              "product mix or grade change",
+              "equipment degradation or ageing",
+              "operating mode or campaign change",
+              "ambient conditions",
+              "plant or process modification",
+              "concurrent improvement programme",
+              "other",
+              "not stated"
+            ],
+            "description": "The PHYSICAL or operational cause, when the paper names one. 'not stated' is the common and expected answer: most papers report what breaks, not why."
+          },
+          "mechanism_effect_on_model": {
+            "enum": [
+              "non-stationarity of the relationship",
+              "baseline drift or expiry",
+              "validity envelope exceeded",
+              "statistical misspecification",
+              "observability gap — quantity not measured",
+              "data quality — missing, erroneous or discontinuous data",
+              "insufficient data length for the model",
+              "multi-product allocation",
+              "baseload or non-productive energy",
+              "cross-site comparability",
+              "indicator not meaningful as defined",
+              "other",
+              "not stated"
+            ],
+            "description": "What it does to the energy performance model. This is what the paper almost always states. 'not stated' only if the paper names a cause with no stated consequence."
+          },
+          "cause_other_verbatim": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effect_other_verbatim": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "searched_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 12
+          },
+          "non_contiguous_evidence": {
+            "type": "boolean",
+            "default": false
+          },
+          "page_as_recorded": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+          },
+          "locator_corrected": {
+            "type": "boolean",
+            "default": false,
+            "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+          }
+        },
+        "description": "One occurrence per distinct limitation the paper states. Cause and effect are SEPARATE axes: 'fouling makes the baseline drift' is ONE occurrence with cause=fouling and effect=baseline drift or expiry, not two or three competing labels. At least one of the two must be other than 'not stated'."
+      },
+      "description": "Empty array = the paper identifies no model limitation. That is a finding, not a gap."
+    },
+    "adaptations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "adaptation",
+          "adaptation_id",
+          "addresses_mechanism",
+          "evidence_quote",
+          "normative_framing",
+          "page",
+          "refers_to",
+          "status",
+          "support_class"
+        ],
+        "properties": {
+          "adaptation_id": {
+            "type": "string",
+            "pattern": "^[A-Z]{1,2}[0-9]{1,2}$"
+          },
+          "adaptation": {
+            "enum": [
+              "rolling window",
+              "segmented baseline",
+              "change-point",
+              "additional normalisation variable",
+              "hybrid physical-statistical",
+              "online re-estimation",
+              "outlier exclusion",
+              "weighted estimation",
+              "normalisation to a reference product",
+              "improved metering",
+              "other"
+            ]
+          },
+          "adaptation_other_verbatim": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "proposed",
+              "implemented",
+              "evaluated"
+            ]
+          },
+          "addresses_mechanism": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "mechanism_id the paper explicitly links this to, else null. Never infer the link."
+          },
+          "normative_framing": {
+            "enum": [
+              "ISO 50001/50006 explicit",
+              "implicit",
+              "absent"
+            ]
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "support_class": {
+            "enum": [
+              "direct statement",
+              "requires inference",
+              "absence checked"
+            ]
+          },
+          "refers_to": {
+            "type": "string",
+            "description": "the model_id this adapts, or an application_id, or 'paper-level argument'"
+          },
+          "searched_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 12
+          },
+          "non_contiguous_evidence": {
+            "type": "boolean",
+            "default": false
+          },
+          "page_as_recorded": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+          },
+          "locator_corrected": {
+            "type": "boolean",
+            "default": false,
+            "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+          }
+        }
+      }
+    },
+    "study_limitations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "limitation",
+          "also_constrains_model",
+          "evidence_quote",
+          "page"
+        ],
+        "properties": {
+          "limitation": {
+            "enum": [
+              "sample coverage",
+              "data access",
+              "scope restriction",
+              "instrumentation unavailable",
+              "other"
+            ]
+          },
+          "also_constrains_model": {
+            "type": "boolean",
+            "description": "true ONLY when the paper itself states both the study-level shortfall and its consequence for the model. Then the same item ALSO appears in mechanisms with its own quote."
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "limitation_other_verbatim": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "searched_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 12
+          },
+          "non_contiguous_evidence": {
+            "type": "boolean",
+            "default": false
+          },
+          "page_as_recorded": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+          },
+          "locator_corrected": {
+            "type": "boolean",
+            "default": false,
+            "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+          }
+        }
+      }
+    },
+    "implementation_barriers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "barrier",
+          "evidence_quote",
+          "page"
+        ],
+        "properties": {
+          "barrier": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_quote": {
+            "type": "string",
+            "minLength": 1
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "searched_terms": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 12
+          },
+          "non_contiguous_evidence": {
+            "type": "boolean",
+            "default": false
+          },
+          "page_as_recorded": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+          },
+          "locator_corrected": {
+            "type": "boolean",
+            "default": false,
+            "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+          }
+        }
+      },
+      "description": "Practical obstacles to implementing measures or the EnMS. NOT model limitations (those are mechanisms), NOT study limitations (those are study_limitations)."
+    },
+    "C13_reproducibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "equations_given",
+        "coefficients_given",
+        "data_available",
+        "code_available"
+      ],
+      "properties": {
+        "equations_given": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/env"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "enum": [
+                    "yes",
+                    "partial",
+                    "not reported",
+                    "not applicable"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "coefficients_given": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/env"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "enum": [
+                    "yes",
+                    "partial",
+                    "not reported",
+                    "not applicable"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "data_available": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/env"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "enum": [
+                    "yes",
+                    "partial",
+                    "not reported",
+                    "not applicable"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "code_available": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/env"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "enum": [
+                    "yes",
+                    "partial",
+                    "not reported",
+                    "not applicable"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "reviewer_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "absence_declarations": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "For each list that can legitimately be empty, state that you searched. An empty list with no declaration asserts nothing and cannot be counted.",
+      "required": [
+        "mechanisms",
+        "adaptations",
+        "study_limitations",
+        "implementation_barriers"
+      ],
+      "properties": {
+        "mechanisms": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "searched",
+            "basis"
+          ],
+          "properties": {
+            "searched": {
+              "type": "boolean"
+            },
+            "basis": {
+              "enum": [
+                "searched full text",
+                "section absent",
+                "explicitly stated absent",
+                "field meaningless here"
+              ]
+            },
+            "searched_terms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 12
+            }
+          }
+        },
+        "adaptations": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "searched",
+            "basis"
+          ],
+          "properties": {
+            "searched": {
+              "type": "boolean"
+            },
+            "basis": {
+              "enum": [
+                "searched full text",
+                "section absent",
+                "explicitly stated absent",
+                "field meaningless here"
+              ]
+            },
+            "searched_terms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 12
+            }
+          }
+        },
+        "study_limitations": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "searched",
+            "basis"
+          ],
+          "properties": {
+            "searched": {
+              "type": "boolean"
+            },
+            "basis": {
+              "enum": [
+                "searched full text",
+                "section absent",
+                "explicitly stated absent",
+                "field meaningless here"
+              ]
+            },
+            "searched_terms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 12
+            }
+          }
+        },
+        "implementation_barriers": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "searched",
+            "basis"
+          ],
+          "properties": {
+            "searched": {
+              "type": "boolean"
+            },
+            "basis": {
+              "enum": [
+                "searched full text",
+                "section absent",
+                "explicitly stated absent",
+                "field meaningless here"
+              ]
+            },
+            "searched_terms": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 12
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "env": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "evidence_quote",
+        "page",
+        "support_class"
+      ],
+      "properties": {
+        "value": true,
+        "evidence_quote": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "page": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1
+        },
+        "non_contiguous_evidence": {
+          "type": "boolean",
+          "default": false
+        },
+        "support_class": {
+          "enum": [
+            "direct statement",
+            "requires inference",
+            "absence checked"
+          ],
+          "description": "direct statement = the quote alone states the value. requires inference = you combined the quote with reasoning. Anything marked requires inference is routed to the reviewer and is never counted in a headline figure."
+        },
+        "absence_basis": {
+          "enum": [
+            "searched full text",
+            "section absent",
+            "explicitly stated absent",
+            "field meaningless here",
+            null
+          ],
+          "description": "MANDATORY when value is 'not reported' or 'explicitly absent'. Never invent a quote to justify an absence."
+        },
+        "searched_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12
+        },
+        "other_verbatim": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "MANDATORY when value is 'other' (or a list containing 'other'): the paper's own wording. An 'other' with no verbatim is an uninterpretable record."
+        },
+        "page_as_recorded": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+        },
+        "locator_corrected": {
+          "type": "boolean",
+          "default": false,
+          "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+        }
+      }
+    },
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metric",
+        "value",
+        "evidence_quote",
+        "page"
+      ],
+      "properties": {
+        "metric": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": [
+            "string",
+            "number"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "period_or_context": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "support_class": {
+          "enum": [
+            "direct statement",
+            "requires inference",
+            "absence checked"
+          ],
+          "description": "direct statement = the quote alone states the value. requires inference = you combined the quote with reasoning. Anything marked requires inference is routed to the reviewer and is never counted in a headline figure."
+        },
+        "absence_basis": {
+          "enum": [
+            "searched full text",
+            "section absent",
+            "explicitly stated absent",
+            "field meaningless here",
+            null
+          ],
+          "description": "MANDATORY when value is 'not reported' or 'explicitly absent'. Never invent a quote to justify an absence."
+        },
+        "searched_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12
+        },
+        "non_contiguous_evidence": {
+          "type": "boolean",
+          "default": false
+        },
+        "page_as_recorded": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "description": "PIPELINE FIELD, never written by an extracting surface: the page the surface cited, kept when the grounding check found the sentence verbatim on exactly one other page and corrected the locator."
+        },
+        "locator_corrected": {
+          "type": "boolean",
+          "default": false,
+          "description": "PIPELINE FIELD, never written by an extracting surface. True means `page` was corrected by the grounding check and the cell is queued for human review."
+        }
+      }
+    }
+  }
+}

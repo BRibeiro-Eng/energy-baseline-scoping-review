@@ -1,0 +1,40 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535481",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T12:49:30+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "The purpose of this research analysis is to evaluate the impact of energy monitoring systems and energy management systems on a company's propensity to plan and/or implement energy efficiency measures.",
+        "A descriptive statistical analysis was developed based on both qualitative (number and type of EPIAs) and quantitative (energy impact of EPIAs) information."
+      ],
+      "page": [2, 4],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Empirical descriptive-statistics analysis of national energy-audit data (EPIAs, savings, cost-effectiveness, payback time) assessing the impact of monitoring systems and ISO 50001 on planned/implemented energy efficiency actions. No EnPI/EnB measurement model is presented, proposed, evaluated, or characterised (no baseline, normalisation variables, functional form, or estimation approach identifiable); model terms appear only in the reference list. EnPI/EnB content is at most incidental.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "other",
+      "evidence_quote": "energy audits in four different sectors in Italy were analysed",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Sectors: ceramics (tiles/bricks), plastic products, banks, retail - none in the closed continuous-process list. Large multi-sector statistical audit-database study; paper_type borderline (other vs multi-case)."
+  },
+  "stage2": null,
+  "stage3": null
+}

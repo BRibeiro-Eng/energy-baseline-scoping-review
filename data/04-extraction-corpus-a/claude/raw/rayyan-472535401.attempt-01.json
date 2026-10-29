@@ -1,0 +1,101 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535401",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "outlined a methodology for establishing and monitoring energy baseline indicators using examples, such as regression analysis and Cumulative Sum Control (CUSUM) techniques",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": true,
+    "paper_type": {
+      "value": "review/synthesis",
+      "evidence_quote": "As a literature review, this study explores the diverse standards",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "specifically utilized for oil production in ultra-deep waters",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "notes": "Eligibility borderline: EnPI/EnB model content (regression+CUSUM baselines and SEI intensity indicators from expert interviews; ratio-EnPI critique) is real but peripheral to a synthesis centred on ISO standards and O&G initiatives. Level_3b=false: context is upstream/offshore O&G production (FPSOs, oil fields) - continuous-flow but not in the closed continuous-process list (refining/petrochemicals); flagged for human decision."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": "not applicable",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "country_region": {
+      "value": "United Arab Emirates, Indonesia, Saudi Arabia, China",
+      "evidence_quote": ["United Arab Emirates", "Indonesia", "Saudi Arabia", "China"],
+      "page": [7, 7, 7, 7],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    },
+    "sector_of_activity": {
+      "value": "oil and gas",
+      "evidence_quote": "The Oil and Gas (O&G) sector is facing unprecedented challenges",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "FPSO platform ships, specifically utilized for oil production in ultra-deep waters",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "ems_standard": {
+      "value": ["ISO 50001", "ISO 50006", "other-named"],
+      "evidence_quote": ["foundational EnMS standard ISO 50001", "ISO 50006 (Energy Baseline and Energy Performance Indicators)", "ISO 50004 (Energy Management System Guidance)"],
+      "page": [2, 2, 2],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "enpi_enb_model_types": {
+      "value": ["linear regression", "change-point or SPC", "simple intensity ratio"],
+      "evidence_quote": ["regression analysis to establish", "Cumulative Sum Control (CUSUM) techniques", "the SEI, which measures the energy intensity of the plant"],
+      "page": [10, 7, 9],
+      "non_contiguous_evidence": true,
+      "confidence": 0.5
+    },
+    "complementary_methodologies": {
+      "value": ["none"],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    }
+  },
+  "stage3": null
+}

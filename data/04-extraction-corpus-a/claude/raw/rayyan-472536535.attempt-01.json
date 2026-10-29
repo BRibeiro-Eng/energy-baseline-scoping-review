@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536535",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T18:21:19Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "The performance indexes are very simple and have been defined only with the purpose of showing the advantages of distributed generation.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Renewable-energy-system case report: describes a hybrid PV-wind-battery installation, compares two battery-storage control logics (System Led vs Market Led) under Time-of-Use tariffs, and evaluates simple energy/economic/CO2/peak-reduction saving indexes defined only to show distributed-generation advantages. No EnPI/EnB energy-performance-measurement model (no consumption normalisation against relevant variables, no energy baseline, no SEC/regression) is presented; context is an offices building and the core is economic battery management. NB the paper's 'ENPI' denotes the EU Italy-Tunisia funding programme (European Neighbourhood & Partnership Instrument), not an Energy Performance Indicator.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "installed at the administrative offices building of the municipality of Valderice (Italy)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility. Simple saving indexes (EnS/EcS/CO2R/PPR) only; no EnPI/EnB baseline/normalisation model. NB paper's 'ENPI' = EU Italy-Tunisia funding programme, not Energy Performance Indicator. Flag for human blind-first review."
+  },
+  "stage2": null,
+  "stage3": null
+}

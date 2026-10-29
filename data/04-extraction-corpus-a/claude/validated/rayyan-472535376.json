@@ -1,0 +1,294 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535376",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T12:00:00+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "our case study is based on a sulfuric acid plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP)",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Single sulfuric acid plant (chemical complex producing phosphoric acid/fertilizers). EnB = forward/backward stepwise multiple regression (F-test) predicting sulfur consumption; EnPI = energy per tonne of product; pinch analysis for heat integration under ISO 50001."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "our case study is based on a sulfuric acid plant where a water energy audit was carried out",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "sulfuric acid production",
+      "evidence_quote": "sulfuric acid production process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "the continuous three shift operation",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50002"
+      ],
+      "evidence_quote": [
+        "following the International Standard ISO 50001",
+        "ISO 50002:2014 Energy audits"
+      ],
+      "page": [
+        1,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "the forward and backward multiple regression approach is used",
+        "energy production per tonne of sulfuric acid produced"
+      ],
+      "page": [
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "pinch analysis"
+      ],
+      "evidence_quote": "Pinch analysis techniques are used to design heat exchange networks",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "sulfuric acid production",
+        "turbine extractions (12 bar and 5 bar)"
+      ],
+      "evidence_quote": [
+        "0.348986 of sulfuric acid production",
+        "the amount of turbine extractions"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "A baseline model for sulfur consumption was built by forward and backward stepwise multiple regression, using the partial F-test to add or remove terms; the simplest forward model without constant was retained. Data were taken from energy consumption reports and organised in STATGRAPHICS, with shutdown outliers discarded to model only regular operation.",
+      "evidence_quote": [
+        "the forward and backward multiple regression approach is used to find the best regression model",
+        "The partial F-test statistic is used to determine whether variables are added or deleted",
+        "Variable outliers during shutdowns were discarded to take into account only regular operation"
+      ],
+      "page": [
+        5,
+        5,
+        4
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "validation_types": {
+      "value": [
+        "statistical"
+      ],
+      "evidence_quote": "The partial F-test statistic is used to determine whether variables are added or deleted",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "scale_of_application": {
+      "value": "sub-system / utility system",
+      "evidence_quote": "specified the scope of the energy audit as the water-steam circuit",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "scope_description": {
+      "value": "the water-steam circuit of the sulfuric acid production process",
+      "evidence_quote": "the water-steam circuit of the sulfuric acid production process",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "they lack the instruments needed for their proper definition",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "they lack the instruments needed for their proper definition",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "data_type": {
+      "value": "audit data",
+      "evidence_quote": "collected from the energy consumption reports",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "model_parameters_reported": {
+      "value": [
+        "0.348986 (coefficient on sulfuric acid production)",
+        "0.000932678 (coefficient on 12 bar and 5 bar turbine extraction)",
+        "no constant / intercept (forward model without constant)"
+      ],
+      "evidence_quote": [
+        "0.348986 of sulfuric acid production",
+        "0.000932678 of 12 bar",
+        "the forward multiple regression model without constant"
+      ],
+      "page": [
+        6,
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of training and staff commitment (failure to meet targets attributed to lack of training)",
+        "Multipass heat exchangers difficult to maintain and access"
+      ],
+      "evidence_quote": [
+        "Failure to meet targets is due to lack of training",
+        "the difficulty to maintain and acess"
+      ],
+      "page": [
+        6,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.8
+    }
+  }
+}

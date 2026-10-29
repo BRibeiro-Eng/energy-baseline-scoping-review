@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535586",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:56:59Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "technical considerations for the integration of energy management functionalities into an ERP system are described with a focus on a system coupling approach",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Tool/software design paper: describes an ERP-EMS system-coupling architecture, seven use cases, and a prototype implementation (abas ERP + ENIT EMS). No EnPI/EnB measurement model is presented, proposed, evaluated, or critiqued; energy performance indicators are mentioned only incidentally, with no model variables, functional form, or construction/estimation approach identifiable.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "we developed a prototype of an ERP system with integrated energy management functionalities",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Applies to SME discrete manufacturing (milling, laser cutting, stamping); energy data are metered/aggregated and CO2 computed, but no EnPI/EnB normalisation model is built."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,264 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536587",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T11:52:09Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The speciﬁc energy con-\nsumption could be lowered from 16.4 kWh/kg- to 14.6 kWh /kg-Al.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "(Case Study: Almahdi-Hormozal\nAluminum Smelter)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "Aluminum Smelter",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Aluminium smelting is classified under the closed-list category of other primary metals continuous production."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": [
+        "Case Study: Almahdi-Hormozal\nAluminum Smelter",
+        "This upgrade was experimentally applied on pots No. 2 and No. 7"
+      ],
+      "page": [
+        1,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.94
+    },
+    "country_region": {
+      "value": "Bandar Abbas",
+      "evidence_quote": [
+        "The plant which is located near the city of Bandar",
+        "Abbas, has a total number of 240 reduction cells"
+      ],
+      "page": [
+        1,
+        2
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "primary aluminium industry",
+      "evidence_quote": "primary aluminium industry",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Aluminum Smelter",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "The speciﬁc energy con-\nsumption could be lowered from 16.4 kWh/kg- to 14.6 kWh /kg-Al.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "kg-Al"
+      ],
+      "evidence_quote": "16.4 kWh/kg- to 14.6 kWh /kg-Al",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "Comparison of present pots using central feeding with new pot performance using the point feeding system.",
+      "evidence_quote": "In Tables 1 a comparison between Almahdi’s present pots performance with central\nfeeding and new pot performance with the point feeding system is presented",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "validation_types": {
+      "value": [
+        "empirical"
+      ],
+      "evidence_quote": "This upgrade was experimentally applied on pots No. 2 and No. 7",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "scale_of_application": {
+      "value": "equipment",
+      "evidence_quote": "This upgrade was experimentally applied on pots No. 2 and No. 7",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "scope_description": {
+      "value": "Almahdi aluminium reduction pots No. 2 and No. 7 retrofitted from center feeding to point feeding.",
+      "evidence_quote": [
+        "retroﬁt a so-called center break cell to point feeder cell",
+        "This upgrade was experimentally applied on pots No. 2 and No. 7"
+      ],
+      "page": [
+        1,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "Aluminum Smelter",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "unspecified or not stated",
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "model_parameters_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "implementation_barriers": {
+      "value": [
+        "high temperature",
+        "intense magnetic field",
+        "hazardous alumina dust"
+      ],
+      "evidence_quote": "This meant a working atmosphere with high temperature, intense magnetic ﬁeld and\nsometimes hazardous alumina dust.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    }
+  }
+}

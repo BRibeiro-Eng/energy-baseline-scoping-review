@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535909",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T10:49:57.838229+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This work presents an analytical hierarchy process (AHP) to rank alternatives on energy saving opportunities",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Presents an Analytical Hierarchy Process (AHP / MCDM) decision-support method (via Expert Choice) to rank six energy-saving alternatives from an energy audit report. No EnPI/EnB measurement model is identified or characterised: energy consumption/elasticity/intensity appear only as AHP decision sub-criteria (defined at a macroeconomic energy-per-GDP level), not as models with variables, functional form, or a construction/estimation approach. Tool/framework without EnPI/EnB content.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "an energy audit report undertaken on an onshore and offshore oil and gas operation in Java Sea",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "AHP/MCDM ranking of energy-saving options for an Indonesian upstream oil & gas operation (onshore/offshore extraction, not refining). Ineligible: no EnPI/EnB model. level_3b forced not applicable per ineligibility rule."
+  },
+  "stage2": null,
+  "stage3": null
+}

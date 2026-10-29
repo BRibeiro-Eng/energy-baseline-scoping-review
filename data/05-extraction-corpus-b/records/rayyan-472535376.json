@@ -1,0 +1,728 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535376",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage_c_v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13T00:00:00Z",
+  "n_pages_read": 7,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "chemical complex for production of phosphoric acid and fertilizers",
+        "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP) and utilities (Thermoelectric Power Station and Fresh Water Treatment Plant), the phosphoric acid plant (PAP) and the Di-Ammonium Phosphate (DAP).",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Morocco",
+          "country",
+          "located",
+          "plant location",
+          "site"
+        ]
+      },
+      "scale_of_application": {
+        "value": "sub-system",
+        "evidence_quote": "The company management team specified the scope of the energy audit as the water-steam circuit.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "Energy audit of the water-steam circuit of the sulfuric acid production process",
+        "evidence_quote": "The company management team specified the scope of the energy audit as the water-steam circuit. The production of sulfuric acid generates a large quantity of heat, which is recovered at each stage of its manufacture by the water that is transformed into steam.",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP) and utilities (Thermoelectric Power Station and Fresh Water Treatment Plant), the phosphoric acid plant (PAP) and the Di-Ammonium Phosphate (DAP).",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the forward multiple regression model without constant",
+          "baseline_period_start": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "baseline",
+              "year",
+              "months",
+              "from",
+              "to"
+            ]
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "period",
+              "baseline",
+              "year",
+              "months"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "Forward multiple stepwise regression without constant, selected by comparing forward and backward models using the Fisher's test",
+            "evidence_quote": "we choose the model with the simplest variables, which is the forward multiple regression model without constant, where sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption, and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "0.348986 (coefficient on sulfuric acid production)",
+            "0.000932678 (coefficient on 12 bar and 5 bar turbine extraction)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "The dependent variable is sulfur consumption by the sulfuric workshop.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": "sulfur consumption by the sulfuric workshop"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "The dependent variable is sulfur consumption by the sulfuric workshop.",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": "sulfur (combustion feedstock)"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "tonne",
+                "unit",
+                "kg",
+                "t/t"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "the forward multiple regression model without constant",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fitted"
+              ]
+            },
+            "variable_selection": {
+              "value": "stepwise",
+              "evidence_quote": "the forward and backward multiple regression approach is used to find the best regression model without examining all possible models",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "n_independent_variables": {
+              "value": 2,
+              "evidence_quote": "Sulfur consumption depends mainly on these two explanatory variables.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "software_verbatim": {
+              "value": "STATGRAPHICS Plus software",
+              "evidence_quote": "The data collected is organized using a table in STATGRAPHICS Plus software.",
+              "page": 4,
+              "support_class": "direct statement"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "sulfuric acid production",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "12 bar and 5 bar extraction from the turbo-alternator unit",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit, which should be extracted from the turbine with an optimized flow of 0.000932678",
+              "page": 6,
+              "support_class": "direct statement",
+              "type_other_verbatim": "steam extraction flow from the turbo-alternator unit (12 bar and 5 bar)"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "hourly",
+                "daily",
+                "monthly",
+                "frequency",
+                "interval"
+              ]
+            },
+            "modelling_frequency": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "monthly",
+                "daily",
+                "time step",
+                "points"
+              ]
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "months",
+                "years",
+                "period",
+                "duration"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points",
+                "samples",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time series",
+                "audit",
+                "survey",
+                "simulation"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "Once the variables have been defined, the data for these variables must be collected from the energy consumption reports.",
+              "page": 4,
+              "support_class": "requires inference",
+              "energy_vector_other_verbatim": "sulfur consumption"
+            },
+            {
+              "energy_vector": "steam",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "From these data, the current energy sources are: electrical energy and steam.",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "rolling",
+                "recalibrate",
+                "periodic"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate",
+                "revise"
+              ]
+            },
+            "trigger_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds",
+                "envelope"
+              ]
+            },
+            "bounds_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "R2",
+                  "R-squared",
+                  "RMSE",
+                  "CV",
+                  "fit",
+                  "goodness"
+                ]
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "split",
+                  "test",
+                  "later period"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "energy saved",
+                  "reduction",
+                  "kWh"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "Pinch analysis (energy process integration)",
+          "baseline_construction_method": {
+            "value": "Problem table algorithm / pinch analysis based on heat and mass balance and stream enthalpy calculation",
+            "evidence_quote": "The algorithm of the problem table method is used to set targets algebraically.",
+            "page": 6,
+            "support_class": "direct statement"
+          },
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "it is necessary to determine the specific heats of each stream, and the departure and objective temperatures, in order to calculate the enthalpy of each stream; hence heat and mass balance must be established.",
+              "page": 6,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "any flow that needs to be heated or cooled, but does not change in composition, is defined as a stream.",
+              "page": 6,
+              "support_class": "requires inference",
+              "other_verbatim": "process heat (hot and cold streams)"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "in order to calculate the enthalpy of each stream; hence heat and mass balance must be established.",
+              "page": 6,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "other"
+              ],
+              "evidence_quote": "Pinch analysis techniques are used to design heat exchange networks for the integration of energy process ; those techniques were developed mainly by Linhoff [9]",
+              "page": 6,
+              "support_class": "direct statement",
+              "other_verbatim": "pinch analysis / energy process integration (heat and mass balance)"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "audit snapshot",
+              "evidence_quote": "The first step was to carry out a site survey to identify equipment and gather as much information as possible.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "one per site",
+              "evidence_quote": "The material and energy balances for the sulfuric acid production plant were then established, so that process heat could be integrated and optimized.",
+              "page": 7,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "The first step was to carry out a site survey to identify equipment and gather as much information as possible.",
+              "page": 7,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "other",
+              "data_origin": "calculated from process data",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "it is necessary to determine the specific heats of each stream, and the departure and objective temperatures, in order to calculate the enthalpy of each stream; hence heat and mass balance must be established.",
+              "page": 6,
+              "support_class": "direct statement",
+              "energy_vector_other_verbatim": "process heat streams (enthalpy)"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "rolling",
+                "periodic"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test",
+                  "verify"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "GW recovered",
+                  "reduction",
+                  "target"
+                ]
+              },
+              "metrics": []
+            }
+          },
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "field meaningless here",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "explanatory"
+            ]
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "continuous chemical production",
+        "evidence_quote": "The company is a chemical complex for production of phosphoric acid and fertilizers, composed of the Sulfuric Acid Plant (SAP) and utilities (Thermoelectric Power Station and Fresh Water Treatment Plant), the phosphoric acid plant (PAP) and the Di-Ammonium Phosphate (DAP).",
+        "page": 2,
+        "support_class": "requires inference"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "Steam and water systems are the most complicated in the plant, as they lack the instruments needed for their proper definition.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "Variable outliers during shutdowns were discarded to take into account only regular operation.",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [
+    {
+      "barrier": "Multipass heat exchangers are difficult to maintain and access",
+      "evidence_quote": "Multipass heat exchangers are more efficient than the single pas sones in terms of heat transfer and energy saving ; however, they have some limitations as the difficulty to maintain and acess.",
+      "page": 7
+    },
+    {
+      "barrier": "Failure to meet targets due to lack of training and staff commitment",
+      "evidence_quote": "Failure to meet targets is due to lack of training.",
+      "page": 6
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "partial",
+      "evidence_quote": "will be either in \ndeficiency or surplus of heat quantity according to the \nenthalpy calculation following (1) for each interval i.",
+      "page": 6,
+      "support_class": "requires inference"
+    },
+    "coefficients_given": {
+      "value": "partial",
+      "evidence_quote": "sulfur consumption is explained by 0.348986 of sulfuric acid production, which is close to the value of specific sulfur consumption, and by 0.000932678 of 12 bar  and 5 bar extraction from the turbo-alternator unit",
+      "page": 6,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary",
+        "repository",
+        "dataset"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "software repository",
+        "github"
+      ]
+    }
+  },
+  "reviewer_notes": "Single facility (sulfuric acid plant within a phosphoric acid/fertilizer complex); audit scope explicitly the water-steam circuit, coded as sub-system. Two models extracted: M1 a forward multiple stepwise regression whose dependent variable is sulfur consumption (a fuel/feedstock proxy, coded 'other'), and M2 the pinch analysis / energy process integration coded as an energy-balance-type physical model ('other' family with verbatim). Plant country not stated in text although authors are Moroccan; coded not reported.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "drift",
+        "assumption",
+        "cannot",
+        "lack",
+        "instruments",
+        "uncertainty"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "outlier",
+        "discarded",
+        "segmented",
+        "re-estimation",
+        "normalisation",
+        "improved metering"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "sample",
+        "data access",
+        "scope",
+        "not include"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "training",
+        "maintain",
+        "access",
+        "commitment",
+        "cost",
+        "barrier"
+      ]
+    }
+  },
+  "attempt": 1
+}

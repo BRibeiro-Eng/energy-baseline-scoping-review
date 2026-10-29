@@ -1,0 +1,523 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536693",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 16,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "pulp and paper, basic metals and petrochemicals industries",
+        "evidence_quote": "Inter-\nviews were performed in six multi-national companies\nrepresenting the pulp and paper, basic metals and petro-\nchemicals industries.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Finland",
+        "evidence_quote": "The total number of interviews was 32, and these were\ncarried out in Finland in October and November 2009.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "Inter-\nviews were performed in six multi-national companies\nrepresenting the pulp and paper, basic metals and petro-\nchemicals industries.",
+        "page": 5,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Interview study of energy performance measurement practices and development needs in energy-intensive industries; companies monitor specific energy consumption indicators",
+        "evidence_quote": "This\npaper explores the development priority of one factor, namely, energy performance measurement, in the energy-intensive\nindustrial sector",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "refinery or petrochemical named but not an empirical application here",
+        "evidence_quote": "Inter-\nviews were performed in six multi-national companies\nrepresenting the pulp and paper, basic metals and petro-\nchemicals industries.",
+        "page": 5,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "monthly and annual speciﬁc energy consumption (MWh/t)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "multiple"
+              ],
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "‘MWh/t works just ﬁne in many places but there could be something else as well.",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": "MWh/t",
+              "evidence_quote": "‘MWh/t works just ﬁne in many places but there could be something else as well.",
+              "page": 12,
+              "support_class": "direct statement"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "mean SEC"
+              ],
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": "These indicators are\ntypically not corrected in reporting with respect to any\nexplanatory factors.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 0,
+              "evidence_quote": "These indicators are\ntypically not corrected in reporting with respect to any\nexplanatory factors.",
+              "page": 9,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "tool",
+                "system"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "MWh/t",
+              "type": "throughput",
+              "role": "denominator",
+              "evidence_quote": "‘MWh/t works just ﬁne in many places but there could be something else as well.",
+              "page": 12,
+              "support_class": "requires inference"
+            },
+            {
+              "verbatim": "operation rate",
+              "type": "capacity utilisation",
+              "role": "excluded",
+              "evidence_quote": "such as the issue of how to\ncorrect the effect of the operation rate on speciﬁc energy\nconsumption.",
+              "page": 9,
+              "support_class": "requires inference"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement"
+            },
+            "span_months": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "period",
+                "years",
+                "span"
+              ]
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "observations",
+                "data points",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "time series",
+                "data type"
+              ]
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "not reported",
+              "boundary_correspondence": "mismatch acknowledged",
+              "evidence_quote": "‘If you have more than one piece of equipment connected to a transformer, then how do you\ndivide the current?",
+              "page": 10,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": "All the companies monitor their monthly and annual\nspeciﬁc energy consumption of electricity, fuels and the\nprimary heat of production departments.",
+              "page": 9,
+              "support_class": "direct statement",
+              "energy_vector_other_verbatim": "fuels and primary heat"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "baseline"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "valid range",
+                "applicability",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "reduction",
+                  "energy result"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "multiple of the above",
+        "evidence_quote": "Inter-\nviews were performed in six multi-national companies\nrepresenting the pulp and paper, basic metals and petro-\nchemicals industries.",
+        "page": 5,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "such as the issue of how to\ncorrect the effect of the operation rate on speciﬁc energy\nconsumption.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "non-stationarity of the relationship",
+      "cause_other_verbatim": "operation rate"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "‘The biggest challenge is the availability of instrumentation. We have an old facility where there is\nno extra instrumentation and adding it is expensive and rarely possible’.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "observability gap — quantity not measured"
+    },
+    {
+      "mechanism_id": "K3",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "‘If you have more than one piece of equipment connected to a transformer, then how do you\ndivide the current?",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "allocation of measured energy (current) across multiple equipment on one transformer"
+    },
+    {
+      "mechanism_id": "K4",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "‘Explanatory factors and understanding them continues to be a major issue that requires further\nwork’.",
+      "page": 10,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "other",
+      "effect_other_verbatim": "explanatory factors for the indicator not identified or understood"
+    },
+    {
+      "mechanism_id": "K5",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "External benchmarks, although subject to commensurability\nissues, were available and used in certain industries.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "cross-site comparability"
+    },
+    {
+      "mechanism_id": "K6",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "indicators often lose their variance over time.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined",
+      "page_as_recorded": 10,
+      "locator_corrected": true
+    },
+    {
+      "mechanism_id": "K7",
+      "refers_to": "M1",
+      "claim_status": "applied to the case",
+      "evidence_quote": "These indicators are\ntypically not corrected in reporting with respect to any\nexplanatory factors.",
+      "page": 9,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "indicator not meaningful as defined"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "modelling and simple simulation models for process operation",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "‘There is some need for modelling and simple simulation models to be used for process\noperation’.",
+      "page": 12,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "improved metering",
+      "status": "proposed",
+      "addresses_mechanism": null,
+      "normative_framing": "absent",
+      "evidence_quote": "the interviewees\nexpressed a wish for the further development of measure-\nment technology, general guidelines and public demonstra-\ntion of energy performance measurement.",
+      "page": 9,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "scope restriction",
+      "also_constrains_model": false,
+      "evidence_quote": "Because of the scope of this paper, the results are not directly\napplicable to small and medium-sized ﬁrms, ﬁrms operating\nin other sectors and sites located in other countries.",
+      "page": 6
+    },
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": false,
+      "evidence_quote": "The interviewees\nare mainly from the ﬁeld of operations management, with\nother ﬁelds of management, such as ﬁnancial, marketing\nand human resources management, being left out.",
+      "page": 6
+    }
+  ],
+  "implementation_barriers": [
+    {
+      "barrier": "scarcity of resources, especially personnel resources",
+      "evidence_quote": "‘There is always a scarcity of resources, especially in personnel resources. Operative\nmanagement has a thousand and one irons in the ﬁre’.",
+      "page": 10
+    },
+    {
+      "barrier": "lack of skills to identify means to change processes",
+      "evidence_quote": "‘In sites and production, they can manage a process entity as it is, but to comprehend the\navailable means to completely change a spot, processes, or their parts, with means that cannot\nbe copied elsewhere—that is, of course, difﬁcult.",
+      "page": 10
+    },
+    {
+      "barrier": "lack of capital for investments during recession",
+      "evidence_quote": "“we have less capital for investments during\nthe recession”",
+      "page": 8
+    }
+  ],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "equation",
+        "formula"
+      ]
+    },
+    "coefficients_given": {
+      "value": "not applicable",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "field meaningless here"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data available",
+        "supplementary"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "repository"
+      ]
+    }
+  },
+  "reviewer_notes": "This is a qualitative interview study on the development priority of energy performance measurement in energy-intensive industries (pulp & paper, basic metals, petrochemicals) in Finland. It does not build or fit an energy performance model. The only model-like object is the monthly/annual specific energy consumption (MWh/t) indicator that the interviewed companies routinely monitor; it is captured as M1. n_independent_variables coded 0 (requires inference) because the paper states these indicators are not corrected for any explanatory factors. Mechanisms are drawn from the paper's catalogue of challenges to energy performance measurement (Table II) and are largely applied to the case companies.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "challenge",
+        "deficiency",
+        "limitation",
+        "boundary",
+        "instrumentation",
+        "explanatory"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "modelling",
+        "metering",
+        "develop",
+        "recommendation",
+        "R&D"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "scope",
+        "not applicable",
+        "left out"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "resources",
+        "skills",
+        "capital",
+        "commitment"
+      ]
+    }
+  },
+  "attempt": 2
+}

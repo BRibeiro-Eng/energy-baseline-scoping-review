@@ -1,0 +1,1221 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472535582",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "stage-c-v2.3.0",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 7,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "petrochemical plant",
+        "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": null,
+        "evidence_quote": null,
+        "page": null,
+        "support_class": "absence checked",
+        "absence_basis": "searched full text",
+        "searched_terms": [
+          "Colombia",
+          "plant location",
+          "city",
+          "site"
+        ]
+      },
+      "scale_of_application": {
+        "value": "equipment",
+        "evidence_quote": "For the case study, the steam generator equipment is a water tube with a heat input of 130.51MMBTU/h",
+        "page": 4,
+        "support_class": "requires inference"
+      },
+      "scope_description": {
+        "value": "A single water-tube steam boiler of 125.000 lb/h superheated steam capacity, natural gas fired, on a petrochemical plant",
+        "evidence_quote": "according to the operation conditions the generating capacity is 125.000lb/h  of superheated steam, \nunder an operating pressure and temperature of 607psig  and 750°F respectively, and a feedwater \ntemperature of 248°F .",
+        "page": 4,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "petrochemical — model empirically applied there",
+        "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+        "page": 3,
+        "support_class": "direct statement"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the energy baseline (EB = 0.0595x + 0.988)",
+          "baseline_period_start": {
+            "value": "04 −12 −2016",
+            "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": null,
+            "evidence_quote": null,
+            "page": null,
+            "support_class": "absence checked",
+            "absence_basis": "searched full text",
+            "searched_terms": [
+              "end date",
+              "period",
+              "month"
+            ]
+          },
+          "baseline_construction_method": {
+            "value": "linear regression of historical data on energy consumption and production",
+            "evidence_quote": "corresponds to the energy baseline, which is obtained from the linear regression of historical data on \nenergy consumption and production",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "m = 0.0595 (slope)",
+            "b = 0.988 (intercept)",
+            "R2 = 0.973"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "requires inference",
+              "other_verbatim": "real steam production (E_Actual)"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "𝐸𝐴𝑐𝑡𝑢𝑎𝑙= 𝑚𝑃+ 𝑏",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "which is obtained from the linear regression of historical data on \nenergy consumption and production",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fit"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "stepwise",
+                "selection",
+                "variable"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "𝐸𝐴𝑐𝑡𝑢𝑎𝑙= 𝑚𝑃+ 𝑏",
+              "page": 4,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P (fuel consumption)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "fuel (natural gas) consumption"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 6,
+              "evidence_quote": "to facilitate the energy monitoring of the steam boiler \nfor a period six month",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "n_observations": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "number of observations",
+                "data points",
+                "n ="
+              ]
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "recalibrate",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update",
+                "re-estimate"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "envelope",
+                "load range"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973  and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933; this is shown in Figure 4.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.973,
+                  "period_or_context": "energy baseline fit",
+                  "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "split",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "kWh saved",
+                  "energy saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "target line (Y = 0.0586x + 1.3814)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "other",
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "requires inference",
+              "other_verbatim": "target (goal) steam production"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "linear regression"
+              ],
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation"
+              ]
+            },
+            "variable_selection": {
+              "value": "no selection",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "requires inference",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "selection",
+                "stepwise"
+              ]
+            },
+            "n_independent_variables": {
+              "value": 1,
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "x (production / fuel consumption driver)",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+              "page": 5,
+              "support_class": "requires inference",
+              "type_other_verbatim": "same independent variable (x) as the energy baseline"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 6,
+              "evidence_quote": "to facilitate the energy monitoring of the steam boiler \nfor a period six month",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "envelope"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933; this is shown in Figure 4.",
+                "page": 5,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.9933,
+                  "period_or_context": "target (goal) line fit",
+                  "evidence_quote": "and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933",
+                  "page": 5,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "test"
+                ]
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "energy saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M3",
+          "label_verbatim": "the Base 100 efficiency index",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "𝐵𝑎𝑠𝑒 100 =\n𝐸𝑡ℎ𝑒𝑜𝑟𝑒𝑡𝑖𝑐𝑎𝑙\n𝐸𝐴𝑐𝑡𝑢𝑎𝑙\n×  100 %.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam"
+              ],
+              "evidence_quote": "𝐵𝑎𝑠𝑒 100 =\n𝐸𝑡ℎ𝑒𝑜𝑟𝑒𝑡𝑖𝑐𝑎𝑙\n𝐸𝐴𝑐𝑡𝑢𝑎𝑙\n×  100 %.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "𝐵𝑎𝑠𝑒 100 =\n𝐸𝑡ℎ𝑒𝑜𝑟𝑒𝑡𝑖𝑐𝑎𝑙\n𝐸𝐴𝑐𝑡𝑢𝑎𝑙\n×  100 %.",
+              "page": 5,
+              "support_class": "direct statement",
+              "other_verbatim": "actual steam production (E_Actual)"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "composite index"
+              ],
+              "evidence_quote": "Finally, the Base 100 efficiency index, which is an energy management tool that helps to assess the \nperformance of the measured energy consumption over a period of production time",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "driver"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 6,
+              "evidence_quote": "to facilitate the energy monitoring of the steam boiler \nfor a period six month",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "update"
+              ]
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "envelope"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "energy saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M4",
+          "label_verbatim": "index of real use (ICactual = EActual/P)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "energy efficiency ratio",
+              "evidence_quote": "𝐼𝐶𝐴𝑐𝑡𝑢𝑎𝑙= 𝐸𝐴𝑐𝑡𝑢𝑎𝑙𝑃\n⁄",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "steam",
+                "natural gas"
+              ],
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "other",
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "fuel (natural gas) consumption (P)"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "intensity ratio"
+              ],
+              "evidence_quote": "𝐼𝐶𝐴𝑐𝑡𝑢𝑎𝑙= 𝐸𝐴𝑐𝑡𝑢𝑎𝑙𝑃\n⁄",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "P (fuel consumption)",
+              "type": "other",
+              "role": "denominator",
+              "evidence_quote": "Where 𝐸𝐴𝑐𝑡𝑢𝑎 is the real steam production and P is the fuel consumption",
+              "page": 4,
+              "support_class": "direct statement",
+              "type_other_verbatim": "fuel (natural gas) consumption"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 6,
+              "evidence_quote": "to facilitate the energy monitoring of the steam boiler \nfor a period six month",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "valid",
+                "envelope"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "energy saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        },
+        {
+          "model_id": "M5",
+          "label_verbatim": "control charts (steam production and gas consumption)",
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "Analysis of steam production performance is shown in Figure 3(a), where the upper and lower limits \nwere determined in order to identify the presence of atypical points or abnormal operating conditions in \nthe process.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "energy_vector": {
+              "value": [
+                "steam",
+                "natural gas"
+              ],
+              "evidence_quote": "the same control study parameters were performed to observe gas \nconsumption in the period",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "Analysis of steam production performance is shown in Figure 3(a), where the upper and lower limits \nwere determined in order to identify the presence of atypical points or abnormal operating conditions in \nthe process.",
+              "page": 5,
+              "support_class": "requires inference"
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "control chart"
+              ],
+              "evidence_quote": "The control charts, \nbased and target line are presented, allowing to determine the base 100 indicator.",
+              "page": 5,
+              "support_class": "direct statement"
+            },
+            "estimation_method": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            },
+            "variable_selection": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C3_variables": [],
+          "C3_variables_absence": {
+            "searched": true,
+            "basis": "searched full text",
+            "searched_terms": [
+              "variable",
+              "predictor",
+              "driver"
+            ]
+          },
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            "modelling_frequency": {
+              "value": "daily",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 6,
+              "evidence_quote": "to facilitate the energy monitoring of the steam boiler \nfor a period six month",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "data_type": {
+              "value": "continuous time series",
+              "evidence_quote": "daily data \nmeasurements between 04 −12 −2016 and 04 −12 −2016 about the gas consumption and steam",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "steam",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "natural gas",
+              "data_origin": "dedicated meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+              "page": 3,
+              "support_class": "requires inference"
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "fixed, not mentioned",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimation",
+                "update"
+              ]
+            },
+            "update_status": {
+              "value": "not applicable",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "field meaningless here"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "stated qualitatively",
+              "evidence_quote": "where the upper and lower limits \nwere determined in order to identify the presence of atypical points or abnormal operating conditions in \nthe process.",
+              "page": 5,
+              "support_class": "requires inference"
+            },
+            "bounds_verbatim": {
+              "value": "upper and lower control limits (all data fell between the upper and lower limits)",
+              "evidence_quote": "since all the data are between the upper and lower limits, the energy study \nmust be performed on the entire sample shown in Figure 3(b).",
+              "page": 5,
+              "support_class": "direct statement"
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "none",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "savings",
+                  "%",
+                  "energy saved"
+                ]
+              },
+              "metrics": []
+            }
+          }
+        }
+      ],
+      "sector_registered": {
+        "value": "petrochemicals",
+        "evidence_quote": "using calibrated sensor on a petrochemical plant in order to know the steam boiler behavior",
+        "page": 3,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "general",
+      "evidence_quote": "The energy performance of steam boilers, such as the efficiency and the evaporation \nratio can decrease along time because of the poor combustion, heat transfer fouling, poor \noperation, and low maintenance rate.",
+      "page": 2,
+      "support_class": "direct statement",
+      "mechanism_cause": "fouling",
+      "mechanism_effect_on_model": "non-stationarity of the relationship"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M3",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "It \nis important to note that the low efficiency peaks of 22 January, 17 February and 20 February are \nassociated with the random nature of the process and are not the result of variation in the energy \nmanagement system.",
+      "page": 5,
+      "support_class": "direct statement",
+      "mechanism_cause": "other",
+      "mechanism_effect_on_model": "other",
+      "cause_other_verbatim": "random nature of the process (random operational variation)",
+      "effect_other_verbatim": "some low-efficiency index peaks reflect random process variation rather than genuine management/energy variation"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": null,
+      "normative_framing": "implicit",
+      "evidence_quote": "filtering of data was carried out in order to establish a more stable correlation; with the purpose of not losing functionality between production and \nenergy when it comes to energy indicators analysis, selecting as final criteria 2 standard deviation.",
+      "page": 5,
+      "support_class": "direct statement",
+      "refers_to": "M1"
+    }
+  ],
+  "study_limitations": [],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "𝐼𝐶𝐴𝑐𝑡𝑢𝑎𝑙= 𝐸𝐴𝑐𝑡𝑢𝑎𝑙𝑃\n⁄",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "Baseline of the form 𝐸𝐵= 0.0595x + 0.988 and with linear correlation equals to 𝑅2 = 0.973  and a \ntarget line  𝑌= 0.0586x + 1.3814, with linear correlation of 𝑅2 = 0.9933; this is shown in Figure 4.",
+      "page": 5,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "supplementary",
+        "dataset"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "software repository",
+        "github"
+      ]
+    }
+  },
+  "reviewer_notes": "Single application (one water-tube steam boiler on a petrochemical plant). Five models extracted: M1 energy baseline (linear regression), M2 target/goal line, M3 Base 100 efficiency index, M4 index of real use (evaporation ratio ICactual = EActual/P), M5 control charts. Note internal inconsistency in the dependent-variable definition: the paper labels the equation an 'energy baseline' obtained by regression of 'energy consumption and production', yet Equation 3 (E_Actual = mP + b) explicitly defines E_Actual as 'the real steam production' and P as 'the fuel consumption', making steam production the dependent variable and fuel consumption the predictor. Extraction follows the explicit equation-3 definition; dependent quantity coded 'other' (real steam production) with requires-inference. Also note a numeric discrepancy in the target-line R2: the abstract (p.2) states R2 = 0.97 while the results section (p.5) states R2 = 0.9933; the results-section value was recorded for M2. The measurement date range on p.3 gives identical start/end (04-12-2016 and 04-12-2016), an apparent typo; the six-month monitoring period is stated separately (p.2). Data origin ('calibrated sensor') coded as dedicated meter with requires-inference; boundary correspondence inferred exact. No quantified energy-saving result is reported numerically in the text (only qualitative identification of inefficiency peaks).",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "fouling",
+        "decrease",
+        "over time",
+        "drift",
+        "assumption",
+        "random",
+        "abnormal"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "filtering",
+        "standard deviation",
+        "outlier",
+        "target line",
+        "correction"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "limitation",
+        "future work",
+        "data access",
+        "sample",
+        "only"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "cost",
+        "training",
+        "staff",
+        "maintenance",
+        "obstacle"
+      ]
+    }
+  },
+  "attempt": 1
+}

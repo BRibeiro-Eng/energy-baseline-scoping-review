@@ -1,0 +1,315 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536644",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T15:32:40Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. and Canada.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period (2005-2014) under a non-disclosure agreement with Duke University.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "This statistical model enables companies to judge the energy efficiency of individual integrated steel mills.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": null
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period (2005-2014) under a non-disclosure agreement with Duke University.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.86
+    },
+    "country_region": {
+      "value": "U.S., Canada",
+      "evidence_quote": "Three U.S. based and three Canadian based companies voluntarily provided data for 14 plants over a set time period (2005-2014) under a non-disclosure agreement with Duke University.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "integrated steel",
+      "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. and Canada.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "a facility that is primarily engaged in producing steel products using a fully integrated process",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "ISO 50001 regarding the creation of EnPI",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression"
+      ],
+      "evidence_quote": "the ENERGY STAR EPI uses a multivariate approach to normalization where multiple effects are simultaneously considered.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "capacity",
+        "cast slab production",
+        "liquid iron/cast slab ratio",
+        "slabs charged to hot mill/cast slab ratio",
+        "charged scrap/cast slab ratio",
+        "total onsite finished tons/cast slab ratio",
+        "oxygen use/cast slab ratio",
+        "Year 2009 dummy variable"
+      ],
+      "evidence_quote": [
+        "a 10% decrease in production, given a fixed capacity, would decrease energy by only 8.3%.",
+        "They are all positive, so as the production, relative to cast slab, of liquid iron, hot mill bands, scrap charged, or onsite finishing increases then the energy per ton of cast slabs will rise.",
+        "An increase in oxygen also is associated with an increase in energy use.",
+        "the 2009 dummy variable was included in the final regression to account for the extreme impact on energy use in the recession."
+      ],
+      "page": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "baseline_period_start": {
+      "value": "2005",
+      "evidence_quote": "data for 14 plants over a set time period (2005-2014)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_period_end": {
+      "value": "2014",
+      "evidence_quote": "data for 14 plants over a set time period (2005-2014)",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "baseline_construction_method": {
+      "value": "A log-linear, multivariate plant-level regression was fitted to an unbalanced panel of 106 plant-years from 14 plants, with production, capacity, production-mix ratios, oxygen use, scrap use, and a 2009 dummy variable as predictors.",
+      "evidence_quote": [
+        "Given data on energy use and production, the parameters can be fit via a linear regression model.",
+        "In this case, production, and capacity enter the equation in log form, as does the energy variable.",
+        "The total number of “plant-years” of data included in the final analysis was 106.",
+        "the 2009 dummy variable was included in the final regression to account for the extreme impact on energy use in the recession."
+      ],
+      "page": [
+        4,
+        4,
+        8,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "Companies were asked to input actual data for all of their plants and then to determine whether the results were consistent with any energy efficiency assessments that may have been made for these plants.",
+        "R – squared 0.984 F(8, 97) 755.45"
+      ],
+      "page": [
+        5,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.93
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "The scope for the EPI is a plant-level indicator, not process-specific",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "scope_description": {
+      "value": "integrated steel mills in the U.S. and Canada",
+      "evidence_quote": "integrated steel mills in the U.S. and Canada",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "identifies_model_limitations": {
+      "value": true,
+      "evidence_quote": "for some plants, oxygen was hard to track or record and there were many gaps in the data, especially in the earlier years of the dataset.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "specific_limitations": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "for some plants, oxygen was hard to track or record and there were many gaps in the data, especially in the earlier years of the dataset.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "proposes_treatment_mechanism": {
+      "value": true,
+      "evidence_quote": "The plant specific mean of the ratio of oxygen use to tons of cast slabs was computed for years where oxygen data was available and then multiplied by the reported slab production values from each year for each plant.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "proposes_adaptations": {
+      "value": true,
+      "evidence_quote": "To correct for this, imputations were tied to the reported ratio of oxygen use to production of steel slabs.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "adaptation_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "To correct for this, imputations were tied to the reported ratio of oxygen use to production of steel slabs.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "The model evolved over a period of time, based on comments from industry reviewers and subsequent analyses.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "This paper describes the development of the first EPI for evaluating the energy performance of integrated steel mills in the U.S. and Canada.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "data_type": {
+      "value": "continuous time series",
+      "evidence_quote": "Due to the evolving nature of the study, not all companies and plants provided for every year, resulting in an unbalanced panel. The total number of “plant-years” of data included in the final analysis was 106.",
+      "page": 8,
+      "non_contiguous_evidence": false,
+      "confidence": 0.84
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Log Capacity: 0.2002",
+        "Log Slab Production: 0.8479",
+        "Finished Production Ratio: 0.0982",
+        "Liquid Iron Production Ratio: 0.5719",
+        "Charged Scrap Production Ratio: 0.3353",
+        "Hot Mill Production Ratio: 0.1362",
+        "Oxygen Production Ratio: 0.0208",
+        "Year 2009: 0.0464",
+        "Constant: 1.4088"
+      ],
+      "evidence_quote": "Log Capacity 0.2002 0.0374 5.36 Log Slab Production 0.8479 0.0272 31.17 Finished Production Ratio 0.0982 0.0303 3.24 Liquid Iron Production Ratio 0.5719 0.0536 10.64 Charged Scrap Production Ratio 0.3353 0.2695 1.24 Hot Mill Production Ratio 0.1362 0.0270 5.05 Oxygen Production Ratio 0.0208 0.0064 3.25 Year 2009 0.0464 0.0297 1.56 Constant 1.4088 0.3290 4.28",
+      "page": 11,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "0.984",
+          "unit": null,
+          "period_or_context": "Integrated Steel Mill Frontier Model Estimates",
+          "evidence_quote": "R – squared 0.984",
+          "page": 11,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "F-statistic",
+          "value": "755.45",
+          "unit": null,
+          "period_or_context": "F(8, 97)",
+          "evidence_quote": "F(8, 97) 755.45",
+          "page": 11,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": [
+        "R – squared 0.984",
+        "F(8, 97) 755.45"
+      ],
+      "page": [
+        11,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "implementation_barriers": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  }
+}

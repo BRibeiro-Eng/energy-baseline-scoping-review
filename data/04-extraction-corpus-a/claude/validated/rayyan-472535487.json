@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535487",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:50:08Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this study attempts to propose a highly practice-based Energy Management Maturity Model for China (EMMM-China)",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "ineligibility_reason": "Paper proposes a qualitative energy management maturity model (EMMM-China), a maturity-assessment framework. It does not present, characterise, evaluate, or critique any specific EnPI/EnB measurement model (no identifiable measured quantity together with variables, functional form, or construction/estimation approach). EnPI/EnB appear only as maturity-grid descriptors and ISO 50001/50006 concept references, incidental to the model itself. Ineligible under the v2.3 maturity-assessment carve-out.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "propose a highly practice-based maturity model (MM)",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "EnPI/EnB appear only as maturity-grid descriptors (e.g. 'Some EnBs are normalized by the regression analysis') and ISO 50006 concepts, not as a characterised measurement model."
+  },
+  "stage2": null,
+  "stage3": null
+}

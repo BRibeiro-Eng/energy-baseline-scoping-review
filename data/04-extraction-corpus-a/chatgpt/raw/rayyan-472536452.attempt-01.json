@@ -1,0 +1,120 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536452",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:44:30Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The development of energy consumption models proposed in the present study involved the clustering of hourly data using the K-means clustering algorithm, consolidation of the clustered hourly data into monthly average data by month, and the construction of energy consumption models using the simple linear regression method",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The building selected in the present study was a four-story office building with a floor area of approximately 3495 m2.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The building selected in the present study was a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "The empirical context is an office building, which is outside the closed Level 3B continuous-process sector list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The building selected in the present study was a four-story office building with a floor area of approximately 3495 m2.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": "Hsinchu, Taiwan",
+      "evidence_quote": "HVAC consumption of the B1 office building in Hsinchu, Taiwan",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "office building",
+      "evidence_quote": "The building selected in the present study was a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "The building selected in the present study was a four-story office building",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "mv_protocol": {
+      "value": [
+        "ASHRAE 14",
+        "other-named"
+      ],
+      "evidence_quote": "In accordance with the requirements and recommendations of ASHRAE Guideline 14 and the FEMP’s M&V Guideline 4.0, energy consumption models must be verified to ensure that the statistical results satisfy acceptable criteria.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "multiple regression",
+        "ML"
+      ],
+      "evidence_quote": [
+        "The development of energy consumption models proposed in the present study involved the clustering of hourly data using the K-means clustering algorithm, consolidation of the clustered hourly data into monthly average data by month, and the construction of energy consumption models using the simple linear regression method, so as to achieve regression models with high reliability. In addition, the Naı¨ve Bayes classiﬁer was used to classify data obtained under different operating conditions into the energy consumption model with the smallest prediction error.",
+        "The multiple variable regression model was constructed with monthly average outdoor temperature and monthly average outdoor humidity as independent variables and monthly average HVAC power consumption as the dependent variable. For the ANN model, a feedforward network was adopted"
+      ],
+      "page": [
+        3,
+        11
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.98
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    }
+  },
+  "stage3": null
+}

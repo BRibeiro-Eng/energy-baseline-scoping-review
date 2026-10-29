@@ -1,0 +1,32 @@
+% Figure 1 (v1): energy measurement chain and its conditional link to an emission-reduction estimate.
+% Lower row revised after external review (inventory vs project-level estimate kept separate).
+\begin{tikzpicture}[x=1cm,y=1cm,
+  box/.style={ntcaixa,text width=2.55cm,minimum height=1.25cm,font=\scriptsize},
+  boxh/.style={ntdestaque,text width=2.55cm,minimum height=1.25cm,font=\scriptsize},
+  boxc/.style={ntproposta,text width=2.85cm,minimum height=1.35cm,font=\scriptsize},
+  ass/.style={font=\scriptsize,text=corCinza,align=center,text width=2.9cm,inner sep=1pt},
+  lab/.style={font=\scriptsize\bfseries,text=corTinta,anchor=west}]
+  % top row: energy side (mapped by this review)
+  \node[lab] at (-1.45,1.55) {Energy measurement chain (ISO 50001/50006/50015) --- the layer mapped by this review};
+  \node[box]  (b1) at (0,0)    {Metered and calculated energy, production, process data};
+  \node[box]  (b2) at (3.1,0)  {EnPI boundary and relevant variables};
+  \node[boxh] (b3) at (6.2,0)  {EnB model fitted in the baseline period};
+  \node[boxh] (b4) at (9.3,0)  {Expected energy in the reporting period (counterfactual)};
+  \node[box]  (b5) at (12.4,0) {Energy savings $\hat S=\sum_t(\hat E^0_t-E_t)$};
+  \foreach \a/\b in {b1/b2,b2/b3,b3/b4,b4/b5} \draw[ntsetaf] (\a.east) -- (\b.west);
+  \node[ass] at (3.1,-1.15) {\emph{sufficiency}: the variables describe the operating state};
+  \node[ass] at (6.2,-1.15) {\emph{form} and \emph{representativeness} of the baseline period};
+  \node[ass] at (9.3,-1.15) {\emph{transportability}: the relation still holds after fitting};
+  \node[ass] at (12.4,-1.15) {\emph{calibration} and \emph{detectability} of deviations};
+  \node[font=\scriptsize,text=corDestaque,align=center,text width=8.5cm] at (7.75,0.98)
+    {no numerical acceptance criterion in the consulted ISO clauses};
+  \draw[corDestaque,line width=.5pt] (4.85,0.72) -- (10.65,0.72);
+  % bottom row: carbon side (not mapped by this review)
+  \node[lab] at (-1.45,-2.25) {Emission accounting --- not mapped by this review};
+  \node[boxc] (c1) at (12.25,-3.6) {Conditional estimate $\hat R=EF\cdot\hat S$\\ (fixed factor, same carrier, boundary and period)};
+  \node[boxc] (c2) at (8.65,-3.6)  {Claim-level assessment: accounting boundary, factors, uncertainty, attribution, no double counting};
+  \node[box,draw=corCinza,text width=4.4cm] (c3) at (2.6,-3.6) {Emissions inventory, e.g., EU ETS monitoring: activity data with specified uncertainty tiers and independent verification};
+  \draw[ntsetaf] (b5.east) -- ++(0.45,0) |- (c1.east);
+  \draw[ntsetaf] (c1.west) -- (c2.east);
+  \draw[ntsetat] (c3.east) -- node[below=2pt,font=\scriptsize,text=corCinza,align=center]{different\\accounting\\object} (c2.west);
+\end{tikzpicture}

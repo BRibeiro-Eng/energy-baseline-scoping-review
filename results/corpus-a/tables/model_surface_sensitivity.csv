@@ -1,0 +1,683 @@
+field,category,claude_n,chatgpt_n,difference_n
+paper_type,maturity model or framework,11,5,6
+paper_type,methodological/theoretical,32,16,16
+paper_type,multi-case study,53,103,-50
+paper_type,other,11,0,11
+paper_type,review/synthesis,18,21,-3
+paper_type,single applied case,179,167,12
+paper_type,tool/software design,27,19,8
+multi_site,False,235,270,-35
+multi_site,unresolved / not extracted,46,5,41
+multi_site,True,33,35,-2
+multi_site,not applicable,17,21,-4
+country_region,"10th of Ramadan City, Cairo, Egypt",0,1,-1
+country_region,ASEAN region,0,1,-1
+country_region,Abadiño,0,1,-1
+country_region,"Abadiño, Spain",1,0,1
+country_region,"Abu Dhabi, UAE",1,0,1
+country_region,"Alexandria Governorate, Egypt",1,1,0
+country_region,Algeria,1,1,0
+country_region,Arabian Gulf,1,1,0
+country_region,Assaluyeh – economical zone in south of Iran,0,1,-1
+country_region,"Assaluyeh, Iran",1,0,1
+country_region,Athens,0,1,-1
+country_region,"Athens, Greece",1,1,0
+country_region,"Auckland, New Zealand",1,1,0
+country_region,Austria,0,1,-1
+country_region,"Austria, Italy, Poland and UK",0,1,-1
+country_region,B&H,0,1,-1
+country_region,Bandar Abbas,0,1,-1
+country_region,Bangkok Metropolitan area,0,1,-1
+country_region,"Bangkok, Thailand",1,0,1
+country_region,"Barranquilla, Colombia",2,2,0
+country_region,"Bayreuth (Germany), Erlangen",0,1,-1
+country_region,Benguerir,1,1,0
+country_region,"Berlin (Cfb), Seville (Csa), Porto (Csb), Stockholm (Dfb)",0,1,-1
+country_region,"Biringere Village, Bungoro District, Pangkep Regency",0,1,-1
+country_region,"Biringere Village, Bungoro District, Pangkep Regency, Indonesia",1,0,1
+country_region,"Bogotá and Villavicencio (Meta), Colombia",1,0,1
+country_region,"Bogotá, Villavicencio – Meta",0,1,-1
+country_region,Bosnia and Herzegovina,1,1,0
+country_region,Brasília in the Federal District and in the municipality of Ipanguaçu in the state of Rio Grande do Norte,0,1,-1
+country_region,"Brasília, Federal District, and Ipanguaçu, Rio Grande do Norte, Brazil",1,0,1
+country_region,Brazil,3,1,2
+country_region,"British Columbia, Canada",1,1,0
+country_region,Bucharest,0,1,-1
+country_region,"Bucharest, Romania",1,0,1
+country_region,"Bukit Keteri, Arau, Perlis, Malaysia",1,1,0
+country_region,"Cali, Colombia",2,1,1
+country_region,Canada,2,2,0
+country_region,"Caraúbas, Rio Grande do Norte, Brazil",1,0,1
+country_region,"Caraúbas, in the state of Rio Grande do Norte, Brazil",0,1,-1
+country_region,"Caribbean Sea, Mediterranean Sea",1,0,1
+country_region,Caribbean Sea; Mediterranean Sea,0,1,-1
+country_region,"Casablanca, Morocco",1,1,0
+country_region,"Catania, Italy",1,0,1
+country_region,"Cauca, Colombia",1,0,1
+country_region,Chicago,1,1,0
+country_region,China,2,2,0
+country_region,"China, Europe",0,1,-1
+country_region,"China, South Korea, and Taiwan",1,1,0
+country_region,"Chongqing, China",1,1,0
+country_region,"Cienfuegos, Cuba",4,2,2
+country_region,"City of Malolos, Bulacan, Philippines",1,0,1
+country_region,Cologne,0,1,-1
+country_region,"Cologne, Germany",1,0,1
+country_region,Colombia,15,10,5
+country_region,"Colombia: Atlántico, La Guajira, Cundinamarca",0,1,-1
+country_region,Colombian Caribbean,1,1,0
+country_region,Colombian Caribbean coast,1,1,0
+country_region,"Cork, Ireland",2,0,2
+country_region,Cuba,3,3,0
+country_region,Cucuta and metropolitan area,0,1,-1
+country_region,"Cucuta, Norte de Santander, Colombia",1,0,1
+country_region,"Curitiba, Paraná",0,1,-1
+country_region,"Curitiba, Paraná, Brazil",1,0,1
+country_region,"Dalaman, Turkey",1,0,1
+country_region,Darmstadt,0,2,-2
+country_region,"Darmstadt, Germany",1,0,1
+country_region,"Daugavpils, Latvia",1,0,1
+country_region,Denmark,0,1,-1
+country_region,"Des Moines, Iowa, USA",1,0,1
+country_region,"Des Moines, Iowa, metro area",0,1,-1
+country_region,District of Columbia,0,1,-1
+country_region,"Durban, South Africa",1,0,1
+country_region,Eastern Spain,0,1,-1
+country_region,Ecuador,1,1,0
+country_region,"Ecuador (Oriente Basin, Blocks 16 & 67)",1,0,1
+country_region,Finland,0,1,-1
+country_region,France,1,0,1
+country_region,"Frankfurt am Main, Germany",1,0,1
+country_region,"Frankfurt, Germany",0,1,-1
+country_region,Germany,5,3,2
+country_region,Greece,1,1,0
+country_region,"Guadalupe Valley, Mexico",1,0,1
+country_region,"Guadalupe Valley, in the state of Baja California, Mexico",0,1,-1
+country_region,"Guangdong Province, China",1,1,0
+country_region,Honduras,1,1,0
+country_region,Hong Kong,1,1,0
+country_region,"Hsinchu, Taiwan",1,1,0
+country_region,Indonesia,2,1,1
+country_region,Iran,3,2,1
+country_region,Ireland,0,1,-1
+country_region,"Ireland, Netherlands",1,1,0
+country_region,"Itajubá, Minas Gerais, Brazil",1,0,1
+country_region,Italian,0,1,-1
+country_region,Italy,17,21,-4
+country_region,"Italy, US",0,1,-1
+country_region,"Italy, United States",1,0,1
+country_region,"Izmir, Turkey",1,0,1
+country_region,Japan,2,2,0
+country_region,"Japan, Sweden, and the United States",0,1,-1
+country_region,Jordan,2,2,0
+country_region,"Karachi, Pakistan",1,1,0
+country_region,Kazan,0,1,-1
+country_region,"Kazan, Russia",1,0,1
+country_region,Kerala,0,1,-1
+country_region,"Kerala, India",1,0,1
+country_region,Key West,0,1,-1
+country_region,"Key West, Florida",1,0,1
+country_region,"Koeln (Cologne), Germany",1,0,1
+country_region,Kolkata (India),0,1,-1
+country_region,"Kolkata, India",1,0,1
+country_region,Korea,1,0,1
+country_region,"Kuala Lumpur, Malaysia",1,1,0
+country_region,Kuwait,1,1,0
+country_region,K¨oln,0,1,-1
+country_region,"Lagos, Nigeria",1,1,0
+country_region,"Lagos, Nigeria and Chelmsford, UK",0,1,-1
+country_region,Latin America,0,1,-1
+country_region,"Latin America (Brazil, Ecuador, Mexico, Colombia, Argentina, Panama; Andean highland focus)",1,0,1
+country_region,Latvia,2,2,0
+country_region,"Limerick, Ireland",1,1,0
+country_region,"Loulé, Algarve region, southern Portugal",0,1,-1
+country_region,"Loulé, Portugal",1,0,1
+country_region,"Lutsk, Ukraine",1,1,0
+country_region,Lviv region,0,1,-1
+country_region,"Madrid, Spain",1,1,0
+country_region,Malaysia,3,2,1
+country_region,"Marrakech and Oujda, Morocco",1,0,1
+country_region,"Medan, North Sumatera, Indonesia",1,0,1
+country_region,"Meknes, Morocco",0,1,-1
+country_region,Mexico,2,2,0
+country_region,Middle East,1,1,0
+country_region,Middle-East,1,0,1
+country_region,"Milan, Rome and Palermo",0,1,-1
+country_region,"Milano Malpensa, Italy",1,0,1
+country_region,"Molina de Segura (Spain), Ponte Metauro/Fano (Italy), North Coast (Northern Ireland, UK)",1,0,1
+country_region,Morocco,3,2,1
+country_region,Móstoles (Spain),1,1,0
+country_region,"Nantes and Angers, France",1,0,1
+country_region,"New York, USA; Perlis, Malaysia; Koper; Los Angeles, USA; Hamburg; Genoa; Delta/Rotterdam; Port of Valencia; Greek port; Chilean container terminals; Port of Borg, Norway; Port of Sines, Portugal; Port of Santos, Brazil",0,1,-1
+country_region,"Nontaburi province, Thailand",1,1,0
+country_region,North America,0,1,-1
+country_region,North America and Europe,1,1,0
+country_region,North Sumatera province of Indonesia,0,1,-1
+country_region,North and Central America,1,1,0
+country_region,"Northern Colorado, USA",1,1,0
+country_region,Northern Europe,0,1,-1
+country_region,Northern Italy,1,1,0
+country_region,Northwestern Mexico (State of Sonora),1,0,1
+country_region,Norway,1,1,0
+country_region,Pakistan,1,1,0
+country_region,Penang,0,1,-1
+country_region,"Penang, Malaysia",1,0,1
+country_region,Perpignan,0,1,-1
+country_region,Peru,1,0,1
+country_region,Philippines,0,1,-1
+country_region,Poland,1,1,0
+country_region,Popayán-Colombia,0,1,-1
+country_region,unresolved / not extracted,75,71,4
+country_region,"Portici (Naples), Italy",1,0,1
+country_region,Portugal,1,1,0
+country_region,"Quito, Ecuador",1,1,0
+country_region,"Region of Murcia, Spain",1,1,0
+country_region,Republic of Ireland,1,1,0
+country_region,Rio de Janeiro - Brazil,1,1,0
+country_region,"Riyadh, Jeddah, and Dammam, Saudi Arabia",1,0,1
+country_region,Romania,4,5,-1
+country_region,Rome,0,1,-1
+country_region,"Rome, Italy",1,0,1
+country_region,Russia,2,2,0
+country_region,Russian Federation,1,1,0
+country_region,SPAIN,0,1,-1
+country_region,Sabanalarga (Atlántico),0,1,-1
+country_region,"Sabanalarga, Atlantic Department of Colombia",1,0,1
+country_region,"Sabanalarga, Atlántico department, Colombia",1,0,1
+country_region,"Sarajevo, Bosnia and Herzegovina",1,0,1
+country_region,Saudi Arabia,1,2,-1
+country_region,"Saxony, Germany",1,1,0
+country_region,"Seoul, Korea",1,1,0
+country_region,Sheffield,0,2,-2
+country_region,"Sheffield, UK",2,0,2
+country_region,Shenzhen City,0,1,-1
+country_region,"Sibiu County, Bucharest, and Brasov County, Romania (case-study deployment sites); ML forecast module additionally tested on a DOE office building in Benton County, Washington State, USA",1,0,1
+country_region,"Sibiu County, Romania",1,0,1
+country_region,"Sibiu County, Romania; Bucharest, Romania; Bras,ov County, Romania",0,1,-1
+country_region,Silesian Voivodeship of Poland,0,1,-1
+country_region,Slovakia,1,1,0
+country_region,South Africa,3,3,0
+country_region,"South Africa, Botswana and Zimbabwe",0,1,-1
+country_region,South Asian countries,0,1,-1
+country_region,Spain,1,2,-1
+country_region,"Spain, Italy, and Northern Ireland",0,1,-1
+country_region,Stuttgart (Germany),0,1,-1
+country_region,"Stuttgart, Germany",1,0,1
+country_region,Sweden,3,3,0
+country_region,Switzerland,1,0,1
+country_region,Taiwan,1,1,0
+country_region,"Tampa, FL; San Francisco, CA; Washington, DC; and Chicago, IL",0,1,-1
+country_region,Thailand,4,5,-1
+country_region,The Netherlands,1,0,1
+country_region,Tula,0,1,-1
+country_region,"Tula, Mexico",1,0,1
+country_region,"Turin, Italy",1,0,1
+country_region,Turkey,0,1,-1
+country_region,Türkiye,1,0,1
+country_region,"U.S., Canada",0,1,-1
+country_region,UK,2,2,0
+country_region,US,1,4,-3
+country_region,USA,2,1,1
+country_region,United Arab Emirates,1,0,1
+country_region,"United Arab Emirates, Indonesia, Saudi Arabia, China",1,1,0
+country_region,United States,8,4,4
+country_region,United States and Canada,1,0,1
+country_region,"Upper Silesian Province (Silesian Voivodeship), southern Poland",1,0,1
+country_region,Valderice (Italy),0,1,-1
+country_region,"Valencia, Spain",2,1,1
+country_region,"Valladolid, Spain",1,0,1
+country_region,"Valle del Cauca, Colombia",1,1,0
+country_region,Viet Nam,1,0,1
+country_region,Vietnam,1,1,0
+country_region,central Denmark,0,1,-1
+country_region,central Denmark (Karup),1,0,1
+country_region,coast of Ecuador,0,1,-1
+country_region,global,0,1,-1
+country_region,north Italy,0,1,-1
+country_region,"north of the department of Cauca, Colombia",0,1,-1
+country_region,northern Portugal,1,1,0
+country_region,northwestern Mexico,0,1,-1
+country_region,not applicable,27,29,-2
+country_region,province of Cienfuegos,0,1,-1
+country_region,southeast of Latvia,0,1,-1
+country_region,southeast region of Brazil,0,1,-1
+country_region,worldwide,0,1,-1
+sector_of_activity,Breweries and motor vehicle assembly,1,0,1
+sector_of_activity,Cement manufacturing,0,1,-1
+sector_of_activity,"Energy performance contracting in commercial/institutional buildings (facilities management: hospitals, university, hotel)",1,0,1
+sector_of_activity,Glass and cast iron melting processes,1,1,0
+sector_of_activity,Higher Education Institution (HEI),0,1,-1
+sector_of_activity,Hospitality sector,0,1,-1
+sector_of_activity,Industrial Refrigeration,1,1,0
+sector_of_activity,Italian private health sector,0,1,-1
+sector_of_activity,K-12 schools,1,0,1
+sector_of_activity,LNG,0,1,-1
+sector_of_activity,LNG production,1,0,1
+sector_of_activity,"Light industrial, Institutional",0,1,-1
+sector_of_activity,Low Density Poly-Ethylene (LDPE) plant,0,1,-1
+sector_of_activity,Medical Devices Manufacturing Facility,0,1,-1
+sector_of_activity,Non-Metallic Minerals sector,0,1,-1
+sector_of_activity,O&G industry,0,1,-1
+sector_of_activity,Oil & Gas Industry,0,1,-1
+sector_of_activity,PVC flooring mat manufacturing industry,1,1,0
+sector_of_activity,unresolved / not extracted,49,8,41
+sector_of_activity,Production of miscellaneous parts and accessories for vehicles and vehicle engines,1,1,0
+sector_of_activity,Propylene Oxide (PO) production,0,1,-1
+sector_of_activity,Propylene oxide production,1,0,1
+sector_of_activity,"Residential, commercial and industrial buildings",0,1,-1
+sector_of_activity,Schools,0,1,-1
+sector_of_activity,Small-Scale Plastic Industry,0,1,-1
+sector_of_activity,Telco,1,0,1
+sector_of_activity,Telco sector,0,1,-1
+sector_of_activity,Textile wet processing plants,0,1,-1
+sector_of_activity,University Campuses,0,1,-1
+sector_of_activity,a building material manufacturing industry end-user and a metal processing industry end-user,0,1,-1
+sector_of_activity,abrasive product manufacturing,0,1,-1
+sector_of_activity,abrasives industry,1,0,1
+sector_of_activity,academic institutions,1,0,1
+sector_of_activity,academic sector,0,1,-1
+sector_of_activity,additive manufacturing,1,1,0
+sector_of_activity,administrative offices building,0,1,-1
+sector_of_activity,agro-food sector,1,1,0
+sector_of_activity,airport,2,2,0
+sector_of_activity,airport terminal building,1,1,0
+sector_of_activity,airport terminal buildings,1,1,0
+sector_of_activity,airport terminals,1,1,0
+sector_of_activity,airports,1,1,0
+sector_of_activity,aluminium injection processes,1,1,0
+sector_of_activity,aluminium parts in the automotive industry,1,0,1
+sector_of_activity,aluminum alloy die-casting manufacturing,1,1,0
+sector_of_activity,aluminum industry,1,1,0
+sector_of_activity,ammonia production,1,1,0
+sector_of_activity,"an acute hospital (with ageing facilities), a new hospital, and a new university",0,1,-1
+sector_of_activity,automation industry,0,1,-1
+sector_of_activity,automobile assembly,1,0,1
+sector_of_activity,"automobile assembly, wet corn refining, and cement manufacturing",1,1,0
+sector_of_activity,automobile manufacturing,1,0,1
+sector_of_activity,automobile manufacturing industry,0,2,-2
+sector_of_activity,automotive body shop,0,1,-1
+sector_of_activity,automotive industry,1,1,0
+sector_of_activity,"automotive industry plants, textile manufacturing factories, aluminium profiles manufacturing plants and chemical products factories",0,1,-1
+sector_of_activity,"automotive industry, textile manufacturing, aluminium profile manufacturing, chemical products manufacturing",1,0,1
+sector_of_activity,automotive manufacturing sector,0,1,-1
+sector_of_activity,automotive sector,1,1,0
+sector_of_activity,automotive—aluminium component industry,0,1,-1
+sector_of_activity,bakery,1,0,1
+sector_of_activity,balanced animal feed manufacturing,1,1,0
+sector_of_activity,battery factory,0,1,-1
+sector_of_activity,battery manufacturing,1,1,0
+sector_of_activity,battery plant,0,1,-1
+sector_of_activity,biomedical device manufacturing,1,1,0
+sector_of_activity,biscuit manufacturing,1,0,1
+sector_of_activity,biscuit manufacturing facility,0,1,-1
+sector_of_activity,boiler house of a district heating system,0,1,-1
+sector_of_activity,"both in the tertiary sector (i.e., office buildings) and in the industrial sector (i.e., industrial production NACE codes)",0,1,-1
+sector_of_activity,breweries and motor vehicle assembly,0,1,-1
+sector_of_activity,brick industry,1,1,0
+sector_of_activity,brick manufacturing,1,0,1
+sector_of_activity,brick manufacturing industry,0,1,-1
+sector_of_activity,building industry,1,1,0
+sector_of_activity,building integration,0,1,-1
+sector_of_activity,building material manufacturing (cement) industry end-user and metal processing (aluminium) industry end-user,1,0,1
+sector_of_activity,building materials industry; electronics industry,0,1,-1
+sector_of_activity,building sector,1,1,0
+sector_of_activity,building services,0,1,-1
+sector_of_activity,buildings,5,2,3
+sector_of_activity,business building,1,1,0
+sector_of_activity,can manufacturing,1,1,0
+sector_of_activity,car store,1,1,0
+sector_of_activity,carbon fibre components for avionic industry; small plastic components through injection moulding,1,0,1
+sector_of_activity,carpet manufacturing,0,1,-1
+sector_of_activity,casting of non-ferrous metals,1,1,0
+sector_of_activity,cement and lime,0,1,-1
+sector_of_activity,cement industry,5,1,4
+sector_of_activity,cement manufacturing,2,0,2
+sector_of_activity,cement manufacturing industry,0,1,-1
+sector_of_activity,cement plant,0,1,-1
+sector_of_activity,cement production industry,0,1,-1
+sector_of_activity,central sterile service departments,0,1,-1
+sector_of_activity,ceramic industry,0,1,-1
+sector_of_activity,ceramic manufacturing sector,1,0,1
+sector_of_activity,ceramic sanitary industries,0,1,-1
+sector_of_activity,ceramic sector,2,1,1
+sector_of_activity,ceramic tiles and bricks,0,1,-1
+sector_of_activity,chemical and pharmaceutical industries,1,0,1
+sector_of_activity,chemical and pharmaceutical industry,1,0,1
+sector_of_activity,chemical and process industries,0,1,-1
+sector_of_activity,chemical complex for production of phosphoric acid and fertilizers,0,1,-1
+sector_of_activity,chemical enterprises,1,1,0
+sector_of_activity,chemical industry,0,1,-1
+sector_of_activity,"chemical, oil refinery and petrochemicals, iron and steel, paper and pulp",0,1,-1
+sector_of_activity,"chemical, power generation equipment manufacturing, automotive assembly, and food processing",1,1,0
+sector_of_activity,chicken slaughterhouse industry,1,1,0
+sector_of_activity,coffee processing plants,1,0,1
+sector_of_activity,commercial building,1,0,1
+sector_of_activity,commercial buildings,1,3,-2
+sector_of_activity,commercial maritime industry sector,0,1,-1
+sector_of_activity,commercial sector,0,1,-1
+sector_of_activity,commercial sector of hotel industry,1,1,0
+sector_of_activity,consumer goods,2,2,0
+sector_of_activity,container glass and tableware glass,1,0,1
+sector_of_activity,container glass and tableware glass manufacture industry,0,1,-1
+sector_of_activity,container port,0,1,-1
+sector_of_activity,container terminal,1,0,1
+sector_of_activity,corn refining,1,1,0
+sector_of_activity,data center,1,0,1
+sector_of_activity,deep-level gold mining,1,0,1
+sector_of_activity,designated factories and buildings,1,1,0
+sector_of_activity,discrete manufacturing,1,1,0
+sector_of_activity,district heating system,1,0,1
+sector_of_activity,domestic gas processing plant,0,1,-1
+sector_of_activity,drilling contractor,1,1,0
+sector_of_activity,drilling industry,1,1,0
+sector_of_activity,drinking water,0,1,-1
+sector_of_activity,drinking water utility,1,0,1
+sector_of_activity,dry paper production plant,1,0,1
+sector_of_activity,education sub-sector of services,1,0,1
+sector_of_activity,education subsector,0,1,-1
+sector_of_activity,educational building,3,3,0
+sector_of_activity,educational institution,0,1,-1
+sector_of_activity,educational institutions,1,2,-1
+sector_of_activity,electricity distribution network,1,0,1
+sector_of_activity,electronic parts and components,1,1,0
+sector_of_activity,energy industry,1,1,0
+sector_of_activity,energy sector,0,1,-1
+sector_of_activity,engineering industry,1,1,0
+sector_of_activity,facilities sector,0,1,-1
+sector_of_activity,factory automation,1,0,1
+sector_of_activity,factory manufacturing chisels and drills,0,1,-1
+sector_of_activity,"family compensation services, health services in a municipal hospital and a local clinic, a pharmaceutical laboratory, port operations, and glass production",0,1,-1
+sector_of_activity,fertilizer company,1,0,1
+sector_of_activity,food and beverage industry,1,1,0
+sector_of_activity,food industry,2,2,0
+sector_of_activity,food production facilities,0,1,-1
+sector_of_activity,forest products industry,1,0,1
+sector_of_activity,forest products sector,0,1,-1
+sector_of_activity,forging manufacturing,1,0,1
+sector_of_activity,foundry industry,1,0,1
+sector_of_activity,frozen seafood industry,1,1,0
+sector_of_activity,fuel terminal,0,1,-1
+sector_of_activity,fuels terminal,1,0,1
+sector_of_activity,fundición y mecanizado de piezas para maquinaria industrial,0,1,-1
+sector_of_activity,gas processing plant,1,0,1
+sector_of_activity,gas refinery,1,1,0
+sector_of_activity,glove manufacturing,1,0,1
+sector_of_activity,gold mining industry,0,2,-2
+sector_of_activity,goods and services companies,0,1,-1
+sector_of_activity,government buildings,1,1,0
+sector_of_activity,government facilities,1,0,1
+sector_of_activity,harbour operations,1,1,0
+sector_of_activity,health care buildings,1,0,1
+sector_of_activity,healthcare buildings,1,0,1
+sector_of_activity,healthcare industry,0,1,-1
+sector_of_activity,higher education buildings,1,0,1
+sector_of_activity,higher education institute,0,1,-1
+sector_of_activity,higher education institution,1,1,0
+sector_of_activity,higher education institution buildings,1,0,1
+sector_of_activity,higher education institutions,1,0,1
+sector_of_activity,higher education institutions (HEIs) and non-residential buildings,0,1,-1
+sector_of_activity,home appliances,1,0,1
+sector_of_activity,hospital,1,1,0
+sector_of_activity,hospital buildings,1,3,-2
+sector_of_activity,hospitals,3,2,1
+sector_of_activity,hotel facilities,0,1,-1
+sector_of_activity,hotel sector,2,1,1
+sector_of_activity,hotels,1,1,0
+sector_of_activity,ice-cream production,1,1,0
+sector_of_activity,industria de producción de cemento por vía húmeda,0,1,-1
+sector_of_activity,industrial End-Users,0,1,-1
+sector_of_activity,industrial and commercial buildings sectors,0,1,-1
+sector_of_activity,industrial and commercial facilities,0,1,-1
+sector_of_activity,industrial company,1,1,0
+sector_of_activity,industrial cooling plants,1,0,1
+sector_of_activity,industrial cooling system,0,1,-1
+sector_of_activity,industrial cooling tower pumping systems,0,1,-1
+sector_of_activity,industrial facilities from different sectors,0,1,-1
+sector_of_activity,industrial flour mills,1,1,0
+sector_of_activity,industrial gases,0,1,-1
+sector_of_activity,industrial gases production,1,0,1
+sector_of_activity,industrial laundry,1,0,1
+sector_of_activity,industrial manufacturing,1,0,1
+sector_of_activity,industrial sector,2,2,0
+sector_of_activity,industrial waste heat,0,1,-1
+sector_of_activity,industry,1,1,0
+sector_of_activity,industry and the service sector,1,0,1
+sector_of_activity,"industry sector and the remaining in the residential, commercial and  transportation sectors",0,1,-1
+sector_of_activity,integrated steel,1,1,0
+sector_of_activity,intermediate Colombian municipalities,0,1,-1
+sector_of_activity,international packaging company producing plastic bottles,0,1,-1
+sector_of_activity,intralogistics,0,1,-1
+sector_of_activity,iron ore mining,1,0,1
+sector_of_activity,iron ore mining sector,0,1,-1
+sector_of_activity,kraft pulp mills,0,1,-1
+sector_of_activity,lavandería industrial,0,1,-1
+sector_of_activity,lead-acid battery (LAB) manufacturing,1,1,0
+sector_of_activity,lead-acid battery manufacturing,2,0,2
+sector_of_activity,life sciences industry,1,1,0
+sector_of_activity,lime industry,1,0,1
+sector_of_activity,lime production industry,0,1,-1
+sector_of_activity,machine tools,1,0,1
+sector_of_activity,"manufacture of basic metals, chemical products, pharmaceutical products, metal products, motor vehicles, plastics products, textiles, food products, paper",0,1,-1
+sector_of_activity,manufacturing,10,7,3
+sector_of_activity,manufacturing and industry 4.0,1,1,0
+sector_of_activity,manufacturing and process industries,1,1,0
+sector_of_activity,manufacturing chisels and drills,1,0,1
+sector_of_activity,manufacturing companies,0,3,-3
+sector_of_activity,manufacturing company,0,1,-1
+sector_of_activity,manufacturing facilities,0,1,-1
+sector_of_activity,manufacturing facility,1,1,0
+sector_of_activity,manufacturing industry,3,2,1
+sector_of_activity,manufacturing industry sector,1,1,0
+sector_of_activity,manufacturing industry sectors,0,1,-1
+sector_of_activity,"manufacturing industry, the food industry, or health care",0,1,-1
+sector_of_activity,manufacturing industry; tertiary sector,0,1,-1
+sector_of_activity,manufacturing plant,0,1,-1
+sector_of_activity,manufacturing plants,0,1,-1
+sector_of_activity,manufacturing sector,1,2,-1
+sector_of_activity,manufacturing sector companies,0,1,-1
+sector_of_activity,"manufacturing, services and construction industries",0,1,-1
+sector_of_activity,marine transport,1,1,0
+sector_of_activity,maritime industry,1,1,0
+sector_of_activity,maritime transport,1,1,0
+sector_of_activity,mechanical engineering,1,0,1
+sector_of_activity,mechanical engineering sector,0,1,-1
+sector_of_activity,medical devices,1,0,1
+sector_of_activity,medium size bakery,0,1,-1
+sector_of_activity,metal-working industry,1,0,1
+sector_of_activity,metallurgical plants,1,0,1
+sector_of_activity,metalworking industry,2,2,0
+sector_of_activity,metalworking sector,1,1,0
+sector_of_activity,mine,1,1,0
+sector_of_activity,mining,1,0,1
+sector_of_activity,mining enterprises,0,1,-1
+sector_of_activity,mining industry,1,3,-2
+sector_of_activity,motor vehicle assembly,1,1,0
+sector_of_activity,municipal schools and sport facilities,0,1,-1
+sector_of_activity,municipal wastewater treatment,0,1,-1
+sector_of_activity,municipal water and wastewater services,1,0,1
+sector_of_activity,municipalities,2,2,0
+sector_of_activity,municipality,2,0,2
+sector_of_activity,naphtha reforming plant,0,1,-1
+sector_of_activity,"natural stone production, retail clothing, design and consultancy services for buildings, electricity and natural gas supply, and food retail",1,1,0
+sector_of_activity,net zero energy buildings,1,0,1
+sector_of_activity,nine industrial sectors,1,0,1
+sector_of_activity,non-metallic mineral sector,1,0,1
+sector_of_activity,non-residential buildings,1,0,1
+sector_of_activity,nonresidential buildings,1,1,0
+sector_of_activity,office,0,2,-2
+sector_of_activity,office area,1,0,1
+sector_of_activity,office building,3,3,0
+sector_of_activity,office buildings,1,0,1
+sector_of_activity,ofﬁce area,0,1,-1
+sector_of_activity,oil,0,1,-1
+sector_of_activity,oil and gas,3,2,1
+sector_of_activity,oil and gas industry,1,1,0
+sector_of_activity,oil companies,1,0,1
+sector_of_activity,oil company,0,1,-1
+sector_of_activity,oil production,2,0,2
+sector_of_activity,oil refinery,2,1,1
+sector_of_activity,oil treatment facilities,1,1,0
+sector_of_activity,oil-production enterprises,0,1,-1
+sector_of_activity,opencast mining enterprises,1,0,1
+sector_of_activity,packaging and testing,1,0,1
+sector_of_activity,packaging and testing factory,0,1,-1
+sector_of_activity,"packaging company producing plastic bottles (HDPE, extrusion blow moulding process)",1,0,1
+sector_of_activity,paper manufacturing,0,1,-1
+sector_of_activity,parts manufacturing,0,1,-1
+sector_of_activity,petrochemical,1,0,1
+sector_of_activity,petrochemical enterprise,1,1,0
+sector_of_activity,petrochemical plant,1,2,-1
+sector_of_activity,petrochemical production site,1,1,0
+sector_of_activity,petroleum industry,1,1,0
+sector_of_activity,pharmaceutical,1,0,1
+sector_of_activity,pharmaceutical industrial company,0,1,-1
+sector_of_activity,pharmaceutical industry,1,0,1
+sector_of_activity,pharmaceutical manufacturing,2,2,0
+sector_of_activity,pharmaceutical sector,0,1,-1
+sector_of_activity,pipeline construction industry,1,1,0
+sector_of_activity,plastic injection,1,1,0
+sector_of_activity,plastic injection molding plant,1,0,1
+sector_of_activity,plastic injection plant,0,1,-1
+sector_of_activity,plastic manufacturing process,0,1,-1
+sector_of_activity,plastics industry,1,0,1
+sector_of_activity,port sector,0,1,-1
+sector_of_activity,power generation sector,0,1,-1
+sector_of_activity,precision engineering,1,1,0
+sector_of_activity,primary aluminium industry,0,1,-1
+sector_of_activity,private healthcare sector,1,0,1
+sector_of_activity,processing green coffee for export,0,1,-1
+sector_of_activity,production machines,0,1,-1
+sector_of_activity,production of carbon fibre components for avionic industry; production of small plastic components through injection moulding,0,1,-1
+sector_of_activity,production of motor vehicles,1,1,0
+sector_of_activity,production of oil and gas,0,1,-1
+sector_of_activity,professional soccer stadium,0,1,-1
+sector_of_activity,public and commercial buildings,0,1,-1
+sector_of_activity,public building,3,3,0
+sector_of_activity,public buildings,0,1,-1
+sector_of_activity,public hospital,1,1,0
+sector_of_activity,public institutions,0,1,-1
+sector_of_activity,public organizations,1,1,0
+sector_of_activity,public residential care home,1,0,1
+sector_of_activity,pulp and paper industry,2,1,1
+sector_of_activity,"pulp and paper, basic metals and petrochemicals industries",0,1,-1
+sector_of_activity,refining,1,0,1
+sector_of_activity,renewable energy buildings,0,1,-1
+sector_of_activity,renewable energy systems,1,1,0
+sector_of_activity,residential and public,0,1,-1
+sector_of_activity,residential sector,0,1,-1
+sector_of_activity,rubber manufacturing industry,1,1,0
+sector_of_activity,sanitary ceramics,1,0,1
+sector_of_activity,schools and sport facilities,1,0,1
+sector_of_activity,scientific computing,0,1,-1
+sector_of_activity,seafood processing industry,1,1,0
+sector_of_activity,seafood processing plant,1,1,0
+sector_of_activity,services sector,1,1,0
+sector_of_activity,sewage treatment plant,1,0,1
+sector_of_activity,shipping industry,1,0,1
+sector_of_activity,small-scale plastic industry,1,0,1
+sector_of_activity,smart building,0,1,-1
+sector_of_activity,soap plant,1,0,1
+sector_of_activity,soccer stadium,1,0,1
+sector_of_activity,sports centers,1,1,0
+sector_of_activity,sports facilities,0,1,-1
+sector_of_activity,stainless steel manufacturer,1,0,1
+sector_of_activity,stainless steel production,0,1,-1
+sector_of_activity,steel industry,3,2,1
+sector_of_activity,steel manufacturing industry,0,1,-1
+sector_of_activity,steelmaking,0,1,-1
+sector_of_activity,sugar cane mill,0,1,-1
+sector_of_activity,sugar factory,0,1,-1
+sector_of_activity,sugar industry,1,0,1
+sector_of_activity,sugar mill,1,0,1
+sector_of_activity,sulfuric acid production,1,0,1
+sector_of_activity,swimming facilities,1,1,0
+sector_of_activity,telecommunication,1,1,0
+sector_of_activity,telecommunication industry,1,1,0
+sector_of_activity,telecommunications sector,1,1,0
+sector_of_activity,"tertiary activities (commerce, public services, hotels, restaurants, banks, transport)",1,0,1
+sector_of_activity,tertiary buildings,0,1,-1
+sector_of_activity,tertiary sector,0,1,-1
+sector_of_activity,"tertiary sector (i.e., office buildings) and in the industrial sector (i.e., industrial production NACE codes)",1,0,1
+sector_of_activity,textile,1,0,1
+sector_of_activity,textile industry,1,1,0
+sector_of_activity,textile unit,0,1,-1
+sector_of_activity,textile wet processing plants,1,0,1
+sector_of_activity,thermal power generation,1,0,1
+sector_of_activity,thermal power plants,0,1,-1
+sector_of_activity,thermal power production,1,0,1
+sector_of_activity,tire industry,1,0,1
+sector_of_activity,tire manufacturing,1,1,0
+sector_of_activity,tire manufacturing industry,0,1,-1
+sector_of_activity,university building,0,1,-1
+sector_of_activity,university buildings,2,1,1
+sector_of_activity,university campus,1,1,0
+sector_of_activity,university classroom building,1,1,0
+sector_of_activity,university hospitals,1,0,1
+sector_of_activity,urban water distribution networks,0,1,-1
+sector_of_activity,various industries,0,1,-1
+sector_of_activity,vegetable oils and fats production process,1,1,0
+sector_of_activity,viticulture and enology sector,1,0,1
+sector_of_activity,wastewater treatment,2,2,0
+sector_of_activity,wastewater treatment plants,2,2,0
+sector_of_activity,water and wastewater,1,0,1
+sector_of_activity,water and wastewater utilities,0,1,-1
+sector_of_activity,water distribution networks,1,0,1
+sector_of_activity,water industry,0,1,-1
+sector_of_activity,water supply,1,1,0
+sector_of_activity,water supply and wastewater collection systems,0,1,-1
+sector_of_activity,water treatment,1,0,1
+sector_of_activity,water treatment plant,1,1,0
+sector_of_activity,water/wastewater utility,0,1,-1
+sector_of_activity,wheat processing sector,1,1,0
+sector_of_activity,wine industry,0,2,-2
+sector_of_activity,wine sector,1,0,1
+sector_of_activity,wine-producing company,0,1,-1
+sector_of_activity,winemaking sector,1,0,1
+type_of_organisation,unresolved / not extracted,46,5,41
+type_of_organisation,buildings,64,72,-8
+type_of_organisation,continuous process,78,67,11
+type_of_organisation,discrete manufacturing,78,88,-10
+type_of_organisation,mixed,25,37,-12
+type_of_organisation,not specified,20,28,-8
+type_of_organisation,services,20,34,-14
+ems_standard,ISO 50001,201,232,-31
+ems_standard,ISO 50002,8,9,-1
+ems_standard,ISO 50006,54,59,-5
+ems_standard,unresolved / not extracted,46,5,41
+ems_standard,none,74,81,-7
+ems_standard,other-named,41,42,-1
+mv_protocol,ASHRAE 14,12,11,1
+mv_protocol,BPA MT&R,1,1,0
+mv_protocol,IPMVP,16,16,0
+mv_protocol,ISO 17743,1,3,-2
+mv_protocol,unresolved / not extracted,46,5,41
+mv_protocol,SEP M&V,7,9,-2
+mv_protocol,none,257,294,-37
+mv_protocol,other-named,9,7,2
+regulatory_driver,EU EED,11,12,-1
+regulatory_driver,EU-ETS,4,2,2
+regulatory_driver,unresolved / not extracted,46,5,41
+regulatory_driver,national audit decree,13,16,-3
+regulatory_driver,none,253,282,-29
+regulatory_driver,other-named,13,24,-11
+regulatory_driver,regional regulation,0,1,-1
+enpi_enb_model_types,ML,31,38,-7
+enpi_enb_model_types,unresolved / not extracted,46,5,41
+enpi_enb_model_types,SEC mean,67,25,42
+enpi_enb_model_types,change-point or SPC,35,38,-3
+enpi_enb_model_types,composite index,3,8,-5
+enpi_enb_model_types,linear regression,82,73,9
+enpi_enb_model_types,multiple regression,75,68,7
+enpi_enb_model_types,not applicable,2,0,2
+enpi_enb_model_types,other,29,75,-46
+enpi_enb_model_types,physical model,43,53,-10
+enpi_enb_model_types,process integration,2,4,-2
+enpi_enb_model_types,simple intensity ratio,128,163,-35
+complementary_methodologies,ML ensemble,1,4,-3
+complementary_methodologies,unresolved / not extracted,46,5,41
+complementary_methodologies,exergy analysis,1,1,0
+complementary_methodologies,multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy),18,16,2
+complementary_methodologies,none,257,294,-37
+complementary_methodologies,pinch analysis,4,3,1
+complementary_methodologies,process flowsheet simulation,4,7,-3
+complementary_methodologies,thermodynamic modelling,1,3,-2

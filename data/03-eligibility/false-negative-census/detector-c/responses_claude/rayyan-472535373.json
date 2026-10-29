@@ -1,0 +1,34 @@
+{
+  "key": "rayyan-472535373",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference cites energy efficiency in the cement industry (appears only in the bibliography, not the paper's own case study)",
+      "quote": "Review of measures for energy efficiency and sustainability in the cement industry worldwide.",
+      "page": 5,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference cites glass production carbon footprint (bibliography only, not the paper's application context)",
+      "quote": "Carbon footprint estimation in glass production in Cuba.",
+      "page": 5,
+      "sector": "glass (continuous melting, float lines)"
+    },
+    {
+      "signal": "Reference cites the pulp and paper industry (bibliography only, not the paper's application context)",
+      "quote": "Energy transition for the low-carbon pulp and paper industry in China.",
+      "page": 6,
+      "sector": "pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Reference to ISO 50001 energy metering in flour mill plants (continuous grain milling, bibliography only)",
+      "quote": "Energy metering optimization in flour mill plants for ISO \n50001 implementation.",
+      "page": 5,
+      "sector": "flour milling"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically demonstrates ISO 50001 energy-management implementation (transformer/SCADA power-quality audits, energy KPIs, CO2 footprint) at an unspecified generic industrial facility; the only ties to continuous-flow sectors (cement, glass, pulp & paper, flour milling) appear solely as bibliographic references, not as the study's application context."
+}

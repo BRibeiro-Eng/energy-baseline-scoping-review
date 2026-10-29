@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536534",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T18:21:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "An approved energy performance indicator (EnPI) methodology was integrated in the libraries of AML in order to simplify and shorten the modeling procedure for the optimization task.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Tool/modeling-language design. The paper's own contribution is integrating an externally developed EnPI methodology (Grabowski et al. [4]) as semantic role categories into AutomationML libraries plus a parser-driven optimization workflow (EnEffIPK [6]), demonstrated on an industrial cooling system. It does not present or characterise an EnPI/EnB measurement model itself (no baseline, no normalisation relationship, no functional form, no construction/estimation approach given in-paper), so it falls under the tool/software-without-measurement-model exclusion. BORDERLINE: a reviewer could instead call it eligible-but-empty; routed for human adjudication.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "An extension of the established standard allows for intuitive modeling of energy optimization problems.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: AML modeling-language extension integrating a borrowed EnPI methodology; no in-paper EnPI/EnB model characterised. Case sector = industrial cooling/refrigeration (NOT in closed 3B list), so not Corpus B under any reading."
+  },
+  "stage2": null,
+  "stage3": null
+}

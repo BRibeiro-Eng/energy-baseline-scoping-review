@@ -1,0 +1,16 @@
+{
+ "key": "rayyan-472535377",
+ "tier": "A",
+ "ts": "2026-09-10T18:55:31",
+ "detectors": [
+  "lexicon"
+ ],
+ "terms": [
+  "pulp and paper"
+ ],
+ "source": "serve_triage",
+ "dwell_seconds": 13.7,
+ "sample_mode": true,
+ "verdict": "not_fn",
+ "reason": "nao continuo"
+}

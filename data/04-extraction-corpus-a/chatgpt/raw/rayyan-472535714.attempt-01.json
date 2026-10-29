@@ -1,0 +1,117 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535714",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-28T13:03:28Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "there is an obvious relationship between the external environment, internal operations, energy consumption and the territory in which the facility is located and it is these specifications, that must take in account of energy management in the design and process optimization in the management of major energy sources under the control of local government.",
+        "Based on the presented there is need in terms of energy management to define a reference level as known as a condition, that takes into account all the specifications of the above and suggests a level of such data, which will be assessed against the newly acquired data from devices in the respective organizations administered by the observed local government."
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.78
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The monitored local territory has area 8,974 km2, in which are 126 schools and school facilities, 27 social facilities and 28 cultural facilities, including facilities providing service and maintenance of road infrastructure.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "This contribution also focuses on the analysis of the management method of public institutions, where we take into account their impact on the environment.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Conceptual EnB proposal: a reference level incorporating environmental, operational and territorial specifications; no fitted functional form or validation."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": true,
+      "evidence_quote": "The monitored local territory has area 8,974 km2, in which are 126 schools and school facilities, 27 social facilities and 28 cultural facilities, including facilities providing service and maintenance of road infrastructure.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "public institutions",
+      "evidence_quote": "This contribution also focuses on the analysis of the management method of public institutions, where we take into account their impact on the environment.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "buildings",
+      "evidence_quote": "By implementing energy management at the level of management structures it is expected to reduce energy costs in buildings and property, which are financed by public sources.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "At the end of the paper, there is proposed management process according to ISO 50001 connected with the dynamic activities and systems that are affected specifically by the environment and focus of the management groups.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 1.0
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.92
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "other"
+      ],
+      "evidence_quote": "Based on the presented there is need in terms of energy management to define a reference level as known as a condition, that takes into account all the specifications of the above and suggests a level of such data, which will be assessed against the newly acquired data from devices in the respective organizations administered by the observed local government.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

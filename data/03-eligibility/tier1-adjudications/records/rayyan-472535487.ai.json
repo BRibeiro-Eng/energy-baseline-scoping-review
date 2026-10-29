@@ -1,0 +1,48 @@
+{
+  "models": {
+    "chatgpt": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": true,
+        "paper_type": "maturity model or framework"
+      },
+      "key": "rayyan-472535487",
+      "level_a": {
+        "complementary_methodologies": [
+          "none"
+        ],
+        "country_region": "Shenzhen City",
+        "ems_standard": [
+          "ISO 50001",
+          "ISO 50006",
+          "other-named"
+        ],
+        "enpi_enb_model_types": [
+          "other"
+        ],
+        "multi_site": false,
+        "mv_protocol": [
+          "none"
+        ],
+        "regulatory_driver": [
+          "regional regulation"
+        ],
+        "sector_of_activity": "building materials industry; electronics industry",
+        "type_of_organisation": "mixed"
+      },
+      "level_b": {}
+    },
+    "claude": {
+      "eligibility": {
+        "borderline_review_synthesis_eligibility": false,
+        "level_3b": false,
+        "methodological_eligibility": false,
+        "paper_type": "maturity model or framework"
+      },
+      "key": "rayyan-472535487",
+      "level_a": {},
+      "level_b": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536351",
+  "listed_sector_signals": [
+    {
+      "signal": "Steel, cement, and pulp & paper named as reference industries where energy-consumption-per-production indicators are used, offered as comparators for the mining sector (mentioned only, no application here)",
+      "quote": "such as via the analysis of energy \nperformance using specific consumption indicators that \ncorrelate energy consumption and production data, as seen \nin industries such as steel, cement, paper, and pulp [14].",
+      "page": 2,
+      "sector": "steel / cement / pulp & paper"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Iron ore pelletizing described as an energy-intensive thermal process (combustion-based pellet formation plus comminution, pumping, ventilation); the paper's data are aggregated with, but explicitly disaggregated from, this pelletizing sector",
+      "quote": "The pelletization process requires a significant \namount of energy, both thermal—related to the combustion \nprocesses necessary for the physical–chemical formation of \npellets—and electrical—used in comminution, pumping, \nand ventilation processes [39].",
+      "page": 8,
+      "sector": "iron ore pelletizing (continuous thermal agglomeration)"
+    },
+    {
+      "signal": "Agglomeration processes (sintering and pelletization) referenced for iron ore fines destined for blast furnaces",
+      "quote": "The latter two products, when used in blast furnaces, \nrequire agglomeration processes known as sintering and pel-\nletization [10].",
+      "page": 4,
+      "sector": "sintering/pelletizing (feed to continuous ironmaking)"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically analyzes energy consumption and energy-performance indicators of Brazil's iron ore mining and beneficiation sector (2011–2020), an extractive/open-pit mining context that is out of Corpus B scope, and only references steel/cement/pulp-paper and the pelletizing sector in passing."
+}

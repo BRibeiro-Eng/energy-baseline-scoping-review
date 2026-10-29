@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535603",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:42:07Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The first indicator introduced to evaluate ESP energetic performance was the ratio between production and energy consumption, i.e. barrels of fluid per day per horse power (hp) consumed",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "in the operation of Blocks 16 & 67 of Ecuador allowed to develop a specific procedure to assess the efficiency of ESPs",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "notes": "Upstream oil extraction / ESP artificial lift (Blocks 16 & 67, Ecuador): continuous-flow but not a listed v2.3 continuous-process sector (not refining). level_3b=false; flagged for human decision per unlisted-sector rule."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "Actual production of the field is 764,000 BFPD",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "country_region": {
+      "value": "Ecuador (Oriente Basin, Blocks 16 & 67)",
+      "evidence_quote": "Blocks 16 & 67 are located in the Oriente Basin and form part of the Yasuní ethnic and ecological reserve of the Amazonian rainforest in Ecuador",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "oil production",
+      "evidence_quote": "optimize oil production at high water cut",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": [
+        "119 oil producers",
+        "the stability in the production of fluid"
+      ],
+      "page": [
+        2,
+        13
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001"
+      ],
+      "evidence_quote": "considering the methodology of the ISO 50001 standard",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio",
+        "physical model"
+      ],
+      "evidence_quote": [
+        "the ratio between production and energy consumption, i.e. barrels of fluid per day per horse power (hp) consumed",
+        "The hydraulic power of a pump - piping system is determined by the fluid flow rate from the dynamic liquid level to surface"
+      ],
+      "page": [
+        3,
+        7
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.65
+    },
+    "complementary_methodologies": {
+      "value": [
+        "multi-criteria decision-making (MCDM/AHP/TOPSIS/Fuzzy)"
+      ],
+      "evidence_quote": "Each indicator has its own weigh and the result of their multiplication gives the significance of the ESP system",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    }
+  },
+  "stage3": null
+}

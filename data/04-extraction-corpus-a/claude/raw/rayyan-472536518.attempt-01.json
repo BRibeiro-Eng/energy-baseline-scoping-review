@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536518",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T12:56:18.118355+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "KPIs are a useful resource to evaluate the technical and economic quality of the projects in the database.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Cross-sector EU-MERCI survey: defines techno-economic KPIs to select energy-efficiency 'Good Practices' and describes a database/online platform. No EnPI/EnB measurement model is identified or characterised (no variables, functional form, or construction/estimation approach given); energy-performance indicators appear only as named ranking KPIs - incidental mention in a tool/database paper.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "it has been decided to build an online platform that is publicly accessible.",
+      "page": 10,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "notes": "Borderline eligibility: KPIs (energy intensity reduction, energy consumption improvement) are EnPI-adjacent but not characterised as a model. level_3b independently false: broad cross-sector survey (food, pulp&paper, coke/petroleum, chemicals, glass/ceramic/cement, iron&steel, machinery); closed-list sectors only as examples. paper_type alt: methodological/theoretical."
+  },
+  "stage2": null,
+  "stage3": null
+}

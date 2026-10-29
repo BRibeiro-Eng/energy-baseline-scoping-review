@@ -1,0 +1,339 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536226",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-12T17:04:00.664638+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The ML model was able to predict energy consumption by developing equations that relate the energy consumption and the operating variables for each significant energy user in the ammonia plant",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "multi-case study",
+      "evidence_quote": "four actual ammonia production plants from different locations",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "level_3b": {
+      "value": true,
+      "evidence_quote": "The derived ML models were applied to actual ammonia production plants at different locations and on different dates",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "notes": "Ammonia = continuous chemical production (closed 3B list); EnPI/EnB regression applied to 4 actual ammonia plants. paper_type borderline between multi-case and methodological."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.4
+    },
+    "country_region": {
+      "value": null,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "sector_of_activity": {
+      "value": "ammonia production",
+      "evidence_quote": "In 2021, the ammonia production industry occupied nearly 2 %",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "continuous process",
+      "evidence_quote": "Ammonia was produced from the steam reforming of natural gas through several stages",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": "The developed methodology accounted for the requirements of ISO 50001:2018, ISO 50006:2014, and ISO 50047:2016",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "multiple regression",
+        "SEC mean"
+      ],
+      "evidence_quote": [
+        "The multiple linear regression algorithm was used to model the relationship between the independent variables",
+        "Specific Energy Consumption (SEC) was used in this work to compare the energy performance of different plants"
+      ],
+      "page": [
+        3,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "complementary_methodologies": {
+      "value": [
+        "process flowsheet simulation"
+      ],
+      "evidence_quote": "An existing ammonia plant was simulated using Aspen Hysys software",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": {
+    "normalisation_variables": {
+      "value": [
+        "Process gas inlet flow (kg/hr)",
+        "Steam to Carbon (S/C) ratio",
+        "Primary reformer outlet temperature (C)",
+        "Primary reformer stack temperature (C)",
+        "O2 % in flue gas (dry)",
+        "HP Boiler Feed Water (BFW) temperature (C)",
+        "HP steam flow (kg/hr)",
+        "Blowdown flow (kg/hr)",
+        "Flue gas temperature (C)",
+        "HP Steam temperature (C)",
+        "HP Steam pressure (bar)",
+        "Synthesis gas flow (kg/hr)",
+        "Synthesis gas inlet pressure (bar)",
+        "Recycle synthesis gas inlet pressure (bar)",
+        "MP Steam temperature (C)",
+        "MP Steam pressure (bar)",
+        "Process air flow (kg/hr)",
+        "Amount of produced ammonia, U (tons) [SEC denominator]"
+      ],
+      "evidence_quote": "model the relationship between the independent variables; the operating variables and the dependent variables; energy consumption",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "baseline_period_start": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_period_end": {
+      "value": "not reported",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "baseline_construction_method": {
+      "value": "Expected energy consumption (EnB) equations were built per significant energy user by multiple linear regression (Python scikit-learn) using supervised learning. Training/testing data were generated by an Aspen Hysys process simulation of the plant, with operating variables sampled within safe-operating-envelope ranges via Monte Carlo (Excel NORM.INV); ~3876 rows per SEU split 80% training / 20% testing.",
+      "evidence_quote": "the ML models were developed by using Python programming language based on supervised learning",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "validation_types": {
+      "value": [
+        "empirical",
+        "simulation",
+        "statistical"
+      ],
+      "evidence_quote": [
+        "the real data obtained from four actual ammonia plants",
+        "Our simulation was tested and validated using actual data collected from four actual ammonia production plants",
+        "The used criteria for evaluation are: R squared (>75 %)"
+      ],
+      "page": [
+        4,
+        3,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "scale_of_application": {
+      "value": "facility",
+      "evidence_quote": "the energy performance of the entire ammonia plant and each significant energy user (SEU) section",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "scope_description": {
+      "value": "The four significant energy users (SEUs) of the ammonia production plant: the reforming section, the package boiler section, the synthesis gas compressor section, and the air compressor section.",
+      "evidence_quote": "Aspen Hysys V12 was used to simulate the four SEUs in the ammonia production plant; the reforming section, the package boiler section, the synthesis gas compressor section, and the air compressor section",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "identifies_model_limitations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "specific_limitations": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "proposes_treatment_mechanism": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "proposes_adaptations": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "adaptation_types": {
+      "value": [],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "normative_framing_of_adaptations": {
+      "value": "absent",
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "empirical_refinery_application": {
+      "value": false,
+      "evidence_quote": "not found in source",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "data_type": {
+      "value": "simulation",
+      "evidence_quote": "the simulated plant was used to produce large volumes of data to train and test our machine-learning model",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "model_parameters_reported": {
+      "value": [
+        "Reforming section, Fuel Gas (kg/hr) = -8054.2 + 0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5",
+        "Reforming section, Steam (kg/hr) = -79874.6 + 6.3*X1 + 24800.1*X2",
+        "Package boiler section, Fuel Gas (kg/hr) = 493 - 8.4*X1 + 0.06*X2 + 0.03*X3 + 2.6*X4 + 24.6*X5",
+        "Synthesis gas compressor section, HP Steam (kg/hr) = 603240.9 - 373.4*X1 - 2176.9*X2 + 3.9*X3 - 5584.7*X4 - 253.5*X5",
+        "Air compressor section, MP Steam (kg/hr) = 64415.7 - 184.3*X1 + 142.9*X2 + 0.83*X3"
+      ],
+      "evidence_quote": "0.4*X1 + 507.4*X2 + 10.1*X3 + 8.5*X4 + 54.9*X5",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "performance_metrics_reported": {
+      "value": [
+        {
+          "metric": "R²",
+          "value": "89.5%",
+          "unit": null,
+          "period_or_context": "Reforming section fuel gas equation",
+          "evidence_quote": "R Square = 89.5 %",
+          "page": 6,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "96.5%",
+          "unit": null,
+          "period_or_context": "Reforming section steam equation",
+          "evidence_quote": "R Square = 96.5 %",
+          "page": 6,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "96.3%",
+          "unit": null,
+          "period_or_context": "Package boiler section fuel gas equation",
+          "evidence_quote": "R Square = 96.3 %",
+          "page": 6,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "97.3%",
+          "unit": null,
+          "period_or_context": "Synthesis gas compressor section HP steam equation",
+          "evidence_quote": "R Square = 97.3 %",
+          "page": 6,
+          "non_contiguous_evidence": false
+        },
+        {
+          "metric": "R²",
+          "value": "95.3%",
+          "unit": null,
+          "period_or_context": "Air compressor section MP steam equation",
+          "evidence_quote": "R Square = 95.3 %",
+          "page": 6,
+          "non_contiguous_evidence": false
+        }
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "implementation_barriers": {
+      "value": [
+        "Lack of awareness, knowledge, and experience in the industry on how to implement energy-efficient processes",
+        "Energy efficiency is seldom an industrial priority (priorities set toward production objectives)"
+      ],
+      "evidence_quote": [
+        "there is a lack of awareness, knowledge, and experience in the industry on how to implement energy-efficient processes",
+        "energy efficiency is seldom one of these priorities"
+      ],
+      "page": [
+        1,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.55
+    }
+  }
+}

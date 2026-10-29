@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536388",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T10:54:18Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The system model consists of a standardized data exchange format, a standardization of structural and behavioral models in the form of a model library for industrial supply systems at different hierarchy levels, and a standardized interface for using the data model on a target platform such as an energy management software.",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "methodological/theoretical",
+      "evidence_quote": "In future work, we will address how the system model for energy monitoring can be implemented in practice.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Such systems are used, for example, for the cooling of cooling lubricant in manufacturing.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "notes": "Conceptual manufacturing supply-system model; no application in a closed-list continuous-process sector."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The process of model creation and use in an EMS is demonstrated using a cooling system in figure 2.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.82
+    },
+    "country_region": {
+      "value": "not applicable",
+      "evidence_quote": "In future work, we will address how the system model for energy monitoring can be implemented in practice.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "sector_of_activity": {
+      "value": "manufacturing",
+      "evidence_quote": "Such systems are used, for example, for the cooling of cooling lubricant in manufacturing.",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "not specified",
+      "evidence_quote": "In future work, we will address how the system model for energy monitoring can be implemented in practice.",
+      "page": 7,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50006"
+      ],
+      "evidence_quote": "The standard ISO 50006 [4] deﬁnes EnPIs as energy related key performance indicators (KPIs) describing the energy consumption, energy use and energy efﬁciency of a system, process and equipment.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "physical model",
+        "other"
+      ],
+      "evidence_quote": [
+        "EnPIs such as the hydraulic efﬁciency for pumps (∆pQ/Pel with p: Pressure, Q: Volumetric ﬂow, Pel: Electrical energy [21]) or the heat dissipated per electrical energy for dry cooling towers (Pth/Pel with: Pth: Thermal energy) are embedded in the models.",
+        "The concept comprises a standardized, manufacturer-independent, object-oriented and machine-readable data exchange format for structural data of supply technology and behavior models as well as a standardized interface for the use of the data exchange format in the target platform like a MES or EMS."
+      ],
+      "page": [
+        6,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.92
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    }
+  },
+  "stage3": null
+}

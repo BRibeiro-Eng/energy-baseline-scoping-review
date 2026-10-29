@@ -1,0 +1,28 @@
+{
+  "key": "rayyan-472536675",
+  "listed_sector_signals": [
+    {
+      "signal": "Reference to a parallel ENERGY STAR analysis applied to the cement industry (cement/clinker is a listed continuous sector), cited but not analyzed in this paper",
+      "quote": "A similar analysis, but for the cement industry, is detailed in Boyd and Zhang (2012)\nand Boyd et al. (2011).",
+      "page": 2,
+      "sector": "cement, lime, clinker"
+    },
+    {
+      "signal": "Reference to a voluntary-agreement case study with the steel industry (primary-metals continuous production is a listed sector), cited only in the bibliography",
+      "quote": "case study of a pilot project with the steel industry in Shandong Province,\nChina",
+      "page": 7,
+      "sector": "steel and other primary-metals continuous production"
+    }
+  ],
+  "other_continuous_flow_signals": [
+    {
+      "signal": "Corn refining (wet milling, a continuous chemical process) cited as the earlier example for the stochastic-frontier energy factor requirements method, not analyzed here",
+      "quote": "using the corn reﬁning industry as an example",
+      "page": 4,
+      "sector": "corn refining / continuous wet milling"
+    }
+  ],
+  "application_strength": "mentioned_only",
+  "conservative_classification": false,
+  "one_line": "The paper empirically estimates and compares stochastic-frontier energy-efficiency distributions for U.S. automobile assembly plants (discrete manufacturing), only referencing cement, steel, and corn refining in passing."
+}

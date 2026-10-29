@@ -1,0 +1,1406 @@
+{
+ "bibkey": {
+  "rayyan-472535797": "Ottermann2011",
+  "rayyan-472535787": "Gonzalez2012",
+  "rayyan-472535794": "Giacone2012",
+  "rayyan-472535762": "CastrillonMendoza2013",
+  "rayyan-472536693": "Sivill2013",
+  "rayyan-472536694": "Boyd2013",
+  "rayyan-472536695": "Velazquez2013",
+  "rayyan-472535748": "Tarasovskii2014",
+  "rayyan-472535680": "Yao2016",
+  "rayyan-472536644": "Boyd2016",
+  "rayyan-472535625": "Ikeyama2017",
+  "rayyan-472535649": "Ochoa2017",
+  "rayyan-472536606": "Boyd2017",
+  "rayyan-472536612": "Bonfa2017",
+  "rayyan-472535582": "Morales2018",
+  "rayyan-472535585": "Pelser2018",
+  "rayyan-472536588": "Alcantara2018",
+  "rayyan-472535550": "Hamedi2019",
+  "rayyan-472536532": "Beisheim2019",
+  "rayyan-472536551": "Hashim2019",
+  "rayyan-472535522": "EspinelBlanco2020",
+  "rayyan-472535524": "Beisheim2020",
+  "rayyan-472535532": "Mahesthi2020",
+  "rayyan-472536501": "Guo2020",
+  "rayyan-472536518": "Maggiore2020",
+  "rayyan-472535480": "Andersson2021",
+  "rayyan-472536455": "Bruni2021",
+  "rayyan-472536486": "Scripcariu2021",
+  "rayyan-472536487": "Luknongbu2021",
+  "rayyan-472536425": "Hashim2022",
+  "rayyan-472536428": "Cagman2022",
+  "rayyan-472536410": "LeAnh2023",
+  "rayyan-472535405": "Khalid2024a",
+  "rayyan-472536379": "Khalid2024b",
+  "rayyan-472536226": "ElMaghraby2024",
+  "rayyan-472535351": "Almanza2025",
+  "rayyan-472535365": "Moghadasi2025",
+  "rayyan-472535376": "Benmakhlouf2025",
+  "rayyan-472536358": "Bassetti2025"
+ },
+ "n_papers": 39,
+ "verificacao_estados": {
+  "confirmado": 234,
+  "corrigido": 111,
+  "mantido": 5,
+  "retirado": 18
+ },
+ "n_apps": 46,
+ "n_models": 140,
+ "composition": {
+  "petroleum refining": {
+   "apps": 5,
+   "papers": 5,
+   "close_apps": 5
+  },
+  "continuous chemical production": {
+   "apps": 2,
+   "papers": 2,
+   "close_apps": 0
+  },
+  "steel and primary metals": {
+   "apps": 10,
+   "papers": 7,
+   "close_apps": 0
+  },
+  "pulp & paper": {
+   "apps": 3,
+   "papers": 3,
+   "close_apps": 0
+  },
+  "petrochemicals": {
+   "apps": 7,
+   "papers": 7,
+   "close_apps": 7
+  },
+  "cement, lime, clinker": {
+   "apps": 10,
+   "papers": 9,
+   "close_apps": 0
+  },
+  "glass": {
+   "apps": 2,
+   "papers": 2,
+   "close_apps": 0
+  },
+  "industrial gases": {
+   "apps": 1,
+   "papers": 1,
+   "close_apps": 0
+  },
+  "multiple of the above": {
+   "apps": 6,
+   "papers": 6,
+   "close_apps": 2
+  }
+ },
+ "scale": {
+  "unit": 8,
+  "sub-system": 2,
+  "facility": 15,
+  "multi-site": 16,
+  "equipment": 2,
+  "organisation": 3
+ },
+ "context": {
+  "refinery — model empirically applied there": 7,
+  "no": 29,
+  "petrochemical — model empirically applied there": 7,
+  "refinery or petrochemical named but not an empirical application here": 3
+ },
+ "close_papers": [
+  "rayyan-472535351",
+  "rayyan-472535365",
+  "rayyan-472535524",
+  "rayyan-472535550",
+  "rayyan-472535582",
+  "rayyan-472535625",
+  "rayyan-472535649",
+  "rayyan-472535680",
+  "rayyan-472536425",
+  "rayyan-472536518",
+  "rayyan-472536532",
+  "rayyan-472536551",
+  "rayyan-472536695"
+ ],
+ "family": {
+  "intensity ratio": [
+   51,
+   19
+  ],
+  "linear regression": [
+   46,
+   19
+  ],
+  "mean SEC": [
+   10,
+   4
+  ],
+  "nonlinear regression": [
+   9,
+   5
+  ],
+  "other": [
+   5,
+   3
+  ],
+  "composite index": [
+   5,
+   5
+  ],
+  "energy balance": [
+   3,
+   2
+  ],
+  "artificial neural network": [
+   3,
+   1
+  ],
+  "control chart": [
+   3,
+   3
+  ],
+  "data envelopment analysis": [
+   3,
+   1
+  ],
+  "other machine learning": [
+   2,
+   1
+  ],
+  "tree ensemble": [
+   1,
+   1
+  ],
+  "hybrid physical-statistical": [
+   1,
+   1
+  ],
+  "stochastic frontier": [
+   1,
+   1
+  ]
+ },
+ "quantity": {
+  "energy efficiency ratio": 12,
+  "absolute energy": 48,
+  "other": 13,
+  "specific energy consumption": 61,
+  "CO2 or emissions": 2,
+  "energy cost": 3,
+  "not reported": 1
+ },
+ "var_type": {
+  "throughput": [
+   120,
+   35
+  ],
+  "operating mode": [
+   60,
+   9
+  ],
+  "other": [
+   54,
+   18
+  ],
+  "ambient conditions": [
+   27,
+   7
+  ],
+  "product mix": [
+   18,
+   7
+  ],
+  "equipment configuration": [
+   11,
+   5
+  ],
+  "capacity utilisation": [
+   9,
+   6
+  ],
+  "feed quality": [
+   4,
+   4
+  ],
+  "calendar": [
+   1,
+   1
+  ]
+ },
+ "models_only_throughput": 78,
+ "effects": {
+  "indicator not meaningful as defined": {
+   "all": [
+    24,
+    18
+   ],
+   "general": [
+    10,
+    8
+   ],
+   "applied to the case": [
+    8,
+    7
+   ],
+   "empirically demonstrated": [
+    6,
+    6
+   ],
+   "nongeneral": [
+    14,
+    13
+   ]
+  },
+  "statistical misspecification": {
+   "all": [
+    21,
+    13
+   ],
+   "general": [
+    13,
+    9
+   ],
+   "applied to the case": [
+    3,
+    3
+   ],
+   "empirically demonstrated": [
+    5,
+    5
+   ],
+   "nongeneral": [
+    8,
+    7
+   ]
+  },
+  "cross-site comparability": {
+   "all": [
+    15,
+    11
+   ],
+   "general": [
+    6,
+    4
+   ],
+   "applied to the case": [
+    7,
+    7
+   ],
+   "empirically demonstrated": [
+    2,
+    2
+   ],
+   "nongeneral": [
+    9,
+    8
+   ]
+  },
+  "other": {
+   "all": [
+    13,
+    10
+   ],
+   "general": [
+    1,
+    1
+   ],
+   "applied to the case": [
+    9,
+    8
+   ],
+   "empirically demonstrated": [
+    3,
+    3
+   ],
+   "nongeneral": [
+    12,
+    9
+   ]
+  },
+  "observability gap — quantity not measured": {
+   "all": [
+    10,
+    9
+   ],
+   "general": [
+    0,
+    0
+   ],
+   "applied to the case": [
+    9,
+    8
+   ],
+   "empirically demonstrated": [
+    1,
+    1
+   ],
+   "nongeneral": [
+    10,
+    9
+   ]
+  },
+  "baseload or non-productive energy": {
+   "all": [
+    10,
+    7
+   ],
+   "general": [
+    5,
+    5
+   ],
+   "applied to the case": [
+    0,
+    0
+   ],
+   "empirically demonstrated": [
+    5,
+    3
+   ],
+   "nongeneral": [
+    5,
+    3
+   ]
+  },
+  "data quality — missing, erroneous or discontinuous data": {
+   "all": [
+    9,
+    6
+   ],
+   "general": [
+    1,
+    1
+   ],
+   "applied to the case": [
+    5,
+    3
+   ],
+   "empirically demonstrated": [
+    3,
+    2
+   ],
+   "nongeneral": [
+    8,
+    5
+   ]
+  },
+  "non-stationarity of the relationship": {
+   "all": [
+    8,
+    7
+   ],
+   "general": [
+    2,
+    2
+   ],
+   "applied to the case": [
+    5,
+    5
+   ],
+   "empirically demonstrated": [
+    1,
+    1
+   ],
+   "nongeneral": [
+    6,
+    6
+   ]
+  },
+  "multi-product allocation": {
+   "all": [
+    8,
+    6
+   ],
+   "general": [
+    5,
+    4
+   ],
+   "applied to the case": [
+    3,
+    2
+   ],
+   "empirically demonstrated": [
+    0,
+    0
+   ],
+   "nongeneral": [
+    3,
+    2
+   ]
+  },
+  "baseline drift or expiry": {
+   "all": [
+    7,
+    6
+   ],
+   "general": [
+    5,
+    4
+   ],
+   "applied to the case": [
+    1,
+    1
+   ],
+   "empirically demonstrated": [
+    1,
+    1
+   ],
+   "nongeneral": [
+    2,
+    2
+   ]
+  },
+  "validity envelope exceeded": {
+   "all": [
+    4,
+    3
+   ],
+   "general": [
+    1,
+    1
+   ],
+   "applied to the case": [
+    2,
+    2
+   ],
+   "empirically demonstrated": [
+    1,
+    1
+   ],
+   "nongeneral": [
+    3,
+    3
+   ]
+  },
+  "insufficient data length for the model": {
+   "all": [
+    1,
+    1
+   ],
+   "general": [
+    1,
+    1
+   ],
+   "applied to the case": [
+    0,
+    0
+   ],
+   "empirically demonstrated": [
+    0,
+    0
+   ],
+   "nongeneral": [
+    0,
+    0
+   ]
+  }
+ },
+ "claim": {
+  "general": [
+   50,
+   19
+  ],
+  "applied to the case": [
+   52,
+   28
+  ],
+  "empirically demonstrated": [
+   28,
+   15
+  ]
+ },
+ "mech_papers": 36,
+ "n_mechs": 130,
+ "cause": {
+  "not stated": [
+   89,
+   31
+  ],
+  "other": [
+   16,
+   12
+  ],
+  "product mix or grade change": [
+   12,
+   9
+  ],
+  "feedstock quality or composition change": [
+   3,
+   3
+  ],
+  "ambient conditions": [
+   3,
+   2
+  ],
+  "operating mode or campaign change": [
+   3,
+   3
+  ],
+  "plant or process modification": [
+   3,
+   3
+  ],
+  "equipment degradation or ageing": [
+   1,
+   1
+  ]
+ },
+ "support_inference": [
+  12,
+  8
+ ],
+ "adaptations": {
+  "other": {
+   "n": 35,
+   "implemented": 11,
+   "implicit": 13,
+   "linked": 16,
+   "proposed": 20,
+   "absent": 19,
+   "ISO 50001/50006 explicit": 3,
+   "evaluated": 4,
+   "papers": 23
+  },
+  "additional normalisation variable": {
+   "n": 17,
+   "implemented": 11,
+   "ISO 50001/50006 explicit": 4,
+   "linked": 13,
+   "proposed": 4,
+   "implicit": 8,
+   "absent": 5,
+   "evaluated": 2,
+   "papers": 15
+  },
+  "outlier exclusion": {
+   "n": 10,
+   "implemented": 10,
+   "implicit": 3,
+   "linked": 4,
+   "absent": 7,
+   "papers": 10
+  },
+  "segmented baseline": {
+   "n": 9,
+   "proposed": 3,
+   "implicit": 6,
+   "linked": 2,
+   "implemented": 6,
+   "absent": 3,
+   "papers": 8
+  },
+  "improved metering": {
+   "n": 7,
+   "proposed": 6,
+   "implicit": 2,
+   "linked": 4,
+   "absent": 5,
+   "implemented": 1,
+   "papers": 6
+  },
+  "normalisation to a reference product": {
+   "n": 5,
+   "implemented": 4,
+   "implicit": 5,
+   "linked": 2,
+   "proposed": 1,
+   "papers": 5
+  },
+  "online re-estimation": {
+   "n": 2,
+   "proposed": 1,
+   "implicit": 2,
+   "linked": 2,
+   "implemented": 1,
+   "papers": 2
+  },
+  "weighted estimation": {
+   "n": 2,
+   "implemented": 2,
+   "absent": 2,
+   "linked": 0,
+   "papers": 2
+  },
+  "rolling window": {
+   "n": 1,
+   "implemented": 1,
+   "implicit": 1,
+   "linked": 0,
+   "papers": 1
+  }
+ },
+ "n_adps": 88,
+ "adp_papers": 36,
+ "close13": [
+  {
+   "key": "rayyan-472535351",
+   "bib": "Almanza2025",
+   "year": "2025",
+   "author": "Almanza",
+   "sector": [
+    "petroleum refining"
+   ],
+   "scale": [
+    "unit"
+   ],
+   "n_models": 1,
+   "families": [
+    "energy balance"
+   ],
+   "data": [
+    "simulation"
+   ],
+   "var_types": [
+    "equipment configuration",
+    "throughput"
+   ],
+   "boundary": {
+    "exact": 1
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "reported"
+   ],
+   "ins": [
+    "not applicable"
+   ],
+   "mechs": 3,
+   "adps": 1,
+   "title": "Towards sustainable cogeneration in an oil refinery: A synergy between ISO 50001 and ISO 14001 management systems"
+  },
+  {
+   "key": "rayyan-472535365",
+   "bib": "Moghadasi2025",
+   "year": "2025",
+   "author": "Moghadasi",
+   "sector": [
+    "petroleum refining"
+   ],
+   "scale": [
+    "unit"
+   ],
+   "n_models": 1,
+   "families": [
+    "tree ensemble"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "operating mode",
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 1
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "reported"
+   ],
+   "ins": [
+    "not reported"
+   ],
+   "mechs": 1,
+   "adps": 2,
+   "title": "Applying machine learning techniques to implement the technical requirements of energy management systems in accordance with ISO 50001:2018, an industrial case study"
+  },
+  {
+   "key": "rayyan-472535524",
+   "bib": "Beisheim2020",
+   "year": "2020",
+   "author": "Beisheim",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "facility"
+   ],
+   "n_models": 4,
+   "families": [
+    "intensity ratio",
+    "linear regression",
+    "nonlinear regression"
+   ],
+   "data": [
+    "simulation"
+   ],
+   "var_types": [
+    "ambient conditions",
+    "capacity utilisation",
+    "product mix",
+    "throughput"
+   ],
+   "boundary": {
+    "exact": 1,
+    "not reported": 5
+   },
+   "regime": [
+    "event-triggered, trigger stated"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not reported"
+   ],
+   "ins": [
+    "not reported"
+   ],
+   "mechs": 6,
+   "adps": 3,
+   "title": "Hierarchical aggregation of energy performance indicators in continuous production processes"
+  },
+  {
+   "key": "rayyan-472535550",
+   "bib": "Hamedi2019",
+   "year": "2019",
+   "author": "Hamedi",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "facility"
+   ],
+   "n_models": 6,
+   "families": [
+    "artificial neural network",
+    "linear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "ambient conditions",
+    "operating mode",
+    "other",
+    "product mix",
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 6
+   },
+   "regime": [
+    "not stated"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "reported"
+   ],
+   "ins": [
+    "not reported"
+   ],
+   "mechs": 10,
+   "adps": 5,
+   "title": "Applying multivariate linear regression and multi-layer perceptron artificial neural network to design an energy consumption baseline in a low density polyethylene plant"
+  },
+  {
+   "key": "rayyan-472535582",
+   "bib": "Morales2018",
+   "year": "2018",
+   "author": "Morales",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "equipment"
+   ],
+   "n_models": 5,
+   "families": [
+    "composite index",
+    "control chart",
+    "intensity ratio",
+    "linear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "other"
+   ],
+   "boundary": {
+    "not reported": 9
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not applicable",
+    "not reported"
+   ],
+   "ins": [
+    "not applicable",
+    "reported"
+   ],
+   "mechs": 1,
+   "adps": 1,
+   "title": "Identification of energy saving potential in steam boiler through an ISO 50001 standard"
+  },
+  {
+   "key": "rayyan-472535625",
+   "bib": "Ikeyama2017",
+   "year": "2017",
+   "author": "Ikeyama",
+   "sector": [
+    "petroleum refining"
+   ],
+   "scale": [
+    "facility"
+   ],
+   "n_models": 1,
+   "families": [
+    "other"
+   ],
+   "data": [
+    "not reported"
+   ],
+   "var_types": [
+    "feed quality",
+    "operating mode",
+    "other",
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 1
+   },
+   "regime": [
+    "not stated"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not reported"
+   ],
+   "ins": [
+    "not reported"
+   ],
+   "mechs": 2,
+   "adps": 2,
+   "title": "International standardizations related to energy management and its influences to industrial automation"
+  },
+  {
+   "key": "rayyan-472535649",
+   "bib": "Ochoa2017",
+   "year": "2017",
+   "author": "Ochoa",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "facility"
+   ],
+   "n_models": 4,
+   "families": [
+    "composite index",
+    "linear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 4
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not applicable",
+    "not reported"
+   ],
+   "ins": [
+    "not applicable",
+    "reported"
+   ],
+   "mechs": 3,
+   "adps": 3,
+   "title": "Energy saving in industrial process based on the equivalent production method to calculate energy performance indicators"
+  },
+  {
+   "key": "rayyan-472535680",
+   "bib": "Yao2016",
+   "year": "2016",
+   "author": "Yao",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "unit"
+   ],
+   "n_models": 1,
+   "families": [
+    "linear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "operating mode",
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 1
+   },
+   "regime": [
+    "event-triggered, trigger stated"
+   ],
+   "envelope": [
+    "stated qualitatively"
+   ],
+   "oos": [
+    "not reported"
+   ],
+   "ins": [
+    "reported"
+   ],
+   "mechs": 3,
+   "adps": 2,
+   "title": "An energy efficiency evaluation method based on energy baseline for chemical industry"
+  },
+  {
+   "key": "rayyan-472536425",
+   "bib": "Hashim2022",
+   "year": "2022",
+   "author": "Hashim",
+   "sector": [
+    "multiple of the above",
+    "petrochemicals"
+   ],
+   "scale": [
+    "facility",
+    "multi-site"
+   ],
+   "n_models": 2,
+   "families": [
+    "intensity ratio"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 2
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not applicable"
+   ],
+   "ins": [
+    "not applicable"
+   ],
+   "mechs": 0,
+   "adps": 0,
+   "title": "PROVEN APPROACHES TO ENHANCE IMPLEMENTATION OF ENERGY MANAGEMENT SYSTEMS AT A LEADING OIL COMPANY"
+  },
+  {
+   "key": "rayyan-472536518",
+   "bib": "Maggiore2020",
+   "year": "2020",
+   "author": "Maggiore",
+   "sector": [
+    "multiple of the above"
+   ],
+   "scale": [
+    "multi-site"
+   ],
+   "n_models": 1,
+   "families": [
+    "intensity ratio"
+   ],
+   "data": [
+    "audit data"
+   ],
+   "var_types": [],
+   "boundary": {
+    "not reported": 1
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not applicable"
+   ],
+   "ins": [
+    "not applicable"
+   ],
+   "mechs": 2,
+   "adps": 1,
+   "title": "‘Good practices’ to improve energy efficiency in the industrial sector"
+  },
+  {
+   "key": "rayyan-472536532",
+   "bib": "Beisheim2019",
+   "year": "2019",
+   "author": "Beisheim",
+   "sector": [
+    "petrochemicals"
+   ],
+   "scale": [
+    "facility"
+   ],
+   "n_models": 3,
+   "families": [
+    "nonlinear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "ambient conditions",
+    "throughput"
+   ],
+   "boundary": {
+    "exact": 3
+   },
+   "regime": [
+    "event-triggered, trigger stated"
+   ],
+   "envelope": [
+    "stated qualitatively"
+   ],
+   "oos": [
+    "not reported"
+   ],
+   "ins": [
+    "reported"
+   ],
+   "mechs": 7,
+   "adps": 5,
+   "title": "Energy performance analysis of continuous processes using surrogate models"
+  },
+  {
+   "key": "rayyan-472536551",
+   "bib": "Hashim2019",
+   "year": "2019",
+   "author": "Hashim",
+   "sector": [
+    "petroleum refining"
+   ],
+   "scale": [
+    "multi-site"
+   ],
+   "n_models": 1,
+   "families": [
+    "composite index"
+   ],
+   "data": [
+    "audit data"
+   ],
+   "var_types": [
+    "other"
+   ],
+   "boundary": {
+    "not reported": 1
+   },
+   "regime": [
+    "not stated"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not applicable"
+   ],
+   "ins": [
+    "not applicable"
+   ],
+   "mechs": 1,
+   "adps": 1,
+   "title": "Leading energy performance indicator: Tracking of energy management systems in oil and gas companies"
+  },
+  {
+   "key": "rayyan-472536695",
+   "bib": "Velazquez2013",
+   "year": "2013",
+   "author": "Velázquez",
+   "sector": [
+    "petroleum refining"
+   ],
+   "scale": [
+    "unit"
+   ],
+   "n_models": 1,
+   "families": [
+    "linear regression"
+   ],
+   "data": [
+    "continuous time series"
+   ],
+   "var_types": [
+    "ambient conditions",
+    "feed quality",
+    "operating mode",
+    "other",
+    "throughput"
+   ],
+   "boundary": {
+    "not reported": 2
+   },
+   "regime": [
+    "fixed, not mentioned"
+   ],
+   "envelope": [
+    "not stated"
+   ],
+   "oos": [
+    "not reported"
+   ],
+   "ins": [
+    "reported"
+   ],
+   "mechs": 1,
+   "adps": 2,
+   "title": "Development of an energy management system for a naphtha reforming plant: A data mining approach"
+  }
+ ],
+ "c5_boundary": {
+  "exact": 35,
+  "not reported": 89,
+  "allocated by rule": 20,
+  "allocated by estimate": 13,
+  "mismatch acknowledged": 6
+ },
+ "c5_origin": {
+  "simulation": 12,
+  "process historian tag": 6,
+  "not reported": 55,
+  "calculated from process data": 45,
+  "dedicated meter": 23,
+  "site meter": 17,
+  "invoice or utility bill": 5
+ },
+ "n_c5": 163,
+ "c6_regime": {
+  "fixed, not mentioned": [
+   89,
+   26
+  ],
+  "not stated": [
+   28,
+   11
+  ],
+  "event-triggered, trigger stated": [
+   16,
+   5
+  ],
+  "rolling window": [
+   3,
+   1
+  ],
+  "online or adaptive": [
+   2,
+   1
+  ],
+  "periodic, interval stated": [
+   2,
+   1
+  ]
+ },
+ "c6_update": {
+  "not applicable": [
+   51,
+   18
+  ],
+  "not reported": [
+   47,
+   13
+  ],
+  "proposed": [
+   24,
+   8
+  ],
+  "executed": [
+   18,
+   6
+  ]
+ },
+ "c7": {
+  "not stated": [
+   121,
+   37
+  ],
+  "stated qualitatively": [
+   8,
+   4
+  ],
+  "stated with numeric bounds": [
+   11,
+   3
+  ]
+ },
+ "c8_oos": {
+  "reported": [
+   13,
+   4
+  ],
+  "not reported": [
+   67,
+   24
+  ],
+  "not applicable": [
+   60,
+   22
+  ]
+ },
+ "c8_ins": {
+  "not applicable": [
+   64,
+   24
+  ],
+  "not reported": [
+   27,
+   11
+  ],
+  "reported": [
+   49,
+   17
+  ]
+ },
+ "c8_design": {
+  "not reported": [
+   80,
+   25
+  ],
+  "held-out split": [
+   18,
+   6
+  ],
+  "none": [
+   35,
+   10
+  ],
+  "in-sample residual analysis only (NOT out-of-sample)": [
+   7,
+   5
+  ]
+ },
+ "c13": {
+  "equations_given": {
+   "partial": 9,
+   "yes": 24,
+   "not reported": 6
+  },
+  "coefficients_given": {
+   "partial": 13,
+   "not applicable": 8,
+   "yes": 12,
+   "not reported": 6
+  },
+  "data_available": {
+   "not reported": 32,
+   "yes": 3,
+   "partial": 3,
+   "no": 1
+  },
+  "code_available": {
+   "not reported": 38,
+   "partial": 1
+  }
+ },
+ "limitations": [
+  {
+   "sample coverage": 13,
+   "other": 1,
+   "data access": 16,
+   "scope restriction": 14,
+   "instrumentation unavailable": 2
+  },
+  46,
+  24
+ ],
+ "barriers": [
+  62,
+  28
+ ],
+ "span_months": [
+  6,
+  6,
+  6,
+  6,
+  6,
+  10,
+  10,
+  10,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  12,
+  14,
+  14,
+  14,
+  14,
+  14,
+  14,
+  18,
+  24,
+  24,
+  24,
+  24,
+  24,
+  24,
+  24,
+  24,
+  24,
+  48,
+  48,
+  48,
+  48,
+  66,
+  66,
+  66,
+  66,
+  66,
+  66,
+  108,
+  120,
+  120
+ ]
+}

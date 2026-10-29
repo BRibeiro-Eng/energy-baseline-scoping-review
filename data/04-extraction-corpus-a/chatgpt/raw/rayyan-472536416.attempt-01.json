@@ -1,0 +1,124 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536416",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T11:25:47Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "the machine states were automatically identiﬁed using the machine learning algorithm\nGaussian Naive Bayes [17] within the Web App. Subsequently, the non-production time\nfactor (NPTF) is calculated, which is deﬁned as the ratio of non-production time and total\nobserved time [18].",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The ETAS and the presented framework are applied to a cleaning machine (Fig. 3 (a))\nand a lathe (Fig. 3 (b)) within the ETA Research Factory at the Technical University\nof Darmstadt.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": [
+        "Within the same production chain, shafts are turned on the",
+        "lathe and gears are processed in the cleaning machine to be later assembled into a\ngearbox."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "notes": "Applied at one research factory to discrete-production machines; the embedded Gaussian Naive Bayes state model and NPTF ratio constitute characterised EnPI content."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The ETAS and the presented framework are applied to a cleaning machine (Fig. 3 (a))\nand a lathe (Fig. 3 (b)) within the ETA Research Factory at the Technical University\nof Darmstadt.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "country_region": {
+      "value": "Darmstadt",
+      "evidence_quote": "within the ETA Research Factory at the Technical University\nof Darmstadt.",
+      "page": 5,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "production machines",
+      "evidence_quote": "the framework shown in Fig. 1 is presented for all production\nmachines powered by electrical energy.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": [
+        "Within the same production chain, shafts are turned on the",
+        "lathe and gears are processed in the cleaning machine to be later assembled into a\ngearbox."
+      ],
+      "page": [
+        5,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.99
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "ML",
+        "simple intensity ratio"
+      ],
+      "evidence_quote": "the machine states were automatically identiﬁed using the machine learning algorithm\nGaussian Naive Bayes [17] within the Web App. Subsequently, the non-production time\nfactor (NPTF) is calculated, which is deﬁned as the ratio of non-production time and total\nobserved time [18].",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}

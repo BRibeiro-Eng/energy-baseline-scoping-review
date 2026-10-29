@@ -1,0 +1,130 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536366",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T09:36:21.043040+00:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": [
+        "Production and service sectors: the analysis is based on the yearly municipal and sectorial energy intensity",
+        "Municipal energy consumption\nMEI\nMunicipal gross product"
+      ],
+      "page": [
+        9,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The methodology developed \nis implemented in the Sabanalarga municipality",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "The main economic activities are tertiary activities like commerce, public services, services (e.g., hotels, restaurants), banks, and transport.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "Eligible under broad v2.3 threshold: Table 2 defines EnPIs (energy intensity=energy/GDP; per-capita ratios) framed by ISO 50001/50006. Municipal/public-sector case (Sabanalarga), not continuous-process; type_of_organisation services-vs-mixed is borderline."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The study is conducted in the municipality of Sabanalarga during the period from 2010 to 2022",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "country_region": {
+      "value": "Sabanalarga, Atlántico department, Colombia",
+      "evidence_quote": "Sabanalarga, with 414 km2 and 101,843 inhabitants, is a second-level \nmunicipality from the Atlántico department",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "sector_of_activity": {
+      "value": "tertiary activities (commerce, public services, hotels, restaurants, banks, transport)",
+      "evidence_quote": "The main economic activities are tertiary activities like commerce, public services, services",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "Tertiary activities (e.g., public \nservices, commerce, hotels, restaurants, and transport) represent 70 to \n85% of the MGDP. This MDPG distribution indicates a low \ndevelopment of industry",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.5
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006"
+      ],
+      "evidence_quote": [
+        "Currently, ISO 50001 is the most used standard to guide the \nimplementation of an EMS toward holistic management of energy",
+        "ISO 50006  – energy management systems — measuring energy \nperformance using energy baselines (EnB) and energy performance indicators (EnPI)"
+      ],
+      "page": [
+        2,
+        14
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.85
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "simple intensity ratio"
+      ],
+      "evidence_quote": [
+        "Municipal energy consumption\nMEI\nMunicipal gross product",
+        "Total electricity consumption\nECpc\nMunicipal population"
+      ],
+      "page": [
+        10,
+        10
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    }
+  },
+  "stage3": null
+}

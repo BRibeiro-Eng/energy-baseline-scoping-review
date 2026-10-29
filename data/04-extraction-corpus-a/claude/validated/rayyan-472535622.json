@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535622",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T21:45:36Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "demand response on a glass working company example, to\nmaximize the reduction of electricity costs",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Energy-efficiency and demand-side-management case study with NPV/MPC economic analysis; monitors process-level electricity consumption but does not present, propose, evaluate, or characterise an EnPI/EnB measurement model (no normalisation variables, functional form, or construction/estimation approach identifiable).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The case study is a glass-work company in Latvia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: process-level consumption monitoring + a qualitative kWh/m2 mention could read as a simple-intensity EnPI, but no EnPI/EnB model is constructed; core is DSM + furnace NPV."
+  },
+  "stage2": null,
+  "stage3": null
+}

@@ -1,0 +1,40 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535638",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T22:18:45Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": [
+        "This paper provides a brief road map showing the path to an energy efficient production environment",
+        "In table 1 a list of frequently used EnPIs in the manufacturing companies is provided"
+      ],
+      "page": [1, 4],
+      "non_contiguous_evidence": true,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Conference paper presenting an energy-management concept, an implementation roadmap, and the TIEM software tool for ISO 50001. EnPIs appear only as a borrowed reference list (Table 1, cited from [11]) of frequently-used indicator names; the paper does not construct, characterise, apply, evaluate, or critique any EnPI/EnB measurement model (no functional form, variables, or estimation approach given). Incidental EnPI mention plus tool/software focus.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "the goal here is to develop a completely automated totally integrated energy management (TIEM) solution",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.7
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline eligibility: Table 1 lists intensity-type EnPI names but the paper neither derives nor applies any of them (formula column absent from extracted text); core contribution is the TIEM software plus an EnMS/green-production concept. Context is German manufacturing/assembly (discrete), not a continuous-process sector, so not Level 3B regardless."
+  },
+  "stage2": null,
+  "stage3": null
+}

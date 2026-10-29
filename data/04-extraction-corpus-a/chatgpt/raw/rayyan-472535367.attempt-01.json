@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535367",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-07-23T11:18:22Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "This paper presents the design and simulation of an intelligent Energy Management System (EMS) developed to support Elmsdale Lumber’s transition to net-zero energy consumption.",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.88
+    },
+    "ineligibility_reason": "EMS/tool and energy-system design without an identifiable EnPI or EnB measurement or baseline model.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "tool/software design",
+      "evidence_quote": "The EMS was developed as a modular, Python-based control framework aligned with ISO 50001 standards [2].",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.93
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "notes": "Solar forecasting and PV sizing support EMS control/design; neither is presented as an EnPI or EnB measurement/baseline model."
+  },
+  "stage2": null,
+  "stage3": null
+}

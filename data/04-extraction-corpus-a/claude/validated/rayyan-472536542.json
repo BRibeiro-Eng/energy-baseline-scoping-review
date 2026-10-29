@@ -1,0 +1,129 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536542",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-18T19:46:00Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "an energy performance indicator (EnPI) of battery formation is proposed",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.95
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Lead-acid battery manufacturing consists of three steps",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "notes": "Sector is LSI lead-acid battery manufacturing (assembly/batch), not in the closed 3B list; battery formation runs 24/7 and uses sulfuric-acid electrolyte - flagged for human 3B check."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "The EM methodology is applied to a battery plant in Barranquilla, Colombia",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "country_region": {
+      "value": "Barranquilla, Colombia",
+      "evidence_quote": "applied to a battery plant in Barranquilla, Colombia",
+      "page": 6,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "sector_of_activity": {
+      "value": "lead-acid battery manufacturing",
+      "evidence_quote": "Lead-acid battery manufacturing consists of three steps",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "type_of_organisation": {
+      "value": "discrete manufacturing",
+      "evidence_quote": "In the assembly process, battery components are assembled together",
+      "page": 2,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ems_standard": {
+      "value": [
+        "ISO 50001",
+        "ISO 50006",
+        "other-named"
+      ],
+      "evidence_quote": [
+        "the procedure defined in the ISO 50001 standard",
+        "ISO 50004 and 50006"
+      ],
+      "page": [
+        6,
+        6
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.9
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "linear regression",
+        "simple intensity ratio",
+        "change-point or SPC"
+      ],
+      "evidence_quote": [
+        "the correlation between the monthly electricity consumption and the monthly equivalent batteries produced",
+        "the ratio between EBB and battery production",
+        "aided by the use of energy baselines and control charts"
+      ],
+      "page": [
+        10,
+        4,
+        1
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.7
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    }
+  },
+  "stage3": null
+}

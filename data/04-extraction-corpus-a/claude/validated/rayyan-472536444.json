@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536444",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-14T15:27:46Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "proposes a new strategy to improve and optimize its energy system operation",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Techno-economic microgrid design for the OAKA sports complex (large-scale building). The paper reports descriptive electricity-consumption data and uses current energy cost as an economic comparison baseline, but constructs no EnPI/EnB measurement model: no normalisation of energy against relevant variables, no functional form, and no estimation approach is identifiable. Energy/EnB is incidental to a supply-side (PV+BESS+CHP+gensets) sizing study.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This paper evaluates the energy consumption of the Olympic Athletic Center of Athens (OAKA)",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.85
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Microgrid techno-economic design for OAKA sports complex (building). Reported energy 'baselines' are descriptive consumption/cost references, not an EnPI/EnB normalisation model."
+  },
+  "stage2": null,
+  "stage3": null
+}

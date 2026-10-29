@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536709",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-21T08:40:48Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "this paper focuses on the sustainable energy performance criteria, their effects to improve the sustainability of building energy and implementation possibility",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Energy 'performance indicators' here are LEED-derived qualitative sustainability criteria evaluated by a 16-expert interview survey (min-max normalised Likert scores) that ranks renewable-energy options and criteria for buildings in Iran. No EnPI/EnB measurement model is identified or characterised: no energy baseline, relevant variables, functional form, or estimation approach. 'Measurement and verification', 'minimum/optimize energy performance' and 'baseline parameters' appear only incidentally as criteria labels. Application context is buildings (non-industrial).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "These criteria contain 53 key elements grouped into 8 major areas as shown in Table",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Tier-1 borderline for human: title says 'energy performance indicators' but paper is a qualitative sustainable-building criteria framework + expert-survey ranking, no EnPI/EnB model. Not review/synthesis. Non-continuous-process (buildings). Flag eligibility and paper_type."
+  },
+  "stage2": null,
+  "stage3": null
+}

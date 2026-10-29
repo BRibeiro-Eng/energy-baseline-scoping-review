@@ -1,0 +1,64 @@
+{
+  "_blind_required": true,
+  "_done": true,
+  "_phase": "blind",
+  "_review_fields": [
+    "eligibility.methodological_eligibility"
+  ],
+  "eligibility": {
+    "borderline_review_synthesis_eligibility": null,
+    "ineligibility_reason": null,
+    "level_3b": null,
+    "methodological_eligibility": false,
+    "paper_type": null
+  },
+  "key": "rayyan-472535653",
+  "level_a": {
+    "complementary_methodologies": [],
+    "country_region": null,
+    "ems_standard": [],
+    "enpi_enb_model_types": [],
+    "multi_site": null,
+    "mv_protocol": [],
+    "regulatory_driver": [],
+    "sector_of_activity": null,
+    "type_of_organisation": null
+  },
+  "level_b": {
+    "adaptation_types": [],
+    "baseline_construction_method": null,
+    "baseline_period_end": null,
+    "baseline_period_start": null,
+    "data_type": null,
+    "empirical_refinery_application": null,
+    "identifies_model_limitations": null,
+    "implementation_barriers": [],
+    "model_parameters_reported": [],
+    "normalisation_variables": [],
+    "normative_framing_of_adaptations": null,
+    "performance_metrics_reported": [],
+    "proposes_adaptations": null,
+    "proposes_treatment_mechanism": null,
+    "scale_of_application": null,
+    "scope_description": null,
+    "specific_limitations": [],
+    "validation_types": []
+  },
+  "metadata": {
+    "authors": "McKane, A. and Therkelsen, P. and Scodel, A. and Rao, P. and Aghajanzadeh, A. and Hirzel, S. and Zhang, R. and Prem, R. and Fossa, A.J. and Lazarevska, A.M. and Matteini, M. and Schreck, B. and Allard, F. and Villegal Alcántar, N. and Steyn, K. and Hürdoǧan, E. and Björkman, T. and O'Sullivan, J.",
+    "rayyan_decision": "Maybe",
+    "source": "Energy Policy",
+    "title": "Predicting the quantifiable impacts of ISO 50001 on climate change mitigation",
+    "year": 2017
+  },
+  "reviewer_evidence": {
+    "eligibility.methodological_eligibility": {
+      "mode": "not_reported_after_full_text_review",
+      "quote": null,
+      "page": null,
+      "rule": "§5.2 AMBITO DO EnPI ao nivel de organizacao/instalacao (regra adotada pelo revisor, 2026-08-25): o construto que funciona como referencia — ATPEC/TPEC — e consumo total projetado ao nivel de pais e do mundo, nao de uma organizacao. As percentagens de poupanca (5% no primeiro ano, 1%/ano de melhoria continua) sao pressupostos exogenos e nao quantidades medidas. O proprio paper declara que o desempenho ao nivel de instalacao se mede com 'organization-specific metrics' e nao caracteriza esses modelos."
+    }
+  },
+  "reviewer_notes": "",
+  "saved_at": "2026-09-01T14:34:36"
+}

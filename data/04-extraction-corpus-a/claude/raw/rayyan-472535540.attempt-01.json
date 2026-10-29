@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535540",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T01:26:53Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "It now includes a model\nfor systematic observation and measurement of the implementation level of energy management in\nan enterprise",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.8
+    },
+    "ineligibility_reason": "Presents a PDCA-based framework/maturity assessment measuring the level of ISO 50001 EnMS implementation across enterprises via a questionnaire; contains no EnPI/EnB measurement-model content (no energy quantity modelled or normalised, no energy baseline, no functional form or estimation approach identifiable).",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "the approach for identifying the level of implementation of EnMs,\nthe classiﬁcation algorithm by using analytical tools",
+      "page": 14,
+      "non_contiguous_evidence": false,
+      "confidence": 0.55
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Survey of 104 Serbian wood-industry firms scoring ISO 50001 PDCA implementation level; no EnPI/EnB model constructed. Wood industry is discrete manufacturing, outside the closed continuous-process list."
+  },
+  "stage2": null,
+  "stage3": null
+}

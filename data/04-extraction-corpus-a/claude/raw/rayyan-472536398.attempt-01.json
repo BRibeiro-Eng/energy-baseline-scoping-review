@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536398",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-13T20:40:50+01:00",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "A typical Estonian apartment building (Fig. 1) was selected as a reference building",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.75
+    },
+    "ineligibility_reason": "Exclusive focus on residential apartment-building renovation with no industrial component. \"EnPI\" appears only as a building energy-intensity indicator kWh/(m2a) output by IDA-ICE dynamic simulation and used as a comparison axis; the paper presents no EnPI/EnB measurement model (no energy baseline, normalisation-variable model, or SEC/regression fit). Framing is EPBD / LCA, not ISO 50001/50006 energy management. Falls under the registered 'residential buildings without industrial component' exclusion.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "It is a three-story apartment building comprising of 24 apartments.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.9
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Residential apartment-building renovation study comparing cost-optimal, CO2e-optimal and total-energy-optimal solutions via LCA and IDA-ICE simulation. Uses EnPI = energy intensity kWh/(m2a) as a comparison axis but constructs no EnPI/EnB measurement model; no ISO 50001/50006 framing (EPBD/LCA only). Ineligible via residential-buildings exclusion. Borderline: an EnPI is explicitly defined."
+  },
+  "stage2": null,
+  "stage3": null
+}

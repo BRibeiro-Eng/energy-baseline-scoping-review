@@ -1,0 +1,37 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472535616",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-09T16:39:15Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": false,
+      "evidence_quote": "A classification framework to estimate the required effort of ascertaining information on energy consumption of production equipment is described",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.6
+    },
+    "ineligibility_reason": "Core object is a classification framework for the effort of ascertaining energy-consumption data (framed by the authors as virtual metering point calculation); it presents no EnPI/EnB energy-performance-measurement model. ISO 50001/50006 are cited as normative context only, so EnPI/EnB is mentioned incidentally.",
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "maturity model or framework",
+      "evidence_quote": "the developed classification framework for production equipment according to its applicability to provide information for energy monitoring is described",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.65
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "not applicable",
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": null
+    },
+    "notes": "Borderline: paper gives physical virtual-metering equations, but its core object is an effort-classification framework, not an EnPI/EnB performance model. Automotive body shop = discrete manufacturing."
+  },
+  "stage2": null,
+  "stage3": null
+}

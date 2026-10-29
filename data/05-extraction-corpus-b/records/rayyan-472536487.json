@@ -1,0 +1,858 @@
+{
+  "record_type": "stage_c_extraction",
+  "paper_key": "rayyan-472536487",
+  "schema_version": "2.3.0-C",
+  "prompt_tag": "glass-SEC-BEC-Thailand",
+  "surface": "claude",
+  "completed_at": "2026-09-13",
+  "n_pages_read": 6,
+  "applications": [
+    {
+      "application_id": "A1",
+      "sector_verbatim": {
+        "value": "container glass and tableware glass manufacture industry",
+        "evidence_quote": "This paper presents the investigation of ENPI in the containers glass and tableware glass manufacture industry.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "country_region": {
+        "value": "Thailand",
+        "evidence_quote": "There are 15 container glass and tableware glass \nmanufacture factories in Thailand (2017).",
+        "page": 2,
+        "support_class": "direct statement"
+      },
+      "scale_of_application": {
+        "value": "multi-site",
+        "evidence_quote": "14 of 15 containers glass and tableware glass plants in Thailand were audited \nand analyzed in this paper.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "scope_description": {
+        "value": "Container and tableware glass manufacture industry in Thailand; 14 of 15 plants audited, products classified as glass bottles, glassware, handmade glass and industrial marble balls",
+        "evidence_quote": "The main product is a glass bottle, glassware, and other (handmade glass and \nindustrial marble balls). Approximately 84% of the energy used in this sector is thermal energy.",
+        "page": 1,
+        "support_class": "direct statement"
+      },
+      "refinery_or_petrochemical_case": {
+        "value": "no",
+        "evidence_quote": "Thailand Standard Industrial Classification (TSIC 2009) classifies the container glass and tableware glass \nindustry as a nonmetallic sector by TSIC-ID as 23102.",
+        "page": 2,
+        "support_class": "requires inference"
+      },
+      "models": [
+        {
+          "model_id": "M1",
+          "label_verbatim": "the BEC relationship model",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Second-order polynomial regression selected on statistical values (R-squared, adjusted R-squared, p-value)",
+            "evidence_quote": "The second-order polynomial term obtains the best correlation for BEC of container and \ntableware glass manufacture industry as shown in Eq(1)",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Constants a1 through a8 for electric, thermal and total energy (Table 2)",
+            "R2 = 0.997 (electric), 0.988 (thermal), 0.991 (total)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "absolute energy",
+              "evidence_quote": "The definition of BEC is the amount of base energy usage, and SEC is the ratio between energy input and \nproduction quantity at the same period.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity",
+                "other",
+                "total energy"
+              ],
+              "evidence_quote": "There are three equations of the BEC relationship model consisting of electricity, thermal, and total energy.",
+              "page": 3,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy"
+            },
+            "denominator": {
+              "value": "none (absolute)",
+              "evidence_quote": "The definition of BEC is the amount of base energy usage, and SEC is the ratio between energy input and \nproduction quantity at the same period.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "GJ/t",
+                "kWh",
+                "MJ",
+                "unit"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "The second-order polynomial term obtains the best correlation for BEC of container and \ntableware glass manufacture industry as shown in Eq(1)",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fitted"
+              ]
+            },
+            "variable_selection": {
+              "value": "correlation screening",
+              "evidence_quote": "the correlations between variables are verified according to \nthe principles of Chuvenet’s criterion. The Pearson's correlation coefficient is also taken into account.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 3,
+              "evidence_quote": "𝐵𝐸𝐶= 𝑎1(𝑥1) + 𝑎2(𝑥2) + 𝑎3(𝑥3) + 𝑎4(𝑥1)(𝑥2)(𝑥3) + 𝑎5(𝑥1",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Minitab",
+                "SPSS",
+                "Excel"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Average quantity of product",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Average quantity of product  \nt/month",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Molten glass volume from glass melting furnace",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Molten glass volume from glass melting furnace \nt/month",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Glass melting furnace age ratio",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Glass melting furnace age ratio  \n(Specification age (month)/Actual age (month))",
+              "page": 3,
+              "support_class": "direct statement",
+              "type_other_verbatim": "glass melting furnace age ratio (specification age/actual age)"
+            },
+            {
+              "verbatim": "Working hour",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "the glass melting furnace age ratio and working hours may not have seen a trend \nconcerning energy consumption as expected.",
+              "page": 3,
+              "support_class": "requires inference",
+              "type_other_verbatim": "working hours"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The analysis used average monthly data in 2016-2017.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The analysis used average monthly data in 2016-2017.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 14,
+              "evidence_quote": "This research analyzed only 14 of 15 participating factories.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Where AEC is the actual energy consumption from the meter, bill, or measurement.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "energy_vector_other_verbatim": "thermal energy",
+              "searched_terms": [
+                "fuel",
+                "thermal",
+                "natural gas",
+                "meter"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimate",
+                "update",
+                "interval",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "the amount of energy consumption tends to change over times",
+              "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "validity",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "𝑅2 \n0.997 \n0.988 \n0.991",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.997,
+                  "period_or_context": "electric energy BEC",
+                  "evidence_quote": "0.997",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R2",
+                  "value": 0.988,
+                  "period_or_context": "thermal energy BEC",
+                  "evidence_quote": "0.988",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R2",
+                  "value": 0.991,
+                  "period_or_context": "total energy BEC",
+                  "evidence_quote": "0.991",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "prediction accuracy vs actual (±10%)",
+                  "value": "within ±10 %",
+                  "period_or_context": "predicted vs actual BEC, base year data",
+                  "evidence_quote": "The comparison between \npredicted and actual BEC of electric, thermal and total energy shows that most of them are in the range of ±10 \n%",
+                  "page": 4,
+                  "support_class": "direct statement"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "The comparison between \npredicted and actual BEC of electric, thermal and total energy shows that most of them are in the range of ±10 \n%",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Independent variables ought to be accumulated regularly and be able to be measured"
+          ]
+        },
+        {
+          "model_id": "M2",
+          "label_verbatim": "the SEC equation",
+          "baseline_period_start": {
+            "value": "2016",
+            "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_period_end": {
+            "value": "2017",
+            "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+            "page": 3,
+            "support_class": "direct statement"
+          },
+          "baseline_construction_method": {
+            "value": "Second-order polynomial regression selected on statistical values",
+            "evidence_quote": "Similarly, the best correlations for SEC are in second-order polynomial terms, as shown in Eq(2)",
+            "page": 4,
+            "support_class": "direct statement"
+          },
+          "model_parameters_reported": [
+            "Constants b1 through b8 for electric, thermal and total energy (Table 3)",
+            "R2 = 0.788 (electric), 0.931 (thermal), 0.928 (total)"
+          ],
+          "C1_dependent_variable": {
+            "quantity": {
+              "value": "specific energy consumption",
+              "evidence_quote": "SEC is the ratio between energy input and \nproduction quantity at the same period.",
+              "page": 2,
+              "support_class": "direct statement"
+            },
+            "energy_vector": {
+              "value": [
+                "electricity",
+                "other",
+                "total energy"
+              ],
+              "evidence_quote": "Table 3. Constants for SEC equation.\nConstants \nElectric \nThermal \nTotal",
+              "page": 4,
+              "support_class": "direct statement",
+              "other_verbatim": "thermal energy"
+            },
+            "denominator": {
+              "value": "production mass",
+              "evidence_quote": "SEC is the ratio between energy input and \nproduction quantity at the same period.",
+              "page": 2,
+              "support_class": "requires inference"
+            },
+            "unit_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "GJ/t",
+                "GJ/ton",
+                "MJ/t",
+                "unit"
+              ]
+            }
+          },
+          "C2_model_form": {
+            "model_family": {
+              "value": [
+                "nonlinear regression"
+              ],
+              "evidence_quote": "Similarly, the best correlations for SEC are in second-order polynomial terms, as shown in Eq(2)",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "estimation_method": {
+              "value": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "OLS",
+                "least squares",
+                "estimation",
+                "fitted"
+              ]
+            },
+            "variable_selection": {
+              "value": "correlation screening",
+              "evidence_quote": "the correlations between variables are verified according to \nthe principles of Chuvenet’s criterion. The Pearson's correlation coefficient is also taken into account.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_independent_variables": {
+              "value": 3,
+              "evidence_quote": "𝑆𝐸𝐶= 𝑏1(𝑥1) + 𝑏2(𝑥2) + 𝑏3(𝑥3) + 𝑏4(𝑥1)(𝑥2)(𝑥3) + 𝑏5(𝑥1",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "software_verbatim": {
+              "value": null,
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "software",
+                "Minitab",
+                "SPSS",
+                "Excel"
+              ]
+            }
+          },
+          "C3_variables": [
+            {
+              "verbatim": "Average quantity of product",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Average quantity of product  \nt/month",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Molten glass volume from glass melting furnace",
+              "type": "throughput",
+              "role": "predictor",
+              "evidence_quote": "Molten glass volume from glass melting furnace \nt/month",
+              "page": 3,
+              "support_class": "direct statement"
+            },
+            {
+              "verbatim": "Glass melting furnace age ratio",
+              "type": "other",
+              "role": "predictor",
+              "evidence_quote": "Glass melting furnace age ratio  \n(Specification age (month)/Actual age (month))",
+              "page": 3,
+              "support_class": "direct statement",
+              "type_other_verbatim": "glass melting furnace age ratio (specification age/actual age)"
+            },
+            {
+              "verbatim": "Working hour",
+              "type": "other",
+              "role": "excluded",
+              "evidence_quote": "the glass melting furnace age ratio and working hours may not have seen a trend \nconcerning energy consumption as expected.",
+              "page": 3,
+              "support_class": "requires inference",
+              "type_other_verbatim": "working hours"
+            }
+          ],
+          "C4_data": {
+            "acquisition_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The analysis used average monthly data in 2016-2017.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "modelling_frequency": {
+              "value": "monthly",
+              "evidence_quote": "The analysis used average monthly data in 2016-2017.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "span_months": {
+              "value": 24,
+              "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+              "page": 3,
+              "support_class": "requires inference"
+            },
+            "n_observations": {
+              "value": 14,
+              "evidence_quote": "This research analyzed only 14 of 15 participating factories.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            "data_type": {
+              "value": "audit data",
+              "evidence_quote": "Define base year data. In this research, 2016 - 2017 audit and measurement data are used.",
+              "page": 3,
+              "support_class": "direct statement"
+            }
+          },
+          "C5_measurement": [
+            {
+              "energy_vector": "electricity",
+              "data_origin": "site meter",
+              "boundary_correspondence": "exact",
+              "evidence_quote": "Where AEC is the actual energy consumption from the meter, bill, or measurement.",
+              "page": 4,
+              "support_class": "requires inference"
+            },
+            {
+              "energy_vector": "other",
+              "data_origin": "not reported",
+              "boundary_correspondence": "not reported",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "energy_vector_other_verbatim": "thermal energy",
+              "searched_terms": [
+                "fuel",
+                "thermal",
+                "natural gas",
+                "meter"
+              ]
+            }
+          ],
+          "C6_re_estimation": {
+            "regime": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "re-estimate",
+                "update",
+                "interval",
+                "rolling"
+              ]
+            },
+            "update_status": {
+              "value": "proposed",
+              "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+              "page": 6,
+              "support_class": "direct statement"
+            },
+            "trigger_verbatim": {
+              "value": "the amount of energy consumption tends to change over times",
+              "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+              "page": 6,
+              "support_class": "direct statement"
+            }
+          },
+          "C7_validity_envelope": {
+            "statement": {
+              "value": "not stated",
+              "evidence_quote": null,
+              "page": null,
+              "support_class": "absence checked",
+              "absence_basis": "searched full text",
+              "searched_terms": [
+                "range",
+                "validity",
+                "applicable",
+                "bounds"
+              ]
+            }
+          },
+          "C8_metrics": {
+            "in_sample_fit": {
+              "status": {
+                "value": "reported",
+                "evidence_quote": "𝑅2 \n0.788 \n0.931 \n 0.928",
+                "page": 4,
+                "support_class": "direct statement"
+              },
+              "metrics": [
+                {
+                  "metric": "R2",
+                  "value": 0.788,
+                  "period_or_context": "electric energy SEC",
+                  "evidence_quote": "0.788",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R2",
+                  "value": 0.931,
+                  "period_or_context": "thermal energy SEC",
+                  "evidence_quote": "0.931",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "R2",
+                  "value": 0.928,
+                  "period_or_context": "total energy SEC",
+                  "evidence_quote": "0.928",
+                  "page": 4,
+                  "support_class": "direct statement"
+                },
+                {
+                  "metric": "prediction accuracy vs actual (±10%)",
+                  "value": "similar to BEC (within ±10 %)",
+                  "period_or_context": "predicted vs actual SEC, base year data",
+                  "evidence_quote": "The prediction of SEC also gives a similar result as BEC, as shown in Figure 3 \n(d-f).",
+                  "page": 4,
+                  "support_class": "requires inference"
+                }
+              ]
+            },
+            "out_of_sample_validation": {
+              "status": {
+                "value": "not reported",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "searched full text",
+                "searched_terms": [
+                  "validation",
+                  "hold-out",
+                  "cross-validation",
+                  "test set"
+                ]
+              },
+              "metrics": [],
+              "validation_design": {
+                "value": "in-sample residual analysis only (NOT out-of-sample)",
+                "evidence_quote": "The prediction of SEC also gives a similar result as BEC, as shown in Figure 3 \n(d-f).",
+                "page": 4,
+                "support_class": "requires inference"
+              }
+            },
+            "energy_result": {
+              "status": {
+                "value": "not applicable",
+                "evidence_quote": null,
+                "page": null,
+                "support_class": "absence checked",
+                "absence_basis": "field meaningless here"
+              },
+              "metrics": []
+            }
+          },
+          "C12_method_data_requirements": [
+            "Independent variables ought to be accumulated regularly and be able to be measured"
+          ]
+        }
+      ],
+      "sector_registered": {
+        "value": "glass",
+        "evidence_quote": "Thailand Standard Industrial Classification (TSIC 2009) classifies the container glass and tableware glass \nindustry as a nonmetallic sector by TSIC-ID as 23102.",
+        "page": 2,
+        "support_class": "direct statement"
+      }
+    }
+  ],
+  "mechanisms": [
+    {
+      "mechanism_id": "K1",
+      "refers_to": "paper-level argument",
+      "claim_status": "applied to the case",
+      "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+      "page": 6,
+      "support_class": "direct statement",
+      "mechanism_cause": "not stated",
+      "mechanism_effect_on_model": "baseline drift or expiry"
+    },
+    {
+      "mechanism_id": "K2",
+      "refers_to": "M1",
+      "claim_status": "empirically demonstrated",
+      "evidence_quote": "The other factory that produced handmade glass \ncontainers has an entirely different energy usage pattern from the other plants.",
+      "page": 4,
+      "support_class": "direct statement",
+      "mechanism_cause": "product mix or grade change",
+      "mechanism_effect_on_model": "cross-site comparability"
+    }
+  ],
+  "adaptations": [
+    {
+      "adaptation_id": "D1",
+      "adaptation": "outlier exclusion",
+      "status": "implemented",
+      "addresses_mechanism": "K2",
+      "normative_framing": "absent",
+      "evidence_quote": "The data from this factory \nexcluded from the analysis.",
+      "page": 4,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    },
+    {
+      "adaptation_id": "D2",
+      "adaptation": "other",
+      "adaptation_other_verbatim": "periodic adjustment of BEC and SEC baseline as energy consumption changes over time",
+      "status": "proposed",
+      "addresses_mechanism": "K1",
+      "normative_framing": "absent",
+      "evidence_quote": "However, the amount of energy \nconsumption tends to change over times. BEC and SEC baseline should also be adjusted accordingly.",
+      "page": 6,
+      "support_class": "direct statement",
+      "refers_to": "A1"
+    }
+  ],
+  "study_limitations": [
+    {
+      "limitation": "sample coverage",
+      "also_constrains_model": true,
+      "evidence_quote": "This research analyzed only 14 of 15 participating factories.",
+      "page": 4,
+      "searched_terms": [
+        "only",
+        "excluded",
+        "not all",
+        "coverage"
+      ]
+    }
+  ],
+  "implementation_barriers": [],
+  "C13_reproducibility": {
+    "equations_given": {
+      "value": "yes",
+      "evidence_quote": "𝐵𝐸𝐶= 𝑎1(𝑥1) + 𝑎2(𝑥2) + 𝑎3(𝑥3) + 𝑎4(𝑥1)(𝑥2)(𝑥3) + 𝑎5(𝑥1",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "coefficients_given": {
+      "value": "yes",
+      "evidence_quote": "Table 2. Constants for BEC equation.",
+      "page": 4,
+      "support_class": "direct statement"
+    },
+    "data_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "data availability",
+        "supplementary",
+        "dataset",
+        "available"
+      ]
+    },
+    "code_available": {
+      "value": "not reported",
+      "evidence_quote": null,
+      "page": null,
+      "support_class": "absence checked",
+      "absence_basis": "searched full text",
+      "searched_terms": [
+        "code",
+        "script",
+        "repository",
+        "GitHub"
+      ]
+    }
+  },
+  "reviewer_notes": "The paper frames BEC and SEC as single models each spanning electricity/thermal/total energy ('the BEC relationship model consisting of electricity, thermal, and total energy'); modelled as M1 (BEC) and M2 (SEC) with per-vector R2 recorded in the metrics arrays. Estimation method not named beyond 'statistical software'/'regression analysis'. n_observations recorded as 14 factories (requires inference) — the regression uses average monthly 2016-2017 data across the 14 analysed plants, but the exact number of data points fed to the regression is not explicitly stated. The ±10% comparison is between predicted and actual values on the base-year data used to build the model, hence recorded as in-sample; no held-out validation is reported.",
+  "absence_declarations": {
+    "mechanisms": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "assumption",
+        "drift",
+        "adjust",
+        "different pattern",
+        "excluded",
+        "limitation"
+      ]
+    },
+    "adaptations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "adjust",
+        "excluded",
+        "segment",
+        "update",
+        "reference"
+      ]
+    },
+    "study_limitations": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "only",
+        "excluded",
+        "not all",
+        "limitation",
+        "future"
+      ]
+    },
+    "implementation_barriers": {
+      "searched": true,
+      "basis": "searched full text",
+      "searched_terms": [
+        "barrier",
+        "training",
+        "cost",
+        "staff",
+        "maintenance",
+        "non-technical"
+      ]
+    }
+  },
+  "attempt": 1
+}

@@ -1,0 +1,118 @@
+{
+  "record_type": "initial_extraction",
+  "paper_key": "rayyan-472536502",
+  "schema_version": "2.2.1",
+  "validation_protocol": "C-2.3",
+  "prompt_tag": "v2.3.1-operational",
+  "attempt": 1,
+  "completed_at": "2026-08-08T13:04:43Z",
+  "stage1": {
+    "methodological_eligibility": {
+      "value": true,
+      "evidence_quote": "The study also discusses on energy performance indicators in the form of Energy Consumption Intensity (ECI) or Specific Energy Consumption (SEC) of each equipment, and the ideal energy baseline value in operating a fuel terminal facility.",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "ineligibility_reason": null,
+    "borderline_review_synthesis_eligibility": false,
+    "paper_type": {
+      "value": "single applied case",
+      "evidence_quote": "This research was conducted at the Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group as one of the busiest TBBMs and a high level of complexity among existing fuel terminals in Sumatra.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "level_3b": {
+      "value": false,
+      "evidence_quote": "Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.97
+    },
+    "notes": "The empirical setting is a fuel distribution terminal, not petroleum refining or another sector in the closed Level 3B list."
+  },
+  "stage2": {
+    "multi_site": {
+      "value": false,
+      "evidence_quote": "This research was conducted at the Medan Labuhan Deli Fuel Oil Terminal (TBBM) Group as one of the busiest TBBMs and a high level of complexity among existing fuel terminals in Sumatra.",
+      "page": 4,
+      "non_contiguous_evidence": false,
+      "confidence": 0.96
+    },
+    "country_region": {
+      "value": "North Sumatera province of Indonesia",
+      "evidence_quote": "a case study in North Sumatera province of Indonesia",
+      "page": 1,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "sector_of_activity": {
+      "value": "fuel terminal",
+      "evidence_quote": "real data about the condition of energy use in the fuel terminal",
+      "page": 3,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "type_of_organisation": {
+      "value": "services",
+      "evidence_quote": "the production or process of fuel distribution is not the main driver (main driving factor) in electrical energy consumption at this plant.",
+      "page": 9,
+      "non_contiguous_evidence": false,
+      "confidence": 0.72
+    },
+    "ems_standard": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "mv_protocol": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.99
+    },
+    "regulatory_driver": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.94
+    },
+    "enpi_enb_model_types": {
+      "value": [
+        "SEC mean",
+        "other"
+      ],
+      "evidence_quote": [
+        "Table 2 and figure 1 show the specific energy consumption (SEC) values for main daily activities, which is the average EEC is around 0.0023 GJ/KL during 2018.",
+        "y = 2000000 x-1.688"
+      ],
+      "page": [
+        4,
+        5
+      ],
+      "non_contiguous_evidence": true,
+      "confidence": 0.95
+    },
+    "complementary_methodologies": {
+      "value": [
+        "none"
+      ],
+      "evidence_quote": null,
+      "page": null,
+      "non_contiguous_evidence": false,
+      "confidence": 0.98
+    }
+  },
+  "stage3": null
+}
