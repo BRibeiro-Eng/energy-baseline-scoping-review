@@ -2,7 +2,7 @@
 
 This repository holds the records, instruments, code and derived results of the scoping review
 
-> Ribeiro, B.; Miranda, N.; Eusébio, M. *Energy Baseline Validity in Continuous Process Industries: A Scoping Review and Implications for Emission-Reduction Claims*. Submitted to *Advances in Carbon Neutrality* (MDPI), 2026.
+> Ribeiro, B.; Miranda, N.; Eusébio, M. *Energy Baseline Validity in Continuous Process Industries: A Scoping Review and Implications for Emission-Reduction Estimates*. Submitted to *Advances in Carbon Neutrality* (MDPI), 2026.
 
 The protocol was registered on the Open Science Framework on 24 February 2026 (DOI [10.17605/OSF.IO/TDW6C](https://doi.org/10.17605/OSF.IO/TDW6C)). The registration and its amendments stay on OSF; this package holds what was produced while executing them. `docs/registration.md` lists every registered file with its OSF identifier and SHA-256.
 
@@ -12,22 +12,23 @@ The protocol was registered on the Open Science Framework on 24 February 2026 (D
 
 | Article | What | File(s) |
 |---|---|---|
-| §3.2, Fig. 1 | 1478 records (Scopus 954, Web of Science 524); 925 after deduplication | `docs/prisma/PRISMA_FLOW_2026-09-17.md`, `data/01-search/` |
-| §4.1, Fig. 1 | 925 screened, 326 excluded at title/abstract | `data/02-screening/records_screened.csv` (`screening_decision`) |
+| §3.2, Fig. 2 | 1478 records (Scopus 954, Web of Science 524); 925 after deduplication | `docs/prisma/PRISMA_FLOW_2026-09-17.md`, `data/01-search/` |
+| §4.1, Fig. 2 | 925 screened, 326 excluded at title/abstract | `data/02-screening/records_screened.csv` (`screening_decision`) |
 | §3.3–3.4 | 82 blind adjudications of divergent eligibility/membership decisions | `data/03-eligibility/tier1-adjudications/records/` |
 | §3.3, §4.1 | Corpus A = 331, Corpus B = 40 (39 charted), 13 exploratory cases | `data/03-eligibility/corpora.csv`; `docs/corpus-decisions/CORPUS_CLOSURE_2026-09-12.md` |
 | §3.4 (D6) | Corpus B false-negative control | `data/03-eligibility/false-negative-census/` |
 | §4.2 (SQ1) | Corpus A distributions (e.g. ISO 50001 family, M&V protocols, model families) | `results/corpus-a/tables/*.csv`, figures in `results/corpus-a/figures/` |
 | §3.4, D15 | Agreement rule between the two model extractions; which cells enter the analysis | `data/04-extraction-corpus-a/reconciliation/cell_provenance.csv`; extractions in `data/04-extraction-corpus-a/{claude,chatgpt}/validated/` |
-| §4.3–4.7 | Corpus B: 46 applications, 140 models, 163 measurement entries, 130 mechanism and 88 adaptation occurrences | `data/05-extraction-corpus-b/records/`; aggregated in `results/corpus-b/tabelas_cap3_2026-09-18.json` by `code/corpus-b-tables/tabelas_cap3.py` |
-| §3.4 (D7) | Model re-reading of 368 quoted cells: 234 confirmed, 111 corrected, 18 removed, 5 retained | `data/05-extraction-corpus-b/model-reread-2026-09/verifier/decisoes_2026-09-17.json` |
-| §3.5, §4.8, Tables 7–8 | Checks added after the first analysis (D13, D11, D7-A/B/C, D10) | `data/06-late-verification/` (`resultados.json`, `RESULTS.md`, decision logs in `responses/`) |
-| §4.4, §4.7 | Corrections applied after the census of absences (e.g. out-of-sample results, data availability 4 + 4) | `data/06-late-verification/responses/d7a.jsonl` (decision `c_missed`) |
+| §4.3–4.7, Tables S2a–S2f | Corpus B: 46 applications, 140 models, 163 measurement entries, 130 mechanism and 88 adaptation occurrences, in the analysed state | `results/supplementary/S2*.csv`, built from `data/05-extraction-corpus-b/records/` by `code/supplementary/make_supplementary.py` |
+| §3.4 (D7) | Model re-reading of 368 quoted values: 234 confirmed, 111 corrected, 18 removed, 5 retained | `data/05-extraction-corpus-b/model-reread-2026-09/verifier/decisoes_2026-09-17.json` |
+| §3.5, §4.8, Table 7, Fig. 5 | Checks added after the first analysis (D13, D11, D7-A/B/C, D10) | `data/06-late-verification/` (`resultados.json`, `RESULTS.md`, decision logs in `responses/`) |
+| §4.4, §4.7 | Corrections from the full-text search for omissions (e.g. out-of-sample results, data availability 4 + 4) | `data/06-late-verification/responses/d7a.jsonl` (decision `c_missed`); applied values in `results/supplementary/S2f_corrections.csv` |
 | Figures | TikZ sources of the manuscript figures | `results/manuscript-figures/` |
 | §4.7–4.8, Fig. 3, Table A4 | Values adopted from the reading of the 13 refinery reports | `data/06-late-verification/d7c_adoption.json` |
 | Table A2 | Deviations D1–D17 | `docs/deviations.md` |
+| Tables S1–S3 | Supplementary tables of the article (search strings; Corpus B records; Corpus A agreed values) | `results/supplementary/` (CSV and workbook) |
 
-The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The article applies to them the corrections recorded in `data/06-late-verification/`; `docs/deviations.md` and `RESULTS.md` say which numbers changed.
+The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The state analysed in the article is rebuilt by `code/supplementary/make_supplementary.py`: it applies the September decisions and the corrections of the later checks to the records, checks 27 counts of the article, and writes Tables S1–S3 (`results/supplementary/`).
 
 ## Layout
 
@@ -47,7 +48,9 @@ code/
   bibliometrics/             Corpus A analysis package
   corpus-b-tables/           Corpus B aggregation and evidence-map scripts
   late-verification/         task builder, local review bench, report generator
-results/       Corpus A tables and figures, Corpus B tables, manuscript figure sources
+  verification_v1/           applies the September 2026 verification decisions to the Corpus B records
+  supplementary/             builds the analysed Corpus B state and Tables S1–S3, with checks against the article
+results/       Corpus A tables and figures, Corpus B tables, manuscript figure sources, supplementary tables S1–S3
 provenance/    source map with SHA-256 of every source file, source commits, checksums, exclusions
 ```
 
@@ -67,7 +70,7 @@ Where a document was translated, the English file carries a header naming the or
 
 - `provenance/checksums.sha256`: SHA-256 of every file in the package (`sha256sum -c provenance/checksums.sha256`).
 - `provenance/source-map.tsv`: for each file, the source path in the working directory of the review and the source file's SHA-256 (different from the package file only where a transform was applied; transforms are listed in `provenance/build-report.json`).
-- The amendment of 16 October 2026 (`docs/amendments/`) and its term list match the files deposited on OSF (`2zgx8`, `yn2mh`); `data/06-late-verification/tasks/MANIFEST.json` records the SHA-256 of every task file, the seed and the amendment hash.
+- Amendment 3 of 16 October 2026 (`docs/amendments/`) and its term list match the files deposited on OSF (`2zgx8`, `yn2mh`); `data/06-late-verification/tasks/MANIFEST.json` records the SHA-256 of every task file, the seed and the amendment hash.
 
 ## Use of language models
 

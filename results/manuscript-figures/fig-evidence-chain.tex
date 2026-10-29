@@ -1,52 +1,42 @@
-% Proposed figure (review_agent2, 2026-10-29): "Evidence along the measurement chain".
-% Replaces Figure 3 (fig-conditions) and absorbs Figure 5 (fig-refinery-map) as its right-hand block;
-% visualises the "related charted field" column of Table 9.
-% Requires figures/style.tex (colours corDestaque, corDestaqueC, corFundo, corCinza, corCinzaC, corTinta).
-% Pure TikZ; natural width about 17.6 cm, so use inside adjustwidth{-\extralength}{0cm} WITHOUT \resizebox.
+% Figure 3: reported evidence by reporting consideration (Table 8), for all of Corpus B (bars)
+% and for the 13 refinery and petrochemical publications (matrix). Requires figures/style.tex.
+% Pure TikZ, natural width about 17.6 cm: use inside adjustwidth{-\extralength}{0cm}, without \resizebox.
 %
-% Sources of every number (manuscript v. 29 Oct 2026):
-%   (i)   35 of 163 measurement entries exact; 11 articles ............ Section 4.4, Table 9 (i)
-%   (ii)  feed quality used as variable in 4 of 39 articles, discussed
-%         without use in 5 more; load sole normaliser in 78 of 140 ...... Section 4.3, Table 5, Table 9 (ii)
-%   (iii) validity domain 19 of 140 models: 13 numerical, 6 qualitative .. Section 4.4, Figure 3
-%   (iv)  re-estimation regime 24 of 140 models, 9 articles ............. Section 4.4, Figure 3  (Table 9 says 23: fix)
-%   (v)   out-of-sample result 15 of 140 models, 5 articles; 49 with
-%         fit on training data; later time blocks 0 ..................... Section 4.4, Figure 3
-%   (vi)  uncertainty / band calibration: not charted ..................... Table 9 (vi)
-%   (vii) equations 24 of 39 (+9 partly); code 0 of 39 (+1 partly) ....... Section 4.4, Table 9 (vii)
-%   Refinery block: codes E/D/Q/B/R/n.a. per publication ................. Figure 5 / Table A4 (fig-refinery-map.tex)
-%   Refinery "later time blocks": none in any of the 13 reports .......... Table 7 (refinery map row), Section 4.8
-%   Group membership of the 13 publications ............................. Section 4.7 (three groups)
+% Sources of the numbers:
+%   (i)   35 of 163 measurement entries with exact boundary correspondence, in 11 articles (Section 4.4)
+%   (ii)  feed quality used as a variable in 4 of 39 articles, discussed without use in 5 more;
+%         load the only normalising variable in 78 of 140 models (Section 4.3)
+%   (iii) validity domain declared for 19 of 140 models: 13 numerical, 6 qualitative (Section 4.4)
+%   (iv)  re-estimation regime declared for 24 of 140 models, in 9 articles; 17 event-triggered (Section 4.4)
+%   (v)   out-of-sample result for 15 of 140 models, in 5 articles; none on later time blocks (Section 4.4)
+%   (vi)  uncertainty and band calibration: not charted
+%   (vii) equations in 24 of 39 articles (+9 partly); code in none (+1 partly) (Section 4.4)
+%   Matrix: strongest level declared among each publication's models (Table A4); groups as in Section 4.7
 \begin{tikzpicture}[x=1cm,y=-1cm,
-  ft/.style={font=\fontsize{6}{7}\selectfont},
-  rowlab/.style={font=\scriptsize,text=corTinta,anchor=east,align=right,inner sep=1pt},
-  cnt/.style={font=\scriptsize,text=corTinta,anchor=west,inner sep=1.5pt},
-  note/.style={ft,text=corCinza,anchor=north west,inner sep=1pt,text width=2.75cm,align=left,execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000}},
-  hdr/.style={font=\scriptsize\bfseries,text=corTinta,anchor=south west,inner sep=0pt},
+  ft/.style={font=\fontsize{7}{8.2}\selectfont},
+  rowlab/.style={font=\footnotesize,text=corTinta,anchor=east,align=right,inner sep=1pt},
+  cnt/.style={font=\footnotesize,text=corTinta,anchor=west,inner sep=1.5pt},
+  note/.style={ft,text=corCinza,anchor=north west,inner sep=1pt,text width=3.3cm,align=left,execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000}},
+  hdr/.style={font=\footnotesize\bfseries,text=corTinta,anchor=south west,inner sep=0pt},
   sub/.style={ft,text=corCinza,anchor=north west,inner sep=0pt,align=left},
-  link/.style={ft,draw=corCinza,line width=.5pt,rounded corners=1.2pt,fill=white,
-               text=corTinta,align=center,inner sep=1.5pt,text width=2.25cm},
-  linkh/.style={link,draw=corDestaque,line width=.7pt,fill=corDestaque!6},
   track/.style={fill=corFundo,draw=none},
   full/.style={fill=corDestaque,draw=none},
   part/.style={fill=corDestaqueC,draw=none},
   disc/.style={draw=corDestaque,dash pattern=on 1.2pt off 1pt,line width=.45pt,fill=white},
-  cpos/.style={fill=corDestaque,draw=white,line width=.8pt},
-  cposl/.style={fill=corDestaqueC,draw=white,line width=.8pt},
-  cunk/.style={fill=corFundo,draw=white,line width=.8pt},
+  cpos/.style={fill=corDestaque,draw=white,line width=.9pt},
+  cposl/.style={fill=corDestaqueC,draw=white,line width=.9pt},
+  cunk/.style={fill=corFundo,draw=white,line width=.9pt},
   cna/.style={fill=white,draw=corCinzaC,line width=.4pt,pattern=crosshatch,pattern color=corCinzaC},
   zero/.style={draw=corTinta,line width=.6pt,fill=white}]
 %
-% ---------------- geometry ----------------
-% spine 0..2.5 | row labels end at 6.5 | bars 6.65..10.15 (3.5 cm = 100 %) | counts 10.2..13.0 |
-% refinery matrix 13.25 + j*0.3 (13 columns) | refinery counts from 17.15
-\def\bx{6.65}\def\bw{3.5}\def\mx{13.25}\def\mw{0.3}
+% geometry: row labels end at \lx | bars \bx..\bx+\bw (100 %) | counts and notes | matrix \mx + j*\mw (13 columns)
+\def\lx{4.75}\def\bx{4.9}\def\bw{3.9}\def\mx{12.3}\def\mw{0.36}
 %
 % ---------------- column headers ----------------
-\node[hdr,anchor=south east] at (6.5,-0.8) {Reporting consideration (Table 9)};
-\node[hdr] at (\bx,-0.8) {All Corpus B};
-\node[sub] at (\bx,-0.72) {share of the stated unit; marginal, not cumulative};
-\node[hdr] at (\mx,-0.8) {Refinery and petrochemical (13)};
+\node[hdr,anchor=south east] at (\lx,-0.85) {Reporting consideration (Table~\ref{tab:considerations})};
+\node[hdr] at (\bx,-0.85) {All Corpus B};
+\node[sub] at (\bx,-0.76) {share of the stated unit; marginal, not cumulative};
+\node[hdr] at (\mx,-0.85) {Refinery and petrochemical (13)};
 \foreach \p/\t in {0/0, 0.5/50, 1/100} {
   \draw[corCinzaC,line width=.3pt] (\bx+\p*\bw,0.0) -- (\bx+\p*\bw,8.95);
   \node[ft,text=corCinza,anchor=north] at (\bx+\p*\bw,8.95) {\t\%};}
@@ -60,25 +50,16 @@
    Almanza 2025, Ikeyama 2017, Hashim 2019, Maggiore 2020, Hashim 2022}
   \node[ft,text=corTinta,rotate=60,anchor=east,inner sep=0pt] at (\mx+\j*\mw+0.6*\mw,6.12) {\n};
 %
-% ---------------- chain spine (Figure 1 vocabulary; italic = tacit assumption) ----------------
-\node[link]  (s1) at (1.25,0.5) {Energy metered at the model boundary};
-\node[link]  (s2) at (1.25,1.5) {Relevant variables\\\emph{sufficiency}};
-\node[linkh] (s3) at (1.25,2.5) {EnB in baseline period\\\emph{form, representativeness}};
-\node[linkh,minimum height=2.75cm] (s4) at (1.25,4.5) {Expected energy in the reporting period\\[2pt]\emph{transportability}};
-\node[link]  (s5) at (1.25,6.5) {Savings, deviations\\\emph{calibration, detectability}};
-\node[link,draw=corCinzaC,text=corCinza,minimum height=1.75cm] (s6) at (1.25,8.0) {Documentation of the whole chain};
-\foreach \a/\b in {s1/s2,s2/s3,s3/s4,s4/s5} \draw[ntsetaf] (\a.south) -- (\b.north);
-%
 % ---------------- row labels ----------------
-\node[rowlab] at (6.5,0.5) {(i) Exact boundary correspondence};
-\node[rowlab] at (6.5,1.5) {(ii) Feed quality used as a variable};
-\node[rowlab] at (6.5,2.5) {(iii) Validity domain declared};
-\node[rowlab] at (6.5,3.5) {(iv) Re-estimation regime declared};
-\node[rowlab] at (6.5,4.5) {(v) Out-of-sample result reported};
-\node[rowlab] at (6.5,5.5) {of which on later time blocks};
-\node[rowlab] at (6.5,6.5) {(vi) Uncertainty, band calibration};
-\node[rowlab] at (6.5,7.5) {(vii) Full model equations};
-\node[rowlab] at (6.5,8.5) {Code available};
+\node[rowlab] at (\lx,0.5) {(i) Exact boundary correspondence};
+\node[rowlab] at (\lx,1.5) {(ii) Feed quality used as a variable};
+\node[rowlab] at (\lx,2.5) {(iii) Validity domain declared};
+\node[rowlab] at (\lx,3.5) {(iv) Re-estimation regime declared};
+\node[rowlab] at (\lx,4.5) {(v) Out-of-sample result reported};
+\node[rowlab] at (\lx,5.5) {of which on later time blocks};
+\node[rowlab] at (\lx,6.5) {(vi) Uncertainty, band calibration};
+\node[rowlab] at (\lx,7.5) {(vii) Full model equations};
+\node[rowlab] at (\lx,8.5) {Code available};
 %
 % ---------------- Corpus B bars: share of the stated denominator ----------------
 \newcommand{\evbar}[3]{%
@@ -86,19 +67,19 @@
   \path[full]  (\bx,#1-0.8) rectangle (\bx+#2*\bw,#1-0.3);
   \path[part]  (\bx+#2*\bw,#1-0.8) rectangle (\bx+#2*\bw+#3*\bw,#1-0.3);}
 \newcommand{\evcnt}[4]{% row, bold count, rest, note
-  \node[cnt] at (\bx+\bw,#1-0.62) {\textbf{#2}#3};
-  \node[note] at (\bx+\bw+0.05,#1-0.45) {#4};}
+  \node[cnt] at (\bx+\bw,#1-0.64) {\textbf{#2}#3};
+  \node[note] at (\bx+\bw+0.05,#1-0.44) {#4};}
 \evbar{1}{35/163}{0}      \evcnt{1}{35}{/163 entries}{in 11 of 39 articles}
 \evbar{2}{4/39}{0}
 \path[disc] (\bx+4/39*\bw,1.2) rectangle (\bx+9/39*\bw,1.7);
-                          \evcnt{2}{4}{/39 articles}{+5 discussed, not used; load alone in 78/140 models}
+                          \evcnt{2}{4}{/39 articles}{+5 discussed, not used; load alone: 78/140 models}
 \evbar{3}{13/140}{6/140}  \evcnt{3}{19}{/140 models}{13 numerical (dark), 6 qualitative}
 \evbar{4}{24/140}{0}      \evcnt{4}{24}{/140 models}{in 9 articles; 17 event-triggered}
 \evbar{5}{15/140}{0}      \evcnt{5}{15}{/140 models}{in 5 articles; split random or not described}
 \path[track] (\bx,5.2) rectangle (\bx+\bw,5.7);
 \draw[zero] (\bx,5.45) circle (1.6pt);
 \node[ft,text=corCinza,anchor=west] at (\bx+0.08,5.45) {none described};
-                          \evcnt{6}{0}{/140 models}{checked by full-text search}
+                          \evcnt{6}{0}{/140 models}{checked in the full texts}
 \path[draw=corCinzaC,dash pattern=on 1.5pt off 1.2pt,line width=.4pt] (\bx,6.2) rectangle (\bx+\bw,6.7);
 \node[ft,text=corCinza] at (\bx+0.5*\bw,6.45) {\itshape not charted};
 \evbar{8}{24/39}{9/39}    \evcnt{8}{24}{/39 articles}{+9 partly (light)}
@@ -106,31 +87,32 @@
 \draw[zero] (\bx,8.45) circle (1.6pt);
                           \evcnt{9}{0}{/39 articles}{+1 partly (light)}
 %
-% ---------------- refinery matrix: Figure 5 transposed ----------------
-% P positive (E, D, B or R) | L qualitative domain (Q) | U positive evidence not established | N not applicable
+% ---------------- refinery matrix ----------------
+% P positive (exact boundary, declared regime, numerical domain bounds, out-of-sample result)
+% L qualitative domain | U not reported or not established | N not applicable as coded
 \newcommand{\evrow}[2]{%
   \foreach \c [count=\j from 0] in {#2} {
     \if\c P \path[cpos]  (\mx+\j*\mw,#1-0.85) rectangle ++(\mw,0.6);
     \else\if\c L \path[cposl] (\mx+\j*\mw,#1-0.85) rectangle ++(\mw,0.6);
-    \else\if\c N \path[cna] (\mx+\j*\mw+0.03,#1-0.81) rectangle ++(\mw-0.06,0.52);
+    \else\if\c N \path[cna] (\mx+\j*\mw+0.04,#1-0.81) rectangle ++(\mw-0.08,0.52);
     \else \path[cunk] (\mx+\j*\mw,#1-0.85) rectangle ++(\mw,0.6);
     \fi\fi\fi}}
-\evrow{1}{U,U,U,P,U,P,U,U,P,U,U,U,U}   % boundary: E
-\evrow{3}{U,L,U,P,U,U,U,U,U,U,U,U,U}   % validity domain: Q light, B dark
-\evrow{4}{U,P,U,P,U,P,U,U,U,U,P,U,U}   % re-estimation regime: D
-\evrow{5}{P,U,P,U,P,U,U,U,U,U,N,N,N}   % out-of-sample: R
-\evrow{6}{U,U,U,U,U,U,U,U,U,U,U,U,U}   % later time blocks: none (Table 7)
+\evrow{1}{U,U,U,P,U,P,U,U,P,U,U,U,U}   % (i) boundary
+\evrow{3}{U,L,U,P,U,U,U,U,U,U,U,U,U}   % (iii) validity domain
+\evrow{4}{U,P,U,P,U,P,U,U,U,U,P,U,U}   % (iv) re-estimation regime
+\evrow{5}{P,U,P,U,P,U,U,U,U,U,N,N,N}   % (v) out-of-sample
+\evrow{6}{U,U,U,U,U,U,U,U,U,U,U,U,U}   % later time blocks: none
 \foreach \r/\t in {1/{3}, 3/{2}, 4/{4}, 5/{3/10}, 6/{0}}
   \node[cnt] at (\mx+13*\mw,\r-0.55) {\t};
-\foreach \a in {4,8} \draw[white,line width=1.8pt] (\mx+\a*\mw,0.1) -- (\mx+\a*\mw,5.9);
-\node[ft,text=corCinza,anchor=west] at (\mx,1.45) {\itshape field not in the refinery map};
+\foreach \a in {4,8} \draw[white,line width=2pt] (\mx+\a*\mw,0.1) -- (\mx+\a*\mw,5.9);
+\node[ft,text=corCinza,anchor=west] at (\mx,1.45) {\itshape not in the refinery matrix};
 %
 % ---------------- legend ----------------
-\begin{scope}[shift={(2.6,9.55)}]
-  \path[full] (0,-0.09) rectangle ++(0.3,0.18);    \node[ft,text=corCinza,anchor=west] at (0.33,0) {reported};
-  \path[part] (1.6,-0.09) rectangle ++(0.3,0.18);  \node[ft,text=corCinza,anchor=west] at (1.93,0) {partly reported, or qualitative domain};
-  \path[disc] (5.75,-0.09) rectangle ++(0.3,0.18); \node[ft,text=corCinza,anchor=west] at (6.08,0) {discussed, not used};
-  \path[cunk,draw=corCinzaC,line width=.3pt] (8.3,-0.09) rectangle ++(0.3,0.18); \node[ft,text=corCinza,anchor=west] at (8.63,0) {not reported, or not established};
-  \path[cna] (11.75,-0.09) rectangle ++(0.3,0.18); \node[ft,text=corCinza,anchor=west] at (12.08,0) {not applicable as coded};
+\begin{scope}[shift={(0.2,9.75)}]
+  \path[full] (0,-0.1) rectangle ++(0.34,0.2);    \node[ft,text=corCinza,anchor=west] at (0.38,0) {reported};
+  \path[part] (1.75,-0.1) rectangle ++(0.34,0.2);  \node[ft,text=corCinza,anchor=west] at (2.13,0) {partly reported, or qualitative domain};
+  \path[disc] (6.45,-0.1) rectangle ++(0.34,0.2); \node[ft,text=corCinza,anchor=west] at (6.83,0) {discussed, not used};
+  \path[cunk,draw=corCinzaC,line width=.3pt] (9.3,-0.1) rectangle ++(0.34,0.2); \node[ft,text=corCinza,anchor=west] at (9.68,0) {not reported, or not established};
+  \path[cna] (13.35,-0.1) rectangle ++(0.34,0.2); \node[ft,text=corCinza,anchor=west] at (13.73,0) {not applicable as coded};
 \end{scope}
 \end{tikzpicture}

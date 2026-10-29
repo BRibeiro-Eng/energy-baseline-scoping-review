@@ -30,3 +30,5 @@ The files keep the working names used while the review was carried out; the arti
 | title/abstract exclusion audit (check a) | module `d13` |
 | check of publications wrongly left out of Corpus B | false-negative census / control |
 | Corpus B membership | `level_3b` |
+| blind adjudication of divergent eligibility and membership decisions | Tier-1 adjudication (`tier1-adjudications/`) |
+| Amendments 1, 2 and 3 | C-2.3 validation protocol (23 July 2026); Stage C amendment (13 September 2026); amendment of 16 October 2026 |

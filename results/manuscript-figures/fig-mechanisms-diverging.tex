@@ -1,8 +1,8 @@
-% Proposed replacement for figures/fig-mechanisms.tex (review_agent2, 2026-10-29).
-% Diverging layout: general statements (what the literature repeats) to the LEFT of zero;
-% applied + demonstrated statements (claims about the study's own model) to the RIGHT.
-% Rows sorted by non-general occurrences; "Other" moved to the bottom. Numbers: Table A3 (unchanged).
-% Columns: label / general / applied / demonstrated / articles with a non-general occurrence (Table A3, last column)
+% Figure 4: Corpus B mechanisms by effect on the model and claim status. Requires figures/style.tex.
+% General statements (what the literature repeats) to the left of zero; statements about the study's own
+% model (applied, demonstrated) to the right. Rows sorted by non-general occurrences; "Other" last.
+% Numbers: Table A3, after the corrections of the sampled verification (check d).
+% Columns: label / general / applied / demonstrated / articles with a non-general occurrence
 \begin{tikzpicture}[x=0.36cm,y=-0.46cm,
   ft/.style={font=\fontsize{6.5}{7.5}\selectfont},
   lab/.style={font=\scriptsize,text=corTinta,anchor=east,inner sep=1pt},
@@ -17,23 +17,23 @@
     \node[ft,text=corTinta,anchor=north] at (\t,12.65) {\a};}
   \node[font=\scriptsize,text=corTinta,anchor=north] at (0,13.45) {Occurrences (of 130)};
   % side headers
-  \node[ft,text=corCinza,anchor=south east,align=right] at (-0.4,-0.35) {\textbf{General}: statements about\\methods in principle (50)};
-  \node[ft,text=corCinza,anchor=south west,align=left] at (0.4,-0.35) {\textbf{About the study's own model}:\\demonstrated (28) and applied (52)};
+  \node[ft,text=corCinza,anchor=south east,align=right] at (-0.4,-0.35) {\textbf{General}: statements about\\methods in principle (51)};
+  \node[ft,text=corCinza,anchor=south west,align=left] at (0.4,-0.35) {\textbf{About the study's own model}:\\demonstrated (27) and applied (52)};
   \node[ft,text=corCinza,anchor=south] at (18.6,-0.35) {Articles\textsuperscript{a}};
   % rows
   \foreach \lbl/\g/\ap/\d/\art [count=\i from 0] in {
-      {Indicator meaningless as defined}/10/8/6/13,
+      {Indicator meaningless as defined}/10/7/6/12,
       {Unmeasured quantity}/0/9/1/9,
-      {Comparability between installations}/6/7/2/8,
+      {Comparability between installations}/6/8/1/8,
       {Statistical misspecification}/13/3/5/7,
       {Missing, wrong or discontinuous data}/1/5/3/5,
-      {Non-stationarity of the relationship}/2/5/1/6,
       {Base or non-productive load}/5/0/5/3,
+      {Non-stationarity of the relationship}/2/4/0/4,
       {Validity domain exceeded}/1/2/1/3,
       {Allocation between products}/5/3/0/2,
       {Baseline drift or obsolescence}/5/1/1/2,
       {Series too short}/1/0/0/0,
-      {Other}/1/9/3/9} {
+      {Other}/2/10/4/11} {
     \pgfmathsetmacro{\y}{\i<11 ? \i : \i+0.5}% gap before "Other"
     \node[lab] at (-14.6,\y) {\lbl};
     % general (left)

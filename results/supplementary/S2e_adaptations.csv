@@ -1,0 +1,89 @@
+Report,Record key,Adaptation,Refers to,Type,"Type (verbatim, if other)",State,Addresses mechanism,Normative framing,Page,Support
+Almanza and Leon-De-Los-Santos (2025),rayyan-472535351,D1,M1,additional normalisation variable,,implemented,K4,ISO 50001/50006 explicit,7,direct statement
+Andersson et al. (2021),rayyan-472535480,D1,M1,segmented baseline,,proposed,K3,implicit,7,direct statement
+Andersson et al. (2021),rayyan-472535480,D2,M2,additional normalisation variable,,implemented,K5,ISO 50001/50006 explicit,5,direct statement
+Andersson et al. (2021),rayyan-472535480,D3,M1,improved metering,,proposed,,implicit,7,direct statement
+Bassetti et al. (2025),rayyan-472536358,D1,M3,segmented baseline,,proposed,,implicit,13,direct statement
+Bassetti et al. (2025),rayyan-472536358,D2,M3,additional normalisation variable,,proposed,,implicit,15,direct statement
+Bassetti et al. (2025),rayyan-472536358,D3,M3,normalisation to a reference product,,proposed,,implicit,13,requires inference
+Beisheim et al. (2019),rayyan-472536532,D1,A1,additional normalisation variable,,implemented,,ISO 50001/50006 explicit,10,direct statement
+Beisheim et al. (2019),rayyan-472536532,D2,A1,outlier exclusion,,implemented,,absent,11,direct statement
+Beisheim et al. (2019),rayyan-472536532,D3,A1,weighted estimation,,implemented,,absent,18,direct statement
+Beisheim et al. (2019),rayyan-472536532,D4,A1,other,redefine the energy baseline of a process after retrofitting / re-evaluate the BDP after a period of time,proposed,K4,ISO 50001/50006 explicit,25,direct statement
+Beisheim et al. (2019),rayyan-472536532,D5,A1,other,nonlinear surrogate model composed of simple basis functions to overcome shortcomings of linear regression,implemented,K7,absent,17,direct statement
+Beisheim et al. (2020),rayyan-472535524,D1,M1,other,hierarchical bottom-up aggregation of process-level energy performance indicators and baselines to site/company level,implemented,,ISO 50001/50006 explicit,1,direct statement
+Beisheim et al. (2020),rayyan-472535524,D2,M1,additional normalisation variable,,implemented,K5,ISO 50001/50006 explicit,11,direct statement
+Beisheim et al. (2020),rayyan-472535524,D3,M1,other,use of different baseline model types (linear regression or artificial neural networks) within one aggregation system,proposed,,implicit,10,direct statement
+Benmakhlouf et al. (2025),rayyan-472535376,D1,M1,outlier exclusion,,implemented,,absent,4,direct statement
+Bonfà et al. (2017),rayyan-472536612,D1,A1,improved metering,,proposed,K8,absent,7,direct statement
+Bonfà et al. (2017),rayyan-472536612,D2,A1,segmented baseline,,proposed,,absent,7,direct statement
+Bonfà et al. (2017),rayyan-472536612,D3,A1,additional normalisation variable,,proposed,,absent,7,requires inference
+Bonfà et al. (2017),rayyan-472536612,D4,A1,other,clustering of enterprises before performing analysis cluster by cluster,proposed,,absent,8,direct statement
+Bonfà et al. (2017),rayyan-472536612,D5,A1,other,control charts and CUSUM for real-time monitoring of consumption,proposed,,implicit,8,direct statement
+Boyd (2017),rayyan-472536606,D1,M1,segmented baseline,,implemented,K8,absent,6,direct statement
+Boyd (2017),rayyan-472536606,D2,M1,additional normalisation variable,,implemented,K5,implicit,6,direct statement
+Boyd (2017),rayyan-472536606,D3,M2,other,stochastic frontier model to represent skewed efficiency distribution,evaluated,,absent,12,direct statement
+Boyd (2017),rayyan-472536606,D4,M1,weighted estimation,,implemented,,absent,13,direct statement
+Boyd (2017),rayyan-472536606,D5,M1,other,periodic re-benchmarking / update of the baseline (benchmark) year,implemented,,absent,21,direct statement
+Boyd and Zhang (2013),rayyan-472536694,D1,M1,other,modelling the error variance as a function of average kiln capacity (heteroscedastic variance),implemented,K2,absent,8,direct statement
+Boyd and Zhang (2013),rayyan-472536694,D2,M1,other,periodic update / re-estimation of the EPI benchmark using more recent data,evaluated,K3,absent,4,direct statement
+Boyd and Zhang (2013),rayyan-472536694,D3,M1,additional normalisation variable,,implemented,K6,absent,9,direct statement
+Boyd and Zhang (2013),rayyan-472536694,D4,M1,additional normalisation variable,,implemented,K5,absent,7,direct statement
+Boyd et al. (2016),rayyan-472536644,D1,M1,other,imputation of missing oxygen and scrap data using plant-specific ratios,implemented,K2,absent,6,direct statement
+Boyd et al. (2016),rayyan-472536644,D2,M1,additional normalisation variable,,implemented,K5,absent,11,direct statement
+Boyd et al. (2016),rayyan-472536644,D3,M1,additional normalisation variable,,implemented,K1,implicit,3,direct statement
+Bruni et al. (2021),rayyan-472536455,D1,A1,outlier exclusion,,implemented,,absent,8,direct statement
+Bruni et al. (2021),rayyan-472536455,D2,A1,segmented baseline,,implemented,,implicit,14,direct statement
+Bruni et al. (2021),rayyan-472536455,D3,A1,normalisation to a reference product,,implemented,,implicit,16,direct statement
+Bruni et al. (2021),rayyan-472536455,D4,M11,segmented baseline,,implemented,,implicit,22,direct statement
+Castrillón-Mendoza et al. (2013),rayyan-472535762,D1,M3,other,,proposed,,implicit,7,direct statement
+Castrillón-Mendoza et al. (2013),rayyan-472535762,D2,A1,other,identificación y estabilización de variables de control operacional por centro de costo de energía,implemented,,implicit,7,direct statement
+El-Maghraby et al. (2024),rayyan-472536226,D1,M6,normalisation to a reference product,,implemented,,implicit,5,direct statement
+El-Maghraby et al. (2024),rayyan-472536226,D2,A1,outlier exclusion,,implemented,,absent,3,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D1,A2,additional normalisation variable,,proposed,K3,absent,12,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D2,paper-level argument,other,tabular CUSUM control chart to ensure the model refers to the most recent and stable period,proposed,K9,absent,2,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D3,A2,other,complement SEC with the variable consumption ratio k or the marginal consumption c1 to separate the production-rate effect,implemented,K1,absent,10,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D4,paper-level argument,other,compare technologies at full capacity (nominal variable consumption ratio) to remove the effect of production level,proposed,K3,absent,10,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D5,M4,other,energy characterisation of the furnace using daily data instead of monthly data to capture the nonlinear behaviour,implemented,K8,absent,11,direct statement
+Giacone and Mancò (2012),rayyan-472535794,D6,paper-level argument,other,,proposed,K11,absent,12,direct statement
+González et al. (2012),rayyan-472535787,D1,M1,other,,proposed,,implicit,10,direct statement
+Guo et al. (2020),rayyan-472536501,D1,paper-level argument,other,SBM-DEA model setting preference weights for inputs and outputs,proposed,K1,absent,9,direct statement
+Hamedi and Mokhtar (2019),rayyan-472535550,D1,A1,additional normalisation variable,,implemented,,implicit,8,direct statement
+Hamedi and Mokhtar (2019),rayyan-472535550,D2,A1,outlier exclusion,,implemented,K8,absent,8,direct statement
+Hamedi and Mokhtar (2019),rayyan-472535550,D3,A1,other,comparison of ANN against MLR as alternative baseline models,evaluated,,absent,1,direct statement
+Hamedi and Mokhtar (2019),rayyan-472535550,D4,A1,other,,proposed,,implicit,13,direct statement
+Hamedi and Mokhtar (2019),rayyan-472535550,D5,A1,other,more advanced ANNs such as recurrent neural networks,proposed,,absent,14,direct statement
+Hashim et al. (2019),rayyan-472536551,D1,M1,other,development of dedicated computer programming models to minimise subjectivity of the self-assessment outcome and for document control,proposed,K2,absent,14,direct statement
+Ikeyama et al. (2017),rayyan-472535625,D1,M1,segmented baseline,,implemented,,implicit,5,requires inference
+Ikeyama et al. (2017),rayyan-472535625,D2,paper-level argument,other,"indicators shown as 'result of efforts' (based on ISO 50006), replacing plain specific energy consumption",proposed,K1,ISO 50001/50006 explicit,5,requires inference
+Khalid et al. (2024),rayyan-472535405,D1,paper-level argument,other,use of machine learning techniques to better assess the various EnPIs,proposed,,absent,6,direct statement
+Khalid et al. (2024),rayyan-472536379,D1,M2,additional normalisation variable,,evaluated,K2,implicit,5,direct statement
+Khalid et al. (2024),rayyan-472536379,D2,M1,improved metering,,proposed,K2,absent,6,requires inference
+Le-Anh (2023),rayyan-472536410,D1,A1,normalisation to a reference product,,implemented,K1,implicit,6,direct statement
+Le-Anh (2023),rayyan-472536410,D2,A1,segmented baseline,,implemented,,absent,7,direct statement
+Luknongbu and Assawamartbunlue (2021),rayyan-472536487,D1,A1,outlier exclusion,,implemented,K2,absent,4,direct statement
+Luknongbu and Assawamartbunlue (2021),rayyan-472536487,D2,A1,other,periodic adjustment of BEC and SEC baseline as energy consumption changes over time,proposed,K1,implicit,6,direct statement
+Maggiore et al. (2020),rayyan-472536518,D1,M1,other,,proposed,,implicit,10,direct statement
+Mahesthi et al. (2020),rayyan-472535532,D1,M6,additional normalisation variable,,proposed,K1,implicit,10,direct statement
+Moghadasi et al. (2025),rayyan-472535365,D1,M1,outlier exclusion,,implemented,K1,implicit,10,direct statement
+Moghadasi et al. (2025),rayyan-472535365,D2,A1,other,,implemented,,implicit,6,direct statement
+Morales et al. (2018),rayyan-472535582,D1,M1,outlier exclusion,,implemented,,absent,5,direct statement
+Ochoa et al. (2017),rayyan-472535649,D1,A1,outlier exclusion,,implemented,K1,implicit,4,direct statement
+Ochoa et al. (2017),rayyan-472535649,D2,A1,normalisation to a reference product,,implemented,K2,implicit,3,direct statement
+Ochoa et al. (2017),rayyan-472535649,D3,A1,other,"Software for tracking, measurement, and analysis of the energy performance",proposed,,implicit,5,direct statement
+Ottermann (2011),rayyan-472535797,D1,A1,improved metering,,implemented,K1,implicit,4,direct statement
+Pelser et al. (2018),rayyan-472535585,D1,A1,segmented baseline,,implemented,,implicit,22,direct statement
+Pelser et al. (2018),rayyan-472535585,D2,A1,improved metering,,proposed,K2,absent,23,direct statement
+Pelser et al. (2018),rayyan-472535585,D3,A1,rolling window,,implemented,,implicit,13,requires inference
+Pelser et al. (2018),rayyan-472535585,D4,A1,improved metering,,proposed,,absent,27,direct statement
+Scripcariu et al. (2021),rayyan-472536486,D1,M2,other,recomputing Energy Intensity using a weighted average production price to remove the distortion caused by product price changes,evaluated,K1,absent,4,direct statement
+Sivill et al. (2013),rayyan-472536693,D1,M1,other,modelling and simple simulation models for process operation,proposed,,absent,12,direct statement
+Sivill et al. (2013),rayyan-472536693,D2,paper-level argument,improved metering,,proposed,,absent,9,direct statement
+Tarasovskii and Petukhov (2014),rayyan-472535748,D1,M2,additional normalisation variable,,implemented,K4,implicit,4,direct statement
+Tarasovskii and Petukhov (2014),rayyan-472535748,D2,M3,online re-estimation,,implemented,K1,implicit,6,direct statement
+Tarasovskii and Petukhov (2014),rayyan-472535748,D3,M3,other,,implemented,K4,implicit,4,direct statement
+Velázquez et al. (2013),rayyan-472536695,D1,M1,outlier exclusion,,implemented,,absent,7,direct statement
+Velázquez et al. (2013),rayyan-472536695,D2,M1,additional normalisation variable,,evaluated,K1,implicit,7,direct statement
+Yao et al. (2016),rayyan-472535680,D1,M1,online re-estimation,,proposed,K1,implicit,7,direct statement
+Yao et al. (2016),rayyan-472535680,D2,M1,other,"B-spline approximation model where each EnPI is expressed as a sum of nonlinear functions of each impact factor, each approximated by a T-order B-spline function, for strongly nonlinear processes",proposed,,implicit,4,direct statement
+Çaǧman et al. (2022),rayyan-472536428,D1,A1,other,"New specific-saving energy performance indicators normalised to production: SES, SCAS and SLS",implemented,,implicit,6,direct statement

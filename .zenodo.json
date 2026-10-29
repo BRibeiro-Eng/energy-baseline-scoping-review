@@ -1,17 +1,39 @@
 {
   "title": "Energy baseline validity in continuous process industries — scoping review package",
   "upload_type": "dataset",
-  "description": "<p>Records, instruments, code and derived results of a scoping review of energy performance indicator (EnPI) and energy baseline (EnB) models, with detailed charting of studies in pre-registered continuous-process sectors. Includes screening and eligibility records, two independent model-assisted extractions of Corpus A and their reconciliation, the Corpus B extraction records, the September 2026 model re-reading, and the human checks executed in October 2026 under the amendment deposited on OSF. Full texts of the reviewed publications and publisher abstracts are not included. Protocol: <a href=\"https://doi.org/10.17605/OSF.IO/TDW6C\">10.17605/OSF.IO/TDW6C</a>.</p>",
+  "description": "<p>Records, instruments, code and derived results of a scoping review of energy performance indicator (EnPI) and energy baseline (EnB) models, with detailed charting of studies in a predefined list of continuous-process sectors. Includes the screening and eligibility records, two model-assisted extractions of Corpus A and their reconciliation, the Corpus B charting records, the September 2026 model verification, the checks executed in October 2026 under Amendment 3 of the registered protocol, the code behind the tables and figures of the article, and its Supplementary Tables S1–S3. Full texts of the reviewed publications and publisher abstracts are not included. Data and documentation under CC BY 4.0; code under the MIT licence. Protocol: <a href=\"https://doi.org/10.17605/OSF.IO/TDW6C\">10.17605/OSF.IO/TDW6C</a>.</p>",
   "creators": [
-    {"name": "Ribeiro, Bernardo", "affiliation": "NOVA School of Science and Technology, Universidade NOVA de Lisboa", "orcid": "0009-0000-3600-6226"},
-    {"name": "Miranda, Nuno", "affiliation": "Galp Energia, Sines Refinery"},
-    {"name": "Eusébio, Mário", "affiliation": "LAQV/REQUIMTE, NOVA School of Science and Technology, Universidade NOVA de Lisboa", "orcid": "0000-0002-9874-7123"}
+    {
+      "name": "Ribeiro, Bernardo",
+      "affiliation": "NOVA School of Science and Technology, Universidade NOVA de Lisboa",
+      "orcid": "0009-0000-3600-6226"
+    },
+    {
+      "name": "Miranda, Nuno",
+      "affiliation": "Galp Energia, Sines Refinery"
+    },
+    {
+      "name": "Eusébio, Mário",
+      "affiliation": "LAQV/REQUIMTE, NOVA School of Science and Technology, Universidade NOVA de Lisboa",
+      "orcid": "0000-0002-9874-7123"
+    }
   ],
   "license": "cc-by-4.0",
-  "keywords": ["energy baseline", "energy performance indicator", "ISO 50001", "measurement and verification", "scoping review", "continuous process industries", "emission reduction"],
+  "keywords": [
+    "energy baseline",
+    "energy performance indicator",
+    "ISO 50001",
+    "measurement and verification",
+    "scoping review",
+    "continuous process industries",
+    "emission reduction"
+  ],
   "related_identifiers": [
-    {"identifier": "10.17605/OSF.IO/TDW6C", "relation": "isSupplementTo", "scheme": "doi"},
-    {"identifier": "https://github.com/BRibeiro-Eng/energy-baseline-scoping-review", "relation": "isSupplementTo", "scheme": "url"}
+    {
+      "identifier": "10.17605/OSF.IO/TDW6C",
+      "relation": "references",
+      "scheme": "doi"
+    }
   ],
   "language": "eng",
   "version": "1.0.0"

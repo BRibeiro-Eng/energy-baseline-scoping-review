@@ -16,6 +16,7 @@ Paths are relative to the working directory of the review (`level3_extraction/`)
 | `output/*backup*, output/_stage0_stale_pre_v22_backup/, output/reopen_backup_*, output/security_quarantine_*, production/archive/, production/*/tmp/, production/claude/outputs/quarantine/` | Superseded copies and backups. |
 | `bibliometrics/_backup_2026-09-21/, bibliometrics/results/corpus_a_2026-09-17/, bibliometrics/results/union_inclusiva/, figures in PNG/SVG` | Earlier or non-registered runs; only the registered run (corpus_a_registado) is released, figures as PDF. |
 | `bibliometrics/.venv/, caches, __pycache__, .DS_Store, *.log, .claude/` | Environments, caches and local logs. |
+| `prisma/PRISMA_ScR_CHECKLIST.md` | Working copy of the checklist for the dissertation chapter, with open items; superseded by docs/prisma/PRISMA-ScR_checklist.md, filled in for the article. |
 | `../LOTE_A_setor/, ../LOTE_B_ambos/, ../LOTE_C_elegibilidade/` | Temporary working copies; contain PDFs. |
 | `production/stage_c/claude/work/*.raw.json, *.stderr.txt` | Raw model transcripts of each Corpus B run attempt (up to 100 kB each). The validated records and the per-attempt metadata (model, timing, tokens, hashes) are released. |
 | `Desktop/Screening/_archive_download_campaign/` | Full-text retrieval tooling; contains a messaging-app session file and a browser profile with cookies. Never released. |

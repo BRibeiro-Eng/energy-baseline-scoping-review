@@ -1,18 +1,18 @@
 \usetikzlibrary{arrows.meta, positioning, fit, calc, shapes.geometric,
                 backgrounds, patterns, decorations.pathreplacing}
-\definecolor{corFG}{HTML}{C23B30}   % fuel gas / producao
-\definecolor{corV24}{HTML}{2F6DB5}  % vapor 24 bar
-\definecolor{corV10}{HTML}{16808A}  % vapor 10 bar
-\definecolor{corV3}{HTML}{6BBF73}   % vapor 3 bar
-\definecolor{corEE}{HTML}{E0A526}   % eletricidade
+\definecolor{corFG}{HTML}{C23B30}   % fuel gas / production
+\definecolor{corV24}{HTML}{2F6DB5}  % steam 24 bar
+\definecolor{corV10}{HTML}{16808A}  % steam 10 bar
+\definecolor{corV3}{HTML}{6BBF73}   % steam 3 bar
+\definecolor{corEE}{HTML}{E0A526}   % electricity
 \definecolor{corTinta}{HTML}{1A1A1A}
 \definecolor{corCinza}{HTML}{6E6E6E}
 \definecolor{corCinzaC}{HTML}{C8C8C8}
 \definecolor{corFundo}{HTML}{F4F4F4}
 \definecolor{corDestaque}{HTML}{7E75C2}
 \definecolor{corDestaqueC}{HTML}{C8C2EA}
-\definecolor{corVerde}{HTML}{F4B77A}  % 2026-09-27: laranja pastel (nome mantido)
-\definecolor{corAreia}{HTML}{C77A2E}  % 2026-09-27: laranja queimado (nome mantido)
+\definecolor{corVerde}{HTML}{F4B77A}  % pastel orange (name kept)
+\definecolor{corAreia}{HTML}{C77A2E}  % burnt orange (name kept)
 \definecolor{corAusente}{HTML}{CFCFCF}
 \tikzset{
   ntcaixa/.style={draw=corCinza, line width=.5pt, rounded corners=1.2pt,
@@ -30,14 +30,14 @@
   ntmini/.style={font=\tiny, text=corCinza, align=center, inner sep=1pt},
   ntcap/.style={font=\scriptsize\itshape, text=corCinza},
 }
-%% Article additions (2026-10-12): grid and axis tones from _gerador/figuras.py.
+%% Grid and axis tones.
 \definecolor{corGrelha}{HTML}{E6E6E6}
 \definecolor{corEixo}{HTML}{444444}
 \pgfplotsset{ntaxis/.style={scale only axis, axis line style={corEixo}, tick style={corEixo},
   tick label style={font=\scriptsize,text=corTinta}, label style={font=\scriptsize,text=corTinta},
   axis x line*=bottom, axis y line*=left, xmajorgrids, grid style={corGrelha,line width=.4pt},
   y dir=reverse, ytick style={draw=none}, enlarge y limits={abs=0.6}}}
-%% Alternating row shading, as in the dissertation (0-Config/5_packages.tex): \ntzebra[first striped row].
+%% Alternating row shading: \ntzebra[first striped row].
 \definecolor{corLinha}{gray}{0.955}
 \newcommand{\ntzebra}[1][2]{\setlength{\extrarowheight}{2pt}\rowcolors{#1}{white}{corLinha}}
 \renewcommand\tabularxcolumn[1]{p{#1}}% top-align all columns, as p{} columns already are
