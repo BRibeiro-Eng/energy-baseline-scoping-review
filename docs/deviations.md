@@ -1,4 +1,4 @@
-# Deviations from the registered protocol (D1–D16)
+# Deviations from the registered protocol (D1–D17)
 
 Same content as Table A2 of the article, with the files that document each deviation. "Planned" is what the registration or an amendment fixed; "Executed" is what was done.
 
@@ -20,6 +20,7 @@ Same content as Table A2 of the article, with the files that document each devia
 | D14 | Yield analysis by search string | Not performed; the origin field was empty in the analytical file | `code/late-verification/d14_yield.py` (the check that found the field empty) |
 | D15 | Rule for deciding that two extractions agree (not specified) | Comparison on the normalised form; rule revised on 21 September 2026, raising agreed sector values from 145 to 201 and country from 144 to 178 | `data/04-extraction-corpus-a/reconciliation/cell_provenance.csv`; `code/bibliometrics/` |
 | D16 | Re-adjudicated membership changes applied to the corpora | One report removed from Corpus A (no agreed values); two reports that would enter Corpus B not charted, synthesis kept over the 39 charted | `data/03-eligibility/corpora.csv` (column `late_verification_change`) |
+| D17 | No language model to make or pre-fill a decision in the checks of the amendment of 16 October 2026 | In the Corpus A audit (d10) and the reading of the refinery reports (d7c), ChatGPT (gpt-6.1-sol, high reasoning) summarised the reports, located passages and drafted the recorded evidence and justifications, also after the reference values were revealed; decisions taken and committed by the reviewer | `data/06-late-verification/responses/d10.jsonl`, `d7c.jsonl`; `data/06-late-verification/d7c_adoption.json` |
 
 ## Records decided by the assistant on the reviewer's instruction
 

@@ -132,7 +132,7 @@ Answer vocabularies by module:
 | d10 | audit of agreed Corpus A values | per field: `v_<field>` re-extracted value, `p_<field>` page/evidence, `c_<field>` comparison at reveal: `same`, `extraction_error`, `reviewer_error`; `n_<field>` note |
 | d7c | refinery and petrochemical reports | `c5` boundary correspondence (`exact`, `allocated (by rule or estimate)`, `mismatch acknowledged`, `not reported`), `c6` re-estimation regime (`declared and executed`, `declared, not executed`, `fixed or not stated`), `c7` validity domain (`numerical bounds`, `qualitative`, `not stated`), `oos` out-of-sample result (`reported`, `not reported`, `not applicable`), `tb` test on observations from a period after the fit (`yes`, `no`, `not applicable`); each with `_page` and `_ev` (evidence); at final `_final`, `_why` and `diffs` |
 
-Free-text notes (`reason`, `note`, `why`, `_ev`) are in Portuguese or English as typed; they are not translated, because they are the record.
+Free-text notes (`reason`, `note`, `why`, `_ev`) are in Portuguese or English as typed; they are not translated, because they are the record. In d10 and d7c the free text was drafted by a language model and confirmed by the reviewer (deviation D17).
 
 **`resultados.json`** — results computed from the logs by `code/late-verification/relatorio.py`: counts, Clopper–Pearson intervals, flips, `membership_changes`. **`RESULTS.md`** is the English rendering; `RESULTADOS.md` the Portuguese one written by the script.
 

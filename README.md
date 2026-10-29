@@ -21,10 +21,11 @@ The protocol was registered on the Open Science Framework on 24 February 2026 (D
 | §3.4, D15 | Agreement rule between the two model extractions; which cells enter the analysis | `data/04-extraction-corpus-a/reconciliation/cell_provenance.csv`; extractions in `data/04-extraction-corpus-a/{claude,chatgpt}/validated/` |
 | §4.3–4.7 | Corpus B: 46 applications, 140 models, 163 measurement entries, 130 mechanism and 88 adaptation occurrences | `data/05-extraction-corpus-b/records/`; aggregated in `results/corpus-b/tabelas_cap3_2026-09-18.json` by `code/corpus-b-tables/tabelas_cap3.py` |
 | §3.4 (D7) | Model re-reading of 368 quoted cells: 234 confirmed, 111 corrected, 18 removed, 5 retained | `data/05-extraction-corpus-b/model-reread-2026-09/verifier/decisoes_2026-09-17.json` |
-| §3.5, §4.8, Tables 7–8 | Human checks added after the first analysis (D13, D11, D7-A/B/C, D10) | `data/06-late-verification/` (`resultados.json`, `RESULTS.md`, decision logs in `responses/`) |
-| §4.4, §4.7 | Corrections applied after the census of absences (e.g. 16 out-of-sample results, data availability 4 + 4) | `data/06-late-verification/responses/d7a.jsonl` (decision `c_missed`) |
+| §3.5, §4.8, Tables 7–8 | Checks added after the first analysis (D13, D11, D7-A/B/C, D10) | `data/06-late-verification/` (`resultados.json`, `RESULTS.md`, decision logs in `responses/`) |
+| §4.4, §4.7 | Corrections applied after the census of absences (e.g. out-of-sample results, data availability 4 + 4) | `data/06-late-verification/responses/d7a.jsonl` (decision `c_missed`) |
 | Figures | TikZ sources of the manuscript figures | `results/manuscript-figures/` |
-| Table A2 | Deviations D1–D16 | `docs/deviations.md` |
+| §4.7–4.8, Fig. 5, Table A4 | Values adopted from the reading of the 13 refinery reports | `data/06-late-verification/d7c_adoption.json` |
+| Table A2 | Deviations D1–D17 | `docs/deviations.md` |
 
 The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The article applies to them the corrections recorded in `data/06-late-verification/`; `docs/deviations.md` and `RESULTS.md` say which numbers changed.
 
@@ -70,7 +71,7 @@ Where a document was translated, the English file carries a header naming the or
 
 ## Use of language models
 
-Pre-extraction, extraction and the September re-reading were done with Claude Code (Anthropic) and Codex CLI (OpenAI), as described in §3.4 of the article. Model identifiers, application versions and dates are in `provenance/run_metadata.json` and in each record. No model made or pre-filled a decision in `data/06-late-verification/`.
+Pre-extraction, extraction and the September re-reading were done with Claude Code (Anthropic) and Codex CLI (OpenAI), as described in §3.4 of the article. Model identifiers, application versions and dates are in `provenance/run_metadata.json` and in each record. In the October 2026 checks, no model made or pre-filled a decision in modules d13, d11, d11x, d7a and d7b. In d10 (Corpus A audit) and d7c (refinery reports), the reviewer used ChatGPT (model reported as gpt-6.1-sol, high reasoning) to summarise the reports, locate passages and draft the recorded evidence and justifications, also after the reference values were revealed; the decisions were his (deviation D17, `docs/deviations.md`).
 
 ## Licences
 

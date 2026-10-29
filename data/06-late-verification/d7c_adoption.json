@@ -1,0 +1,97 @@
+{
+ "description": "Which values of the d7c reading (13 refinery and petrochemical reports, model-assisted, deviation D17) were adopted in the article (Figure 5, Table A4, Section 4.4). Decided by the reviewer (B. Ribeiro) on 2026-10-29: adopt the final values the assistant agreed with; keep the previously coded boundary values. Recorded by the assistant (Claude) on that instruction.",
+ "comparison": "final value vs value coded before the full-text census (tasks/_ref/d7c.json)",
+ "n_reports": 13,
+ "n_values": 65,
+ "n_final_differs": 8,
+ "adopted": [
+  {
+   "key": "rayyan-472536551",
+   "report": "Hashim et al. (2019)",
+   "field": "c6 re-estimation regime",
+   "coded": "fixed or not stated",
+   "final": "declared, not executed",
+   "article": "Table A4 and Figure 5: declared (event); Section 4.4: +1 model and +1 article with a declared regime (event-triggered 16 -> 17; undeterminable 28 -> 27)",
+   "reason": "the record originally coded an event-triggered rule (reallocation of PDCA weights as the programme progresses); the September re-reading had set it to not stated; the rule is stated on p. 7"
+  },
+  {
+   "key": "rayyan-472536532",
+   "report": "Beisheim et al. (2019)",
+   "field": "c7 validity domain",
+   "coded": "qualitative",
+   "final": "numerical bounds",
+   "article": "Table A4 and Figure 5: numerical (code B); Section 4.4: models M2 and M3 move from qualitative to numerical bounds (qualitative 8 -> 6, numerical 11 -> 13, articles with numerical bounds 3 -> 4)",
+   "reason": "p. 30 gives the minimum and maximum percentile centres used in identification as the bounds within which the model is applicable"
+  },
+  {
+   "key": "rayyan-472535351",
+   "report": "Almanza and Leon-De-Los-Santos (2025)",
+   "field": "oos out-of-sample result",
+   "coded": "reported",
+   "final": "not reported",
+   "article": "Table A4 and Figure 5: n.r.; Section 4.4 and abstract: out-of-sample results 16 models / 6 articles -> 15 / 5",
+   "reason": "the comparison of the simulation with actual operation does not report that the comparison data are independent of the calibration of the simulation"
+  }
+ ],
+ "not_adopted": [
+  {
+   "key": "rayyan-472536695",
+   "report": "Velázquez et al. (2013)",
+   "field": "c5 boundary correspondence",
+   "coded": "not reported",
+   "final": "exact",
+   "reason": "correspondence inferred from the description of the unit ('por inferência', 'com suporte inferencial'), not stated; the codebook requires a stated correspondence for 'exact'"
+  },
+  {
+   "key": "rayyan-472535680",
+   "report": "Yao et al. (2016)",
+   "field": "c5 boundary correspondence",
+   "coded": "not reported",
+   "final": "exact",
+   "reason": "correspondence inferred from the description of the unit ('por inferência', 'com suporte inferencial'), not stated; the codebook requires a stated correspondence for 'exact'"
+  },
+  {
+   "key": "rayyan-472535365",
+   "report": "Moghadasi et al. (2025)",
+   "field": "c5 boundary correspondence",
+   "coded": "not reported",
+   "final": "exact",
+   "reason": "correspondence inferred from the description of the unit ('por inferência', 'com suporte inferencial'), not stated; the codebook requires a stated correspondence for 'exact'"
+  },
+  {
+   "key": "rayyan-472535550",
+   "report": "Hamedi and Mokhtar (2019)",
+   "field": "c5 boundary correspondence",
+   "coded": "not reported",
+   "final": "exact",
+   "reason": "correspondence inferred from the description of the unit ('por inferência', 'com suporte inferencial'), not stated; the codebook requires a stated correspondence for 'exact'"
+  },
+  {
+   "key": "rayyan-472535582",
+   "report": "Morales et al. (2018)",
+   "field": "c5 boundary correspondence",
+   "coded": "not reported",
+   "final": "exact",
+   "reason": "correspondence inferred from the description of the unit ('por inferência', 'com suporte inferencial'), not stated; the codebook requires a stated correspondence for 'exact'"
+  }
+ ],
+ "agreements_overridden_by_census": [
+  {
+   "key": "rayyan-472536695",
+   "report": "Velázquez et al. (2013)",
+   "field": "oos",
+   "d7c_final": "not reported (same as the value coded before the census)",
+   "kept": "reported",
+   "reason": "the full-text census (d7a, decision c_missed, by the reviewer without model assistance) had corrected this value"
+  }
+ ],
+ "reveal_changes": [
+  {
+   "key": "rayyan-472535550",
+   "field": "c6",
+   "blind": "declared, not executed",
+   "final": "fixed or not stated"
+  }
+ ],
+ "time_blocks": "no test on later time blocks in any of the 13 reports ('no' in 10, 'not applicable' in 3)"
+}

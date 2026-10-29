@@ -1,6 +1,6 @@
 # Resultados — Emenda 3 (verificação tardia)
 
-Gerado 2026-10-29T12:25 a partir de `tarefas/` e `respostas/`. Cada instrumento é relatado em separado.
+Gerado 2026-10-29T19:07 a partir de `tarefas/` e `respostas/`. Cada instrumento é relatado em separado.
 
 ## D13 · Exclusões no rastreio
 - Frame: 326 excluídos; resumo disponível em 200.
@@ -97,7 +97,7 @@ Gerado 2026-10-29T12:25 a partir de `tarefas/` e `respostas/`. Cada instrumento 
 - Tempo: 2.44 h
 
 ## D7·C · Mapa de refinação/petroquímica
-- Concluídos: 0/13.
-- Diferenças leitura vs codificado, por campo: nenhuma
-- Alterações após revelação: nenhuma
-- Tempo: 0.0 h
+- Concluídos: 13/13.
+- Diferenças leitura vs codificado, por campo: {'c5': 5, 'c7': 1, 'c6': 2, 'oos': 1}
+- Alterações após revelação: {'c6': 1}
+- Tempo: 1.29 h
