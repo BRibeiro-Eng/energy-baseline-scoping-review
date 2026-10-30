@@ -2,6 +2,7 @@
 
 1. data/05-extraction-corpus-b/records/: the 39 charted records, as extracted.
 2. The decisions of the September 2026 model verification (code/verification_v1/overlay.py).
+   Links from adaptations to mechanisms that this verification removed are cleared (logged in Table S2f).
 3. The corrections of the later checks that the article applies:
    (d) the 12 values found incorrect in the random sample of 80 (data/06-late-verification, module d7b);
    (c) the omissions found by the full-text search that change a charted field (module d7a): three
@@ -28,6 +29,15 @@ def setv(obj_parent, key, new):
 def final_state(root):
     eff, stats = load(root)
     R = copy.deepcopy(eff); log = []
+    # links from adaptations to mechanisms that the September verification removed: cleared
+    for k, r in R.items():
+        mids = {m["mechanism_id"] for m in r["mechanisms"]}
+        for x in r["adaptations"]:
+            t = x.get("addresses_mechanism")
+            if t and t not in mids:
+                x["addresses_mechanism"] = None
+                log.append(dict(check="September 2026 verification (mechanism removed)", item=t, key=k,
+                                path=f"adaptations {x['adaptation_id']}", field="addresses_mechanism", before=t, after=""))
     L = f"{root}/data/06-late-verification"
     # (d) random sample of 80 values: the 12 incorrect values, corrected to the reviewer's value
     tasks = {t["id"]: t for t in json.load(open(f"{L}/tasks/d7b.json", encoding="utf-8"))["tasks"]}

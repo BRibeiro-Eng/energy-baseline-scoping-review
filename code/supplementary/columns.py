@@ -90,10 +90,10 @@ COLUMNS = [
     ("S2e", "Normative framing", "Whether the adaptation is justified by ISO 50001/50006", "ISO 50001/50006 explicit; implicit (corresponds to a concept of the standards without citing them); absent"),
     ("S2e", "Page / Support", PAGE + ". Support: " + SUPPORT, ""),
     # ---------------------------------------------------------------- S2f
-    ("S2f", "(rows)", "Every value changed by the checks after the first analysis (Section 3.5), as applied in the article", ""),
-    ("S2f", "Check", "Check that changed the value", "(c) full-text search for omissions; (d) random sample of 80 values; (f) reading of the 13 refinery and petrochemical reports"),
+    ("S2f", "(rows)", "Every value changed by the checks after the first analysis (Section 3.5), as applied in the article, and the adaptation links cleared because the September verification removed the mechanism", ""),
+    ("S2f", "Check", "Check that changed the value", "(c) full-text search for omissions; (d) random sample of 80 values; (f) reading of the 13 refinery and petrochemical reports; September 2026 verification (mechanism removed): a link from an adaptation to a mechanism that the September verification removed, cleared"),
     ("S2f", "Item", "Item of the check",
-     "(d): sampled item, MEC mechanism, ADP adaptation, MOD model field, with its number in the sampling frame; (c): term family, T temporal or out-of-sample validation, C code and data availability; (f): field, c6 re-estimation regime, c7 validity domain, oos out-of-sample result"),
+     "(d): sampled item, MEC mechanism, ADP adaptation, MOD model field, with its number in the sampling frame; (c): term family, T temporal or out-of-sample validation, C code and data availability; (f): field, c6 re-estimation regime, c7 validity domain, oos out-of-sample result; September verification: the removed mechanism"),
     ("S2f", "Location / Field", "Where in the record the value is (path in the record, or application/model and field), and which field changed", ""),
     ("S2f", "Before / After", "Value before and after the correction", ""),
     # ---------------------------------------------------------------- S3

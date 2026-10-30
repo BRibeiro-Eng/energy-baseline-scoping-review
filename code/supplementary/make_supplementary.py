@@ -193,13 +193,17 @@ def check(R, s3):
         "data yes": c13("data_available", "yes"), "data partly": c13("data_available", "partial"),
         "code yes": c13("code_available", "yes"), "code partly": c13("code_available", "partial"),
         "Corpus A publications": len(s3), "Corpus A in Corpus B": sum(1 for r in s3 if r[7] == "yes"),
+        "adaptations linked to a mechanism": sum(1 for r in R.values() for x in r["adaptations"] if x.get("addresses_mechanism")),
+        "links to a missing mechanism": sum(1 for r in R.values() for x in r["adaptations"]
+                                            if x.get("addresses_mechanism") and x["addresses_mechanism"] not in {m["mechanism_id"] for m in r["mechanisms"]}),
     }
     want = {"reports": 39, "models": 140, "measurement entries": 163, "exact boundary entries": 35, "articles with exact boundary": 11,
             "load the only normalising variable": 78, "declared re-estimation regime": 24, "event-triggered regime": 17, "regime not stated": 27,
             "validity domain, numerical": 13, "validity domain, qualitative": 6, "out-of-sample models": 15, "out-of-sample articles": 5,
             "in-sample fit reported": 49, "mechanism occurrences": 130, "general": 51, "applied": 52, "demonstrated": 27, "adaptations": 88,
             "equations yes": 24, "equations partly": 9, "data yes": 4, "data partly": 4, "code yes": 0, "code partly": 1,
-            "Corpus A publications": 331, "Corpus A in Corpus B": 40}
+            "Corpus A publications": 331, "Corpus A in Corpus B": 40,
+            "adaptations linked to a mechanism": 41, "links to a missing mechanism": 0}
     bad = {k: (got[k], want[k]) for k in want if got[k] != want[k]}
     if bad:
         sys.exit(f"counts differ from the article: {bad}")

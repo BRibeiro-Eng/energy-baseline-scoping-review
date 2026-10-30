@@ -1,6 +1,6 @@
 # Supplementary Tables S1–S3
 
-The supplementary tables of the article, as CSV files and as one workbook (`Supplementary_Tables_S1-S3.xlsx`, one sheet per table). They are generated from the records of this package by `code/supplementary/make_supplementary.py`, which first checks 27 counts reported in the article and stops if any differs.
+The supplementary tables of the article, as CSV files and as one workbook (`Supplementary_Tables_S1-S3.xlsx`, one sheet per table). They are generated from the records of this package by `code/supplementary/make_supplementary.py`, which first checks 29 counts reported in the article and stops if any differs.
 
 | File | Table |
 |---|---|

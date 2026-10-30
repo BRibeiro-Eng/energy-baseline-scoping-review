@@ -57,9 +57,9 @@ S2e,State,How far the publication took the adaptation,proposed (only); implement
 S2e,Addresses mechanism,"Mechanism of the same report (K1, K2, ... in S2d) that the publication explicitly links to the adaptation",Empty when not linked
 S2e,Normative framing,Whether the adaptation is justified by ISO 50001/50006,ISO 50001/50006 explicit; implicit (corresponds to a concept of the standards without citing them); absent
 S2e,Page / Support,Physical page of the PDF on which the supporting quotation was found (quotations are in the records). Support: direct statement: the quotation states the value; requires inference: the value follows from the quoted text but is not stated; absence checked: the full text was searched and the item was not found,
-S2f,(rows),"Every value changed by the checks after the first analysis (Section 3.5), as applied in the article",
-S2f,Check,Check that changed the value,(c) full-text search for omissions; (d) random sample of 80 values; (f) reading of the 13 refinery and petrochemical reports
-S2f,Item,Item of the check,"(d): sampled item, MEC mechanism, ADP adaptation, MOD model field, with its number in the sampling frame; (c): term family, T temporal or out-of-sample validation, C code and data availability; (f): field, c6 re-estimation regime, c7 validity domain, oos out-of-sample result"
+S2f,(rows),"Every value changed by the checks after the first analysis (Section 3.5), as applied in the article, and the adaptation links cleared because the September verification removed the mechanism",
+S2f,Check,Check that changed the value,"(c) full-text search for omissions; (d) random sample of 80 values; (f) reading of the 13 refinery and petrochemical reports; September 2026 verification (mechanism removed): a link from an adaptation to a mechanism that the September verification removed, cleared"
+S2f,Item,Item of the check,"(d): sampled item, MEC mechanism, ADP adaptation, MOD model field, with its number in the sampling frame; (c): term family, T temporal or out-of-sample validation, C code and data availability; (f): field, c6 re-estimation regime, c7 validity domain, oos out-of-sample result; September verification: the removed mechanism"
 S2f,Location / Field,"Where in the record the value is (path in the record, or application/model and field), and which field changed",
 S2f,Before / After,Value before and after the correction,
 S3,(rows),The 331 Corpus A publications,

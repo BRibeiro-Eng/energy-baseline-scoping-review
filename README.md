@@ -28,12 +28,12 @@ The protocol was registered on the Open Science Framework on 24 February 2026 (D
 | Table A2 | Deviations D1–D17 | `docs/deviations.md` |
 | Tables S1–S3 | Supplementary tables of the article (search strings; Corpus B records; Corpus A agreed values) | `results/supplementary/` (CSV and workbook) |
 
-The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The state analysed in the article is rebuilt by `code/supplementary/make_supplementary.py`: it applies the September decisions and the corrections of the later checks to the records, checks 27 counts of the article, and writes Tables S1–S3 (`results/supplementary/`).
+The counts in `results/corpus-b/tabelas_cap3_2026-09-18.json` are those of the dissertation (before the late verification). The state analysed in the article is rebuilt by `code/supplementary/make_supplementary.py`: it applies the September decisions and the corrections of the later checks to the records, checks 29 counts of the article, and writes Tables S1–S3 (`results/supplementary/`).
 
 ## Layout
 
 ```
-README.md  REPRODUCE.md  CITATION.cff  LICENSE  LICENSE-DATA
+README.md  REPRODUCE.md  CHANGELOG.md  CITATION.cff  LICENSE  LICENSE-DATA
 docs/          registration, protocol, amendments (as filed), corpus decisions, PRISMA, deviations, data dictionary
 data/
   01-search/                 search strings and counts

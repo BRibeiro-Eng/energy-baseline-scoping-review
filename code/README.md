@@ -9,7 +9,7 @@ The code is released as it was executed. Comments, docstrings and interface text
 | `bibliometrics/` | The Corpus A analysis package (`biblio/`), entry point `run_analysis.py`, tests, configuration. |
 | `corpus-b-tables/` | Aggregation of the Corpus B records into the tables and the evidence map of the article. |
 | `verification_v1/` | `overlay.py`: applies the decisions of the September 2026 model verification to the Corpus B records, in memory (used by `corpus-b-tables/` and `supplementary/`). |
-| `supplementary/` | Builds the analysed state of the Corpus B records and Supplementary Tables S1–S3, after checking 27 counts of the article. |
+| `supplementary/` | Builds the analysed state of the Corpus B records and Supplementary Tables S1–S3, after checking 29 counts of the article. |
 | `late-verification/` | October 2026: task builder with the amendment interlock (`build_tasks.py`), local review bench (`bancada.py`), report (`relatorio.py`), escalation builder (`escalada_d11.py`), the D14 check (`d14_yield.py`) and `reproduce.sh`. |
 
 Licence: MIT. See `REPRODUCE.md` for what can be rerun from the package.
